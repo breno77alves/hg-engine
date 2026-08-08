@@ -1,0 +1,211 @@
+# HeartGold Generations V2.1 test plan
+
+This plan records repeatable acceptance tests for the selective V2.1 update. A test
+is not marked passed from source inspection alone. Emulator, save, and hardware
+results must record the build SHA, ROM hash, environment, fixture, and evidence.
+
+## Result vocabulary
+
+- **PASS** — observed result matches the expected result.
+- **FAIL** — reproducible mismatch; link the defect and reproduction evidence.
+- **BLOCKED** — required fixture or hardware is unavailable.
+- **NOT RUN** — test has not been executed.
+- **N/A** — feature is deliberately absent; include the audit decision.
+
+## Build gates
+
+Run after every source subsystem:
+
+```sh
+export DEVKITARM=/opt/gcc-arm-none-eabi-10.3-2021.10
+make clean_code
+make -j"$(nproc)"
+```
+
+Run a full clean build after graphics, generated data, build rules, hooks, or linker
+changes:
+
+```sh
+export DEVKITARM=/opt/gcc-arm-none-eabi-10.3-2021.10
+make clean
+make -j"$(nproc)"
+```
+
+For every release-candidate build, record size, SHA-256, MD5, warnings, and whether
+the warning set changed from `docs/BASELINE_V2.0.md`.
+
+## Environment matrix
+
+| Environment | Required mode | Status |
+| --- | --- | --- |
+| melonDS 1.1 | JIT enabled | NOT RUN |
+| melonDS 1.1 | interpreter/JIT disabled | Baseline title boot PASS |
+| DeSmuME 0.9.13 x64 | default CPU mode | Baseline title boot PASS |
+| TWiLight Menu++ on DS/3DS | current available setup | BLOCKED pending hardware |
+| R4/flashcart | available supported cart | BLOCKED pending hardware |
+
+No 60 FPS patch may be enabled during compatibility testing.
+
+## Save fixtures
+
+| Fixture | Progress | Source | Required checks |
+| --- | --- | --- | --- |
+| Save A | New game / Elm lab | V2.0 | party, bag, event flags, Candy/Heal reward |
+| Save B | 8 badges | V2.0 | party/PC, bag, Pokédex, badges, Johto completion flags |
+| Save C | Champion complete | V2.0 | Hall of Fame, Kanto unlocks, cap state, rematches |
+| Save D | 16 badges / Red | V2.0 | full progression, cap, Mega items, rematches |
+
+Each fixture must first load in the unmodified V2.0 baseline and then in the exact
+V2.1 release candidate. Compare party data, PC boxes, items, Pokédex, badges, event
+flags, variables, Mega items, and progression. Keep original fixture copies.
+
+## Boot and campaign smoke tests
+
+For every required emulator:
+
+1. boot through title and load/new-game transition;
+2. save and reload;
+3. enter and exit a wild battle;
+4. complete a trainer single battle;
+5. complete a trainer double battle;
+6. smoke-test a Gym Leader, Elite Four, Champion, rematch, and Red using fixtures.
+
+Expected: no crash, softlock, graphical corruption, Bad Egg, save corruption, or
+unexpected trainer/encounter/progression change.
+
+## D-pad and Mega regression
+
+Primary environment: melonDS with JIT enabled.
+
+1. Start from a deterministic save with a non-Mega Pokémon and a Mega-capable
+   Pokémon.
+2. Complete at least 10 consecutive battles, mixing wild and trainer battles.
+3. In each battle, open Fight, move across all four attacks, cancel, and repeat.
+4. Switch party Pokémon at least once and repeat navigation.
+5. Toggle fast-forward between battles and repeat with it off.
+6. With Mega unavailable, verify four moves and Cancel by D-pad and touch.
+7. With Mega available, verify Mega selection by D-pad and touch.
+8. Mega Evolve, then verify move navigation and Cancel for the remainder of that
+   battle and in the next battle.
+9. Repeat with multiple Mega species.
+
+Expected: input works identically in battle 1 and battle 10+, the Mega control never
+aliases a move or Cancel, and no runtime write to `0x02269F4C` remains in source or
+generated hooks. Repeat a smaller smoke test in melonDS interpreter and DeSmuME.
+
+## Hall of Fame
+
+Using a Champion-ready fixture, enter the Hall of Fame and proceed through the full
+registration and save sequence in melonDS and DeSmuME.
+
+Expected: all portraits render, the sequence completes, the game saves, and the
+postgame loads without changing emulator settings.
+
+## Move and ability matrix
+
+| Area | Cases |
+| --- | --- |
+| Drain | Absorb, Mega Drain, Giga Drain, Drain Punch, Horn Leech, Draining Kiss if present; 1 damage, resisted, neutral, super-effective, zero/negative guard, Liquid Ooze, Big Root, Heal Block |
+| Power Trip | no boosts; one and multiple positive stages across stats; negative stages ignored; parity with Stored Power |
+| Infestation/bind | Infestation and the other trapping moves; initial hit, residual damage/duration, messages, faint, switching and immunity cases |
+| Dragon Tail/Circle Throw | normal forced switch, Substitute, fainted target, no reserve, switch-in abilities/hazards, doubles and already-pending replacement |
+| No Guard | attacker ability, defender ability, 50% accuracy, OHKO restrictions, positive/negative accuracy and evasion, Fury Cutter, Fly, Dig, Dive and applicable special-hit moves |
+| Body Press | defense-derived damage across boosts/drops, burn and relevant abilities/items |
+| Faint handling | spread moves, Explosion/self-KO, recoil, Destiny Bond if applicable, multi-hit, Pursuit, forced switch, replacement and EXP |
+
+Where upstream supplies a battle-test fixture, reproduce its setup on the V2.1
+engine or port only the test harness dependencies needed to make the result
+repeatable. Manual tests require screenshots/video and exact party/move data.
+
+## Ariana and simultaneous-faint regression
+
+Use the original Ariana encounter if a save fixture can reach it, plus a minimal
+controlled doubles setup.
+
+Required cases:
+
+- both opposing Pokémon faint from one spread move;
+- two Pokémon owned by the same trainer faint simultaneously;
+- both allies faint simultaneously;
+- attacker also faints from recoil, Explosion, or another self-KO path;
+- one or two replacement Pokémon are available, and no replacement is available;
+- EXP Share and multiple participants are present.
+
+Expected: exactly one appropriate faint message per battler, correct EXP once per
+eligible party member, valid replacement slots, and no crash, softlock, Bad Egg, or
+duplicate/missing EXP.
+
+## Level-cap progression
+
+Record the cap variable and displayed/observed cap before and after every transition:
+
+- new game and each Johto badge;
+- Elite Four entry and Champion completion;
+- Kanto progression and each relevant badge;
+- Elite Four rematch paths, including the reported regression to 65;
+- 16 badges and Red;
+- later rematches and save/reload at each critical state.
+
+At the cap, test battle EXP, Capture EXP, Rare Candy, and Infinite Candy. A candy may
+trigger an eligible evolution when `ALLOW_LEVEL_CAP_EVOLVE` is enabled, but no path
+may raise the Pokémon above the active hard cap. `UNCAP_CANDIES_FROM_LEVEL_CAP` must
+remain disabled.
+
+## Elm-lab reward determinism
+
+Run both flows from equivalent new-game states:
+
+- speak to the NPC without saving/reloading first;
+- save immediately before the NPC, reload, then speak.
+
+Repeat after checking relevant item ownership and event flags. Expected: the same
+intended Infinite Candy and Pocket Heal rewards in both flows; Potions or duplicated
+rewards must not depend on save order.
+
+## Frigibax family
+
+Inspect and test wild, trainer-owned, and script-gift instances when applicable.
+Verify valid normal/hidden ability IDs for Frigibax, Arctibax, and Baxcalibur, then
+evolve through both stages and save/reload. Expected: no invalid ability, unexpected
+slot remap, or loss/change outside the intended evolution mapping.
+
+## Mega Stone audit tests
+
+For every stone listed in `docs/MEGA_STONE_AUDIT.md`, verify the intended acquisition
+method, chance/conditions, bag result, compatible species, battle activation, D-pad,
+touch, summary display, save/reload, and progression timing. Do not add a stone that
+the Generations design intentionally omits.
+
+## QoL matrix
+
+| System | Required cases |
+| --- | --- |
+| EV/IV Viewer | normal stats, EVs, IVs via L/R/Select; nature indicators; forms; Mega-capable species; early and modern species |
+| Reusable Repels | normal/Super/Max inventory priority, none available, cave, route, building transition, bike, Surf, save/load |
+| Critical Capture | activation and failure animation, low/high caught count where configurable, no capture-rate data change |
+| Capture EXP | single/multiple participants, EXP Share, full party, level-up, evolution, capture failure, hard-cap boundary |
+| Vitamins | all six vitamins to 252 per stat, 510 total, already-capped stat, EV-reducing berries, viewer consistency |
+| Friendship | Eevee day/night, Golbat, Togetic, Budew, Riolu and other available evolutions at threshold 160; audit event dependencies |
+
+## Compatibility and antipiracy
+
+Compare Generations and current upstream antipiracy, overlay-loading, and memory
+patches before enabling anything. Emulator passes do not substitute for hardware.
+On available DS/3DS and flashcart setups test boot, save/load, repeated battles,
+overlays used by summary/bag/PC, Hall of Fame, and extended play. Record exact device,
+firmware, loader, and ROM hash.
+
+## Release-candidate checks
+
+- full clean build succeeds from documented prerequisites;
+- warnings are classified and no unexplained new warning exists;
+- global searches for `TODO`, `FIXME`, `UNIMPLEMENTED`, `HACK`, and `0x02269F4C`
+  are reviewed and recorded rather than blindly removed;
+- no runtime write to `0x02269F4C` remains;
+- excluded features remain disabled;
+- V2.0 save fixtures pass;
+- trainer, encounter, progression, and difficulty diffs are either absent or tied to
+  a documented Generations-specific fix;
+- source revision, upstream audit revision, ROM size, SHA-256, MD5, emulator results,
+  hardware results, known issues, and distribution-patch hash are recorded in the
+  release changelog.
