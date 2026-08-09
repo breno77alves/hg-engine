@@ -872,7 +872,9 @@ void BattleEndRevertFormChange(struct BattleSystem *bw)
     struct PartyPokemon *pp;
     u16 monsno;
     u16 form;
+#ifdef RESTORE_ITEMS_AT_BATTLE_END
     u16 newItems[6] = {0, 0, 0, 0, 0, 0};
+#endif // RESTORE_ITEMS_AT_BATTLE_END
 
     newBS.SideMega[0] = 0;
     newBS.SideMega[1] = 0;

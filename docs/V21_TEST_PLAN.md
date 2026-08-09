@@ -258,6 +258,13 @@ On available DS/3DS and flashcart setups test boot, save/load, repeated battles,
 overlays used by summary/bag/PC, Hall of Fame, and extended play. Record exact device,
 firmware, loader, and ROM hash.
 
+## Excluded feature guard
+
+Automated regression status: **PASS**. Wild double battles, global and battle-only
+60 FPS, Force Set Mode, restore-items-at-battle-end, Z-Moves, Dynamax, and Terastal
+remain disabled. This guard prevents an upstream backport from silently changing
+Generations balance or enabling an incomplete battle gimmick.
+
 ## Release-candidate checks
 
 - full clean build succeeds from documented prerequisites;

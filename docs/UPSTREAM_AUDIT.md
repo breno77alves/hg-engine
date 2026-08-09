@@ -168,7 +168,7 @@ Candy may add a level above the cap.
 | Dynamax | D/E | Do not activate or import dependencies solely for it |
 | Terastal | D/E | Do not activate or import dependencies solely for it |
 | New Gen 9 balance/mechanics | D | Exclude unless they are a dependency of an explicit V2.1 feature and can be isolated |
-| Restore consumed held items after battle | D | `RESTORE_ITEMS_AT_BATTLE_END` is unexpectedly enabled in the base; disable for V2.1 unless campaign evidence proves it is intentional Generations behavior |
+| Restore consumed held items after battle | D | Disabled in V2.1; this optional Gen 9 behavior was enabled in the base but is explicitly outside the V2.1 balance scope |
 
 ## Mandatory local investigations
 

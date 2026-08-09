@@ -10,7 +10,9 @@ The original Generations rule is retained: wild basic forms carry their line's
 stone. When both personal-data item slots are equal, HeartGold's held-item routine
 guarantees the item. Different slots use the original 50%/5% odds (60%/20% with a
 Compound Eyes lead). `RESTORE_ITEMS_AT_BATTLE_END` transfers a caught Pokémon's new
-held item to the bag and clears the temporary held slot.
+held item only when the optional Gen 9 restoration feature is enabled. V2.1 keeps
+that feature disabled, so a caught Pokémon retains its stone as a normal held item;
+the player can take it into the bag through the standard party UI.
 
 The five stones without a valid wild-basic-form path are the deliberate exception:
 Mewtwonite X/Y, Latiasite, Latiosite, and Diancite are sold by the Celadon Department
