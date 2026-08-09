@@ -62,7 +62,7 @@ These local commits are the content identity that selective backporting must ret
 
 | Area | Upstream revision(s) | Class | Base state | Decision / dependency | Test gate |
 | --- | --- | --- | --- | --- | --- |
-| Hall of Fame 4bpp generation | `e45e1ab475b23e4aafda472d6a13d8248d17e5a9` | A | Old `narcs.mk` arguments present | Small, isolated build fix; accepted | Enter Hall of Fame in melonDS and DeSmuME |
+| Hall of Fame 4bpp generation | `e45e1ab475b23e4aafda472d6a13d8248d17e5a9` | A | Backported in V2.1 | Exact semantic patch applied; clean build and JIT boot PASS | Actual Hall of Fame sequence in melonDS and DeSmuME NOT RUN pending Champion save |
 | Half and 3/4 drain scripts | `245aa5e38e99b2b4668985277cf23d4d85d501d9` plus earlier drain guards | A | Patch absent | Audit full drain chain before applying the final script state | Full drain matrix including 1 damage, resisted damage, Liquid Ooze, Big Root, Heal Block |
 | Power Trip | `f4fd450447c458bad4230649e6a19a8552f65678` | A | Patch absent | Small move-data and damage-calculator change; accepted | Zero and multiple positive boosts; compare Stored Power |
 | Infestation | `ddabadb780cf1bdfba8c1d8d03b1855067c0ae83`, `42496dbd9`, `7d26f57fe` and later bind fixes | A | Initial patch absent | Port final coherent bind behavior, not only the first tag change | Residual damage, messages, four trapping moves, switch restriction |
@@ -150,3 +150,9 @@ alone:
 
 This document is intentionally live. A candidate marked Pending is not permission to
 bulk-port its directory or all of its dependencies.
+
+## Applied upstream patches
+
+| Upstream revision | V2.1 status | Verification |
+| --- | --- | --- |
+| `e45e1ab475b23e4aafda472d6a13d8248d17e5a9` | Applied: Hall of Fame encounter portraits use scanned 4bpp generation | Source contract PASS; full clean build PASS; melonDS JIT boot PASS; Hall of Fame sequence pending save fixture |
