@@ -279,12 +279,13 @@ const u16 *_0210FA3C[] = {
 /* const u16 _020FBC68[] = {ITEM_TM21, ITEM_TM27, ITEM_TM87, ITEM_TM78, ITEM_TM12, ITEM_TM41, ITEM_TM20, ITEM_TM28, ITEM_TM76, ITEM_TM55, ITEM_TM72, ITEM_TM79, 0xFFFF}; */
 
 .org 0x020FBC68
-/* Celadon Dept Store 3F -> Safari Zone Gate */
-.halfword ITEM_SHINY_STONE
-.halfword ITEM_DUSK_STONE
-.halfword ITEM_DAWN_STONE
-.halfword ITEM_PRISM_SCALE
-.halfword ITEM_KINGS_ROCK
+/* Celadon Dept Store 3F: post-League legendary Mega Stone repair.
+ * The replaced evolution items remain sold by other existing clerks. */
+.halfword ITEM_MEWTWONITE_X
+.halfword ITEM_MEWTWONITE_Y
+.halfword ITEM_LATIASITE
+.halfword ITEM_LATIOSITE
+.halfword ITEM_DIANCITE
 .halfword ITEM_LINKING_CORD
 .halfword ITEM_RAZOR_CLAW
 .halfword ITEM_RAZOR_FANG

@@ -202,6 +202,12 @@ method, chance/conditions, bag result, compatible species, battle activation, D-
 touch, summary display, save/reload, and progression timing. Do not add a stone that
 the Generations design intentionally omits.
 
+Automated acquisition audit: **PASS**. All 47 stone constants match the 47 engine
+mappings; the 42 wild-holder stones and five Celadon 3F legendary stones have source
+contracts. The generated ARM9 inventory contains item IDs 550, 551, 575, 576, and
+583, the build succeeds, and melonDS JIT boots. Purchases and all gameplay cases
+above remain **NOT RUN** pending deterministic fixtures.
+
 ## QoL matrix
 
 | System | Required cases |
