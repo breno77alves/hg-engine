@@ -279,7 +279,8 @@ Pokédex, Mega items, and progression cannot honestly be certified at runtime ye
 ## Release-candidate checks
 
 - full clean build succeeds from documented prerequisites;
-- warnings are classified and no unexplained new warning exists;
+- warnings are classified and no unexplained new warning exists (see
+  `FINAL_CODE_AUDIT.md`);
 - global searches for `TODO`, `FIXME`, `UNIMPLEMENTED`, `HACK`, and `0x02269F4C`
   are reviewed and recorded rather than blindly removed;
 - no runtime write to `0x02269F4C` remains;

@@ -39143,7 +39143,8 @@ const ITEMDATA __data[] =
 
 [ITEM_ABILITY_PATCH - NUM_UNKNOWN_SLOTS_EXPLORER_KIT] =
 {
-    .price = 250000,
+    // Preserve the V2.0 serialized value explicitly; the legacy field is only u16.
+    .price = (u16)(250000 & 0xFFFF),
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,

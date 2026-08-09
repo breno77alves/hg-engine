@@ -169,6 +169,7 @@ Candy may add a level above the cap.
 | Terastal | D/E | Do not activate or import dependencies solely for it |
 | New Gen 9 balance/mechanics | D | Exclude unless they are a dependency of an explicit V2.1 feature and can be isolated |
 | Restore consumed held items after battle | D | Disabled in V2.1; this optional Gen 9 behavior was enabled in the base but is explicitly outside the V2.1 balance scope |
+| Wide item/shop prices | D/E | `18159ea9b`, `83685c6f1` deliberately excluded: the complete subsystem changes item records and several consumers solely for an unobtainable Ability Patch; V2.1 preserves the inherited 16-bit serialized value explicitly |
 
 ## Mandatory local investigations
 
