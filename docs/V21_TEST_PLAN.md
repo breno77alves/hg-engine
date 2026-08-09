@@ -28,8 +28,13 @@ changes:
 ```sh
 export DEVKITARM=/opt/gcc-arm-none-eabi-10.3-2021.10
 make clean
-make -j"$(nproc)"
+make -j1
 ```
+
+On this Windows/MSYS2 host, parallel full asset generation intermittently returns
+error 127 while several `nitrogfx` NANR conversions run concurrently; the reported
+target is valid when retried. Serial full generation completes reliably. Incremental
+source builds may still use `-j"$(nproc)"`.
 
 For every release-candidate build, record size, SHA-256, MD5, warnings, and whether
 the warning set changed from `docs/BASELINE_V2.0.md`.
