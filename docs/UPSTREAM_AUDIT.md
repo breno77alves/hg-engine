@@ -173,7 +173,10 @@ applies:
 - melonDS JIT D-pad failure caused by runtime writes to `0x02269F4C`;
 - level cap reverting to 65 after Elite Four rematch paths (fixed in V2.1;
   playable save-fixture verification pending);
-- Elm-lab Infinite Candy / Pocket Heal reward depending on save/reload order;
+- Elm-lab Infinite Candy / Pocket Heal reward depending on save/reload order
+  (fixed in V2.1 by replacing the inherited five-Potion block with unconditional
+  Infinite Candy and Infinite Rejuv rewards; playable save-fixture verification
+  pending);
 - Frigibax family ability IDs and evolution persistence;
 - availability and functionality of every intended Mega Stone;
 - Ariana's simultaneous opponent faint crash;

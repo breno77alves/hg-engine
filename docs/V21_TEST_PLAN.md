@@ -173,6 +173,13 @@ Repeat after checking relevant item ownership and event flags. Expected: the sam
 intended Infinite Candy and Pocket Heal rewards in both flows; Potions or duplicated
 rewards must not depend on save order.
 
+Automated regression status: **PASS**. The Elm's Lab 1F script archive (`843`) now
+replaces the inherited five-Potion block with unconditional Infinite Candy and
+Infinite Rejuv rewards, rejoins before the original close-message and scene-state
+commands, and preserves both items as non-consuming Key Items. A clean ROM build and
+melonDS JIT boot smoke pass. The two playable new-save/save-reload flows remain
+**NOT RUN** pending equivalent early-game save fixtures.
+
 ## Frigibax family
 
 Inspect and test wild, trainer-owned, and script-gift instances when applicable.
