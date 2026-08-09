@@ -240,6 +240,7 @@ IncrementBattleScriptPtr = 0x02245508 | 1;
 /*read_battle_script_param = 0x022454E8 | 1;*/
 CreateNicknameTag = 0x022522E0 | 1;
 JumpToMoveEffectScript = 0x02245518 | 1;
+UpdateFriendshipFainted = 0x02248558 | 1;
 BGCallback_Waza = 0x0226748C | 1;
 
 /* Trainer data expansion */

@@ -185,7 +185,7 @@ ClearBattleMonFlags_hook:
 push {r0-r7}
 mov r0, r7
 ldr r1, [sp,#(4+8*4)] // pushed 8 registers, sp+4 originally
-bl ClearBattleMonFlags
+bl ClearBattleMonFlagsOnSwitch
 pop {r0-r7}
 
 ldr r0, =0x0224E70E | 1

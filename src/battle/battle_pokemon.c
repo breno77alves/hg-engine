@@ -1030,6 +1030,12 @@ void LONG_CALL ClearBattleMonFlags(struct BattleStruct *sp, int client)
     }
 }
 
+void LONG_CALL ClearBattleMonFlagsOnSwitch(struct BattleStruct *sp, int client)
+{
+    ClearBattleMonFlags(sp, client);
+    sp->faintProcessed[client] = FALSE;
+}
+
 /**
  *  @brief moves that soundproof blocks
  */

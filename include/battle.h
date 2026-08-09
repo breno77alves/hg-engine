@@ -1404,6 +1404,8 @@ struct PACKED BattleStruct {
                OnceOnlyAbilityFlags onceOnlyAbilityFlags[4][6];
 
                BOOL gemBoostingMove;
+               // Prevent the same active Pokemon from being processed as fainted twice.
+               u8 faintProcessed[CLIENT_MAX];
 };
 
 enum {
@@ -2814,6 +2816,16 @@ void LONG_CALL BattleFormChange(int client, int form_no, void* bw, struct Battle
  *  @param client battler whose flags to clear
  */
 void LONG_CALL ClearBattleMonFlags(struct BattleStruct *sp, int client);
+
+/**
+ *  @brief clear switch-in flags and allow the newly loaded battler to faint
+ *
+ *  @param sp global battle structure
+ *  @param client battler whose flags to clear
+ */
+void LONG_CALL ClearBattleMonFlagsOnSwitch(struct BattleStruct *sp, int client);
+
+void LONG_CALL UpdateFriendshipFainted(struct BattleSystem *battleSystem, struct BattleStruct *ctx, int battlerId);
 
 /**
  *  @brief dumbs client parameter down into its team in proper scenarios

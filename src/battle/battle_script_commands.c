@@ -102,6 +102,7 @@ BOOL BtlCmd_SetMultiHit(struct BattleSystem *bsys, struct BattleStruct *ctx);
 BOOL BtlCmd_TryProtection(void *bsys, struct BattleStruct *ctx);
 BOOL BtlCmd_TrySubstitute(void *bw, struct BattleStruct *sp);
 BOOL BtlCmd_TrySwapItems(void *bw, struct BattleStruct *sp);
+BOOL BtlCmd_TryFaintMon(struct BattleSystem *bsys, struct BattleStruct *ctx);
 BOOL BtlCmd_RapidSpin(void *bw, struct BattleStruct *sp);
 BOOL BtlCmd_GenerateEndOfBattleItem(struct BattleSystem *bw, struct BattleStruct *sp);
 u32 CalculateBallShakes(void *bw, struct BattleStruct *sp);
@@ -3980,6 +3981,28 @@ BOOL BtlCmd_TrySwapItems(void* bw, struct BattleStruct *sp)
         IncrementBattleScriptPtr(sp, attack);
     else if (MoldBreakerAbilityCheck(sp, sp->attack_client, sp->defence_client, ABILITY_STICKY_HOLD) == TRUE)
         IncrementBattleScriptPtr(sp, defence);
+
+    return FALSE;
+}
+
+BOOL BtlCmd_TryFaintMon(struct BattleSystem *bsys, struct BattleStruct *ctx)
+{
+    IncrementBattleScriptPtr(ctx, 1);
+
+    int battlerId = GrabClientFromBattleScriptParam(bsys, ctx, read_battle_script_param(ctx));
+
+    if (ctx->battlemon[battlerId].hp != 0
+     || ctx->battlemon[battlerId].species == SPECIES_NONE
+     || ctx->battlemon[battlerId].species == SPECIES_BAD_EGG
+     || ctx->faintProcessed[battlerId]) {
+        return FALSE;
+    }
+
+    ctx->faintProcessed[battlerId] = TRUE;
+    ctx->fainting_client = battlerId;
+    ctx->server_status_flag |= No2Bit(battlerId) << BATTLE_STATUS_FAINTED_SHIFT;
+    ctx->total_hinshi[battlerId]++;
+    UpdateFriendshipFainted(bsys, ctx, battlerId);
 
     return FALSE;
 }
