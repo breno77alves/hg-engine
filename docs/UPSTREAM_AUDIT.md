@@ -202,6 +202,25 @@ alone:
 This document is intentionally live. A candidate marked Pending is not permission to
 bulk-port its directory or all of its dependencies.
 
+## Reviewed modern battle candidates not backported
+
+| Upstream revision | Class | Decision |
+| --- | --- | --- |
+| `06b7c00dbafbcb000ab73c6cf735cc0bb242471e` | A/Present | Clear Body's local stat-drop gate already distinguishes self-inflicted changes from an opponent's change; importing the newer stat pipeline would add no correction. |
+| `f54d6bf5d9bb1ac7bfb685998252cc253efa6812`, `6b37c9b39cb2931e85cda116c283d4ff81ce11fd` | A/Present | The local type calculator already returns neutral effectiveness for Struggle before ordinary type processing. |
+| `50a96035fc42f052ab57a9269bcf1c36a6898de0` | E | The corrected single-stage Special Attack/Special Defense-down effect slots are not referenced by any local move record; the used two-stage variants have separate scripts. |
+| `2623ea4996c7890574762d58f15ba6e5bfba81b2` | A/Present | Anger Point is handled by the older critical-hit subscript, which directly sets Attack to stage 12 and already avoids the newer intermediate +6/+12 constant bug. |
+| `9779185fe1dbfe1845cea579f6ec17727f159ea5` (50% max-HP recoil rounding) | E | The affected newer recoil subscript is absent from this branch. Existing recoil paths use the older controller and cannot receive this patch in isolation. |
+| `86e633ddf86ba85db18b7a1e4bfeb3d933accd12`, `b0713822fb12ae51ebe36e439b609e506acc71c3` (Life Orb immediate faint) | C/Pending | Final upstream behavior depends on the newer batch damage/faint and message pipeline. The local sequential pipeline already processes fainting after recoil; importing the explicit newer faint subscript risks duplicate faint processing. |
+| `1cb775e5d641dc0f46bfb2340c841d59dfdb723a`, `8cd000828da3cc1941f9704dce023768a11405b4` and related Sturdy series | C/Pending | These commits are coupled to the spread-move damage loop and modern post-move ordering. V2.1 preserves its audited sequential faint reconstruction instead of mixing both pipelines. |
+| Broad move-performance, BeforeMove, post-move, end-turn, and battle-test refactors after the recorded common ancestor | C/D | Not bulk-ported. Individual correctness deltas are accepted only when their affected mechanic exists locally and a minimal semantic patch can be proved against this older controller. |
+
+This closes the executable core-engine backport slice for V2.1. It does not claim
+that the modern upstream controller is wholesale present: the preservation boundary
+requires the older Generations pipeline, with the applicable isolated fixes listed
+below. Playable matrices remain explicitly tracked as fixture-dependent rather than
+being inferred from source inspection.
+
 ## Applied upstream patches
 
 | Upstream revision | V2.1 status | Verification |
@@ -216,3 +235,7 @@ bulk-port its directory or all of its dependencies.
 | `ee3870ccf0`, corrected to final symmetric semantics from `8d780780b7881a426417162c8d783ee09d248a91` without its Dragon Darts refactor | Applied semantically: semi-invulnerability now causes a miss only when neither attacker nor defender has No Guard; the inverted attacker condition is removed | Source/behavior contract PASS; clean-code build PASS; melonDS JIT boot PASS on ROM SHA-256 `D988092D693323A90D1D672B9B9B14129A59F086F538C369FA3509E34654B745`; in-battle Fly, Dig, Dive, and Shadow Force matrix pending fixture |
 | `8b448a7e`, `153045c54`, `07fe8db4b` | Already inherited and audited: Capture EXP uses the shared EXP task, retains the final tracker fix, and cannot bypass the global hard level cap | Source/behavior contract and full clean-code build PASS; melonDS JIT boot PASS on byte-identical ROM SHA-256 `D988092D693323A90D1D672B9B9B14129A59F086F538C369FA3509E34654B745`; full in-battle party, EXP Share, evolution, and cap-boundary matrix pending fixture |
 | Generations-local post-Red cap guard; `f6061cfdb`, finalized by `b39528d9e` for cap evolution | Prevent a completed post-Red save from being lowered to 65 by an Elite Four rematch; enable evolution-only Rare Candy use at the cap while preserving the hard cap | Automated source/behavior contract and clean-code build PASS; melonDS JIT boot PASS on ROM SHA-256 `B263E33E325830E652BD0D0AC6B171CF81CB79C597E8C2F12BD6CB61E95BD8CA`; full campaign/save and evolution fixture pending |
+| `637603374c1aa14b961f024ea0546e505d30f57d` | Applied: Steel joins Poison in the early poison-immunity gate while Corrosion still bypasses type immunity | Source/behavior contract, clean build, and melonDS JIT boot PASS; in-battle fixture pending |
+| `75ef1e1b39add295ea9b986cd91ecc5fc94f25ba` | Applied: Gems require a damaging split and no longer activate on same-type status moves | Source/behavior contract, clean build, and melonDS JIT boot PASS; in-battle fixture pending |
+| `cb721681e62012d864b01620a6d08034f08b948c` | Applied: Water Absorb intercepts Water-type status moves in modern generations | Source/behavior contract, clean build, and melonDS JIT boot PASS; in-battle fixture pending |
+| `784e888295ce5cbac932771ce7524c28ad26fc10` | Applied semantically: Defiant and Competitive now use independent Attack and Special Attack caps | Source/behavior contract, clean build, and melonDS JIT boot PASS; in-battle fixture pending |
