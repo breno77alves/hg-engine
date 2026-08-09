@@ -38,7 +38,7 @@ the warning set changed from `docs/BASELINE_V2.0.md`.
 
 | Environment | Required mode | Status |
 | --- | --- | --- |
-| melonDS 1.1 | JIT enabled | NOT RUN |
+| melonDS 1.1 | JIT enabled | Opening-sequence visual smoke PASS; multi-battle D-pad matrix NOT RUN |
 | melonDS 1.1 | interpreter/JIT disabled | Baseline title boot PASS |
 | DeSmuME 0.9.13 x64 | default CPU mode | Baseline title boot PASS |
 | TWiLight Menu++ on DS/3DS | current available setup | BLOCKED pending hardware |

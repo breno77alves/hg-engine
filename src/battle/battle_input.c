@@ -95,11 +95,37 @@ ALIGN4 const u8 SkillMenuPaletteNo[NELEMS(SkillMenuTouchData) - 1] = {
     [TOUCH_DATA_MEGA  ] = 4,
 };
 
-const u8 DPadSelectTouchDataIndex[] = { // dpad touch data index
+ALIGN4 const u8 DPadSelectTouchDataIndexVanilla[] = {
+    1, 2,
+    3, 4,
+    0, 0,
+};
+
+ALIGN4 const u8 DPadSelectTouchDataIndexMega[] = {
     1, 2,
     3, 4,
     0, 5,
 };
+
+// Overlay 12's D-pad callback is statically repointed to this table in
+// repoints. Only ordinary data changes at runtime; the callback's literal pool
+// at 0x02269F4C must never be self-patched while the overlay is executing.
+ALIGN4 u8 DPadSelectTouchDataIndexActive[] = {
+    1, 2,
+    3, 4,
+    0, 0,
+};
+
+static void SetDPadSelectTouchDataIndexActive(BOOL megaEnabled)
+{
+    const u8 *source = megaEnabled
+        ? DPadSelectTouchDataIndexMega
+        : DPadSelectTouchDataIndexVanilla;
+
+    // The first five cells are identical. Change the only varying cell in one
+    // byte write so the input callback cannot observe a partially copied map.
+    DPadSelectTouchDataIndexActive[TOUCH_DATA_MEGA] = source[TOUCH_DATA_MEGA];
+}
 
 static const OAMSpriteTemplate MegaIconObjParam = {
     155,
@@ -567,7 +593,7 @@ void BGCallback_Waza_Extend(struct BI_PARAM *bip, int select_bg, int force_put)
         *(u16 *)(0x0226E29E) = 353;
         // swap out touch data ptr
         *(u32 *)(0x0226E930) = (u32)&SkillMenuTouchData; // something like this
-        *(u32 *)(0x02269F4C) = (u32)&DPadSelectTouchDataIndex; // new map x/y grid array for dpad movement callback
+        SetDPadSelectTouchDataIndexActive(TRUE);
     }
     else
     {
@@ -575,7 +601,7 @@ void BGCallback_Waza_Extend(struct BI_PARAM *bip, int select_bg, int force_put)
         *(u16 *)(0x0226E29E) = 37;
         // swap out touch data ptr
         *(u32 *)(0x0226E930) = (u32)&SkillMenuTouchDataNoMega;
-        *(u32 *)(0x02269F4C) = 0x0226E218; // original map x/y grid array for dpad movement callback
+        SetDPadSelectTouchDataIndexActive(FALSE);
     }
 
     // swap out tilemap
@@ -626,14 +652,14 @@ void SwapOutBottomScreen(struct BI_PARAM *bip)
         *(u16 *)(0x0226E29E) = 353; // new button layout nscr
         // swap out touch data ptr
         *(u32 *)(0x0226E930) = (u32)&SkillMenuTouchData; // something like this
-        *(u32 *)(0x02269F4C) = (u32)&DPadSelectTouchDataIndex; // new map x/y grid array for dpad movement callback
+        SetDPadSelectTouchDataIndexActive(TRUE);
     }
     else
     {
         *(u16 *)(0x0226E29E) = 37; // old button layout nscr
         // swap out touch data ptr
         *(u32 *)(0x0226E930) = (u32)&SkillMenuTouchDataNoMega;
-        *(u32 *)(0x02269F4C) = 0x0226E218; // original map x/y grid array for dpad movement callback
+        SetDPadSelectTouchDataIndexActive(FALSE);
     }
 }
 
