@@ -233,6 +233,13 @@ present. A successful choice consumes exactly one selected Repel and loads its
 Traversal, Surf, transition, and save/reload cases remain **NOT RUN** pending a
 field fixture.
 
+Modern vitamins automated regression status: **PASS**. All nine item-use checks and
+all three general per-stat caps are patched to 252, and HP Up, Protein, Iron,
+Carbos, Calcium, and Zinc each target the correct EV by 10. The separate vanilla
+six-stat sum check remains 510 because this backport changes only per-stat compare
+operands. Item-use boundary cases, EV-reducing berries, and Viewer agreement remain
+**NOT RUN** pending a party fixture.
+
 ## Compatibility and antipiracy
 
 Compare Generations and current upstream antipiracy, overlay-loading, and memory
