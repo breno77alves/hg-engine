@@ -3013,7 +3013,6 @@ BOOL btl_scr_cmd_FF_checkcanactivatedefiantorcompetitive(void *bsys UNUSED, stru
 
     if ((ctx->battlemon[ctx->state_client].hp != 0)
     && (ctx->oneSelfFlag[ctx->state_client].defiant_flag)
-    && (ctx->battlemon[ctx->state_client].states[STAT_ATTACK] < 12)
     && ((ctx->waza_status_flag & WAZA_STATUS_FLAG_NO_OUT) == 0)
     && ((ctx->server_status_flag & SERVER_STATUS_FLAG_x20) == 0)
     && ((ctx->server_status_flag2 & SERVER_STATUS_FLAG2_U_TURN) == 0)) {
