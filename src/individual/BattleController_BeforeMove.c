@@ -2609,7 +2609,7 @@ BOOL BattleController_CheckTypeBasedMoveConditionImmunities2(struct BattleSystem
     // Grass-type Leech Seed immunity
     || (moveEffect == MOVE_EFFECT_STATUS_LEECH_SEED && HasType(ctx, defender, TYPE_GRASS))
     // Poison / Steel-type poison / badly poison immunity
-    || ((moveEffect == MOVE_EFFECT_STATUS_POISON || moveEffect == MOVE_EFFECT_STATUS_BADLY_POISON) && HasType(ctx, defender, TYPE_POISON) && GetBattlerAbility(ctx, ctx->attack_client) != ABILITY_CORROSION)) {
+    || ((moveEffect == MOVE_EFFECT_STATUS_POISON || moveEffect == MOVE_EFFECT_STATUS_BADLY_POISON) && (HasType(ctx, defender, TYPE_POISON) || HasType(ctx, defender, TYPE_STEEL)) && GetBattlerAbility(ctx, ctx->attack_client) != ABILITY_CORROSION)) {
         ctx->oneTurnFlag[ctx->attack_client].parental_bond_flag = 0;
         ctx->oneTurnFlag[ctx->attack_client].parental_bond_is_active = FALSE;
         ctx->moveStatusFlagForSpreadMoves[defender] = MOVE_STATUS_FLAG_NOT_EFFECTIVE;
