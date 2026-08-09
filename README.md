@@ -1,4 +1,9 @@
 # hg-engine
+
+> **HeartGold Generations V2.1:** this branch is the selective stability/engine
+> update of Generations V2.0. See [CHANGELOG_V2.1.md](CHANGELOG_V2.1.md) and
+> [docs/RELEASE_V2.1.md](docs/RELEASE_V2.1.md) for scope, validation, hashes, and
+> legal patch distribution. The original Generations content remains the base.
 ## About
  A huge upgrade to the battle engine in HeartGold
 
