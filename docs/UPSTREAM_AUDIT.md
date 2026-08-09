@@ -125,10 +125,33 @@ The base has these options enabled in `include/config.h`:
 | Capture EXP | `IMPLEMENT_CAPTURE_EXPERIENCE` | Final known fixes and hard-cap call path audited; playable matrix pending fixture |
 | Modern vitamins | `UPDATE_VITAMIN_EV_CAPS` | Verify 252 per stat and 510 total |
 | Friendship evolution | threshold `160` | Audit event assumptions and regression-test evolutions |
-| Hard level cap | `IMPLEMENT_LEVEL_CAP` | Preserve Generations variable/scripts; fix the level-65 regression |
+| Hard level cap | `IMPLEMENT_LEVEL_CAP`; post-Red state `0x40FD` | Post-Red level-65 regression fixed; cap-bound evolution enabled; automated contract, clean build, and JIT boot PASS; playable progression matrix pending |
 
-`ALLOW_LEVEL_CAP_EVOLVE` is currently disabled and is a requested B change.
+`ALLOW_LEVEL_CAP_EVOLVE` is enabled in V2.1 so a Rare Candy can trigger an
+eligible evolution at the active cap without adding a level.
 `UNCAP_CANDIES_FROM_LEVEL_CAP` is disabled and must remain disabled by default.
+
+## Generations level-cap finding
+
+Generations stores its active cap in variable `0x416F`. The persistent vanilla
+variable `0x40FD` changes from zero after Red is defeated and is already used by
+HGSS to unlock post-Red content. By contrast, `FLAG_UNK_25F` only controls Red's
+temporary visibility and is cleared by the Elite Four Hall of Fame path, so it
+cannot safely identify completed postgame progression.
+
+The distributed V2.0 behavior reapplies the Elite Four value of 65 during a
+rematch even after Red. The custom setter responsible for that distributed-ROM
+behavior is not present as source in this fork's script NARC, so editing a guessed
+binary offset would not be reproducible. V2.1 instead enforces the campaign
+invariant in `GetLevelCap`: once persistent variable `0x40FD` is nonzero, a lower
+stored cap is raised to the configured post-Red value of 100. Before Red, all
+scripted caps, including 65, remain unchanged; after Red, the safeguard survives
+save/reload because it derives from persistent story state.
+
+`ALLOW_LEVEL_CAP_EVOLVE` is enabled alongside the existing final upstream logic,
+allowing Rare Candy to request a level-up evolution at the active cap.
+`UNCAP_CANDIES_FROM_LEVEL_CAP` remains disabled, so neither Rare Candy nor Infinite
+Candy may add a level above the cap.
 
 ## Behavior explicitly excluded by the V2.1 specification
 
@@ -148,7 +171,8 @@ These are Generations-specific and cannot be solved by assuming an upstream comm
 applies:
 
 - melonDS JIT D-pad failure caused by runtime writes to `0x02269F4C`;
-- level cap reverting to 65 after Elite Four rematch paths;
+- level cap reverting to 65 after Elite Four rematch paths (fixed in V2.1;
+  playable save-fixture verification pending);
 - Elm-lab Infinite Candy / Pocket Heal reward depending on save/reload order;
 - Frigibax family ability IDs and evolution persistence;
 - availability and functionality of every intended Mega Stone;
@@ -184,3 +208,4 @@ bulk-port its directory or all of its dependencies.
 | `22df8b40f3fe374675589e81d5e55390e51d1451` | Applied: the already-caught one-shake Critical Capture animation override now obeys `CRITICAL_CAPTURE_GENERATION >= 9`; the existing probability formula is unchanged | Gen 8/9 source/behavior contract PASS; clean-code build PASS; current Gen 9 ROM SHA-256 remains `FC727FE9FF47A461691C4D391E61192D01643239FB1CBD9D770B5523CF5C4CE7`, matching the prior melonDS JIT-tested artifact; in-battle animation fixture pending |
 | `ee3870ccf0`, corrected to final symmetric semantics from `8d780780b7881a426417162c8d783ee09d248a91` without its Dragon Darts refactor | Applied semantically: semi-invulnerability now causes a miss only when neither attacker nor defender has No Guard; the inverted attacker condition is removed | Source/behavior contract PASS; clean-code build PASS; melonDS JIT boot PASS on ROM SHA-256 `D988092D693323A90D1D672B9B9B14129A59F086F538C369FA3509E34654B745`; in-battle Fly, Dig, Dive, and Shadow Force matrix pending fixture |
 | `8b448a7e`, `153045c54`, `07fe8db4b` | Already inherited and audited: Capture EXP uses the shared EXP task, retains the final tracker fix, and cannot bypass the global hard level cap | Source/behavior contract and full clean-code build PASS; melonDS JIT boot PASS on byte-identical ROM SHA-256 `D988092D693323A90D1D672B9B9B14129A59F086F538C369FA3509E34654B745`; full in-battle party, EXP Share, evolution, and cap-boundary matrix pending fixture |
+| Generations-local post-Red cap guard; `f6061cfdb`, finalized by `b39528d9e` for cap evolution | Prevent a completed post-Red save from being lowered to 65 by an Elite Four rematch; enable evolution-only Rare Candy use at the cap while preserving the hard cap | Automated source/behavior contract and clean-code build PASS; melonDS JIT boot PASS on ROM SHA-256 `B263E33E325830E652BD0D0AC6B171CF81CB79C597E8C2F12BD6CB61E95BD8CA`; full campaign/save and evolution fixture pending |

@@ -51,6 +51,8 @@
 
  ``IMPLEMENT_LEVEL_CAP`` (``include/config.h`` only) is a toggle that will enable a hard level cap past which no Pokémon can gain experience or levels via any method.  The level is read from a script variable as defined by ``LEVEL_CAP_VARIABLE``.  If the Pokémon is at or above that level, the experience gain is disabled and Rare Candies stop working.  If the variable is set to 0 (i.e. the level cap is not set to anything), the cap is returned as 100.  ``UNCAP_CANDIES_FROM_LEVEL_CAP`` further decouples Rare Candies from this requirement, allowing Rare Candies to level Pokémon beyond the level cap.  Contrarily, ``ALLOW_LEVEL_CAP_EVOLVE`` allows Rare Candies used to trigger an evolution if the mon would have otherwise evolved upon leveling up.
 
+ ``LEVEL_CAP_RED_DEFEATED_VARIABLE`` and ``LEVEL_CAP_AFTER_RED`` can define a persistent postgame floor for hacks whose progression scripts reuse lower caps.  HeartGold Generations uses vanilla variable ``0x40FD``, which is set after defeating Red, to prevent an Elite Four rematch from lowering the completed game's cap back to 65.  This safeguard does not change pre-Red caps.
+
  ``UPDATE_OVERWORLD_POISON`` (``include/config.h`` only) is a toggle that disables overworld poison when enabled.  Overworld poison is disabled by default.
 
  ``DISABLE_END_OF_TURN_WEATHER_MESSAGE`` (``include/config.h`` only) will remove end-of-turn weather printing for everything but Hail and Sandstorm, which still play the animation before harming the Pokémon.  There is a small overlay over the Fight button to show which weather is active.  The config defaults to keeping the weather printing at the end of the turn.

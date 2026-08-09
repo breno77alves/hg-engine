@@ -156,6 +156,12 @@ trigger an eligible evolution when `ALLOW_LEVEL_CAP_EVOLVE` is enabled, but no p
 may raise the Pokémon above the active hard cap. `UNCAP_CANDIES_FROM_LEVEL_CAP` must
 remain disabled.
 
+Automated regression status: **PASS** for the post-Red invariant (stored 65 resolves
+to 100 only after persistent variable `0x40FD` is set), invalid cap fallback, enabled
+cap-bound evolution, and disabled candy uncapping. The full badge, Elite Four, Red,
+rematch, evolution-animation, and save/reload matrix remains **NOT RUN** pending the
+required campaign fixtures.
+
 ## Elm-lab reward determinism
 
 Run both flows from equivalent new-game states:

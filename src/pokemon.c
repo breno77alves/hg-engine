@@ -2055,6 +2055,13 @@ u32 LONG_CALL GetLevelCap(void)
 #ifdef IMPLEMENT_LEVEL_CAP
     u32 levelCap = GetScriptVar(LEVEL_CAP_VARIABLE);
     if (levelCap > 100 || levelCap == 0) levelCap = 100;
+#if defined(LEVEL_CAP_RED_DEFEATED_VARIABLE) && defined(LEVEL_CAP_AFTER_RED)
+    // VAR_UNK_40FD is persistent once Red is defeated.  The Elite Four
+    // rematch scripts may reapply their level-65 cap afterward, so preserve
+    // the post-Red cap across that rematch and subsequent save/reload.
+    if (GetScriptVar(LEVEL_CAP_RED_DEFEATED_VARIABLE) != 0 && levelCap < LEVEL_CAP_AFTER_RED)
+        levelCap = LEVEL_CAP_AFTER_RED;
+#endif
     return levelCap;
 #else
     return 100;
