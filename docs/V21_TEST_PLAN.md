@@ -226,6 +226,13 @@ upstream Sassy correction, and raw values are restored before a page transition.
 The cross-species/form visual and input matrix remains **NOT RUN** pending a summary
 screen fixture.
 
+Reusable Repels automated regression status: **PASS**. The final upstream field
+hook, yes/no common script, inventory check, and Max → Super → normal priority are
+present. A successful choice consumes exactly one selected Repel and loads its
+100/200/250-step item parameter; with no Repel, the normal wore-off script is used.
+Traversal, Surf, transition, and save/reload cases remain **NOT RUN** pending a
+field fixture.
+
 ## Compatibility and antipiracy
 
 Compare Generations and current upstream antipiracy, overlay-loading, and memory
