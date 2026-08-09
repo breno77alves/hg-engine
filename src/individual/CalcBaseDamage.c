@@ -473,6 +473,7 @@ int UNUSED CalcBaseDamage(void *bw, struct BattleStruct *sp, int moveno, u32 sid
         movepower = 60 + 20 * positiveStatBoosts;
         movepower = movepower > 200 ? 200 : movepower;
         break;
+    case MOVE_POWER_TRIP:
     case MOVE_STORED_POWER:
         for (int stat = 0; stat < 8; stat++) {
             if (sp->battlemon[attacker].states[stat] > 6) {
