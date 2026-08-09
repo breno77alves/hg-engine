@@ -1571,3 +1571,10 @@ The opposing {STRVAR_1 1, 0, 0} was hurt!
 {STRVAR_1 1, 0, 0}’s {STRVAR_1 5, 1, 0}\nboosted the attack!
 The wild {STRVAR_1 1, 0, 0}’s {STRVAR_1 5, 1, 0}\nboosted the attack!
 The opposing {STRVAR_1 1, 0, 0}’s {STRVAR_1 5, 1, 0}\nboosted the attack!
+{STRVAR_1 1, 0, 0} has been\nafflicted with an infestation by\f{STRVAR_1 1, 1, 0}!
+{STRVAR_1 1, 0, 0} has been\nafflicted with an infestation by\fthe wild {STRVAR_1 1, 1, 0}!
+{STRVAR_1 1, 0, 0} has been\nafflicted with an infestation by\fthe opposing {STRVAR_1 1, 1, 0}!
+The wild {STRVAR_1 1, 0, 0} has\nbeen afflicted with an infestation by\f{STRVAR_1 1, 1, 0}!
+The wild {STRVAR_1 1, 0, 0} has\nbeen afflicted with an infestation by\fthe wild {STRVAR_1 1, 1, 0}!
+The opposing {STRVAR_1 1, 0, 0}\nhas been afflicted with an infestation by\f{STRVAR_1 1, 1, 0}!
+The opposing {STRVAR_1 1, 0, 0}\nhas been afflicted with an infestation by\fthe opposing {STRVAR_1 1, 1, 0}!

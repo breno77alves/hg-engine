@@ -229,7 +229,7 @@ int UNUSED CalcBaseDamage(void *bw, struct BattleStruct *sp, int moveno, u32 sid
     AttackingMon.attack = BattlePokemonParamGet(sp, attacker, BATTLE_MON_DATA_ATK, NULL);
     DefendingMon.attack = BattlePokemonParamGet(sp, defender, BATTLE_MON_DATA_ATK, NULL);
 
-    AttackingMon.defense = BattlePokemonParamGet(sp, defender, BATTLE_MON_DATA_DEF, NULL);
+    AttackingMon.defense = BattlePokemonParamGet(sp, attacker, BATTLE_MON_DATA_DEF, NULL);
     DefendingMon.defense = BattlePokemonParamGet(sp, defender, BATTLE_MON_DATA_DEF, NULL);
 
     AttackingMon.sp_attack = BattlePokemonParamGet(sp, attacker, BATTLE_MON_DATA_SPATK, NULL);
@@ -401,6 +401,7 @@ int UNUSED CalcBaseDamage(void *bw, struct BattleStruct *sp, int moveno, u32 sid
     case MOVE_WATER_SPOUT:
         movepower = (150 * AttackingMon.hp) / AttackingMon.maxhp;
         break;
+    case MOVE_REVERSAL:
     case MOVE_FLAIL:
         p = (48 * AttackingMon.hp) / AttackingMon.maxhp;
         if (p >= 32) {
@@ -1165,15 +1166,18 @@ int UNUSED CalcBaseDamage(void *bw, struct BattleStruct *sp, int moveno, u32 sid
     debug_printf("[CalcBaseDamage] AttackingMon.spatkstate: %d\n", AttackingMon.spatkstate);
 #endif
 
-    // Step 3.2. handle Foul Play
+    // Step 3.2. handle Foul Play and Body Press
     if (moveno == MOVE_FOUL_PLAY) {
         AttackingMon.attack = DefendingMon.attack;
         AttackingMon.atkstate = DefendingMon.atkstate;
+    } else if (moveno == MOVE_BODY_PRESS) {
+        AttackingMon.attack = AttackingMon.defense;
+        AttackingMon.atkstate = AttackingMon.defstate;
     }
 
 #ifdef DEBUG_DAMAGE_CALC
     debug_printf("\n=================\n");
-    debug_printf("[CalcBaseDamage] Step 3.2. handle Foul Play\n");
+    debug_printf("[CalcBaseDamage] Step 3.2. handle Foul Play and Body Press\n");
     debug_printf("[CalcBaseDamage] AttackingMon.attack: %d\n", AttackingMon.attack);
     debug_printf("[CalcBaseDamage] AttackingMon.atkstate: %d\n", AttackingMon.atkstate);
 #endif
