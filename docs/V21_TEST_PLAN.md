@@ -219,6 +219,13 @@ above remain **NOT RUN** pending deterministic fixtures.
 | Vitamins | all six vitamins to 252 per stat, 510 total, already-capped stat, EV-reducing berries, viewer consistency |
 | Friendship | Eevee day/night, Golbat, Togetic, Budew, Riolu and other available evolutions at threshold 160; audit event dependencies |
 
+EV/IV Viewer automated regression status: **PASS**. The guarded ARM9 hooks map L,
+R, and Select to EV, IV, and raw-stat modes only on the stats page; party and boxed
+Pokémon use their respective access paths, mint-adjusted nature colors include the
+upstream Sassy correction, and raw values are restored before a page transition.
+The cross-species/form visual and input matrix remains **NOT RUN** pending a summary
+screen fixture.
+
 ## Compatibility and antipiracy
 
 Compare Generations and current upstream antipiracy, overlay-loading, and memory

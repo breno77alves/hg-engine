@@ -123,7 +123,7 @@ The base has these options enabled in `include/config.h`:
 
 | System | Base configuration | V2.1 action |
 | --- | --- | --- |
-| EV/IV summary viewer | `IMPLEMENT_NEW_EV_IV_VIEWER` | Audit species/forms and upstream fixes; preserve UI |
+| EV/IV summary viewer | `IMPLEMENT_NEW_EV_IV_VIEWER` | Final upstream viewer and Sassy fix already present; V2.1 source contract added, playable species/form matrix pending |
 | Reusable Repels | `IMPLEMENT_REUSABLE_REPELS` | Audit later fixes and run traversal/save tests |
 | Critical Capture | `IMPLEMENT_CRITICAL_CAPTURE`; generation configured | Final Gen 9 guard applied without changing capture rates; in-battle animation fixture pending |
 | Capture EXP | `IMPLEMENT_CAPTURE_EXPERIENCE` | Final known fixes and hard-cap call path audited; playable matrix pending fixture |
