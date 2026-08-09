@@ -128,7 +128,7 @@ The base has these options enabled in `include/config.h`:
 | Critical Capture | `IMPLEMENT_CRITICAL_CAPTURE`; generation configured | Final Gen 9 guard applied without changing capture rates; in-battle animation fixture pending |
 | Capture EXP | `IMPLEMENT_CAPTURE_EXPERIENCE` | Final known fixes and hard-cap call path audited; playable matrix pending fixture |
 | Modern vitamins | `UPDATE_VITAMIN_EV_CAPS` | Final upstream 252 checks already present for all six vitamins; independent vanilla 510 sum check remains unchanged |
-| Friendship evolution | threshold `160` | Audit event assumptions and regression-test evolutions |
+| Friendship evolution | threshold `160` | All three evolution methods use the configurable modern threshold; no campaign script reads friendship and affection bonuses remain disabled |
 | Hard level cap | `IMPLEMENT_LEVEL_CAP`; post-Red state `0x40FD` | Post-Red level-65 regression fixed; cap-bound evolution enabled; automated contract, clean build, and JIT boot PASS; playable progression matrix pending |
 
 `ALLOW_LEVEL_CAP_EVOLVE` is enabled in V2.1 so a Rare Candy can trigger an

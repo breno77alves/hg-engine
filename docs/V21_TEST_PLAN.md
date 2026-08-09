@@ -240,6 +240,12 @@ six-stat sum check remains 510 because this backport changes only per-stat compa
 operands. Item-use boundary cases, EV-reducing berries, and Viewer agreement remain
 **NOT RUN** pending a party fixture.
 
+Friendship evolution automated regression status: **PASS**. The normal, daytime,
+and nighttime methods all use the configured threshold of 160 across the 16 current
+evolution records. No campaign script reads friendship, and the unrelated modern
+affection battle bonuses remain disabled. Level-up/evolution-animation checks for
+the representative species remain **NOT RUN** pending party and clock fixtures.
+
 ## Compatibility and antipiracy
 
 Compare Generations and current upstream antipiracy, overlay-loading, and memory
