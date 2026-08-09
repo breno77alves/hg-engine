@@ -71,7 +71,7 @@ These local commits are the content identity that selective backporting must ret
 | Two fainted battlers from same trainer | `031c579a4698f43832f75cb3cf11ba043fd6e229`, superseded by final `5418b65cf` semantics | A | Backported as part of the faint subsystem | Each opposing active slot can faint independently even when both belong to one trainer; the intermediate `TRAINER_BOTH` bookkeeping is not imported because final upstream removed it | Ariana double-KO regression covered by source/behavior contract; in-battle fixture pending |
 | Critical Capture generation guard | `22df8b40f3fe374675589e81d5e55390e51d1451` | A/B | Backported in V2.1; Critical Capture and its generation macro were already enabled | Restricted the already-caught one-shake animation override to Gen 9+ without changing capture probabilities; regional-versus-national caught-species counting was already generation-gated locally | Gen 8/9 source/behavior contract and clean-code build PASS; current Gen 9 ROM is byte-identical to the prior JIT-tested artifact; in-battle capture animation fixture pending |
 | No Guard versus semi-invulnerability | `ee3870ccf0`, symmetric accuracy behavior from `b9b9cab7363b492ebb13ce010a70a45d767079dd`, final helper semantics first visible in `8d780780b7881a426417162c8d783ee09d248a91` | A | Backported semantically in V2.1 | Replaced the inverted attacker-only condition with direct checks for No Guard on both the attacker and the currently iterated defender; did not import the Dragon Darts refactor | Attacker/defender, Lock-On, target-range, and semi-invulnerability contract PASS; clean-code build and melonDS JIT boot PASS; in-battle Fly/Dig/Dive/Shadow Force fixture pending |
-| Capture EXP fixes | `8b448a7e`, `153045c54`, `07fe8db4b` | B | All three are ancestors/present in base | No implementation backport; regression-test with level cap | Participants, EXP Share, full party, level-up/evolution, cap |
+| Capture EXP fixes | `8b448a7e`, `153045c54`, `07fe8db4b` | B | Present and audited in V2.1; all three revisions are ancestors of the Generations base | No implementation backport: Capture EXP delegates to the shared engine EXP task, whose global hooks clamp stored EXP and reject levels above the active hard cap | Automated source/behavior contract, clean build, and JIT boot PASS; full participant/EXP Share/evolution/cap matrix pending fixture |
 
 ## No Guard finding
 
@@ -95,6 +95,24 @@ existing Generations semi-invulnerability flow without importing the Dragon Dart
 refactor. Dedicated attacker/defender, Lock-On, target-range, and
 semi-invulnerability tests cover the corrected condition.
 
+## Capture EXP finding
+
+The complete upstream Capture EXP chain is already inherited by the Generations
+base: implementation `8b448a7e`, the party/sprite correction `153045c54`, and the
+tracker correction `07fe8db4b`. No later Capture EXP-specific fix exists in the
+audited upstream history.
+
+`Task_DistributeExp_capture_experience` does not maintain a separate level-up
+implementation. It restores the capture task state, delegates each eligible party
+member to `Task_DistributeExp_Extend`, and that wrapper returns to the engine's
+`Task_DistributeExp`. The installed `ImplementLevelCap_hook` rejects EXP for a
+Pokémon already at the active cap, while the global `Pokemon_TryLevelUp` replacement
+clamps stored EXP to the cap's growth-rate threshold before rejecting any level
+above it. Consequently, normal battle EXP and Capture EXP share the same hard-cap
+boundary. The automated contract locks this call path and both cap checks; the
+full party, EXP Share, evolution, and capture-boundary scenarios still require a
+playable fixture.
+
 ## Requested systems already present in Generations V2.0
 
 The base has these options enabled in `include/config.h`:
@@ -104,7 +122,7 @@ The base has these options enabled in `include/config.h`:
 | EV/IV summary viewer | `IMPLEMENT_NEW_EV_IV_VIEWER` | Audit species/forms and upstream fixes; preserve UI |
 | Reusable Repels | `IMPLEMENT_REUSABLE_REPELS` | Audit later fixes and run traversal/save tests |
 | Critical Capture | `IMPLEMENT_CRITICAL_CAPTURE`; generation configured | Final Gen 9 guard applied without changing capture rates; in-battle animation fixture pending |
-| Capture EXP | `IMPLEMENT_CAPTURE_EXPERIENCE` | Verify final known fixes and hard-cap interaction |
+| Capture EXP | `IMPLEMENT_CAPTURE_EXPERIENCE` | Final known fixes and hard-cap call path audited; playable matrix pending fixture |
 | Modern vitamins | `UPDATE_VITAMIN_EV_CAPS` | Verify 252 per stat and 510 total |
 | Friendship evolution | threshold `160` | Audit event assumptions and regression-test evolutions |
 | Hard level cap | `IMPLEMENT_LEVEL_CAP` | Preserve Generations variable/scripts; fix the level-65 regression |
@@ -165,3 +183,4 @@ bulk-port its directory or all of its dependencies.
 | `c67ac01faafc2d5d00763ca444d239024156ff8c`, `031c579a4698f43832f75cb3cf11ba043fd6e229`, finalized by `5418b65cf`, with command hook from `3265d051c` | Applied semantically for the older sequential-damage controller: faint handling preserves species for EXP, latches each active battler slot against duplicate processing, permits both same-trainer opponents to faint, and clears the latch on replacement | Source/behavior contract PASS; full clean build PASS; melonDS JIT boot PASS; Ariana in-battle fixture pending |
 | `22df8b40f3fe374675589e81d5e55390e51d1451` | Applied: the already-caught one-shake Critical Capture animation override now obeys `CRITICAL_CAPTURE_GENERATION >= 9`; the existing probability formula is unchanged | Gen 8/9 source/behavior contract PASS; clean-code build PASS; current Gen 9 ROM SHA-256 remains `FC727FE9FF47A461691C4D391E61192D01643239FB1CBD9D770B5523CF5C4CE7`, matching the prior melonDS JIT-tested artifact; in-battle animation fixture pending |
 | `ee3870ccf0`, corrected to final symmetric semantics from `8d780780b7881a426417162c8d783ee09d248a91` without its Dragon Darts refactor | Applied semantically: semi-invulnerability now causes a miss only when neither attacker nor defender has No Guard; the inverted attacker condition is removed | Source/behavior contract PASS; clean-code build PASS; melonDS JIT boot PASS on ROM SHA-256 `D988092D693323A90D1D672B9B9B14129A59F086F538C369FA3509E34654B745`; in-battle Fly, Dig, Dive, and Shadow Force matrix pending fixture |
+| `8b448a7e`, `153045c54`, `07fe8db4b` | Already inherited and audited: Capture EXP uses the shared EXP task, retains the final tracker fix, and cannot bypass the global hard level cap | Source/behavior contract and full clean-code build PASS; melonDS JIT boot PASS on byte-identical ROM SHA-256 `D988092D693323A90D1D672B9B9B14129A59F086F538C369FA3509E34654B745`; full in-battle party, EXP Share, evolution, and cap-boundary matrix pending fixture |
