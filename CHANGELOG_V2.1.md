@@ -79,6 +79,9 @@ The exact V2.0 base is `c28e104a8ed664ce1a5dba6b0d8d83caded89b62`.
 - Extended D-pad/Mega, Ariana double-KO, Hall of Fame, move/ability, QoL, and full
   campaign matrices need prepared playable fixtures. Automated source contracts,
   clean builds, generated-byte checks, and available melonDS JIT boot smokes pass.
+- The final code state passed a melonDS JIT smoke after its last code change. A
+  redundant repeat on the final clean artifact was blocked by the app's usage/
+  approval limit and is recorded as not run rather than inferred from the hash.
 - DeSmuME and physical DS/3DS/TWiLight/R4/DSpico runs were not available in this
   environment and are not reported as passes.
 - Ability Patch is not obtainable in the campaign. Its inherited nominal 250,000
