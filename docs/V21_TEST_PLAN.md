@@ -265,6 +265,17 @@ Automated regression status: **PASS**. Wild double battles, global and battle-on
 remain disabled. This guard prevents an upstream backport from silently changing
 Generations balance or enabling an incomplete battle gimmick.
 
+## Save compatibility
+
+Automated structural regression status: **PASS** against Generations V2.0 commit
+`c28e104a8`. Save, bag, pocket-capacity, PC-expansion, and Pokémon-record sizes are
+preserved; expanded abilities reuse the existing EXP word, and legacy Medicine
+slots have a V2.0 fallback. See `SAVE_COMPATIBILITY.md`.
+
+Playable Save A/B/C/D results remain **NOT RUN — BLOCKED BY MISSING FIXTURE**. No
+V2.0 save file is available in the workspace, so party, PC, items, badges, flags,
+Pokédex, Mega items, and progression cannot honestly be certified at runtime yet.
+
 ## Release-candidate checks
 
 - full clean build succeeds from documented prerequisites;
