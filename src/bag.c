@@ -153,11 +153,69 @@ ITEM_SLOT *Pocket_GetItemSlotForAdd(ITEM_SLOT *slots, u32 count, u16 itemId, u16
     return &slots[found];
 }
 
+static BOOL Bag_IsLegacyMedicineItem(u16 itemId) {
+    switch (itemId) {
+    case ITEM_ABILITY_CAPSULE:
+    case ITEM_LUMIOSE_GALETTE:
+    case ITEM_SHALOUR_SABLE:
+    case ITEM_BIG_MALASADA:
+    case ITEM_ABILITY_PATCH:
+    case ITEM_MOOMOO_CHEESE:
+    case ITEM_PEWTER_CRUNCHIES:
+        return TRUE;
+    default:
+        return IS_ITEM_NATURE_MINT(itemId);
+    }
+}
+
+static ITEM_SLOT *Bag_GetLegacyMedicineSlotForAdd(BAG_DATA *bag, u16 itemId, u16 quantity) {
+    u32 i;
+
+    if (!Bag_IsLegacyMedicineItem(itemId)) {
+        return NULL;
+    }
+    for (i = 0; i < NUM_BAG_MEDICINE; i++) {
+        if (bag->medicine[i].id == itemId) {
+            if (quantity + bag->medicine[i].quantity > BAG_SLOT_QUANTITY_MAX) {
+                return NULL;
+            }
+            return &bag->medicine[i];
+        }
+    }
+    return NULL;
+}
+
+static ITEM_SLOT *Bag_GetLegacyMedicineSlotForRemove(BAG_DATA *bag, u16 itemId, u16 quantity) {
+    u32 i;
+
+    if (!Bag_IsLegacyMedicineItem(itemId)) {
+        return NULL;
+    }
+    for (i = 0; i < NUM_BAG_MEDICINE; i++) {
+        if (bag->medicine[i].id == itemId) {
+            if (bag->medicine[i].quantity < quantity) {
+                return NULL;
+            }
+            return &bag->medicine[i];
+        }
+    }
+    return NULL;
+}
+
 ITEM_SLOT *Bag_GetItemSlotForAdd(BAG_DATA *bag, u16 itemId, u16 quantity, int heap_id) {
     ITEM_SLOT *slots;
+    ITEM_SLOT *legacySlot;
     u32 count;
     u32 UNUSED pocket_id;
 
+    legacySlot = Bag_GetLegacyMedicineSlotForAdd(bag, itemId, quantity);
+    if (legacySlot != NULL) {
+        return legacySlot;
+    }
+    // Do not create a second stack when a legacy stack exists but is full.
+    if (Bag_GetLegacyMedicineSlotForRemove(bag, itemId, 0) != NULL) {
+        return NULL;
+    }
     pocket_id = Bag_GetItemPocket(bag, itemId, &slots, &count, heap_id);
     if (pocket_id == POCKET_TMHMS) {
         return Pocket_GetItemSlotForAdd(slots, count, itemId, quantity, BAG_TMHM_QUANTITY_MAX);
@@ -205,18 +263,26 @@ ITEM_SLOT *Pocket_GetItemSlotForRemove(ITEM_SLOT *slots, u32 count, u16 itemId, 
 
 ITEM_SLOT *Bag_GetItemSlotForRemove(BAG_DATA *bag, u16 itemId, u16 quantity, int heap_id) {
     ITEM_SLOT *slots;
+    ITEM_SLOT *slot;
     u32 count;
     u32 UNUSED pocket_id;
 
     pocket_id = Bag_GetItemPocket(bag, itemId, &slots, &count, heap_id);
-    return Pocket_GetItemSlotForRemove(slots, count, itemId, quantity);
+    slot = Pocket_GetItemSlotForRemove(slots, count, itemId, quantity);
+    if (slot != NULL) {
+        return slot;
+    }
+    return Bag_GetLegacyMedicineSlotForRemove(bag, itemId, quantity);
 }
 
 BOOL Bag_TakeItem(BAG_DATA *bag, u16 itemId, u16 quantity, int heap_id) {
     ITEM_SLOT *slot = Bag_GetItemSlotForRemove(bag, itemId, quantity, heap_id);
+    BOOL legacyMedicineSlot;
+
     if (slot == NULL || itemId == ITEM_INFINITE_CANDY || itemId == ITEM_INFINITE_REJUVINATOR || itemId == ITEM_INFINITE_ASHES) {
         return FALSE;
     }
+    legacyMedicineSlot = slot >= bag->medicine && slot < bag->medicine + NUM_BAG_MEDICINE;
     slot->quantity -= quantity;
     if (slot->quantity == 0) {
         slot->id = ITEM_NONE;
@@ -225,8 +291,12 @@ BOOL Bag_TakeItem(BAG_DATA *bag, u16 itemId, u16 quantity, int heap_id) {
         u32 count;
         u32 UNUSED pocket_id;
 
-        pocket_id = Bag_GetItemPocket(bag, itemId, &slot, &count, heap_id);
-        PocketCompaction(slot, count);
+        if (legacyMedicineSlot) {
+            PocketCompaction(bag->medicine, NUM_BAG_MEDICINE);
+        } else {
+            pocket_id = Bag_GetItemPocket(bag, itemId, &slot, &count, heap_id);
+            PocketCompaction(slot, count);
+        }
     }
     return TRUE;
 }

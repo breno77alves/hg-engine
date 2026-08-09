@@ -1798,7 +1798,7 @@ pokemon SPECIES_ELEKID
 pokemon SPECIES_IGGLYBUFF
 pokemon SPECIES_PICHU
 pokemon SPECIES_PICHU
-pokemon SPECIES_IGGLYBUFF
+monwithform SPECIES_ROCKRUFF, 1
 
 // day encounter slots
 pokemon SPECIES_TEDDIURSA
@@ -1812,7 +1812,7 @@ pokemon SPECIES_ELEKID
 pokemon SPECIES_IGGLYBUFF
 pokemon SPECIES_PICHU
 pokemon SPECIES_PICHU
-pokemon SPECIES_IGGLYBUFF
+monwithform SPECIES_ROCKRUFF, 1
 
 // night encounter slots
 pokemon SPECIES_TEDDIURSA
@@ -1826,7 +1826,7 @@ pokemon SPECIES_MAGBY
 pokemon SPECIES_CLEFFA
 pokemon SPECIES_AZURILL
 pokemon SPECIES_AZURILL
-pokemon SPECIES_CLEFFA
+monwithform SPECIES_ROCKRUFF, 1
 
 // hoenn encounter slots
 pokemon SPECIES_PLUSLE

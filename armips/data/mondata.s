@@ -20210,7 +20210,7 @@ mondata SPECIES_SKELEDIRGE, "Skeledirge"
     abilities ABILITY_BLAZE, ABILITY_NONE
     runchance 0
     colorflip BODY_COLOR_RED, 0
-    mondexentry SPECIES_SKELEDIRGE, "Skeledirge’s gentle singing soothes the souls of all that hear it. It burns its enemies to a crisp with flames of over 5,400 degrees Fahrenheit."
+    mondexentry SPECIES_SKELEDIRGE, "Its gentle singing soothes every soul.\nIt burns foes to a crisp with flames\nhotter than 5,400 degrees Fahrenheit."
     mondexclassification SPECIES_SKELEDIRGE, "Singer Pokémon"
     mondexheight SPECIES_SKELEDIRGE, "5’03”"
     mondexweight SPECIES_SKELEDIRGE, "719.8 lbs."
@@ -20252,7 +20252,7 @@ mondata SPECIES_QUAXWELL, "Quaxwell"
     abilities ABILITY_TORRENT, ABILITY_NONE
     runchance 0
     colorflip BODY_COLOR_BLUE, 0
-    mondexentry SPECIES_QUAXWELL, "The hardworking Quaxwell observes people and Pokémon from various regions and incorporates their movements into its own dance routines."
+    mondexentry SPECIES_QUAXWELL, "It studies the movements of people and\nPokémon from many regions, then works\nthem into its own dance routines."
     mondexclassification SPECIES_QUAXWELL, "Practicing Pokémon"
     mondexheight SPECIES_QUAXWELL, "3’11”"
     mondexweight SPECIES_QUAXWELL, "47.4 lbs."
@@ -20273,7 +20273,7 @@ mondata SPECIES_QUAQUAVAL, "Quaquaval"
     abilities ABILITY_TORRENT, ABILITY_NONE
     runchance 0
     colorflip BODY_COLOR_BLUE, 0
-    mondexentry SPECIES_QUAQUAVAL, "Dancing in ways that evoke far-away places, this Pokémon mesmerizes all that see it. Flourishes of its decorative water feathers slice into its foes."
+    mondexentry SPECIES_QUAQUAVAL, "Its dance evokes faraway places and\nmesmerizes all who see it. Flourishes\nof water feathers slice into foes."
     mondexclassification SPECIES_QUAQUAVAL, "Dancer Pokémon"
     mondexheight SPECIES_QUAQUAVAL, "5’11”"
     mondexweight SPECIES_QUAQUAVAL, "136.5 lbs."
@@ -20399,7 +20399,7 @@ mondata SPECIES_LOKIX, "Lokix"
     abilities ABILITY_SWARM, ABILITY_NONE
     runchance 0
     colorflip BODY_COLOR_GRAY, 0
-    mondexentry SPECIES_LOKIX, "It uses its normally folded third set of legs when in Showdown Mode. This places a huge burden on its body, so it can’t stay in this mode for long."
+    mondexentry SPECIES_LOKIX, "In Showdown Mode, it uses its normally\nfolded third set of legs. The burden is\nso great that it cannot last for long."
     mondexclassification SPECIES_LOKIX, "Grasshopper Pokémon"
     mondexheight SPECIES_LOKIX, "3’03”"
     mondexweight SPECIES_LOKIX, "38.6 lbs."
@@ -20420,7 +20420,7 @@ mondata SPECIES_PAWMI, "Pawmi"
     abilities ABILITY_STATIC, ABILITY_NATURAL_CURE
     runchance 0
     colorflip BODY_COLOR_YELLOW, 0
-    mondexentry SPECIES_PAWMI, "The pads of its paws are electricity-discharging organs. Pawmi fires electricity from its forepaws while standing unsteadily on its hind legs."
+    mondexentry SPECIES_PAWMI, "Its paw pads are electric organs. It\nfires electricity from its forepaws\nwhile standing on its hind legs."
     mondexclassification SPECIES_PAWMI, "Mouse Pokémon"
     mondexheight SPECIES_PAWMI, "1’00”"
     mondexweight SPECIES_PAWMI, "5.5 lbs."
@@ -20441,7 +20441,7 @@ mondata SPECIES_PAWMO, "Pawmo"
     abilities ABILITY_VOLT_ABSORB, ABILITY_NATURAL_CURE
     runchance 0
     colorflip BODY_COLOR_YELLOW, 0
-    mondexentry SPECIES_PAWMO, "Pawmo uses a unique fighting technique in which it uses its forepaws to strike foes and zap them with electricity from its paw pads simultaneously."
+    mondexentry SPECIES_PAWMO, "It strikes foes with its forepaws while\nzapping them with electricity from its\npaw pads at the very same time."
     mondexclassification SPECIES_PAWMO, "Mouse Pokémon"
     mondexheight SPECIES_PAWMO, "1’04”"
     mondexweight SPECIES_PAWMO, "14.3 lbs."
@@ -20567,7 +20567,7 @@ mondata SPECIES_SMOLIV, "Smoliv"
     abilities ABILITY_EARLY_BIRD, ABILITY_NONE
     runchance 0
     colorflip BODY_COLOR_GREEN, 0
-    mondexentry SPECIES_SMOLIV, "This Pokémon converts nutrients into oil, which it stores in the fruit on its head. It can easily go a whole week without eating or drinking."
+    mondexentry SPECIES_SMOLIV, "It converts nutrients into oil and\nstores it in the fruit on its head. It\ncan go a week without eating or drinking."
     mondexclassification SPECIES_SMOLIV, "Olive Pokémon"
     mondexheight SPECIES_SMOLIV, "1’00”"
     mondexweight SPECIES_SMOLIV, "14.3 lbs."
@@ -20651,7 +20651,7 @@ mondata SPECIES_NACLI, "Nacli"
     abilities ABILITY_PURIFYING_SALT, ABILITY_STURDY
     runchance 0
     colorflip BODY_COLOR_BROWN, 0
-    mondexentry SPECIES_NACLI, "The ground scrapes its body as it travels, causing it to leave salt behind. Salt is constantly being created and replenished inside Nacli’s body."
+    mondexentry SPECIES_NACLI, "As it travels, the ground scrapes its\nbody and leaves salt behind. Salt is\nalways forming inside Nacli's body."
     mondexclassification SPECIES_NACLI, "Rock Salt Pokémon"
     mondexheight SPECIES_NACLI, "1’04”"
     mondexweight SPECIES_NACLI, "35.3 lbs."
@@ -21281,7 +21281,7 @@ mondata SPECIES_BOMBIRDIER, "Bombirdier"
     abilities ABILITY_BIG_PECKS, ABILITY_KEEN_EYE
     runchance 0
     colorflip BODY_COLOR_WHITE, 0
-    mondexentry SPECIES_BOMBIRDIER, "Bombirdier uses the apron on its chest to bundle up food, which it carries back to its nest. It enjoys dropping things that make loud noises."
+    mondexentry SPECIES_BOMBIRDIER, "It bundles food in its chest apron and\ncarries it back to its nest. It enjoys\ndropping things that make loud noises."
     mondexclassification SPECIES_BOMBIRDIER, "Item Drop Pokémon"
     mondexheight SPECIES_BOMBIRDIER, "4’11”"
     mondexweight SPECIES_BOMBIRDIER, "94.6 lbs."
@@ -21344,7 +21344,7 @@ mondata SPECIES_VAROOM, "Varoom"
     abilities ABILITY_OVERCOAT, ABILITY_NONE
     runchance 0
     colorflip BODY_COLOR_GRAY, 0
-    mondexentry SPECIES_VAROOM, "The steel section is Varoom’s actual body. This Pokémon clings to rocks and converts the minerals within into energy to fuel its activities."
+    mondexentry SPECIES_VAROOM, "Its steel section is its actual body.\nIt clings to rocks and converts their\nminerals into fuel for its activities."
     mondexclassification SPECIES_VAROOM, "Single-Cyl Pokémon"
     mondexheight SPECIES_VAROOM, "3’03”"
     mondexweight SPECIES_VAROOM, "77.2 lbs."
@@ -21575,7 +21575,7 @@ mondata SPECIES_VELUZA, "Veluza"
     abilities ABILITY_MOLD_BREAKER, ABILITY_NONE
     runchance 0
     colorflip BODY_COLOR_GRAY, 0
-    mondexentry SPECIES_VELUZA, "Veluza has excellent regenerative capabilities. It sheds spare flesh from its body to boost its agility, then charges at its prey."
+    mondexentry SPECIES_VELUZA, "It has excellent regenerative powers.\nIt sheds spare flesh to boost its agility,\nthen charges straight at its prey."
     mondexclassification SPECIES_VELUZA, "Jettison Pokémon"
     mondexheight SPECIES_VELUZA, "8’02”"
     mondexweight SPECIES_VELUZA, "198.4 lbs."
