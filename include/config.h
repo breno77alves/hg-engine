@@ -63,6 +63,8 @@
 // commenting this line out disables critical captures
 #define IMPLEMENT_CRITICAL_CAPTURE
 
+// Gen 9+ forces the critical-capture animation for a successful capture of an already caught species
+// and counts only regional-dex species when calculating the critical-capture chance.
 #define CRITICAL_CAPTURE_GENERATION GEN_LATEST
 
 // IMPLEMENT_NEW_EV_IV_VIEWER defines whether or not pressing L, R, or Select in the pokémon summaries will display EV's, IV's, or the raw stat
