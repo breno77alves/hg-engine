@@ -71,6 +71,24 @@ void LONG_CALL BattleController_MoveEndInternal(struct BattleSystem *bsys, struc
             }
         }
 
+        if (ctx->attack_client != BATTLER_NONE
+            && ctx->defence_client != BATTLER_NONE
+            && ctx->moveTbl[ctx->current_move_index].effect == MOVE_EFFECT_FORCE_SWITCH_HIT
+            && ctx->battlemon[ctx->attack_client].hp > 0
+            && ctx->battlemon[ctx->defence_client].hp > 0
+            && (ctx->oneSelfFlag[ctx->defence_client].physical_damage
+                || ctx->oneSelfFlag[ctx->defence_client].special_damage)
+            && !(ctx->battlemon[ctx->defence_client].condition2 & STATUS2_SUBSTITUTE)
+            && !ctx->oneTurnFlag[ctx->attack_client].forceSwitchProcessedFlag) {
+            ctx->oneTurnFlag[ctx->attack_client].forceSwitchProcessedFlag = 1;
+            ctx->addeffect_type = ADD_EFFECT_MOVE_EFFECT;
+            ctx->state_client = ctx->attack_client;
+            LoadBattleSubSeqScript(ctx, ARC_BATTLE_SUB_SEQ, SUB_SEQ_FORCE_OUT);
+            ctx->next_server_seq_no = ctx->server_seq_no;
+            ctx->server_seq_no = CONTROLLER_COMMAND_RUN_SCRIPT;
+            return;
+        }
+
         // TODO: A rampage move that fails (Thrash, Outrage etc) will cancel except on the last turn
         if (ctx->battlemon[ctx->attack_client].condition2 & STATUS2_RAMPAGE_TURNS && !ctx->oneTurnFlag[ctx->attack_client].rampageProcessedFlag) {
                 ctx->oneTurnFlag[ctx->attack_client].rampageProcessedFlag = 1;
@@ -226,6 +244,7 @@ void LONG_CALL BattleController_MoveEndInternal(struct BattleSystem *bsys, struc
 
     ctx->oneTurnFlag[ctx->attack_client].chargeProcessedFlag = 0;
     ctx->oneTurnFlag[ctx->attack_client].rampageProcessedFlag = 0;
+    ctx->oneTurnFlag[ctx->attack_client].forceSwitchProcessedFlag = 0;
     // debug_printf("locked into move: %d\n", (ctx->battlemon[ctx->attack_client].condition2 & STATUS2_LOCKED_INTO_MOVE));
     // debug_printf("BATTLE_STATUS_CHARGE_MOVE_HIT %d\n", ctx->server_status_flag & BATTLE_STATUS_CHARGE_MOVE_HIT);
 
