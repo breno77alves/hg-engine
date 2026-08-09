@@ -187,6 +187,14 @@ Verify valid normal/hidden ability IDs for Frigibax, Arctibax, and Baxcalibur, t
 evolve through both stages and save/reload. Expected: no invalid ability, unexpected
 slot remap, or loss/change outside the intended evolution mapping.
 
+Automated regression status: **PASS**. The generated 44-byte Frigibax personal
+record stores Thermal Exchange as ID 270 (`0x010E`) and ability slot 2 as zero;
+Arctibax and Baxcalibur share that normal ability, while the hidden table retains
+Ice Body. The full 9-bit path through Box/Party save data, battle data, summaries,
+PC, gifts, trainers, and evolution data is source-locked; a full clean build and
+melonDS JIT boot pass. Wild/trainer/gift acquisition, both evolution animations,
+PC/party summary display, and V2.0 save/reload remain **NOT RUN** pending fixtures.
+
 ## Mega Stone audit tests
 
 For every stone listed in `docs/MEGA_STONE_AUDIT.md`, verify the intended acquisition

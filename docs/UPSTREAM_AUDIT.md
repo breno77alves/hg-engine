@@ -181,7 +181,9 @@ applies:
   (fixed in V2.1 by replacing the inherited five-Potion block with unconditional
   Infinite Candy and Infinite Rejuv rewards; playable save-fixture verification
   pending);
-- Frigibax family ability IDs and evolution persistence;
+- Frigibax family ability IDs and evolution persistence (9-bit ability storage
+  fixed in V2.1 without changing BoxPokemon/save size; playable evolution and
+  save-fixture verification pending);
 - availability and functionality of every intended Mega Stone;
 - Ariana's simultaneous opponent faint crash;
 - save compatibility at early game, 8 badges, Champion, and 16 badges/Red.
@@ -239,3 +241,4 @@ being inferred from source inspection.
 | `75ef1e1b39add295ea9b986cd91ecc5fc94f25ba` | Applied: Gems require a damaging split and no longer activate on same-type status moves | Source/behavior contract, clean build, and melonDS JIT boot PASS; in-battle fixture pending |
 | `cb721681e62012d864b01620a6d08034f08b948c` | Applied: Water Absorb intercepts Water-type status moves in modern generations | Source/behavior contract, clean build, and melonDS JIT boot PASS; in-battle fixture pending |
 | `784e888295ce5cbac932771ce7524c28ad26fc10` | Applied semantically: Defiant and Competitive now use independent Attack and Special Attack caps | Source/behavior contract, clean build, and melonDS JIT boot PASS; in-battle fixture pending |
+| `8360f1a49`, `f08ed4387`, `26d08f4ca`, `3c86a02cc`, `c73cd3e5d`, `6183b8c77`, `dd96b56f7`, `367f28277`, `dd0c9e7cb`, corrected by `ad7369950` and `c6a90c414` | Applied as a reviewed chain: personal data, Box/Party save storage, BattlePokemon, summary/PC, GiveMon, trainer parties, AddBoxMonData, and both Set/GetBattlerVar retain ability IDs 256-511. The old EXP field is split into 21 legal EXP bits, ten unused bits, and one ability MSB, preserving the 0x88-byte BoxPokemon/save ABI. The Imposter copy bound remains at the old 0x26 field boundary and level calculation consumes only the 21-bit EXP value. | 18/18 automated contracts PASS; Frigibax NARC record is 44 bytes with ability1=270 and ability2=0; full clean and incremental builds PASS; melonDS JIT boot PASS on ROM SHA-256 `4CD19941084ACF3EA871E7B4093456B8C6A715AE6ABE356F70B4389D94C8BC1A`; playable wild/trainer/gift/evolution/save matrix pending fixture |

@@ -203,7 +203,9 @@ typedef struct {
     /* 0x00 */ u16 species;
     /* 0x02 */ u16 heldItem;
     /* 0x04 */ u32 otID; // low 16: visible; high 16: secret
-    /* 0x08 */ u32 exp;
+    /* 0x08 */ u32 exp:21; // maximum legal experience fits in 21 bits
+               u32 unused:10;
+               u32 abilityMSB:1; // ninth ability-ID bit; preserves the save layout
     /* 0x0C */ u8 friendship;
     /* 0x0D */ u8 ability;
     /* 0x0E */ u8 markings; // circle, triangle, square, heart, star, diamond
@@ -1182,6 +1184,15 @@ u32 LONG_CALL PokeParaLevelExpGet(struct PartyPokemon *pp);
 u32 LONG_CALL PokeLevelUpCheck(struct PartyPokemon *pp);
 
 /**
+ * @brief Calculate a species' level from its stored experience.
+ *
+ * @param species species index
+ * @param exp total experience
+ * @return corresponding level
+ */
+u32 LONG_CALL CalcLevelBySpeciesAndExp(u32 species, u32 exp);
+
+/**
  *  @brief check if a Party has a specific species
  *
  *  @param party Party to check through
@@ -1794,7 +1805,7 @@ u16 LONG_CALL get_mon_ow_tag(u16 species, u32 form, u32 isFemale);
  *  @param encounterType encounter type
  *  @return TRUE if successful; FALSE otherwise
  */
-BOOL LONG_CALL GiveMon(int heapId, void *saveData, int species, int level, int forme, u8 ability, u16 heldItem, int ball, int encounterType);
+BOOL LONG_CALL GiveMon(int heapId, void *saveData, int species, int level, int forme, u16 ability, u16 heldItem, int ball, int encounterType);
 
 //BOOL LONG_CALL AddWildPartyPokemon(int inTarget, EncounterInfo *encounterInfo, struct PartyPokemon *encounterPartyPokemon, struct BATTLE_PARAM *encounterBattleParam);
 

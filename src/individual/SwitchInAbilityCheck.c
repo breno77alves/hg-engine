@@ -594,7 +594,10 @@ int UNUSED SwitchInAbilityCheck(void *bw, struct BattleStruct *sp)
                             src = (u8 *)&sp->battlemon[sp->attack_client];
                             dest = (u8 *)&sp->battlemon[sp->defence_client];
 
-                            for (num = 0; num <= (int)offsetof(struct BattlePokemon, ability); num++) {
+                            // Copy only through the original form/shiny byte. The
+                            // expanded ability now lives at 0x7A; using offsetof
+                            // here would also overwrite HP, status, EXP, and item.
+                            for (num = 0; num <= 0x26; num++) {
                                 src[num] = dest[num];
                             }
 

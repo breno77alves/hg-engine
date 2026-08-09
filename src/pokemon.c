@@ -535,6 +535,90 @@ void LONG_CALL SetBoxMonAbility(struct BoxPokemon *boxmon) // actually takes box
     BoxMonSetFastModeOff(boxmon, fastMode);
 }
 
+struct BoxMonSubstructs {
+    PokemonDataBlockA *blockA;
+    PokemonDataBlockB *blockB;
+    PokemonDataBlockC *blockC;
+    PokemonDataBlockD *blockD;
+};
+
+/**
+ * @brief Handle fields whose representation extends the vanilla BoxPokemon API.
+ *
+ * The ninth ability bit occupies an otherwise unused high experience bit. Legal
+ * Gen 4 growth tables never reach bit 21, so this preserves both the 0x88-byte
+ * BoxPokemon layout and every valid V2.0 experience value.
+ */
+BOOL SetBoxMonData_EditedCases(struct BoxMonSubstructs *blocks, u32 field, void *data)
+{
+    PokemonDataBlockA *blockA = blocks->blockA;
+    PokemonDataBlockD *blockD = blocks->blockD;
+
+    switch (field) {
+    case MON_DATA_ABILITY: {
+        u16 ability = *((u16 *)data);
+        blockA->ability = ability & 0xFF;
+        blockA->abilityMSB = (ability >> 8) & 0x01;
+        return TRUE;
+    }
+    case MON_DATA_EXPERIENCE:
+        blockA->exp = *((u32 *)data);
+        return TRUE;
+    case MON_DATA_MET_LEVEL:
+        blockD->metLevel = *((u8 *)data);
+        return TRUE;
+    default:
+        return FALSE;
+    }
+}
+
+u32 GetBoxMonData_EditedCases(struct BoxMonSubstructs *blocks, u32 field, void *data UNUSED, BOOL *retBool)
+{
+    PokemonDataBlockA *blockA = blocks->blockA;
+    PokemonDataBlockD *blockD = blocks->blockD;
+
+    *retBool = TRUE;
+    switch (field) {
+    case MON_DATA_ABILITY:
+        return (blockA->abilityMSB << 8) | (blockA->ability);
+    case MON_DATA_EXPERIENCE:
+        return blockA->exp;
+    case MON_DATA_MET_LEVEL:
+        return blockD->metLevel;
+    case MON_DATA_LEVEL:
+        return CalcLevelBySpeciesAndExp(blockA->species, blockA->exp);
+    default:
+        *retBool = FALSE;
+        return 0;
+    }
+}
+
+BOOL AddBoxMonData_EditedCases(struct BoxMonSubstructs *blocks, u32 field, int data)
+{
+    PokemonDataBlockA *blockA = blocks->blockA;
+
+    switch (field) {
+    case MON_DATA_EXPERIENCE: {
+        u32 maximum = PokeLevelExpGet(blockA->species, 100);
+        u32 amount = (u32)data;
+        if (blockA->exp >= maximum || amount > maximum - blockA->exp) {
+            blockA->exp = maximum;
+        } else {
+            blockA->exp += amount;
+        }
+        return TRUE;
+    }
+    case MON_DATA_ABILITY: {
+        u16 ability = (u16)data;
+        blockA->ability = ability & 0xFF;
+        blockA->abilityMSB = (ability >> 8) & 0x01;
+        return TRUE;
+    }
+    default:
+        return FALSE;
+    }
+}
+
 /**
  *  @brief get species base experience, modified for form.  base experience is no longer in personal
  *
@@ -1477,7 +1561,7 @@ u16 LONG_CALL get_mon_ow_tag(u16 species, u32 form, u32 isFemale)
  *  @param encounterType encounter type
  *  @return TRUE if successful; FALSE otherwise
  */
-BOOL LONG_CALL GiveMon(int heapId, void *saveData, int species, int level, int forme, u8 ability, u16 heldItem, int ball, int encounterType) {
+BOOL LONG_CALL GiveMon(int heapId, void *saveData, int species, int level, int forme, u16 ability, u16 heldItem, int ball, int encounterType) {
     struct Party *party;
     struct PartyPokemon *pokemon;
     void *profile;

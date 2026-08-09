@@ -46,6 +46,7 @@ paths and known gaps instead of classifying moves from their descriptions alone.
 | No Guard | Semi-invulnerability gate inverted and attacker-only | Symmetric attacker/defender bypass restored | Dedicated regression, clean build, JIT boot PASS |
 | Water Absorb | Required nonzero move power | Water status moves are intercepted in modern generations | Dedicated regression, clean build, JIT boot PASS |
 | Defiant / Competitive | Shared Attack cap blocked Competitive | Independent Attack/Special Attack caps | Dedicated regression, clean build, JIT boot PASS |
+| Frigibax family / abilities 256-511 | Personal records contained Thermal Exchange (270), but the V2.0 `u8` path discarded or truncated it | Personal, Box/Party, battle, summary, PC, gift, and trainer paths retain 9-bit IDs; Thermal Exchange is 270 and Ice Body remains the hidden ability | Dedicated regression, generated-NARC inspection, full clean build, and JIT boot PASS; wild/trainer/gift/evolution/save fixture pending |
 | Steel poison immunity / Corrosion | Early poison gate omitted Steel | Steel and Poison are immune; Corrosion remains the bypass | Dedicated regression, clean build, JIT boot PASS |
 | Clear Body | Local gate already permits self-inflicted drops | Upstream fix already represented semantically | Preserve | Source inspection PASS |
 | Anger Point | Older critical-hit script directly sets Attack to +6 | Newer upstream +6/+12 constant bug does not exist in this script | Preserve | Source inspection PASS; critical-hit fixture pending |
@@ -56,6 +57,12 @@ paths and known gaps instead of classifying moves from their descriptions alone.
 Type Gems now require a damaging move and no longer activate on status moves. The
 change is covered by a dedicated contract and applies across the move set without
 altering move data or campaign balance.
+
+Expanded ability storage reuses the previously unused top bit of BoxPokemon EXP:
+EXP remains 21 bits (more than every legal level-100 total), the next ten bits stay
+unused, and bit 31 stores the ability's ninth bit. The BoxPokemon/save structure
+size is unchanged, so valid V2.0 saves keep their exact EXP and decode legacy
+abilities with a zero high bit.
 
 ## Deliberately excluded work
 
