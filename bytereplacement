@@ -459,3 +459,17 @@ arm9 020821B0 DB
 
 # nop out selection of cancel when the item won't have an effect
 arm9 0207C3AC 00 00 00 00
+
+# Current non-runtime antipiracy patch (upstream b15b01c9f).
+#ifdef APPLY_ANTIPIRACY
+
+# card checks return TRUE
+0001 021E662C 01 20 70 47
+# neuter dsprotect
+0123 0225F0CC E0 FC FF FF
+0123 0225F184 E0 FC FF FF
+
+#endif
+
+# restore the original ARM9 decompression path used before the legacy AP hook
+arm9 02000A18 1E FF 2F E1

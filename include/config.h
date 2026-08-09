@@ -3,6 +3,10 @@
 
 #define GEN_LATEST 9
 
+// Apply the direct card-check/dsprotect patches used by current upstream. This
+// avoids the older runtime decompression hook and is compatible with DSpico.
+#define APPLY_ANTIPIRACY
+
 // FAIRY_TYPE_IMPLEMENTED should be used if you want to implement the fairy type and overwrite type 9 in this project
 // set FAIRY_TYPE_IMPLEMENTED to 0 if you do not want this to happen
 #define FAIRY_TYPE_IMPLEMENTED 1

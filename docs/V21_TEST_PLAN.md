@@ -248,8 +248,12 @@ the representative species remain **NOT RUN** pending party and clock fixtures.
 
 ## Compatibility and antipiracy
 
-Compare Generations and current upstream antipiracy, overlay-loading, and memory
-patches before enabling anything. Emulator passes do not substitute for hardware.
+Automated regression status: **PASS** for the current upstream source contract. The
+legacy runtime decompression hook was removed, the original ARM9 path is restored,
+overlay 123 is decompressed at build time, and direct card-check/dsprotect patches
+from `b15b01c9f` are enabled. Both 60 FPS options remain disabled.
+
+Emulator passes do not substitute for hardware.
 On available DS/3DS and flashcart setups test boot, save/load, repeated battles,
 overlays used by summary/bag/PC, Hall of Fame, and extended play. Record exact device,
 firmware, loader, and ROM hash.
