@@ -70,6 +70,7 @@ These local commits are the content identity that selective backporting must ret
 | Simultaneous faint and EXP | `c67ac01faafc2d5d00763ca444d239024156ff8c`, `031c579a4698f43832f75cb3cf11ba043fd6e229`, finalized by `5418b65cf` with hook dependency `3265d051c` | A/C | Backported semantically in V2.1 | The older Generations controller applies spread damage sequentially, so the final behavior is reconstructed with a per-active-slot faint latch instead of importing the newer batch-damage pipeline; species remains intact for EXP and the latch resets only when a replacement is loaded | Automated same-trainer double-KO/duplicate/replacement contract, full clean build, and JIT boot PASS; Ariana in-battle fixture pending |
 | Two fainted battlers from same trainer | `031c579a4698f43832f75cb3cf11ba043fd6e229`, superseded by final `5418b65cf` semantics | A | Backported as part of the faint subsystem | Each opposing active slot can faint independently even when both belong to one trainer; the intermediate `TRAINER_BOTH` bookkeeping is not imported because final upstream removed it | Ariana double-KO regression covered by source/behavior contract; in-battle fixture pending |
 | Critical Capture generation guard | `22df8b40f3fe374675589e81d5e55390e51d1451` | A/B | Backported in V2.1; Critical Capture and its generation macro were already enabled | Restricted the already-caught one-shake animation override to Gen 9+ without changing capture probabilities; regional-versus-national caught-species counting was already generation-gated locally | Gen 8/9 source/behavior contract and clean-code build PASS; current Gen 9 ROM is byte-identical to the prior JIT-tested artifact; in-battle capture animation fixture pending |
+| No Guard versus semi-invulnerability | `ee3870ccf0`, symmetric accuracy behavior from `b9b9cab7363b492ebb13ce010a70a45d767079dd`, final helper semantics first visible in `8d780780b7881a426417162c8d783ee09d248a91` | A | Backported semantically in V2.1 | Replaced the inverted attacker-only condition with direct checks for No Guard on both the attacker and the currently iterated defender; did not import the Dragon Darts refactor | Attacker/defender, Lock-On, target-range, and semi-invulnerability contract PASS; clean-code build and melonDS JIT boot PASS; in-battle Fly/Dig/Dive/Shadow Force fixture pending |
 | Capture EXP fixes | `8b448a7e`, `153045c54`, `07fe8db4b` | B | All three are ancestors/present in base | No implementation backport; regression-test with level cap | Participants, EXP Share, full party, level-up/evolution, cap |
 
 ## No Guard finding
@@ -80,18 +81,19 @@ The No Guard issue cannot be represented by a single issue-number commit.
    present in the Generations base. Its sure-hit path checks No Guard on both the
    attacker and target.
 2. The Generations `BattleController_CheckSemiInvulnerability` path predates that
-   commit (`ee3870ccf0`) and independently checks only the attacker's No Guard.
-   Because this check runs in the BeforeMove pipeline, a defender with No Guard may
-   still be rejected while using Fly, Dig, Dive, or a similar state.
+   commit (`ee3870ccf0`). Its attacker-only expression was also inverted as
+   `!(ability != ABILITY_NO_GUARD)`: ordinary attackers could bypass the miss while
+   attackers with No Guard entered it, and the defender was never checked.
 3. Upstream's final helper, `CanHitThroughSemiInvulnerability`, explicitly checks
    both attacker and defender. The semantic change first appears inside the broad
    Dragon Darts draft `8d780780b7881a426417162c8d783ee09d248a91`; a later formatting
    commit obscures it in `git blame`.
 
-The safe V2.1 backport is therefore the minimal defender-side ability check in the
-existing Generations semi-invulnerability function, not the Dragon Darts refactor.
-It remains gated on dedicated attacker/defender, ordinary accuracy, OHKO,
-accuracy/evasion, Fury Cutter, and semi-invulnerability tests.
+The V2.1 backport replaces that expression with two direct `!= ABILITY_NO_GUARD`
+guards for the attacker and the currently iterated defender. This preserves the
+existing Generations semi-invulnerability flow without importing the Dragon Darts
+refactor. Dedicated attacker/defender, Lock-On, target-range, and
+semi-invulnerability tests cover the corrected condition.
 
 ## Requested systems already present in Generations V2.0
 
@@ -162,3 +164,4 @@ bulk-port its directory or all of its dependencies.
 | `531222a5e`, `22686956f`, `12cf75b8b`, `8242d462b`, `87d34f105`, `a18db2ce6`, finalized by `f5b5488e0` | Applied semantically: Circle Throw and Dragon Tail use a dedicated damage-only effect and force a valid surviving target out only after real damage; the local MoveEnd path prevents re-entry, supports ordinary doubles, and runs switch-in abilities before hazards | Source/behavior contract PASS; full clean build PASS; melonDS JIT boot PASS; in-battle Substitute, reserve, faint, ability, Red Card, and doubles matrix pending fixture |
 | `c67ac01faafc2d5d00763ca444d239024156ff8c`, `031c579a4698f43832f75cb3cf11ba043fd6e229`, finalized by `5418b65cf`, with command hook from `3265d051c` | Applied semantically for the older sequential-damage controller: faint handling preserves species for EXP, latches each active battler slot against duplicate processing, permits both same-trainer opponents to faint, and clears the latch on replacement | Source/behavior contract PASS; full clean build PASS; melonDS JIT boot PASS; Ariana in-battle fixture pending |
 | `22df8b40f3fe374675589e81d5e55390e51d1451` | Applied: the already-caught one-shake Critical Capture animation override now obeys `CRITICAL_CAPTURE_GENERATION >= 9`; the existing probability formula is unchanged | Gen 8/9 source/behavior contract PASS; clean-code build PASS; current Gen 9 ROM SHA-256 remains `FC727FE9FF47A461691C4D391E61192D01643239FB1CBD9D770B5523CF5C4CE7`, matching the prior melonDS JIT-tested artifact; in-battle animation fixture pending |
+| `ee3870ccf0`, corrected to final symmetric semantics from `8d780780b7881a426417162c8d783ee09d248a91` without its Dragon Darts refactor | Applied semantically: semi-invulnerability now causes a miss only when neither attacker nor defender has No Guard; the inverted attacker condition is removed | Source/behavior contract PASS; clean-code build PASS; melonDS JIT boot PASS on ROM SHA-256 `D988092D693323A90D1D672B9B9B14129A59F086F538C369FA3509E34654B745`; in-battle Fly, Dig, Dive, and Shadow Force matrix pending fixture |
