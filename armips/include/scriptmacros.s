@@ -6746,6 +6746,10 @@ FORM_ROCKET_DISGUISE                    equ 1024
 
 // 208 has been reused for new script commands
 .equ NEW_COMMAND_QUEUE_NEW_REPEL, 0
+.equ NEW_COMMAND_AUTOMATIC_HM_CHECK_FLY, 1
+.equ NEW_COMMAND_AUTOMATIC_HM_FLY, 2
+.equ NEW_COMMAND_AUTOMATIC_HM_TEACH, 3
+.equ NEW_COMMAND_AUTOMATIC_HM_CANCEL, 4
 
 .macro RunNewCommand,slot,unk
 DummyTextTrap slot, unk

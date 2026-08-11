@@ -118,3 +118,11 @@ NOT TELLING
 
 The repellent’s effect wore off!\nWould you like to use another one?
 You used the {STRVAR_1 8, 1, 0}.
+FLY
+TEACH
+CANCEL
+Fly cannot be used here.
+A Badge is required to use Fly.
+Fly cannot be used while a Pokemon is accompanying you.
+Fly cannot be used right now.
+There is no non-Egg Pokemon available to use Fly.

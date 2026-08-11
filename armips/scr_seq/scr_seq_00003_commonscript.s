@@ -87,6 +87,7 @@ scrdef scr_seq_0003_069
 scrdef scr_seq_0003_070
 scrdef scr_seq_0003_071
 scrdef scr_seq_0003_072_repels
+scrdef scr_seq_0003_073_automatic_hm_fly
 scrdef_end
 
 scr_seq_0003_002:
@@ -1735,6 +1736,72 @@ scr_seq_0003_064:
     npc_msg 100
     wait_button
     closemsg
+    releaseall
+    end
+
+scr_seq_0003_073_automatic_hm_fly:
+    play_se SEQ_SE_DP_SELECT
+    lockall
+    touchscreen_menu_hide
+    menu_init 1, 1, 0, 1, VAR_SPECIAL_RESULT
+    menu_item_add 120, 255, 0
+    menu_item_add 121, 255, 1
+    menu_item_add 122, 255, 2
+    menu_exec
+    switch VAR_SPECIAL_RESULT
+    case 0, _automatic_hm_fly_check
+    case 1, _automatic_hm_fly_teach
+    case 2, _automatic_hm_fly_cancel
+    goto _automatic_hm_fly_cancel
+
+_automatic_hm_fly_check:
+    RunNewCommand NEW_COMMAND_AUTOMATIC_HM_CHECK_FLY, VAR_SPECIAL_RESULT
+    switch VAR_SPECIAL_RESULT
+    case 0, _automatic_hm_fly_start
+    case 2, _automatic_hm_fly_need_badge
+    case 3, _automatic_hm_fly_follower
+    case 5, _automatic_hm_fly_not_now
+    case 6, _automatic_hm_fly_no_actor
+    goto _automatic_hm_fly_not_here
+
+_automatic_hm_fly_start:
+    RunNewCommand NEW_COMMAND_AUTOMATIC_HM_FLY, VAR_SPECIAL_RESULT
+    goto _automatic_hm_fly_finish
+
+_automatic_hm_fly_teach:
+    RunNewCommand NEW_COMMAND_AUTOMATIC_HM_TEACH, VAR_SPECIAL_RESULT
+    goto _automatic_hm_fly_finish
+
+_automatic_hm_fly_cancel:
+    RunNewCommand NEW_COMMAND_AUTOMATIC_HM_CANCEL, VAR_SPECIAL_RESULT
+    goto _automatic_hm_fly_finish
+
+_automatic_hm_fly_not_here:
+    npc_msg 123
+    goto _automatic_hm_fly_error
+
+_automatic_hm_fly_need_badge:
+    npc_msg 124
+    goto _automatic_hm_fly_error
+
+_automatic_hm_fly_follower:
+    npc_msg 125
+    goto _automatic_hm_fly_error
+
+_automatic_hm_fly_not_now:
+    npc_msg 126
+    goto _automatic_hm_fly_error
+
+_automatic_hm_fly_no_actor:
+    npc_msg 127
+
+_automatic_hm_fly_error:
+    wait_button
+    closemsg
+    RunNewCommand NEW_COMMAND_AUTOMATIC_HM_CANCEL, VAR_SPECIAL_RESULT
+
+_automatic_hm_fly_finish:
+    touchscreen_menu_show
     releaseall
     end
 

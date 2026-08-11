@@ -513,6 +513,9 @@ ItemMenuUseFunc_VSRecorder = 0x02065614 | 1;
 ItemFieldUseFunc_VSRecorder = 0x02065648 | 1;
 sub_0203FAE8 = 0x0203FAE8 | 1;
 sub_0203C8F0 = 0x0203C8F0 | 1;
+Task_StartMenu_ReopenBag = 0x0203CA68 | 1;
+QueueScript = 0x0203FED4 | 1;
+FieldMove_GetMoveFunc = 0x02067DF4 | 1;
 RegisteredItem_CreateGoToAppTask = 0x020658B8 | 1;
 
 PaletteRAMArray = 0x05000000;

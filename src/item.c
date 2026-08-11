@@ -4,6 +4,7 @@
 #include "../include/config.h"
 #include "../include/constants/file.h"
 #include "../include/constants/item.h"
+#include "../include/automatic_hm_fly.h"
 
 #define ITEM_DATA_MAX (ITEM_ENIGMA_STONE)
 #define ITEM_DATA_ENTRIES (513)
@@ -29,7 +30,7 @@ const struct ItemUseFuncDat sItemFieldUseFuncs[] = {
     { NULL, NULL, ItemCheckUseFunc_Dummy },
     { ItemMenuUseFunc_Bicycle, ItemFieldUseFunc_Bicycle, ItemCheckUseFunc_Bicycle },
     { NULL, NULL, ItemCheckUseFunc_Dummy },
-    { ItemMenuUseFunc_TMHM, NULL, NULL },
+    { ItemMenuUseFunc_AutomaticHmTmHm, NULL, NULL },
     { ItemMenuUseFunc_Mail, NULL, NULL },
     { ItemMenuUseFunc_Berry, NULL, ItemCheckUseFunc_Berry },
     { NULL, NULL, ItemCheckUseFunc_Dummy },
