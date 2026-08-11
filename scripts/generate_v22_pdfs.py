@@ -258,18 +258,23 @@ def evolution_pdf() -> None:
 
 def features_pdf() -> None:
     story = [
-        Paragraph("What v2.3 delivers", H1),
+        Paragraph("What v2.4 delivers", H1),
         table([
-            ["Area", "v2.3 status"],
+            ["Area", "v2.4 status"],
+            ["Starter choices", "Deterministic Johto and Kanto trios derived from the full Trainer ID"],
             ["National Dex", "1,025/1,025 species obtainable in one save"],
             ["Functional forms", "61 documented regional or item-driven forms"],
             ["Trades", "No real trade or connection required"],
             ["Automatic HMs", "All eight field HMs work without being taught; HM, badge, map and story checks remain"],
             ["Battle D-pad", "Pressing Up while RUN is focused selects FIGHT without confirming it"],
-            ["Save compatibility", "Persistent layouts preserved from v2.0 through v2.2.1"],
+            ["Save compatibility", "Persistent layouts preserved from v2.0 through v2.3"],
             ["Frame rate", "60 FPS / uncapped-frame-rate hacks remain disabled for hardware stability"],
             ["Distribution", "Code, documentation and xdelta patch only; full ROM remains local"],
         ], [50 * mm, 145 * mm]),
+        Paragraph("Randomized starters", H1),
+        Paragraph(
+            "Each save receives a stable three-choice trio at Elm and a different stable trio at Oak. Choices never include legendary, mythical, sublegendary, Ultra Beast or Paradox species; every candidate is a first-stage Pokemon with an evolution and complete game resources. Each trio has three different primary types, and all six offered species are different. The six classic Johto and Kanto starters remain obtainable on Route 34.", BODY,
+        ),
         Paragraph("Automatic field HMs", H1),
         Paragraph(
             "Cut, Surf, Strength, Rock Smash, Whirlpool, Waterfall and Rock Climb work through their original contextual interactions. Fly is available from HM02 in the Bag through FLY / TEACH / CANCEL. Automatic use requires the matching HM, its original badge and at least one non-Egg Pokemon; the first non-Egg party member is the visual actor. HMs remain teachable for battle use.", BODY,
@@ -298,10 +303,10 @@ def features_pdf() -> None:
     build_pdf(
         DOCS / "Features,QoL, and Known Bugs.pdf",
         "Features, QoL, and Known Bugs",
-        "Player-facing v2.3 feature and compatibility reference",
+        "Player-facing v2.4 feature and compatibility reference",
         story,
-        release="v2.3",
-        release_line="v2.3 - Automatic HMs & Battle D-pad",
+        release="v2.4",
+        release_line="v2.4 - Random Starters per Save",
     )
 
 
@@ -353,11 +358,19 @@ def availability_pdf() -> None:
     story = [
         Paragraph("Coverage", H1),
         Paragraph(
-            "This replaces the old Non-Included Pokemon document. It contains one row for every National Dex species plus every supported functional form: 1,025 species and 61 form targets.", BODY,
+            "This replaces the old Non-Included Pokemon document. It contains one row for every National Dex species plus every supported functional form: 1,025 species and 61 form targets. In v2.4, Elm and Oak also offer deterministic random gifts; Bulbasaur, Charmander, Squirtle, Chikorita, Cyndaquil and Totodile remain available in the Route 34 wild tables.", BODY,
         ),
         table(rows, [43 * mm, 39 * mm, 65 * mm, 23 * mm, 20 * mm, 77 * mm], font=5.4),
     ]
-    build_pdf(DOCS / "Pokemon Availability.pdf", "Pokemon Availability", "Complete single-save availability matrix generated from the v2.2 manifest", story, wide=True)
+    build_pdf(
+        DOCS / "Pokemon Availability.pdf",
+        "Pokemon Availability",
+        "v2.4 single-save availability reference generated from the complete v2.2 matrix",
+        story,
+        wide=True,
+        release="v2.4",
+        release_line="v2.4 - Random Starters per Save",
+    )
 
 
 def wild_pdf() -> None:
@@ -368,10 +381,11 @@ def wild_pdf() -> None:
         Paragraph(
             "Grass slots always use 20/20/10/10/10/10/5/5/4/4/1/1 percent. Legendary, mythical and post-game special additions occupy 1% slots in morning, day and night. Water slot columns use 60/30/5/4/1 percent.", BODY,
         ),
-        Paragraph("Locked v2.2 placements", H1),
+        Paragraph("Locked availability placements", H1),
         table([
             ["Location", "Morning", "Day", "Night"],
             ["Route 29", "Yamper 10%", "Yamper 10%", "Yamper 5%"],
+            ["Route 34", "Bulbasaur; Chikorita", "Squirtle; Totodile", "Charmander; Cyndaquil"],
             ["National Park", "Dracozolt 1%; Arctozolt 1%", "Dracovish 1%; Arctovish 1%", "Aerodactyl 1%"],
         ], [50 * mm, 72 * mm, 72 * mm, 72 * mm]),
     ]
@@ -410,7 +424,15 @@ def wild_pdf() -> None:
         if len(water_rows) > 1:
             section.extend([Spacer(1, 2 * mm), table(water_rows, [25 * mm, 18 * mm] + [44 * mm] * 5, font=5.4)])
         story.append(KeepTogether(section))
-    build_pdf(DOCS / "Wild Encounters.pdf", "Wild Encounters", "All compiled v2.2 grass, Surf and fishing encounter tables", story, wide=True)
+    build_pdf(
+        DOCS / "Wild Encounters.pdf",
+        "Wild Encounters",
+        "All compiled v2.4 grass, Surf and fishing encounter tables",
+        story,
+        wide=True,
+        release="v2.4",
+        release_line="v2.4 - Random Starters per Save",
+    )
 
 
 def cover_pdf(title: str, note: str) -> bytes:
@@ -480,7 +502,7 @@ def main() -> None:
         "Gym Leader Teams and Level Caps.pdf", "Gym Leader Teams and Level Caps",
         "Trainer teams and level caps are unchanged from the supplied balance document.\nThis edition is stamped and reviewed as the v2.2 reference.",
     )
-    print("generated 8 HeartGold Generations v2.2 PDFs")
+    print("generated 8 HeartGold Generations documentation PDFs for v2.4")
 
 
 if __name__ == "__main__":
