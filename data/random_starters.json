@@ -1,0 +1,8000 @@
+{
+  "version": "v2.4",
+  "algorithm": "mix32-v1",
+  "canonical_count": 1025,
+  "internal_species_range": [
+    1,
+    1075
+  ],
+  "excluded_internal_gap": [
+    494,
+    543
+  ],
+  "rejected_no_safe_move": [
+    "SPECIES_WYNAUT"
+  ],
+  "pool": [
+    {
+      "id": 1,
+      "species": "SPECIES_BULBASAUR",
+      "primary_type": "GRASS",
+      "secondary_type": "POISON",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 22,
+      "safe_move_name": "MOVE_VINE_WHIP",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_IVYSAUR",
+          "SPECIES_VENUSAUR"
+        ]
+      ]
+    },
+    {
+      "id": 4,
+      "species": "SPECIES_CHARMANDER",
+      "primary_type": "FIRE",
+      "secondary_type": "FIRE",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 52,
+      "safe_move_name": "MOVE_EMBER",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_CHARMELEON",
+          "SPECIES_CHARIZARD"
+        ]
+      ]
+    },
+    {
+      "id": 7,
+      "species": "SPECIES_SQUIRTLE",
+      "primary_type": "WATER",
+      "secondary_type": "WATER",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 55,
+      "safe_move_name": "MOVE_WATER_GUN",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_WARTORTLE",
+          "SPECIES_BLASTOISE"
+        ]
+      ]
+    },
+    {
+      "id": 10,
+      "species": "SPECIES_CATERPIE",
+      "primary_type": "BUG",
+      "secondary_type": "BUG",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 450,
+      "safe_move_name": "MOVE_BUG_BITE",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_METAPOD",
+          "SPECIES_BUTTERFREE"
+        ]
+      ]
+    },
+    {
+      "id": 13,
+      "species": "SPECIES_WEEDLE",
+      "primary_type": "BUG",
+      "secondary_type": "POISON",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 450,
+      "safe_move_name": "MOVE_BUG_BITE",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_KAKUNA",
+          "SPECIES_BEEDRILL"
+        ]
+      ]
+    },
+    {
+      "id": 16,
+      "species": "SPECIES_PIDGEY",
+      "primary_type": "NORMAL",
+      "secondary_type": "FLYING",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 33,
+      "safe_move_name": "MOVE_TACKLE",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_PIDGEOTTO",
+          "SPECIES_PIDGEOT"
+        ]
+      ]
+    },
+    {
+      "id": 19,
+      "species": "SPECIES_RATTATA",
+      "primary_type": "NORMAL",
+      "secondary_type": "NORMAL",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 33,
+      "safe_move_name": "MOVE_TACKLE",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_RATICATE"
+        ]
+      ]
+    },
+    {
+      "id": 21,
+      "species": "SPECIES_SPEAROW",
+      "primary_type": "NORMAL",
+      "secondary_type": "FLYING",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 64,
+      "safe_move_name": "MOVE_PECK",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_FEAROW"
+        ]
+      ]
+    },
+    {
+      "id": 23,
+      "species": "SPECIES_EKANS",
+      "primary_type": "POISON",
+      "secondary_type": "POISON",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 51,
+      "safe_move_name": "MOVE_ACID",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_ARBOK"
+        ]
+      ]
+    },
+    {
+      "id": 27,
+      "species": "SPECIES_SANDSHREW",
+      "primary_type": "GROUND",
+      "secondary_type": "GROUND",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 526,
+      "safe_move_name": "MOVE_BULLDOZE",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_SANDSLASH"
+        ]
+      ]
+    },
+    {
+      "id": 29,
+      "species": "SPECIES_NIDORAN_F",
+      "primary_type": "POISON",
+      "secondary_type": "POISON",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 305,
+      "safe_move_name": "MOVE_POISON_FANG",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_NIDORINA",
+          "SPECIES_NIDOQUEEN"
+        ]
+      ]
+    },
+    {
+      "id": 32,
+      "species": "SPECIES_NIDORAN_M",
+      "primary_type": "POISON",
+      "secondary_type": "POISON",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 40,
+      "safe_move_name": "MOVE_POISON_STING",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_NIDORINO",
+          "SPECIES_NIDOKING"
+        ]
+      ]
+    },
+    {
+      "id": 37,
+      "species": "SPECIES_VULPIX",
+      "primary_type": "FIRE",
+      "secondary_type": "FIRE",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 52,
+      "safe_move_name": "MOVE_EMBER",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_NINETALES"
+        ]
+      ]
+    },
+    {
+      "id": 41,
+      "species": "SPECIES_ZUBAT",
+      "primary_type": "POISON",
+      "secondary_type": "FLYING",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 17,
+      "safe_move_name": "MOVE_WING_ATTACK",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_GOLBAT",
+          "SPECIES_CROBAT"
+        ]
+      ]
+    },
+    {
+      "id": 43,
+      "species": "SPECIES_ODDISH",
+      "primary_type": "GRASS",
+      "secondary_type": "POISON",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 51,
+      "safe_move_name": "MOVE_ACID",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_GLOOM",
+          "SPECIES_VILEPLUME"
+        ],
+        [
+          "SPECIES_GLOOM",
+          "SPECIES_BELLOSSOM"
+        ]
+      ]
+    },
+    {
+      "id": 46,
+      "species": "SPECIES_PARAS",
+      "primary_type": "BUG",
+      "secondary_type": "GRASS",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 210,
+      "safe_move_name": "MOVE_FURY_CUTTER",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_PARASECT"
+        ]
+      ]
+    },
+    {
+      "id": 48,
+      "species": "SPECIES_VENONAT",
+      "primary_type": "BUG",
+      "secondary_type": "POISON",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 305,
+      "safe_move_name": "MOVE_POISON_FANG",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_VENOMOTH"
+        ]
+      ]
+    },
+    {
+      "id": 50,
+      "species": "SPECIES_DIGLETT",
+      "primary_type": "GROUND",
+      "secondary_type": "GROUND",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 526,
+      "safe_move_name": "MOVE_BULLDOZE",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_DUGTRIO"
+        ]
+      ]
+    },
+    {
+      "id": 52,
+      "species": "SPECIES_MEOWTH",
+      "primary_type": "NORMAL",
+      "secondary_type": "NORMAL",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 252,
+      "safe_move_name": "MOVE_FAKE_OUT",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_PERSIAN"
+        ]
+      ]
+    },
+    {
+      "id": 54,
+      "species": "SPECIES_PSYDUCK",
+      "primary_type": "WATER",
+      "secondary_type": "WATER",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 55,
+      "safe_move_name": "MOVE_WATER_GUN",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_GOLDUCK"
+        ]
+      ]
+    },
+    {
+      "id": 56,
+      "species": "SPECIES_MANKEY",
+      "primary_type": "FIGHTING",
+      "secondary_type": "FIGHTING",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 2,
+      "safe_move_name": "MOVE_KARATE_CHOP",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_PRIMEAPE",
+          "SPECIES_ANNIHILAPE"
+        ]
+      ]
+    },
+    {
+      "id": 58,
+      "species": "SPECIES_GROWLITHE",
+      "primary_type": "FIRE",
+      "secondary_type": "FIRE",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 52,
+      "safe_move_name": "MOVE_EMBER",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_ARCANINE"
+        ]
+      ]
+    },
+    {
+      "id": 60,
+      "species": "SPECIES_POLIWAG",
+      "primary_type": "WATER",
+      "secondary_type": "WATER",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 55,
+      "safe_move_name": "MOVE_WATER_GUN",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_POLIWHIRL",
+          "SPECIES_POLIWRATH"
+        ],
+        [
+          "SPECIES_POLIWHIRL",
+          "SPECIES_POLITOED"
+        ]
+      ]
+    },
+    {
+      "id": 63,
+      "species": "SPECIES_ABRA",
+      "primary_type": "PSYCHIC",
+      "secondary_type": "PSYCHIC",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 282,
+      "safe_move_name": "MOVE_KNOCK_OFF",
+      "safe_move_source": "egg",
+      "evolution_paths": [
+        [
+          "SPECIES_KADABRA",
+          "SPECIES_ALAKAZAM"
+        ]
+      ]
+    },
+    {
+      "id": 66,
+      "species": "SPECIES_MACHOP",
+      "primary_type": "FIGHTING",
+      "secondary_type": "FIGHTING",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 2,
+      "safe_move_name": "MOVE_KARATE_CHOP",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_MACHOKE",
+          "SPECIES_MACHAMP"
+        ]
+      ]
+    },
+    {
+      "id": 69,
+      "species": "SPECIES_BELLSPROUT",
+      "primary_type": "GRASS",
+      "secondary_type": "POISON",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 22,
+      "safe_move_name": "MOVE_VINE_WHIP",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_WEEPINBELL",
+          "SPECIES_VICTREEBEL"
+        ]
+      ]
+    },
+    {
+      "id": 72,
+      "species": "SPECIES_TENTACOOL",
+      "primary_type": "WATER",
+      "secondary_type": "POISON",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 55,
+      "safe_move_name": "MOVE_WATER_GUN",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_TENTACRUEL"
+        ]
+      ]
+    },
+    {
+      "id": 74,
+      "species": "SPECIES_GEODUDE",
+      "primary_type": "ROCK",
+      "secondary_type": "GROUND",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 88,
+      "safe_move_name": "MOVE_ROCK_THROW",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_GRAVELER",
+          "SPECIES_GOLEM"
+        ]
+      ]
+    },
+    {
+      "id": 77,
+      "species": "SPECIES_PONYTA",
+      "primary_type": "FIRE",
+      "secondary_type": "FIRE",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 52,
+      "safe_move_name": "MOVE_EMBER",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_RAPIDASH"
+        ]
+      ]
+    },
+    {
+      "id": 79,
+      "species": "SPECIES_SLOWPOKE",
+      "primary_type": "WATER",
+      "secondary_type": "PSYCHIC",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 55,
+      "safe_move_name": "MOVE_WATER_GUN",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_SLOWBRO"
+        ],
+        [
+          "SPECIES_SLOWKING"
+        ]
+      ]
+    },
+    {
+      "id": 81,
+      "species": "SPECIES_MAGNEMITE",
+      "primary_type": "ELECTRIC",
+      "secondary_type": "STEEL",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 84,
+      "safe_move_name": "MOVE_THUNDER_SHOCK",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_MAGNETON",
+          "SPECIES_MAGNEZONE"
+        ]
+      ]
+    },
+    {
+      "id": 84,
+      "species": "SPECIES_DODUO",
+      "primary_type": "NORMAL",
+      "secondary_type": "FLYING",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 64,
+      "safe_move_name": "MOVE_PECK",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_DODRIO"
+        ]
+      ]
+    },
+    {
+      "id": 86,
+      "species": "SPECIES_SEEL",
+      "primary_type": "WATER",
+      "secondary_type": "WATER",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 453,
+      "safe_move_name": "MOVE_AQUA_JET",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_DEWGONG"
+        ]
+      ]
+    },
+    {
+      "id": 88,
+      "species": "SPECIES_GRIMER",
+      "primary_type": "POISON",
+      "secondary_type": "POISON",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 124,
+      "safe_move_name": "MOVE_SLUDGE",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_MUK"
+        ]
+      ]
+    },
+    {
+      "id": 90,
+      "species": "SPECIES_SHELLDER",
+      "primary_type": "WATER",
+      "secondary_type": "WATER",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 55,
+      "safe_move_name": "MOVE_WATER_GUN",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_CLOYSTER"
+        ]
+      ]
+    },
+    {
+      "id": 92,
+      "species": "SPECIES_GASTLY",
+      "primary_type": "GHOST",
+      "secondary_type": "POISON",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 122,
+      "safe_move_name": "MOVE_LICK",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_HAUNTER",
+          "SPECIES_GENGAR"
+        ]
+      ]
+    },
+    {
+      "id": 95,
+      "species": "SPECIES_ONIX",
+      "primary_type": "ROCK",
+      "secondary_type": "GROUND",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 88,
+      "safe_move_name": "MOVE_ROCK_THROW",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_STEELIX"
+        ]
+      ]
+    },
+    {
+      "id": 96,
+      "species": "SPECIES_DROWZEE",
+      "primary_type": "PSYCHIC",
+      "secondary_type": "PSYCHIC",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 93,
+      "safe_move_name": "MOVE_CONFUSION",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_HYPNO"
+        ]
+      ]
+    },
+    {
+      "id": 98,
+      "species": "SPECIES_KRABBY",
+      "primary_type": "WATER",
+      "secondary_type": "WATER",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 55,
+      "safe_move_name": "MOVE_WATER_GUN",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_KINGLER"
+        ]
+      ]
+    },
+    {
+      "id": 100,
+      "species": "SPECIES_VOLTORB",
+      "primary_type": "ELECTRIC",
+      "secondary_type": "ELECTRIC",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 451,
+      "safe_move_name": "MOVE_CHARGE_BEAM",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_ELECTRODE"
+        ]
+      ]
+    },
+    {
+      "id": 102,
+      "species": "SPECIES_EXEGGCUTE",
+      "primary_type": "GRASS",
+      "secondary_type": "PSYCHIC",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 72,
+      "safe_move_name": "MOVE_MEGA_DRAIN",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_EXEGGUTOR"
+        ]
+      ]
+    },
+    {
+      "id": 104,
+      "species": "SPECIES_CUBONE",
+      "primary_type": "GROUND",
+      "secondary_type": "GROUND",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 155,
+      "safe_move_name": "MOVE_BONEMERANG",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_MAROWAK"
+        ]
+      ]
+    },
+    {
+      "id": 108,
+      "species": "SPECIES_LICKITUNG",
+      "primary_type": "NORMAL",
+      "secondary_type": "NORMAL",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 35,
+      "safe_move_name": "MOVE_WRAP",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_LICKILICKY"
+        ]
+      ]
+    },
+    {
+      "id": 109,
+      "species": "SPECIES_KOFFING",
+      "primary_type": "POISON",
+      "secondary_type": "POISON",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 502,
+      "safe_move_name": "MOVE_CLEAR_SMOG",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_WEEZING"
+        ]
+      ]
+    },
+    {
+      "id": 111,
+      "species": "SPECIES_RHYHORN",
+      "primary_type": "GROUND",
+      "secondary_type": "ROCK",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 482,
+      "safe_move_name": "MOVE_SMACK_DOWN",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_RHYDON",
+          "SPECIES_RHYPERIOR"
+        ]
+      ]
+    },
+    {
+      "id": 114,
+      "species": "SPECIES_TANGELA",
+      "primary_type": "GRASS",
+      "secondary_type": "GRASS",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 22,
+      "safe_move_name": "MOVE_VINE_WHIP",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_TANGROWTH"
+        ]
+      ]
+    },
+    {
+      "id": 116,
+      "species": "SPECIES_HORSEA",
+      "primary_type": "WATER",
+      "secondary_type": "WATER",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 55,
+      "safe_move_name": "MOVE_WATER_GUN",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_SEADRA",
+          "SPECIES_KINGDRA"
+        ]
+      ]
+    },
+    {
+      "id": 118,
+      "species": "SPECIES_GOLDEEN",
+      "primary_type": "WATER",
+      "secondary_type": "WATER",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 352,
+      "safe_move_name": "MOVE_WATER_PULSE",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_SEAKING"
+        ]
+      ]
+    },
+    {
+      "id": 120,
+      "species": "SPECIES_STARYU",
+      "primary_type": "WATER",
+      "secondary_type": "WATER",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 55,
+      "safe_move_name": "MOVE_WATER_GUN",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_STARMIE"
+        ]
+      ]
+    },
+    {
+      "id": 123,
+      "species": "SPECIES_SCYTHER",
+      "primary_type": "BUG",
+      "secondary_type": "FLYING",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 210,
+      "safe_move_name": "MOVE_FURY_CUTTER",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_SCIZOR"
+        ],
+        [
+          "SPECIES_KLEAVOR"
+        ]
+      ]
+    },
+    {
+      "id": 129,
+      "species": "SPECIES_MAGIKARP",
+      "primary_type": "WATER",
+      "secondary_type": "WATER",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 33,
+      "safe_move_name": "MOVE_TACKLE",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_GYARADOS"
+        ]
+      ]
+    },
+    {
+      "id": 133,
+      "species": "SPECIES_EEVEE",
+      "primary_type": "NORMAL",
+      "secondary_type": "NORMAL",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 343,
+      "safe_move_name": "MOVE_COVET",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_LEAFEON"
+        ],
+        [
+          "SPECIES_GLACEON"
+        ],
+        [
+          "SPECIES_JOLTEON"
+        ],
+        [
+          "SPECIES_VAPOREON"
+        ],
+        [
+          "SPECIES_FLAREON"
+        ],
+        [
+          "SPECIES_ESPEON"
+        ],
+        [
+          "SPECIES_UMBREON"
+        ],
+        [
+          "SPECIES_SYLVEON"
+        ]
+      ]
+    },
+    {
+      "id": 137,
+      "species": "SPECIES_PORYGON",
+      "primary_type": "NORMAL",
+      "secondary_type": "NORMAL",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 33,
+      "safe_move_name": "MOVE_TACKLE",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_PORYGON2",
+          "SPECIES_PORYGON_Z"
+        ]
+      ]
+    },
+    {
+      "id": 138,
+      "species": "SPECIES_OMANYTE",
+      "primary_type": "ROCK",
+      "secondary_type": "WATER",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 55,
+      "safe_move_name": "MOVE_WATER_GUN",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_OMASTAR"
+        ]
+      ]
+    },
+    {
+      "id": 140,
+      "species": "SPECIES_KABUTO",
+      "primary_type": "ROCK",
+      "secondary_type": "WATER",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 453,
+      "safe_move_name": "MOVE_AQUA_JET",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_KABUTOPS"
+        ]
+      ]
+    },
+    {
+      "id": 147,
+      "species": "SPECIES_DRATINI",
+      "primary_type": "DRAGON",
+      "secondary_type": "DRAGON",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 239,
+      "safe_move_name": "MOVE_TWISTER",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_DRAGONAIR",
+          "SPECIES_DRAGONITE"
+        ]
+      ]
+    },
+    {
+      "id": 152,
+      "species": "SPECIES_CHIKORITA",
+      "primary_type": "GRASS",
+      "secondary_type": "GRASS",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 72,
+      "safe_move_name": "MOVE_MEGA_DRAIN",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_BAYLEEF",
+          "SPECIES_MEGANIUM"
+        ]
+      ]
+    },
+    {
+      "id": 155,
+      "species": "SPECIES_CYNDAQUIL",
+      "primary_type": "FIRE",
+      "secondary_type": "FIRE",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 52,
+      "safe_move_name": "MOVE_EMBER",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_QUILAVA",
+          "SPECIES_TYPHLOSION"
+        ]
+      ]
+    },
+    {
+      "id": 158,
+      "species": "SPECIES_TOTODILE",
+      "primary_type": "WATER",
+      "secondary_type": "WATER",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 55,
+      "safe_move_name": "MOVE_WATER_GUN",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_CROCONAW",
+          "SPECIES_FERALIGATR"
+        ]
+      ]
+    },
+    {
+      "id": 161,
+      "species": "SPECIES_SENTRET",
+      "primary_type": "NORMAL",
+      "secondary_type": "NORMAL",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 10,
+      "safe_move_name": "MOVE_SCRATCH",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_FURRET"
+        ]
+      ]
+    },
+    {
+      "id": 163,
+      "species": "SPECIES_HOOTHOOT",
+      "primary_type": "NORMAL",
+      "secondary_type": "FLYING",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 64,
+      "safe_move_name": "MOVE_PECK",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_NOCTOWL"
+        ]
+      ]
+    },
+    {
+      "id": 165,
+      "species": "SPECIES_LEDYBA",
+      "primary_type": "BUG",
+      "secondary_type": "FLYING",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 318,
+      "safe_move_name": "MOVE_SILVER_WIND",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_LEDIAN"
+        ]
+      ]
+    },
+    {
+      "id": 167,
+      "species": "SPECIES_SPINARAK",
+      "primary_type": "BUG",
+      "secondary_type": "POISON",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 40,
+      "safe_move_name": "MOVE_POISON_STING",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_ARIADOS"
+        ]
+      ]
+    },
+    {
+      "id": 170,
+      "species": "SPECIES_CHINCHOU",
+      "primary_type": "WATER",
+      "secondary_type": "ELECTRIC",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 55,
+      "safe_move_name": "MOVE_WATER_GUN",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_LANTURN"
+        ]
+      ]
+    },
+    {
+      "id": 172,
+      "species": "SPECIES_PICHU",
+      "primary_type": "ELECTRIC",
+      "secondary_type": "ELECTRIC",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 84,
+      "safe_move_name": "MOVE_THUNDER_SHOCK",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_PIKACHU",
+          "SPECIES_RAICHU"
+        ]
+      ]
+    },
+    {
+      "id": 173,
+      "species": "SPECIES_CLEFFA",
+      "primary_type": "FAIRY",
+      "secondary_type": "FAIRY",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 1,
+      "safe_move_name": "MOVE_POUND",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_CLEFAIRY",
+          "SPECIES_CLEFABLE"
+        ]
+      ]
+    },
+    {
+      "id": 174,
+      "species": "SPECIES_IGGLYBUFF",
+      "primary_type": "NORMAL",
+      "secondary_type": "FAIRY",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 1,
+      "safe_move_name": "MOVE_POUND",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_JIGGLYPUFF",
+          "SPECIES_WIGGLYTUFF"
+        ]
+      ]
+    },
+    {
+      "id": 175,
+      "species": "SPECIES_TOGEPI",
+      "primary_type": "FAIRY",
+      "secondary_type": "FAIRY",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 1,
+      "safe_move_name": "MOVE_POUND",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_TOGETIC",
+          "SPECIES_TOGEKISS"
+        ]
+      ]
+    },
+    {
+      "id": 177,
+      "species": "SPECIES_NATU",
+      "primary_type": "PSYCHIC",
+      "secondary_type": "FLYING",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 64,
+      "safe_move_name": "MOVE_PECK",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_XATU"
+        ]
+      ]
+    },
+    {
+      "id": 179,
+      "species": "SPECIES_MAREEP",
+      "primary_type": "ELECTRIC",
+      "secondary_type": "ELECTRIC",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 84,
+      "safe_move_name": "MOVE_THUNDER_SHOCK",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_FLAAFFY",
+          "SPECIES_AMPHAROS"
+        ]
+      ]
+    },
+    {
+      "id": 187,
+      "species": "SPECIES_HOPPIP",
+      "primary_type": "GRASS",
+      "secondary_type": "FLYING",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 72,
+      "safe_move_name": "MOVE_MEGA_DRAIN",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_SKIPLOOM",
+          "SPECIES_JUMPLUFF"
+        ]
+      ]
+    },
+    {
+      "id": 190,
+      "species": "SPECIES_AIPOM",
+      "primary_type": "NORMAL",
+      "secondary_type": "NORMAL",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 10,
+      "safe_move_name": "MOVE_SCRATCH",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_AMBIPOM"
+        ]
+      ]
+    },
+    {
+      "id": 191,
+      "species": "SPECIES_SUNKERN",
+      "primary_type": "GRASS",
+      "secondary_type": "GRASS",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 72,
+      "safe_move_name": "MOVE_MEGA_DRAIN",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_SUNFLORA"
+        ]
+      ]
+    },
+    {
+      "id": 193,
+      "species": "SPECIES_YANMA",
+      "primary_type": "BUG",
+      "secondary_type": "FLYING",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 17,
+      "safe_move_name": "MOVE_WING_ATTACK",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_YANMEGA"
+        ]
+      ]
+    },
+    {
+      "id": 194,
+      "species": "SPECIES_WOOPER",
+      "primary_type": "WATER",
+      "secondary_type": "GROUND",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 55,
+      "safe_move_name": "MOVE_WATER_GUN",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_QUAGSIRE"
+        ]
+      ]
+    },
+    {
+      "id": 198,
+      "species": "SPECIES_MURKROW",
+      "primary_type": "DARK",
+      "secondary_type": "FLYING",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 64,
+      "safe_move_name": "MOVE_PECK",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_HONCHKROW"
+        ]
+      ]
+    },
+    {
+      "id": 200,
+      "species": "SPECIES_MISDREAVUS",
+      "primary_type": "GHOST",
+      "secondary_type": "GHOST",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 310,
+      "safe_move_name": "MOVE_ASTONISH",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_MISMAGIUS"
+        ]
+      ]
+    },
+    {
+      "id": 203,
+      "species": "SPECIES_GIRAFARIG",
+      "primary_type": "NORMAL",
+      "secondary_type": "PSYCHIC",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 33,
+      "safe_move_name": "MOVE_TACKLE",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_FARIGIRAF"
+        ]
+      ]
+    },
+    {
+      "id": 204,
+      "species": "SPECIES_PINECO",
+      "primary_type": "BUG",
+      "secondary_type": "BUG",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 450,
+      "safe_move_name": "MOVE_BUG_BITE",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_FORRETRESS"
+        ]
+      ]
+    },
+    {
+      "id": 206,
+      "species": "SPECIES_DUNSPARCE",
+      "primary_type": "NORMAL",
+      "secondary_type": "NORMAL",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 890,
+      "safe_move_name": "MOVE_HYPER_DRILL",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_DUDUNSPARCE"
+        ]
+      ]
+    },
+    {
+      "id": 207,
+      "species": "SPECIES_GLIGAR",
+      "primary_type": "GROUND",
+      "secondary_type": "FLYING",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 515,
+      "safe_move_name": "MOVE_ACROBATICS",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_GLISCOR"
+        ]
+      ]
+    },
+    {
+      "id": 209,
+      "species": "SPECIES_SNUBBULL",
+      "primary_type": "FAIRY",
+      "secondary_type": "FAIRY",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 33,
+      "safe_move_name": "MOVE_TACKLE",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_GRANBULL"
+        ]
+      ]
+    },
+    {
+      "id": 215,
+      "species": "SPECIES_SNEASEL",
+      "primary_type": "DARK",
+      "secondary_type": "ICE",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 420,
+      "safe_move_name": "MOVE_ICE_SHARD",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_WEAVILE"
+        ]
+      ]
+    },
+    {
+      "id": 216,
+      "species": "SPECIES_TEDDIURSA",
+      "primary_type": "NORMAL",
+      "secondary_type": "NORMAL",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 343,
+      "safe_move_name": "MOVE_COVET",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_URSARING",
+          "SPECIES_URSALUNA"
+        ]
+      ]
+    },
+    {
+      "id": 218,
+      "species": "SPECIES_SLUGMA",
+      "primary_type": "FIRE",
+      "secondary_type": "FIRE",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 52,
+      "safe_move_name": "MOVE_EMBER",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_MAGCARGO"
+        ]
+      ]
+    },
+    {
+      "id": 220,
+      "species": "SPECIES_SWINUB",
+      "primary_type": "ICE",
+      "secondary_type": "GROUND",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 181,
+      "safe_move_name": "MOVE_POWDER_SNOW",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_PILOSWINE",
+          "SPECIES_MAMOSWINE"
+        ]
+      ]
+    },
+    {
+      "id": 223,
+      "species": "SPECIES_REMORAID",
+      "primary_type": "WATER",
+      "secondary_type": "WATER",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 55,
+      "safe_move_name": "MOVE_WATER_GUN",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_OCTILLERY"
+        ]
+      ]
+    },
+    {
+      "id": 228,
+      "species": "SPECIES_HOUNDOUR",
+      "primary_type": "DARK",
+      "secondary_type": "FIRE",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 52,
+      "safe_move_name": "MOVE_EMBER",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_HOUNDOOM"
+        ]
+      ]
+    },
+    {
+      "id": 231,
+      "species": "SPECIES_PHANPY",
+      "primary_type": "GROUND",
+      "secondary_type": "GROUND",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 33,
+      "safe_move_name": "MOVE_TACKLE",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_DONPHAN"
+        ]
+      ]
+    },
+    {
+      "id": 234,
+      "species": "SPECIES_STANTLER",
+      "primary_type": "NORMAL",
+      "secondary_type": "NORMAL",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 33,
+      "safe_move_name": "MOVE_TACKLE",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_WYRDEER"
+        ]
+      ]
+    },
+    {
+      "id": 236,
+      "species": "SPECIES_TYROGUE",
+      "primary_type": "FIGHTING",
+      "secondary_type": "FIGHTING",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 33,
+      "safe_move_name": "MOVE_TACKLE",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_HITMONCHAN"
+        ],
+        [
+          "SPECIES_HITMONLEE"
+        ],
+        [
+          "SPECIES_HITMONTOP"
+        ]
+      ]
+    },
+    {
+      "id": 238,
+      "species": "SPECIES_SMOOCHUM",
+      "primary_type": "ICE",
+      "secondary_type": "PSYCHIC",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 181,
+      "safe_move_name": "MOVE_POWDER_SNOW",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_JYNX"
+        ]
+      ]
+    },
+    {
+      "id": 239,
+      "species": "SPECIES_ELEKID",
+      "primary_type": "ELECTRIC",
+      "secondary_type": "ELECTRIC",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 84,
+      "safe_move_name": "MOVE_THUNDER_SHOCK",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_ELECTABUZZ",
+          "SPECIES_ELECTIVIRE"
+        ]
+      ]
+    },
+    {
+      "id": 240,
+      "species": "SPECIES_MAGBY",
+      "primary_type": "FIRE",
+      "secondary_type": "FIRE",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 52,
+      "safe_move_name": "MOVE_EMBER",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_MAGMAR",
+          "SPECIES_MAGMORTAR"
+        ]
+      ]
+    },
+    {
+      "id": 246,
+      "species": "SPECIES_LARVITAR",
+      "primary_type": "ROCK",
+      "secondary_type": "GROUND",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 88,
+      "safe_move_name": "MOVE_ROCK_THROW",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_PUPITAR",
+          "SPECIES_TYRANITAR"
+        ]
+      ]
+    },
+    {
+      "id": 252,
+      "species": "SPECIES_TREECKO",
+      "primary_type": "GRASS",
+      "secondary_type": "GRASS",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 673,
+      "safe_move_name": "MOVE_LEAFAGE",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_GROVYLE",
+          "SPECIES_SCEPTILE"
+        ]
+      ]
+    },
+    {
+      "id": 255,
+      "species": "SPECIES_TORCHIC",
+      "primary_type": "FIRE",
+      "secondary_type": "FIRE",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 52,
+      "safe_move_name": "MOVE_EMBER",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_COMBUSKEN",
+          "SPECIES_BLAZIKEN"
+        ]
+      ]
+    },
+    {
+      "id": 258,
+      "species": "SPECIES_MUDKIP",
+      "primary_type": "WATER",
+      "secondary_type": "WATER",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 55,
+      "safe_move_name": "MOVE_WATER_GUN",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_MARSHTOMP",
+          "SPECIES_SWAMPERT"
+        ]
+      ]
+    },
+    {
+      "id": 261,
+      "species": "SPECIES_POOCHYENA",
+      "primary_type": "DARK",
+      "secondary_type": "DARK",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 44,
+      "safe_move_name": "MOVE_BITE",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_MIGHTYENA"
+        ]
+      ]
+    },
+    {
+      "id": 263,
+      "species": "SPECIES_ZIGZAGOON",
+      "primary_type": "NORMAL",
+      "secondary_type": "NORMAL",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 33,
+      "safe_move_name": "MOVE_TACKLE",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_LINOONE"
+        ]
+      ]
+    },
+    {
+      "id": 265,
+      "species": "SPECIES_WURMPLE",
+      "primary_type": "BUG",
+      "secondary_type": "BUG",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 450,
+      "safe_move_name": "MOVE_BUG_BITE",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_SILCOON",
+          "SPECIES_BEAUTIFLY"
+        ],
+        [
+          "SPECIES_CASCOON",
+          "SPECIES_DUSTOX"
+        ]
+      ]
+    },
+    {
+      "id": 270,
+      "species": "SPECIES_LOTAD",
+      "primary_type": "WATER",
+      "secondary_type": "GRASS",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 55,
+      "safe_move_name": "MOVE_WATER_GUN",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_LOMBRE",
+          "SPECIES_LUDICOLO"
+        ]
+      ]
+    },
+    {
+      "id": 273,
+      "species": "SPECIES_SEEDOT",
+      "primary_type": "GRASS",
+      "secondary_type": "GRASS",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 72,
+      "safe_move_name": "MOVE_MEGA_DRAIN",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_NUZLEAF",
+          "SPECIES_SHIFTRY"
+        ]
+      ]
+    },
+    {
+      "id": 276,
+      "species": "SPECIES_TAILLOW",
+      "primary_type": "NORMAL",
+      "secondary_type": "FLYING",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 64,
+      "safe_move_name": "MOVE_PECK",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_SWELLOW"
+        ]
+      ]
+    },
+    {
+      "id": 278,
+      "species": "SPECIES_WINGULL",
+      "primary_type": "WATER",
+      "secondary_type": "FLYING",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 55,
+      "safe_move_name": "MOVE_WATER_GUN",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_PELIPPER"
+        ]
+      ]
+    },
+    {
+      "id": 280,
+      "species": "SPECIES_RALTS",
+      "primary_type": "PSYCHIC",
+      "secondary_type": "FAIRY",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 93,
+      "safe_move_name": "MOVE_CONFUSION",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_KIRLIA",
+          "SPECIES_GARDEVOIR"
+        ],
+        [
+          "SPECIES_KIRLIA",
+          "SPECIES_GALLADE"
+        ]
+      ]
+    },
+    {
+      "id": 283,
+      "species": "SPECIES_SURSKIT",
+      "primary_type": "BUG",
+      "secondary_type": "WATER",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 453,
+      "safe_move_name": "MOVE_AQUA_JET",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_MASQUERAIN"
+        ]
+      ]
+    },
+    {
+      "id": 285,
+      "species": "SPECIES_SHROOMISH",
+      "primary_type": "GRASS",
+      "secondary_type": "GRASS",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 72,
+      "safe_move_name": "MOVE_MEGA_DRAIN",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_BRELOOM"
+        ]
+      ]
+    },
+    {
+      "id": 287,
+      "species": "SPECIES_SLAKOTH",
+      "primary_type": "NORMAL",
+      "secondary_type": "NORMAL",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 10,
+      "safe_move_name": "MOVE_SCRATCH",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_VIGOROTH",
+          "SPECIES_SLAKING"
+        ]
+      ]
+    },
+    {
+      "id": 290,
+      "species": "SPECIES_NINCADA",
+      "primary_type": "BUG",
+      "secondary_type": "GROUND",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 189,
+      "safe_move_name": "MOVE_MUD_SLAP",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_NINJASK"
+        ],
+        [
+          "SPECIES_SHEDINJA"
+        ]
+      ]
+    },
+    {
+      "id": 293,
+      "species": "SPECIES_WHISMUR",
+      "primary_type": "NORMAL",
+      "secondary_type": "NORMAL",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 1,
+      "safe_move_name": "MOVE_POUND",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_LOUDRED",
+          "SPECIES_EXPLOUD"
+        ]
+      ]
+    },
+    {
+      "id": 296,
+      "species": "SPECIES_MAKUHITA",
+      "primary_type": "FIGHTING",
+      "secondary_type": "FIGHTING",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 395,
+      "safe_move_name": "MOVE_FORCE_PALM",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_HARIYAMA"
+        ]
+      ]
+    },
+    {
+      "id": 298,
+      "species": "SPECIES_AZURILL",
+      "primary_type": "NORMAL",
+      "secondary_type": "FAIRY",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 21,
+      "safe_move_name": "MOVE_SLAM",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_MARILL",
+          "SPECIES_AZUMARILL"
+        ]
+      ]
+    },
+    {
+      "id": 299,
+      "species": "SPECIES_NOSEPASS",
+      "primary_type": "ROCK",
+      "secondary_type": "ROCK",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 88,
+      "safe_move_name": "MOVE_ROCK_THROW",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_PROBOPASS"
+        ]
+      ]
+    },
+    {
+      "id": 300,
+      "species": "SPECIES_SKITTY",
+      "primary_type": "NORMAL",
+      "secondary_type": "NORMAL",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 252,
+      "safe_move_name": "MOVE_FAKE_OUT",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_DELCATTY"
+        ]
+      ]
+    },
+    {
+      "id": 304,
+      "species": "SPECIES_ARON",
+      "primary_type": "STEEL",
+      "secondary_type": "ROCK",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 232,
+      "safe_move_name": "MOVE_METAL_CLAW",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_LAIRON",
+          "SPECIES_AGGRON"
+        ]
+      ]
+    },
+    {
+      "id": 307,
+      "species": "SPECIES_MEDITITE",
+      "primary_type": "FIGHTING",
+      "secondary_type": "PSYCHIC",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 93,
+      "safe_move_name": "MOVE_CONFUSION",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_MEDICHAM"
+        ]
+      ]
+    },
+    {
+      "id": 309,
+      "species": "SPECIES_ELECTRIKE",
+      "primary_type": "ELECTRIC",
+      "secondary_type": "ELECTRIC",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 351,
+      "safe_move_name": "MOVE_SHOCK_WAVE",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_MANECTRIC"
+        ]
+      ]
+    },
+    {
+      "id": 316,
+      "species": "SPECIES_GULPIN",
+      "primary_type": "POISON",
+      "secondary_type": "POISON",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 494,
+      "safe_move_name": "MOVE_ACID_SPRAY",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_SWALOT"
+        ]
+      ]
+    },
+    {
+      "id": 318,
+      "species": "SPECIES_CARVANHA",
+      "primary_type": "WATER",
+      "secondary_type": "DARK",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 453,
+      "safe_move_name": "MOVE_AQUA_JET",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_SHARPEDO"
+        ]
+      ]
+    },
+    {
+      "id": 320,
+      "species": "SPECIES_WAILMER",
+      "primary_type": "WATER",
+      "secondary_type": "WATER",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 55,
+      "safe_move_name": "MOVE_WATER_GUN",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_WAILORD"
+        ]
+      ]
+    },
+    {
+      "id": 322,
+      "species": "SPECIES_NUMEL",
+      "primary_type": "FIRE",
+      "secondary_type": "GROUND",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 52,
+      "safe_move_name": "MOVE_EMBER",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_CAMERUPT"
+        ]
+      ]
+    },
+    {
+      "id": 325,
+      "species": "SPECIES_SPOINK",
+      "primary_type": "PSYCHIC",
+      "secondary_type": "PSYCHIC",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 149,
+      "safe_move_name": "MOVE_PSYWAVE",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_GRUMPIG"
+        ]
+      ]
+    },
+    {
+      "id": 328,
+      "species": "SPECIES_TRAPINCH",
+      "primary_type": "GROUND",
+      "secondary_type": "GROUND",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 526,
+      "safe_move_name": "MOVE_BULLDOZE",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_VIBRAVA",
+          "SPECIES_FLYGON"
+        ]
+      ]
+    },
+    {
+      "id": 331,
+      "species": "SPECIES_CACNEA",
+      "primary_type": "GRASS",
+      "secondary_type": "GRASS",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 302,
+      "safe_move_name": "MOVE_NEEDLE_ARM",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_CACTURNE"
+        ]
+      ]
+    },
+    {
+      "id": 333,
+      "species": "SPECIES_SWABLU",
+      "primary_type": "NORMAL",
+      "secondary_type": "FLYING",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 64,
+      "safe_move_name": "MOVE_PECK",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_ALTARIA"
+        ]
+      ]
+    },
+    {
+      "id": 339,
+      "species": "SPECIES_BARBOACH",
+      "primary_type": "WATER",
+      "secondary_type": "GROUND",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 55,
+      "safe_move_name": "MOVE_WATER_GUN",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_WHISCASH"
+        ]
+      ]
+    },
+    {
+      "id": 341,
+      "species": "SPECIES_CORPHISH",
+      "primary_type": "WATER",
+      "secondary_type": "WATER",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 55,
+      "safe_move_name": "MOVE_WATER_GUN",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_CRAWDAUNT"
+        ]
+      ]
+    },
+    {
+      "id": 343,
+      "species": "SPECIES_BALTOY",
+      "primary_type": "GROUND",
+      "secondary_type": "PSYCHIC",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 93,
+      "safe_move_name": "MOVE_CONFUSION",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_CLAYDOL"
+        ]
+      ]
+    },
+    {
+      "id": 345,
+      "species": "SPECIES_LILEEP",
+      "primary_type": "ROCK",
+      "secondary_type": "GRASS",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 246,
+      "safe_move_name": "MOVE_ANCIENT_POWER",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_CRADILY"
+        ]
+      ]
+    },
+    {
+      "id": 347,
+      "species": "SPECIES_ANORITH",
+      "primary_type": "ROCK",
+      "secondary_type": "BUG",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 210,
+      "safe_move_name": "MOVE_FURY_CUTTER",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_ARMALDO"
+        ]
+      ]
+    },
+    {
+      "id": 349,
+      "species": "SPECIES_FEEBAS",
+      "primary_type": "WATER",
+      "secondary_type": "WATER",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 33,
+      "safe_move_name": "MOVE_TACKLE",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_MILOTIC"
+        ]
+      ]
+    },
+    {
+      "id": 353,
+      "species": "SPECIES_SHUPPET",
+      "primary_type": "GHOST",
+      "secondary_type": "GHOST",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 425,
+      "safe_move_name": "MOVE_SHADOW_SNEAK",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_BANETTE"
+        ]
+      ]
+    },
+    {
+      "id": 355,
+      "species": "SPECIES_DUSKULL",
+      "primary_type": "GHOST",
+      "secondary_type": "GHOST",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 425,
+      "safe_move_name": "MOVE_SHADOW_SNEAK",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_DUSCLOPS",
+          "SPECIES_DUSKNOIR"
+        ]
+      ]
+    },
+    {
+      "id": 361,
+      "species": "SPECIES_SNORUNT",
+      "primary_type": "ICE",
+      "secondary_type": "ICE",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 181,
+      "safe_move_name": "MOVE_POWDER_SNOW",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_GLALIE"
+        ],
+        [
+          "SPECIES_FROSLASS"
+        ]
+      ]
+    },
+    {
+      "id": 363,
+      "species": "SPECIES_SPHEAL",
+      "primary_type": "ICE",
+      "secondary_type": "WATER",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 181,
+      "safe_move_name": "MOVE_POWDER_SNOW",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_SEALEO",
+          "SPECIES_WALREIN"
+        ]
+      ]
+    },
+    {
+      "id": 366,
+      "species": "SPECIES_CLAMPERL",
+      "primary_type": "WATER",
+      "secondary_type": "WATER",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 55,
+      "safe_move_name": "MOVE_WATER_GUN",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_HUNTAIL"
+        ],
+        [
+          "SPECIES_GOREBYSS"
+        ]
+      ]
+    },
+    {
+      "id": 371,
+      "species": "SPECIES_BAGON",
+      "primary_type": "DRAGON",
+      "secondary_type": "DRAGON",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 225,
+      "safe_move_name": "MOVE_DRAGON_BREATH",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_SHELGON",
+          "SPECIES_SALAMENCE"
+        ]
+      ]
+    },
+    {
+      "id": 374,
+      "species": "SPECIES_BELDUM",
+      "primary_type": "STEEL",
+      "secondary_type": "PSYCHIC",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 33,
+      "safe_move_name": "MOVE_TACKLE",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_METANG",
+          "SPECIES_METAGROSS"
+        ]
+      ]
+    },
+    {
+      "id": 387,
+      "species": "SPECIES_TURTWIG",
+      "primary_type": "GRASS",
+      "secondary_type": "GRASS",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 75,
+      "safe_move_name": "MOVE_RAZOR_LEAF",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_GROTLE",
+          "SPECIES_TORTERRA"
+        ]
+      ]
+    },
+    {
+      "id": 390,
+      "species": "SPECIES_CHIMCHAR",
+      "primary_type": "FIRE",
+      "secondary_type": "FIRE",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 52,
+      "safe_move_name": "MOVE_EMBER",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_MONFERNO",
+          "SPECIES_INFERNAPE"
+        ]
+      ]
+    },
+    {
+      "id": 393,
+      "species": "SPECIES_PIPLUP",
+      "primary_type": "WATER",
+      "secondary_type": "WATER",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 145,
+      "safe_move_name": "MOVE_BUBBLE",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_PRINPLUP",
+          "SPECIES_EMPOLEON"
+        ]
+      ]
+    },
+    {
+      "id": 396,
+      "species": "SPECIES_STARLY",
+      "primary_type": "NORMAL",
+      "secondary_type": "FLYING",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 33,
+      "safe_move_name": "MOVE_TACKLE",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_STARAVIA",
+          "SPECIES_STARAPTOR"
+        ]
+      ]
+    },
+    {
+      "id": 399,
+      "species": "SPECIES_BIDOOF",
+      "primary_type": "NORMAL",
+      "secondary_type": "NORMAL",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 33,
+      "safe_move_name": "MOVE_TACKLE",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_BIBAREL"
+        ]
+      ]
+    },
+    {
+      "id": 401,
+      "species": "SPECIES_KRICKETOT",
+      "primary_type": "BUG",
+      "secondary_type": "BUG",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 525,
+      "safe_move_name": "MOVE_STRUGGLE_BUG",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_KRICKETUNE"
+        ]
+      ]
+    },
+    {
+      "id": 403,
+      "species": "SPECIES_SHINX",
+      "primary_type": "ELECTRIC",
+      "secondary_type": "ELECTRIC",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 84,
+      "safe_move_name": "MOVE_THUNDER_SHOCK",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_LUXIO",
+          "SPECIES_LUXRAY"
+        ]
+      ]
+    },
+    {
+      "id": 406,
+      "species": "SPECIES_BUDEW",
+      "primary_type": "GRASS",
+      "secondary_type": "POISON",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 72,
+      "safe_move_name": "MOVE_MEGA_DRAIN",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_ROSELIA",
+          "SPECIES_ROSERADE"
+        ]
+      ]
+    },
+    {
+      "id": 408,
+      "species": "SPECIES_CRANIDOS",
+      "primary_type": "ROCK",
+      "secondary_type": "ROCK",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 246,
+      "safe_move_name": "MOVE_ANCIENT_POWER",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_RAMPARDOS"
+        ]
+      ]
+    },
+    {
+      "id": 410,
+      "species": "SPECIES_SHIELDON",
+      "primary_type": "ROCK",
+      "secondary_type": "STEEL",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 246,
+      "safe_move_name": "MOVE_ANCIENT_POWER",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_BASTIODON"
+        ]
+      ]
+    },
+    {
+      "id": 412,
+      "species": "SPECIES_BURMY",
+      "primary_type": "BUG",
+      "secondary_type": "BUG",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 450,
+      "safe_move_name": "MOVE_BUG_BITE",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_WORMADAM"
+        ],
+        [
+          "SPECIES_MOTHIM"
+        ]
+      ]
+    },
+    {
+      "id": 415,
+      "species": "SPECIES_COMBEE",
+      "primary_type": "BUG",
+      "secondary_type": "FLYING",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 16,
+      "safe_move_name": "MOVE_GUST",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_VESPIQUEN"
+        ]
+      ]
+    },
+    {
+      "id": 418,
+      "species": "SPECIES_BUIZEL",
+      "primary_type": "WATER",
+      "secondary_type": "WATER",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 55,
+      "safe_move_name": "MOVE_WATER_GUN",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_FLOATZEL"
+        ]
+      ]
+    },
+    {
+      "id": 420,
+      "species": "SPECIES_CHERUBI",
+      "primary_type": "GRASS",
+      "secondary_type": "GRASS",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 673,
+      "safe_move_name": "MOVE_LEAFAGE",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_CHERRIM"
+        ]
+      ]
+    },
+    {
+      "id": 422,
+      "species": "SPECIES_SHELLOS",
+      "primary_type": "WATER",
+      "secondary_type": "WATER",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 55,
+      "safe_move_name": "MOVE_WATER_GUN",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_GASTRODON"
+        ]
+      ]
+    },
+    {
+      "id": 425,
+      "species": "SPECIES_DRIFLOON",
+      "primary_type": "GHOST",
+      "secondary_type": "FLYING",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 16,
+      "safe_move_name": "MOVE_GUST",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_DRIFBLIM"
+        ]
+      ]
+    },
+    {
+      "id": 427,
+      "species": "SPECIES_BUNEARY",
+      "primary_type": "NORMAL",
+      "secondary_type": "NORMAL",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 1,
+      "safe_move_name": "MOVE_POUND",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_LOPUNNY"
+        ]
+      ]
+    },
+    {
+      "id": 431,
+      "species": "SPECIES_GLAMEOW",
+      "primary_type": "NORMAL",
+      "secondary_type": "NORMAL",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 252,
+      "safe_move_name": "MOVE_FAKE_OUT",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_PURUGLY"
+        ]
+      ]
+    },
+    {
+      "id": 433,
+      "species": "SPECIES_CHINGLING",
+      "primary_type": "PSYCHIC",
+      "secondary_type": "PSYCHIC",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 93,
+      "safe_move_name": "MOVE_CONFUSION",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_CHIMECHO"
+        ]
+      ]
+    },
+    {
+      "id": 434,
+      "species": "SPECIES_STUNKY",
+      "primary_type": "POISON",
+      "secondary_type": "DARK",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 494,
+      "safe_move_name": "MOVE_ACID_SPRAY",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_SKUNTANK"
+        ]
+      ]
+    },
+    {
+      "id": 436,
+      "species": "SPECIES_BRONZOR",
+      "primary_type": "STEEL",
+      "secondary_type": "PSYCHIC",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 93,
+      "safe_move_name": "MOVE_CONFUSION",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_BRONZONG"
+        ]
+      ]
+    },
+    {
+      "id": 438,
+      "species": "SPECIES_BONSLY",
+      "primary_type": "ROCK",
+      "secondary_type": "ROCK",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 88,
+      "safe_move_name": "MOVE_ROCK_THROW",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_SUDOWOODO"
+        ]
+      ]
+    },
+    {
+      "id": 439,
+      "species": "SPECIES_MIME_JR",
+      "primary_type": "PSYCHIC",
+      "secondary_type": "FAIRY",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 93,
+      "safe_move_name": "MOVE_CONFUSION",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_MR_MIME"
+        ]
+      ]
+    },
+    {
+      "id": 440,
+      "species": "SPECIES_HAPPINY",
+      "primary_type": "NORMAL",
+      "secondary_type": "NORMAL",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 1,
+      "safe_move_name": "MOVE_POUND",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_CHANSEY",
+          "SPECIES_BLISSEY"
+        ]
+      ]
+    },
+    {
+      "id": 443,
+      "species": "SPECIES_GIBLE",
+      "primary_type": "DRAGON",
+      "secondary_type": "GROUND",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 225,
+      "safe_move_name": "MOVE_DRAGON_BREATH",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_GABITE",
+          "SPECIES_GARCHOMP"
+        ]
+      ]
+    },
+    {
+      "id": 446,
+      "species": "SPECIES_MUNCHLAX",
+      "primary_type": "NORMAL",
+      "secondary_type": "NORMAL",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 33,
+      "safe_move_name": "MOVE_TACKLE",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_SNORLAX"
+        ]
+      ]
+    },
+    {
+      "id": 447,
+      "species": "SPECIES_RIOLU",
+      "primary_type": "FIGHTING",
+      "secondary_type": "FIGHTING",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 249,
+      "safe_move_name": "MOVE_ROCK_SMASH",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_LUCARIO"
+        ]
+      ]
+    },
+    {
+      "id": 449,
+      "species": "SPECIES_HIPPOPOTAS",
+      "primary_type": "GROUND",
+      "secondary_type": "GROUND",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 91,
+      "safe_move_name": "MOVE_DIG",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_HIPPOWDON"
+        ]
+      ]
+    },
+    {
+      "id": 451,
+      "species": "SPECIES_SKORUPI",
+      "primary_type": "POISON",
+      "secondary_type": "BUG",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 305,
+      "safe_move_name": "MOVE_POISON_FANG",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_DRAPION"
+        ]
+      ]
+    },
+    {
+      "id": 453,
+      "species": "SPECIES_CROAGUNK",
+      "primary_type": "POISON",
+      "secondary_type": "FIGHTING",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 279,
+      "safe_move_name": "MOVE_REVENGE",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_TOXICROAK"
+        ]
+      ]
+    },
+    {
+      "id": 456,
+      "species": "SPECIES_FINNEON",
+      "primary_type": "WATER",
+      "secondary_type": "WATER",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 55,
+      "safe_move_name": "MOVE_WATER_GUN",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_LUMINEON"
+        ]
+      ]
+    },
+    {
+      "id": 458,
+      "species": "SPECIES_MANTYKE",
+      "primary_type": "WATER",
+      "secondary_type": "FLYING",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 55,
+      "safe_move_name": "MOVE_WATER_GUN",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_MANTINE"
+        ]
+      ]
+    },
+    {
+      "id": 459,
+      "species": "SPECIES_SNOVER",
+      "primary_type": "GRASS",
+      "secondary_type": "ICE",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 181,
+      "safe_move_name": "MOVE_POWDER_SNOW",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_ABOMASNOW"
+        ]
+      ]
+    },
+    {
+      "id": 545,
+      "species": "SPECIES_SNIVY",
+      "primary_type": "GRASS",
+      "secondary_type": "GRASS",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 22,
+      "safe_move_name": "MOVE_VINE_WHIP",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_SERVINE",
+          "SPECIES_SERPERIOR"
+        ]
+      ]
+    },
+    {
+      "id": 548,
+      "species": "SPECIES_TEPIG",
+      "primary_type": "FIRE",
+      "secondary_type": "FIRE",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 52,
+      "safe_move_name": "MOVE_EMBER",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_PIGNITE",
+          "SPECIES_EMBOAR"
+        ]
+      ]
+    },
+    {
+      "id": 551,
+      "species": "SPECIES_OSHAWOTT",
+      "primary_type": "WATER",
+      "secondary_type": "WATER",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 55,
+      "safe_move_name": "MOVE_WATER_GUN",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_DEWOTT",
+          "SPECIES_SAMUROTT"
+        ]
+      ]
+    },
+    {
+      "id": 554,
+      "species": "SPECIES_PATRAT",
+      "primary_type": "NORMAL",
+      "secondary_type": "NORMAL",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 33,
+      "safe_move_name": "MOVE_TACKLE",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_WATCHOG"
+        ]
+      ]
+    },
+    {
+      "id": 556,
+      "species": "SPECIES_LILLIPUP",
+      "primary_type": "NORMAL",
+      "secondary_type": "NORMAL",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 33,
+      "safe_move_name": "MOVE_TACKLE",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_HERDIER",
+          "SPECIES_STOUTLAND"
+        ]
+      ]
+    },
+    {
+      "id": 559,
+      "species": "SPECIES_PURRLOIN",
+      "primary_type": "DARK",
+      "secondary_type": "DARK",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 228,
+      "safe_move_name": "MOVE_PURSUIT",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_LIEPARD"
+        ]
+      ]
+    },
+    {
+      "id": 561,
+      "species": "SPECIES_PANSAGE",
+      "primary_type": "GRASS",
+      "secondary_type": "GRASS",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 22,
+      "safe_move_name": "MOVE_VINE_WHIP",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_SIMISAGE"
+        ]
+      ]
+    },
+    {
+      "id": 563,
+      "species": "SPECIES_PANSEAR",
+      "primary_type": "FIRE",
+      "secondary_type": "FIRE",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 513,
+      "safe_move_name": "MOVE_INCINERATE",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_SIMISEAR"
+        ]
+      ]
+    },
+    {
+      "id": 565,
+      "species": "SPECIES_PANPOUR",
+      "primary_type": "WATER",
+      "secondary_type": "WATER",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 55,
+      "safe_move_name": "MOVE_WATER_GUN",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_SIMIPOUR"
+        ]
+      ]
+    },
+    {
+      "id": 567,
+      "species": "SPECIES_MUNNA",
+      "primary_type": "PSYCHIC",
+      "secondary_type": "PSYCHIC",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 503,
+      "safe_move_name": "MOVE_STORED_POWER",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_MUSHARNA"
+        ]
+      ]
+    },
+    {
+      "id": 569,
+      "species": "SPECIES_PIDOVE",
+      "primary_type": "NORMAL",
+      "secondary_type": "FLYING",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 16,
+      "safe_move_name": "MOVE_GUST",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_TRANQUILL"
+        ]
+      ]
+    },
+    {
+      "id": 572,
+      "species": "SPECIES_BLITZLE",
+      "primary_type": "ELECTRIC",
+      "secondary_type": "ELECTRIC",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 351,
+      "safe_move_name": "MOVE_SHOCK_WAVE",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_ZEBSTRIKA"
+        ]
+      ]
+    },
+    {
+      "id": 574,
+      "species": "SPECIES_ROGGENROLA",
+      "primary_type": "ROCK",
+      "secondary_type": "ROCK",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 482,
+      "safe_move_name": "MOVE_SMACK_DOWN",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_BOLDORE",
+          "SPECIES_GIGALITH"
+        ]
+      ]
+    },
+    {
+      "id": 577,
+      "species": "SPECIES_WOOBAT",
+      "primary_type": "PSYCHIC",
+      "secondary_type": "FLYING",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 16,
+      "safe_move_name": "MOVE_GUST",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_SWOOBAT"
+        ]
+      ]
+    },
+    {
+      "id": 579,
+      "species": "SPECIES_DRILBUR",
+      "primary_type": "GROUND",
+      "secondary_type": "GROUND",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 189,
+      "safe_move_name": "MOVE_MUD_SLAP",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_EXCADRILL"
+        ]
+      ]
+    },
+    {
+      "id": 582,
+      "species": "SPECIES_TIMBURR",
+      "primary_type": "FIGHTING",
+      "secondary_type": "FIGHTING",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 67,
+      "safe_move_name": "MOVE_LOW_KICK",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_GURDURR",
+          "SPECIES_CONKELDURR"
+        ]
+      ]
+    },
+    {
+      "id": 585,
+      "species": "SPECIES_TYMPOLE",
+      "primary_type": "WATER",
+      "secondary_type": "WATER",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 145,
+      "safe_move_name": "MOVE_BUBBLE",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_PALPITOAD",
+          "SPECIES_SEISMITOAD"
+        ]
+      ]
+    },
+    {
+      "id": 590,
+      "species": "SPECIES_SEWADDLE",
+      "primary_type": "BUG",
+      "secondary_type": "GRASS",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 450,
+      "safe_move_name": "MOVE_BUG_BITE",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_SWADLOON",
+          "SPECIES_LEAVANNY"
+        ]
+      ]
+    },
+    {
+      "id": 593,
+      "species": "SPECIES_VENIPEDE",
+      "primary_type": "BUG",
+      "secondary_type": "POISON",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 342,
+      "safe_move_name": "MOVE_POISON_TAIL",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_WHIRLIPEDE",
+          "SPECIES_SCOLIPEDE"
+        ]
+      ]
+    },
+    {
+      "id": 596,
+      "species": "SPECIES_COTTONEE",
+      "primary_type": "GRASS",
+      "secondary_type": "FAIRY",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 72,
+      "safe_move_name": "MOVE_MEGA_DRAIN",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_WHIMSICOTT"
+        ]
+      ]
+    },
+    {
+      "id": 598,
+      "species": "SPECIES_PETILIL",
+      "primary_type": "GRASS",
+      "secondary_type": "GRASS",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 72,
+      "safe_move_name": "MOVE_MEGA_DRAIN",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_LILLIGANT"
+        ]
+      ]
+    },
+    {
+      "id": 601,
+      "species": "SPECIES_SANDILE",
+      "primary_type": "GROUND",
+      "secondary_type": "DARK",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 44,
+      "safe_move_name": "MOVE_BITE",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_KROKOROK",
+          "SPECIES_KROOKODILE"
+        ]
+      ]
+    },
+    {
+      "id": 604,
+      "species": "SPECIES_DARUMAKA",
+      "primary_type": "FIRE",
+      "secondary_type": "FIRE",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 52,
+      "safe_move_name": "MOVE_EMBER",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_DARMANITAN"
+        ]
+      ]
+    },
+    {
+      "id": 607,
+      "species": "SPECIES_DWEBBLE",
+      "primary_type": "BUG",
+      "secondary_type": "ROCK",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 210,
+      "safe_move_name": "MOVE_FURY_CUTTER",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_CRUSTLE"
+        ]
+      ]
+    },
+    {
+      "id": 609,
+      "species": "SPECIES_SCRAGGY",
+      "primary_type": "DARK",
+      "secondary_type": "FIGHTING",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 185,
+      "safe_move_name": "MOVE_FEINT_ATTACK",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_SCRAFTY"
+        ]
+      ]
+    },
+    {
+      "id": 612,
+      "species": "SPECIES_YAMASK",
+      "primary_type": "GHOST",
+      "secondary_type": "GHOST",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 466,
+      "safe_move_name": "MOVE_OMINOUS_WIND",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_COFAGRIGUS"
+        ]
+      ]
+    },
+    {
+      "id": 614,
+      "species": "SPECIES_TIRTOUGA",
+      "primary_type": "WATER",
+      "secondary_type": "ROCK",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 55,
+      "safe_move_name": "MOVE_WATER_GUN",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_CARRACOSTA"
+        ]
+      ]
+    },
+    {
+      "id": 616,
+      "species": "SPECIES_ARCHEN",
+      "primary_type": "ROCK",
+      "secondary_type": "FLYING",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 17,
+      "safe_move_name": "MOVE_WING_ATTACK",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_ARCHEOPS"
+        ]
+      ]
+    },
+    {
+      "id": 618,
+      "species": "SPECIES_TRUBBISH",
+      "primary_type": "POISON",
+      "secondary_type": "POISON",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 494,
+      "safe_move_name": "MOVE_ACID_SPRAY",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_GARBODOR"
+        ]
+      ]
+    },
+    {
+      "id": 620,
+      "species": "SPECIES_ZORUA",
+      "primary_type": "DARK",
+      "secondary_type": "DARK",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 228,
+      "safe_move_name": "MOVE_PURSUIT",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_ZOROARK"
+        ]
+      ]
+    },
+    {
+      "id": 622,
+      "species": "SPECIES_MINCCINO",
+      "primary_type": "NORMAL",
+      "secondary_type": "NORMAL",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 1,
+      "safe_move_name": "MOVE_POUND",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_CINCCINO"
+        ]
+      ]
+    },
+    {
+      "id": 624,
+      "species": "SPECIES_GOTHITA",
+      "primary_type": "PSYCHIC",
+      "secondary_type": "PSYCHIC",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 93,
+      "safe_move_name": "MOVE_CONFUSION",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_GOTHORITA",
+          "SPECIES_GOTHITELLE"
+        ]
+      ]
+    },
+    {
+      "id": 627,
+      "species": "SPECIES_SOLOSIS",
+      "primary_type": "PSYCHIC",
+      "secondary_type": "PSYCHIC",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 93,
+      "safe_move_name": "MOVE_CONFUSION",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_DUOSION",
+          "SPECIES_REUNICLUS"
+        ]
+      ]
+    },
+    {
+      "id": 630,
+      "species": "SPECIES_DUCKLETT",
+      "primary_type": "WATER",
+      "secondary_type": "FLYING",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 55,
+      "safe_move_name": "MOVE_WATER_GUN",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_SWANNA"
+        ]
+      ]
+    },
+    {
+      "id": 632,
+      "species": "SPECIES_VANILLITE",
+      "primary_type": "ICE",
+      "secondary_type": "ICE",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 196,
+      "safe_move_name": "MOVE_ICY_WIND",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_VANILLISH",
+          "SPECIES_VANILLUXE"
+        ]
+      ]
+    },
+    {
+      "id": 635,
+      "species": "SPECIES_DEERLING",
+      "primary_type": "NORMAL",
+      "secondary_type": "GRASS",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 33,
+      "safe_move_name": "MOVE_TACKLE",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_SAWSBUCK"
+        ]
+      ]
+    },
+    {
+      "id": 638,
+      "species": "SPECIES_KARRABLAST",
+      "primary_type": "BUG",
+      "secondary_type": "BUG",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 210,
+      "safe_move_name": "MOVE_FURY_CUTTER",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_ESCAVALIER"
+        ]
+      ]
+    },
+    {
+      "id": 640,
+      "species": "SPECIES_FOONGUS",
+      "primary_type": "GRASS",
+      "secondary_type": "POISON",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 72,
+      "safe_move_name": "MOVE_MEGA_DRAIN",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_AMOONGUSS"
+        ]
+      ]
+    },
+    {
+      "id": 645,
+      "species": "SPECIES_JOLTIK",
+      "primary_type": "BUG",
+      "secondary_type": "ELECTRIC",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 210,
+      "safe_move_name": "MOVE_FURY_CUTTER",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_GALVANTULA"
+        ]
+      ]
+    },
+    {
+      "id": 647,
+      "species": "SPECIES_FERROSEED",
+      "primary_type": "GRASS",
+      "secondary_type": "STEEL",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 232,
+      "safe_move_name": "MOVE_METAL_CLAW",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_FERROTHORN"
+        ]
+      ]
+    },
+    {
+      "id": 649,
+      "species": "SPECIES_KLINK",
+      "primary_type": "STEEL",
+      "secondary_type": "STEEL",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 547,
+      "safe_move_name": "MOVE_GEAR_GRIND",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_KLANG",
+          "SPECIES_KLINKLANG"
+        ]
+      ]
+    },
+    {
+      "id": 652,
+      "species": "SPECIES_TYNAMO",
+      "primary_type": "ELECTRIC",
+      "secondary_type": "ELECTRIC",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 451,
+      "safe_move_name": "MOVE_CHARGE_BEAM",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_EELEKTRIK",
+          "SPECIES_EELEKTROSS"
+        ]
+      ]
+    },
+    {
+      "id": 655,
+      "species": "SPECIES_ELGYEM",
+      "primary_type": "PSYCHIC",
+      "secondary_type": "PSYCHIC",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 93,
+      "safe_move_name": "MOVE_CONFUSION",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_BEHEEYEM"
+        ]
+      ]
+    },
+    {
+      "id": 657,
+      "species": "SPECIES_LITWICK",
+      "primary_type": "GHOST",
+      "secondary_type": "FIRE",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 52,
+      "safe_move_name": "MOVE_EMBER",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_LAMPENT",
+          "SPECIES_CHANDELURE"
+        ]
+      ]
+    },
+    {
+      "id": 660,
+      "species": "SPECIES_AXEW",
+      "primary_type": "DRAGON",
+      "secondary_type": "DRAGON",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 533,
+      "safe_move_name": "MOVE_DUAL_CHOP",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_FRAXURE",
+          "SPECIES_HAXORUS"
+        ]
+      ]
+    },
+    {
+      "id": 663,
+      "species": "SPECIES_CUBCHOO",
+      "primary_type": "ICE",
+      "secondary_type": "ICE",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 181,
+      "safe_move_name": "MOVE_POWDER_SNOW",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_BEARTIC"
+        ]
+      ]
+    },
+    {
+      "id": 666,
+      "species": "SPECIES_SHELMET",
+      "primary_type": "BUG",
+      "secondary_type": "BUG",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 525,
+      "safe_move_name": "MOVE_STRUGGLE_BUG",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_ACCELGOR"
+        ]
+      ]
+    },
+    {
+      "id": 669,
+      "species": "SPECIES_MIENFOO",
+      "primary_type": "FIGHTING",
+      "secondary_type": "FIGHTING",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 395,
+      "safe_move_name": "MOVE_FORCE_PALM",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_MIENSHAO"
+        ]
+      ]
+    },
+    {
+      "id": 672,
+      "species": "SPECIES_GOLETT",
+      "primary_type": "GROUND",
+      "secondary_type": "GHOST",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 325,
+      "safe_move_name": "MOVE_SHADOW_PUNCH",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_GOLURK"
+        ]
+      ]
+    },
+    {
+      "id": 674,
+      "species": "SPECIES_PAWNIARD",
+      "primary_type": "DARK",
+      "secondary_type": "STEEL",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 232,
+      "safe_move_name": "MOVE_METAL_CLAW",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_BISHARP",
+          "SPECIES_KINGAMBIT"
+        ]
+      ]
+    },
+    {
+      "id": 677,
+      "species": "SPECIES_RUFFLET",
+      "primary_type": "NORMAL",
+      "secondary_type": "FLYING",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 64,
+      "safe_move_name": "MOVE_PECK",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_BRAVIARY"
+        ]
+      ]
+    },
+    {
+      "id": 679,
+      "species": "SPECIES_VULLABY",
+      "primary_type": "DARK",
+      "secondary_type": "FLYING",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 16,
+      "safe_move_name": "MOVE_GUST",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_MANDIBUZZ"
+        ]
+      ]
+    },
+    {
+      "id": 683,
+      "species": "SPECIES_DEINO",
+      "primary_type": "DARK",
+      "secondary_type": "DRAGON",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 44,
+      "safe_move_name": "MOVE_BITE",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_ZWEILOUS",
+          "SPECIES_HYDREIGON"
+        ]
+      ]
+    },
+    {
+      "id": 686,
+      "species": "SPECIES_LARVESTA",
+      "primary_type": "BUG",
+      "secondary_type": "FIRE",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 52,
+      "safe_move_name": "MOVE_EMBER",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_VOLCARONA"
+        ]
+      ]
+    },
+    {
+      "id": 700,
+      "species": "SPECIES_CHESPIN",
+      "primary_type": "GRASS",
+      "secondary_type": "GRASS",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 22,
+      "safe_move_name": "MOVE_VINE_WHIP",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_QUILLADIN",
+          "SPECIES_CHESNAUGHT"
+        ]
+      ]
+    },
+    {
+      "id": 703,
+      "species": "SPECIES_FENNEKIN",
+      "primary_type": "FIRE",
+      "secondary_type": "FIRE",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 52,
+      "safe_move_name": "MOVE_EMBER",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_BRAIXEN",
+          "SPECIES_DELPHOX"
+        ]
+      ]
+    },
+    {
+      "id": 706,
+      "species": "SPECIES_FROAKIE",
+      "primary_type": "WATER",
+      "secondary_type": "WATER",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 352,
+      "safe_move_name": "MOVE_WATER_PULSE",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_FROGADIER",
+          "SPECIES_GRENINJA"
+        ]
+      ]
+    },
+    {
+      "id": 709,
+      "species": "SPECIES_BUNNELBY",
+      "primary_type": "NORMAL",
+      "secondary_type": "NORMAL",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 33,
+      "safe_move_name": "MOVE_TACKLE",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_DIGGERSBY"
+        ]
+      ]
+    },
+    {
+      "id": 711,
+      "species": "SPECIES_FLETCHLING",
+      "primary_type": "NORMAL",
+      "secondary_type": "FLYING",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 64,
+      "safe_move_name": "MOVE_PECK",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_FLETCHINDER",
+          "SPECIES_TALONFLAME"
+        ]
+      ]
+    },
+    {
+      "id": 714,
+      "species": "SPECIES_SCATTERBUG",
+      "primary_type": "BUG",
+      "secondary_type": "BUG",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 450,
+      "safe_move_name": "MOVE_BUG_BITE",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_SPEWPA",
+          "SPECIES_VIVILLON"
+        ]
+      ]
+    },
+    {
+      "id": 719,
+      "species": "SPECIES_FLABEBE",
+      "primary_type": "FAIRY",
+      "secondary_type": "FAIRY",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 33,
+      "safe_move_name": "MOVE_TACKLE",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_FLOETTE",
+          "SPECIES_FLORGES"
+        ]
+      ]
+    },
+    {
+      "id": 722,
+      "species": "SPECIES_SKIDDO",
+      "primary_type": "GRASS",
+      "secondary_type": "GRASS",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 22,
+      "safe_move_name": "MOVE_VINE_WHIP",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_GOGOAT"
+        ]
+      ]
+    },
+    {
+      "id": 724,
+      "species": "SPECIES_PANCHAM",
+      "primary_type": "FIGHTING",
+      "secondary_type": "FIGHTING",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 2,
+      "safe_move_name": "MOVE_KARATE_CHOP",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_PANGORO"
+        ]
+      ]
+    },
+    {
+      "id": 729,
+      "species": "SPECIES_HONEDGE",
+      "primary_type": "STEEL",
+      "secondary_type": "GHOST",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 425,
+      "safe_move_name": "MOVE_SHADOW_SNEAK",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_DOUBLADE",
+          "SPECIES_AEGISLASH"
+        ]
+      ]
+    },
+    {
+      "id": 732,
+      "species": "SPECIES_SPRITZEE",
+      "primary_type": "FAIRY",
+      "secondary_type": "FAIRY",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 500,
+      "safe_move_name": "MOVE_ECHOED_VOICE",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_AROMATISSE"
+        ]
+      ]
+    },
+    {
+      "id": 734,
+      "species": "SPECIES_SWIRLIX",
+      "primary_type": "FAIRY",
+      "secondary_type": "FAIRY",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 33,
+      "safe_move_name": "MOVE_TACKLE",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_SLURPUFF"
+        ]
+      ]
+    },
+    {
+      "id": 736,
+      "species": "SPECIES_INKAY",
+      "primary_type": "DARK",
+      "secondary_type": "PSYCHIC",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 371,
+      "safe_move_name": "MOVE_PAYBACK",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_MALAMAR"
+        ]
+      ]
+    },
+    {
+      "id": 738,
+      "species": "SPECIES_BINACLE",
+      "primary_type": "ROCK",
+      "secondary_type": "WATER",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 55,
+      "safe_move_name": "MOVE_WATER_GUN",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_BARBARACLE"
+        ]
+      ]
+    },
+    {
+      "id": 740,
+      "species": "SPECIES_SKRELP",
+      "primary_type": "POISON",
+      "secondary_type": "WATER",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 55,
+      "safe_move_name": "MOVE_WATER_GUN",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_DRAGALGE"
+        ]
+      ]
+    },
+    {
+      "id": 742,
+      "species": "SPECIES_CLAUNCHER",
+      "primary_type": "WATER",
+      "secondary_type": "WATER",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 55,
+      "safe_move_name": "MOVE_WATER_GUN",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_CLAWITZER"
+        ]
+      ]
+    },
+    {
+      "id": 744,
+      "species": "SPECIES_HELIOPTILE",
+      "primary_type": "ELECTRIC",
+      "secondary_type": "NORMAL",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 1,
+      "safe_move_name": "MOVE_POUND",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_HELIOLISK"
+        ]
+      ]
+    },
+    {
+      "id": 746,
+      "species": "SPECIES_TYRUNT",
+      "primary_type": "ROCK",
+      "secondary_type": "DRAGON",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 246,
+      "safe_move_name": "MOVE_ANCIENT_POWER",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_TYRANTRUM"
+        ]
+      ]
+    },
+    {
+      "id": 748,
+      "species": "SPECIES_AMAURA",
+      "primary_type": "ROCK",
+      "secondary_type": "ICE",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 181,
+      "safe_move_name": "MOVE_POWDER_SNOW",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_AURORUS"
+        ]
+      ]
+    },
+    {
+      "id": 754,
+      "species": "SPECIES_GOOMY",
+      "primary_type": "DRAGON",
+      "secondary_type": "DRAGON",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 225,
+      "safe_move_name": "MOVE_DRAGON_BREATH",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_SLIGGOO",
+          "SPECIES_GOODRA"
+        ]
+      ]
+    },
+    {
+      "id": 758,
+      "species": "SPECIES_PHANTUMP",
+      "primary_type": "GHOST",
+      "secondary_type": "GRASS",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 788,
+      "safe_move_name": "MOVE_BRANCH_POKE",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_TREVENANT"
+        ]
+      ]
+    },
+    {
+      "id": 760,
+      "species": "SPECIES_PUMPKABOO",
+      "primary_type": "GHOST",
+      "secondary_type": "GRASS",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 75,
+      "safe_move_name": "MOVE_RAZOR_LEAF",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_GOURGEIST"
+        ]
+      ]
+    },
+    {
+      "id": 762,
+      "species": "SPECIES_BERGMITE",
+      "primary_type": "ICE",
+      "secondary_type": "ICE",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 181,
+      "safe_move_name": "MOVE_POWDER_SNOW",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_AVALUGG"
+        ]
+      ]
+    },
+    {
+      "id": 764,
+      "species": "SPECIES_NOIBAT",
+      "primary_type": "FLYING",
+      "secondary_type": "DRAGON",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 16,
+      "safe_move_name": "MOVE_GUST",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_NOIVERN"
+        ]
+      ]
+    },
+    {
+      "id": 772,
+      "species": "SPECIES_ROWLET",
+      "primary_type": "GRASS",
+      "secondary_type": "FLYING",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 673,
+      "safe_move_name": "MOVE_LEAFAGE",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_DARTRIX",
+          "SPECIES_DECIDUEYE"
+        ]
+      ]
+    },
+    {
+      "id": 775,
+      "species": "SPECIES_LITTEN",
+      "primary_type": "FIRE",
+      "secondary_type": "FIRE",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 52,
+      "safe_move_name": "MOVE_EMBER",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_TORRACAT",
+          "SPECIES_INCINEROAR"
+        ]
+      ]
+    },
+    {
+      "id": 778,
+      "species": "SPECIES_POPPLIO",
+      "primary_type": "WATER",
+      "secondary_type": "WATER",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 55,
+      "safe_move_name": "MOVE_WATER_GUN",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_BRIONNE",
+          "SPECIES_PRIMARINA"
+        ]
+      ]
+    },
+    {
+      "id": 781,
+      "species": "SPECIES_PIKIPEK",
+      "primary_type": "NORMAL",
+      "secondary_type": "FLYING",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 64,
+      "safe_move_name": "MOVE_PECK",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_TRUMBEAK",
+          "SPECIES_TOUCANNON"
+        ]
+      ]
+    },
+    {
+      "id": 784,
+      "species": "SPECIES_YUNGOOS",
+      "primary_type": "NORMAL",
+      "secondary_type": "NORMAL",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 33,
+      "safe_move_name": "MOVE_TACKLE",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_GUMSHOOS"
+        ]
+      ]
+    },
+    {
+      "id": 786,
+      "species": "SPECIES_GRUBBIN",
+      "primary_type": "BUG",
+      "secondary_type": "BUG",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 450,
+      "safe_move_name": "MOVE_BUG_BITE",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_CHARJABUG",
+          "SPECIES_VIKAVOLT"
+        ]
+      ]
+    },
+    {
+      "id": 789,
+      "species": "SPECIES_CRABRAWLER",
+      "primary_type": "FIGHTING",
+      "secondary_type": "FIGHTING",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 249,
+      "safe_move_name": "MOVE_ROCK_SMASH",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_CRABOMINABLE"
+        ]
+      ]
+    },
+    {
+      "id": 792,
+      "species": "SPECIES_CUTIEFLY",
+      "primary_type": "BUG",
+      "secondary_type": "FAIRY",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 318,
+      "safe_move_name": "MOVE_SILVER_WIND",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_RIBOMBEE"
+        ]
+      ]
+    },
+    {
+      "id": 797,
+      "species": "SPECIES_MAREANIE",
+      "primary_type": "POISON",
+      "secondary_type": "WATER",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 40,
+      "safe_move_name": "MOVE_POISON_STING",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_TOXAPEX"
+        ]
+      ]
+    },
+    {
+      "id": 799,
+      "species": "SPECIES_MUDBRAY",
+      "primary_type": "GROUND",
+      "secondary_type": "GROUND",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 526,
+      "safe_move_name": "MOVE_BULLDOZE",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_MUDSDALE"
+        ]
+      ]
+    },
+    {
+      "id": 801,
+      "species": "SPECIES_DEWPIDER",
+      "primary_type": "WATER",
+      "secondary_type": "BUG",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 55,
+      "safe_move_name": "MOVE_WATER_GUN",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_ARAQUANID"
+        ]
+      ]
+    },
+    {
+      "id": 803,
+      "species": "SPECIES_FOMANTIS",
+      "primary_type": "GRASS",
+      "secondary_type": "GRASS",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 673,
+      "safe_move_name": "MOVE_LEAFAGE",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_LURANTIS"
+        ]
+      ]
+    },
+    {
+      "id": 805,
+      "species": "SPECIES_MORELULL",
+      "primary_type": "GRASS",
+      "secondary_type": "FAIRY",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 72,
+      "safe_move_name": "MOVE_MEGA_DRAIN",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_SHIINOTIC"
+        ]
+      ]
+    },
+    {
+      "id": 807,
+      "species": "SPECIES_SALANDIT",
+      "primary_type": "POISON",
+      "secondary_type": "FIRE",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 52,
+      "safe_move_name": "MOVE_EMBER",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_SALAZZLE"
+        ]
+      ]
+    },
+    {
+      "id": 809,
+      "species": "SPECIES_STUFFUL",
+      "primary_type": "NORMAL",
+      "secondary_type": "FIGHTING",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 33,
+      "safe_move_name": "MOVE_TACKLE",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_BEWEAR"
+        ]
+      ]
+    },
+    {
+      "id": 811,
+      "species": "SPECIES_BOUNSWEET",
+      "primary_type": "GRASS",
+      "secondary_type": "GRASS",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 75,
+      "safe_move_name": "MOVE_RAZOR_LEAF",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_STEENEE",
+          "SPECIES_TSAREENA"
+        ]
+      ]
+    },
+    {
+      "id": 817,
+      "species": "SPECIES_WIMPOD",
+      "primary_type": "BUG",
+      "secondary_type": "WATER",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 525,
+      "safe_move_name": "MOVE_STRUGGLE_BUG",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_GOLISOPOD"
+        ]
+      ]
+    },
+    {
+      "id": 819,
+      "species": "SPECIES_SANDYGAST",
+      "primary_type": "GHOST",
+      "secondary_type": "GROUND",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 526,
+      "safe_move_name": "MOVE_BULLDOZE",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_PALOSSAND"
+        ]
+      ]
+    },
+    {
+      "id": 832,
+      "species": "SPECIES_JANGMO_O",
+      "primary_type": "DRAGON",
+      "secondary_type": "DRAGON",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 528,
+      "safe_move_name": "MOVE_DRAGON_TAIL",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_HAKAMO_O",
+          "SPECIES_KOMMO_O"
+        ]
+      ]
+    },
+    {
+      "id": 860,
+      "species": "SPECIES_GROOKEY",
+      "primary_type": "GRASS",
+      "secondary_type": "GRASS",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 788,
+      "safe_move_name": "MOVE_BRANCH_POKE",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_THWACKEY",
+          "SPECIES_RILLABOOM"
+        ]
+      ]
+    },
+    {
+      "id": 863,
+      "species": "SPECIES_SCORBUNNY",
+      "primary_type": "FIRE",
+      "secondary_type": "FIRE",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 52,
+      "safe_move_name": "MOVE_EMBER",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_RABOOT",
+          "SPECIES_CINDERACE"
+        ]
+      ]
+    },
+    {
+      "id": 866,
+      "species": "SPECIES_SOBBLE",
+      "primary_type": "WATER",
+      "secondary_type": "WATER",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 55,
+      "safe_move_name": "MOVE_WATER_GUN",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_DRIZZILE",
+          "SPECIES_INTELEON"
+        ]
+      ]
+    },
+    {
+      "id": 869,
+      "species": "SPECIES_SKWOVET",
+      "primary_type": "NORMAL",
+      "secondary_type": "NORMAL",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 33,
+      "safe_move_name": "MOVE_TACKLE",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_GREEDENT"
+        ]
+      ]
+    },
+    {
+      "id": 871,
+      "species": "SPECIES_ROOKIDEE",
+      "primary_type": "FLYING",
+      "secondary_type": "FLYING",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 64,
+      "safe_move_name": "MOVE_PECK",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_CORVISQUIRE",
+          "SPECIES_CORVIKNIGHT"
+        ]
+      ]
+    },
+    {
+      "id": 874,
+      "species": "SPECIES_BLIPBUG",
+      "primary_type": "BUG",
+      "secondary_type": "BUG",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 525,
+      "safe_move_name": "MOVE_STRUGGLE_BUG",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_DOTTLER",
+          "SPECIES_ORBEETLE"
+        ]
+      ]
+    },
+    {
+      "id": 877,
+      "species": "SPECIES_NICKIT",
+      "primary_type": "DARK",
+      "secondary_type": "DARK",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 558,
+      "safe_move_name": "MOVE_SNARL",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_THIEVUL"
+        ]
+      ]
+    },
+    {
+      "id": 879,
+      "species": "SPECIES_GOSSIFLEUR",
+      "primary_type": "GRASS",
+      "secondary_type": "GRASS",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 673,
+      "safe_move_name": "MOVE_LEAFAGE",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_ELDEGOSS"
+        ]
+      ]
+    },
+    {
+      "id": 881,
+      "species": "SPECIES_WOOLOO",
+      "primary_type": "NORMAL",
+      "secondary_type": "NORMAL",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 33,
+      "safe_move_name": "MOVE_TACKLE",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_DUBWOOL"
+        ]
+      ]
+    },
+    {
+      "id": 883,
+      "species": "SPECIES_CHEWTLE",
+      "primary_type": "WATER",
+      "secondary_type": "WATER",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 55,
+      "safe_move_name": "MOVE_WATER_GUN",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_DREDNAW"
+        ]
+      ]
+    },
+    {
+      "id": 885,
+      "species": "SPECIES_YAMPER",
+      "primary_type": "ELECTRIC",
+      "secondary_type": "ELECTRIC",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 612,
+      "safe_move_name": "MOVE_NUZZLE",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_BOLTUND"
+        ]
+      ]
+    },
+    {
+      "id": 887,
+      "species": "SPECIES_ROLYCOLY",
+      "primary_type": "ROCK",
+      "secondary_type": "ROCK",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 482,
+      "safe_move_name": "MOVE_SMACK_DOWN",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_CARKOL",
+          "SPECIES_COALOSSAL"
+        ]
+      ]
+    },
+    {
+      "id": 890,
+      "species": "SPECIES_APPLIN",
+      "primary_type": "GRASS",
+      "secondary_type": "DRAGON",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 310,
+      "safe_move_name": "MOVE_ASTONISH",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_FLAPPLE"
+        ],
+        [
+          "SPECIES_APPLETUN"
+        ],
+        [
+          "SPECIES_DIPPLIN",
+          "SPECIES_HYDRAPPLE"
+        ]
+      ]
+    },
+    {
+      "id": 893,
+      "species": "SPECIES_SILICOBRA",
+      "primary_type": "GROUND",
+      "secondary_type": "GROUND",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 526,
+      "safe_move_name": "MOVE_BULLDOZE",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_SANDACONDA"
+        ]
+      ]
+    },
+    {
+      "id": 896,
+      "species": "SPECIES_ARROKUDA",
+      "primary_type": "WATER",
+      "secondary_type": "WATER",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 453,
+      "safe_move_name": "MOVE_AQUA_JET",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_BARRASKEWDA"
+        ]
+      ]
+    },
+    {
+      "id": 898,
+      "species": "SPECIES_TOXEL",
+      "primary_type": "ELECTRIC",
+      "secondary_type": "POISON",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 51,
+      "safe_move_name": "MOVE_ACID",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_TOXTRICITY"
+        ]
+      ]
+    },
+    {
+      "id": 900,
+      "species": "SPECIES_SIZZLIPEDE",
+      "primary_type": "FIRE",
+      "secondary_type": "BUG",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 52,
+      "safe_move_name": "MOVE_EMBER",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_CENTISKORCH"
+        ]
+      ]
+    },
+    {
+      "id": 902,
+      "species": "SPECIES_CLOBBOPUS",
+      "primary_type": "FIGHTING",
+      "secondary_type": "FIGHTING",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 249,
+      "safe_move_name": "MOVE_ROCK_SMASH",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_GRAPPLOCT"
+        ]
+      ]
+    },
+    {
+      "id": 904,
+      "species": "SPECIES_SINISTEA",
+      "primary_type": "GHOST",
+      "secondary_type": "GHOST",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 310,
+      "safe_move_name": "MOVE_ASTONISH",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_POLTEAGEIST"
+        ]
+      ]
+    },
+    {
+      "id": 906,
+      "species": "SPECIES_HATENNA",
+      "primary_type": "PSYCHIC",
+      "secondary_type": "PSYCHIC",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 93,
+      "safe_move_name": "MOVE_CONFUSION",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_HATTREM",
+          "SPECIES_HATTERENE"
+        ]
+      ]
+    },
+    {
+      "id": 909,
+      "species": "SPECIES_IMPIDIMP",
+      "primary_type": "DARK",
+      "secondary_type": "FAIRY",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 44,
+      "safe_move_name": "MOVE_BITE",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_MORGREM",
+          "SPECIES_GRIMMSNARL"
+        ]
+      ]
+    },
+    {
+      "id": 918,
+      "species": "SPECIES_MILCERY",
+      "primary_type": "FAIRY",
+      "secondary_type": "FAIRY",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 33,
+      "safe_move_name": "MOVE_TACKLE",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_ALCREMIE"
+        ]
+      ]
+    },
+    {
+      "id": 922,
+      "species": "SPECIES_SNOM",
+      "primary_type": "ICE",
+      "secondary_type": "BUG",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 181,
+      "safe_move_name": "MOVE_POWDER_SNOW",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_FROSMOTH"
+        ]
+      ]
+    },
+    {
+      "id": 928,
+      "species": "SPECIES_CUFANT",
+      "primary_type": "STEEL",
+      "secondary_type": "STEEL",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 442,
+      "safe_move_name": "MOVE_IRON_HEAD",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_COPPERAJAH"
+        ]
+      ]
+    },
+    {
+      "id": 934,
+      "species": "SPECIES_DURALUDON",
+      "primary_type": "STEEL",
+      "secondary_type": "DRAGON",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 232,
+      "safe_move_name": "MOVE_METAL_CLAW",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_ARCHALUDON"
+        ]
+      ]
+    },
+    {
+      "id": 935,
+      "species": "SPECIES_DREEPY",
+      "primary_type": "DRAGON",
+      "secondary_type": "GHOST",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 310,
+      "safe_move_name": "MOVE_ASTONISH",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_DRAKLOAK",
+          "SPECIES_DRAGAPULT"
+        ]
+      ]
+    },
+    {
+      "id": 956,
+      "species": "SPECIES_SPRIGATITO",
+      "primary_type": "GRASS",
+      "secondary_type": "GRASS",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 673,
+      "safe_move_name": "MOVE_LEAFAGE",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_FLORAGATO",
+          "SPECIES_MEOWSCARADA"
+        ]
+      ]
+    },
+    {
+      "id": 959,
+      "species": "SPECIES_FUECOCO",
+      "primary_type": "FIRE",
+      "secondary_type": "FIRE",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 52,
+      "safe_move_name": "MOVE_EMBER",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_CROCALOR",
+          "SPECIES_SKELEDIRGE"
+        ]
+      ]
+    },
+    {
+      "id": 962,
+      "species": "SPECIES_QUAXLY",
+      "primary_type": "WATER",
+      "secondary_type": "WATER",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 55,
+      "safe_move_name": "MOVE_WATER_GUN",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_QUAXWELL",
+          "SPECIES_QUAQUAVAL"
+        ]
+      ]
+    },
+    {
+      "id": 967,
+      "species": "SPECIES_TAROUNTULA",
+      "primary_type": "BUG",
+      "secondary_type": "BUG",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 525,
+      "safe_move_name": "MOVE_STRUGGLE_BUG",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_SPIDOPS"
+        ]
+      ]
+    },
+    {
+      "id": 969,
+      "species": "SPECIES_NYMBLE",
+      "primary_type": "BUG",
+      "secondary_type": "BUG",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 525,
+      "safe_move_name": "MOVE_STRUGGLE_BUG",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_LOKIX"
+        ]
+      ]
+    },
+    {
+      "id": 971,
+      "species": "SPECIES_PAWMI",
+      "primary_type": "ELECTRIC",
+      "secondary_type": "ELECTRIC",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 84,
+      "safe_move_name": "MOVE_THUNDER_SHOCK",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_PAWMO",
+          "SPECIES_PAWMOT"
+        ]
+      ]
+    },
+    {
+      "id": 974,
+      "species": "SPECIES_TANDEMAUS",
+      "primary_type": "NORMAL",
+      "secondary_type": "NORMAL",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 1,
+      "safe_move_name": "MOVE_POUND",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_MAUSHOLD"
+        ]
+      ]
+    },
+    {
+      "id": 976,
+      "species": "SPECIES_FIDOUGH",
+      "primary_type": "FAIRY",
+      "secondary_type": "FAIRY",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 33,
+      "safe_move_name": "MOVE_TACKLE",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_DACHSBUN"
+        ]
+      ]
+    },
+    {
+      "id": 978,
+      "species": "SPECIES_SMOLIV",
+      "primary_type": "GRASS",
+      "secondary_type": "NORMAL",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 33,
+      "safe_move_name": "MOVE_TACKLE",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_DOLLIV",
+          "SPECIES_ARBOLIVA"
+        ]
+      ]
+    },
+    {
+      "id": 982,
+      "species": "SPECIES_NACLI",
+      "primary_type": "ROCK",
+      "secondary_type": "ROCK",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 88,
+      "safe_move_name": "MOVE_ROCK_THROW",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_NACLSTACK",
+          "SPECIES_GARGANACL"
+        ]
+      ]
+    },
+    {
+      "id": 985,
+      "species": "SPECIES_CHARCADET",
+      "primary_type": "FIRE",
+      "secondary_type": "FIRE",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 52,
+      "safe_move_name": "MOVE_EMBER",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_ARMAROUGE"
+        ],
+        [
+          "SPECIES_CERULEDGE"
+        ]
+      ]
+    },
+    {
+      "id": 988,
+      "species": "SPECIES_TADBULB",
+      "primary_type": "ELECTRIC",
+      "secondary_type": "ELECTRIC",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 84,
+      "safe_move_name": "MOVE_THUNDER_SHOCK",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_BELLIBOLT"
+        ]
+      ]
+    },
+    {
+      "id": 990,
+      "species": "SPECIES_WATTREL",
+      "primary_type": "ELECTRIC",
+      "secondary_type": "FLYING",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 64,
+      "safe_move_name": "MOVE_PECK",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_KILOWATTREL"
+        ]
+      ]
+    },
+    {
+      "id": 992,
+      "species": "SPECIES_MASCHIFF",
+      "primary_type": "DARK",
+      "secondary_type": "DARK",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 558,
+      "safe_move_name": "MOVE_SNARL",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_MABOSSTIFF"
+        ]
+      ]
+    },
+    {
+      "id": 994,
+      "species": "SPECIES_SHROODLE",
+      "primary_type": "POISON",
+      "secondary_type": "NORMAL",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 10,
+      "safe_move_name": "MOVE_SCRATCH",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_GRAFAIAI"
+        ]
+      ]
+    },
+    {
+      "id": 996,
+      "species": "SPECIES_BRAMBLIN",
+      "primary_type": "GRASS",
+      "secondary_type": "GHOST",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 72,
+      "safe_move_name": "MOVE_MEGA_DRAIN",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_BRAMBLEGHAST"
+        ]
+      ]
+    },
+    {
+      "id": 998,
+      "species": "SPECIES_TOEDSCOOL",
+      "primary_type": "GROUND",
+      "secondary_type": "GRASS",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 72,
+      "safe_move_name": "MOVE_MEGA_DRAIN",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_TOEDSCRUEL"
+        ]
+      ]
+    },
+    {
+      "id": 1001,
+      "species": "SPECIES_CAPSAKID",
+      "primary_type": "GRASS",
+      "secondary_type": "GRASS",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 673,
+      "safe_move_name": "MOVE_LEAFAGE",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_SCOVILLAIN"
+        ]
+      ]
+    },
+    {
+      "id": 1003,
+      "species": "SPECIES_RELLOR",
+      "primary_type": "BUG",
+      "secondary_type": "BUG",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 525,
+      "safe_move_name": "MOVE_STRUGGLE_BUG",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_RABSCA"
+        ]
+      ]
+    },
+    {
+      "id": 1005,
+      "species": "SPECIES_FLITTLE",
+      "primary_type": "PSYCHIC",
+      "secondary_type": "PSYCHIC",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 93,
+      "safe_move_name": "MOVE_CONFUSION",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_ESPATHRA"
+        ]
+      ]
+    },
+    {
+      "id": 1007,
+      "species": "SPECIES_TINKATINK",
+      "primary_type": "FAIRY",
+      "secondary_type": "STEEL",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 232,
+      "safe_move_name": "MOVE_METAL_CLAW",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_TINKATUFF",
+          "SPECIES_TINKATON"
+        ]
+      ]
+    },
+    {
+      "id": 1010,
+      "species": "SPECIES_WIGLETT",
+      "primary_type": "WATER",
+      "secondary_type": "WATER",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 55,
+      "safe_move_name": "MOVE_WATER_GUN",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_WUGTRIO"
+        ]
+      ]
+    },
+    {
+      "id": 1013,
+      "species": "SPECIES_FINIZEN",
+      "primary_type": "WATER",
+      "secondary_type": "WATER",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 55,
+      "safe_move_name": "MOVE_WATER_GUN",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_PALAFIN"
+        ]
+      ]
+    },
+    {
+      "id": 1015,
+      "species": "SPECIES_VAROOM",
+      "primary_type": "STEEL",
+      "secondary_type": "POISON",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 124,
+      "safe_move_name": "MOVE_SLUDGE",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_REVAVROOM"
+        ]
+      ]
+    },
+    {
+      "id": 1019,
+      "species": "SPECIES_GLIMMET",
+      "primary_type": "ROCK",
+      "secondary_type": "POISON",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 88,
+      "safe_move_name": "MOVE_ROCK_THROW",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_GLIMMORA"
+        ]
+      ]
+    },
+    {
+      "id": 1021,
+      "species": "SPECIES_GREAVARD",
+      "primary_type": "GHOST",
+      "secondary_type": "GHOST",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 122,
+      "safe_move_name": "MOVE_LICK",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_HOUNDSTONE"
+        ]
+      ]
+    },
+    {
+      "id": 1024,
+      "species": "SPECIES_CETODDLE",
+      "primary_type": "ICE",
+      "secondary_type": "ICE",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 181,
+      "safe_move_name": "MOVE_POWDER_SNOW",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_CETITAN"
+        ]
+      ]
+    },
+    {
+      "id": 1046,
+      "species": "SPECIES_FRIGIBAX",
+      "primary_type": "DRAGON",
+      "secondary_type": "ICE",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 528,
+      "safe_move_name": "MOVE_DRAGON_TAIL",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_ARCTIBAX",
+          "SPECIES_BAXCALIBUR"
+        ]
+      ]
+    },
+    {
+      "id": 1049,
+      "species": "SPECIES_GIMMIGHOUL",
+      "primary_type": "GHOST",
+      "secondary_type": "GHOST",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 310,
+      "safe_move_name": "MOVE_ASTONISH",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_GHOLDENGO"
+        ]
+      ]
+    },
+    {
+      "id": 1062,
+      "species": "SPECIES_POLTCHAGEIST",
+      "primary_type": "GRASS",
+      "secondary_type": "GHOST",
+      "first_form": true,
+      "has_evolution": true,
+      "special_category": false,
+      "alternate_form": false,
+      "resources": {
+        "sprite": true,
+        "icon": true,
+        "cry": true,
+        "follower": true
+      },
+      "safe_move": 72,
+      "safe_move_name": "MOVE_MEGA_DRAIN",
+      "safe_move_source": "level-up",
+      "evolution_paths": [
+        [
+          "SPECIES_SINISTCHA"
+        ]
+      ]
+    }
+  ]
+}
