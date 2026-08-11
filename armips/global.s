@@ -20,6 +20,7 @@
 .include "armips/asm/overworlds.s" // code for overworlds, specifically repointing gOWTagToFileNum and making dimorphism a byte instead of a halfword.
 .include "armips/asm/sprites.s" // make the copied HGSS pokegra use the HGSS unscan path in Dress Pokemon
 .include "armips/asm/swarms.s" // modify swarms
+.include "armips/asm/battle_menu_dpad.s" // allow RUN + Up to select FIGHT
 
 .include "armips/data/starters.s" // data definitions for which species to use for the starter Pokemon
 .include "armips/asm/tm_palettes.s" // allows editing of pallete table for TMs
