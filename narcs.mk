@@ -259,6 +259,16 @@ NARC_FILES += $(TRAINERTEXT_NARC)
 REQUIRED_DIRECTORIES += $(TRAINERTEXT_DIR) $(TRAINERTEXT_DIR_2) $(BUILD)/rawtext/728
 MSGDATA_COMPILETIME_DEPENDENCIES += $(BUILD)/rawtext/728.txt
 
+# v2.4: derive Oak's full message bank from the base ROM, then replace only
+# the three starter confirmations with one species-buffered template.
+MSGDATA_COMPILETIME_DEPENDENCIES += $(BUILD)/rawtext/451.txt
+
+$(BUILD)/rawtext/451.txt: $(MSGDATA_TARGET) $(MSGENC) scripts/patch_v24_oak_text.py
+	mkdir -p $(BUILD)/v24_oak_text
+	$(NARCHIVE) extract $(MSGDATA_TARGET) -o $(BUILD)/v24_oak_text -nf
+	$(MSGENC) -d -c $(CHARMAP) $(BUILD)/v24_oak_text/7_451 $@
+	$(PYTHON) scripts/patch_v24_oak_text.py $@
+
 #FOOTPRINTS_DIR := $(BUILD)/a069
 FOOTPRINTS_NARC := $(BUILD_NARC)/a069.narc
 FOOTPRINTS_TARGET := $(FILESYS)/a/0/6/9
