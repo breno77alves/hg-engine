@@ -1,5 +1,7 @@
 # credits
 
+[PokeAPI/sprites](https://github.com/PokeAPI/sprites), commit `c10459b9b0129eaca5c5d9b1cac65336debb1d08` - pinned Smogon-style Gen 9 front, back, normal, and shiny sources used to replace the remaining v2.2 placeholder battle sprites
+
 Contributors: Aero, BluRose, Brioche, Charliexox, DavveDP, Dog-Broad, Drayano, Koekenpann, kumakuma1, lhearachel, maxchristy, Mixone, mozzydippers, PandaPanda-Panda, TixoRebel, TurtleIsaac, YGlitzer
 
 [AdAstra](https://github.com/AdAstra-LD/) - `debugsyscall` implementation,  Music tables (trainerclassbattle, maintablescombo, and pokemonbattle)
