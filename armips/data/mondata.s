@@ -20606,7 +20606,7 @@ mondata SPECIES_ARBOLIVA, "Arboliva"
     basefriendship 50
     growthrate GROWTH_MEDIUM_SLOW
     egggroups EGG_GROUP_GRASS, EGG_GROUP_GRASS
-    abilities ABILITY_SEED_SOWER, ABILITY_NONE
+    abilities ABILITY_GRASSY_SURGE, ABILITY_NONE
     runchance 0
     colorflip BODY_COLOR_GREEN, 0
     mondexentry SPECIES_ARBOLIVA, "This calm Pokémon is very compassionate.\nIt will share its delicious, nutrient-rich\noil with weakened Pokémon."
@@ -22076,7 +22076,7 @@ mondata SPECIES_GHOLDENGO, "Gholdengo"
     basefriendship 50
     growthrate GROWTH_SLOW
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
-    abilities ABILITY_GOOD_AS_GOLD, ABILITY_NONE
+    abilities ABILITY_MAGIC_BOUNCE, ABILITY_NONE
     runchance 0
     colorflip BODY_COLOR_YELLOW, 0
     mondexentry SPECIES_GHOLDENGO, "Its body seems to be made up of 1,000 coins.\nThis Pokémon gets along well with others\nand is quick to make friends with anybody."
@@ -22223,7 +22223,7 @@ mondata SPECIES_KORAIDON, "Koraidon"
     basefriendship 0
     growthrate GROWTH_SLOW
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
-    abilities ABILITY_ORICHALCUM_PULSE, ABILITY_NONE
+    abilities ABILITY_DROUGHT, ABILITY_NONE
     runchance 0
     colorflip BODY_COLOR_RED, 0
     mondexentry SPECIES_KORAIDON, "This Pokémon resembles Cyclizar, but it is\nfar burlier and more ferocious. Nothing is\nknown about its ecology or other features."
@@ -22244,7 +22244,7 @@ mondata SPECIES_MIRAIDON, "Miraidon"
     basefriendship 0
     growthrate GROWTH_SLOW
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
-    abilities ABILITY_HADRON_ENGINE, ABILITY_NONE
+    abilities ABILITY_ELECTRIC_SURGE, ABILITY_NONE
     runchance 0
     colorflip BODY_COLOR_BLUE, 0
     mondexentry SPECIES_MIRAIDON, "Much remains unknown about this\ncreature. It resembles Cyclizar, but\nit is far more ruthless and powerful."
@@ -22601,7 +22601,7 @@ mondata SPECIES_PECHARUNT, "Pecharunt"
     basefriendship 0
     growthrate GROWTH_SLOW
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
-    abilities ABILITY_POISON_PUPPETEER, ABILITY_NONE
+    abilities ABILITY_POISON_TOUCH, ABILITY_NONE
     runchance 0
     colorflip BODY_COLOR_PURPLE, 0
     mondexentry SPECIES_PECHARUNT, "Its peach-shaped shell serves as storage\nfor a potent poison. It makes poisonous\nmochi and serves it to people and Pokémon."

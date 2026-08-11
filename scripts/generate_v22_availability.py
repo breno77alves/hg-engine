@@ -802,6 +802,15 @@ def main() -> None:
             {"species": "SPECIES_ORICORIO_SENSU", "original": "ABILITY_DANCER", "replacement": "ABILITY_OWN_TEMPO"},
             {"species": "SPECIES_STUNFISK_GALARIAN", "original": "ABILITY_MIMICRY", "replacement": "ABILITY_MAGNET_PULL"},
             {"species": "SPECIES_TERAPAGOS", "original": "ABILITY_TERA_SHIFT", "replacement": "ABILITY_FILTER"},
+            {"species": "SPECIES_ARBOLIVA", "original": "ABILITY_SEED_SOWER", "replacement": "ABILITY_GRASSY_SURGE"},
+            {"species": "SPECIES_GHOLDENGO", "original": "ABILITY_GOOD_AS_GOLD", "replacement": "ABILITY_MAGIC_BOUNCE"},
+            {"species": "SPECIES_KORAIDON", "original": "ABILITY_ORICHALCUM_PULSE", "replacement": "ABILITY_DROUGHT"},
+            {"species": "SPECIES_MIRAIDON", "original": "ABILITY_HADRON_ENGINE", "replacement": "ABILITY_ELECTRIC_SURGE"},
+            {"species": "SPECIES_PECHARUNT", "original": "ABILITY_POISON_PUPPETEER", "replacement": "ABILITY_POISON_TOUCH"},
+            {"species": "SPECIES_FLAMIGO", "original": "ABILITY_COSTAR", "replacement": "ABILITY_DOWNLOAD"},
+            {"species": "SPECIES_TAUROS_COMBAT", "original": "ABILITY_CUD_CHEW", "replacement": "ABILITY_SHEER_FORCE"},
+            {"species": "SPECIES_TAUROS_BLAZE", "original": "ABILITY_CUD_CHEW", "replacement": "ABILITY_SHEER_FORCE"},
+            {"species": "SPECIES_TAUROS_AQUA", "original": "ABILITY_CUD_CHEW", "replacement": "ABILITY_SHEER_FORCE"},
         ],
     }
     CONFIG.write_text(json.dumps(config, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
