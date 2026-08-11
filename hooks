@@ -61,6 +61,8 @@ arm9 AddBoxMonData_EditedCases_hook 0206F67C 0
 0002 modify_species_encounter_data 02247B42 3
 # starter hidden ability stuff
 arm9 set_starter_hidden_ability_hook 02096158 5
+arm9 LaunchStarterChoiceScene_Randomized 0209600C
+0061 ChooseStarter_PrintMsgOnWinEx 021E6D78
 
 #battle hooks
 0012 CalcBaseDamage 02256FF8

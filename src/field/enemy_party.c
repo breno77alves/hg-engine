@@ -5,6 +5,7 @@
 #include "../../include/debug.h"
 #include "../../include/pokemon.h"
 #include "../../include/rtc.h"
+#include "../../include/random_starters.h"
 #include "../../include/save.h"
 #include "../../include/script.h"
 #include "../../include/constants/ability.h"
@@ -43,6 +44,45 @@ void randomize(int arr[], int n) {
 }
 
 extern u32 gLastPokemonLevelForMoneyCalc;
+
+#define VAR_PLAYER_STARTER 0x4030
+
+static BOOL IsSilverStarterTrainer(u16 trainerId)
+{
+    static const u16 sSilverTrainerIds[] = {
+        1, 2, 3,
+        263, 264, 265, 266, 267, 268, 269, 270, 271, 272,
+        285, 286, 287, 288, 289,
+        489, 490, 491,
+    };
+    u32 i;
+    for (i = 0; i < NELEMS(sSilverTrainerIds); i++) {
+        if (sSilverTrainerIds[i] == trainerId) return TRUE;
+    }
+    return FALSE;
+}
+
+static BOOL IsClassicJohtoStarterFamily(u16 species)
+{
+    return species == SPECIES_CHIKORITA || species == SPECIES_BAYLEEF || species == SPECIES_MEGANIUM
+        || species == SPECIES_CYNDAQUIL || species == SPECIES_QUILAVA || species == SPECIES_TYPHLOSION
+        || species == SPECIES_TOTODILE || species == SPECIES_CROCONAW || species == SPECIES_FERALIGATR;
+}
+
+static u16 GetRandomizedSilverStarter(u16 level, u16 *baseSpecies)
+{
+    void *saveData = SaveBlock2_get();
+    SCRIPT_STATE *flags = SavArray_Flags_get(saveData);
+    struct PlayerProfile *profile = Sav2_PlayerData_GetProfileAddr(saveData);
+    StarterChoices choices;
+    u16 playerStarter = GetScriptVarPassSave(flags, VAR_PLAYER_STARTER);
+    u16 rivalStarter;
+
+    GenerateStarterChoices(profile->id, STARTER_REGION_JOHTO, NULL, &choices);
+    rivalStarter = DetermineRivalStarter(&choices, playerStarter);
+    *baseSpecies = rivalStarter;
+    return GetStarterEvolutionForLevel(rivalStarter, (u8)level, profile->id);
+}
 
 /**
  *  @brief create the trainer Party from the trainer data file and trainer party file
@@ -130,6 +170,8 @@ void MakeTrainerPokemonParty(struct BATTLE_PARAM *bp, int num, int heapID)
 
     for (i = 0; i < pokecount; i++)
     {
+        BOOL randomizedSilverStarter = FALSE;
+        u16 randomizedSilverBase = SPECIES_NONE;
         mons[i] = AllocMonZeroed(heapID);
         // ivs field
         pow = buf[offset];
@@ -149,6 +191,14 @@ void MakeTrainerPokemonParty(struct BATTLE_PARAM *bp, int num, int heapID)
         offset += 2;
         form_no = (species & 0xF800) >> 11;
         species &= 0x07FF;
+
+        if (IsSilverStarterTrainer(bp->trainer_id[num])
+         && CheckScriptFlagPassSave(SavArray_Flags_get(SaveBlock2_get()), RANDOMIZED_STARTERS_FLAG)
+         && IsClassicJohtoStarterFamily(species)) {
+            species = GetRandomizedSilverStarter(level, &randomizedSilverBase);
+            form_no = 0;
+            randomizedSilverStarter = TRUE;
+        }
 
         // item field - conditional
         if (bp->trainer_data[num].data_type & TRAINER_DATA_TYPE_ITEMS)
@@ -337,12 +387,15 @@ void MakeTrainerPokemonParty(struct BATTLE_PARAM *bp, int num, int heapID)
         {
             SetMonData(mons[i], MON_DATA_HELD_ITEM, &item);
         }
-        if (bp->trainer_data[num].data_type & TRAINER_DATA_TYPE_MOVES)
+        if ((bp->trainer_data[num].data_type & TRAINER_DATA_TYPE_MOVES) && !randomizedSilverStarter)
         {
             for (j = 0; j < 4; j++)
             {
                 SetPartyPokemonMoveAtPos(mons[i], moves[j], j);
             }
+        }
+        if (randomizedSilverStarter) {
+            EnsureStarterHasOffensiveMoveFromBase(mons[i], randomizedSilverBase);
         }
         TrainerCBSet(ballseal, mons[i], heapID);
         if (bp->trainer_data[num].data_type & TRAINER_DATA_TYPE_ABILITY)

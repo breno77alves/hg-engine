@@ -301,6 +301,8 @@ SetScriptFlagPassSave = 0x0206659C | 1;
 ClearScriptFlagPassSave = 0x020665A4 | 1;
 CheckScriptFlagPassSave = 0x020665AC | 1;
 Sav2_PlayerData_GetProfileAddr = 0x02028E9C | 1;
+TaskManager_Call = 0x02050530 | 1;
+CreateStarter_Vanilla = 0x0209602C | 1;
 
 /* rtc functions */
 Party_ResetAllShayminToLandForme = 0x02071E2C | 1;
@@ -636,6 +638,8 @@ LoadFontPal0 = 0x02003030 | 1;
 BG_ClearCharDataRange = 0x0201C1C4 | 1;
 BG_SetMaskColor = 0x0201C2D8 | 1;
 String_New = 0x02026354 | 1;
+NewString_ReadMsgData = 0x0200BBA0 | 1;
+AddTextPrinterParameterizedWithColor = 0x020200FC | 1;
 ResetAllTextPrinters = 0x02020080 | 1;
 FillWindowPixelRect = 0x0201DA74 | 1;
 DrawFrameAndWindow1 = 0x0200E580 | 1;

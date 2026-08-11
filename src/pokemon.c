@@ -6,6 +6,7 @@
 #include "../include/overlay.h"
 #include "../include/pokemon.h"
 #include "../include/rtc.h"
+#include "../include/random_starters.h"
 #include "../include/save.h"
 #include "../include/script.h"
 #include "../include/sound.h"
@@ -1779,6 +1780,7 @@ void set_starter_hidden_ability(struct Party *party UNUSED, struct PartyPokemon 
         SET_MON_HIDDEN_ABILITY_BIT(pp)
         SetBoxMonAbility((void *)&pp->box);
     }
+    EnsureStarterHasOffensiveMove(pp);
 }
 
 /**

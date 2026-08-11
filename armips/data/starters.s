@@ -25,6 +25,9 @@ sStarterChoices_Species:
 
 .open "base/overlay/overlay_0061.bin", 0x021E5900
 
+.org 0x021E5E20 // cry lookup table pointer used by ChooseStarter_Main
+    .word 0x02108514 // share the dynamically populated ARM9 starter table
+
 .org 0x021E7398 // 0x021E5900 + 0x1A98
 
 sStarterChoices_Cries:
