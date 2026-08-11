@@ -1,0 +1,1087 @@
+﻿scope,display_name,base_species,species,method,location,period,chance,requirement,evolution_from
+species,SPECIES_BULBASAUR,SPECIES_BULBASAUR,SPECIES_BULBASAUR,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_IVYSAUR,SPECIES_IVYSAUR,SPECIES_IVYSAUR,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_BULBASAUR
+species,SPECIES_VENUSAUR,SPECIES_VENUSAUR,SPECIES_VENUSAUR,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_IVYSAUR
+species,SPECIES_CHARMANDER,SPECIES_CHARMANDER,SPECIES_CHARMANDER,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_CHARMELEON,SPECIES_CHARMELEON,SPECIES_CHARMELEON,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_CHARMANDER
+species,SPECIES_CHARIZARD,SPECIES_CHARIZARD,SPECIES_CHARIZARD,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_CHARMELEON
+species,SPECIES_SQUIRTLE,SPECIES_SQUIRTLE,SPECIES_SQUIRTLE,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_WARTORTLE,SPECIES_WARTORTLE,SPECIES_WARTORTLE,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_SQUIRTLE
+species,SPECIES_BLASTOISE,SPECIES_BLASTOISE,SPECIES_BLASTOISE,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_WARTORTLE
+species,SPECIES_CATERPIE,SPECIES_CATERPIE,SPECIES_CATERPIE,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_METAPOD,SPECIES_METAPOD,SPECIES_METAPOD,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_BUTTERFREE,SPECIES_BUTTERFREE,SPECIES_BUTTERFREE,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_WEEDLE,SPECIES_WEEDLE,SPECIES_WEEDLE,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_KAKUNA,SPECIES_KAKUNA,SPECIES_KAKUNA,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_WEEDLE
+species,SPECIES_BEEDRILL,SPECIES_BEEDRILL,SPECIES_BEEDRILL,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_KAKUNA
+species,SPECIES_PIDGEY,SPECIES_PIDGEY,SPECIES_PIDGEY,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_PIDGEOTTO,SPECIES_PIDGEOTTO,SPECIES_PIDGEOTTO,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_PIDGEOT,SPECIES_PIDGEOT,SPECIES_PIDGEOT,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_PIDGEOTTO
+species,SPECIES_RATTATA,SPECIES_RATTATA,SPECIES_RATTATA,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_RATICATE,SPECIES_RATICATE,SPECIES_RATICATE,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_SPEAROW,SPECIES_SPEAROW,SPECIES_SPEAROW,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_FEAROW,SPECIES_FEAROW,SPECIES_FEAROW,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_EKANS,SPECIES_EKANS,SPECIES_EKANS,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_ARBOK,SPECIES_ARBOK,SPECIES_ARBOK,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_EKANS
+species,SPECIES_PIKACHU,SPECIES_PIKACHU,SPECIES_PIKACHU,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_RAICHU,SPECIES_RAICHU,SPECIES_RAICHU,evolution,same save,any,guaranteed,see Evolution Changes,
+species,SPECIES_SANDSHREW,SPECIES_SANDSHREW,SPECIES_SANDSHREW,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_SANDSLASH,SPECIES_SANDSLASH,SPECIES_SANDSLASH,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_NIDORAN_F,SPECIES_NIDORAN_F,SPECIES_NIDORAN_F,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_NIDORINA,SPECIES_NIDORINA,SPECIES_NIDORINA,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_NIDOQUEEN,SPECIES_NIDOQUEEN,SPECIES_NIDOQUEEN,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_NIDORINA
+species,SPECIES_NIDORAN_M,SPECIES_NIDORAN_M,SPECIES_NIDORAN_M,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_NIDORINO,SPECIES_NIDORINO,SPECIES_NIDORINO,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_NIDOKING,SPECIES_NIDOKING,SPECIES_NIDOKING,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_NIDORINO
+species,SPECIES_CLEFAIRY,SPECIES_CLEFAIRY,SPECIES_CLEFAIRY,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_CLEFABLE,SPECIES_CLEFABLE,SPECIES_CLEFABLE,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_CLEFAIRY
+species,SPECIES_VULPIX,SPECIES_VULPIX,SPECIES_VULPIX,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_NINETALES,SPECIES_NINETALES,SPECIES_NINETALES,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_VULPIX
+species,SPECIES_JIGGLYPUFF,SPECIES_JIGGLYPUFF,SPECIES_JIGGLYPUFF,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_WIGGLYTUFF,SPECIES_WIGGLYTUFF,SPECIES_WIGGLYTUFF,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_JIGGLYPUFF
+species,SPECIES_ZUBAT,SPECIES_ZUBAT,SPECIES_ZUBAT,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_GOLBAT,SPECIES_GOLBAT,SPECIES_GOLBAT,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_ODDISH,SPECIES_ODDISH,SPECIES_ODDISH,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_GLOOM,SPECIES_GLOOM,SPECIES_GLOOM,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_VILEPLUME,SPECIES_VILEPLUME,SPECIES_VILEPLUME,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_GLOOM
+species,SPECIES_PARAS,SPECIES_PARAS,SPECIES_PARAS,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_PARASECT,SPECIES_PARASECT,SPECIES_PARASECT,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_VENONAT,SPECIES_VENONAT,SPECIES_VENONAT,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_VENOMOTH,SPECIES_VENOMOTH,SPECIES_VENOMOTH,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_DIGLETT,SPECIES_DIGLETT,SPECIES_DIGLETT,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_DUGTRIO,SPECIES_DUGTRIO,SPECIES_DUGTRIO,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_MEOWTH,SPECIES_MEOWTH,SPECIES_MEOWTH,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_PERSIAN,SPECIES_PERSIAN,SPECIES_PERSIAN,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_MEOWTH
+species,SPECIES_PSYDUCK,SPECIES_PSYDUCK,SPECIES_PSYDUCK,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_GOLDUCK,SPECIES_GOLDUCK,SPECIES_GOLDUCK,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_MANKEY,SPECIES_MANKEY,SPECIES_MANKEY,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_PRIMEAPE,SPECIES_PRIMEAPE,SPECIES_PRIMEAPE,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_GROWLITHE,SPECIES_GROWLITHE,SPECIES_GROWLITHE,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_ARCANINE,SPECIES_ARCANINE,SPECIES_ARCANINE,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_GROWLITHE
+species,SPECIES_POLIWAG,SPECIES_POLIWAG,SPECIES_POLIWAG,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_POLIWHIRL,SPECIES_POLIWHIRL,SPECIES_POLIWHIRL,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_POLIWRATH,SPECIES_POLIWRATH,SPECIES_POLIWRATH,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_POLIWHIRL
+species,SPECIES_ABRA,SPECIES_ABRA,SPECIES_ABRA,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_KADABRA,SPECIES_KADABRA,SPECIES_KADABRA,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_ALAKAZAM,SPECIES_ALAKAZAM,SPECIES_ALAKAZAM,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_KADABRA
+species,SPECIES_MACHOP,SPECIES_MACHOP,SPECIES_MACHOP,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_MACHOKE,SPECIES_MACHOKE,SPECIES_MACHOKE,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_MACHAMP,SPECIES_MACHAMP,SPECIES_MACHAMP,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_MACHOKE
+species,SPECIES_BELLSPROUT,SPECIES_BELLSPROUT,SPECIES_BELLSPROUT,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_WEEPINBELL,SPECIES_WEEPINBELL,SPECIES_WEEPINBELL,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_VICTREEBEL,SPECIES_VICTREEBEL,SPECIES_VICTREEBEL,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_WEEPINBELL
+species,SPECIES_TENTACOOL,SPECIES_TENTACOOL,SPECIES_TENTACOOL,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_TENTACRUEL,SPECIES_TENTACRUEL,SPECIES_TENTACRUEL,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_GEODUDE,SPECIES_GEODUDE,SPECIES_GEODUDE,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_GRAVELER,SPECIES_GRAVELER,SPECIES_GRAVELER,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_GOLEM,SPECIES_GOLEM,SPECIES_GOLEM,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_GRAVELER
+species,SPECIES_PONYTA,SPECIES_PONYTA,SPECIES_PONYTA,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_RAPIDASH,SPECIES_RAPIDASH,SPECIES_RAPIDASH,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_SLOWPOKE,SPECIES_SLOWPOKE,SPECIES_SLOWPOKE,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_SLOWBRO,SPECIES_SLOWBRO,SPECIES_SLOWBRO,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_MAGNEMITE,SPECIES_MAGNEMITE,SPECIES_MAGNEMITE,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_MAGNETON,SPECIES_MAGNETON,SPECIES_MAGNETON,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_FARFETCHD,SPECIES_FARFETCHD,SPECIES_FARFETCHD,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_DODUO,SPECIES_DODUO,SPECIES_DODUO,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_DODRIO,SPECIES_DODRIO,SPECIES_DODRIO,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_SEEL,SPECIES_SEEL,SPECIES_SEEL,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_DEWGONG,SPECIES_DEWGONG,SPECIES_DEWGONG,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_GRIMER,SPECIES_GRIMER,SPECIES_GRIMER,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_MUK,SPECIES_MUK,SPECIES_MUK,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_SHELLDER,SPECIES_SHELLDER,SPECIES_SHELLDER,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_CLOYSTER,SPECIES_CLOYSTER,SPECIES_CLOYSTER,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_SHELLDER
+species,SPECIES_GASTLY,SPECIES_GASTLY,SPECIES_GASTLY,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_HAUNTER,SPECIES_HAUNTER,SPECIES_HAUNTER,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_GENGAR,SPECIES_GENGAR,SPECIES_GENGAR,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_HAUNTER
+species,SPECIES_ONIX,SPECIES_ONIX,SPECIES_ONIX,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_DROWZEE,SPECIES_DROWZEE,SPECIES_DROWZEE,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_HYPNO,SPECIES_HYPNO,SPECIES_HYPNO,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_KRABBY,SPECIES_KRABBY,SPECIES_KRABBY,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_KINGLER,SPECIES_KINGLER,SPECIES_KINGLER,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_VOLTORB,SPECIES_VOLTORB,SPECIES_VOLTORB,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_ELECTRODE,SPECIES_ELECTRODE,SPECIES_ELECTRODE,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_EXEGGCUTE,SPECIES_EXEGGCUTE,SPECIES_EXEGGCUTE,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_EXEGGUTOR,SPECIES_EXEGGUTOR,SPECIES_EXEGGUTOR,evolution,same save,any,guaranteed,see Evolution Changes,
+species,SPECIES_CUBONE,SPECIES_CUBONE,SPECIES_CUBONE,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_MAROWAK,SPECIES_MAROWAK,SPECIES_MAROWAK,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_HITMONLEE,SPECIES_HITMONLEE,SPECIES_HITMONLEE,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_TYROGUE
+species,SPECIES_HITMONCHAN,SPECIES_HITMONCHAN,SPECIES_HITMONCHAN,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_TYROGUE
+species,SPECIES_LICKITUNG,SPECIES_LICKITUNG,SPECIES_LICKITUNG,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_KOFFING,SPECIES_KOFFING,SPECIES_KOFFING,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_WEEZING,SPECIES_WEEZING,SPECIES_WEEZING,evolution,same save,any,guaranteed,see Evolution Changes,
+species,SPECIES_RHYHORN,SPECIES_RHYHORN,SPECIES_RHYHORN,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_RHYDON,SPECIES_RHYDON,SPECIES_RHYDON,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_RHYHORN
+species,SPECIES_CHANSEY,SPECIES_CHANSEY,SPECIES_CHANSEY,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_TANGELA,SPECIES_TANGELA,SPECIES_TANGELA,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_KANGASKHAN,SPECIES_KANGASKHAN,SPECIES_KANGASKHAN,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_HORSEA,SPECIES_HORSEA,SPECIES_HORSEA,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_SEADRA,SPECIES_SEADRA,SPECIES_SEADRA,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_GOLDEEN,SPECIES_GOLDEEN,SPECIES_GOLDEEN,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_SEAKING,SPECIES_SEAKING,SPECIES_SEAKING,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_STARYU,SPECIES_STARYU,SPECIES_STARYU,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_STARMIE,SPECIES_STARMIE,SPECIES_STARMIE,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_STARYU
+species,SPECIES_MR_MIME,SPECIES_MR_MIME,SPECIES_MR_MIME,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_SCYTHER,SPECIES_SCYTHER,SPECIES_SCYTHER,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_JYNX,SPECIES_JYNX,SPECIES_JYNX,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_ELECTABUZZ,SPECIES_ELECTABUZZ,SPECIES_ELECTABUZZ,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_MAGMAR,SPECIES_MAGMAR,SPECIES_MAGMAR,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_MAGBY
+species,SPECIES_PINSIR,SPECIES_PINSIR,SPECIES_PINSIR,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_TAUROS,SPECIES_TAUROS,SPECIES_TAUROS,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_MAGIKARP,SPECIES_MAGIKARP,SPECIES_MAGIKARP,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_GYARADOS,SPECIES_GYARADOS,SPECIES_GYARADOS,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_LAPRAS,SPECIES_LAPRAS,SPECIES_LAPRAS,static,Union Cave B2F,Friday,guaranteed,Surf,
+species,SPECIES_DITTO,SPECIES_DITTO,SPECIES_DITTO,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_EEVEE,SPECIES_EEVEE,SPECIES_EEVEE,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_VAPOREON,SPECIES_VAPOREON,SPECIES_VAPOREON,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_EEVEE
+species,SPECIES_JOLTEON,SPECIES_JOLTEON,SPECIES_JOLTEON,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_EEVEE
+species,SPECIES_FLAREON,SPECIES_FLAREON,SPECIES_FLAREON,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_EEVEE
+species,SPECIES_PORYGON,SPECIES_PORYGON,SPECIES_PORYGON,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_OMANYTE,SPECIES_OMANYTE,SPECIES_OMANYTE,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_OMASTAR,SPECIES_OMASTAR,SPECIES_OMASTAR,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_OMANYTE
+species,SPECIES_KABUTO,SPECIES_KABUTO,SPECIES_KABUTO,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_KABUTOPS,SPECIES_KABUTOPS,SPECIES_KABUTOPS,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_KABUTO
+species,SPECIES_AERODACTYL,SPECIES_AERODACTYL,SPECIES_AERODACTYL,wild,National Park,night,1%,none,
+species,SPECIES_SNORLAX,SPECIES_SNORLAX,SPECIES_SNORLAX,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_MUNCHLAX
+species,SPECIES_ARTICUNO,SPECIES_ARTICUNO,SPECIES_ARTICUNO,wild,Seafoam Islands 1F,all,1%,post-game,
+species,SPECIES_ZAPDOS,SPECIES_ZAPDOS,SPECIES_ZAPDOS,wild,Rock Tunnel 1F,all,1%,post-game,
+species,SPECIES_MOLTRES,SPECIES_MOLTRES,SPECIES_MOLTRES,wild,Mt. Silver (Moltres room),all,1%,post-game,
+species,SPECIES_DRATINI,SPECIES_DRATINI,SPECIES_DRATINI,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_DRAGONAIR,SPECIES_DRAGONAIR,SPECIES_DRAGONAIR,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_DRAGONITE,SPECIES_DRAGONITE,SPECIES_DRAGONITE,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_DRAGONAIR
+species,SPECIES_MEWTWO,SPECIES_MEWTWO,SPECIES_MEWTWO,wild,Cerulean Cave 1F,all,1%,post-game,
+species,SPECIES_MEW,SPECIES_MEW,SPECIES_MEW,wild,Bell Tower 9F,all,1%,post-game,
+species,SPECIES_CHIKORITA,SPECIES_CHIKORITA,SPECIES_CHIKORITA,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_BAYLEEF,SPECIES_BAYLEEF,SPECIES_BAYLEEF,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_CHIKORITA
+species,SPECIES_MEGANIUM,SPECIES_MEGANIUM,SPECIES_MEGANIUM,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_BAYLEEF
+species,SPECIES_CYNDAQUIL,SPECIES_CYNDAQUIL,SPECIES_CYNDAQUIL,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_QUILAVA,SPECIES_QUILAVA,SPECIES_QUILAVA,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_CYNDAQUIL
+species,SPECIES_TYPHLOSION,SPECIES_TYPHLOSION,SPECIES_TYPHLOSION,evolution,same save,any,guaranteed,see Evolution Changes,
+species,SPECIES_TOTODILE,SPECIES_TOTODILE,SPECIES_TOTODILE,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_CROCONAW,SPECIES_CROCONAW,SPECIES_CROCONAW,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_TOTODILE
+species,SPECIES_FERALIGATR,SPECIES_FERALIGATR,SPECIES_FERALIGATR,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_CROCONAW
+species,SPECIES_SENTRET,SPECIES_SENTRET,SPECIES_SENTRET,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_FURRET,SPECIES_FURRET,SPECIES_FURRET,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_HOOTHOOT,SPECIES_HOOTHOOT,SPECIES_HOOTHOOT,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_NOCTOWL,SPECIES_NOCTOWL,SPECIES_NOCTOWL,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_LEDYBA,SPECIES_LEDYBA,SPECIES_LEDYBA,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_LEDIAN,SPECIES_LEDIAN,SPECIES_LEDIAN,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_LEDYBA
+species,SPECIES_SPINARAK,SPECIES_SPINARAK,SPECIES_SPINARAK,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_ARIADOS,SPECIES_ARIADOS,SPECIES_ARIADOS,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_CROBAT,SPECIES_CROBAT,SPECIES_CROBAT,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_GOLBAT
+species,SPECIES_CHINCHOU,SPECIES_CHINCHOU,SPECIES_CHINCHOU,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_LANTURN,SPECIES_LANTURN,SPECIES_LANTURN,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_PICHU,SPECIES_PICHU,SPECIES_PICHU,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_CLEFFA,SPECIES_CLEFFA,SPECIES_CLEFFA,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_IGGLYBUFF,SPECIES_IGGLYBUFF,SPECIES_IGGLYBUFF,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_TOGEPI,SPECIES_TOGEPI,SPECIES_TOGEPI,gift egg,Violet City Poké Mart,any,guaranteed,defeat Falkner,
+species,SPECIES_TOGETIC,SPECIES_TOGETIC,SPECIES_TOGETIC,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_TOGEPI
+species,SPECIES_NATU,SPECIES_NATU,SPECIES_NATU,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_XATU,SPECIES_XATU,SPECIES_XATU,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_NATU
+species,SPECIES_MAREEP,SPECIES_MAREEP,SPECIES_MAREEP,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_FLAAFFY,SPECIES_FLAAFFY,SPECIES_FLAAFFY,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_AMPHAROS,SPECIES_AMPHAROS,SPECIES_AMPHAROS,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_FLAAFFY
+species,SPECIES_BELLOSSOM,SPECIES_BELLOSSOM,SPECIES_BELLOSSOM,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_GLOOM
+species,SPECIES_MARILL,SPECIES_MARILL,SPECIES_MARILL,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_AZUMARILL,SPECIES_AZUMARILL,SPECIES_AZUMARILL,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_MARILL
+species,SPECIES_SUDOWOODO,SPECIES_SUDOWOODO,SPECIES_SUDOWOODO,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_BONSLY
+species,SPECIES_POLITOED,SPECIES_POLITOED,SPECIES_POLITOED,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_POLIWHIRL
+species,SPECIES_HOPPIP,SPECIES_HOPPIP,SPECIES_HOPPIP,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_SKIPLOOM,SPECIES_SKIPLOOM,SPECIES_SKIPLOOM,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_JUMPLUFF,SPECIES_JUMPLUFF,SPECIES_JUMPLUFF,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_SKIPLOOM
+species,SPECIES_AIPOM,SPECIES_AIPOM,SPECIES_AIPOM,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_SUNKERN,SPECIES_SUNKERN,SPECIES_SUNKERN,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_SUNFLORA,SPECIES_SUNFLORA,SPECIES_SUNFLORA,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_SUNKERN
+species,SPECIES_YANMA,SPECIES_YANMA,SPECIES_YANMA,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_WOOPER,SPECIES_WOOPER,SPECIES_WOOPER,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_QUAGSIRE,SPECIES_QUAGSIRE,SPECIES_QUAGSIRE,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_ESPEON,SPECIES_ESPEON,SPECIES_ESPEON,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_EEVEE
+species,SPECIES_UMBREON,SPECIES_UMBREON,SPECIES_UMBREON,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_EEVEE
+species,SPECIES_MURKROW,SPECIES_MURKROW,SPECIES_MURKROW,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_SLOWKING,SPECIES_SLOWKING,SPECIES_SLOWKING,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_SLOWPOKE
+species,SPECIES_MISDREAVUS,SPECIES_MISDREAVUS,SPECIES_MISDREAVUS,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_UNOWN,SPECIES_UNOWN,SPECIES_UNOWN,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_WOBBUFFET,SPECIES_WOBBUFFET,SPECIES_WOBBUFFET,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_GIRAFARIG,SPECIES_GIRAFARIG,SPECIES_GIRAFARIG,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_PINECO,SPECIES_PINECO,SPECIES_PINECO,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_FORRETRESS,SPECIES_FORRETRESS,SPECIES_FORRETRESS,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_PINECO
+species,SPECIES_DUNSPARCE,SPECIES_DUNSPARCE,SPECIES_DUNSPARCE,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_GLIGAR,SPECIES_GLIGAR,SPECIES_GLIGAR,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_STEELIX,SPECIES_STEELIX,SPECIES_STEELIX,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_SNUBBULL,SPECIES_SNUBBULL,SPECIES_SNUBBULL,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_GRANBULL,SPECIES_GRANBULL,SPECIES_GRANBULL,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_SNUBBULL
+species,SPECIES_QWILFISH,SPECIES_QWILFISH,SPECIES_QWILFISH,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_SCIZOR,SPECIES_SCIZOR,SPECIES_SCIZOR,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_SCYTHER
+species,SPECIES_SHUCKLE,SPECIES_SHUCKLE,SPECIES_SHUCKLE,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_HERACROSS,SPECIES_HERACROSS,SPECIES_HERACROSS,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_SNEASEL,SPECIES_SNEASEL,SPECIES_SNEASEL,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_TEDDIURSA,SPECIES_TEDDIURSA,SPECIES_TEDDIURSA,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_URSARING,SPECIES_URSARING,SPECIES_URSARING,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_TEDDIURSA
+species,SPECIES_SLUGMA,SPECIES_SLUGMA,SPECIES_SLUGMA,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_MAGCARGO,SPECIES_MAGCARGO,SPECIES_MAGCARGO,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_SLUGMA
+species,SPECIES_SWINUB,SPECIES_SWINUB,SPECIES_SWINUB,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_PILOSWINE,SPECIES_PILOSWINE,SPECIES_PILOSWINE,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_SWINUB
+species,SPECIES_CORSOLA,SPECIES_CORSOLA,SPECIES_CORSOLA,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_REMORAID,SPECIES_REMORAID,SPECIES_REMORAID,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_OCTILLERY,SPECIES_OCTILLERY,SPECIES_OCTILLERY,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_REMORAID
+species,SPECIES_DELIBIRD,SPECIES_DELIBIRD,SPECIES_DELIBIRD,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_MANTINE,SPECIES_MANTINE,SPECIES_MANTINE,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_MANTYKE
+species,SPECIES_SKARMORY,SPECIES_SKARMORY,SPECIES_SKARMORY,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_HOUNDOUR,SPECIES_HOUNDOUR,SPECIES_HOUNDOUR,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_HOUNDOOM,SPECIES_HOUNDOOM,SPECIES_HOUNDOOM,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_HOUNDOUR
+species,SPECIES_KINGDRA,SPECIES_KINGDRA,SPECIES_KINGDRA,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_SEADRA
+species,SPECIES_PHANPY,SPECIES_PHANPY,SPECIES_PHANPY,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_DONPHAN,SPECIES_DONPHAN,SPECIES_DONPHAN,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_PORYGON2,SPECIES_PORYGON2,SPECIES_PORYGON2,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_PORYGON
+species,SPECIES_STANTLER,SPECIES_STANTLER,SPECIES_STANTLER,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_SMEARGLE,SPECIES_SMEARGLE,SPECIES_SMEARGLE,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_TYROGUE,SPECIES_TYROGUE,SPECIES_TYROGUE,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_HITMONTOP,SPECIES_HITMONTOP,SPECIES_HITMONTOP,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_TYROGUE
+species,SPECIES_SMOOCHUM,SPECIES_SMOOCHUM,SPECIES_SMOOCHUM,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_ELEKID,SPECIES_ELEKID,SPECIES_ELEKID,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_MAGBY,SPECIES_MAGBY,SPECIES_MAGBY,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_MILTANK,SPECIES_MILTANK,SPECIES_MILTANK,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_BLISSEY,SPECIES_BLISSEY,SPECIES_BLISSEY,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_CHANSEY
+species,SPECIES_RAIKOU,SPECIES_RAIKOU,SPECIES_RAIKOU,wild,Route 10,all,1%,post-game,
+species,SPECIES_ENTEI,SPECIES_ENTEI,SPECIES_ENTEI,wild,Mt. Silver 4F,all,1%,post-game,
+species,SPECIES_SUICUNE,SPECIES_SUICUNE,SPECIES_SUICUNE,wild,Whirl Islands B1F,all,1%,post-game,
+species,SPECIES_LARVITAR,SPECIES_LARVITAR,SPECIES_LARVITAR,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_PUPITAR,SPECIES_PUPITAR,SPECIES_PUPITAR,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_TYRANITAR,SPECIES_TYRANITAR,SPECIES_TYRANITAR,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_PUPITAR
+species,SPECIES_LUGIA,SPECIES_LUGIA,SPECIES_LUGIA,wild,Whirl Islands B3F (Ledge overlooking Lugia room),all,1%,post-game,
+species,SPECIES_HO_OH,SPECIES_HO_OH,SPECIES_HO_OH,wild,Bell Tower 10F,all,1%,post-game,
+species,SPECIES_CELEBI,SPECIES_CELEBI,SPECIES_CELEBI,wild,Cerulean Cave B2F,all,1%,post-game,
+species,SPECIES_TREECKO,SPECIES_TREECKO,SPECIES_TREECKO,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_GROVYLE,SPECIES_GROVYLE,SPECIES_GROVYLE,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_TREECKO
+species,SPECIES_SCEPTILE,SPECIES_SCEPTILE,SPECIES_SCEPTILE,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_GROVYLE
+species,SPECIES_TORCHIC,SPECIES_TORCHIC,SPECIES_TORCHIC,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_COMBUSKEN,SPECIES_COMBUSKEN,SPECIES_COMBUSKEN,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_TORCHIC
+species,SPECIES_BLAZIKEN,SPECIES_BLAZIKEN,SPECIES_BLAZIKEN,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_COMBUSKEN
+species,SPECIES_MUDKIP,SPECIES_MUDKIP,SPECIES_MUDKIP,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_MARSHTOMP,SPECIES_MARSHTOMP,SPECIES_MARSHTOMP,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_MUDKIP
+species,SPECIES_SWAMPERT,SPECIES_SWAMPERT,SPECIES_SWAMPERT,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_MARSHTOMP
+species,SPECIES_POOCHYENA,SPECIES_POOCHYENA,SPECIES_POOCHYENA,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_MIGHTYENA,SPECIES_MIGHTYENA,SPECIES_MIGHTYENA,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_POOCHYENA
+species,SPECIES_ZIGZAGOON,SPECIES_ZIGZAGOON,SPECIES_ZIGZAGOON,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_LINOONE,SPECIES_LINOONE,SPECIES_LINOONE,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_WURMPLE,SPECIES_WURMPLE,SPECIES_WURMPLE,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_SILCOON,SPECIES_SILCOON,SPECIES_SILCOON,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_WURMPLE
+species,SPECIES_BEAUTIFLY,SPECIES_BEAUTIFLY,SPECIES_BEAUTIFLY,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_SILCOON
+species,SPECIES_CASCOON,SPECIES_CASCOON,SPECIES_CASCOON,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_WURMPLE
+species,SPECIES_DUSTOX,SPECIES_DUSTOX,SPECIES_DUSTOX,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_CASCOON
+species,SPECIES_LOTAD,SPECIES_LOTAD,SPECIES_LOTAD,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_LOMBRE,SPECIES_LOMBRE,SPECIES_LOMBRE,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_LOTAD
+species,SPECIES_LUDICOLO,SPECIES_LUDICOLO,SPECIES_LUDICOLO,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_LOMBRE
+species,SPECIES_SEEDOT,SPECIES_SEEDOT,SPECIES_SEEDOT,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_NUZLEAF,SPECIES_NUZLEAF,SPECIES_NUZLEAF,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_SEEDOT
+species,SPECIES_SHIFTRY,SPECIES_SHIFTRY,SPECIES_SHIFTRY,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_NUZLEAF
+species,SPECIES_TAILLOW,SPECIES_TAILLOW,SPECIES_TAILLOW,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_SWELLOW,SPECIES_SWELLOW,SPECIES_SWELLOW,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_TAILLOW
+species,SPECIES_WINGULL,SPECIES_WINGULL,SPECIES_WINGULL,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_PELIPPER,SPECIES_PELIPPER,SPECIES_PELIPPER,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_WINGULL
+species,SPECIES_RALTS,SPECIES_RALTS,SPECIES_RALTS,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_KIRLIA,SPECIES_KIRLIA,SPECIES_KIRLIA,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_RALTS
+species,SPECIES_GARDEVOIR,SPECIES_GARDEVOIR,SPECIES_GARDEVOIR,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_KIRLIA
+species,SPECIES_SURSKIT,SPECIES_SURSKIT,SPECIES_SURSKIT,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_MASQUERAIN,SPECIES_MASQUERAIN,SPECIES_MASQUERAIN,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_SURSKIT
+species,SPECIES_SHROOMISH,SPECIES_SHROOMISH,SPECIES_SHROOMISH,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_BRELOOM,SPECIES_BRELOOM,SPECIES_BRELOOM,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_SHROOMISH
+species,SPECIES_SLAKOTH,SPECIES_SLAKOTH,SPECIES_SLAKOTH,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_VIGOROTH,SPECIES_VIGOROTH,SPECIES_VIGOROTH,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_SLAKOTH
+species,SPECIES_SLAKING,SPECIES_SLAKING,SPECIES_SLAKING,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_VIGOROTH
+species,SPECIES_NINCADA,SPECIES_NINCADA,SPECIES_NINCADA,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_NINJASK,SPECIES_NINJASK,SPECIES_NINJASK,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_NINCADA
+species,SPECIES_SHEDINJA,SPECIES_SHEDINJA,SPECIES_SHEDINJA,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_NINCADA
+species,SPECIES_WHISMUR,SPECIES_WHISMUR,SPECIES_WHISMUR,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_LOUDRED,SPECIES_LOUDRED,SPECIES_LOUDRED,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_WHISMUR
+species,SPECIES_EXPLOUD,SPECIES_EXPLOUD,SPECIES_EXPLOUD,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_LOUDRED
+species,SPECIES_MAKUHITA,SPECIES_MAKUHITA,SPECIES_MAKUHITA,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_HARIYAMA,SPECIES_HARIYAMA,SPECIES_HARIYAMA,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_MAKUHITA
+species,SPECIES_AZURILL,SPECIES_AZURILL,SPECIES_AZURILL,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_NOSEPASS,SPECIES_NOSEPASS,SPECIES_NOSEPASS,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_SKITTY,SPECIES_SKITTY,SPECIES_SKITTY,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_DELCATTY,SPECIES_DELCATTY,SPECIES_DELCATTY,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_SKITTY
+species,SPECIES_SABLEYE,SPECIES_SABLEYE,SPECIES_SABLEYE,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_MAWILE,SPECIES_MAWILE,SPECIES_MAWILE,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_ARON,SPECIES_ARON,SPECIES_ARON,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_LAIRON,SPECIES_LAIRON,SPECIES_LAIRON,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_ARON
+species,SPECIES_AGGRON,SPECIES_AGGRON,SPECIES_AGGRON,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_LAIRON
+species,SPECIES_MEDITITE,SPECIES_MEDITITE,SPECIES_MEDITITE,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_MEDICHAM,SPECIES_MEDICHAM,SPECIES_MEDICHAM,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_MEDITITE
+species,SPECIES_ELECTRIKE,SPECIES_ELECTRIKE,SPECIES_ELECTRIKE,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_MANECTRIC,SPECIES_MANECTRIC,SPECIES_MANECTRIC,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_ELECTRIKE
+species,SPECIES_PLUSLE,SPECIES_PLUSLE,SPECIES_PLUSLE,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_MINUN,SPECIES_MINUN,SPECIES_MINUN,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_VOLBEAT,SPECIES_VOLBEAT,SPECIES_VOLBEAT,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_ILLUMISE,SPECIES_ILLUMISE,SPECIES_ILLUMISE,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_ROSELIA,SPECIES_ROSELIA,SPECIES_ROSELIA,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_BUDEW
+species,SPECIES_GULPIN,SPECIES_GULPIN,SPECIES_GULPIN,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_SWALOT,SPECIES_SWALOT,SPECIES_SWALOT,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_GULPIN
+species,SPECIES_CARVANHA,SPECIES_CARVANHA,SPECIES_CARVANHA,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_SHARPEDO,SPECIES_SHARPEDO,SPECIES_SHARPEDO,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_CARVANHA
+species,SPECIES_WAILMER,SPECIES_WAILMER,SPECIES_WAILMER,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_WAILORD,SPECIES_WAILORD,SPECIES_WAILORD,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_WAILMER
+species,SPECIES_NUMEL,SPECIES_NUMEL,SPECIES_NUMEL,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_CAMERUPT,SPECIES_CAMERUPT,SPECIES_CAMERUPT,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_NUMEL
+species,SPECIES_TORKOAL,SPECIES_TORKOAL,SPECIES_TORKOAL,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_SPOINK,SPECIES_SPOINK,SPECIES_SPOINK,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_GRUMPIG,SPECIES_GRUMPIG,SPECIES_GRUMPIG,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_SPOINK
+species,SPECIES_SPINDA,SPECIES_SPINDA,SPECIES_SPINDA,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_TRAPINCH,SPECIES_TRAPINCH,SPECIES_TRAPINCH,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_VIBRAVA,SPECIES_VIBRAVA,SPECIES_VIBRAVA,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_TRAPINCH
+species,SPECIES_FLYGON,SPECIES_FLYGON,SPECIES_FLYGON,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_VIBRAVA
+species,SPECIES_CACNEA,SPECIES_CACNEA,SPECIES_CACNEA,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_CACTURNE,SPECIES_CACTURNE,SPECIES_CACTURNE,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_CACNEA
+species,SPECIES_SWABLU,SPECIES_SWABLU,SPECIES_SWABLU,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_ALTARIA,SPECIES_ALTARIA,SPECIES_ALTARIA,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_SWABLU
+species,SPECIES_ZANGOOSE,SPECIES_ZANGOOSE,SPECIES_ZANGOOSE,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_SEVIPER,SPECIES_SEVIPER,SPECIES_SEVIPER,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_LUNATONE,SPECIES_LUNATONE,SPECIES_LUNATONE,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_SOLROCK,SPECIES_SOLROCK,SPECIES_SOLROCK,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_BARBOACH,SPECIES_BARBOACH,SPECIES_BARBOACH,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_WHISCASH,SPECIES_WHISCASH,SPECIES_WHISCASH,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_CORPHISH,SPECIES_CORPHISH,SPECIES_CORPHISH,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_CRAWDAUNT,SPECIES_CRAWDAUNT,SPECIES_CRAWDAUNT,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_CORPHISH
+species,SPECIES_BALTOY,SPECIES_BALTOY,SPECIES_BALTOY,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_CLAYDOL,SPECIES_CLAYDOL,SPECIES_CLAYDOL,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_BALTOY
+species,SPECIES_LILEEP,SPECIES_LILEEP,SPECIES_LILEEP,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_CRADILY,SPECIES_CRADILY,SPECIES_CRADILY,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_LILEEP
+species,SPECIES_ANORITH,SPECIES_ANORITH,SPECIES_ANORITH,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_ARMALDO,SPECIES_ARMALDO,SPECIES_ARMALDO,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_ANORITH
+species,SPECIES_FEEBAS,SPECIES_FEEBAS,SPECIES_FEEBAS,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_MILOTIC,SPECIES_MILOTIC,SPECIES_MILOTIC,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_FEEBAS
+species,SPECIES_CASTFORM,SPECIES_CASTFORM,SPECIES_CASTFORM,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_KECLEON,SPECIES_KECLEON,SPECIES_KECLEON,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_SHUPPET,SPECIES_SHUPPET,SPECIES_SHUPPET,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_BANETTE,SPECIES_BANETTE,SPECIES_BANETTE,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_SHUPPET
+species,SPECIES_DUSKULL,SPECIES_DUSKULL,SPECIES_DUSKULL,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_DUSCLOPS,SPECIES_DUSCLOPS,SPECIES_DUSCLOPS,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_DUSKULL
+species,SPECIES_TROPIUS,SPECIES_TROPIUS,SPECIES_TROPIUS,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_CHIMECHO,SPECIES_CHIMECHO,SPECIES_CHIMECHO,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_CHINGLING
+species,SPECIES_ABSOL,SPECIES_ABSOL,SPECIES_ABSOL,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_WYNAUT,SPECIES_WYNAUT,SPECIES_WYNAUT,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_SNORUNT,SPECIES_SNORUNT,SPECIES_SNORUNT,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_GLALIE,SPECIES_GLALIE,SPECIES_GLALIE,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_SNORUNT
+species,SPECIES_SPHEAL,SPECIES_SPHEAL,SPECIES_SPHEAL,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_SEALEO,SPECIES_SEALEO,SPECIES_SEALEO,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_SPHEAL
+species,SPECIES_WALREIN,SPECIES_WALREIN,SPECIES_WALREIN,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_SEALEO
+species,SPECIES_CLAMPERL,SPECIES_CLAMPERL,SPECIES_CLAMPERL,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_HUNTAIL,SPECIES_HUNTAIL,SPECIES_HUNTAIL,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_CLAMPERL
+species,SPECIES_GOREBYSS,SPECIES_GOREBYSS,SPECIES_GOREBYSS,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_CLAMPERL
+species,SPECIES_RELICANTH,SPECIES_RELICANTH,SPECIES_RELICANTH,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_LUVDISC,SPECIES_LUVDISC,SPECIES_LUVDISC,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_BAGON,SPECIES_BAGON,SPECIES_BAGON,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_SHELGON,SPECIES_SHELGON,SPECIES_SHELGON,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_BAGON
+species,SPECIES_SALAMENCE,SPECIES_SALAMENCE,SPECIES_SALAMENCE,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_SHELGON
+species,SPECIES_BELDUM,SPECIES_BELDUM,SPECIES_BELDUM,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_METANG,SPECIES_METANG,SPECIES_METANG,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_BELDUM
+species,SPECIES_METAGROSS,SPECIES_METAGROSS,SPECIES_METAGROSS,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_METANG
+species,SPECIES_REGIROCK,SPECIES_REGIROCK,SPECIES_REGIROCK,wild,Mt. Silver (Mountainside),all,1%,post-game,
+species,SPECIES_REGICE,SPECIES_REGICE,SPECIES_REGICE,wild,Ice Path 1F,all,1%,post-game,
+species,SPECIES_REGISTEEL,SPECIES_REGISTEEL,SPECIES_REGISTEEL,wild,Mt. Silver (Mountainside),all,1%,post-game,
+species,SPECIES_LATIAS,SPECIES_LATIAS,SPECIES_LATIAS,wild,Bell Tower 6F,all,1%,post-game,
+species,SPECIES_LATIOS,SPECIES_LATIOS,SPECIES_LATIOS,wild,Bell Tower 7F,all,1%,post-game,
+species,SPECIES_KYOGRE,SPECIES_KYOGRE,SPECIES_KYOGRE,wild,Seafoam Islands B3F,all,1%,post-game,
+species,SPECIES_GROUDON,SPECIES_GROUDON,SPECIES_GROUDON,wild,Mt. Silver (Expert Belt room),all,1%,post-game,
+species,SPECIES_RAYQUAZA,SPECIES_RAYQUAZA,SPECIES_RAYQUAZA,wild,Route 26,all,1%,post-game,
+species,SPECIES_JIRACHI,SPECIES_JIRACHI,SPECIES_JIRACHI,wild,Bell Tower 6F,all,1%,post-game,
+species,SPECIES_DEOXYS,SPECIES_DEOXYS,SPECIES_DEOXYS,wild,Bell Tower 2F,all,1%,post-game,
+species,SPECIES_TURTWIG,SPECIES_TURTWIG,SPECIES_TURTWIG,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_GROTLE,SPECIES_GROTLE,SPECIES_GROTLE,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_TURTWIG
+species,SPECIES_TORTERRA,SPECIES_TORTERRA,SPECIES_TORTERRA,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_GROTLE
+species,SPECIES_CHIMCHAR,SPECIES_CHIMCHAR,SPECIES_CHIMCHAR,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_MONFERNO,SPECIES_MONFERNO,SPECIES_MONFERNO,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_CHIMCHAR
+species,SPECIES_INFERNAPE,SPECIES_INFERNAPE,SPECIES_INFERNAPE,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_MONFERNO
+species,SPECIES_PIPLUP,SPECIES_PIPLUP,SPECIES_PIPLUP,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_PRINPLUP,SPECIES_PRINPLUP,SPECIES_PRINPLUP,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_PIPLUP
+species,SPECIES_EMPOLEON,SPECIES_EMPOLEON,SPECIES_EMPOLEON,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_PRINPLUP
+species,SPECIES_STARLY,SPECIES_STARLY,SPECIES_STARLY,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_STARAVIA,SPECIES_STARAVIA,SPECIES_STARAVIA,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_STARLY
+species,SPECIES_STARAPTOR,SPECIES_STARAPTOR,SPECIES_STARAPTOR,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_STARAVIA
+species,SPECIES_BIDOOF,SPECIES_BIDOOF,SPECIES_BIDOOF,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_BIBAREL,SPECIES_BIBAREL,SPECIES_BIBAREL,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_BIDOOF
+species,SPECIES_KRICKETOT,SPECIES_KRICKETOT,SPECIES_KRICKETOT,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_KRICKETUNE,SPECIES_KRICKETUNE,SPECIES_KRICKETUNE,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_KRICKETOT
+species,SPECIES_SHINX,SPECIES_SHINX,SPECIES_SHINX,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_LUXIO,SPECIES_LUXIO,SPECIES_LUXIO,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_SHINX
+species,SPECIES_LUXRAY,SPECIES_LUXRAY,SPECIES_LUXRAY,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_LUXIO
+species,SPECIES_BUDEW,SPECIES_BUDEW,SPECIES_BUDEW,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_ROSERADE,SPECIES_ROSERADE,SPECIES_ROSERADE,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_ROSELIA
+species,SPECIES_CRANIDOS,SPECIES_CRANIDOS,SPECIES_CRANIDOS,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_RAMPARDOS,SPECIES_RAMPARDOS,SPECIES_RAMPARDOS,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_CRANIDOS
+species,SPECIES_SHIELDON,SPECIES_SHIELDON,SPECIES_SHIELDON,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_BASTIODON,SPECIES_BASTIODON,SPECIES_BASTIODON,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_SHIELDON
+species,SPECIES_BURMY,SPECIES_BURMY,SPECIES_BURMY,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_WORMADAM,SPECIES_WORMADAM,SPECIES_WORMADAM,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_BURMY
+species,SPECIES_MOTHIM,SPECIES_MOTHIM,SPECIES_MOTHIM,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_BURMY
+species,SPECIES_COMBEE,SPECIES_COMBEE,SPECIES_COMBEE,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_VESPIQUEN,SPECIES_VESPIQUEN,SPECIES_VESPIQUEN,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_COMBEE
+species,SPECIES_PACHIRISU,SPECIES_PACHIRISU,SPECIES_PACHIRISU,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_BUIZEL,SPECIES_BUIZEL,SPECIES_BUIZEL,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_FLOATZEL,SPECIES_FLOATZEL,SPECIES_FLOATZEL,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_BUIZEL
+species,SPECIES_CHERUBI,SPECIES_CHERUBI,SPECIES_CHERUBI,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_CHERRIM,SPECIES_CHERRIM,SPECIES_CHERRIM,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_CHERUBI
+species,SPECIES_SHELLOS,SPECIES_SHELLOS,SPECIES_SHELLOS,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_GASTRODON,SPECIES_GASTRODON,SPECIES_GASTRODON,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_SHELLOS
+species,SPECIES_AMBIPOM,SPECIES_AMBIPOM,SPECIES_AMBIPOM,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_AIPOM
+species,SPECIES_DRIFLOON,SPECIES_DRIFLOON,SPECIES_DRIFLOON,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_DRIFBLIM,SPECIES_DRIFBLIM,SPECIES_DRIFBLIM,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_DRIFLOON
+species,SPECIES_BUNEARY,SPECIES_BUNEARY,SPECIES_BUNEARY,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_LOPUNNY,SPECIES_LOPUNNY,SPECIES_LOPUNNY,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_BUNEARY
+species,SPECIES_MISMAGIUS,SPECIES_MISMAGIUS,SPECIES_MISMAGIUS,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_MISDREAVUS
+species,SPECIES_HONCHKROW,SPECIES_HONCHKROW,SPECIES_HONCHKROW,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_MURKROW
+species,SPECIES_GLAMEOW,SPECIES_GLAMEOW,SPECIES_GLAMEOW,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_PURUGLY,SPECIES_PURUGLY,SPECIES_PURUGLY,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_GLAMEOW
+species,SPECIES_CHINGLING,SPECIES_CHINGLING,SPECIES_CHINGLING,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_STUNKY,SPECIES_STUNKY,SPECIES_STUNKY,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_SKUNTANK,SPECIES_SKUNTANK,SPECIES_SKUNTANK,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_STUNKY
+species,SPECIES_BRONZOR,SPECIES_BRONZOR,SPECIES_BRONZOR,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_BRONZONG,SPECIES_BRONZONG,SPECIES_BRONZONG,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_BRONZOR
+species,SPECIES_BONSLY,SPECIES_BONSLY,SPECIES_BONSLY,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_MIMEJR,SPECIES_MIMEJR,SPECIES_MIMEJR,wild,Route 30,morning,4%,none,
+species,SPECIES_HAPPINY,SPECIES_HAPPINY,SPECIES_HAPPINY,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_CHATOT,SPECIES_CHATOT,SPECIES_CHATOT,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_SPIRITOMB,SPECIES_SPIRITOMB,SPECIES_SPIRITOMB,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_GIBLE,SPECIES_GIBLE,SPECIES_GIBLE,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_GABITE,SPECIES_GABITE,SPECIES_GABITE,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_GIBLE
+species,SPECIES_GARCHOMP,SPECIES_GARCHOMP,SPECIES_GARCHOMP,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_GABITE
+species,SPECIES_MUNCHLAX,SPECIES_MUNCHLAX,SPECIES_MUNCHLAX,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_RIOLU,SPECIES_RIOLU,SPECIES_RIOLU,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_LUCARIO,SPECIES_LUCARIO,SPECIES_LUCARIO,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_RIOLU
+species,SPECIES_HIPPOPOTAS,SPECIES_HIPPOPOTAS,SPECIES_HIPPOPOTAS,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_HIPPOWDON,SPECIES_HIPPOWDON,SPECIES_HIPPOWDON,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_HIPPOPOTAS
+species,SPECIES_SKORUPI,SPECIES_SKORUPI,SPECIES_SKORUPI,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_DRAPION,SPECIES_DRAPION,SPECIES_DRAPION,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_SKORUPI
+species,SPECIES_CROAGUNK,SPECIES_CROAGUNK,SPECIES_CROAGUNK,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_TOXICROAK,SPECIES_TOXICROAK,SPECIES_TOXICROAK,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_CROAGUNK
+species,SPECIES_CARNIVINE,SPECIES_CARNIVINE,SPECIES_CARNIVINE,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_FINNEON,SPECIES_FINNEON,SPECIES_FINNEON,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_LUMINEON,SPECIES_LUMINEON,SPECIES_LUMINEON,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_FINNEON
+species,SPECIES_MANTYKE,SPECIES_MANTYKE,SPECIES_MANTYKE,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_SNOVER,SPECIES_SNOVER,SPECIES_SNOVER,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_ABOMASNOW,SPECIES_ABOMASNOW,SPECIES_ABOMASNOW,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_SNOVER
+species,SPECIES_WEAVILE,SPECIES_WEAVILE,SPECIES_WEAVILE,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_SNEASEL
+species,SPECIES_MAGNEZONE,SPECIES_MAGNEZONE,SPECIES_MAGNEZONE,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_MAGNETON
+species,SPECIES_LICKILICKY,SPECIES_LICKILICKY,SPECIES_LICKILICKY,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_LICKITUNG
+species,SPECIES_RHYPERIOR,SPECIES_RHYPERIOR,SPECIES_RHYPERIOR,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_RHYDON
+species,SPECIES_TANGROWTH,SPECIES_TANGROWTH,SPECIES_TANGROWTH,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_TANGELA
+species,SPECIES_ELECTIVIRE,SPECIES_ELECTIVIRE,SPECIES_ELECTIVIRE,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_ELECTABUZZ
+species,SPECIES_MAGMORTAR,SPECIES_MAGMORTAR,SPECIES_MAGMORTAR,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_MAGMAR
+species,SPECIES_TOGEKISS,SPECIES_TOGEKISS,SPECIES_TOGEKISS,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_TOGETIC
+species,SPECIES_YANMEGA,SPECIES_YANMEGA,SPECIES_YANMEGA,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_YANMA
+species,SPECIES_LEAFEON,SPECIES_LEAFEON,SPECIES_LEAFEON,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_EEVEE
+species,SPECIES_GLACEON,SPECIES_GLACEON,SPECIES_GLACEON,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_EEVEE
+species,SPECIES_GLISCOR,SPECIES_GLISCOR,SPECIES_GLISCOR,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_GLIGAR
+species,SPECIES_MAMOSWINE,SPECIES_MAMOSWINE,SPECIES_MAMOSWINE,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_PILOSWINE
+species,SPECIES_PORYGON_Z,SPECIES_PORYGON_Z,SPECIES_PORYGON_Z,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_PORYGON2
+species,SPECIES_GALLADE,SPECIES_GALLADE,SPECIES_GALLADE,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_KIRLIA
+species,SPECIES_PROBOPASS,SPECIES_PROBOPASS,SPECIES_PROBOPASS,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_NOSEPASS
+species,SPECIES_DUSKNOIR,SPECIES_DUSKNOIR,SPECIES_DUSKNOIR,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_DUSCLOPS
+species,SPECIES_FROSLASS,SPECIES_FROSLASS,SPECIES_FROSLASS,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_SNORUNT
+species,SPECIES_ROTOM,SPECIES_ROTOM,SPECIES_ROTOM,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_UXIE,SPECIES_UXIE,SPECIES_UXIE,wild,Route 7,all,1%,post-game,
+species,SPECIES_MESPRIT,SPECIES_MESPRIT,SPECIES_MESPRIT,wild,Bell Tower 9F,all,1%,post-game,
+species,SPECIES_AZELF,SPECIES_AZELF,SPECIES_AZELF,wild,Cerulean Cave 1F,all,1%,post-game,
+species,SPECIES_DIALGA,SPECIES_DIALGA,SPECIES_DIALGA,wild,Mt. Silver 3F,all,1%,post-game,
+species,SPECIES_PALKIA,SPECIES_PALKIA,SPECIES_PALKIA,wild,Whirl Islands 1F,all,1%,post-game,
+species,SPECIES_HEATRAN,SPECIES_HEATRAN,SPECIES_HEATRAN,wild,Rock Tunnel 1F,all,1%,post-game,
+species,SPECIES_REGIGIGAS,SPECIES_REGIGIGAS,SPECIES_REGIGIGAS,wild,Route 1,all,1%,post-game,
+species,SPECIES_GIRATINA,SPECIES_GIRATINA,SPECIES_GIRATINA,wild,Bell Tower 3F,all,1%,post-game,
+species,SPECIES_CRESSELIA,SPECIES_CRESSELIA,SPECIES_CRESSELIA,wild,Mt. Moon 2F,all,1%,post-game,
+species,SPECIES_PHIONE,SPECIES_PHIONE,SPECIES_PHIONE,wild,Whirl Islands 1F,all,1%,post-game,
+species,SPECIES_MANAPHY,SPECIES_MANAPHY,SPECIES_MANAPHY,wild,Seafoam Islands B4F,all,1%,post-game,
+species,SPECIES_DARKRAI,SPECIES_DARKRAI,SPECIES_DARKRAI,wild,Mt. Moon 2F,all,1%,post-game,
+species,SPECIES_SHAYMIN,SPECIES_SHAYMIN,SPECIES_SHAYMIN,wild,Route 3,all,1%,post-game,
+species,SPECIES_ARCEUS,SPECIES_ARCEUS,SPECIES_ARCEUS,wild,"Mt. Silver (Top, snowy area)",all,1%,post-game,
+species,SPECIES_VICTINI,SPECIES_VICTINI,SPECIES_VICTINI,wild,Route 7,all,1%,post-game,
+species,SPECIES_SNIVY,SPECIES_SNIVY,SPECIES_SNIVY,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_SERVINE,SPECIES_SERVINE,SPECIES_SERVINE,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_SNIVY
+species,SPECIES_SERPERIOR,SPECIES_SERPERIOR,SPECIES_SERPERIOR,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_SERVINE
+species,SPECIES_TEPIG,SPECIES_TEPIG,SPECIES_TEPIG,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_PIGNITE,SPECIES_PIGNITE,SPECIES_PIGNITE,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_TEPIG
+species,SPECIES_EMBOAR,SPECIES_EMBOAR,SPECIES_EMBOAR,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_PIGNITE
+species,SPECIES_OSHAWOTT,SPECIES_OSHAWOTT,SPECIES_OSHAWOTT,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_DEWOTT,SPECIES_DEWOTT,SPECIES_DEWOTT,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_OSHAWOTT
+species,SPECIES_SAMUROTT,SPECIES_SAMUROTT,SPECIES_SAMUROTT,evolution,same save,any,guaranteed,see Evolution Changes,
+species,SPECIES_PATRAT,SPECIES_PATRAT,SPECIES_PATRAT,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_WATCHOG,SPECIES_WATCHOG,SPECIES_WATCHOG,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_PATRAT
+species,SPECIES_LILLIPUP,SPECIES_LILLIPUP,SPECIES_LILLIPUP,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_HERDIER,SPECIES_HERDIER,SPECIES_HERDIER,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_LILLIPUP
+species,SPECIES_STOUTLAND,SPECIES_STOUTLAND,SPECIES_STOUTLAND,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_HERDIER
+species,SPECIES_PURRLOIN,SPECIES_PURRLOIN,SPECIES_PURRLOIN,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_LIEPARD,SPECIES_LIEPARD,SPECIES_LIEPARD,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_PURRLOIN
+species,SPECIES_PANSAGE,SPECIES_PANSAGE,SPECIES_PANSAGE,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_SIMISAGE,SPECIES_SIMISAGE,SPECIES_SIMISAGE,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_PANSAGE
+species,SPECIES_PANSEAR,SPECIES_PANSEAR,SPECIES_PANSEAR,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_SIMISEAR,SPECIES_SIMISEAR,SPECIES_SIMISEAR,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_PANSEAR
+species,SPECIES_PANPOUR,SPECIES_PANPOUR,SPECIES_PANPOUR,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_SIMIPOUR,SPECIES_SIMIPOUR,SPECIES_SIMIPOUR,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_PANPOUR
+species,SPECIES_MUNNA,SPECIES_MUNNA,SPECIES_MUNNA,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_MUSHARNA,SPECIES_MUSHARNA,SPECIES_MUSHARNA,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_MUNNA
+species,SPECIES_PIDOVE,SPECIES_PIDOVE,SPECIES_PIDOVE,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_TRANQUILL,SPECIES_TRANQUILL,SPECIES_TRANQUILL,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_PIDOVE
+species,SPECIES_UNFEZANT,SPECIES_UNFEZANT,SPECIES_UNFEZANT,wild,Route 17,all,1%,post-game,
+species,SPECIES_BLITZLE,SPECIES_BLITZLE,SPECIES_BLITZLE,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_ZEBSTRIKA,SPECIES_ZEBSTRIKA,SPECIES_ZEBSTRIKA,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_BLITZLE
+species,SPECIES_ROGGENROLA,SPECIES_ROGGENROLA,SPECIES_ROGGENROLA,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_BOLDORE,SPECIES_BOLDORE,SPECIES_BOLDORE,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_ROGGENROLA
+species,SPECIES_GIGALITH,SPECIES_GIGALITH,SPECIES_GIGALITH,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_BOLDORE
+species,SPECIES_WOOBAT,SPECIES_WOOBAT,SPECIES_WOOBAT,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_SWOOBAT,SPECIES_SWOOBAT,SPECIES_SWOOBAT,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_WOOBAT
+species,SPECIES_DRILBUR,SPECIES_DRILBUR,SPECIES_DRILBUR,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_EXCADRILL,SPECIES_EXCADRILL,SPECIES_EXCADRILL,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_DRILBUR
+species,SPECIES_AUDINO,SPECIES_AUDINO,SPECIES_AUDINO,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_TIMBURR,SPECIES_TIMBURR,SPECIES_TIMBURR,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_GURDURR,SPECIES_GURDURR,SPECIES_GURDURR,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_TIMBURR
+species,SPECIES_CONKELDURR,SPECIES_CONKELDURR,SPECIES_CONKELDURR,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_GURDURR
+species,SPECIES_TYMPOLE,SPECIES_TYMPOLE,SPECIES_TYMPOLE,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_PALPITOAD,SPECIES_PALPITOAD,SPECIES_PALPITOAD,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_TYMPOLE
+species,SPECIES_SEISMITOAD,SPECIES_SEISMITOAD,SPECIES_SEISMITOAD,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_PALPITOAD
+species,SPECIES_THROH,SPECIES_THROH,SPECIES_THROH,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_SAWK,SPECIES_SAWK,SPECIES_SAWK,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_SEWADDLE,SPECIES_SEWADDLE,SPECIES_SEWADDLE,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_SWADLOON,SPECIES_SWADLOON,SPECIES_SWADLOON,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_SEWADDLE
+species,SPECIES_LEAVANNY,SPECIES_LEAVANNY,SPECIES_LEAVANNY,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_SWADLOON
+species,SPECIES_VENIPEDE,SPECIES_VENIPEDE,SPECIES_VENIPEDE,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_WHIRLIPEDE,SPECIES_WHIRLIPEDE,SPECIES_WHIRLIPEDE,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_VENIPEDE
+species,SPECIES_SCOLIPEDE,SPECIES_SCOLIPEDE,SPECIES_SCOLIPEDE,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_WHIRLIPEDE
+species,SPECIES_COTTONEE,SPECIES_COTTONEE,SPECIES_COTTONEE,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_WHIMSICOTT,SPECIES_WHIMSICOTT,SPECIES_WHIMSICOTT,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_COTTONEE
+species,SPECIES_PETILIL,SPECIES_PETILIL,SPECIES_PETILIL,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_LILLIGANT,SPECIES_LILLIGANT,SPECIES_LILLIGANT,evolution,same save,any,guaranteed,see Evolution Changes,
+species,SPECIES_BASCULIN,SPECIES_BASCULIN,SPECIES_BASCULIN,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_SANDILE,SPECIES_SANDILE,SPECIES_SANDILE,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_KROKOROK,SPECIES_KROKOROK,SPECIES_KROKOROK,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_SANDILE
+species,SPECIES_KROOKODILE,SPECIES_KROOKODILE,SPECIES_KROOKODILE,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_KROKOROK
+species,SPECIES_DARUMAKA,SPECIES_DARUMAKA,SPECIES_DARUMAKA,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_DARMANITAN,SPECIES_DARMANITAN,SPECIES_DARMANITAN,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_DARUMAKA
+species,SPECIES_MARACTUS,SPECIES_MARACTUS,SPECIES_MARACTUS,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_DWEBBLE,SPECIES_DWEBBLE,SPECIES_DWEBBLE,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_CRUSTLE,SPECIES_CRUSTLE,SPECIES_CRUSTLE,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_DWEBBLE
+species,SPECIES_SCRAGGY,SPECIES_SCRAGGY,SPECIES_SCRAGGY,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_SCRAFTY,SPECIES_SCRAFTY,SPECIES_SCRAFTY,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_SCRAGGY
+species,SPECIES_SIGILYPH,SPECIES_SIGILYPH,SPECIES_SIGILYPH,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_YAMASK,SPECIES_YAMASK,SPECIES_YAMASK,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_COFAGRIGUS,SPECIES_COFAGRIGUS,SPECIES_COFAGRIGUS,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_YAMASK
+species,SPECIES_TIRTOUGA,SPECIES_TIRTOUGA,SPECIES_TIRTOUGA,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_CARRACOSTA,SPECIES_CARRACOSTA,SPECIES_CARRACOSTA,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_TIRTOUGA
+species,SPECIES_ARCHEN,SPECIES_ARCHEN,SPECIES_ARCHEN,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_ARCHEOPS,SPECIES_ARCHEOPS,SPECIES_ARCHEOPS,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_ARCHEN
+species,SPECIES_TRUBBISH,SPECIES_TRUBBISH,SPECIES_TRUBBISH,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_GARBODOR,SPECIES_GARBODOR,SPECIES_GARBODOR,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_TRUBBISH
+species,SPECIES_ZORUA,SPECIES_ZORUA,SPECIES_ZORUA,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_ZOROARK,SPECIES_ZOROARK,SPECIES_ZOROARK,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_ZORUA
+species,SPECIES_MINCCINO,SPECIES_MINCCINO,SPECIES_MINCCINO,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_CINCCINO,SPECIES_CINCCINO,SPECIES_CINCCINO,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_MINCCINO
+species,SPECIES_GOTHITA,SPECIES_GOTHITA,SPECIES_GOTHITA,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_GOTHORITA,SPECIES_GOTHORITA,SPECIES_GOTHORITA,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_GOTHITA
+species,SPECIES_GOTHITELLE,SPECIES_GOTHITELLE,SPECIES_GOTHITELLE,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_GOTHORITA
+species,SPECIES_SOLOSIS,SPECIES_SOLOSIS,SPECIES_SOLOSIS,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_DUOSION,SPECIES_DUOSION,SPECIES_DUOSION,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_SOLOSIS
+species,SPECIES_REUNICLUS,SPECIES_REUNICLUS,SPECIES_REUNICLUS,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_DUOSION
+species,SPECIES_DUCKLETT,SPECIES_DUCKLETT,SPECIES_DUCKLETT,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_SWANNA,SPECIES_SWANNA,SPECIES_SWANNA,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_DUCKLETT
+species,SPECIES_VANILLITE,SPECIES_VANILLITE,SPECIES_VANILLITE,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_VANILLISH,SPECIES_VANILLISH,SPECIES_VANILLISH,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_VANILLITE
+species,SPECIES_VANILLUXE,SPECIES_VANILLUXE,SPECIES_VANILLUXE,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_VANILLISH
+species,SPECIES_DEERLING,SPECIES_DEERLING,SPECIES_DEERLING,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_SAWSBUCK,SPECIES_SAWSBUCK,SPECIES_SAWSBUCK,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_DEERLING
+species,SPECIES_EMOLGA,SPECIES_EMOLGA,SPECIES_EMOLGA,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_KARRABLAST,SPECIES_KARRABLAST,SPECIES_KARRABLAST,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_ESCAVALIER,SPECIES_ESCAVALIER,SPECIES_ESCAVALIER,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_KARRABLAST
+species,SPECIES_FOONGUS,SPECIES_FOONGUS,SPECIES_FOONGUS,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_AMOONGUSS,SPECIES_AMOONGUSS,SPECIES_AMOONGUSS,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_FOONGUS
+species,SPECIES_FRILLISH,SPECIES_FRILLISH,SPECIES_FRILLISH,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_JELLICENT,SPECIES_JELLICENT,SPECIES_JELLICENT,wild,Seafoam Islands B2F,all,1%,post-game,
+species,SPECIES_ALOMOMOLA,SPECIES_ALOMOMOLA,SPECIES_ALOMOMOLA,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_JOLTIK,SPECIES_JOLTIK,SPECIES_JOLTIK,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_GALVANTULA,SPECIES_GALVANTULA,SPECIES_GALVANTULA,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_JOLTIK
+species,SPECIES_FERROSEED,SPECIES_FERROSEED,SPECIES_FERROSEED,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_FERROTHORN,SPECIES_FERROTHORN,SPECIES_FERROTHORN,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_FERROSEED
+species,SPECIES_KLINK,SPECIES_KLINK,SPECIES_KLINK,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_KLANG,SPECIES_KLANG,SPECIES_KLANG,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_KLINK
+species,SPECIES_KLINKLANG,SPECIES_KLINKLANG,SPECIES_KLINKLANG,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_KLANG
+species,SPECIES_TYNAMO,SPECIES_TYNAMO,SPECIES_TYNAMO,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_EELEKTRIK,SPECIES_EELEKTRIK,SPECIES_EELEKTRIK,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_TYNAMO
+species,SPECIES_EELEKTROSS,SPECIES_EELEKTROSS,SPECIES_EELEKTROSS,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_EELEKTRIK
+species,SPECIES_ELGYEM,SPECIES_ELGYEM,SPECIES_ELGYEM,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_BEHEEYEM,SPECIES_BEHEEYEM,SPECIES_BEHEEYEM,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_ELGYEM
+species,SPECIES_LITWICK,SPECIES_LITWICK,SPECIES_LITWICK,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_LAMPENT,SPECIES_LAMPENT,SPECIES_LAMPENT,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_LITWICK
+species,SPECIES_CHANDELURE,SPECIES_CHANDELURE,SPECIES_CHANDELURE,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_LAMPENT
+species,SPECIES_AXEW,SPECIES_AXEW,SPECIES_AXEW,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_FRAXURE,SPECIES_FRAXURE,SPECIES_FRAXURE,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_AXEW
+species,SPECIES_HAXORUS,SPECIES_HAXORUS,SPECIES_HAXORUS,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_FRAXURE
+species,SPECIES_CUBCHOO,SPECIES_CUBCHOO,SPECIES_CUBCHOO,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_BEARTIC,SPECIES_BEARTIC,SPECIES_BEARTIC,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_CUBCHOO
+species,SPECIES_CRYOGONAL,SPECIES_CRYOGONAL,SPECIES_CRYOGONAL,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_SHELMET,SPECIES_SHELMET,SPECIES_SHELMET,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_ACCELGOR,SPECIES_ACCELGOR,SPECIES_ACCELGOR,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_SHELMET
+species,SPECIES_STUNFISK,SPECIES_STUNFISK,SPECIES_STUNFISK,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_MIENFOO,SPECIES_MIENFOO,SPECIES_MIENFOO,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_MIENSHAO,SPECIES_MIENSHAO,SPECIES_MIENSHAO,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_MIENFOO
+species,SPECIES_DRUDDIGON,SPECIES_DRUDDIGON,SPECIES_DRUDDIGON,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_GOLETT,SPECIES_GOLETT,SPECIES_GOLETT,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_GOLURK,SPECIES_GOLURK,SPECIES_GOLURK,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_GOLETT
+species,SPECIES_PAWNIARD,SPECIES_PAWNIARD,SPECIES_PAWNIARD,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_BISHARP,SPECIES_BISHARP,SPECIES_BISHARP,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_PAWNIARD
+species,SPECIES_BOUFFALANT,SPECIES_BOUFFALANT,SPECIES_BOUFFALANT,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_RUFFLET,SPECIES_RUFFLET,SPECIES_RUFFLET,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_BRAVIARY,SPECIES_BRAVIARY,SPECIES_BRAVIARY,evolution,same save,any,guaranteed,see Evolution Changes,
+species,SPECIES_VULLABY,SPECIES_VULLABY,SPECIES_VULLABY,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_MANDIBUZZ,SPECIES_MANDIBUZZ,SPECIES_MANDIBUZZ,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_VULLABY
+species,SPECIES_HEATMOR,SPECIES_HEATMOR,SPECIES_HEATMOR,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_DURANT,SPECIES_DURANT,SPECIES_DURANT,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_DEINO,SPECIES_DEINO,SPECIES_DEINO,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_ZWEILOUS,SPECIES_ZWEILOUS,SPECIES_ZWEILOUS,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_DEINO
+species,SPECIES_HYDREIGON,SPECIES_HYDREIGON,SPECIES_HYDREIGON,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_ZWEILOUS
+species,SPECIES_LARVESTA,SPECIES_LARVESTA,SPECIES_LARVESTA,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_VOLCARONA,SPECIES_VOLCARONA,SPECIES_VOLCARONA,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_LARVESTA
+species,SPECIES_COBALION,SPECIES_COBALION,SPECIES_COBALION,wild,Mt. Silver 3F,all,1%,post-game,
+species,SPECIES_TERRAKION,SPECIES_TERRAKION,SPECIES_TERRAKION,wild,Route 16,all,1%,post-game,
+species,SPECIES_VIRIZION,SPECIES_VIRIZION,SPECIES_VIRIZION,wild,Route 18,all,1%,post-game,
+species,SPECIES_TORNADUS,SPECIES_TORNADUS,SPECIES_TORNADUS,wild,Route 17,all,1%,post-game,
+species,SPECIES_THUNDURUS,SPECIES_THUNDURUS,SPECIES_THUNDURUS,wild,Route 16,all,1%,post-game,
+species,SPECIES_RESHIRAM,SPECIES_RESHIRAM,SPECIES_RESHIRAM,wild,Route 48,all,1%,post-game,
+species,SPECIES_ZEKROM,SPECIES_ZEKROM,SPECIES_ZEKROM,wild,Route 15,all,1%,post-game,
+species,SPECIES_LANDORUS,SPECIES_LANDORUS,SPECIES_LANDORUS,wild,Tohjo Falls,all,1%,post-game,
+species,SPECIES_KYUREM,SPECIES_KYUREM,SPECIES_KYUREM,wild,Seafoam Islands B3F,all,1%,post-game,
+species,SPECIES_KELDEO,SPECIES_KELDEO,SPECIES_KELDEO,wild,Seafoam Islands B2F,all,1%,post-game,
+species,SPECIES_MELOETTA,SPECIES_MELOETTA,SPECIES_MELOETTA,wild,Bell Tower 8F,all,1%,post-game,
+species,SPECIES_GENESECT,SPECIES_GENESECT,SPECIES_GENESECT,wild,Mt. Silver 4F,all,1%,post-game,
+species,SPECIES_CHESPIN,SPECIES_CHESPIN,SPECIES_CHESPIN,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_QUILLADIN,SPECIES_QUILLADIN,SPECIES_QUILLADIN,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_CHESPIN
+species,SPECIES_CHESNAUGHT,SPECIES_CHESNAUGHT,SPECIES_CHESNAUGHT,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_QUILLADIN
+species,SPECIES_FENNEKIN,SPECIES_FENNEKIN,SPECIES_FENNEKIN,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_BRAIXEN,SPECIES_BRAIXEN,SPECIES_BRAIXEN,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_FENNEKIN
+species,SPECIES_DELPHOX,SPECIES_DELPHOX,SPECIES_DELPHOX,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_BRAIXEN
+species,SPECIES_FROAKIE,SPECIES_FROAKIE,SPECIES_FROAKIE,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_FROGADIER,SPECIES_FROGADIER,SPECIES_FROGADIER,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_FROAKIE
+species,SPECIES_GRENINJA,SPECIES_GRENINJA,SPECIES_GRENINJA,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_FROGADIER
+species,SPECIES_BUNNELBY,SPECIES_BUNNELBY,SPECIES_BUNNELBY,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_DIGGERSBY,SPECIES_DIGGERSBY,SPECIES_DIGGERSBY,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_BUNNELBY
+species,SPECIES_FLETCHLING,SPECIES_FLETCHLING,SPECIES_FLETCHLING,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_FLETCHINDER,SPECIES_FLETCHINDER,SPECIES_FLETCHINDER,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_FLETCHLING
+species,SPECIES_TALONFLAME,SPECIES_TALONFLAME,SPECIES_TALONFLAME,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_FLETCHINDER
+species,SPECIES_SCATTERBUG,SPECIES_SCATTERBUG,SPECIES_SCATTERBUG,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_SPEWPA,SPECIES_SPEWPA,SPECIES_SPEWPA,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_SCATTERBUG
+species,SPECIES_VIVILLON,SPECIES_VIVILLON,SPECIES_VIVILLON,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_SPEWPA
+species,SPECIES_LITLEO,SPECIES_LITLEO,SPECIES_LITLEO,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_PYROAR,SPECIES_PYROAR,SPECIES_PYROAR,wild,Victory Road 3F,all,1%,post-game,
+species,SPECIES_FLABEBE,SPECIES_FLABEBE,SPECIES_FLABEBE,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_FLOETTE,SPECIES_FLOETTE,SPECIES_FLOETTE,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_FLABEBE
+species,SPECIES_FLORGES,SPECIES_FLORGES,SPECIES_FLORGES,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_FLOETTE
+species,SPECIES_SKIDDO,SPECIES_SKIDDO,SPECIES_SKIDDO,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_GOGOAT,SPECIES_GOGOAT,SPECIES_GOGOAT,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_SKIDDO
+species,SPECIES_PANCHAM,SPECIES_PANCHAM,SPECIES_PANCHAM,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_PANGORO,SPECIES_PANGORO,SPECIES_PANGORO,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_PANCHAM
+species,SPECIES_FURFROU,SPECIES_FURFROU,SPECIES_FURFROU,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_ESPURR,SPECIES_ESPURR,SPECIES_ESPURR,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_MEOWSTIC,SPECIES_MEOWSTIC,SPECIES_MEOWSTIC,wild,Bell Tower 8F,all,1%,post-game,
+species,SPECIES_HONEDGE,SPECIES_HONEDGE,SPECIES_HONEDGE,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_DOUBLADE,SPECIES_DOUBLADE,SPECIES_DOUBLADE,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_HONEDGE
+species,SPECIES_AEGISLASH,SPECIES_AEGISLASH,SPECIES_AEGISLASH,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_DOUBLADE
+species,SPECIES_SPRITZEE,SPECIES_SPRITZEE,SPECIES_SPRITZEE,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_AROMATISSE,SPECIES_AROMATISSE,SPECIES_AROMATISSE,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_SPRITZEE
+species,SPECIES_SWIRLIX,SPECIES_SWIRLIX,SPECIES_SWIRLIX,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_SLURPUFF,SPECIES_SLURPUFF,SPECIES_SLURPUFF,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_SWIRLIX
+species,SPECIES_INKAY,SPECIES_INKAY,SPECIES_INKAY,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_MALAMAR,SPECIES_MALAMAR,SPECIES_MALAMAR,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_INKAY
+species,SPECIES_BINACLE,SPECIES_BINACLE,SPECIES_BINACLE,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_BARBARACLE,SPECIES_BARBARACLE,SPECIES_BARBARACLE,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_BINACLE
+species,SPECIES_SKRELP,SPECIES_SKRELP,SPECIES_SKRELP,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_DRAGALGE,SPECIES_DRAGALGE,SPECIES_DRAGALGE,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_SKRELP
+species,SPECIES_CLAUNCHER,SPECIES_CLAUNCHER,SPECIES_CLAUNCHER,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_CLAWITZER,SPECIES_CLAWITZER,SPECIES_CLAWITZER,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_CLAUNCHER
+species,SPECIES_HELIOPTILE,SPECIES_HELIOPTILE,SPECIES_HELIOPTILE,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_HELIOLISK,SPECIES_HELIOLISK,SPECIES_HELIOLISK,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_HELIOPTILE
+species,SPECIES_TYRUNT,SPECIES_TYRUNT,SPECIES_TYRUNT,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_TYRANTRUM,SPECIES_TYRANTRUM,SPECIES_TYRANTRUM,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_TYRUNT
+species,SPECIES_AMAURA,SPECIES_AMAURA,SPECIES_AMAURA,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_AURORUS,SPECIES_AURORUS,SPECIES_AURORUS,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_AMAURA
+species,SPECIES_SYLVEON,SPECIES_SYLVEON,SPECIES_SYLVEON,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_EEVEE
+species,SPECIES_HAWLUCHA,SPECIES_HAWLUCHA,SPECIES_HAWLUCHA,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_DEDENNE,SPECIES_DEDENNE,SPECIES_DEDENNE,wild,Route 29,night,4%,none,
+species,SPECIES_CARBINK,SPECIES_CARBINK,SPECIES_CARBINK,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_GOOMY,SPECIES_GOOMY,SPECIES_GOOMY,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_SLIGGOO,SPECIES_SLIGGOO,SPECIES_SLIGGOO,evolution,same save,any,guaranteed,see Evolution Changes,
+species,SPECIES_GOODRA,SPECIES_GOODRA,SPECIES_GOODRA,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_SLIGGOO
+species,SPECIES_KLEFKI,SPECIES_KLEFKI,SPECIES_KLEFKI,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_PHANTUMP,SPECIES_PHANTUMP,SPECIES_PHANTUMP,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_TREVENANT,SPECIES_TREVENANT,SPECIES_TREVENANT,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_PHANTUMP
+species,SPECIES_PUMPKABOO,SPECIES_PUMPKABOO,SPECIES_PUMPKABOO,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_GOURGEIST,SPECIES_GOURGEIST,SPECIES_GOURGEIST,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_PUMPKABOO
+species,SPECIES_BERGMITE,SPECIES_BERGMITE,SPECIES_BERGMITE,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_AVALUGG,SPECIES_AVALUGG,SPECIES_AVALUGG,evolution,same save,any,guaranteed,see Evolution Changes,
+species,SPECIES_NOIBAT,SPECIES_NOIBAT,SPECIES_NOIBAT,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_NOIVERN,SPECIES_NOIVERN,SPECIES_NOIVERN,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_NOIBAT
+species,SPECIES_XERNEAS,SPECIES_XERNEAS,SPECIES_XERNEAS,wild,Route 18,all,1%,post-game,
+species,SPECIES_YVELTAL,SPECIES_YVELTAL,SPECIES_YVELTAL,wild,Route 11,all,1%,post-game,
+species,SPECIES_ZYGARDE,SPECIES_ZYGARDE,SPECIES_ZYGARDE,wild,Route 21,all,1%,post-game,
+species,SPECIES_DIANCIE,SPECIES_DIANCIE,SPECIES_DIANCIE,wild,Bell Tower 2F,all,1%,post-game,
+species,SPECIES_HOOPA,SPECIES_HOOPA,SPECIES_HOOPA,wild,Route 24,all,1%,post-game,
+species,SPECIES_VOLCANION,SPECIES_VOLCANION,SPECIES_VOLCANION,wild,Whirl Islands B1F,all,1%,post-game,
+species,SPECIES_ROWLET,SPECIES_ROWLET,SPECIES_ROWLET,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_DARTRIX,SPECIES_DARTRIX,SPECIES_DARTRIX,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_ROWLET
+species,SPECIES_DECIDUEYE,SPECIES_DECIDUEYE,SPECIES_DECIDUEYE,evolution,same save,any,guaranteed,see Evolution Changes,
+species,SPECIES_LITTEN,SPECIES_LITTEN,SPECIES_LITTEN,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_TORRACAT,SPECIES_TORRACAT,SPECIES_TORRACAT,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_LITTEN
+species,SPECIES_INCINEROAR,SPECIES_INCINEROAR,SPECIES_INCINEROAR,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_TORRACAT
+species,SPECIES_POPPLIO,SPECIES_POPPLIO,SPECIES_POPPLIO,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_BRIONNE,SPECIES_BRIONNE,SPECIES_BRIONNE,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_POPPLIO
+species,SPECIES_PRIMARINA,SPECIES_PRIMARINA,SPECIES_PRIMARINA,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_BRIONNE
+species,SPECIES_PIKIPEK,SPECIES_PIKIPEK,SPECIES_PIKIPEK,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_TRUMBEAK,SPECIES_TRUMBEAK,SPECIES_TRUMBEAK,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_PIKIPEK
+species,SPECIES_TOUCANNON,SPECIES_TOUCANNON,SPECIES_TOUCANNON,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_TRUMBEAK
+species,SPECIES_YUNGOOS,SPECIES_YUNGOOS,SPECIES_YUNGOOS,wild,Sprout Tower 2F,night,10%,none,
+species,SPECIES_GUMSHOOS,SPECIES_GUMSHOOS,SPECIES_GUMSHOOS,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_YUNGOOS
+species,SPECIES_GRUBBIN,SPECIES_GRUBBIN,SPECIES_GRUBBIN,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_CHARJABUG,SPECIES_CHARJABUG,SPECIES_CHARJABUG,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_GRUBBIN
+species,SPECIES_VIKAVOLT,SPECIES_VIKAVOLT,SPECIES_VIKAVOLT,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_CHARJABUG
+species,SPECIES_CRABRAWLER,SPECIES_CRABRAWLER,SPECIES_CRABRAWLER,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_CRABOMINABLE,SPECIES_CRABOMINABLE,SPECIES_CRABOMINABLE,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_CRABRAWLER
+species,SPECIES_ORICORIO,SPECIES_ORICORIO,SPECIES_ORICORIO,wild,Route 31,morning,10%,none,
+species,SPECIES_CUTIEFLY,SPECIES_CUTIEFLY,SPECIES_CUTIEFLY,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_RIBOMBEE,SPECIES_RIBOMBEE,SPECIES_RIBOMBEE,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_CUTIEFLY
+species,SPECIES_ROCKRUFF,SPECIES_ROCKRUFF,SPECIES_ROCKRUFF,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_LYCANROC,SPECIES_LYCANROC,SPECIES_LYCANROC,wild,Digletts Cave,all,1%,post-game,
+species,SPECIES_WISHIWASHI,SPECIES_WISHIWASHI,SPECIES_WISHIWASHI,wild,Route 30,all,5%,none,
+species,SPECIES_MAREANIE,SPECIES_MAREANIE,SPECIES_MAREANIE,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_TOXAPEX,SPECIES_TOXAPEX,SPECIES_TOXAPEX,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_MAREANIE
+species,SPECIES_MUDBRAY,SPECIES_MUDBRAY,SPECIES_MUDBRAY,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_MUDSDALE,SPECIES_MUDSDALE,SPECIES_MUDSDALE,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_MUDBRAY
+species,SPECIES_DEWPIDER,SPECIES_DEWPIDER,SPECIES_DEWPIDER,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_ARAQUANID,SPECIES_ARAQUANID,SPECIES_ARAQUANID,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_DEWPIDER
+species,SPECIES_FOMANTIS,SPECIES_FOMANTIS,SPECIES_FOMANTIS,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_LURANTIS,SPECIES_LURANTIS,SPECIES_LURANTIS,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_FOMANTIS
+species,SPECIES_MORELULL,SPECIES_MORELULL,SPECIES_MORELULL,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_SHIINOTIC,SPECIES_SHIINOTIC,SPECIES_SHIINOTIC,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_MORELULL
+species,SPECIES_SALANDIT,SPECIES_SALANDIT,SPECIES_SALANDIT,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_SALAZZLE,SPECIES_SALAZZLE,SPECIES_SALAZZLE,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_SALANDIT
+species,SPECIES_STUFFUL,SPECIES_STUFFUL,SPECIES_STUFFUL,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_BEWEAR,SPECIES_BEWEAR,SPECIES_BEWEAR,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_STUFFUL
+species,SPECIES_BOUNSWEET,SPECIES_BOUNSWEET,SPECIES_BOUNSWEET,wild,Route 29,morning,5%,none,
+species,SPECIES_STEENEE,SPECIES_STEENEE,SPECIES_STEENEE,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_BOUNSWEET
+species,SPECIES_TSAREENA,SPECIES_TSAREENA,SPECIES_TSAREENA,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_STEENEE
+species,SPECIES_COMFEY,SPECIES_COMFEY,SPECIES_COMFEY,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_ORANGURU,SPECIES_ORANGURU,SPECIES_ORANGURU,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_PASSIMIAN,SPECIES_PASSIMIAN,SPECIES_PASSIMIAN,wild,Route 31,night,10%,none,
+species,SPECIES_WIMPOD,SPECIES_WIMPOD,SPECIES_WIMPOD,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_GOLISOPOD,SPECIES_GOLISOPOD,SPECIES_GOLISOPOD,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_WIMPOD
+species,SPECIES_SANDYGAST,SPECIES_SANDYGAST,SPECIES_SANDYGAST,wild,Route 31,day,10%,none,
+species,SPECIES_PALOSSAND,SPECIES_PALOSSAND,SPECIES_PALOSSAND,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_SANDYGAST
+species,SPECIES_PYUKUMUKU,SPECIES_PYUKUMUKU,SPECIES_PYUKUMUKU,wild,Cherrygrove City,all,5%,none,
+species,SPECIES_TYPE_NULL,SPECIES_TYPE_NULL,SPECIES_TYPE_NULL,wild,Route 6,all,1%,post-game,
+species,SPECIES_SILVALLY,SPECIES_SILVALLY,SPECIES_SILVALLY,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_TYPE_NULL
+species,SPECIES_MINIOR,SPECIES_MINIOR,SPECIES_MINIOR,wild,Route 30,day,4%,none,
+species,SPECIES_KOMALA,SPECIES_KOMALA,SPECIES_KOMALA,wild,Route 30,morning,4%,none,
+species,SPECIES_TURTONATOR,SPECIES_TURTONATOR,SPECIES_TURTONATOR,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_TOGEDEMARU,SPECIES_TOGEDEMARU,SPECIES_TOGEDEMARU,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_MIMIKYU,SPECIES_MIMIKYU,SPECIES_MIMIKYU,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_BRUXISH,SPECIES_BRUXISH,SPECIES_BRUXISH,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_DRAMPA,SPECIES_DRAMPA,SPECIES_DRAMPA,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_DHELMISE,SPECIES_DHELMISE,SPECIES_DHELMISE,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_JANGMO_O,SPECIES_JANGMO_O,SPECIES_JANGMO_O,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_HAKAMO_O,SPECIES_HAKAMO_O,SPECIES_HAKAMO_O,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_JANGMO_O
+species,SPECIES_KOMMO_O,SPECIES_KOMMO_O,SPECIES_KOMMO_O,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_HAKAMO_O
+species,SPECIES_TAPU_KOKO,SPECIES_TAPU_KOKO,SPECIES_TAPU_KOKO,wild,Route 28,all,1%,post-game,
+species,SPECIES_TAPU_LELE,SPECIES_TAPU_LELE,SPECIES_TAPU_LELE,wild,Route 5,all,1%,post-game,
+species,SPECIES_TAPU_BULU,SPECIES_TAPU_BULU,SPECIES_TAPU_BULU,wild,Route 4,all,1%,post-game,
+species,SPECIES_TAPU_FINI,SPECIES_TAPU_FINI,SPECIES_TAPU_FINI,wild,Route 4,all,1%,post-game,
+species,SPECIES_COSMOG,SPECIES_COSMOG,SPECIES_COSMOG,wild,Mt. Moon 1F,all,1%,post-game,
+species,SPECIES_COSMOEM,SPECIES_COSMOEM,SPECIES_COSMOEM,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_COSMOG
+species,SPECIES_SOLGALEO,SPECIES_SOLGALEO,SPECIES_SOLGALEO,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_COSMOEM
+species,SPECIES_LUNALA,SPECIES_LUNALA,SPECIES_LUNALA,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_COSMOEM
+species,SPECIES_NIHILEGO,SPECIES_NIHILEGO,SPECIES_NIHILEGO,wild,Victory Road 2F,all,1%,post-game,
+species,SPECIES_BUZZWOLE,SPECIES_BUZZWOLE,SPECIES_BUZZWOLE,wild,Viridian Forest,all,1%,post-game,
+species,SPECIES_PHEROMOSA,SPECIES_PHEROMOSA,SPECIES_PHEROMOSA,wild,"Route 2 (North, above Viridian Forest)",all,1%,post-game,
+species,SPECIES_XURKITREE,SPECIES_XURKITREE,SPECIES_XURKITREE,wild,Route 8,all,1%,post-game,
+species,SPECIES_CELESTEELA,SPECIES_CELESTEELA,SPECIES_CELESTEELA,wild,Mt. Silver (Moltres room),all,1%,post-game,
+species,SPECIES_KARTANA,SPECIES_KARTANA,SPECIES_KARTANA,wild,Tohjo Falls,all,1%,post-game,
+species,SPECIES_GUZZLORD,SPECIES_GUZZLORD,SPECIES_GUZZLORD,wild,Bell Tower 3F,all,1%,post-game,
+species,SPECIES_NECROZMA,SPECIES_NECROZMA,SPECIES_NECROZMA,wild,Seafoam Islands B4F,all,1%,post-game,
+species,SPECIES_MAGEARNA,SPECIES_MAGEARNA,SPECIES_MAGEARNA,wild,Bell Tower 7F,all,1%,post-game,
+species,SPECIES_MARSHADOW,SPECIES_MARSHADOW,SPECIES_MARSHADOW,wild,Route 25,all,1%,post-game,
+species,SPECIES_POIPOLE,SPECIES_POIPOLE,SPECIES_POIPOLE,wild,Mt. Silver (Outside area with Pokemon Center),all,1%,post-game,
+species,SPECIES_NAGANADEL,SPECIES_NAGANADEL,SPECIES_NAGANADEL,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_POIPOLE
+species,SPECIES_STAKATAKA,SPECIES_STAKATAKA,SPECIES_STAKATAKA,wild,Route 28,all,1%,post-game,
+species,SPECIES_BLACEPHALON,SPECIES_BLACEPHALON,SPECIES_BLACEPHALON,wild,Cerulean Cave B1F,all,1%,post-game,
+species,SPECIES_ZERAORA,SPECIES_ZERAORA,SPECIES_ZERAORA,wild,Route 21,all,1%,post-game,
+species,SPECIES_MELTAN,SPECIES_MELTAN,SPECIES_MELTAN,wild,Digletts Cave,all,1%,post-game,
+species,SPECIES_MELMETAL,SPECIES_MELMETAL,SPECIES_MELMETAL,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_MELTAN
+species,SPECIES_GROOKEY,SPECIES_GROOKEY,SPECIES_GROOKEY,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_THWACKEY,SPECIES_THWACKEY,SPECIES_THWACKEY,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_GROOKEY
+species,SPECIES_RILLABOOM,SPECIES_RILLABOOM,SPECIES_RILLABOOM,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_THWACKEY
+species,SPECIES_SCORBUNNY,SPECIES_SCORBUNNY,SPECIES_SCORBUNNY,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_RABOOT,SPECIES_RABOOT,SPECIES_RABOOT,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_SCORBUNNY
+species,SPECIES_CINDERACE,SPECIES_CINDERACE,SPECIES_CINDERACE,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_RABOOT
+species,SPECIES_SOBBLE,SPECIES_SOBBLE,SPECIES_SOBBLE,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_DRIZZILE,SPECIES_DRIZZILE,SPECIES_DRIZZILE,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_SOBBLE
+species,SPECIES_INTELEON,SPECIES_INTELEON,SPECIES_INTELEON,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_DRIZZILE
+species,SPECIES_SKWOVET,SPECIES_SKWOVET,SPECIES_SKWOVET,wild,Route 31,night,10%,none,
+species,SPECIES_GREEDENT,SPECIES_GREEDENT,SPECIES_GREEDENT,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_SKWOVET
+species,SPECIES_ROOKIDEE,SPECIES_ROOKIDEE,SPECIES_ROOKIDEE,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_CORVISQUIRE,SPECIES_CORVISQUIRE,SPECIES_CORVISQUIRE,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_ROOKIDEE
+species,SPECIES_CORVIKNIGHT,SPECIES_CORVIKNIGHT,SPECIES_CORVIKNIGHT,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_CORVISQUIRE
+species,SPECIES_BLIPBUG,SPECIES_BLIPBUG,SPECIES_BLIPBUG,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_DOTTLER,SPECIES_DOTTLER,SPECIES_DOTTLER,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_BLIPBUG
+species,SPECIES_ORBEETLE,SPECIES_ORBEETLE,SPECIES_ORBEETLE,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_DOTTLER
+species,SPECIES_NICKIT,SPECIES_NICKIT,SPECIES_NICKIT,wild,Route 31,night,10%,none,
+species,SPECIES_THIEVUL,SPECIES_THIEVUL,SPECIES_THIEVUL,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_NICKIT
+species,SPECIES_GOSSIFLEUR,SPECIES_GOSSIFLEUR,SPECIES_GOSSIFLEUR,wild,Route 30,night,5%,none,
+species,SPECIES_ELDEGOSS,SPECIES_ELDEGOSS,SPECIES_ELDEGOSS,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_GOSSIFLEUR
+species,SPECIES_WOOLOO,SPECIES_WOOLOO,SPECIES_WOOLOO,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_DUBWOOL,SPECIES_DUBWOOL,SPECIES_DUBWOOL,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_WOOLOO
+species,SPECIES_CHEWTLE,SPECIES_CHEWTLE,SPECIES_CHEWTLE,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_DREDNAW,SPECIES_DREDNAW,SPECIES_DREDNAW,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_CHEWTLE
+species,SPECIES_YAMPER,SPECIES_YAMPER,SPECIES_YAMPER,wild,Route 29,night,5%,none,
+species,SPECIES_BOLTUND,SPECIES_BOLTUND,SPECIES_BOLTUND,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_YAMPER
+species,SPECIES_ROLYCOLY,SPECIES_ROLYCOLY,SPECIES_ROLYCOLY,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_CARKOL,SPECIES_CARKOL,SPECIES_CARKOL,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_ROLYCOLY
+species,SPECIES_COALOSSAL,SPECIES_COALOSSAL,SPECIES_COALOSSAL,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_CARKOL
+species,SPECIES_APPLIN,SPECIES_APPLIN,SPECIES_APPLIN,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_FLAPPLE,SPECIES_FLAPPLE,SPECIES_FLAPPLE,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_APPLIN
+species,SPECIES_APPLETUN,SPECIES_APPLETUN,SPECIES_APPLETUN,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_APPLIN
+species,SPECIES_SILICOBRA,SPECIES_SILICOBRA,SPECIES_SILICOBRA,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_SANDACONDA,SPECIES_SANDACONDA,SPECIES_SANDACONDA,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_SILICOBRA
+species,SPECIES_CRAMORANT,SPECIES_CRAMORANT,SPECIES_CRAMORANT,wild,Route 29,night,4%,none,
+species,SPECIES_ARROKUDA,SPECIES_ARROKUDA,SPECIES_ARROKUDA,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_BARRASKEWDA,SPECIES_BARRASKEWDA,SPECIES_BARRASKEWDA,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_ARROKUDA
+species,SPECIES_TOXEL,SPECIES_TOXEL,SPECIES_TOXEL,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_TOXTRICITY,SPECIES_TOXTRICITY,SPECIES_TOXTRICITY,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_TOXEL
+species,SPECIES_SIZZLIPEDE,SPECIES_SIZZLIPEDE,SPECIES_SIZZLIPEDE,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_CENTISKORCH,SPECIES_CENTISKORCH,SPECIES_CENTISKORCH,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_SIZZLIPEDE
+species,SPECIES_CLOBBOPUS,SPECIES_CLOBBOPUS,SPECIES_CLOBBOPUS,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_GRAPPLOCT,SPECIES_GRAPPLOCT,SPECIES_GRAPPLOCT,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_CLOBBOPUS
+species,SPECIES_SINISTEA,SPECIES_SINISTEA,SPECIES_SINISTEA,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_POLTEAGEIST,SPECIES_POLTEAGEIST,SPECIES_POLTEAGEIST,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_SINISTEA
+species,SPECIES_HATENNA,SPECIES_HATENNA,SPECIES_HATENNA,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_HATTREM,SPECIES_HATTREM,SPECIES_HATTREM,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_HATENNA
+species,SPECIES_HATTERENE,SPECIES_HATTERENE,SPECIES_HATTERENE,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_HATTREM
+species,SPECIES_IMPIDIMP,SPECIES_IMPIDIMP,SPECIES_IMPIDIMP,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_MORGREM,SPECIES_MORGREM,SPECIES_MORGREM,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_IMPIDIMP
+species,SPECIES_GRIMMSNARL,SPECIES_GRIMMSNARL,SPECIES_GRIMMSNARL,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_MORGREM
+species,SPECIES_OBSTAGOON,SPECIES_OBSTAGOON,SPECIES_OBSTAGOON,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_LINOONE_GALARIAN
+species,SPECIES_PERRSERKER,SPECIES_PERRSERKER,SPECIES_PERRSERKER,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_MEOWTH_GALARIAN
+species,SPECIES_CURSOLA,SPECIES_CURSOLA,SPECIES_CURSOLA,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_CORSOLA_GALARIAN
+species,SPECIES_SIRFETCHD,SPECIES_SIRFETCHD,SPECIES_SIRFETCHD,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_FARFETCHD_GALARIAN
+species,SPECIES_MR_RIME,SPECIES_MR_RIME,SPECIES_MR_RIME,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_MR_MIME_GALARIAN
+species,SPECIES_RUNERIGUS,SPECIES_RUNERIGUS,SPECIES_RUNERIGUS,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_YAMASK_GALARIAN
+species,SPECIES_MILCERY,SPECIES_MILCERY,SPECIES_MILCERY,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_ALCREMIE,SPECIES_ALCREMIE,SPECIES_ALCREMIE,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_MILCERY
+species,SPECIES_FALINKS,SPECIES_FALINKS,SPECIES_FALINKS,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_PINCURCHIN,SPECIES_PINCURCHIN,SPECIES_PINCURCHIN,wild,Cherrygrove City,all,1%,none,
+species,SPECIES_SNOM,SPECIES_SNOM,SPECIES_SNOM,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_FROSMOTH,SPECIES_FROSMOTH,SPECIES_FROSMOTH,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_SNOM
+species,SPECIES_STONJOURNER,SPECIES_STONJOURNER,SPECIES_STONJOURNER,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_EISCUE,SPECIES_EISCUE,SPECIES_EISCUE,wild,Cherrygrove City,all,4%,none,
+species,SPECIES_INDEEDEE,SPECIES_INDEEDEE,SPECIES_INDEEDEE,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_MORPEKO,SPECIES_MORPEKO,SPECIES_MORPEKO,wild,Route 31,morning,10%,none,
+species,SPECIES_CUFANT,SPECIES_CUFANT,SPECIES_CUFANT,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_COPPERAJAH,SPECIES_COPPERAJAH,SPECIES_COPPERAJAH,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_CUFANT
+species,SPECIES_DRACOZOLT,SPECIES_DRACOZOLT,SPECIES_DRACOZOLT,wild,National Park,morning,1%,none,
+species,SPECIES_ARCTOZOLT,SPECIES_ARCTOZOLT,SPECIES_ARCTOZOLT,wild,National Park,morning,1%,none,
+species,SPECIES_DRACOVISH,SPECIES_DRACOVISH,SPECIES_DRACOVISH,wild,National Park,day,1%,none,
+species,SPECIES_ARCTOVISH,SPECIES_ARCTOVISH,SPECIES_ARCTOVISH,wild,National Park,day,1%,none,
+species,SPECIES_DURALUDON,SPECIES_DURALUDON,SPECIES_DURALUDON,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_DREEPY,SPECIES_DREEPY,SPECIES_DREEPY,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_DRAKLOAK,SPECIES_DRAKLOAK,SPECIES_DRAKLOAK,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_DREEPY
+species,SPECIES_DRAGAPULT,SPECIES_DRAGAPULT,SPECIES_DRAGAPULT,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_DRAKLOAK
+species,SPECIES_ZACIAN,SPECIES_ZACIAN,SPECIES_ZACIAN,wild,Route 11,all,1%,post-game,
+species,SPECIES_ZAMAZENTA,SPECIES_ZAMAZENTA,SPECIES_ZAMAZENTA,wild,Route 13,all,1%,post-game,
+species,SPECIES_ETERNATUS,SPECIES_ETERNATUS,SPECIES_ETERNATUS,wild,Mt. Silver 1F,all,1%,post-game,
+species,SPECIES_KUBFU,SPECIES_KUBFU,SPECIES_KUBFU,wild,Victory Road 2F,all,1%,post-game,
+species,SPECIES_URSHIFU,SPECIES_URSHIFU,SPECIES_URSHIFU,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_KUBFU
+species,SPECIES_ZARUDE,SPECIES_ZARUDE,SPECIES_ZARUDE,wild,Route 14,all,1%,post-game,
+species,SPECIES_REGIELEKI,SPECIES_REGIELEKI,SPECIES_REGIELEKI,wild,Route 10,all,1%,post-game,
+species,SPECIES_REGIDRAGO,SPECIES_REGIDRAGO,SPECIES_REGIDRAGO,wild,Mt. Silver (Outside area with Pokemon Center),all,1%,post-game,
+species,SPECIES_GLASTRIER,SPECIES_GLASTRIER,SPECIES_GLASTRIER,wild,Seafoam Islands B1F,all,1%,post-game,
+species,SPECIES_SPECTRIER,SPECIES_SPECTRIER,SPECIES_SPECTRIER,wild,Route 27,all,1%,post-game,
+species,SPECIES_CALYREX,SPECIES_CALYREX,SPECIES_CALYREX,wild,Cerulean Cave B1F,all,1%,post-game,
+species,SPECIES_WYRDEER,SPECIES_WYRDEER,SPECIES_WYRDEER,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_STANTLER
+species,SPECIES_KLEAVOR,SPECIES_KLEAVOR,SPECIES_KLEAVOR,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_SCYTHER
+species,SPECIES_URSALUNA,SPECIES_URSALUNA,SPECIES_URSALUNA,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_URSARING
+species,SPECIES_BASCULEGION,SPECIES_BASCULEGION,SPECIES_BASCULEGION,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_SNEASLER,SPECIES_SNEASLER,SPECIES_SNEASLER,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_SNEASEL_HISUIAN
+species,SPECIES_OVERQWIL,SPECIES_OVERQWIL,SPECIES_OVERQWIL,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_QWILFISH_HISUIAN
+species,SPECIES_ENAMORUS,SPECIES_ENAMORUS,SPECIES_ENAMORUS,wild,Viridian Forest,all,1%,post-game,
+species,SPECIES_SPRIGATITO,SPECIES_SPRIGATITO,SPECIES_SPRIGATITO,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_FLORAGATO,SPECIES_FLORAGATO,SPECIES_FLORAGATO,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_SPRIGATITO
+species,SPECIES_MEOWSCARADA,SPECIES_MEOWSCARADA,SPECIES_MEOWSCARADA,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_FLORAGATO
+species,SPECIES_FUECOCO,SPECIES_FUECOCO,SPECIES_FUECOCO,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_CROCALOR,SPECIES_CROCALOR,SPECIES_CROCALOR,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_FUECOCO
+species,SPECIES_SKELEDIRGE,SPECIES_SKELEDIRGE,SPECIES_SKELEDIRGE,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_CROCALOR
+species,SPECIES_QUAXLY,SPECIES_QUAXLY,SPECIES_QUAXLY,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_QUAXWELL,SPECIES_QUAXWELL,SPECIES_QUAXWELL,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_QUAXLY
+species,SPECIES_QUAQUAVAL,SPECIES_QUAQUAVAL,SPECIES_QUAQUAVAL,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_QUAXWELL
+species,SPECIES_LECHONK,SPECIES_LECHONK,SPECIES_LECHONK,wild,Route 30,day,4%,none,
+species,SPECIES_OINKOLOGNE,SPECIES_OINKOLOGNE,SPECIES_OINKOLOGNE,wild,Route 1,all,1%,post-game,
+species,SPECIES_TAROUNTULA,SPECIES_TAROUNTULA,SPECIES_TAROUNTULA,wild,Route 31,night,4%,none,
+species,SPECIES_SPIDOPS,SPECIES_SPIDOPS,SPECIES_SPIDOPS,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_TAROUNTULA
+species,SPECIES_NYMBLE,SPECIES_NYMBLE,SPECIES_NYMBLE,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_LOKIX,SPECIES_LOKIX,SPECIES_LOKIX,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_NYMBLE
+species,SPECIES_PAWMI,SPECIES_PAWMI,SPECIES_PAWMI,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_PAWMO,SPECIES_PAWMO,SPECIES_PAWMO,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_PAWMI
+species,SPECIES_PAWMOT,SPECIES_PAWMOT,SPECIES_PAWMOT,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_PAWMO
+species,SPECIES_TANDEMAUS,SPECIES_TANDEMAUS,SPECIES_TANDEMAUS,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_MAUSHOLD,SPECIES_MAUSHOLD,SPECIES_MAUSHOLD,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_TANDEMAUS
+species,SPECIES_FIDOUGH,SPECIES_FIDOUGH,SPECIES_FIDOUGH,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_DACHSBUN,SPECIES_DACHSBUN,SPECIES_DACHSBUN,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_FIDOUGH
+species,SPECIES_SMOLIV,SPECIES_SMOLIV,SPECIES_SMOLIV,wild,Route 31,night,4%,none,
+species,SPECIES_DOLLIV,SPECIES_DOLLIV,SPECIES_DOLLIV,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_SMOLIV
+species,SPECIES_ARBOLIVA,SPECIES_ARBOLIVA,SPECIES_ARBOLIVA,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_DOLLIV
+species,SPECIES_SQUAWKABILLY,SPECIES_SQUAWKABILLY,SPECIES_SQUAWKABILLY,wild,Route 31,morning,4%,none,
+species,SPECIES_NACLI,SPECIES_NACLI,SPECIES_NACLI,wild,Route 31,day,10%,none,
+species,SPECIES_NACLSTACK,SPECIES_NACLSTACK,SPECIES_NACLSTACK,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_NACLI
+species,SPECIES_GARGANACL,SPECIES_GARGANACL,SPECIES_GARGANACL,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_NACLSTACK
+species,SPECIES_CHARCADET,SPECIES_CHARCADET,SPECIES_CHARCADET,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_ARMAROUGE,SPECIES_ARMAROUGE,SPECIES_ARMAROUGE,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_CHARCADET
+species,SPECIES_CERULEDGE,SPECIES_CERULEDGE,SPECIES_CERULEDGE,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_CHARCADET
+species,SPECIES_TADBULB,SPECIES_TADBULB,SPECIES_TADBULB,wild,Route 31,day,4%,none,
+species,SPECIES_BELLIBOLT,SPECIES_BELLIBOLT,SPECIES_BELLIBOLT,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_TADBULB
+species,SPECIES_WATTREL,SPECIES_WATTREL,SPECIES_WATTREL,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_KILOWATTREL,SPECIES_KILOWATTREL,SPECIES_KILOWATTREL,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_WATTREL
+species,SPECIES_MASCHIFF,SPECIES_MASCHIFF,SPECIES_MASCHIFF,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_MABOSSTIFF,SPECIES_MABOSSTIFF,SPECIES_MABOSSTIFF,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_MASCHIFF
+species,SPECIES_SHROODLE,SPECIES_SHROODLE,SPECIES_SHROODLE,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_GRAFAIAI,SPECIES_GRAFAIAI,SPECIES_GRAFAIAI,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_SHROODLE
+species,SPECIES_BRAMBLIN,SPECIES_BRAMBLIN,SPECIES_BRAMBLIN,wild,Route 29,day,5%,none,
+species,SPECIES_BRAMBLEGHAST,SPECIES_BRAMBLEGHAST,SPECIES_BRAMBLEGHAST,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_BRAMBLIN
+species,SPECIES_TOEDSCOOL,SPECIES_TOEDSCOOL,SPECIES_TOEDSCOOL,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_TOEDSCRUEL,SPECIES_TOEDSCRUEL,SPECIES_TOEDSCRUEL,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_TOEDSCOOL
+species,SPECIES_KLAWF,SPECIES_KLAWF,SPECIES_KLAWF,wild,Route 30,night,5%,none,
+species,SPECIES_CAPSAKID,SPECIES_CAPSAKID,SPECIES_CAPSAKID,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_SCOVILLAIN,SPECIES_SCOVILLAIN,SPECIES_SCOVILLAIN,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_CAPSAKID
+species,SPECIES_RELLOR,SPECIES_RELLOR,SPECIES_RELLOR,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_RABSCA,SPECIES_RABSCA,SPECIES_RABSCA,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_RELLOR
+species,SPECIES_FLITTLE,SPECIES_FLITTLE,SPECIES_FLITTLE,wild,Route 30,night,10%,none,
+species,SPECIES_ESPATHRA,SPECIES_ESPATHRA,SPECIES_ESPATHRA,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_FLITTLE
+species,SPECIES_TINKATINK,SPECIES_TINKATINK,SPECIES_TINKATINK,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_TINKATUFF,SPECIES_TINKATUFF,SPECIES_TINKATUFF,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_TINKATINK
+species,SPECIES_TINKATON,SPECIES_TINKATON,SPECIES_TINKATON,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_TINKATUFF
+species,SPECIES_WIGLETT,SPECIES_WIGLETT,SPECIES_WIGLETT,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_WUGTRIO,SPECIES_WUGTRIO,SPECIES_WUGTRIO,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_WIGLETT
+species,SPECIES_BOMBIRDIER,SPECIES_BOMBIRDIER,SPECIES_BOMBIRDIER,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_FINIZEN,SPECIES_FINIZEN,SPECIES_FINIZEN,wild,Cherrygrove City,all,5%,none,
+species,SPECIES_PALAFIN,SPECIES_PALAFIN,SPECIES_PALAFIN,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_FINIZEN
+species,SPECIES_VAROOM,SPECIES_VAROOM,SPECIES_VAROOM,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_REVAVROOM,SPECIES_REVAVROOM,SPECIES_REVAVROOM,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_VAROOM
+species,SPECIES_CYCLIZAR,SPECIES_CYCLIZAR,SPECIES_CYCLIZAR,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_ORTHWORM,SPECIES_ORTHWORM,SPECIES_ORTHWORM,wild,Route 31,day,10%,none,
+species,SPECIES_GLIMMET,SPECIES_GLIMMET,SPECIES_GLIMMET,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_GLIMMORA,SPECIES_GLIMMORA,SPECIES_GLIMMORA,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_GLIMMET
+species,SPECIES_GREAVARD,SPECIES_GREAVARD,SPECIES_GREAVARD,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_HOUNDSTONE,SPECIES_HOUNDSTONE,SPECIES_HOUNDSTONE,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_GREAVARD
+species,SPECIES_FLAMIGO,SPECIES_FLAMIGO,SPECIES_FLAMIGO,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_CETODDLE,SPECIES_CETODDLE,SPECIES_CETODDLE,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_CETITAN,SPECIES_CETITAN,SPECIES_CETITAN,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_CETODDLE
+species,SPECIES_VELUZA,SPECIES_VELUZA,SPECIES_VELUZA,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_DONDOZO,SPECIES_DONDOZO,SPECIES_DONDOZO,wild,Cherrygrove City,all,5%,none,
+species,SPECIES_TATSUGIRI,SPECIES_TATSUGIRI,SPECIES_TATSUGIRI,wild,Cherrygrove City,all,1%,none,
+species,SPECIES_ANNIHILAPE,SPECIES_ANNIHILAPE,SPECIES_ANNIHILAPE,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_PRIMEAPE
+species,SPECIES_CLODSIRE,SPECIES_CLODSIRE,SPECIES_CLODSIRE,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_WOOPER_PALDEAN
+species,SPECIES_FARIGIRAF,SPECIES_FARIGIRAF,SPECIES_FARIGIRAF,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_GIRAFARIG
+species,SPECIES_DUDUNSPARCE,SPECIES_DUDUNSPARCE,SPECIES_DUDUNSPARCE,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_DUNSPARCE
+species,SPECIES_KINGAMBIT,SPECIES_KINGAMBIT,SPECIES_KINGAMBIT,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_BISHARP
+species,SPECIES_GREAT_TUSK,SPECIES_GREAT_TUSK,SPECIES_GREAT_TUSK,wild,Mt. Silver (Expert Belt room),all,1%,post-game,
+species,SPECIES_SCREAM_TAIL,SPECIES_SCREAM_TAIL,SPECIES_SCREAM_TAIL,wild,"Route 2 (North, above Viridian Forest)",all,1%,post-game,
+species,SPECIES_BRUTE_BONNET,SPECIES_BRUTE_BONNET,SPECIES_BRUTE_BONNET,wild,Mt. Moon 1F,all,1%,post-game,
+species,SPECIES_FLUTTER_MANE,SPECIES_FLUTTER_MANE,SPECIES_FLUTTER_MANE,wild,"Route 2 (South, below Viridian Forest)",all,1%,post-game,
+species,SPECIES_SLITHER_WING,SPECIES_SLITHER_WING,SPECIES_SLITHER_WING,wild,Route 3,all,1%,post-game,
+species,SPECIES_SANDY_SHOCKS,SPECIES_SANDY_SHOCKS,SPECIES_SANDY_SHOCKS,wild,Route 27,all,1%,post-game,
+species,SPECIES_IRON_TREADS,SPECIES_IRON_TREADS,SPECIES_IRON_TREADS,wild,Victory Road 1F,all,1%,post-game,
+species,SPECIES_IRON_BUNDLE,SPECIES_IRON_BUNDLE,SPECIES_IRON_BUNDLE,wild,Seafoam Islands B1F,all,1%,post-game,
+species,SPECIES_IRON_HANDS,SPECIES_IRON_HANDS,SPECIES_IRON_HANDS,wild,Rock Tunnel B1F,all,1%,post-game,
+species,SPECIES_IRON_JUGULIS,SPECIES_IRON_JUGULIS,SPECIES_IRON_JUGULIS,wild,Bell Tower 5F,all,1%,post-game,
+species,SPECIES_IRON_MOTH,SPECIES_IRON_MOTH,SPECIES_IRON_MOTH,wild,"Mt. Silver (Top, snowy area)",all,1%,post-game,
+species,SPECIES_IRON_THORNS,SPECIES_IRON_THORNS,SPECIES_IRON_THORNS,wild,Rock Tunnel B1F,all,1%,post-game,
+species,SPECIES_FRIGIBAX,SPECIES_FRIGIBAX,SPECIES_FRIGIBAX,wild (preserved v2.1.1),see Wild Encounters,varies,varies,none,
+species,SPECIES_ARCTIBAX,SPECIES_ARCTIBAX,SPECIES_ARCTIBAX,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_FRIGIBAX
+species,SPECIES_BAXCALIBUR,SPECIES_BAXCALIBUR,SPECIES_BAXCALIBUR,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_ARCTIBAX
+species,SPECIES_GIMMIGHOUL,SPECIES_GIMMIGHOUL,SPECIES_GIMMIGHOUL,wild,Route 30,night,10%,none,
+species,SPECIES_GHOLDENGO,SPECIES_GHOLDENGO,SPECIES_GHOLDENGO,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_GIMMIGHOUL
+species,SPECIES_WO_CHIEN,SPECIES_WO_CHIEN,SPECIES_WO_CHIEN,wild,Route 8,all,1%,post-game,
+species,SPECIES_CHIEN_PAO,SPECIES_CHIEN_PAO,SPECIES_CHIEN_PAO,wild,Seafoam Islands 1F,all,1%,post-game,
+species,SPECIES_TING_LU,SPECIES_TING_LU,SPECIES_TING_LU,wild,Route 6,all,1%,post-game,
+species,SPECIES_CHI_YU,SPECIES_CHI_YU,SPECIES_CHI_YU,wild,Cerulean Cave B2F,all,1%,post-game,
+species,SPECIES_ROARING_MOON,SPECIES_ROARING_MOON,SPECIES_ROARING_MOON,wild,Route 26,all,1%,post-game,
+species,SPECIES_IRON_VALIANT,SPECIES_IRON_VALIANT,SPECIES_IRON_VALIANT,wild,Victory Road 1F,all,1%,post-game,
+species,SPECIES_KORAIDON,SPECIES_KORAIDON,SPECIES_KORAIDON,wild,Route 24,all,1%,post-game,
+species,SPECIES_MIRAIDON,SPECIES_MIRAIDON,SPECIES_MIRAIDON,wild,Route 9,all,1%,post-game,
+species,SPECIES_WALKING_WAKE,SPECIES_WALKING_WAKE,SPECIES_WALKING_WAKE,wild,Whirl Islands B2F,all,1%,post-game,
+species,SPECIES_IRON_LEAVES,SPECIES_IRON_LEAVES,SPECIES_IRON_LEAVES,wild,Bell Tower 5F,all,1%,post-game,
+species,SPECIES_DIPPLIN,SPECIES_DIPPLIN,SPECIES_DIPPLIN,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_APPLIN
+species,SPECIES_POLTCHAGEIST,SPECIES_POLTCHAGEIST,SPECIES_POLTCHAGEIST,wild,Route 31,morning,10%,none,
+species,SPECIES_SINISTCHA,SPECIES_SINISTCHA,SPECIES_SINISTCHA,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_POLTCHAGEIST
+species,SPECIES_OKIDOGI,SPECIES_OKIDOGI,SPECIES_OKIDOGI,wild,Victory Road 3F,all,1%,post-game,
+species,SPECIES_MUNKIDORI,SPECIES_MUNKIDORI,SPECIES_MUNKIDORI,wild,Bell Tower 10F,all,1%,post-game,
+species,SPECIES_FEZANDIPITI,SPECIES_FEZANDIPITI,SPECIES_FEZANDIPITI,wild,"Route 2 (South, below Viridian Forest)",all,1%,post-game,
+species,SPECIES_OGERPON,SPECIES_OGERPON,SPECIES_OGERPON,wild,Route 25,all,1%,post-game,
+species,SPECIES_ARCHALUDON,SPECIES_ARCHALUDON,SPECIES_ARCHALUDON,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_DURALUDON
+species,SPECIES_HYDRAPPLE,SPECIES_HYDRAPPLE,SPECIES_HYDRAPPLE,evolution,same save,any,guaranteed,see Evolution Changes,SPECIES_DIPPLIN
+species,SPECIES_GOUGING_FIRE,SPECIES_GOUGING_FIRE,SPECIES_GOUGING_FIRE,wild,Mt. Silver 1F,all,1%,post-game,
+species,SPECIES_RAGING_BOLT,SPECIES_RAGING_BOLT,SPECIES_RAGING_BOLT,wild,Route 9,all,1%,post-game,
+species,SPECIES_IRON_BOULDER,SPECIES_IRON_BOULDER,SPECIES_IRON_BOULDER,wild,Bell Tower 4F,all,1%,post-game,
+species,SPECIES_IRON_CROWN,SPECIES_IRON_CROWN,SPECIES_IRON_CROWN,wild,Bell Tower 4F,all,1%,post-game,
+species,SPECIES_TERAPAGOS,SPECIES_TERAPAGOS,SPECIES_TERAPAGOS,wild,Route 5,all,1%,post-game,
+species,SPECIES_PECHARUNT,SPECIES_PECHARUNT,SPECIES_PECHARUNT,wild,Cliff Cave,all,1%,post-game,
+functional_form,SPECIES_ARTICUNO_GALARIAN,SPECIES_ARTICUNO,SPECIES_ARTICUNO_GALARIAN,wild form encounter,Route 22,all,1%,none,
+functional_form,SPECIES_AVALUGG_HISUIAN,SPECIES_AVALUGG,SPECIES_AVALUGG_HISUIAN,wild form encounter,Ice Path B1F,all,1%,none,
+functional_form,SPECIES_BRAVIARY_HISUIAN,SPECIES_BRAVIARY,SPECIES_BRAVIARY_HISUIAN,wild form encounter,Route 22,all,1%,none,
+functional_form,SPECIES_CORSOLA_GALARIAN,SPECIES_CORSOLA,SPECIES_CORSOLA_GALARIAN,wild form encounter,Sprout Tower 2F,night,5%,none,
+functional_form,SPECIES_DARUMAKA_GALARIAN,SPECIES_DARUMAKA,SPECIES_DARUMAKA_GALARIAN,wild form encounter,Sprout Tower 2F,morning,5%,none,
+functional_form,SPECIES_DECIDUEYE_HISUIAN,SPECIES_DECIDUEYE,SPECIES_DECIDUEYE_HISUIAN,wild form encounter,Whirl Islands B2F,all,1%,none,
+functional_form,SPECIES_DIGLETT_ALOLAN,SPECIES_DIGLETT,SPECIES_DIGLETT_ALOLAN,wild form encounter,Sprout Tower 2F,day,5%,none,
+functional_form,SPECIES_EXEGGUTOR_ALOLAN,SPECIES_EXEGGUTOR,SPECIES_EXEGGUTOR_ALOLAN,wild form encounter,Sprout Tower 2F,night,5%,none,
+functional_form,SPECIES_FARFETCHD_GALARIAN,SPECIES_FARFETCHD,SPECIES_FARFETCHD_GALARIAN,wild form encounter,Sprout Tower 2F,morning,4%,none,
+functional_form,SPECIES_GEODUDE_ALOLAN,SPECIES_GEODUDE,SPECIES_GEODUDE_ALOLAN,wild form encounter,Sprout Tower 2F,day,4%,none,
+functional_form,SPECIES_GRIMER_ALOLAN,SPECIES_GRIMER,SPECIES_GRIMER_ALOLAN,wild form encounter,Sprout Tower 2F,night,4%,none,
+functional_form,SPECIES_GROWLITHE_HISUIAN,SPECIES_GROWLITHE,SPECIES_GROWLITHE_HISUIAN,wild form encounter,Sprout Tower 3F,night,5%,none,
+functional_form,SPECIES_LILLIGANT_HISUIAN,SPECIES_LILLIGANT,SPECIES_LILLIGANT_HISUIAN,wild form encounter,Whirl Islands B3F (Ledge overlooking Lugia room),all,1%,none,
+functional_form,SPECIES_MAROWAK_ALOLAN,SPECIES_MAROWAK,SPECIES_MAROWAK_ALOLAN,wild form encounter,Sprout Tower 3F,morning,5%,none,
+functional_form,SPECIES_MEOWTH_ALOLAN,SPECIES_MEOWTH,SPECIES_MEOWTH_ALOLAN,wild form encounter,Sprout Tower 3F,day,5%,none,
+functional_form,SPECIES_MEOWTH_GALARIAN,SPECIES_MEOWTH,SPECIES_MEOWTH_GALARIAN,wild form encounter,Sprout Tower 3F,night,5%,none,
+functional_form,SPECIES_MOLTRES_GALARIAN,SPECIES_MOLTRES,SPECIES_MOLTRES_GALARIAN,wild form encounter,Mt. Mortar (Waterfall room),all,1%,none,
+functional_form,SPECIES_MR_MIME_GALARIAN,SPECIES_MR_MIME,SPECIES_MR_MIME_GALARIAN,wild form encounter,Sprout Tower 3F,morning,4%,none,
+functional_form,SPECIES_PONYTA_GALARIAN,SPECIES_PONYTA,SPECIES_PONYTA_GALARIAN,wild form encounter,Sprout Tower 3F,day,4%,none,
+functional_form,SPECIES_QWILFISH_HISUIAN,SPECIES_QWILFISH,SPECIES_QWILFISH_HISUIAN,wild form encounter,Sprout Tower 3F,night,4%,none,
+functional_form,SPECIES_RAICHU_ALOLAN,SPECIES_RAICHU,SPECIES_RAICHU_ALOLAN,wild form encounter,Route 32,morning,5%,none,
+functional_form,SPECIES_RATTATA_ALOLAN,SPECIES_RATTATA,SPECIES_RATTATA_ALOLAN,wild form encounter,Route 32,day,5%,none,
+functional_form,SPECIES_SAMUROTT_HISUIAN,SPECIES_SAMUROTT,SPECIES_SAMUROTT_HISUIAN,wild form encounter,Mt. Mortar (Waterfall room),all,1%,none,
+functional_form,SPECIES_SANDSHREW_ALOLAN,SPECIES_SANDSHREW,SPECIES_SANDSHREW_ALOLAN,wild form encounter,Route 32,night,5%,none,
+functional_form,SPECIES_SLIGGOO_HISUIAN,SPECIES_SLIGGOO,SPECIES_SLIGGOO_HISUIAN,wild form encounter,Mt. Mortar (Central room),all,1%,none,
+functional_form,SPECIES_SLOWPOKE_GALARIAN,SPECIES_SLOWPOKE,SPECIES_SLOWPOKE_GALARIAN,wild form encounter,Route 32,morning,4%,none,
+functional_form,SPECIES_SNEASEL_HISUIAN,SPECIES_SNEASEL,SPECIES_SNEASEL_HISUIAN,wild form encounter,Route 32,day,4%,none,
+functional_form,SPECIES_STUNFISK_GALARIAN,SPECIES_STUNFISK,SPECIES_STUNFISK_GALARIAN,wild form encounter,Route 32,night,4%,none,
+functional_form,SPECIES_TYPHLOSION_HISUIAN,SPECIES_TYPHLOSION,SPECIES_TYPHLOSION_HISUIAN,wild form encounter,Mt. Mortar (Central room),all,1%,none,
+functional_form,SPECIES_VOLTORB_HISUIAN,SPECIES_VOLTORB,SPECIES_VOLTORB_HISUIAN,wild form encounter,Route 32,morning,4%,none,
+functional_form,SPECIES_VULPIX_ALOLAN,SPECIES_VULPIX,SPECIES_VULPIX_ALOLAN,wild form encounter,Route 32,day,4%,none,
+functional_form,SPECIES_WEEZING_GALARIAN,SPECIES_WEEZING,SPECIES_WEEZING_GALARIAN,wild form encounter,Route 32,night,4%,none,
+functional_form,SPECIES_WOOPER_PALDEAN,SPECIES_WOOPER,SPECIES_WOOPER_PALDEAN,wild form encounter,Ruins of Alph (Outside),morning,5%,none,
+functional_form,SPECIES_YAMASK_GALARIAN,SPECIES_YAMASK,SPECIES_YAMASK_GALARIAN,wild form encounter,Ruins of Alph (Outside),day,5%,none,
+functional_form,SPECIES_ZAPDOS_GALARIAN,SPECIES_ZAPDOS,SPECIES_ZAPDOS_GALARIAN,wild form encounter,Mt. Mortar (Room above waterfall),all,1%,none,
+functional_form,SPECIES_ZIGZAGOON_GALARIAN,SPECIES_ZIGZAGOON,SPECIES_ZIGZAGOON_GALARIAN,wild form encounter,Ruins of Alph (Outside),night,5%,none,
+functional_form,SPECIES_ZORUA_HISUIAN,SPECIES_ZORUA,SPECIES_ZORUA_HISUIAN,wild form encounter,Ruins of Alph (Outside),morning,5%,none,
+functional_form,Oricorio (Pom-Pom Style),SPECIES_ORICORIO,,form change item,repeatable marts,any,guaranteed,Yellow Nectar (repeatable mart),
+functional_form,Oricorio (Pa'u Style),SPECIES_ORICORIO,,form change item,repeatable marts,any,guaranteed,Pink Nectar (repeatable mart),
+functional_form,Oricorio (Sensu Style),SPECIES_ORICORIO,,form change item,repeatable marts,any,guaranteed,Purple Nectar (repeatable mart),
+functional_form,Silvally (Fighting type),SPECIES_SILVALLY,,held item battle form,repeatable marts,any,guaranteed,Fighting Memory (repeatable mart),
+functional_form,Silvally (Flying type),SPECIES_SILVALLY,,held item battle form,repeatable marts,any,guaranteed,Flying Memory (repeatable mart),
+functional_form,Silvally (Poison type),SPECIES_SILVALLY,,held item battle form,repeatable marts,any,guaranteed,Poison Memory (repeatable mart),
+functional_form,Silvally (Ground type),SPECIES_SILVALLY,,held item battle form,repeatable marts,any,guaranteed,Ground Memory (repeatable mart),
+functional_form,Silvally (Rock type),SPECIES_SILVALLY,,held item battle form,repeatable marts,any,guaranteed,Rock Memory (repeatable mart),
+functional_form,Silvally (Bug type),SPECIES_SILVALLY,,held item battle form,repeatable marts,any,guaranteed,Bug Memory (repeatable mart),
+functional_form,Silvally (Ghost type),SPECIES_SILVALLY,,held item battle form,repeatable marts,any,guaranteed,Ghost Memory (repeatable mart),
+functional_form,Silvally (Steel type),SPECIES_SILVALLY,,held item battle form,repeatable marts,any,guaranteed,Steel Memory (repeatable mart),
+functional_form,Silvally (Fire type),SPECIES_SILVALLY,,held item battle form,repeatable marts,any,guaranteed,Fire Memory (repeatable mart),
+functional_form,Silvally (Water type),SPECIES_SILVALLY,,held item battle form,repeatable marts,any,guaranteed,Water Memory (repeatable mart),
+functional_form,Silvally (Grass type),SPECIES_SILVALLY,,held item battle form,repeatable marts,any,guaranteed,Grass Memory (repeatable mart),
+functional_form,Silvally (Electric type),SPECIES_SILVALLY,,held item battle form,repeatable marts,any,guaranteed,Electric Memory (repeatable mart),
+functional_form,Silvally (Psychic type),SPECIES_SILVALLY,,held item battle form,repeatable marts,any,guaranteed,Psychic Memory (repeatable mart),
+functional_form,Silvally (Ice type),SPECIES_SILVALLY,,held item battle form,repeatable marts,any,guaranteed,Ice Memory (repeatable mart),
+functional_form,Silvally (Dragon type),SPECIES_SILVALLY,,held item battle form,repeatable marts,any,guaranteed,Dragon Memory (repeatable mart),
+functional_form,Silvally (Dark type),SPECIES_SILVALLY,,held item battle form,repeatable marts,any,guaranteed,Dark Memory (repeatable mart),
+functional_form,Silvally (Fairy type),SPECIES_SILVALLY,,held item battle form,repeatable marts,any,guaranteed,Fairy Memory (repeatable mart),
+functional_form,Ogerpon (Wellspring Mask),SPECIES_OGERPON,,held item battle form,repeatable marts,any,guaranteed,Wellspring Mask (repeatable mart),
+functional_form,Ogerpon (Hearthflame Mask),SPECIES_OGERPON,,held item battle form,repeatable marts,any,guaranteed,Hearthflame Mask (repeatable mart),
+functional_form,Ogerpon (Cornerstone Mask),SPECIES_OGERPON,,held item battle form,repeatable marts,any,guaranteed,Cornerstone Mask (repeatable mart),
+functional_form,Urshifu (Rapid Strike Style),SPECIES_KUBFU,,evolution,repeatable marts,any,guaranteed,Scroll of Waters (repeatable mart),

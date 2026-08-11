@@ -1,0 +1,3756 @@
+{
+  "version": "2.2",
+  "national_dex_count": 1025,
+  "slot_chances": [
+    20,
+    20,
+    10,
+    10,
+    10,
+    10,
+    5,
+    5,
+    4,
+    4,
+    1,
+    1
+  ],
+  "external_species_sources": [
+    "SPECIES_LAPRAS",
+    "SPECIES_TOGEPI"
+  ],
+  "functional_form_sources": [
+    {
+      "evolution_source": "SPECIES_ARTICUNO_GALARIAN",
+      "base_species": "SPECIES_ARTICUNO",
+      "form": 1,
+      "method": "wild form encounter"
+    },
+    {
+      "evolution_source": "SPECIES_AVALUGG_HISUIAN",
+      "base_species": "SPECIES_AVALUGG",
+      "form": 1,
+      "method": "wild form encounter"
+    },
+    {
+      "evolution_source": "SPECIES_BRAVIARY_HISUIAN",
+      "base_species": "SPECIES_BRAVIARY",
+      "form": 1,
+      "method": "wild form encounter"
+    },
+    {
+      "evolution_source": "SPECIES_CORSOLA_GALARIAN",
+      "base_species": "SPECIES_CORSOLA",
+      "form": 1,
+      "method": "wild form encounter"
+    },
+    {
+      "evolution_source": "SPECIES_DARUMAKA_GALARIAN",
+      "base_species": "SPECIES_DARUMAKA",
+      "form": 1,
+      "method": "wild form encounter"
+    },
+    {
+      "evolution_source": "SPECIES_DECIDUEYE_HISUIAN",
+      "base_species": "SPECIES_DECIDUEYE",
+      "form": 1,
+      "method": "wild form encounter"
+    },
+    {
+      "evolution_source": "SPECIES_DIGLETT_ALOLAN",
+      "base_species": "SPECIES_DIGLETT",
+      "form": 1,
+      "method": "wild form encounter"
+    },
+    {
+      "evolution_source": "SPECIES_EXEGGUTOR_ALOLAN",
+      "base_species": "SPECIES_EXEGGUTOR",
+      "form": 1,
+      "method": "wild form encounter"
+    },
+    {
+      "evolution_source": "SPECIES_FARFETCHD_GALARIAN",
+      "base_species": "SPECIES_FARFETCHD",
+      "form": 1,
+      "method": "wild form encounter"
+    },
+    {
+      "evolution_source": "SPECIES_GEODUDE_ALOLAN",
+      "base_species": "SPECIES_GEODUDE",
+      "form": 1,
+      "method": "wild form encounter"
+    },
+    {
+      "evolution_source": "SPECIES_GRIMER_ALOLAN",
+      "base_species": "SPECIES_GRIMER",
+      "form": 1,
+      "method": "wild form encounter"
+    },
+    {
+      "evolution_source": "SPECIES_GROWLITHE_HISUIAN",
+      "base_species": "SPECIES_GROWLITHE",
+      "form": 1,
+      "method": "wild form encounter"
+    },
+    {
+      "evolution_source": "SPECIES_LILLIGANT_HISUIAN",
+      "base_species": "SPECIES_LILLIGANT",
+      "form": 1,
+      "method": "wild form encounter"
+    },
+    {
+      "evolution_source": "SPECIES_MAROWAK_ALOLAN",
+      "base_species": "SPECIES_MAROWAK",
+      "form": 1,
+      "method": "wild form encounter"
+    },
+    {
+      "evolution_source": "SPECIES_MEOWTH_ALOLAN",
+      "base_species": "SPECIES_MEOWTH",
+      "form": 1,
+      "method": "wild form encounter"
+    },
+    {
+      "evolution_source": "SPECIES_MEOWTH_GALARIAN",
+      "base_species": "SPECIES_MEOWTH",
+      "form": 2,
+      "method": "wild form encounter"
+    },
+    {
+      "evolution_source": "SPECIES_MOLTRES_GALARIAN",
+      "base_species": "SPECIES_MOLTRES",
+      "form": 1,
+      "method": "wild form encounter"
+    },
+    {
+      "evolution_source": "SPECIES_MR_MIME_GALARIAN",
+      "base_species": "SPECIES_MR_MIME",
+      "form": 1,
+      "method": "wild form encounter"
+    },
+    {
+      "evolution_source": "SPECIES_PONYTA_GALARIAN",
+      "base_species": "SPECIES_PONYTA",
+      "form": 1,
+      "method": "wild form encounter"
+    },
+    {
+      "evolution_source": "SPECIES_QWILFISH_HISUIAN",
+      "base_species": "SPECIES_QWILFISH",
+      "form": 1,
+      "method": "wild form encounter"
+    },
+    {
+      "evolution_source": "SPECIES_RAICHU_ALOLAN",
+      "base_species": "SPECIES_RAICHU",
+      "form": 1,
+      "method": "wild form encounter"
+    },
+    {
+      "evolution_source": "SPECIES_RATTATA_ALOLAN",
+      "base_species": "SPECIES_RATTATA",
+      "form": 1,
+      "method": "wild form encounter"
+    },
+    {
+      "evolution_source": "SPECIES_SAMUROTT_HISUIAN",
+      "base_species": "SPECIES_SAMUROTT",
+      "form": 1,
+      "method": "wild form encounter"
+    },
+    {
+      "evolution_source": "SPECIES_SANDSHREW_ALOLAN",
+      "base_species": "SPECIES_SANDSHREW",
+      "form": 1,
+      "method": "wild form encounter"
+    },
+    {
+      "evolution_source": "SPECIES_SLIGGOO_HISUIAN",
+      "base_species": "SPECIES_SLIGGOO",
+      "form": 1,
+      "method": "wild form encounter"
+    },
+    {
+      "evolution_source": "SPECIES_SLOWPOKE_GALARIAN",
+      "base_species": "SPECIES_SLOWPOKE",
+      "form": 1,
+      "method": "wild form encounter"
+    },
+    {
+      "evolution_source": "SPECIES_SNEASEL_HISUIAN",
+      "base_species": "SPECIES_SNEASEL",
+      "form": 1,
+      "method": "wild form encounter"
+    },
+    {
+      "evolution_source": "SPECIES_STUNFISK_GALARIAN",
+      "base_species": "SPECIES_STUNFISK",
+      "form": 1,
+      "method": "wild form encounter"
+    },
+    {
+      "evolution_source": "SPECIES_TYPHLOSION_HISUIAN",
+      "base_species": "SPECIES_TYPHLOSION",
+      "form": 1,
+      "method": "wild form encounter"
+    },
+    {
+      "evolution_source": "SPECIES_VOLTORB_HISUIAN",
+      "base_species": "SPECIES_VOLTORB",
+      "form": 1,
+      "method": "wild form encounter"
+    },
+    {
+      "evolution_source": "SPECIES_VULPIX_ALOLAN",
+      "base_species": "SPECIES_VULPIX",
+      "form": 1,
+      "method": "wild form encounter"
+    },
+    {
+      "evolution_source": "SPECIES_WEEZING_GALARIAN",
+      "base_species": "SPECIES_WEEZING",
+      "form": 1,
+      "method": "wild form encounter"
+    },
+    {
+      "evolution_source": "SPECIES_WOOPER_PALDEAN",
+      "base_species": "SPECIES_WOOPER",
+      "form": 1,
+      "method": "wild form encounter"
+    },
+    {
+      "evolution_source": "SPECIES_YAMASK_GALARIAN",
+      "base_species": "SPECIES_YAMASK",
+      "form": 1,
+      "method": "wild form encounter"
+    },
+    {
+      "evolution_source": "SPECIES_ZAPDOS_GALARIAN",
+      "base_species": "SPECIES_ZAPDOS",
+      "form": 1,
+      "method": "wild form encounter"
+    },
+    {
+      "evolution_source": "SPECIES_ZIGZAGOON_GALARIAN",
+      "base_species": "SPECIES_ZIGZAGOON",
+      "form": 1,
+      "method": "wild form encounter"
+    },
+    {
+      "evolution_source": "SPECIES_ZORUA_HISUIAN",
+      "base_species": "SPECIES_ZORUA",
+      "form": 1,
+      "method": "wild form encounter"
+    }
+  ],
+  "item_form_sources": [
+    {
+      "form_name": "Oricorio (Pom-Pom Style)",
+      "base_species": "SPECIES_ORICORIO",
+      "method": "form change item",
+      "requirement": "Yellow Nectar (repeatable mart)"
+    },
+    {
+      "form_name": "Oricorio (Pa'u Style)",
+      "base_species": "SPECIES_ORICORIO",
+      "method": "form change item",
+      "requirement": "Pink Nectar (repeatable mart)"
+    },
+    {
+      "form_name": "Oricorio (Sensu Style)",
+      "base_species": "SPECIES_ORICORIO",
+      "method": "form change item",
+      "requirement": "Purple Nectar (repeatable mart)"
+    },
+    {
+      "form_name": "Silvally (Fighting type)",
+      "base_species": "SPECIES_SILVALLY",
+      "method": "held item battle form",
+      "requirement": "Fighting Memory (repeatable mart)"
+    },
+    {
+      "form_name": "Silvally (Flying type)",
+      "base_species": "SPECIES_SILVALLY",
+      "method": "held item battle form",
+      "requirement": "Flying Memory (repeatable mart)"
+    },
+    {
+      "form_name": "Silvally (Poison type)",
+      "base_species": "SPECIES_SILVALLY",
+      "method": "held item battle form",
+      "requirement": "Poison Memory (repeatable mart)"
+    },
+    {
+      "form_name": "Silvally (Ground type)",
+      "base_species": "SPECIES_SILVALLY",
+      "method": "held item battle form",
+      "requirement": "Ground Memory (repeatable mart)"
+    },
+    {
+      "form_name": "Silvally (Rock type)",
+      "base_species": "SPECIES_SILVALLY",
+      "method": "held item battle form",
+      "requirement": "Rock Memory (repeatable mart)"
+    },
+    {
+      "form_name": "Silvally (Bug type)",
+      "base_species": "SPECIES_SILVALLY",
+      "method": "held item battle form",
+      "requirement": "Bug Memory (repeatable mart)"
+    },
+    {
+      "form_name": "Silvally (Ghost type)",
+      "base_species": "SPECIES_SILVALLY",
+      "method": "held item battle form",
+      "requirement": "Ghost Memory (repeatable mart)"
+    },
+    {
+      "form_name": "Silvally (Steel type)",
+      "base_species": "SPECIES_SILVALLY",
+      "method": "held item battle form",
+      "requirement": "Steel Memory (repeatable mart)"
+    },
+    {
+      "form_name": "Silvally (Fire type)",
+      "base_species": "SPECIES_SILVALLY",
+      "method": "held item battle form",
+      "requirement": "Fire Memory (repeatable mart)"
+    },
+    {
+      "form_name": "Silvally (Water type)",
+      "base_species": "SPECIES_SILVALLY",
+      "method": "held item battle form",
+      "requirement": "Water Memory (repeatable mart)"
+    },
+    {
+      "form_name": "Silvally (Grass type)",
+      "base_species": "SPECIES_SILVALLY",
+      "method": "held item battle form",
+      "requirement": "Grass Memory (repeatable mart)"
+    },
+    {
+      "form_name": "Silvally (Electric type)",
+      "base_species": "SPECIES_SILVALLY",
+      "method": "held item battle form",
+      "requirement": "Electric Memory (repeatable mart)"
+    },
+    {
+      "form_name": "Silvally (Psychic type)",
+      "base_species": "SPECIES_SILVALLY",
+      "method": "held item battle form",
+      "requirement": "Psychic Memory (repeatable mart)"
+    },
+    {
+      "form_name": "Silvally (Ice type)",
+      "base_species": "SPECIES_SILVALLY",
+      "method": "held item battle form",
+      "requirement": "Ice Memory (repeatable mart)"
+    },
+    {
+      "form_name": "Silvally (Dragon type)",
+      "base_species": "SPECIES_SILVALLY",
+      "method": "held item battle form",
+      "requirement": "Dragon Memory (repeatable mart)"
+    },
+    {
+      "form_name": "Silvally (Dark type)",
+      "base_species": "SPECIES_SILVALLY",
+      "method": "held item battle form",
+      "requirement": "Dark Memory (repeatable mart)"
+    },
+    {
+      "form_name": "Silvally (Fairy type)",
+      "base_species": "SPECIES_SILVALLY",
+      "method": "held item battle form",
+      "requirement": "Fairy Memory (repeatable mart)"
+    },
+    {
+      "form_name": "Ogerpon (Wellspring Mask)",
+      "base_species": "SPECIES_OGERPON",
+      "method": "held item battle form",
+      "requirement": "Wellspring Mask (repeatable mart)"
+    },
+    {
+      "form_name": "Ogerpon (Hearthflame Mask)",
+      "base_species": "SPECIES_OGERPON",
+      "method": "held item battle form",
+      "requirement": "Hearthflame Mask (repeatable mart)"
+    },
+    {
+      "form_name": "Ogerpon (Cornerstone Mask)",
+      "base_species": "SPECIES_OGERPON",
+      "method": "held item battle form",
+      "requirement": "Cornerstone Mask (repeatable mart)"
+    },
+    {
+      "form_name": "Urshifu (Rapid Strike Style)",
+      "base_species": "SPECIES_KUBFU",
+      "method": "evolution",
+      "requirement": "Scroll of Waters (repeatable mart)"
+    }
+  ],
+  "evolved_wild_exceptions": [
+    "SPECIES_AVALUGG",
+    "SPECIES_BRAVIARY",
+    "SPECIES_DECIDUEYE",
+    "SPECIES_EXEGGUTOR",
+    "SPECIES_LILLIGANT",
+    "SPECIES_MAROWAK",
+    "SPECIES_MR_MIME",
+    "SPECIES_RAICHU",
+    "SPECIES_SAMUROTT",
+    "SPECIES_SLIGGOO",
+    "SPECIES_TYPHLOSION",
+    "SPECIES_WEEZING"
+  ],
+  "legendary_sources": [
+    {
+      "species": "SPECIES_ARCEUS",
+      "encounter_id": 89,
+      "location": "Mt. Silver (Top, snowy area)",
+      "slot": 10,
+      "chance": 1
+    },
+    {
+      "species": "SPECIES_ARTICUNO",
+      "encounter_id": 74,
+      "location": "Seafoam Islands 1F",
+      "slot": 10,
+      "chance": 1
+    },
+    {
+      "species": "SPECIES_HO_OH",
+      "encounter_id": 84,
+      "location": "Bell Tower 10F",
+      "slot": 10,
+      "chance": 1
+    },
+    {
+      "species": "SPECIES_LUGIA",
+      "encounter_id": 48,
+      "location": "Whirl Islands B3F (Ledge overlooking Lugia room)",
+      "slot": 10,
+      "chance": 1
+    },
+    {
+      "species": "SPECIES_MEWTWO",
+      "encounter_id": 139,
+      "location": "Cerulean Cave 1F",
+      "slot": 10,
+      "chance": 1
+    },
+    {
+      "species": "SPECIES_MOLTRES",
+      "encounter_id": 79,
+      "location": "Mt. Silver (Moltres room)",
+      "slot": 10,
+      "chance": 1
+    },
+    {
+      "species": "SPECIES_ZAPDOS",
+      "encounter_id": 108,
+      "location": "Rock Tunnel 1F",
+      "slot": 10,
+      "chance": 1
+    },
+    {
+      "species": "SPECIES_AZELF",
+      "encounter_id": 139,
+      "location": "Cerulean Cave 1F",
+      "slot": 11,
+      "chance": 1
+    },
+    {
+      "species": "SPECIES_BLACEPHALON",
+      "encounter_id": 140,
+      "location": "Cerulean Cave B1F",
+      "slot": 10,
+      "chance": 1
+    },
+    {
+      "species": "SPECIES_BRUTE_BONNET",
+      "encounter_id": 106,
+      "location": "Mt. Moon 1F",
+      "slot": 10,
+      "chance": 1
+    },
+    {
+      "species": "SPECIES_BUZZWOLE",
+      "encounter_id": 137,
+      "location": "Viridian Forest",
+      "slot": 10,
+      "chance": 1
+    },
+    {
+      "species": "SPECIES_CALYREX",
+      "encounter_id": 140,
+      "location": "Cerulean Cave B1F",
+      "slot": 11,
+      "chance": 1
+    },
+    {
+      "species": "SPECIES_CELEBI",
+      "encounter_id": 141,
+      "location": "Cerulean Cave B2F",
+      "slot": 10,
+      "chance": 1
+    },
+    {
+      "species": "SPECIES_CELESTEELA",
+      "encounter_id": 79,
+      "location": "Mt. Silver (Moltres room)",
+      "slot": 11,
+      "chance": 1
+    },
+    {
+      "species": "SPECIES_CHIEN_PAO",
+      "encounter_id": 74,
+      "location": "Seafoam Islands 1F",
+      "slot": 11,
+      "chance": 1
+    },
+    {
+      "species": "SPECIES_CHI_YU",
+      "encounter_id": 141,
+      "location": "Cerulean Cave B2F",
+      "slot": 11,
+      "chance": 1
+    },
+    {
+      "species": "SPECIES_COBALION",
+      "encounter_id": 80,
+      "location": "Mt. Silver 3F",
+      "slot": 10,
+      "chance": 1
+    },
+    {
+      "species": "SPECIES_COSMOG",
+      "encounter_id": 106,
+      "location": "Mt. Moon 1F",
+      "slot": 11,
+      "chance": 1
+    },
+    {
+      "species": "SPECIES_CRESSELIA",
+      "encounter_id": 107,
+      "location": "Mt. Moon 2F",
+      "slot": 10,
+      "chance": 1
+    },
+    {
+      "species": "SPECIES_DARKRAI",
+      "encounter_id": 107,
+      "location": "Mt. Moon 2F",
+      "slot": 11,
+      "chance": 1
+    },
+    {
+      "species": "SPECIES_DEOXYS",
+      "encounter_id": 30,
+      "location": "Bell Tower 2F",
+      "slot": 10,
+      "chance": 1
+    },
+    {
+      "species": "SPECIES_DIALGA",
+      "encounter_id": 80,
+      "location": "Mt. Silver 3F",
+      "slot": 11,
+      "chance": 1
+    },
+    {
+      "species": "SPECIES_DIANCIE",
+      "encounter_id": 30,
+      "location": "Bell Tower 2F",
+      "slot": 11,
+      "chance": 1
+    },
+    {
+      "species": "SPECIES_ENAMORUS",
+      "encounter_id": 137,
+      "location": "Viridian Forest",
+      "slot": 11,
+      "chance": 1
+    },
+    {
+      "species": "SPECIES_ENTEI",
+      "encounter_id": 81,
+      "location": "Mt. Silver 4F",
+      "slot": 10,
+      "chance": 1
+    },
+    {
+      "species": "SPECIES_ETERNATUS",
+      "encounter_id": 86,
+      "location": "Mt. Silver 1F",
+      "slot": 10,
+      "chance": 1
+    },
+    {
+      "species": "SPECIES_FEZANDIPITI",
+      "encounter_id": 112,
+      "location": "Route 2 (South, below Viridian Forest)",
+      "slot": 10,
+      "chance": 1
+    },
+    {
+      "species": "SPECIES_FLUTTER_MANE",
+      "encounter_id": 112,
+      "location": "Route 2 (South, below Viridian Forest)",
+      "slot": 11,
+      "chance": 1
+    },
+    {
+      "species": "SPECIES_GENESECT",
+      "encounter_id": 81,
+      "location": "Mt. Silver 4F",
+      "slot": 11,
+      "chance": 1
+    },
+    {
+      "species": "SPECIES_GIRATINA",
+      "encounter_id": 31,
+      "location": "Bell Tower 3F",
+      "slot": 10,
+      "chance": 1
+    },
+    {
+      "species": "SPECIES_GLASTRIER",
+      "encounter_id": 75,
+      "location": "Seafoam Islands B1F",
+      "slot": 10,
+      "chance": 1
+    },
+    {
+      "species": "SPECIES_GOUGING_FIRE",
+      "encounter_id": 86,
+      "location": "Mt. Silver 1F",
+      "slot": 11,
+      "chance": 1
+    },
+    {
+      "species": "SPECIES_GREAT_TUSK",
+      "encounter_id": 88,
+      "location": "Mt. Silver (Expert Belt room)",
+      "slot": 10,
+      "chance": 1
+    },
+    {
+      "species": "SPECIES_GROUDON",
+      "encounter_id": 88,
+      "location": "Mt. Silver (Expert Belt room)",
+      "slot": 11,
+      "chance": 1
+    },
+    {
+      "species": "SPECIES_GUZZLORD",
+      "encounter_id": 31,
+      "location": "Bell Tower 3F",
+      "slot": 11,
+      "chance": 1
+    },
+    {
+      "species": "SPECIES_HEATRAN",
+      "encounter_id": 108,
+      "location": "Rock Tunnel 1F",
+      "slot": 11,
+      "chance": 1
+    },
+    {
+      "species": "SPECIES_HOOPA",
+      "encounter_id": 130,
+      "location": "Route 24",
+      "slot": 10,
+      "chance": 1
+    },
+    {
+      "species": "SPECIES_IRON_BOULDER",
+      "encounter_id": 32,
+      "location": "Bell Tower 4F",
+      "slot": 10,
+      "chance": 1
+    },
+    {
+      "species": "SPECIES_IRON_BUNDLE",
+      "encounter_id": 75,
+      "location": "Seafoam Islands B1F",
+      "slot": 11,
+      "chance": 1
+    },
+    {
+      "species": "SPECIES_IRON_CROWN",
+      "encounter_id": 32,
+      "location": "Bell Tower 4F",
+      "slot": 11,
+      "chance": 1
+    },
+    {
+      "species": "SPECIES_IRON_HANDS",
+      "encounter_id": 109,
+      "location": "Rock Tunnel B1F",
+      "slot": 10,
+      "chance": 1
+    },
+    {
+      "species": "SPECIES_IRON_JUGULIS",
+      "encounter_id": 33,
+      "location": "Bell Tower 5F",
+      "slot": 10,
+      "chance": 1
+    },
+    {
+      "species": "SPECIES_IRON_LEAVES",
+      "encounter_id": 33,
+      "location": "Bell Tower 5F",
+      "slot": 11,
+      "chance": 1
+    },
+    {
+      "species": "SPECIES_IRON_MOTH",
+      "encounter_id": 89,
+      "location": "Mt. Silver (Top, snowy area)",
+      "slot": 11,
+      "chance": 1
+    },
+    {
+      "species": "SPECIES_IRON_THORNS",
+      "encounter_id": 109,
+      "location": "Rock Tunnel B1F",
+      "slot": 11,
+      "chance": 1
+    },
+    {
+      "species": "SPECIES_IRON_TREADS",
+      "encounter_id": 110,
+      "location": "Victory Road 1F",
+      "slot": 10,
+      "chance": 1
+    },
+    {
+      "species": "SPECIES_IRON_VALIANT",
+      "encounter_id": 110,
+      "location": "Victory Road 1F",
+      "slot": 11,
+      "chance": 1
+    },
+    {
+      "species": "SPECIES_JELLICENT",
+      "encounter_id": 76,
+      "location": "Seafoam Islands B2F",
+      "slot": 10,
+      "chance": 1
+    },
+    {
+      "species": "SPECIES_JIRACHI",
+      "encounter_id": 34,
+      "location": "Bell Tower 6F",
+      "slot": 10,
+      "chance": 1
+    },
+    {
+      "species": "SPECIES_KARTANA",
+      "encounter_id": 132,
+      "location": "Tohjo Falls",
+      "slot": 10,
+      "chance": 1
+    },
+    {
+      "species": "SPECIES_KELDEO",
+      "encounter_id": 76,
+      "location": "Seafoam Islands B2F",
+      "slot": 11,
+      "chance": 1
+    },
+    {
+      "species": "SPECIES_KORAIDON",
+      "encounter_id": 130,
+      "location": "Route 24",
+      "slot": 11,
+      "chance": 1
+    },
+    {
+      "species": "SPECIES_KUBFU",
+      "encounter_id": 134,
+      "location": "Victory Road 2F",
+      "slot": 10,
+      "chance": 1
+    },
+    {
+      "species": "SPECIES_KYOGRE",
+      "encounter_id": 77,
+      "location": "Seafoam Islands B3F",
+      "slot": 10,
+      "chance": 1
+    },
+    {
+      "species": "SPECIES_KYUREM",
+      "encounter_id": 77,
+      "location": "Seafoam Islands B3F",
+      "slot": 11,
+      "chance": 1
+    },
+    {
+      "species": "SPECIES_LANDORUS",
+      "encounter_id": 132,
+      "location": "Tohjo Falls",
+      "slot": 11,
+      "chance": 1
+    },
+    {
+      "species": "SPECIES_LATIAS",
+      "encounter_id": 34,
+      "location": "Bell Tower 6F",
+      "slot": 11,
+      "chance": 1
+    },
+    {
+      "species": "SPECIES_LATIOS",
+      "encounter_id": 35,
+      "location": "Bell Tower 7F",
+      "slot": 10,
+      "chance": 1
+    },
+    {
+      "species": "SPECIES_LYCANROC",
+      "encounter_id": 133,
+      "location": "Digletts Cave",
+      "slot": 10,
+      "chance": 1
+    },
+    {
+      "species": "SPECIES_MAGEARNA",
+      "encounter_id": 35,
+      "location": "Bell Tower 7F",
+      "slot": 11,
+      "chance": 1
+    },
+    {
+      "species": "SPECIES_MANAPHY",
+      "encounter_id": 78,
+      "location": "Seafoam Islands B4F",
+      "slot": 10,
+      "chance": 1
+    },
+    {
+      "species": "SPECIES_MARSHADOW",
+      "encounter_id": 131,
+      "location": "Route 25",
+      "slot": 10,
+      "chance": 1
+    },
+    {
+      "species": "SPECIES_MELOETTA",
+      "encounter_id": 36,
+      "location": "Bell Tower 8F",
+      "slot": 10,
+      "chance": 1
+    },
+    {
+      "species": "SPECIES_MELTAN",
+      "encounter_id": 133,
+      "location": "Digletts Cave",
+      "slot": 11,
+      "chance": 1
+    },
+    {
+      "species": "SPECIES_MEOWSTIC",
+      "encounter_id": 36,
+      "location": "Bell Tower 8F",
+      "slot": 11,
+      "chance": 1
+    },
+    {
+      "species": "SPECIES_MESPRIT",
+      "encounter_id": 37,
+      "location": "Bell Tower 9F",
+      "slot": 10,
+      "chance": 1
+    },
+    {
+      "species": "SPECIES_MEW",
+      "encounter_id": 37,
+      "location": "Bell Tower 9F",
+      "slot": 11,
+      "chance": 1
+    },
+    {
+      "species": "SPECIES_MIRAIDON",
+      "encounter_id": 119,
+      "location": "Route 9",
+      "slot": 10,
+      "chance": 1
+    },
+    {
+      "species": "SPECIES_MUNKIDORI",
+      "encounter_id": 84,
+      "location": "Bell Tower 10F",
+      "slot": 11,
+      "chance": 1
+    },
+    {
+      "species": "SPECIES_NECROZMA",
+      "encounter_id": 78,
+      "location": "Seafoam Islands B4F",
+      "slot": 11,
+      "chance": 1
+    },
+    {
+      "species": "SPECIES_NIHILEGO",
+      "encounter_id": 134,
+      "location": "Victory Road 2F",
+      "slot": 11,
+      "chance": 1
+    },
+    {
+      "species": "SPECIES_OGERPON",
+      "encounter_id": 131,
+      "location": "Route 25",
+      "slot": 11,
+      "chance": 1
+    },
+    {
+      "species": "SPECIES_OINKOLOGNE",
+      "encounter_id": 111,
+      "location": "Route 1",
+      "slot": 10,
+      "chance": 1
+    },
+    {
+      "species": "SPECIES_OKIDOGI",
+      "encounter_id": 135,
+      "location": "Victory Road 3F",
+      "slot": 10,
+      "chance": 1
+    },
+    {
+      "species": "SPECIES_PALKIA",
+      "encounter_id": 43,
+      "location": "Whirl Islands 1F",
+      "slot": 10,
+      "chance": 1
+    },
+    {
+      "species": "SPECIES_PECHARUNT",
+      "encounter_id": 83,
+      "location": "Cliff Cave",
+      "slot": 10,
+      "chance": 1
+    },
+    {
+      "species": "SPECIES_PHEROMOSA",
+      "encounter_id": 136,
+      "location": "Route 2 (North, above Viridian Forest)",
+      "slot": 10,
+      "chance": 1
+    },
+    {
+      "species": "SPECIES_PHIONE",
+      "encounter_id": 43,
+      "location": "Whirl Islands 1F",
+      "slot": 11,
+      "chance": 1
+    },
+    {
+      "species": "SPECIES_POIPOLE",
+      "encounter_id": 85,
+      "location": "Mt. Silver (Outside area with Pokemon Center)",
+      "slot": 10,
+      "chance": 1
+    },
+    {
+      "species": "SPECIES_PYROAR",
+      "encounter_id": 135,
+      "location": "Victory Road 3F",
+      "slot": 11,
+      "chance": 1
+    },
+    {
+      "species": "SPECIES_RAGING_BOLT",
+      "encounter_id": 119,
+      "location": "Route 9",
+      "slot": 11,
+      "chance": 1
+    },
+    {
+      "species": "SPECIES_RAIKOU",
+      "encounter_id": 120,
+      "location": "Route 10",
+      "slot": 10,
+      "chance": 1
+    },
+    {
+      "species": "SPECIES_RAYQUAZA",
+      "encounter_id": 103,
+      "location": "Route 26",
+      "slot": 10,
+      "chance": 1
+    },
+    {
+      "species": "SPECIES_REGICE",
+      "encounter_id": 60,
+      "location": "Ice Path 1F",
+      "slot": 10,
+      "chance": 1
+    },
+    {
+      "species": "SPECIES_REGIDRAGO",
+      "encounter_id": 85,
+      "location": "Mt. Silver (Outside area with Pokemon Center)",
+      "slot": 11,
+      "chance": 1
+    },
+    {
+      "species": "SPECIES_REGIELEKI",
+      "encounter_id": 120,
+      "location": "Route 10",
+      "slot": 11,
+      "chance": 1
+    },
+    {
+      "species": "SPECIES_REGIGIGAS",
+      "encounter_id": 111,
+      "location": "Route 1",
+      "slot": 11,
+      "chance": 1
+    },
+    {
+      "species": "SPECIES_REGIROCK",
+      "encounter_id": 87,
+      "location": "Mt. Silver (Mountainside)",
+      "slot": 10,
+      "chance": 1
+    },
+    {
+      "species": "SPECIES_REGISTEEL",
+      "encounter_id": 87,
+      "location": "Mt. Silver (Mountainside)",
+      "slot": 11,
+      "chance": 1
+    },
+    {
+      "species": "SPECIES_RESHIRAM",
+      "encounter_id": 102,
+      "location": "Route 48",
+      "slot": 10,
+      "chance": 1
+    },
+    {
+      "species": "SPECIES_ROARING_MOON",
+      "encounter_id": 103,
+      "location": "Route 26",
+      "slot": 11,
+      "chance": 1
+    },
+    {
+      "species": "SPECIES_SANDY_SHOCKS",
+      "encounter_id": 104,
+      "location": "Route 27",
+      "slot": 10,
+      "chance": 1
+    },
+    {
+      "species": "SPECIES_SCREAM_TAIL",
+      "encounter_id": 136,
+      "location": "Route 2 (North, above Viridian Forest)",
+      "slot": 11,
+      "chance": 1
+    },
+    {
+      "species": "SPECIES_SHAYMIN",
+      "encounter_id": 113,
+      "location": "Route 3",
+      "slot": 10,
+      "chance": 1
+    },
+    {
+      "species": "SPECIES_SLITHER_WING",
+      "encounter_id": 113,
+      "location": "Route 3",
+      "slot": 11,
+      "chance": 1
+    },
+    {
+      "species": "SPECIES_SPECTRIER",
+      "encounter_id": 104,
+      "location": "Route 27",
+      "slot": 11,
+      "chance": 1
+    },
+    {
+      "species": "SPECIES_STAKATAKA",
+      "encounter_id": 105,
+      "location": "Route 28",
+      "slot": 10,
+      "chance": 1
+    },
+    {
+      "species": "SPECIES_SUICUNE",
+      "encounter_id": 44,
+      "location": "Whirl Islands B1F",
+      "slot": 10,
+      "chance": 1
+    },
+    {
+      "species": "SPECIES_TAPU_BULU",
+      "encounter_id": 114,
+      "location": "Route 4",
+      "slot": 10,
+      "chance": 1
+    },
+    {
+      "species": "SPECIES_TAPU_FINI",
+      "encounter_id": 114,
+      "location": "Route 4",
+      "slot": 11,
+      "chance": 1
+    },
+    {
+      "species": "SPECIES_TAPU_KOKO",
+      "encounter_id": 105,
+      "location": "Route 28",
+      "slot": 11,
+      "chance": 1
+    },
+    {
+      "species": "SPECIES_TAPU_LELE",
+      "encounter_id": 115,
+      "location": "Route 5",
+      "slot": 10,
+      "chance": 1
+    },
+    {
+      "species": "SPECIES_TERAPAGOS",
+      "encounter_id": 115,
+      "location": "Route 5",
+      "slot": 11,
+      "chance": 1
+    },
+    {
+      "species": "SPECIES_TERRAKION",
+      "encounter_id": 125,
+      "location": "Route 16",
+      "slot": 10,
+      "chance": 1
+    },
+    {
+      "species": "SPECIES_THUNDURUS",
+      "encounter_id": 125,
+      "location": "Route 16",
+      "slot": 11,
+      "chance": 1
+    },
+    {
+      "species": "SPECIES_TING_LU",
+      "encounter_id": 116,
+      "location": "Route 6",
+      "slot": 10,
+      "chance": 1
+    },
+    {
+      "species": "SPECIES_TORNADUS",
+      "encounter_id": 126,
+      "location": "Route 17",
+      "slot": 10,
+      "chance": 1
+    },
+    {
+      "species": "SPECIES_TYPE_NULL",
+      "encounter_id": 116,
+      "location": "Route 6",
+      "slot": 11,
+      "chance": 1
+    },
+    {
+      "species": "SPECIES_UNFEZANT",
+      "encounter_id": 126,
+      "location": "Route 17",
+      "slot": 11,
+      "chance": 1
+    },
+    {
+      "species": "SPECIES_UXIE",
+      "encounter_id": 117,
+      "location": "Route 7",
+      "slot": 10,
+      "chance": 1
+    },
+    {
+      "species": "SPECIES_VICTINI",
+      "encounter_id": 117,
+      "location": "Route 7",
+      "slot": 11,
+      "chance": 1
+    },
+    {
+      "species": "SPECIES_VIRIZION",
+      "encounter_id": 127,
+      "location": "Route 18",
+      "slot": 10,
+      "chance": 1
+    },
+    {
+      "species": "SPECIES_VOLCANION",
+      "encounter_id": 44,
+      "location": "Whirl Islands B1F",
+      "slot": 11,
+      "chance": 1
+    },
+    {
+      "species": "SPECIES_WALKING_WAKE",
+      "encounter_id": 46,
+      "location": "Whirl Islands B2F",
+      "slot": 10,
+      "chance": 1
+    },
+    {
+      "species": "SPECIES_WO_CHIEN",
+      "encounter_id": 118,
+      "location": "Route 8",
+      "slot": 10,
+      "chance": 1
+    },
+    {
+      "species": "SPECIES_XERNEAS",
+      "encounter_id": 127,
+      "location": "Route 18",
+      "slot": 11,
+      "chance": 1
+    },
+    {
+      "species": "SPECIES_XURKITREE",
+      "encounter_id": 118,
+      "location": "Route 8",
+      "slot": 11,
+      "chance": 1
+    },
+    {
+      "species": "SPECIES_YVELTAL",
+      "encounter_id": 121,
+      "location": "Route 11",
+      "slot": 10,
+      "chance": 1
+    },
+    {
+      "species": "SPECIES_ZACIAN",
+      "encounter_id": 121,
+      "location": "Route 11",
+      "slot": 11,
+      "chance": 1
+    },
+    {
+      "species": "SPECIES_ZAMAZENTA",
+      "encounter_id": 122,
+      "location": "Route 13",
+      "slot": 10,
+      "chance": 1
+    },
+    {
+      "species": "SPECIES_ZARUDE",
+      "encounter_id": 123,
+      "location": "Route 14",
+      "slot": 10,
+      "chance": 1
+    },
+    {
+      "species": "SPECIES_ZEKROM",
+      "encounter_id": 124,
+      "location": "Route 15",
+      "slot": 10,
+      "chance": 1
+    },
+    {
+      "species": "SPECIES_ZERAORA",
+      "encounter_id": 128,
+      "location": "Route 21",
+      "slot": 10,
+      "chance": 1
+    },
+    {
+      "species": "SPECIES_ZYGARDE",
+      "encounter_id": 128,
+      "location": "Route 21",
+      "slot": 11,
+      "chance": 1
+    }
+  ],
+  "encounter_sources": [
+    {
+      "species": "SPECIES_YAMPER",
+      "encounter_id": 1,
+      "location": "Route 29",
+      "period": "morning",
+      "slot": 4,
+      "chance": 10,
+      "category": "common",
+      "line": "pokemon SPECIES_YAMPER",
+      "dex_kind": "routesandcities",
+      "dex_area": "DEX_ROUTE_29"
+    },
+    {
+      "species": "SPECIES_YAMPER",
+      "encounter_id": 1,
+      "location": "Route 29",
+      "period": "day",
+      "slot": 4,
+      "chance": 10,
+      "category": "common",
+      "line": "pokemon SPECIES_YAMPER",
+      "dex_kind": "routesandcities",
+      "dex_area": "DEX_ROUTE_29"
+    },
+    {
+      "species": "SPECIES_YAMPER",
+      "encounter_id": 1,
+      "location": "Route 29",
+      "period": "night",
+      "slot": 6,
+      "chance": 5,
+      "category": "uncommon",
+      "line": "pokemon SPECIES_YAMPER",
+      "dex_kind": "routesandcities",
+      "dex_area": "DEX_ROUTE_29"
+    },
+    {
+      "species": "SPECIES_DRACOZOLT",
+      "encounter_id": 23,
+      "location": "National Park",
+      "period": "morning",
+      "slot": 10,
+      "chance": 1,
+      "category": "fossil",
+      "line": "pokemon SPECIES_DRACOZOLT",
+      "dex_kind": "specialareas",
+      "dex_area": "DEX_NATIONAL_PARK"
+    },
+    {
+      "species": "SPECIES_ARCTOZOLT",
+      "encounter_id": 23,
+      "location": "National Park",
+      "period": "morning",
+      "slot": 11,
+      "chance": 1,
+      "category": "fossil",
+      "line": "pokemon SPECIES_ARCTOZOLT",
+      "dex_kind": "specialareas",
+      "dex_area": "DEX_NATIONAL_PARK"
+    },
+    {
+      "species": "SPECIES_DRACOVISH",
+      "encounter_id": 23,
+      "location": "National Park",
+      "period": "day",
+      "slot": 10,
+      "chance": 1,
+      "category": "fossil",
+      "line": "pokemon SPECIES_DRACOVISH",
+      "dex_kind": "specialareas",
+      "dex_area": "DEX_NATIONAL_PARK"
+    },
+    {
+      "species": "SPECIES_ARCTOVISH",
+      "encounter_id": 23,
+      "location": "National Park",
+      "period": "day",
+      "slot": 11,
+      "chance": 1,
+      "category": "fossil",
+      "line": "pokemon SPECIES_ARCTOVISH",
+      "dex_kind": "specialareas",
+      "dex_area": "DEX_NATIONAL_PARK"
+    },
+    {
+      "species": "SPECIES_AERODACTYL",
+      "encounter_id": 23,
+      "location": "National Park",
+      "period": "night",
+      "slot": 10,
+      "chance": 1,
+      "category": "fossil",
+      "line": "pokemon SPECIES_AERODACTYL",
+      "dex_kind": "specialareas",
+      "dex_area": "DEX_NATIONAL_PARK"
+    },
+    {
+      "species": "SPECIES_DONDOZO",
+      "encounter_id": 2,
+      "location": "Cherrygrove City",
+      "period": "all",
+      "slot": 2,
+      "chance": 5,
+      "category": "aquatic",
+      "method": "surf",
+      "line": "encounter SPECIES_DONDOZO, 15, 25",
+      "dex_kind": "routesandcities",
+      "dex_area": "DEX_CHERRYGROVE_CITY"
+    },
+    {
+      "species": "SPECIES_EISCUE",
+      "encounter_id": 2,
+      "location": "Cherrygrove City",
+      "period": "all",
+      "slot": 3,
+      "chance": 4,
+      "category": "aquatic",
+      "method": "surf",
+      "line": "encounter SPECIES_EISCUE, 15, 25",
+      "dex_kind": "routesandcities",
+      "dex_area": "DEX_CHERRYGROVE_CITY"
+    },
+    {
+      "species": "SPECIES_FINIZEN",
+      "encounter_id": 2,
+      "location": "Cherrygrove City",
+      "period": "all",
+      "slot": 2,
+      "chance": 5,
+      "category": "aquatic",
+      "method": "good rod",
+      "line": "encounter SPECIES_FINIZEN, 20, 20",
+      "dex_kind": "routesandcities",
+      "dex_area": "DEX_CHERRYGROVE_CITY"
+    },
+    {
+      "species": "SPECIES_PINCURCHIN",
+      "encounter_id": 2,
+      "location": "Cherrygrove City",
+      "period": "all",
+      "slot": 4,
+      "chance": 1,
+      "category": "aquatic",
+      "method": "good rod",
+      "line": "encounter SPECIES_PINCURCHIN, 20, 20",
+      "dex_kind": "routesandcities",
+      "dex_area": "DEX_CHERRYGROVE_CITY"
+    },
+    {
+      "species": "SPECIES_PYUKUMUKU",
+      "encounter_id": 2,
+      "location": "Cherrygrove City",
+      "period": "all",
+      "slot": 2,
+      "chance": 5,
+      "category": "aquatic",
+      "method": "super rod",
+      "line": "encounter SPECIES_PYUKUMUKU, 40, 40",
+      "dex_kind": "routesandcities",
+      "dex_area": "DEX_CHERRYGROVE_CITY"
+    },
+    {
+      "species": "SPECIES_TATSUGIRI",
+      "encounter_id": 2,
+      "location": "Cherrygrove City",
+      "period": "all",
+      "slot": 4,
+      "chance": 1,
+      "category": "aquatic",
+      "method": "super rod",
+      "line": "encounter SPECIES_TATSUGIRI, 40, 40",
+      "dex_kind": "routesandcities",
+      "dex_area": "DEX_CHERRYGROVE_CITY"
+    },
+    {
+      "species": "SPECIES_WISHIWASHI",
+      "encounter_id": 3,
+      "location": "Route 30",
+      "period": "all",
+      "slot": 2,
+      "chance": 5,
+      "category": "aquatic",
+      "method": "surf",
+      "line": "encounter SPECIES_WISHIWASHI, 15, 25",
+      "dex_kind": "routesandcities",
+      "dex_area": "DEX_ROUTE_30"
+    },
+    {
+      "species": "SPECIES_BOUNSWEET",
+      "encounter_id": 1,
+      "location": "Route 29",
+      "period": "morning",
+      "slot": 6,
+      "chance": 5,
+      "category": "uncommon",
+      "line": "pokemon SPECIES_BOUNSWEET",
+      "dex_kind": "routesandcities",
+      "dex_area": "DEX_ROUTE_29"
+    },
+    {
+      "species": "SPECIES_BRAMBLIN",
+      "encounter_id": 1,
+      "location": "Route 29",
+      "period": "day",
+      "slot": 6,
+      "chance": 5,
+      "category": "uncommon",
+      "line": "pokemon SPECIES_BRAMBLIN",
+      "dex_kind": "routesandcities",
+      "dex_area": "DEX_ROUTE_29"
+    },
+    {
+      "species": "SPECIES_CRAMORANT",
+      "encounter_id": 1,
+      "location": "Route 29",
+      "period": "night",
+      "slot": 8,
+      "chance": 4,
+      "category": "uncommon",
+      "line": "pokemon SPECIES_CRAMORANT",
+      "dex_kind": "routesandcities",
+      "dex_area": "DEX_ROUTE_29"
+    },
+    {
+      "species": "SPECIES_DEDENNE",
+      "encounter_id": 1,
+      "location": "Route 29",
+      "period": "night",
+      "slot": 9,
+      "chance": 4,
+      "category": "uncommon",
+      "line": "pokemon SPECIES_DEDENNE",
+      "dex_kind": "routesandcities",
+      "dex_area": "DEX_ROUTE_29"
+    },
+    {
+      "species": "SPECIES_FLITTLE",
+      "encounter_id": 3,
+      "location": "Route 30",
+      "period": "night",
+      "slot": 4,
+      "chance": 10,
+      "category": "common",
+      "line": "pokemon SPECIES_FLITTLE",
+      "dex_kind": "routesandcities",
+      "dex_area": "DEX_ROUTE_30"
+    },
+    {
+      "species": "SPECIES_GIMMIGHOUL",
+      "encounter_id": 3,
+      "location": "Route 30",
+      "period": "night",
+      "slot": 5,
+      "chance": 10,
+      "category": "common",
+      "line": "pokemon SPECIES_GIMMIGHOUL",
+      "dex_kind": "routesandcities",
+      "dex_area": "DEX_ROUTE_30"
+    },
+    {
+      "species": "SPECIES_GOSSIFLEUR",
+      "encounter_id": 3,
+      "location": "Route 30",
+      "period": "night",
+      "slot": 6,
+      "chance": 5,
+      "category": "uncommon",
+      "line": "pokemon SPECIES_GOSSIFLEUR",
+      "dex_kind": "routesandcities",
+      "dex_area": "DEX_ROUTE_30"
+    },
+    {
+      "species": "SPECIES_KLAWF",
+      "encounter_id": 3,
+      "location": "Route 30",
+      "period": "night",
+      "slot": 7,
+      "chance": 5,
+      "category": "uncommon",
+      "line": "pokemon SPECIES_KLAWF",
+      "dex_kind": "routesandcities",
+      "dex_area": "DEX_ROUTE_30"
+    },
+    {
+      "species": "SPECIES_KOMALA",
+      "encounter_id": 3,
+      "location": "Route 30",
+      "period": "morning",
+      "slot": 8,
+      "chance": 4,
+      "category": "uncommon",
+      "line": "pokemon SPECIES_KOMALA",
+      "dex_kind": "routesandcities",
+      "dex_area": "DEX_ROUTE_30"
+    },
+    {
+      "species": "SPECIES_LECHONK",
+      "encounter_id": 3,
+      "location": "Route 30",
+      "period": "day",
+      "slot": 8,
+      "chance": 4,
+      "category": "uncommon",
+      "line": "pokemon SPECIES_LECHONK",
+      "dex_kind": "routesandcities",
+      "dex_area": "DEX_ROUTE_30"
+    },
+    {
+      "species": "SPECIES_MIMEJR",
+      "encounter_id": 3,
+      "location": "Route 30",
+      "period": "morning",
+      "slot": 9,
+      "chance": 4,
+      "category": "uncommon",
+      "line": "pokemon SPECIES_MIMEJR",
+      "dex_kind": "routesandcities",
+      "dex_area": "DEX_ROUTE_30"
+    },
+    {
+      "species": "SPECIES_MINIOR",
+      "encounter_id": 3,
+      "location": "Route 30",
+      "period": "day",
+      "slot": 9,
+      "chance": 4,
+      "category": "uncommon",
+      "line": "pokemon SPECIES_MINIOR",
+      "dex_kind": "routesandcities",
+      "dex_area": "DEX_ROUTE_30"
+    },
+    {
+      "species": "SPECIES_MORPEKO",
+      "encounter_id": 4,
+      "location": "Route 31",
+      "period": "morning",
+      "slot": 2,
+      "chance": 10,
+      "category": "common",
+      "line": "pokemon SPECIES_MORPEKO",
+      "dex_kind": "routesandcities",
+      "dex_area": "DEX_ROUTE_31"
+    },
+    {
+      "species": "SPECIES_NACLI",
+      "encounter_id": 4,
+      "location": "Route 31",
+      "period": "day",
+      "slot": 2,
+      "chance": 10,
+      "category": "common",
+      "line": "pokemon SPECIES_NACLI",
+      "dex_kind": "routesandcities",
+      "dex_area": "DEX_ROUTE_31"
+    },
+    {
+      "species": "SPECIES_NICKIT",
+      "encounter_id": 4,
+      "location": "Route 31",
+      "period": "night",
+      "slot": 2,
+      "chance": 10,
+      "category": "common",
+      "line": "pokemon SPECIES_NICKIT",
+      "dex_kind": "routesandcities",
+      "dex_area": "DEX_ROUTE_31"
+    },
+    {
+      "species": "SPECIES_ORICORIO",
+      "encounter_id": 4,
+      "location": "Route 31",
+      "period": "morning",
+      "slot": 3,
+      "chance": 10,
+      "category": "common",
+      "line": "pokemon SPECIES_ORICORIO",
+      "dex_kind": "routesandcities",
+      "dex_area": "DEX_ROUTE_31"
+    },
+    {
+      "species": "SPECIES_ORTHWORM",
+      "encounter_id": 4,
+      "location": "Route 31",
+      "period": "day",
+      "slot": 3,
+      "chance": 10,
+      "category": "common",
+      "line": "pokemon SPECIES_ORTHWORM",
+      "dex_kind": "routesandcities",
+      "dex_area": "DEX_ROUTE_31"
+    },
+    {
+      "species": "SPECIES_PASSIMIAN",
+      "encounter_id": 4,
+      "location": "Route 31",
+      "period": "night",
+      "slot": 3,
+      "chance": 10,
+      "category": "common",
+      "line": "pokemon SPECIES_PASSIMIAN",
+      "dex_kind": "routesandcities",
+      "dex_area": "DEX_ROUTE_31"
+    },
+    {
+      "species": "SPECIES_POLTCHAGEIST",
+      "encounter_id": 4,
+      "location": "Route 31",
+      "period": "morning",
+      "slot": 4,
+      "chance": 10,
+      "category": "common",
+      "line": "pokemon SPECIES_POLTCHAGEIST",
+      "dex_kind": "routesandcities",
+      "dex_area": "DEX_ROUTE_31"
+    },
+    {
+      "species": "SPECIES_SANDYGAST",
+      "encounter_id": 4,
+      "location": "Route 31",
+      "period": "day",
+      "slot": 4,
+      "chance": 10,
+      "category": "common",
+      "line": "pokemon SPECIES_SANDYGAST",
+      "dex_kind": "routesandcities",
+      "dex_area": "DEX_ROUTE_31"
+    },
+    {
+      "species": "SPECIES_SKWOVET",
+      "encounter_id": 4,
+      "location": "Route 31",
+      "period": "night",
+      "slot": 4,
+      "chance": 10,
+      "category": "common",
+      "line": "pokemon SPECIES_SKWOVET",
+      "dex_kind": "routesandcities",
+      "dex_area": "DEX_ROUTE_31"
+    },
+    {
+      "species": "SPECIES_SMOLIV",
+      "encounter_id": 4,
+      "location": "Route 31",
+      "period": "night",
+      "slot": 8,
+      "chance": 4,
+      "category": "uncommon",
+      "line": "pokemon SPECIES_SMOLIV",
+      "dex_kind": "routesandcities",
+      "dex_area": "DEX_ROUTE_31"
+    },
+    {
+      "species": "SPECIES_SQUAWKABILLY",
+      "encounter_id": 4,
+      "location": "Route 31",
+      "period": "morning",
+      "slot": 9,
+      "chance": 4,
+      "category": "uncommon",
+      "line": "pokemon SPECIES_SQUAWKABILLY",
+      "dex_kind": "routesandcities",
+      "dex_area": "DEX_ROUTE_31"
+    },
+    {
+      "species": "SPECIES_TADBULB",
+      "encounter_id": 4,
+      "location": "Route 31",
+      "period": "day",
+      "slot": 9,
+      "chance": 4,
+      "category": "uncommon",
+      "line": "pokemon SPECIES_TADBULB",
+      "dex_kind": "routesandcities",
+      "dex_area": "DEX_ROUTE_31"
+    },
+    {
+      "species": "SPECIES_TAROUNTULA",
+      "encounter_id": 4,
+      "location": "Route 31",
+      "period": "night",
+      "slot": 9,
+      "chance": 4,
+      "category": "uncommon",
+      "line": "pokemon SPECIES_TAROUNTULA",
+      "dex_kind": "routesandcities",
+      "dex_area": "DEX_ROUTE_31"
+    },
+    {
+      "species": "SPECIES_YUNGOOS",
+      "encounter_id": 6,
+      "location": "Sprout Tower 2F",
+      "period": "night",
+      "slot": 2,
+      "chance": 10,
+      "category": "common",
+      "line": "pokemon SPECIES_YUNGOOS",
+      "dex_kind": "specialareas",
+      "dex_area": "DEX_SPROUT_TOWER"
+    },
+    {
+      "species": "SPECIES_ARCEUS",
+      "encounter_id": 89,
+      "location": "Mt. Silver (Top, snowy area)",
+      "period": "all",
+      "slot": 10,
+      "chance": 1,
+      "category": "postgame rare",
+      "line": "pokemon SPECIES_ARCEUS",
+      "dex_kind": "routesandcities",
+      "dex_area": "DEX_MT_SILVER"
+    },
+    {
+      "species": "SPECIES_ARTICUNO",
+      "encounter_id": 74,
+      "location": "Seafoam Islands 1F",
+      "period": "all",
+      "slot": 10,
+      "chance": 1,
+      "category": "postgame rare",
+      "line": "pokemon SPECIES_ARTICUNO",
+      "dex_kind": "specialareas",
+      "dex_area": "DEX_SEAFOAM_ISLANDS"
+    },
+    {
+      "species": "SPECIES_HO_OH",
+      "encounter_id": 84,
+      "location": "Bell Tower 10F",
+      "period": "all",
+      "slot": 10,
+      "chance": 1,
+      "category": "postgame rare",
+      "line": "pokemon SPECIES_HO_OH",
+      "dex_kind": "specialareas",
+      "dex_area": "DEX_BELL_TOWER"
+    },
+    {
+      "species": "SPECIES_LUGIA",
+      "encounter_id": 48,
+      "location": "Whirl Islands B3F (Ledge overlooking Lugia room)",
+      "period": "all",
+      "slot": 10,
+      "chance": 1,
+      "category": "postgame rare",
+      "line": "pokemon SPECIES_LUGIA",
+      "dex_kind": "specialareas",
+      "dex_area": "DEX_WHIRL_ISLANDS"
+    },
+    {
+      "species": "SPECIES_MEWTWO",
+      "encounter_id": 139,
+      "location": "Cerulean Cave 1F",
+      "period": "all",
+      "slot": 10,
+      "chance": 1,
+      "category": "postgame rare",
+      "line": "pokemon SPECIES_MEWTWO",
+      "dex_kind": "specialareas",
+      "dex_area": "DEX_CERULEAN_CAVE"
+    },
+    {
+      "species": "SPECIES_MOLTRES",
+      "encounter_id": 79,
+      "location": "Mt. Silver (Moltres room)",
+      "period": "all",
+      "slot": 10,
+      "chance": 1,
+      "category": "postgame rare",
+      "line": "pokemon SPECIES_MOLTRES",
+      "dex_kind": "specialareas",
+      "dex_area": "DEX_MT_SILVER_CAVE"
+    },
+    {
+      "species": "SPECIES_ZAPDOS",
+      "encounter_id": 108,
+      "location": "Rock Tunnel 1F",
+      "period": "all",
+      "slot": 10,
+      "chance": 1,
+      "category": "postgame rare",
+      "line": "pokemon SPECIES_ZAPDOS",
+      "dex_kind": "specialareas",
+      "dex_area": "DEX_ROCK_TUNNEL"
+    },
+    {
+      "species": "SPECIES_AZELF",
+      "encounter_id": 139,
+      "location": "Cerulean Cave 1F",
+      "period": "all",
+      "slot": 11,
+      "chance": 1,
+      "category": "postgame rare",
+      "line": "pokemon SPECIES_AZELF",
+      "dex_kind": "specialareas",
+      "dex_area": "DEX_CERULEAN_CAVE"
+    },
+    {
+      "species": "SPECIES_BLACEPHALON",
+      "encounter_id": 140,
+      "location": "Cerulean Cave B1F",
+      "period": "all",
+      "slot": 10,
+      "chance": 1,
+      "category": "postgame rare",
+      "line": "pokemon SPECIES_BLACEPHALON",
+      "dex_kind": "specialareas",
+      "dex_area": "DEX_CERULEAN_CAVE"
+    },
+    {
+      "species": "SPECIES_BRUTE_BONNET",
+      "encounter_id": 106,
+      "location": "Mt. Moon 1F",
+      "period": "all",
+      "slot": 10,
+      "chance": 1,
+      "category": "postgame rare",
+      "line": "pokemon SPECIES_BRUTE_BONNET",
+      "dex_kind": "specialareas",
+      "dex_area": "DEX_MT_MOON"
+    },
+    {
+      "species": "SPECIES_BUZZWOLE",
+      "encounter_id": 137,
+      "location": "Viridian Forest",
+      "period": "all",
+      "slot": 10,
+      "chance": 1,
+      "category": "postgame rare",
+      "line": "pokemon SPECIES_BUZZWOLE",
+      "dex_kind": "specialareas",
+      "dex_area": "DEX_VIRIDIAN_FOREST"
+    },
+    {
+      "species": "SPECIES_CALYREX",
+      "encounter_id": 140,
+      "location": "Cerulean Cave B1F",
+      "period": "all",
+      "slot": 11,
+      "chance": 1,
+      "category": "postgame rare",
+      "line": "pokemon SPECIES_CALYREX",
+      "dex_kind": "specialareas",
+      "dex_area": "DEX_CERULEAN_CAVE"
+    },
+    {
+      "species": "SPECIES_CELEBI",
+      "encounter_id": 141,
+      "location": "Cerulean Cave B2F",
+      "period": "all",
+      "slot": 10,
+      "chance": 1,
+      "category": "postgame rare",
+      "line": "pokemon SPECIES_CELEBI",
+      "dex_kind": "specialareas",
+      "dex_area": "DEX_CERULEAN_CAVE"
+    },
+    {
+      "species": "SPECIES_CELESTEELA",
+      "encounter_id": 79,
+      "location": "Mt. Silver (Moltres room)",
+      "period": "all",
+      "slot": 11,
+      "chance": 1,
+      "category": "postgame rare",
+      "line": "pokemon SPECIES_CELESTEELA",
+      "dex_kind": "specialareas",
+      "dex_area": "DEX_MT_SILVER_CAVE"
+    },
+    {
+      "species": "SPECIES_CHIEN_PAO",
+      "encounter_id": 74,
+      "location": "Seafoam Islands 1F",
+      "period": "all",
+      "slot": 11,
+      "chance": 1,
+      "category": "postgame rare",
+      "line": "pokemon SPECIES_CHIEN_PAO",
+      "dex_kind": "specialareas",
+      "dex_area": "DEX_SEAFOAM_ISLANDS"
+    },
+    {
+      "species": "SPECIES_CHI_YU",
+      "encounter_id": 141,
+      "location": "Cerulean Cave B2F",
+      "period": "all",
+      "slot": 11,
+      "chance": 1,
+      "category": "postgame rare",
+      "line": "pokemon SPECIES_CHI_YU",
+      "dex_kind": "specialareas",
+      "dex_area": "DEX_CERULEAN_CAVE"
+    },
+    {
+      "species": "SPECIES_COBALION",
+      "encounter_id": 80,
+      "location": "Mt. Silver 3F",
+      "period": "all",
+      "slot": 10,
+      "chance": 1,
+      "category": "postgame rare",
+      "line": "pokemon SPECIES_COBALION",
+      "dex_kind": "specialareas",
+      "dex_area": "DEX_MT_SILVER_CAVE"
+    },
+    {
+      "species": "SPECIES_COSMOG",
+      "encounter_id": 106,
+      "location": "Mt. Moon 1F",
+      "period": "all",
+      "slot": 11,
+      "chance": 1,
+      "category": "postgame rare",
+      "line": "pokemon SPECIES_COSMOG",
+      "dex_kind": "specialareas",
+      "dex_area": "DEX_MT_MOON"
+    },
+    {
+      "species": "SPECIES_CRESSELIA",
+      "encounter_id": 107,
+      "location": "Mt. Moon 2F",
+      "period": "all",
+      "slot": 10,
+      "chance": 1,
+      "category": "postgame rare",
+      "line": "pokemon SPECIES_CRESSELIA",
+      "dex_kind": "specialareas",
+      "dex_area": "DEX_MT_MOON"
+    },
+    {
+      "species": "SPECIES_DARKRAI",
+      "encounter_id": 107,
+      "location": "Mt. Moon 2F",
+      "period": "all",
+      "slot": 11,
+      "chance": 1,
+      "category": "postgame rare",
+      "line": "pokemon SPECIES_DARKRAI",
+      "dex_kind": "specialareas",
+      "dex_area": "DEX_MT_MOON"
+    },
+    {
+      "species": "SPECIES_DEOXYS",
+      "encounter_id": 30,
+      "location": "Bell Tower 2F",
+      "period": "all",
+      "slot": 10,
+      "chance": 1,
+      "category": "postgame rare",
+      "line": "pokemon SPECIES_DEOXYS",
+      "dex_kind": "specialareas",
+      "dex_area": "DEX_BELL_TOWER"
+    },
+    {
+      "species": "SPECIES_DIALGA",
+      "encounter_id": 80,
+      "location": "Mt. Silver 3F",
+      "period": "all",
+      "slot": 11,
+      "chance": 1,
+      "category": "postgame rare",
+      "line": "pokemon SPECIES_DIALGA",
+      "dex_kind": "specialareas",
+      "dex_area": "DEX_MT_SILVER_CAVE"
+    },
+    {
+      "species": "SPECIES_DIANCIE",
+      "encounter_id": 30,
+      "location": "Bell Tower 2F",
+      "period": "all",
+      "slot": 11,
+      "chance": 1,
+      "category": "postgame rare",
+      "line": "pokemon SPECIES_DIANCIE",
+      "dex_kind": "specialareas",
+      "dex_area": "DEX_BELL_TOWER"
+    },
+    {
+      "species": "SPECIES_ENAMORUS",
+      "encounter_id": 137,
+      "location": "Viridian Forest",
+      "period": "all",
+      "slot": 11,
+      "chance": 1,
+      "category": "postgame rare",
+      "line": "pokemon SPECIES_ENAMORUS",
+      "dex_kind": "specialareas",
+      "dex_area": "DEX_VIRIDIAN_FOREST"
+    },
+    {
+      "species": "SPECIES_ENTEI",
+      "encounter_id": 81,
+      "location": "Mt. Silver 4F",
+      "period": "all",
+      "slot": 10,
+      "chance": 1,
+      "category": "postgame rare",
+      "line": "pokemon SPECIES_ENTEI",
+      "dex_kind": "specialareas",
+      "dex_area": "DEX_MT_SILVER_CAVE"
+    },
+    {
+      "species": "SPECIES_ETERNATUS",
+      "encounter_id": 86,
+      "location": "Mt. Silver 1F",
+      "period": "all",
+      "slot": 10,
+      "chance": 1,
+      "category": "postgame rare",
+      "line": "pokemon SPECIES_ETERNATUS",
+      "dex_kind": "specialareas",
+      "dex_area": "DEX_MT_SILVER_CAVE"
+    },
+    {
+      "species": "SPECIES_FEZANDIPITI",
+      "encounter_id": 112,
+      "location": "Route 2 (South, below Viridian Forest)",
+      "period": "all",
+      "slot": 10,
+      "chance": 1,
+      "category": "postgame rare",
+      "line": "pokemon SPECIES_FEZANDIPITI",
+      "dex_kind": "routesandcities",
+      "dex_area": "DEX_ROUTE_2"
+    },
+    {
+      "species": "SPECIES_FLUTTER_MANE",
+      "encounter_id": 112,
+      "location": "Route 2 (South, below Viridian Forest)",
+      "period": "all",
+      "slot": 11,
+      "chance": 1,
+      "category": "postgame rare",
+      "line": "pokemon SPECIES_FLUTTER_MANE",
+      "dex_kind": "routesandcities",
+      "dex_area": "DEX_ROUTE_2"
+    },
+    {
+      "species": "SPECIES_GENESECT",
+      "encounter_id": 81,
+      "location": "Mt. Silver 4F",
+      "period": "all",
+      "slot": 11,
+      "chance": 1,
+      "category": "postgame rare",
+      "line": "pokemon SPECIES_GENESECT",
+      "dex_kind": "specialareas",
+      "dex_area": "DEX_MT_SILVER_CAVE"
+    },
+    {
+      "species": "SPECIES_GIRATINA",
+      "encounter_id": 31,
+      "location": "Bell Tower 3F",
+      "period": "all",
+      "slot": 10,
+      "chance": 1,
+      "category": "postgame rare",
+      "line": "pokemon SPECIES_GIRATINA",
+      "dex_kind": "specialareas",
+      "dex_area": "DEX_BELL_TOWER"
+    },
+    {
+      "species": "SPECIES_GLASTRIER",
+      "encounter_id": 75,
+      "location": "Seafoam Islands B1F",
+      "period": "all",
+      "slot": 10,
+      "chance": 1,
+      "category": "postgame rare",
+      "line": "pokemon SPECIES_GLASTRIER",
+      "dex_kind": "specialareas",
+      "dex_area": "DEX_SEAFOAM_ISLANDS"
+    },
+    {
+      "species": "SPECIES_GOUGING_FIRE",
+      "encounter_id": 86,
+      "location": "Mt. Silver 1F",
+      "period": "all",
+      "slot": 11,
+      "chance": 1,
+      "category": "postgame rare",
+      "line": "pokemon SPECIES_GOUGING_FIRE",
+      "dex_kind": "specialareas",
+      "dex_area": "DEX_MT_SILVER_CAVE"
+    },
+    {
+      "species": "SPECIES_GREAT_TUSK",
+      "encounter_id": 88,
+      "location": "Mt. Silver (Expert Belt room)",
+      "period": "all",
+      "slot": 10,
+      "chance": 1,
+      "category": "postgame rare",
+      "line": "pokemon SPECIES_GREAT_TUSK",
+      "dex_kind": "specialareas",
+      "dex_area": "DEX_MT_SILVER_CAVE"
+    },
+    {
+      "species": "SPECIES_GROUDON",
+      "encounter_id": 88,
+      "location": "Mt. Silver (Expert Belt room)",
+      "period": "all",
+      "slot": 11,
+      "chance": 1,
+      "category": "postgame rare",
+      "line": "pokemon SPECIES_GROUDON",
+      "dex_kind": "specialareas",
+      "dex_area": "DEX_MT_SILVER_CAVE"
+    },
+    {
+      "species": "SPECIES_GUZZLORD",
+      "encounter_id": 31,
+      "location": "Bell Tower 3F",
+      "period": "all",
+      "slot": 11,
+      "chance": 1,
+      "category": "postgame rare",
+      "line": "pokemon SPECIES_GUZZLORD",
+      "dex_kind": "specialareas",
+      "dex_area": "DEX_BELL_TOWER"
+    },
+    {
+      "species": "SPECIES_HEATRAN",
+      "encounter_id": 108,
+      "location": "Rock Tunnel 1F",
+      "period": "all",
+      "slot": 11,
+      "chance": 1,
+      "category": "postgame rare",
+      "line": "pokemon SPECIES_HEATRAN",
+      "dex_kind": "specialareas",
+      "dex_area": "DEX_ROCK_TUNNEL"
+    },
+    {
+      "species": "SPECIES_HOOPA",
+      "encounter_id": 130,
+      "location": "Route 24",
+      "period": "all",
+      "slot": 10,
+      "chance": 1,
+      "category": "postgame rare",
+      "line": "pokemon SPECIES_HOOPA",
+      "dex_kind": "routesandcities",
+      "dex_area": "DEX_ROUTE_24"
+    },
+    {
+      "species": "SPECIES_IRON_BOULDER",
+      "encounter_id": 32,
+      "location": "Bell Tower 4F",
+      "period": "all",
+      "slot": 10,
+      "chance": 1,
+      "category": "postgame rare",
+      "line": "pokemon SPECIES_IRON_BOULDER",
+      "dex_kind": "specialareas",
+      "dex_area": "DEX_BELL_TOWER"
+    },
+    {
+      "species": "SPECIES_IRON_BUNDLE",
+      "encounter_id": 75,
+      "location": "Seafoam Islands B1F",
+      "period": "all",
+      "slot": 11,
+      "chance": 1,
+      "category": "postgame rare",
+      "line": "pokemon SPECIES_IRON_BUNDLE",
+      "dex_kind": "specialareas",
+      "dex_area": "DEX_SEAFOAM_ISLANDS"
+    },
+    {
+      "species": "SPECIES_IRON_CROWN",
+      "encounter_id": 32,
+      "location": "Bell Tower 4F",
+      "period": "all",
+      "slot": 11,
+      "chance": 1,
+      "category": "postgame rare",
+      "line": "pokemon SPECIES_IRON_CROWN",
+      "dex_kind": "specialareas",
+      "dex_area": "DEX_BELL_TOWER"
+    },
+    {
+      "species": "SPECIES_IRON_HANDS",
+      "encounter_id": 109,
+      "location": "Rock Tunnel B1F",
+      "period": "all",
+      "slot": 10,
+      "chance": 1,
+      "category": "postgame rare",
+      "line": "pokemon SPECIES_IRON_HANDS",
+      "dex_kind": "specialareas",
+      "dex_area": "DEX_ROCK_TUNNEL"
+    },
+    {
+      "species": "SPECIES_IRON_JUGULIS",
+      "encounter_id": 33,
+      "location": "Bell Tower 5F",
+      "period": "all",
+      "slot": 10,
+      "chance": 1,
+      "category": "postgame rare",
+      "line": "pokemon SPECIES_IRON_JUGULIS",
+      "dex_kind": "specialareas",
+      "dex_area": "DEX_BELL_TOWER"
+    },
+    {
+      "species": "SPECIES_IRON_LEAVES",
+      "encounter_id": 33,
+      "location": "Bell Tower 5F",
+      "period": "all",
+      "slot": 11,
+      "chance": 1,
+      "category": "postgame rare",
+      "line": "pokemon SPECIES_IRON_LEAVES",
+      "dex_kind": "specialareas",
+      "dex_area": "DEX_BELL_TOWER"
+    },
+    {
+      "species": "SPECIES_IRON_MOTH",
+      "encounter_id": 89,
+      "location": "Mt. Silver (Top, snowy area)",
+      "period": "all",
+      "slot": 11,
+      "chance": 1,
+      "category": "postgame rare",
+      "line": "pokemon SPECIES_IRON_MOTH",
+      "dex_kind": "routesandcities",
+      "dex_area": "DEX_MT_SILVER"
+    },
+    {
+      "species": "SPECIES_IRON_THORNS",
+      "encounter_id": 109,
+      "location": "Rock Tunnel B1F",
+      "period": "all",
+      "slot": 11,
+      "chance": 1,
+      "category": "postgame rare",
+      "line": "pokemon SPECIES_IRON_THORNS",
+      "dex_kind": "specialareas",
+      "dex_area": "DEX_ROCK_TUNNEL"
+    },
+    {
+      "species": "SPECIES_IRON_TREADS",
+      "encounter_id": 110,
+      "location": "Victory Road 1F",
+      "period": "all",
+      "slot": 10,
+      "chance": 1,
+      "category": "postgame rare",
+      "line": "pokemon SPECIES_IRON_TREADS",
+      "dex_kind": "specialareas",
+      "dex_area": "DEX_VICTORY_ROAD"
+    },
+    {
+      "species": "SPECIES_IRON_VALIANT",
+      "encounter_id": 110,
+      "location": "Victory Road 1F",
+      "period": "all",
+      "slot": 11,
+      "chance": 1,
+      "category": "postgame rare",
+      "line": "pokemon SPECIES_IRON_VALIANT",
+      "dex_kind": "specialareas",
+      "dex_area": "DEX_VICTORY_ROAD"
+    },
+    {
+      "species": "SPECIES_JELLICENT",
+      "encounter_id": 76,
+      "location": "Seafoam Islands B2F",
+      "period": "all",
+      "slot": 10,
+      "chance": 1,
+      "category": "postgame rare",
+      "line": "pokemon SPECIES_JELLICENT",
+      "dex_kind": "specialareas",
+      "dex_area": "DEX_SEAFOAM_ISLANDS"
+    },
+    {
+      "species": "SPECIES_JIRACHI",
+      "encounter_id": 34,
+      "location": "Bell Tower 6F",
+      "period": "all",
+      "slot": 10,
+      "chance": 1,
+      "category": "postgame rare",
+      "line": "pokemon SPECIES_JIRACHI",
+      "dex_kind": "specialareas",
+      "dex_area": "DEX_BELL_TOWER"
+    },
+    {
+      "species": "SPECIES_KARTANA",
+      "encounter_id": 132,
+      "location": "Tohjo Falls",
+      "period": "all",
+      "slot": 10,
+      "chance": 1,
+      "category": "postgame rare",
+      "line": "pokemon SPECIES_KARTANA",
+      "dex_kind": "specialareas",
+      "dex_area": "DEX_TOHJO_FALLS"
+    },
+    {
+      "species": "SPECIES_KELDEO",
+      "encounter_id": 76,
+      "location": "Seafoam Islands B2F",
+      "period": "all",
+      "slot": 11,
+      "chance": 1,
+      "category": "postgame rare",
+      "line": "pokemon SPECIES_KELDEO",
+      "dex_kind": "specialareas",
+      "dex_area": "DEX_SEAFOAM_ISLANDS"
+    },
+    {
+      "species": "SPECIES_KORAIDON",
+      "encounter_id": 130,
+      "location": "Route 24",
+      "period": "all",
+      "slot": 11,
+      "chance": 1,
+      "category": "postgame rare",
+      "line": "pokemon SPECIES_KORAIDON",
+      "dex_kind": "routesandcities",
+      "dex_area": "DEX_ROUTE_24"
+    },
+    {
+      "species": "SPECIES_KUBFU",
+      "encounter_id": 134,
+      "location": "Victory Road 2F",
+      "period": "all",
+      "slot": 10,
+      "chance": 1,
+      "category": "postgame rare",
+      "line": "pokemon SPECIES_KUBFU",
+      "dex_kind": "specialareas",
+      "dex_area": "DEX_VICTORY_ROAD"
+    },
+    {
+      "species": "SPECIES_KYOGRE",
+      "encounter_id": 77,
+      "location": "Seafoam Islands B3F",
+      "period": "all",
+      "slot": 10,
+      "chance": 1,
+      "category": "postgame rare",
+      "line": "pokemon SPECIES_KYOGRE",
+      "dex_kind": "specialareas",
+      "dex_area": "DEX_SEAFOAM_ISLANDS"
+    },
+    {
+      "species": "SPECIES_KYUREM",
+      "encounter_id": 77,
+      "location": "Seafoam Islands B3F",
+      "period": "all",
+      "slot": 11,
+      "chance": 1,
+      "category": "postgame rare",
+      "line": "pokemon SPECIES_KYUREM",
+      "dex_kind": "specialareas",
+      "dex_area": "DEX_SEAFOAM_ISLANDS"
+    },
+    {
+      "species": "SPECIES_LANDORUS",
+      "encounter_id": 132,
+      "location": "Tohjo Falls",
+      "period": "all",
+      "slot": 11,
+      "chance": 1,
+      "category": "postgame rare",
+      "line": "pokemon SPECIES_LANDORUS",
+      "dex_kind": "specialareas",
+      "dex_area": "DEX_TOHJO_FALLS"
+    },
+    {
+      "species": "SPECIES_LATIAS",
+      "encounter_id": 34,
+      "location": "Bell Tower 6F",
+      "period": "all",
+      "slot": 11,
+      "chance": 1,
+      "category": "postgame rare",
+      "line": "pokemon SPECIES_LATIAS",
+      "dex_kind": "specialareas",
+      "dex_area": "DEX_BELL_TOWER"
+    },
+    {
+      "species": "SPECIES_LATIOS",
+      "encounter_id": 35,
+      "location": "Bell Tower 7F",
+      "period": "all",
+      "slot": 10,
+      "chance": 1,
+      "category": "postgame rare",
+      "line": "pokemon SPECIES_LATIOS",
+      "dex_kind": "specialareas",
+      "dex_area": "DEX_BELL_TOWER"
+    },
+    {
+      "species": "SPECIES_LYCANROC",
+      "encounter_id": 133,
+      "location": "Digletts Cave",
+      "period": "all",
+      "slot": 10,
+      "chance": 1,
+      "category": "postgame rare",
+      "line": "pokemon SPECIES_LYCANROC",
+      "dex_kind": "specialareas",
+      "dex_area": "DEX_DIGLETTS_CAVE"
+    },
+    {
+      "species": "SPECIES_MAGEARNA",
+      "encounter_id": 35,
+      "location": "Bell Tower 7F",
+      "period": "all",
+      "slot": 11,
+      "chance": 1,
+      "category": "postgame rare",
+      "line": "pokemon SPECIES_MAGEARNA",
+      "dex_kind": "specialareas",
+      "dex_area": "DEX_BELL_TOWER"
+    },
+    {
+      "species": "SPECIES_MANAPHY",
+      "encounter_id": 78,
+      "location": "Seafoam Islands B4F",
+      "period": "all",
+      "slot": 10,
+      "chance": 1,
+      "category": "postgame rare",
+      "line": "pokemon SPECIES_MANAPHY",
+      "dex_kind": "specialareas",
+      "dex_area": "DEX_SEAFOAM_ISLANDS"
+    },
+    {
+      "species": "SPECIES_MARSHADOW",
+      "encounter_id": 131,
+      "location": "Route 25",
+      "period": "all",
+      "slot": 10,
+      "chance": 1,
+      "category": "postgame rare",
+      "line": "pokemon SPECIES_MARSHADOW",
+      "dex_kind": "routesandcities",
+      "dex_area": "DEX_ROUTE_25"
+    },
+    {
+      "species": "SPECIES_MELOETTA",
+      "encounter_id": 36,
+      "location": "Bell Tower 8F",
+      "period": "all",
+      "slot": 10,
+      "chance": 1,
+      "category": "postgame rare",
+      "line": "pokemon SPECIES_MELOETTA",
+      "dex_kind": "specialareas",
+      "dex_area": "DEX_BELL_TOWER"
+    },
+    {
+      "species": "SPECIES_MELTAN",
+      "encounter_id": 133,
+      "location": "Digletts Cave",
+      "period": "all",
+      "slot": 11,
+      "chance": 1,
+      "category": "postgame rare",
+      "line": "pokemon SPECIES_MELTAN",
+      "dex_kind": "specialareas",
+      "dex_area": "DEX_DIGLETTS_CAVE"
+    },
+    {
+      "species": "SPECIES_MEOWSTIC",
+      "encounter_id": 36,
+      "location": "Bell Tower 8F",
+      "period": "all",
+      "slot": 11,
+      "chance": 1,
+      "category": "postgame rare",
+      "line": "pokemon SPECIES_MEOWSTIC",
+      "dex_kind": "specialareas",
+      "dex_area": "DEX_BELL_TOWER"
+    },
+    {
+      "species": "SPECIES_MESPRIT",
+      "encounter_id": 37,
+      "location": "Bell Tower 9F",
+      "period": "all",
+      "slot": 10,
+      "chance": 1,
+      "category": "postgame rare",
+      "line": "pokemon SPECIES_MESPRIT",
+      "dex_kind": "specialareas",
+      "dex_area": "DEX_BELL_TOWER"
+    },
+    {
+      "species": "SPECIES_MEW",
+      "encounter_id": 37,
+      "location": "Bell Tower 9F",
+      "period": "all",
+      "slot": 11,
+      "chance": 1,
+      "category": "postgame rare",
+      "line": "pokemon SPECIES_MEW",
+      "dex_kind": "specialareas",
+      "dex_area": "DEX_BELL_TOWER"
+    },
+    {
+      "species": "SPECIES_MIRAIDON",
+      "encounter_id": 119,
+      "location": "Route 9",
+      "period": "all",
+      "slot": 10,
+      "chance": 1,
+      "category": "postgame rare",
+      "line": "pokemon SPECIES_MIRAIDON",
+      "dex_kind": "routesandcities",
+      "dex_area": "DEX_ROUTE_9"
+    },
+    {
+      "species": "SPECIES_MUNKIDORI",
+      "encounter_id": 84,
+      "location": "Bell Tower 10F",
+      "period": "all",
+      "slot": 11,
+      "chance": 1,
+      "category": "postgame rare",
+      "line": "pokemon SPECIES_MUNKIDORI",
+      "dex_kind": "specialareas",
+      "dex_area": "DEX_BELL_TOWER"
+    },
+    {
+      "species": "SPECIES_NECROZMA",
+      "encounter_id": 78,
+      "location": "Seafoam Islands B4F",
+      "period": "all",
+      "slot": 11,
+      "chance": 1,
+      "category": "postgame rare",
+      "line": "pokemon SPECIES_NECROZMA",
+      "dex_kind": "specialareas",
+      "dex_area": "DEX_SEAFOAM_ISLANDS"
+    },
+    {
+      "species": "SPECIES_NIHILEGO",
+      "encounter_id": 134,
+      "location": "Victory Road 2F",
+      "period": "all",
+      "slot": 11,
+      "chance": 1,
+      "category": "postgame rare",
+      "line": "pokemon SPECIES_NIHILEGO",
+      "dex_kind": "specialareas",
+      "dex_area": "DEX_VICTORY_ROAD"
+    },
+    {
+      "species": "SPECIES_OGERPON",
+      "encounter_id": 131,
+      "location": "Route 25",
+      "period": "all",
+      "slot": 11,
+      "chance": 1,
+      "category": "postgame rare",
+      "line": "pokemon SPECIES_OGERPON",
+      "dex_kind": "routesandcities",
+      "dex_area": "DEX_ROUTE_25"
+    },
+    {
+      "species": "SPECIES_OINKOLOGNE",
+      "encounter_id": 111,
+      "location": "Route 1",
+      "period": "all",
+      "slot": 10,
+      "chance": 1,
+      "category": "postgame rare",
+      "line": "pokemon SPECIES_OINKOLOGNE",
+      "dex_kind": "routesandcities",
+      "dex_area": "DEX_ROUTE_1"
+    },
+    {
+      "species": "SPECIES_OKIDOGI",
+      "encounter_id": 135,
+      "location": "Victory Road 3F",
+      "period": "all",
+      "slot": 10,
+      "chance": 1,
+      "category": "postgame rare",
+      "line": "pokemon SPECIES_OKIDOGI",
+      "dex_kind": "specialareas",
+      "dex_area": "DEX_VICTORY_ROAD"
+    },
+    {
+      "species": "SPECIES_PALKIA",
+      "encounter_id": 43,
+      "location": "Whirl Islands 1F",
+      "period": "all",
+      "slot": 10,
+      "chance": 1,
+      "category": "postgame rare",
+      "line": "pokemon SPECIES_PALKIA",
+      "dex_kind": "specialareas",
+      "dex_area": "DEX_WHIRL_ISLANDS"
+    },
+    {
+      "species": "SPECIES_PECHARUNT",
+      "encounter_id": 83,
+      "location": "Cliff Cave",
+      "period": "all",
+      "slot": 10,
+      "chance": 1,
+      "category": "postgame rare",
+      "line": "pokemon SPECIES_PECHARUNT",
+      "dex_kind": "specialareas",
+      "dex_area": "DEX_CLIFF_CAVE"
+    },
+    {
+      "species": "SPECIES_PHEROMOSA",
+      "encounter_id": 136,
+      "location": "Route 2 (North, above Viridian Forest)",
+      "period": "all",
+      "slot": 10,
+      "chance": 1,
+      "category": "postgame rare",
+      "line": "pokemon SPECIES_PHEROMOSA",
+      "dex_kind": "routesandcities",
+      "dex_area": "DEX_ROUTE_2_2"
+    },
+    {
+      "species": "SPECIES_PHIONE",
+      "encounter_id": 43,
+      "location": "Whirl Islands 1F",
+      "period": "all",
+      "slot": 11,
+      "chance": 1,
+      "category": "postgame rare",
+      "line": "pokemon SPECIES_PHIONE",
+      "dex_kind": "specialareas",
+      "dex_area": "DEX_WHIRL_ISLANDS"
+    },
+    {
+      "species": "SPECIES_POIPOLE",
+      "encounter_id": 85,
+      "location": "Mt. Silver (Outside area with Pokemon Center)",
+      "period": "all",
+      "slot": 10,
+      "chance": 1,
+      "category": "postgame rare",
+      "line": "pokemon SPECIES_POIPOLE",
+      "dex_kind": "routesandcities",
+      "dex_area": "DEX_MT_SILVER"
+    },
+    {
+      "species": "SPECIES_PYROAR",
+      "encounter_id": 135,
+      "location": "Victory Road 3F",
+      "period": "all",
+      "slot": 11,
+      "chance": 1,
+      "category": "postgame rare",
+      "line": "pokemon SPECIES_PYROAR",
+      "dex_kind": "specialareas",
+      "dex_area": "DEX_VICTORY_ROAD"
+    },
+    {
+      "species": "SPECIES_RAGING_BOLT",
+      "encounter_id": 119,
+      "location": "Route 9",
+      "period": "all",
+      "slot": 11,
+      "chance": 1,
+      "category": "postgame rare",
+      "line": "pokemon SPECIES_RAGING_BOLT",
+      "dex_kind": "routesandcities",
+      "dex_area": "DEX_ROUTE_9"
+    },
+    {
+      "species": "SPECIES_RAIKOU",
+      "encounter_id": 120,
+      "location": "Route 10",
+      "period": "all",
+      "slot": 10,
+      "chance": 1,
+      "category": "postgame rare",
+      "line": "pokemon SPECIES_RAIKOU",
+      "dex_kind": "routesandcities",
+      "dex_area": "DEX_ROUTE_10"
+    },
+    {
+      "species": "SPECIES_RAYQUAZA",
+      "encounter_id": 103,
+      "location": "Route 26",
+      "period": "all",
+      "slot": 10,
+      "chance": 1,
+      "category": "postgame rare",
+      "line": "pokemon SPECIES_RAYQUAZA",
+      "dex_kind": "routesandcities",
+      "dex_area": "DEX_ROUTE_26"
+    },
+    {
+      "species": "SPECIES_REGICE",
+      "encounter_id": 60,
+      "location": "Ice Path 1F",
+      "period": "all",
+      "slot": 10,
+      "chance": 1,
+      "category": "postgame rare",
+      "line": "pokemon SPECIES_REGICE",
+      "dex_kind": "specialareas",
+      "dex_area": "DEX_ICE_PATH"
+    },
+    {
+      "species": "SPECIES_REGIDRAGO",
+      "encounter_id": 85,
+      "location": "Mt. Silver (Outside area with Pokemon Center)",
+      "period": "all",
+      "slot": 11,
+      "chance": 1,
+      "category": "postgame rare",
+      "line": "pokemon SPECIES_REGIDRAGO",
+      "dex_kind": "routesandcities",
+      "dex_area": "DEX_MT_SILVER"
+    },
+    {
+      "species": "SPECIES_REGIELEKI",
+      "encounter_id": 120,
+      "location": "Route 10",
+      "period": "all",
+      "slot": 11,
+      "chance": 1,
+      "category": "postgame rare",
+      "line": "pokemon SPECIES_REGIELEKI",
+      "dex_kind": "routesandcities",
+      "dex_area": "DEX_ROUTE_10"
+    },
+    {
+      "species": "SPECIES_REGIGIGAS",
+      "encounter_id": 111,
+      "location": "Route 1",
+      "period": "all",
+      "slot": 11,
+      "chance": 1,
+      "category": "postgame rare",
+      "line": "pokemon SPECIES_REGIGIGAS",
+      "dex_kind": "routesandcities",
+      "dex_area": "DEX_ROUTE_1"
+    },
+    {
+      "species": "SPECIES_REGIROCK",
+      "encounter_id": 87,
+      "location": "Mt. Silver (Mountainside)",
+      "period": "all",
+      "slot": 10,
+      "chance": 1,
+      "category": "postgame rare",
+      "line": "pokemon SPECIES_REGIROCK",
+      "dex_kind": "routesandcities",
+      "dex_area": "DEX_MT_SILVER"
+    },
+    {
+      "species": "SPECIES_REGISTEEL",
+      "encounter_id": 87,
+      "location": "Mt. Silver (Mountainside)",
+      "period": "all",
+      "slot": 11,
+      "chance": 1,
+      "category": "postgame rare",
+      "line": "pokemon SPECIES_REGISTEEL",
+      "dex_kind": "routesandcities",
+      "dex_area": "DEX_MT_SILVER"
+    },
+    {
+      "species": "SPECIES_RESHIRAM",
+      "encounter_id": 102,
+      "location": "Route 48",
+      "period": "all",
+      "slot": 10,
+      "chance": 1,
+      "category": "postgame rare",
+      "line": "pokemon SPECIES_RESHIRAM",
+      "dex_kind": "routesandcities",
+      "dex_area": "DEX_ROUTE_48"
+    },
+    {
+      "species": "SPECIES_ROARING_MOON",
+      "encounter_id": 103,
+      "location": "Route 26",
+      "period": "all",
+      "slot": 11,
+      "chance": 1,
+      "category": "postgame rare",
+      "line": "pokemon SPECIES_ROARING_MOON",
+      "dex_kind": "routesandcities",
+      "dex_area": "DEX_ROUTE_26"
+    },
+    {
+      "species": "SPECIES_SANDY_SHOCKS",
+      "encounter_id": 104,
+      "location": "Route 27",
+      "period": "all",
+      "slot": 10,
+      "chance": 1,
+      "category": "postgame rare",
+      "line": "pokemon SPECIES_SANDY_SHOCKS",
+      "dex_kind": "routesandcities",
+      "dex_area": "DEX_ROUTE_27"
+    },
+    {
+      "species": "SPECIES_SCREAM_TAIL",
+      "encounter_id": 136,
+      "location": "Route 2 (North, above Viridian Forest)",
+      "period": "all",
+      "slot": 11,
+      "chance": 1,
+      "category": "postgame rare",
+      "line": "pokemon SPECIES_SCREAM_TAIL",
+      "dex_kind": "routesandcities",
+      "dex_area": "DEX_ROUTE_2_2"
+    },
+    {
+      "species": "SPECIES_SHAYMIN",
+      "encounter_id": 113,
+      "location": "Route 3",
+      "period": "all",
+      "slot": 10,
+      "chance": 1,
+      "category": "postgame rare",
+      "line": "pokemon SPECIES_SHAYMIN",
+      "dex_kind": "routesandcities",
+      "dex_area": "DEX_ROUTE_3"
+    },
+    {
+      "species": "SPECIES_SLITHER_WING",
+      "encounter_id": 113,
+      "location": "Route 3",
+      "period": "all",
+      "slot": 11,
+      "chance": 1,
+      "category": "postgame rare",
+      "line": "pokemon SPECIES_SLITHER_WING",
+      "dex_kind": "routesandcities",
+      "dex_area": "DEX_ROUTE_3"
+    },
+    {
+      "species": "SPECIES_SPECTRIER",
+      "encounter_id": 104,
+      "location": "Route 27",
+      "period": "all",
+      "slot": 11,
+      "chance": 1,
+      "category": "postgame rare",
+      "line": "pokemon SPECIES_SPECTRIER",
+      "dex_kind": "routesandcities",
+      "dex_area": "DEX_ROUTE_27"
+    },
+    {
+      "species": "SPECIES_STAKATAKA",
+      "encounter_id": 105,
+      "location": "Route 28",
+      "period": "all",
+      "slot": 10,
+      "chance": 1,
+      "category": "postgame rare",
+      "line": "pokemon SPECIES_STAKATAKA",
+      "dex_kind": "routesandcities",
+      "dex_area": "DEX_ROUTE_28"
+    },
+    {
+      "species": "SPECIES_SUICUNE",
+      "encounter_id": 44,
+      "location": "Whirl Islands B1F",
+      "period": "all",
+      "slot": 10,
+      "chance": 1,
+      "category": "postgame rare",
+      "line": "pokemon SPECIES_SUICUNE",
+      "dex_kind": "specialareas",
+      "dex_area": "DEX_WHIRL_ISLANDS"
+    },
+    {
+      "species": "SPECIES_TAPU_BULU",
+      "encounter_id": 114,
+      "location": "Route 4",
+      "period": "all",
+      "slot": 10,
+      "chance": 1,
+      "category": "postgame rare",
+      "line": "pokemon SPECIES_TAPU_BULU",
+      "dex_kind": "routesandcities",
+      "dex_area": "DEX_ROUTE_4"
+    },
+    {
+      "species": "SPECIES_TAPU_FINI",
+      "encounter_id": 114,
+      "location": "Route 4",
+      "period": "all",
+      "slot": 11,
+      "chance": 1,
+      "category": "postgame rare",
+      "line": "pokemon SPECIES_TAPU_FINI",
+      "dex_kind": "routesandcities",
+      "dex_area": "DEX_ROUTE_4"
+    },
+    {
+      "species": "SPECIES_TAPU_KOKO",
+      "encounter_id": 105,
+      "location": "Route 28",
+      "period": "all",
+      "slot": 11,
+      "chance": 1,
+      "category": "postgame rare",
+      "line": "pokemon SPECIES_TAPU_KOKO",
+      "dex_kind": "routesandcities",
+      "dex_area": "DEX_ROUTE_28"
+    },
+    {
+      "species": "SPECIES_TAPU_LELE",
+      "encounter_id": 115,
+      "location": "Route 5",
+      "period": "all",
+      "slot": 10,
+      "chance": 1,
+      "category": "postgame rare",
+      "line": "pokemon SPECIES_TAPU_LELE",
+      "dex_kind": "routesandcities",
+      "dex_area": "DEX_ROUTE_5"
+    },
+    {
+      "species": "SPECIES_TERAPAGOS",
+      "encounter_id": 115,
+      "location": "Route 5",
+      "period": "all",
+      "slot": 11,
+      "chance": 1,
+      "category": "postgame rare",
+      "line": "pokemon SPECIES_TERAPAGOS",
+      "dex_kind": "routesandcities",
+      "dex_area": "DEX_ROUTE_5"
+    },
+    {
+      "species": "SPECIES_TERRAKION",
+      "encounter_id": 125,
+      "location": "Route 16",
+      "period": "all",
+      "slot": 10,
+      "chance": 1,
+      "category": "postgame rare",
+      "line": "pokemon SPECIES_TERRAKION",
+      "dex_kind": "routesandcities",
+      "dex_area": "DEX_ROUTE_16"
+    },
+    {
+      "species": "SPECIES_THUNDURUS",
+      "encounter_id": 125,
+      "location": "Route 16",
+      "period": "all",
+      "slot": 11,
+      "chance": 1,
+      "category": "postgame rare",
+      "line": "pokemon SPECIES_THUNDURUS",
+      "dex_kind": "routesandcities",
+      "dex_area": "DEX_ROUTE_16"
+    },
+    {
+      "species": "SPECIES_TING_LU",
+      "encounter_id": 116,
+      "location": "Route 6",
+      "period": "all",
+      "slot": 10,
+      "chance": 1,
+      "category": "postgame rare",
+      "line": "pokemon SPECIES_TING_LU",
+      "dex_kind": "routesandcities",
+      "dex_area": "DEX_ROUTE_6"
+    },
+    {
+      "species": "SPECIES_TORNADUS",
+      "encounter_id": 126,
+      "location": "Route 17",
+      "period": "all",
+      "slot": 10,
+      "chance": 1,
+      "category": "postgame rare",
+      "line": "pokemon SPECIES_TORNADUS",
+      "dex_kind": "routesandcities",
+      "dex_area": "DEX_ROUTE_17"
+    },
+    {
+      "species": "SPECIES_TYPE_NULL",
+      "encounter_id": 116,
+      "location": "Route 6",
+      "period": "all",
+      "slot": 11,
+      "chance": 1,
+      "category": "postgame rare",
+      "line": "pokemon SPECIES_TYPE_NULL",
+      "dex_kind": "routesandcities",
+      "dex_area": "DEX_ROUTE_6"
+    },
+    {
+      "species": "SPECIES_UNFEZANT",
+      "encounter_id": 126,
+      "location": "Route 17",
+      "period": "all",
+      "slot": 11,
+      "chance": 1,
+      "category": "postgame rare",
+      "line": "pokemon SPECIES_UNFEZANT",
+      "dex_kind": "routesandcities",
+      "dex_area": "DEX_ROUTE_17"
+    },
+    {
+      "species": "SPECIES_UXIE",
+      "encounter_id": 117,
+      "location": "Route 7",
+      "period": "all",
+      "slot": 10,
+      "chance": 1,
+      "category": "postgame rare",
+      "line": "pokemon SPECIES_UXIE",
+      "dex_kind": "routesandcities",
+      "dex_area": "DEX_ROUTE_7"
+    },
+    {
+      "species": "SPECIES_VICTINI",
+      "encounter_id": 117,
+      "location": "Route 7",
+      "period": "all",
+      "slot": 11,
+      "chance": 1,
+      "category": "postgame rare",
+      "line": "pokemon SPECIES_VICTINI",
+      "dex_kind": "routesandcities",
+      "dex_area": "DEX_ROUTE_7"
+    },
+    {
+      "species": "SPECIES_VIRIZION",
+      "encounter_id": 127,
+      "location": "Route 18",
+      "period": "all",
+      "slot": 10,
+      "chance": 1,
+      "category": "postgame rare",
+      "line": "pokemon SPECIES_VIRIZION",
+      "dex_kind": "routesandcities",
+      "dex_area": "DEX_ROUTE_18"
+    },
+    {
+      "species": "SPECIES_VOLCANION",
+      "encounter_id": 44,
+      "location": "Whirl Islands B1F",
+      "period": "all",
+      "slot": 11,
+      "chance": 1,
+      "category": "postgame rare",
+      "line": "pokemon SPECIES_VOLCANION",
+      "dex_kind": "specialareas",
+      "dex_area": "DEX_WHIRL_ISLANDS"
+    },
+    {
+      "species": "SPECIES_WALKING_WAKE",
+      "encounter_id": 46,
+      "location": "Whirl Islands B2F",
+      "period": "all",
+      "slot": 10,
+      "chance": 1,
+      "category": "postgame rare",
+      "line": "pokemon SPECIES_WALKING_WAKE",
+      "dex_kind": "specialareas",
+      "dex_area": "DEX_WHIRL_ISLANDS"
+    },
+    {
+      "species": "SPECIES_WO_CHIEN",
+      "encounter_id": 118,
+      "location": "Route 8",
+      "period": "all",
+      "slot": 10,
+      "chance": 1,
+      "category": "postgame rare",
+      "line": "pokemon SPECIES_WO_CHIEN",
+      "dex_kind": "routesandcities",
+      "dex_area": "DEX_ROUTE_8"
+    },
+    {
+      "species": "SPECIES_XERNEAS",
+      "encounter_id": 127,
+      "location": "Route 18",
+      "period": "all",
+      "slot": 11,
+      "chance": 1,
+      "category": "postgame rare",
+      "line": "pokemon SPECIES_XERNEAS",
+      "dex_kind": "routesandcities",
+      "dex_area": "DEX_ROUTE_18"
+    },
+    {
+      "species": "SPECIES_XURKITREE",
+      "encounter_id": 118,
+      "location": "Route 8",
+      "period": "all",
+      "slot": 11,
+      "chance": 1,
+      "category": "postgame rare",
+      "line": "pokemon SPECIES_XURKITREE",
+      "dex_kind": "routesandcities",
+      "dex_area": "DEX_ROUTE_8"
+    },
+    {
+      "species": "SPECIES_YVELTAL",
+      "encounter_id": 121,
+      "location": "Route 11",
+      "period": "all",
+      "slot": 10,
+      "chance": 1,
+      "category": "postgame rare",
+      "line": "pokemon SPECIES_YVELTAL",
+      "dex_kind": "routesandcities",
+      "dex_area": "DEX_ROUTE_11"
+    },
+    {
+      "species": "SPECIES_ZACIAN",
+      "encounter_id": 121,
+      "location": "Route 11",
+      "period": "all",
+      "slot": 11,
+      "chance": 1,
+      "category": "postgame rare",
+      "line": "pokemon SPECIES_ZACIAN",
+      "dex_kind": "routesandcities",
+      "dex_area": "DEX_ROUTE_11"
+    },
+    {
+      "species": "SPECIES_ZAMAZENTA",
+      "encounter_id": 122,
+      "location": "Route 13",
+      "period": "all",
+      "slot": 10,
+      "chance": 1,
+      "category": "postgame rare",
+      "line": "pokemon SPECIES_ZAMAZENTA",
+      "dex_kind": "routesandcities",
+      "dex_area": "DEX_ROUTE_13"
+    },
+    {
+      "species": "SPECIES_ZARUDE",
+      "encounter_id": 123,
+      "location": "Route 14",
+      "period": "all",
+      "slot": 10,
+      "chance": 1,
+      "category": "postgame rare",
+      "line": "pokemon SPECIES_ZARUDE",
+      "dex_kind": "routesandcities",
+      "dex_area": "DEX_ROUTE_14"
+    },
+    {
+      "species": "SPECIES_ZEKROM",
+      "encounter_id": 124,
+      "location": "Route 15",
+      "period": "all",
+      "slot": 10,
+      "chance": 1,
+      "category": "postgame rare",
+      "line": "pokemon SPECIES_ZEKROM",
+      "dex_kind": "routesandcities",
+      "dex_area": "DEX_ROUTE_15"
+    },
+    {
+      "species": "SPECIES_ZERAORA",
+      "encounter_id": 128,
+      "location": "Route 21",
+      "period": "all",
+      "slot": 10,
+      "chance": 1,
+      "category": "postgame rare",
+      "line": "pokemon SPECIES_ZERAORA",
+      "dex_kind": "routesandcities",
+      "dex_area": "DEX_ROUTE_21"
+    },
+    {
+      "species": "SPECIES_ZYGARDE",
+      "encounter_id": 128,
+      "location": "Route 21",
+      "period": "all",
+      "slot": 11,
+      "chance": 1,
+      "category": "postgame rare",
+      "line": "pokemon SPECIES_ZYGARDE",
+      "dex_kind": "routesandcities",
+      "dex_area": "DEX_ROUTE_21"
+    },
+    {
+      "species": "SPECIES_ARTICUNO_GALARIAN",
+      "encounter_id": 129,
+      "location": "Route 22",
+      "period": "all",
+      "slot": 10,
+      "chance": 1,
+      "category": "functional form postgame",
+      "line": "monwithform SPECIES_ARTICUNO, 1",
+      "dex_kind": "routesandcities",
+      "dex_area": "DEX_ROUTE_22"
+    },
+    {
+      "species": "SPECIES_AVALUGG_HISUIAN",
+      "encounter_id": 61,
+      "location": "Ice Path B1F",
+      "period": "all",
+      "slot": 10,
+      "chance": 1,
+      "category": "functional form postgame",
+      "line": "monwithform SPECIES_AVALUGG, 1",
+      "dex_kind": "specialareas",
+      "dex_area": "DEX_ICE_PATH"
+    },
+    {
+      "species": "SPECIES_BRAVIARY_HISUIAN",
+      "encounter_id": 129,
+      "location": "Route 22",
+      "period": "all",
+      "slot": 11,
+      "chance": 1,
+      "category": "functional form postgame",
+      "line": "monwithform SPECIES_BRAVIARY, 1",
+      "dex_kind": "routesandcities",
+      "dex_area": "DEX_ROUTE_22"
+    },
+    {
+      "species": "SPECIES_CORSOLA_GALARIAN",
+      "encounter_id": 6,
+      "location": "Sprout Tower 2F",
+      "period": "night",
+      "slot": 6,
+      "chance": 5,
+      "category": "functional regional form",
+      "line": "monwithform SPECIES_CORSOLA, 1",
+      "dex_kind": "specialareas",
+      "dex_area": "DEX_SPROUT_TOWER"
+    },
+    {
+      "species": "SPECIES_DARUMAKA_GALARIAN",
+      "encounter_id": 6,
+      "location": "Sprout Tower 2F",
+      "period": "morning",
+      "slot": 7,
+      "chance": 5,
+      "category": "functional regional form",
+      "line": "monwithform SPECIES_DARUMAKA, 1",
+      "dex_kind": "specialareas",
+      "dex_area": "DEX_SPROUT_TOWER"
+    },
+    {
+      "species": "SPECIES_DECIDUEYE_HISUIAN",
+      "encounter_id": 46,
+      "location": "Whirl Islands B2F",
+      "period": "all",
+      "slot": 11,
+      "chance": 1,
+      "category": "functional form postgame",
+      "line": "monwithform SPECIES_DECIDUEYE, 1",
+      "dex_kind": "specialareas",
+      "dex_area": "DEX_WHIRL_ISLANDS"
+    },
+    {
+      "species": "SPECIES_DIGLETT_ALOLAN",
+      "encounter_id": 6,
+      "location": "Sprout Tower 2F",
+      "period": "day",
+      "slot": 7,
+      "chance": 5,
+      "category": "functional regional form",
+      "line": "monwithform SPECIES_DIGLETT, 1",
+      "dex_kind": "specialareas",
+      "dex_area": "DEX_SPROUT_TOWER"
+    },
+    {
+      "species": "SPECIES_EXEGGUTOR_ALOLAN",
+      "encounter_id": 6,
+      "location": "Sprout Tower 2F",
+      "period": "night",
+      "slot": 7,
+      "chance": 5,
+      "category": "functional regional form",
+      "line": "monwithform SPECIES_EXEGGUTOR, 1",
+      "dex_kind": "specialareas",
+      "dex_area": "DEX_SPROUT_TOWER"
+    },
+    {
+      "species": "SPECIES_FARFETCHD_GALARIAN",
+      "encounter_id": 6,
+      "location": "Sprout Tower 2F",
+      "period": "morning",
+      "slot": 9,
+      "chance": 4,
+      "category": "functional regional form",
+      "line": "monwithform SPECIES_FARFETCHD, 1",
+      "dex_kind": "specialareas",
+      "dex_area": "DEX_SPROUT_TOWER"
+    },
+    {
+      "species": "SPECIES_GEODUDE_ALOLAN",
+      "encounter_id": 6,
+      "location": "Sprout Tower 2F",
+      "period": "day",
+      "slot": 9,
+      "chance": 4,
+      "category": "functional regional form",
+      "line": "monwithform SPECIES_GEODUDE, 1",
+      "dex_kind": "specialareas",
+      "dex_area": "DEX_SPROUT_TOWER"
+    },
+    {
+      "species": "SPECIES_GRIMER_ALOLAN",
+      "encounter_id": 6,
+      "location": "Sprout Tower 2F",
+      "period": "night",
+      "slot": 9,
+      "chance": 4,
+      "category": "functional regional form",
+      "line": "monwithform SPECIES_GRIMER, 1",
+      "dex_kind": "specialareas",
+      "dex_area": "DEX_SPROUT_TOWER"
+    },
+    {
+      "species": "SPECIES_GROWLITHE_HISUIAN",
+      "encounter_id": 7,
+      "location": "Sprout Tower 3F",
+      "period": "night",
+      "slot": 6,
+      "chance": 5,
+      "category": "functional regional form",
+      "line": "monwithform SPECIES_GROWLITHE, 1",
+      "dex_kind": "specialareas",
+      "dex_area": "DEX_SPROUT_TOWER"
+    },
+    {
+      "species": "SPECIES_LILLIGANT_HISUIAN",
+      "encounter_id": 48,
+      "location": "Whirl Islands B3F (Ledge overlooking Lugia room)",
+      "period": "all",
+      "slot": 11,
+      "chance": 1,
+      "category": "functional form postgame",
+      "line": "monwithform SPECIES_LILLIGANT, 1",
+      "dex_kind": "specialareas",
+      "dex_area": "DEX_WHIRL_ISLANDS"
+    },
+    {
+      "species": "SPECIES_MAROWAK_ALOLAN",
+      "encounter_id": 7,
+      "location": "Sprout Tower 3F",
+      "period": "morning",
+      "slot": 7,
+      "chance": 5,
+      "category": "functional regional form",
+      "line": "monwithform SPECIES_MAROWAK, 1",
+      "dex_kind": "specialareas",
+      "dex_area": "DEX_SPROUT_TOWER"
+    },
+    {
+      "species": "SPECIES_MEOWTH_ALOLAN",
+      "encounter_id": 7,
+      "location": "Sprout Tower 3F",
+      "period": "day",
+      "slot": 7,
+      "chance": 5,
+      "category": "functional regional form",
+      "line": "monwithform SPECIES_MEOWTH, 1",
+      "dex_kind": "specialareas",
+      "dex_area": "DEX_SPROUT_TOWER"
+    },
+    {
+      "species": "SPECIES_MEOWTH_GALARIAN",
+      "encounter_id": 7,
+      "location": "Sprout Tower 3F",
+      "period": "night",
+      "slot": 7,
+      "chance": 5,
+      "category": "functional regional form",
+      "line": "monwithform SPECIES_MEOWTH, 2",
+      "dex_kind": "specialareas",
+      "dex_area": "DEX_SPROUT_TOWER"
+    },
+    {
+      "species": "SPECIES_MOLTRES_GALARIAN",
+      "encounter_id": 53,
+      "location": "Mt. Mortar (Waterfall room)",
+      "period": "all",
+      "slot": 10,
+      "chance": 1,
+      "category": "functional form postgame",
+      "line": "monwithform SPECIES_MOLTRES, 1",
+      "dex_kind": "specialareas",
+      "dex_area": "DEX_MT_MORTAR"
+    },
+    {
+      "species": "SPECIES_MR_MIME_GALARIAN",
+      "encounter_id": 7,
+      "location": "Sprout Tower 3F",
+      "period": "morning",
+      "slot": 9,
+      "chance": 4,
+      "category": "functional regional form",
+      "line": "monwithform SPECIES_MR_MIME, 1",
+      "dex_kind": "specialareas",
+      "dex_area": "DEX_SPROUT_TOWER"
+    },
+    {
+      "species": "SPECIES_PONYTA_GALARIAN",
+      "encounter_id": 7,
+      "location": "Sprout Tower 3F",
+      "period": "day",
+      "slot": 9,
+      "chance": 4,
+      "category": "functional regional form",
+      "line": "monwithform SPECIES_PONYTA, 1",
+      "dex_kind": "specialareas",
+      "dex_area": "DEX_SPROUT_TOWER"
+    },
+    {
+      "species": "SPECIES_QWILFISH_HISUIAN",
+      "encounter_id": 7,
+      "location": "Sprout Tower 3F",
+      "period": "night",
+      "slot": 9,
+      "chance": 4,
+      "category": "functional regional form",
+      "line": "monwithform SPECIES_QWILFISH, 1",
+      "dex_kind": "specialareas",
+      "dex_area": "DEX_SPROUT_TOWER"
+    },
+    {
+      "species": "SPECIES_RAICHU_ALOLAN",
+      "encounter_id": 8,
+      "location": "Route 32",
+      "period": "morning",
+      "slot": 7,
+      "chance": 5,
+      "category": "functional regional form",
+      "line": "monwithform SPECIES_RAICHU, 1",
+      "dex_kind": "routesandcities",
+      "dex_area": "DEX_ROUTE_32"
+    },
+    {
+      "species": "SPECIES_RATTATA_ALOLAN",
+      "encounter_id": 8,
+      "location": "Route 32",
+      "period": "day",
+      "slot": 7,
+      "chance": 5,
+      "category": "functional regional form",
+      "line": "monwithform SPECIES_RATTATA, 1",
+      "dex_kind": "routesandcities",
+      "dex_area": "DEX_ROUTE_32"
+    },
+    {
+      "species": "SPECIES_SAMUROTT_HISUIAN",
+      "encounter_id": 53,
+      "location": "Mt. Mortar (Waterfall room)",
+      "period": "all",
+      "slot": 11,
+      "chance": 1,
+      "category": "functional form postgame",
+      "line": "monwithform SPECIES_SAMUROTT, 1",
+      "dex_kind": "specialareas",
+      "dex_area": "DEX_MT_MORTAR"
+    },
+    {
+      "species": "SPECIES_SANDSHREW_ALOLAN",
+      "encounter_id": 8,
+      "location": "Route 32",
+      "period": "night",
+      "slot": 7,
+      "chance": 5,
+      "category": "functional regional form",
+      "line": "monwithform SPECIES_SANDSHREW, 1",
+      "dex_kind": "routesandcities",
+      "dex_area": "DEX_ROUTE_32"
+    },
+    {
+      "species": "SPECIES_SLIGGOO_HISUIAN",
+      "encounter_id": 54,
+      "location": "Mt. Mortar (Central room)",
+      "period": "all",
+      "slot": 10,
+      "chance": 1,
+      "category": "functional form postgame",
+      "line": "monwithform SPECIES_SLIGGOO, 1",
+      "dex_kind": "specialareas",
+      "dex_area": "DEX_MT_MORTAR"
+    },
+    {
+      "species": "SPECIES_SLOWPOKE_GALARIAN",
+      "encounter_id": 8,
+      "location": "Route 32",
+      "period": "morning",
+      "slot": 8,
+      "chance": 4,
+      "category": "functional regional form",
+      "line": "monwithform SPECIES_SLOWPOKE, 1",
+      "dex_kind": "routesandcities",
+      "dex_area": "DEX_ROUTE_32"
+    },
+    {
+      "species": "SPECIES_SNEASEL_HISUIAN",
+      "encounter_id": 8,
+      "location": "Route 32",
+      "period": "day",
+      "slot": 8,
+      "chance": 4,
+      "category": "functional regional form",
+      "line": "monwithform SPECIES_SNEASEL, 1",
+      "dex_kind": "routesandcities",
+      "dex_area": "DEX_ROUTE_32"
+    },
+    {
+      "species": "SPECIES_STUNFISK_GALARIAN",
+      "encounter_id": 8,
+      "location": "Route 32",
+      "period": "night",
+      "slot": 8,
+      "chance": 4,
+      "category": "functional regional form",
+      "line": "monwithform SPECIES_STUNFISK, 1",
+      "dex_kind": "routesandcities",
+      "dex_area": "DEX_ROUTE_32"
+    },
+    {
+      "species": "SPECIES_TYPHLOSION_HISUIAN",
+      "encounter_id": 54,
+      "location": "Mt. Mortar (Central room)",
+      "period": "all",
+      "slot": 11,
+      "chance": 1,
+      "category": "functional form postgame",
+      "line": "monwithform SPECIES_TYPHLOSION, 1",
+      "dex_kind": "specialareas",
+      "dex_area": "DEX_MT_MORTAR"
+    },
+    {
+      "species": "SPECIES_VOLTORB_HISUIAN",
+      "encounter_id": 8,
+      "location": "Route 32",
+      "period": "morning",
+      "slot": 9,
+      "chance": 4,
+      "category": "functional regional form",
+      "line": "monwithform SPECIES_VOLTORB, 1",
+      "dex_kind": "routesandcities",
+      "dex_area": "DEX_ROUTE_32"
+    },
+    {
+      "species": "SPECIES_VULPIX_ALOLAN",
+      "encounter_id": 8,
+      "location": "Route 32",
+      "period": "day",
+      "slot": 9,
+      "chance": 4,
+      "category": "functional regional form",
+      "line": "monwithform SPECIES_VULPIX, 1",
+      "dex_kind": "routesandcities",
+      "dex_area": "DEX_ROUTE_32"
+    },
+    {
+      "species": "SPECIES_WEEZING_GALARIAN",
+      "encounter_id": 8,
+      "location": "Route 32",
+      "period": "night",
+      "slot": 9,
+      "chance": 4,
+      "category": "functional regional form",
+      "line": "monwithform SPECIES_WEEZING, 1",
+      "dex_kind": "routesandcities",
+      "dex_area": "DEX_ROUTE_32"
+    },
+    {
+      "species": "SPECIES_WOOPER_PALDEAN",
+      "encounter_id": 9,
+      "location": "Ruins of Alph (Outside)",
+      "period": "morning",
+      "slot": 6,
+      "chance": 5,
+      "category": "functional regional form",
+      "line": "monwithform SPECIES_WOOPER, 1",
+      "dex_kind": "specialareas",
+      "dex_area": "DEX_RUINS_OF_ALPH"
+    },
+    {
+      "species": "SPECIES_YAMASK_GALARIAN",
+      "encounter_id": 9,
+      "location": "Ruins of Alph (Outside)",
+      "period": "day",
+      "slot": 6,
+      "chance": 5,
+      "category": "functional regional form",
+      "line": "monwithform SPECIES_YAMASK, 1",
+      "dex_kind": "specialareas",
+      "dex_area": "DEX_RUINS_OF_ALPH"
+    },
+    {
+      "species": "SPECIES_ZAPDOS_GALARIAN",
+      "encounter_id": 55,
+      "location": "Mt. Mortar (Room above waterfall)",
+      "period": "all",
+      "slot": 10,
+      "chance": 1,
+      "category": "functional form postgame",
+      "line": "monwithform SPECIES_ZAPDOS, 1",
+      "dex_kind": "specialareas",
+      "dex_area": "DEX_MT_MORTAR"
+    },
+    {
+      "species": "SPECIES_ZIGZAGOON_GALARIAN",
+      "encounter_id": 9,
+      "location": "Ruins of Alph (Outside)",
+      "period": "night",
+      "slot": 6,
+      "chance": 5,
+      "category": "functional regional form",
+      "line": "monwithform SPECIES_ZIGZAGOON, 1",
+      "dex_kind": "specialareas",
+      "dex_area": "DEX_RUINS_OF_ALPH"
+    },
+    {
+      "species": "SPECIES_ZORUA_HISUIAN",
+      "encounter_id": 9,
+      "location": "Ruins of Alph (Outside)",
+      "period": "morning",
+      "slot": 7,
+      "chance": 5,
+      "category": "functional regional form",
+      "line": "monwithform SPECIES_ZORUA, 1",
+      "dex_kind": "specialareas",
+      "dex_area": "DEX_RUINS_OF_ALPH"
+    }
+  ],
+  "notes": {
+    "automatic_battle_forms": "not separate capture targets",
+    "cosmetic_forms": "not separate capture targets",
+    "frame_rate": "60 FPS hacks remain disabled"
+  },
+  "ability_substitutions": [
+    {
+      "species": "SPECIES_YAMPER",
+      "original": "ABILITY_BALL_FETCH",
+      "replacement": "ABILITY_PICKUP"
+    },
+    {
+      "species": "SPECIES_TATSUGIRI",
+      "original": "ABILITY_COMMANDER",
+      "replacement": "ABILITY_STORM_DRAIN"
+    },
+    {
+      "species": "SPECIES_ORICORIO",
+      "original": "ABILITY_DANCER",
+      "replacement": "ABILITY_OWN_TEMPO"
+    },
+    {
+      "species": "SPECIES_ORICORIO_POM_POM",
+      "original": "ABILITY_DANCER",
+      "replacement": "ABILITY_OWN_TEMPO"
+    },
+    {
+      "species": "SPECIES_ORICORIO_PAU",
+      "original": "ABILITY_DANCER",
+      "replacement": "ABILITY_OWN_TEMPO"
+    },
+    {
+      "species": "SPECIES_ORICORIO_SENSU",
+      "original": "ABILITY_DANCER",
+      "replacement": "ABILITY_OWN_TEMPO"
+    },
+    {
+      "species": "SPECIES_STUNFISK_GALARIAN",
+      "original": "ABILITY_MIMICRY",
+      "replacement": "ABILITY_MAGNET_PULL"
+    },
+    {
+      "species": "SPECIES_TERAPAGOS",
+      "original": "ABILITY_TERA_SHIFT",
+      "replacement": "ABILITY_FILTER"
+    }
+  ]
+}

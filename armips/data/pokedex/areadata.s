@@ -387,6 +387,7 @@ specialareas SPECIES_BULBASAUR, DEX_NIGHT
 
 
 routesandcities SPECIES_BULBASAUR, DEX_MORNING
+    .word DEX_ROUTE_34
     dexendareadata
 
 
@@ -419,6 +420,7 @@ specialareas SPECIES_IVYSAUR, DEX_NIGHT
 
 
 routesandcities SPECIES_IVYSAUR, DEX_MORNING
+    .word DEX_ROUTE_34
     dexendareadata
 
 
@@ -451,6 +453,7 @@ specialareas SPECIES_VENUSAUR, DEX_NIGHT
 
 
 routesandcities SPECIES_VENUSAUR, DEX_MORNING
+    .word DEX_ROUTE_34
     dexendareadata
 
 
@@ -491,6 +494,7 @@ routesandcities SPECIES_CHARMANDER, DEX_DAY
 
 
 routesandcities SPECIES_CHARMANDER, DEX_NIGHT
+    .word DEX_ROUTE_34
     dexendareadata
 
 
@@ -523,6 +527,7 @@ routesandcities SPECIES_CHARMELEON, DEX_DAY
 
 
 routesandcities SPECIES_CHARMELEON, DEX_NIGHT
+    .word DEX_ROUTE_34
     dexendareadata
 
 
@@ -555,6 +560,7 @@ routesandcities SPECIES_CHARIZARD, DEX_DAY
 
 
 routesandcities SPECIES_CHARIZARD, DEX_NIGHT
+    .word DEX_ROUTE_34
     dexendareadata
 
 
@@ -583,6 +589,7 @@ routesandcities SPECIES_SQUIRTLE, DEX_MORNING
 
 
 routesandcities SPECIES_SQUIRTLE, DEX_DAY
+    .word DEX_ROUTE_34
     dexendareadata
 
 
@@ -615,6 +622,7 @@ routesandcities SPECIES_WARTORTLE, DEX_MORNING
 
 
 routesandcities SPECIES_WARTORTLE, DEX_DAY
+    .word DEX_ROUTE_34
     dexendareadata
 
 
@@ -647,6 +655,7 @@ routesandcities SPECIES_BLASTOISE, DEX_MORNING
 
 
 routesandcities SPECIES_BLASTOISE, DEX_DAY
+    .word DEX_ROUTE_34
     dexendareadata
 
 
@@ -663,26 +672,24 @@ routesandcities SPECIES_BLASTOISE, DEX_SPECIAL
 
 
 specialareas SPECIES_CATERPIE, DEX_MORNING
-    .word DEX_ILEX_FOREST
     .word DEX_NATIONAL_PARK
     .word DEX_VIRIDIAN_FOREST
     dexendareadata
 
 
 specialareas SPECIES_CATERPIE, DEX_DAY
-    .word DEX_ILEX_FOREST
     .word DEX_NATIONAL_PARK
     .word DEX_VIRIDIAN_FOREST
     dexendareadata
 
 
 specialareas SPECIES_CATERPIE, DEX_NIGHT
+    .word DEX_NATIONAL_PARK
     dexendareadata
 
 
 routesandcities SPECIES_CATERPIE, DEX_MORNING
     .word DEX_ROUTE_30
-    .word DEX_ROUTE_31
     .word DEX_ROUTE_2
     .word DEX_ROUTE_2_2
     dexendareadata
@@ -690,7 +697,6 @@ routesandcities SPECIES_CATERPIE, DEX_MORNING
 
 routesandcities SPECIES_CATERPIE, DEX_DAY
     .word DEX_ROUTE_30
-    .word DEX_ROUTE_31
     .word DEX_ROUTE_2
     .word DEX_ROUTE_2_2
     dexendareadata
@@ -710,26 +716,24 @@ routesandcities SPECIES_CATERPIE, DEX_SPECIAL
 
 
 specialareas SPECIES_METAPOD, DEX_MORNING
-    .word DEX_ILEX_FOREST
     .word DEX_NATIONAL_PARK
     .word DEX_VIRIDIAN_FOREST
     dexendareadata
 
 
 specialareas SPECIES_METAPOD, DEX_DAY
-    .word DEX_ILEX_FOREST
     .word DEX_NATIONAL_PARK
     .word DEX_VIRIDIAN_FOREST
     dexendareadata
 
 
 specialareas SPECIES_METAPOD, DEX_NIGHT
+    .word DEX_NATIONAL_PARK
     dexendareadata
 
 
 routesandcities SPECIES_METAPOD, DEX_MORNING
     .word DEX_ROUTE_30
-    .word DEX_ROUTE_31
     .word DEX_ROUTE_2
     .word DEX_ROUTE_2_2
     dexendareadata
@@ -737,8 +741,8 @@ routesandcities SPECIES_METAPOD, DEX_MORNING
 
 routesandcities SPECIES_METAPOD, DEX_DAY
     .word DEX_ROUTE_30
-    .word DEX_ROUTE_31
     .word DEX_ROUTE_2
+    .word DEX_ROUTE_2_2
     dexendareadata
 
 
@@ -757,25 +761,32 @@ routesandcities SPECIES_METAPOD, DEX_SPECIAL
 
 
 specialareas SPECIES_BUTTERFREE, DEX_MORNING
+    .word DEX_NATIONAL_PARK
     .word DEX_VIRIDIAN_FOREST
     dexendareadata
 
 
 specialareas SPECIES_BUTTERFREE, DEX_DAY
+    .word DEX_NATIONAL_PARK
+    .word DEX_VIRIDIAN_FOREST
     dexendareadata
 
 
 specialareas SPECIES_BUTTERFREE, DEX_NIGHT
+    .word DEX_NATIONAL_PARK
     dexendareadata
 
 
 routesandcities SPECIES_BUTTERFREE, DEX_MORNING
+    .word DEX_ROUTE_30
     .word DEX_ROUTE_2
     .word DEX_ROUTE_2_2
     dexendareadata
 
 
 routesandcities SPECIES_BUTTERFREE, DEX_DAY
+    .word DEX_ROUTE_30
+    .word DEX_ROUTE_2
     .word DEX_ROUTE_2_2
     dexendareadata
 
@@ -807,10 +818,12 @@ specialareas SPECIES_WEEDLE, DEX_NIGHT
 
 
 routesandcities SPECIES_WEEDLE, DEX_MORNING
+    .word DEX_ROUTE_30
     dexendareadata
 
 
 routesandcities SPECIES_WEEDLE, DEX_DAY
+    .word DEX_ROUTE_30
     dexendareadata
 
 
@@ -839,10 +852,12 @@ specialareas SPECIES_KAKUNA, DEX_NIGHT
 
 
 routesandcities SPECIES_KAKUNA, DEX_MORNING
+    .word DEX_ROUTE_30
     dexendareadata
 
 
 routesandcities SPECIES_KAKUNA, DEX_DAY
+    .word DEX_ROUTE_30
     dexendareadata
 
 
@@ -871,10 +886,12 @@ specialareas SPECIES_BEEDRILL, DEX_NIGHT
 
 
 routesandcities SPECIES_BEEDRILL, DEX_MORNING
+    .word DEX_ROUTE_30
     dexendareadata
 
 
 routesandcities SPECIES_BEEDRILL, DEX_DAY
+    .word DEX_ROUTE_30
     dexendareadata
 
 
@@ -891,13 +908,11 @@ routesandcities SPECIES_BEEDRILL, DEX_SPECIAL
 
 
 specialareas SPECIES_PIDGEY, DEX_MORNING
-    .word DEX_NATIONAL_PARK
     .word DEX_VIRIDIAN_FOREST
     dexendareadata
 
 
 specialareas SPECIES_PIDGEY, DEX_DAY
-    .word DEX_NATIONAL_PARK
     .word DEX_VIRIDIAN_FOREST
     dexendareadata
 
@@ -908,11 +923,6 @@ specialareas SPECIES_PIDGEY, DEX_NIGHT
 
 routesandcities SPECIES_PIDGEY, DEX_MORNING
     .word DEX_ROUTE_29
-    .word DEX_ROUTE_30
-    .word DEX_ROUTE_31
-    .word DEX_ROUTE_35
-    .word DEX_ROUTE_36
-    .word DEX_ROUTE_37
     .word DEX_ROUTE_1
     .word DEX_ROUTE_2
     .word DEX_ROUTE_5
@@ -924,11 +934,6 @@ routesandcities SPECIES_PIDGEY, DEX_MORNING
 
 routesandcities SPECIES_PIDGEY, DEX_DAY
     .word DEX_ROUTE_29
-    .word DEX_ROUTE_30
-    .word DEX_ROUTE_31
-    .word DEX_ROUTE_35
-    .word DEX_ROUTE_36
-    .word DEX_ROUTE_37
     .word DEX_ROUTE_1
     .word DEX_ROUTE_2
     .word DEX_ROUTE_5
@@ -965,8 +970,11 @@ specialareas SPECIES_PIDGEOTTO, DEX_NIGHT
 
 
 routesandcities SPECIES_PIDGEOTTO, DEX_MORNING
-    .word DEX_ROUTE_43
+    .word DEX_ROUTE_29
+    .word DEX_ROUTE_1
     .word DEX_ROUTE_2
+    .word DEX_ROUTE_5
+    .word DEX_ROUTE_6
     .word DEX_ROUTE_8
     .word DEX_ROUTE_13
     .word DEX_ROUTE_14
@@ -977,9 +985,11 @@ routesandcities SPECIES_PIDGEOTTO, DEX_MORNING
 
 
 routesandcities SPECIES_PIDGEOTTO, DEX_DAY
-    .word DEX_ROUTE_37
-    .word DEX_ROUTE_43
+    .word DEX_ROUTE_29
+    .word DEX_ROUTE_1
     .word DEX_ROUTE_2
+    .word DEX_ROUTE_5
+    .word DEX_ROUTE_6
     .word DEX_ROUTE_8
     .word DEX_ROUTE_13
     .word DEX_ROUTE_14
@@ -1002,10 +1012,12 @@ routesandcities SPECIES_PIDGEOTTO, DEX_SPECIAL
 
 
 specialareas SPECIES_PIDGEOT, DEX_MORNING
+    .word DEX_VIRIDIAN_FOREST
     dexendareadata
 
 
 specialareas SPECIES_PIDGEOT, DEX_DAY
+    .word DEX_VIRIDIAN_FOREST
     dexendareadata
 
 
@@ -1014,10 +1026,32 @@ specialareas SPECIES_PIDGEOT, DEX_NIGHT
 
 
 routesandcities SPECIES_PIDGEOT, DEX_MORNING
+    .word DEX_ROUTE_29
+    .word DEX_ROUTE_1
+    .word DEX_ROUTE_2
+    .word DEX_ROUTE_5
+    .word DEX_ROUTE_6
+    .word DEX_ROUTE_8
+    .word DEX_ROUTE_13
+    .word DEX_ROUTE_14
+    .word DEX_ROUTE_15
+    .word DEX_ROUTE_25
+    .word DEX_ROUTE_2_2
     dexendareadata
 
 
 routesandcities SPECIES_PIDGEOT, DEX_DAY
+    .word DEX_ROUTE_29
+    .word DEX_ROUTE_1
+    .word DEX_ROUTE_2
+    .word DEX_ROUTE_5
+    .word DEX_ROUTE_6
+    .word DEX_ROUTE_8
+    .word DEX_ROUTE_13
+    .word DEX_ROUTE_14
+    .word DEX_ROUTE_15
+    .word DEX_ROUTE_25
+    .word DEX_ROUTE_2_2
     dexendareadata
 
 
@@ -1034,9 +1068,7 @@ routesandcities SPECIES_PIDGEOT, DEX_SPECIAL
 
 
 specialareas SPECIES_RATTATA, DEX_MORNING
-    .word DEX_SPROUT_TOWER
     .word DEX_UNION_CAVE
-    .word DEX_BURNED_TOWER
     .word DEX_BELL_TOWER
     .word DEX_MT_MORTAR
     .word DEX_TOHJO_FALLS
@@ -1044,9 +1076,7 @@ specialareas SPECIES_RATTATA, DEX_MORNING
 
 
 specialareas SPECIES_RATTATA, DEX_DAY
-    .word DEX_SPROUT_TOWER
     .word DEX_UNION_CAVE
-    .word DEX_BURNED_TOWER
     .word DEX_BELL_TOWER
     .word DEX_MT_MORTAR
     .word DEX_TOHJO_FALLS
@@ -1054,9 +1084,7 @@ specialareas SPECIES_RATTATA, DEX_DAY
 
 
 specialareas SPECIES_RATTATA, DEX_NIGHT
-    .word DEX_SPROUT_TOWER
     .word DEX_UNION_CAVE
-    .word DEX_BURNED_TOWER
     .word DEX_BELL_TOWER
     .word DEX_MT_MORTAR
     .word DEX_TOHJO_FALLS
@@ -1065,12 +1093,6 @@ specialareas SPECIES_RATTATA, DEX_NIGHT
 
 routesandcities SPECIES_RATTATA, DEX_MORNING
     .word DEX_ROUTE_29
-    .word DEX_ROUTE_32
-    .word DEX_ROUTE_33
-    .word DEX_ROUTE_34
-    .word DEX_ROUTE_38
-    .word DEX_ROUTE_39
-    .word DEX_ROUTE_46
     .word DEX_ROUTE_1
     .word DEX_ROUTE_3
     .word DEX_ROUTE_4
@@ -1084,11 +1106,6 @@ routesandcities SPECIES_RATTATA, DEX_MORNING
 routesandcities SPECIES_RATTATA, DEX_DAY
     .word DEX_ROUTE_29
     .word DEX_ROUTE_32
-    .word DEX_ROUTE_33
-    .word DEX_ROUTE_34
-    .word DEX_ROUTE_38
-    .word DEX_ROUTE_39
-    .word DEX_ROUTE_46
     .word DEX_ROUTE_1
     .word DEX_ROUTE_3
     .word DEX_ROUTE_4
@@ -1101,14 +1118,6 @@ routesandcities SPECIES_RATTATA, DEX_DAY
 
 routesandcities SPECIES_RATTATA, DEX_NIGHT
     .word DEX_ROUTE_29
-    .word DEX_ROUTE_30
-    .word DEX_ROUTE_31
-    .word DEX_ROUTE_32
-    .word DEX_ROUTE_33
-    .word DEX_ROUTE_34
-    .word DEX_ROUTE_38
-    .word DEX_ROUTE_39
-    .word DEX_ROUTE_46
     .word DEX_ROUTE_1
     .word DEX_ROUTE_3
     .word DEX_ROUTE_4
@@ -1129,7 +1138,7 @@ routesandcities SPECIES_RATTATA, DEX_SPECIAL
 
 specialareas SPECIES_RATICATE, DEX_MORNING
     .word DEX_UNION_CAVE
-    .word DEX_BURNED_TOWER
+    .word DEX_BELL_TOWER
     .word DEX_MT_MORTAR
     .word DEX_TOHJO_FALLS
     dexendareadata
@@ -1137,7 +1146,7 @@ specialareas SPECIES_RATICATE, DEX_MORNING
 
 specialareas SPECIES_RATICATE, DEX_DAY
     .word DEX_UNION_CAVE
-    .word DEX_BURNED_TOWER
+    .word DEX_BELL_TOWER
     .word DEX_MT_MORTAR
     .word DEX_TOHJO_FALLS
     dexendareadata
@@ -1145,45 +1154,55 @@ specialareas SPECIES_RATICATE, DEX_DAY
 
 specialareas SPECIES_RATICATE, DEX_NIGHT
     .word DEX_UNION_CAVE
-    .word DEX_BURNED_TOWER
+    .word DEX_BELL_TOWER
     .word DEX_MT_MORTAR
     .word DEX_TOHJO_FALLS
     dexendareadata
 
 
 routesandcities SPECIES_RATICATE, DEX_MORNING
-    .word DEX_ROUTE_38
-    .word DEX_ROUTE_39
-    .word DEX_ROUTE_47
+    .word DEX_ROUTE_29
     .word DEX_ROUTE_26
     .word DEX_ROUTE_27
+    .word DEX_ROUTE_1
+    .word DEX_ROUTE_3
+    .word DEX_ROUTE_4
     .word DEX_ROUTE_7
     .word DEX_ROUTE_9
     .word DEX_ROUTE_10
+    .word DEX_ROUTE_11
+    .word DEX_ROUTE_22
     dexendareadata
 
 
 routesandcities SPECIES_RATICATE, DEX_DAY
-    .word DEX_ROUTE_38
-    .word DEX_ROUTE_39
-    .word DEX_ROUTE_47
+    .word DEX_ROUTE_29
+    .word DEX_ROUTE_32
     .word DEX_ROUTE_26
     .word DEX_ROUTE_27
+    .word DEX_ROUTE_1
+    .word DEX_ROUTE_3
+    .word DEX_ROUTE_4
     .word DEX_ROUTE_7
     .word DEX_ROUTE_9
     .word DEX_ROUTE_10
+    .word DEX_ROUTE_11
+    .word DEX_ROUTE_22
     dexendareadata
 
 
 routesandcities SPECIES_RATICATE, DEX_NIGHT
-    .word DEX_ROUTE_38
-    .word DEX_ROUTE_39
-    .word DEX_ROUTE_47
+    .word DEX_ROUTE_29
     .word DEX_ROUTE_26
     .word DEX_ROUTE_27
+    .word DEX_ROUTE_1
+    .word DEX_ROUTE_3
+    .word DEX_ROUTE_4
     .word DEX_ROUTE_7
     .word DEX_ROUTE_9
     .word DEX_ROUTE_10
+    .word DEX_ROUTE_11
+    .word DEX_ROUTE_22
     dexendareadata
 
 
@@ -1208,10 +1227,6 @@ specialareas SPECIES_SPEAROW, DEX_NIGHT
 
 
 routesandcities SPECIES_SPEAROW, DEX_MORNING
-    .word DEX_ROUTE_33
-    .word DEX_ROUTE_42
-    .word DEX_ROUTE_46
-    .word DEX_ROUTE_47
     .word DEX_ROUTE_3
     .word DEX_ROUTE_4
     .word DEX_ROUTE_7
@@ -1222,10 +1237,6 @@ routesandcities SPECIES_SPEAROW, DEX_MORNING
 
 
 routesandcities SPECIES_SPEAROW, DEX_DAY
-    .word DEX_ROUTE_33
-    .word DEX_ROUTE_42
-    .word DEX_ROUTE_46
-    .word DEX_ROUTE_47
     .word DEX_ROUTE_3
     .word DEX_ROUTE_4
     .word DEX_ROUTE_7
@@ -1236,7 +1247,6 @@ routesandcities SPECIES_SPEAROW, DEX_DAY
 
 
 routesandcities SPECIES_SPEAROW, DEX_NIGHT
-    .word DEX_ROUTE_47
     .word DEX_ROUTE_4
     dexendareadata
 
@@ -1274,8 +1284,9 @@ specialareas SPECIES_FEAROW, DEX_NIGHT
 
 
 routesandcities SPECIES_FEAROW, DEX_MORNING
-    .word DEX_ROUTE_47
-    .word DEX_ROUTE_48
+    .word DEX_ROUTE_3
+    .word DEX_ROUTE_4
+    .word DEX_ROUTE_7
     .word DEX_ROUTE_9
     .word DEX_ROUTE_10
     .word DEX_ROUTE_16
@@ -1286,8 +1297,9 @@ routesandcities SPECIES_FEAROW, DEX_MORNING
 
 
 routesandcities SPECIES_FEAROW, DEX_DAY
-    .word DEX_ROUTE_47
-    .word DEX_ROUTE_48
+    .word DEX_ROUTE_3
+    .word DEX_ROUTE_4
+    .word DEX_ROUTE_7
     .word DEX_ROUTE_9
     .word DEX_ROUTE_10
     .word DEX_ROUTE_16
@@ -1298,8 +1310,7 @@ routesandcities SPECIES_FEAROW, DEX_DAY
 
 
 routesandcities SPECIES_FEAROW, DEX_NIGHT
-    .word DEX_ROUTE_47
-    .word DEX_ROUTE_48
+    .word DEX_ROUTE_4
     dexendareadata
 
 
@@ -1332,6 +1343,7 @@ routesandcities SPECIES_EKANS, DEX_DAY
 
 
 routesandcities SPECIES_EKANS, DEX_NIGHT
+    .word DEX_ROUTE_46
     dexendareadata
 
 
@@ -1364,6 +1376,7 @@ routesandcities SPECIES_ARBOK, DEX_DAY
 
 
 routesandcities SPECIES_ARBOK, DEX_NIGHT
+    .word DEX_ROUTE_46
     dexendareadata
 
 
@@ -1391,10 +1404,12 @@ specialareas SPECIES_PIKACHU, DEX_NIGHT
 
 
 routesandcities SPECIES_PIKACHU, DEX_MORNING
+    .word DEX_ROUTE_33
     dexendareadata
 
 
 routesandcities SPECIES_PIKACHU, DEX_DAY
+    .word DEX_ROUTE_33
     dexendareadata
 
 
@@ -1411,22 +1426,28 @@ routesandcities SPECIES_PIKACHU, DEX_SPECIAL
 
 
 specialareas SPECIES_RAICHU, DEX_MORNING
+    .word DEX_VIRIDIAN_FOREST
     dexendareadata
 
 
 specialareas SPECIES_RAICHU, DEX_DAY
+    .word DEX_VIRIDIAN_FOREST
     dexendareadata
 
 
 specialareas SPECIES_RAICHU, DEX_NIGHT
+    .word DEX_VIRIDIAN_FOREST
     dexendareadata
 
 
 routesandcities SPECIES_RAICHU, DEX_MORNING
+    .word DEX_ROUTE_32
+    .word DEX_ROUTE_33
     dexendareadata
 
 
 routesandcities SPECIES_RAICHU, DEX_DAY
+    .word DEX_ROUTE_33
     dexendareadata
 
 
@@ -1443,19 +1464,18 @@ routesandcities SPECIES_RAICHU, DEX_SPECIAL
 
 
 specialareas SPECIES_SANDSHREW, DEX_MORNING
-    .word DEX_UNION_CAVE
+    .word DEX_DARK_CAVE
     .word DEX_MT_MOON
     dexendareadata
 
 
 specialareas SPECIES_SANDSHREW, DEX_DAY
-    .word DEX_UNION_CAVE
+    .word DEX_DARK_CAVE
     .word DEX_MT_MOON
     dexendareadata
 
 
 specialareas SPECIES_SANDSHREW, DEX_NIGHT
-    .word DEX_UNION_CAVE
     .word DEX_MT_MOON
     dexendareadata
 
@@ -1469,6 +1489,8 @@ routesandcities SPECIES_SANDSHREW, DEX_DAY
 
 
 routesandcities SPECIES_SANDSHREW, DEX_NIGHT
+    .word DEX_ROUTE_32
+    .word DEX_ROUTE_35
     dexendareadata
 
 
@@ -1481,11 +1503,13 @@ routesandcities SPECIES_SANDSHREW, DEX_SPECIAL
 
 
 specialareas SPECIES_SANDSLASH, DEX_MORNING
+    .word DEX_DARK_CAVE
     .word DEX_MT_MOON
     dexendareadata
 
 
 specialareas SPECIES_SANDSLASH, DEX_DAY
+    .word DEX_DARK_CAVE
     .word DEX_MT_MOON
     dexendareadata
 
@@ -1508,6 +1532,8 @@ routesandcities SPECIES_SANDSLASH, DEX_DAY
 
 
 routesandcities SPECIES_SANDSLASH, DEX_NIGHT
+    .word DEX_ROUTE_32
+    .word DEX_ROUTE_35
     .word DEX_ROUTE_26
     .word DEX_ROUTE_27
     dexendareadata
@@ -1534,20 +1560,16 @@ specialareas SPECIES_NIDORAN_F, DEX_NIGHT
 
 
 routesandcities SPECIES_NIDORAN_F, DEX_MORNING
-    .word DEX_ROUTE_35
-    .word DEX_ROUTE_36
+    .word DEX_ROUTE_46
     dexendareadata
 
 
 routesandcities SPECIES_NIDORAN_F, DEX_DAY
-    .word DEX_ROUTE_35
-    .word DEX_ROUTE_36
+    .word DEX_ROUTE_46
     dexendareadata
 
 
 routesandcities SPECIES_NIDORAN_F, DEX_NIGHT
-    .word DEX_ROUTE_35
-    .word DEX_ROUTE_36
     dexendareadata
 
 
@@ -1572,6 +1594,7 @@ specialareas SPECIES_NIDORINA, DEX_NIGHT
 
 
 routesandcities SPECIES_NIDORINA, DEX_MORNING
+    .word DEX_ROUTE_46
     .word DEX_ROUTE_13
     .word DEX_ROUTE_14
     .word DEX_ROUTE_15
@@ -1579,6 +1602,7 @@ routesandcities SPECIES_NIDORINA, DEX_MORNING
 
 
 routesandcities SPECIES_NIDORINA, DEX_DAY
+    .word DEX_ROUTE_46
     .word DEX_ROUTE_13
     .word DEX_ROUTE_14
     .word DEX_ROUTE_15
@@ -1613,14 +1637,25 @@ specialareas SPECIES_NIDOQUEEN, DEX_NIGHT
 
 
 routesandcities SPECIES_NIDOQUEEN, DEX_MORNING
+    .word DEX_ROUTE_46
+    .word DEX_ROUTE_13
+    .word DEX_ROUTE_14
+    .word DEX_ROUTE_15
     dexendareadata
 
 
 routesandcities SPECIES_NIDOQUEEN, DEX_DAY
+    .word DEX_ROUTE_46
+    .word DEX_ROUTE_13
+    .word DEX_ROUTE_14
+    .word DEX_ROUTE_15
     dexendareadata
 
 
 routesandcities SPECIES_NIDOQUEEN, DEX_NIGHT
+    .word DEX_ROUTE_13
+    .word DEX_ROUTE_14
+    .word DEX_ROUTE_15
     dexendareadata
 
 
@@ -1645,20 +1680,15 @@ specialareas SPECIES_NIDORAN_M, DEX_NIGHT
 
 
 routesandcities SPECIES_NIDORAN_M, DEX_MORNING
-    .word DEX_ROUTE_35
-    .word DEX_ROUTE_36
     dexendareadata
 
 
 routesandcities SPECIES_NIDORAN_M, DEX_DAY
-    .word DEX_ROUTE_35
-    .word DEX_ROUTE_36
     dexendareadata
 
 
 routesandcities SPECIES_NIDORAN_M, DEX_NIGHT
-    .word DEX_ROUTE_35
-    .word DEX_ROUTE_36
+    .word DEX_ROUTE_46
     dexendareadata
 
 
@@ -1697,6 +1727,7 @@ routesandcities SPECIES_NIDORINO, DEX_DAY
 
 
 routesandcities SPECIES_NIDORINO, DEX_NIGHT
+    .word DEX_ROUTE_46
     .word DEX_ROUTE_13
     .word DEX_ROUTE_14
     .word DEX_ROUTE_15
@@ -1724,14 +1755,24 @@ specialareas SPECIES_NIDOKING, DEX_NIGHT
 
 
 routesandcities SPECIES_NIDOKING, DEX_MORNING
+    .word DEX_ROUTE_13
+    .word DEX_ROUTE_14
+    .word DEX_ROUTE_15
     dexendareadata
 
 
 routesandcities SPECIES_NIDOKING, DEX_DAY
+    .word DEX_ROUTE_13
+    .word DEX_ROUTE_14
+    .word DEX_ROUTE_15
     dexendareadata
 
 
 routesandcities SPECIES_NIDOKING, DEX_NIGHT
+    .word DEX_ROUTE_46
+    .word DEX_ROUTE_13
+    .word DEX_ROUTE_14
+    .word DEX_ROUTE_15
     dexendareadata
 
 
@@ -1767,6 +1808,7 @@ routesandcities SPECIES_CLEFAIRY, DEX_DAY
 
 
 routesandcities SPECIES_CLEFAIRY, DEX_NIGHT
+    .word DEX_ROUTE_33
     dexendareadata
 
 
@@ -1779,14 +1821,17 @@ routesandcities SPECIES_CLEFAIRY, DEX_SPECIAL
 
 
 specialareas SPECIES_CLEFABLE, DEX_MORNING
+    .word DEX_MT_MOON
     dexendareadata
 
 
 specialareas SPECIES_CLEFABLE, DEX_DAY
+    .word DEX_MT_MOON
     dexendareadata
 
 
 specialareas SPECIES_CLEFABLE, DEX_NIGHT
+    .word DEX_MT_MOON
     dexendareadata
 
 
@@ -1799,6 +1844,7 @@ routesandcities SPECIES_CLEFABLE, DEX_DAY
 
 
 routesandcities SPECIES_CLEFABLE, DEX_NIGHT
+    .word DEX_ROUTE_33
     dexendareadata
 
 
@@ -1811,14 +1857,17 @@ routesandcities SPECIES_CLEFABLE, DEX_SPECIAL
 
 
 specialareas SPECIES_VULPIX, DEX_MORNING
+    .word DEX_SPROUT_TOWER
     dexendareadata
 
 
 specialareas SPECIES_VULPIX, DEX_DAY
+    .word DEX_SPROUT_TOWER
     dexendareadata
 
 
 specialareas SPECIES_VULPIX, DEX_NIGHT
+    .word DEX_DARK_CAVE
     dexendareadata
 
 
@@ -1827,6 +1876,7 @@ routesandcities SPECIES_VULPIX, DEX_MORNING
 
 
 routesandcities SPECIES_VULPIX, DEX_DAY
+    .word DEX_ROUTE_32
     dexendareadata
 
 
@@ -1843,14 +1893,17 @@ routesandcities SPECIES_VULPIX, DEX_SPECIAL
 
 
 specialareas SPECIES_NINETALES, DEX_MORNING
+    .word DEX_SPROUT_TOWER
     dexendareadata
 
 
 specialareas SPECIES_NINETALES, DEX_DAY
+    .word DEX_SPROUT_TOWER
     dexendareadata
 
 
 specialareas SPECIES_NINETALES, DEX_NIGHT
+    .word DEX_DARK_CAVE
     dexendareadata
 
 
@@ -1859,6 +1912,7 @@ routesandcities SPECIES_NINETALES, DEX_MORNING
 
 
 routesandcities SPECIES_NINETALES, DEX_DAY
+    .word DEX_ROUTE_32
     dexendareadata
 
 
@@ -1887,12 +1941,14 @@ specialareas SPECIES_JIGGLYPUFF, DEX_NIGHT
 
 
 routesandcities SPECIES_JIGGLYPUFF, DEX_MORNING
+    .word DEX_ROUTE_33
     .word DEX_ROUTE_3
     .word DEX_ROUTE_4
     dexendareadata
 
 
 routesandcities SPECIES_JIGGLYPUFF, DEX_DAY
+    .word DEX_ROUTE_33
     .word DEX_ROUTE_3
     .word DEX_ROUTE_4
     dexendareadata
@@ -1925,14 +1981,22 @@ specialareas SPECIES_WIGGLYTUFF, DEX_NIGHT
 
 
 routesandcities SPECIES_WIGGLYTUFF, DEX_MORNING
+    .word DEX_ROUTE_33
+    .word DEX_ROUTE_3
+    .word DEX_ROUTE_4
     dexendareadata
 
 
 routesandcities SPECIES_WIGGLYTUFF, DEX_DAY
+    .word DEX_ROUTE_33
+    .word DEX_ROUTE_3
+    .word DEX_ROUTE_4
     dexendareadata
 
 
 routesandcities SPECIES_WIGGLYTUFF, DEX_NIGHT
+    .word DEX_ROUTE_3
+    .word DEX_ROUTE_4
     dexendareadata
 
 
@@ -1947,14 +2011,12 @@ routesandcities SPECIES_WIGGLYTUFF, DEX_SPECIAL
 specialareas SPECIES_ZUBAT, DEX_MORNING
     .word DEX_UNION_CAVE
     .word DEX_SLOWPOKE_WELL
-    .word DEX_ILEX_FOREST
-    .word DEX_BURNED_TOWER
     .word DEX_WHIRL_ISLANDS
     .word DEX_MT_MORTAR
     .word DEX_ICE_PATH
     .word DEX_DARK_CAVE
-    .word DEX_SEAFOAM_ISLANDS
     .word DEX_MT_MOON
+    .word DEX_SEAFOAM_ISLANDS
     .word DEX_ROCK_TUNNEL
     .word DEX_TOHJO_FALLS
     dexendareadata
@@ -1963,14 +2025,12 @@ specialareas SPECIES_ZUBAT, DEX_MORNING
 specialareas SPECIES_ZUBAT, DEX_DAY
     .word DEX_UNION_CAVE
     .word DEX_SLOWPOKE_WELL
-    .word DEX_ILEX_FOREST
-    .word DEX_BURNED_TOWER
     .word DEX_WHIRL_ISLANDS
     .word DEX_MT_MORTAR
     .word DEX_ICE_PATH
     .word DEX_DARK_CAVE
-    .word DEX_SEAFOAM_ISLANDS
     .word DEX_MT_MOON
+    .word DEX_SEAFOAM_ISLANDS
     .word DEX_ROCK_TUNNEL
     .word DEX_TOHJO_FALLS
     dexendareadata
@@ -1979,23 +2039,19 @@ specialareas SPECIES_ZUBAT, DEX_DAY
 specialareas SPECIES_ZUBAT, DEX_NIGHT
     .word DEX_UNION_CAVE
     .word DEX_SLOWPOKE_WELL
-    .word DEX_ILEX_FOREST
-    .word DEX_BURNED_TOWER
     .word DEX_WHIRL_ISLANDS
     .word DEX_MT_MORTAR
     .word DEX_ICE_PATH
     .word DEX_DARK_CAVE
+    .word DEX_MT_MOON
     .word DEX_SEAFOAM_ISLANDS
     .word DEX_CLIFF_CAVE
-    .word DEX_MT_MOON
     .word DEX_ROCK_TUNNEL
     .word DEX_TOHJO_FALLS
     dexendareadata
 
 
 routesandcities SPECIES_ZUBAT, DEX_MORNING
-    .word DEX_ROUTE_32
-    .word DEX_ROUTE_33
     dexendareadata
 
 
@@ -2004,9 +2060,6 @@ routesandcities SPECIES_ZUBAT, DEX_DAY
 
 
 routesandcities SPECIES_ZUBAT, DEX_NIGHT
-    .word DEX_ROUTE_32
-    .word DEX_ROUTE_33
-    .word DEX_ROUTE_42
     .word DEX_ROUTE_3
     .word DEX_ROUTE_4
     dexendareadata
@@ -2027,9 +2080,11 @@ specialareas SPECIES_GOLBAT, DEX_MORNING
     .word DEX_MT_MORTAR
     .word DEX_ICE_PATH
     .word DEX_DARK_CAVE
+    .word DEX_MT_MOON
     .word DEX_SEAFOAM_ISLANDS
     .word DEX_MT_SILVER_CAVE
     .word DEX_CLIFF_CAVE
+    .word DEX_ROCK_TUNNEL
     .word DEX_VICTORY_ROAD
     .word DEX_TOHJO_FALLS
     .word DEX_CERULEAN_CAVE
@@ -2043,9 +2098,11 @@ specialareas SPECIES_GOLBAT, DEX_DAY
     .word DEX_MT_MORTAR
     .word DEX_ICE_PATH
     .word DEX_DARK_CAVE
+    .word DEX_MT_MOON
     .word DEX_SEAFOAM_ISLANDS
     .word DEX_MT_SILVER_CAVE
     .word DEX_CLIFF_CAVE
+    .word DEX_ROCK_TUNNEL
     .word DEX_VICTORY_ROAD
     .word DEX_TOHJO_FALLS
     .word DEX_CERULEAN_CAVE
@@ -2059,9 +2116,11 @@ specialareas SPECIES_GOLBAT, DEX_NIGHT
     .word DEX_MT_MORTAR
     .word DEX_ICE_PATH
     .word DEX_DARK_CAVE
+    .word DEX_MT_MOON
     .word DEX_SEAFOAM_ISLANDS
     .word DEX_MT_SILVER_CAVE
     .word DEX_CLIFF_CAVE
+    .word DEX_ROCK_TUNNEL
     .word DEX_VICTORY_ROAD
     .word DEX_TOHJO_FALLS
     .word DEX_CERULEAN_CAVE
@@ -2069,14 +2128,19 @@ specialareas SPECIES_GOLBAT, DEX_NIGHT
 
 
 routesandcities SPECIES_GOLBAT, DEX_MORNING
+    .word DEX_MT_SILVER
     dexendareadata
 
 
 routesandcities SPECIES_GOLBAT, DEX_DAY
+    .word DEX_MT_SILVER
     dexendareadata
 
 
 routesandcities SPECIES_GOLBAT, DEX_NIGHT
+    .word DEX_MT_SILVER
+    .word DEX_ROUTE_3
+    .word DEX_ROUTE_4
     dexendareadata
 
 
@@ -2089,15 +2153,16 @@ routesandcities SPECIES_GOLBAT, DEX_SPECIAL
 
 
 specialareas SPECIES_ODDISH, DEX_MORNING
+    .word DEX_SPROUT_TOWER
     dexendareadata
 
 
 specialareas SPECIES_ODDISH, DEX_DAY
+    .word DEX_SPROUT_TOWER
     dexendareadata
 
 
 specialareas SPECIES_ODDISH, DEX_NIGHT
-    .word DEX_ILEX_FOREST
     dexendareadata
 
 
@@ -2126,10 +2191,12 @@ routesandcities SPECIES_ODDISH, DEX_SPECIAL
 
 
 specialareas SPECIES_GLOOM, DEX_MORNING
+    .word DEX_SPROUT_TOWER
     dexendareadata
 
 
 specialareas SPECIES_GLOOM, DEX_DAY
+    .word DEX_SPROUT_TOWER
     dexendareadata
 
 
@@ -2138,21 +2205,18 @@ specialareas SPECIES_GLOOM, DEX_NIGHT
 
 
 routesandcities SPECIES_GLOOM, DEX_MORNING
-    .word DEX_ROUTE_47
-    .word DEX_ROUTE_48
     dexendareadata
 
 
 routesandcities SPECIES_GLOOM, DEX_DAY
-    .word DEX_ROUTE_47
-    .word DEX_ROUTE_48
     dexendareadata
 
 
 routesandcities SPECIES_GLOOM, DEX_NIGHT
-    .word DEX_ROUTE_47
-    .word DEX_ROUTE_48
     .word DEX_ROUTE_5
+    .word DEX_ROUTE_6
+    .word DEX_ROUTE_24
+    .word DEX_ROUTE_25
     dexendareadata
 
 
@@ -2165,10 +2229,12 @@ routesandcities SPECIES_GLOOM, DEX_SPECIAL
 
 
 specialareas SPECIES_VILEPLUME, DEX_MORNING
+    .word DEX_SPROUT_TOWER
     dexendareadata
 
 
 specialareas SPECIES_VILEPLUME, DEX_DAY
+    .word DEX_SPROUT_TOWER
     dexendareadata
 
 
@@ -2185,6 +2251,10 @@ routesandcities SPECIES_VILEPLUME, DEX_DAY
 
 
 routesandcities SPECIES_VILEPLUME, DEX_NIGHT
+    .word DEX_ROUTE_5
+    .word DEX_ROUTE_6
+    .word DEX_ROUTE_24
+    .word DEX_ROUTE_25
     dexendareadata
 
 
@@ -2197,19 +2267,17 @@ routesandcities SPECIES_VILEPLUME, DEX_SPECIAL
 
 
 specialareas SPECIES_PARAS, DEX_MORNING
-    .word DEX_ILEX_FOREST
     .word DEX_MT_MOON
     dexendareadata
 
 
 specialareas SPECIES_PARAS, DEX_DAY
-    .word DEX_ILEX_FOREST
     .word DEX_MT_MOON
     dexendareadata
 
 
 specialareas SPECIES_PARAS, DEX_NIGHT
-    .word DEX_ILEX_FOREST
+    .word DEX_UNION_CAVE
     .word DEX_MT_MOON
     dexendareadata
 
@@ -2235,16 +2303,20 @@ routesandcities SPECIES_PARAS, DEX_SPECIAL
 
 
 specialareas SPECIES_PARASECT, DEX_MORNING
+    .word DEX_MT_MOON
     .word DEX_CERULEAN_CAVE
     dexendareadata
 
 
 specialareas SPECIES_PARASECT, DEX_DAY
+    .word DEX_MT_MOON
     .word DEX_CERULEAN_CAVE
     dexendareadata
 
 
 specialareas SPECIES_PARASECT, DEX_NIGHT
+    .word DEX_UNION_CAVE
+    .word DEX_MT_MOON
     .word DEX_CERULEAN_CAVE
     dexendareadata
 
@@ -2282,7 +2354,6 @@ specialareas SPECIES_VENONAT, DEX_NIGHT
 
 
 routesandcities SPECIES_VENONAT, DEX_MORNING
-    .word DEX_ROUTE_43
     .word DEX_ROUTE_24
     .word DEX_ROUTE_25
     dexendareadata
@@ -2293,7 +2364,7 @@ routesandcities SPECIES_VENONAT, DEX_DAY
 
 
 routesandcities SPECIES_VENONAT, DEX_NIGHT
-    .word DEX_ROUTE_43
+    .word DEX_ROUTE_30
     .word DEX_ROUTE_24
     .word DEX_ROUTE_25
     dexendareadata
@@ -2322,6 +2393,8 @@ specialareas SPECIES_VENOMOTH, DEX_NIGHT
 
 
 routesandcities SPECIES_VENOMOTH, DEX_MORNING
+    .word DEX_ROUTE_24
+    .word DEX_ROUTE_25
     dexendareadata
 
 
@@ -2330,6 +2403,7 @@ routesandcities SPECIES_VENOMOTH, DEX_DAY
 
 
 routesandcities SPECIES_VENOMOTH, DEX_NIGHT
+    .word DEX_ROUTE_30
     .word DEX_ROUTE_24
     .word DEX_ROUTE_25
     dexendareadata
@@ -2344,35 +2418,36 @@ routesandcities SPECIES_VENOMOTH, DEX_SPECIAL
 
 
 specialareas SPECIES_DIGLETT, DEX_MORNING
+    .word DEX_DARK_CAVE
     .word DEX_DIGLETTS_CAVE
     dexendareadata
 
 
 specialareas SPECIES_DIGLETT, DEX_DAY
+    .word DEX_SPROUT_TOWER
+    .word DEX_DARK_CAVE
     .word DEX_DIGLETTS_CAVE
     dexendareadata
 
 
 specialareas SPECIES_DIGLETT, DEX_NIGHT
+    .word DEX_DARK_CAVE
     .word DEX_DIGLETTS_CAVE
     dexendareadata
 
 
 routesandcities SPECIES_DIGLETT, DEX_MORNING
     .word DEX_VERMILION_CITY
-    .word DEX_ROUTE_48
     dexendareadata
 
 
 routesandcities SPECIES_DIGLETT, DEX_DAY
     .word DEX_VERMILION_CITY
-    .word DEX_ROUTE_48
     dexendareadata
 
 
 routesandcities SPECIES_DIGLETT, DEX_NIGHT
     .word DEX_VERMILION_CITY
-    .word DEX_ROUTE_48
     dexendareadata
 
 
@@ -2385,29 +2460,36 @@ routesandcities SPECIES_DIGLETT, DEX_SPECIAL
 
 
 specialareas SPECIES_DUGTRIO, DEX_MORNING
+    .word DEX_DARK_CAVE
     .word DEX_DIGLETTS_CAVE
     dexendareadata
 
 
 specialareas SPECIES_DUGTRIO, DEX_DAY
+    .word DEX_SPROUT_TOWER
+    .word DEX_DARK_CAVE
     .word DEX_DIGLETTS_CAVE
     dexendareadata
 
 
 specialareas SPECIES_DUGTRIO, DEX_NIGHT
+    .word DEX_DARK_CAVE
     .word DEX_DIGLETTS_CAVE
     dexendareadata
 
 
 routesandcities SPECIES_DUGTRIO, DEX_MORNING
+    .word DEX_VERMILION_CITY
     dexendareadata
 
 
 routesandcities SPECIES_DUGTRIO, DEX_DAY
+    .word DEX_VERMILION_CITY
     dexendareadata
 
 
 routesandcities SPECIES_DUGTRIO, DEX_NIGHT
+    .word DEX_VERMILION_CITY
     dexendareadata
 
 
@@ -2420,14 +2502,19 @@ routesandcities SPECIES_DUGTRIO, DEX_SPECIAL
 
 
 specialareas SPECIES_MEOWTH, DEX_MORNING
+    .word DEX_DARK_CAVE
     dexendareadata
 
 
 specialareas SPECIES_MEOWTH, DEX_DAY
+    .word DEX_SPROUT_TOWER
+    .word DEX_DARK_CAVE
     dexendareadata
 
 
 specialareas SPECIES_MEOWTH, DEX_NIGHT
+    .word DEX_SPROUT_TOWER
+    .word DEX_DARK_CAVE
     dexendareadata
 
 
@@ -2452,14 +2539,19 @@ routesandcities SPECIES_MEOWTH, DEX_SPECIAL
 
 
 specialareas SPECIES_PERSIAN, DEX_MORNING
+    .word DEX_DARK_CAVE
     dexendareadata
 
 
 specialareas SPECIES_PERSIAN, DEX_DAY
+    .word DEX_SPROUT_TOWER
+    .word DEX_DARK_CAVE
     dexendareadata
 
 
 specialareas SPECIES_PERSIAN, DEX_NIGHT
+    .word DEX_SPROUT_TOWER
+    .word DEX_DARK_CAVE
     dexendareadata
 
 
@@ -2484,6 +2576,7 @@ routesandcities SPECIES_PERSIAN, DEX_SPECIAL
 
 
 specialareas SPECIES_PSYDUCK, DEX_MORNING
+    .word DEX_SLOWPOKE_WELL
     .word DEX_ILEX_FOREST
     .word DEX_SEAFOAM_ISLANDS
     .word DEX_CERULEAN_CAVE
@@ -2491,6 +2584,7 @@ specialareas SPECIES_PSYDUCK, DEX_MORNING
 
 
 specialareas SPECIES_PSYDUCK, DEX_DAY
+    .word DEX_SLOWPOKE_WELL
     .word DEX_ILEX_FOREST
     .word DEX_SEAFOAM_ISLANDS
     .word DEX_CERULEAN_CAVE
@@ -2531,6 +2625,7 @@ routesandcities SPECIES_PSYDUCK, DEX_SPECIAL
 
 
 specialareas SPECIES_GOLDUCK, DEX_MORNING
+    .word DEX_SLOWPOKE_WELL
     .word DEX_ILEX_FOREST
     .word DEX_SEAFOAM_ISLANDS
     .word DEX_MT_SILVER_CAVE
@@ -2539,6 +2634,7 @@ specialareas SPECIES_GOLDUCK, DEX_MORNING
 
 
 specialareas SPECIES_GOLDUCK, DEX_DAY
+    .word DEX_SLOWPOKE_WELL
     .word DEX_ILEX_FOREST
     .word DEX_SEAFOAM_ISLANDS
     .word DEX_MT_SILVER_CAVE
@@ -2556,18 +2652,21 @@ specialareas SPECIES_GOLDUCK, DEX_NIGHT
 
 routesandcities SPECIES_GOLDUCK, DEX_MORNING
     .word DEX_ROUTE_35
+    .word DEX_MT_SILVER
     .word DEX_ROUTE_6
     dexendareadata
 
 
 routesandcities SPECIES_GOLDUCK, DEX_DAY
     .word DEX_ROUTE_35
+    .word DEX_MT_SILVER
     .word DEX_ROUTE_6
     dexendareadata
 
 
 routesandcities SPECIES_GOLDUCK, DEX_NIGHT
     .word DEX_ROUTE_35
+    .word DEX_MT_SILVER
     .word DEX_ROUTE_6
     dexendareadata
 
@@ -2593,19 +2692,17 @@ specialareas SPECIES_MANKEY, DEX_NIGHT
 
 
 routesandcities SPECIES_MANKEY, DEX_MORNING
-    .word DEX_ROUTE_42
     .word DEX_ROUTE_9
     dexendareadata
 
 
 routesandcities SPECIES_MANKEY, DEX_DAY
-    .word DEX_ROUTE_42
     .word DEX_ROUTE_9
     dexendareadata
 
 
 routesandcities SPECIES_MANKEY, DEX_NIGHT
-    .word DEX_ROUTE_42
+    .word DEX_ROUTE_35
     .word DEX_ROUTE_9
     dexendareadata
 
@@ -2644,6 +2741,7 @@ routesandcities SPECIES_PRIMEAPE, DEX_DAY
 
 
 routesandcities SPECIES_PRIMEAPE, DEX_NIGHT
+    .word DEX_ROUTE_35
     .word DEX_ROUTE_9
     dexendareadata
 
@@ -2657,39 +2755,34 @@ routesandcities SPECIES_PRIMEAPE, DEX_SPECIAL
 
 
 specialareas SPECIES_GROWLITHE, DEX_MORNING
+    .word DEX_BURNED_TOWER
     dexendareadata
 
 
 specialareas SPECIES_GROWLITHE, DEX_DAY
+    .word DEX_BURNED_TOWER
     dexendareadata
 
 
 specialareas SPECIES_GROWLITHE, DEX_NIGHT
+    .word DEX_SPROUT_TOWER
+    .word DEX_BURNED_TOWER
     dexendareadata
 
 
 routesandcities SPECIES_GROWLITHE, DEX_MORNING
-    .word DEX_ROUTE_36
-    .word DEX_ROUTE_37
-    .word DEX_ROUTE_48
     .word DEX_ROUTE_7
     .word DEX_ROUTE_8
     dexendareadata
 
 
 routesandcities SPECIES_GROWLITHE, DEX_DAY
-    .word DEX_ROUTE_36
-    .word DEX_ROUTE_37
-    .word DEX_ROUTE_48
     .word DEX_ROUTE_7
     .word DEX_ROUTE_8
     dexendareadata
 
 
 routesandcities SPECIES_GROWLITHE, DEX_NIGHT
-    .word DEX_ROUTE_36
-    .word DEX_ROUTE_37
-    .word DEX_ROUTE_48
     .word DEX_ROUTE_7
     .word DEX_ROUTE_8
     dexendareadata
@@ -2704,26 +2797,36 @@ routesandcities SPECIES_GROWLITHE, DEX_SPECIAL
 
 
 specialareas SPECIES_ARCANINE, DEX_MORNING
+    .word DEX_BURNED_TOWER
     dexendareadata
 
 
 specialareas SPECIES_ARCANINE, DEX_DAY
+    .word DEX_BURNED_TOWER
     dexendareadata
 
 
 specialareas SPECIES_ARCANINE, DEX_NIGHT
+    .word DEX_SPROUT_TOWER
+    .word DEX_BURNED_TOWER
     dexendareadata
 
 
 routesandcities SPECIES_ARCANINE, DEX_MORNING
+    .word DEX_ROUTE_7
+    .word DEX_ROUTE_8
     dexendareadata
 
 
 routesandcities SPECIES_ARCANINE, DEX_DAY
+    .word DEX_ROUTE_7
+    .word DEX_ROUTE_8
     dexendareadata
 
 
 routesandcities SPECIES_ARCANINE, DEX_NIGHT
+    .word DEX_ROUTE_7
+    .word DEX_ROUTE_8
     dexendareadata
 
 
@@ -2768,6 +2871,7 @@ routesandcities SPECIES_POLIWAG, DEX_MORNING
     .word DEX_VIOLET_CITY
     .word DEX_ROUTE_35
     .word DEX_ECRUTEAK_CITY
+    .word DEX_ROUTE_38
     .word DEX_ROUTE_43
     .word DEX_ROUTE_44
     .word DEX_BLACKTHORN_CITY
@@ -2786,6 +2890,7 @@ routesandcities SPECIES_POLIWAG, DEX_DAY
     .word DEX_VIOLET_CITY
     .word DEX_ROUTE_35
     .word DEX_ECRUTEAK_CITY
+    .word DEX_ROUTE_38
     .word DEX_ROUTE_43
     .word DEX_ROUTE_44
     .word DEX_BLACKTHORN_CITY
@@ -2804,6 +2909,7 @@ routesandcities SPECIES_POLIWAG, DEX_NIGHT
     .word DEX_VIOLET_CITY
     .word DEX_ROUTE_35
     .word DEX_ECRUTEAK_CITY
+    .word DEX_ROUTE_38
     .word DEX_ROUTE_43
     .word DEX_ROUTE_44
     .word DEX_BLACKTHORN_CITY
@@ -2825,16 +2931,29 @@ routesandcities SPECIES_POLIWAG, DEX_SPECIAL
 
 
 specialareas SPECIES_POLIWHIRL, DEX_MORNING
+    .word DEX_RUINS_OF_ALPH
+    .word DEX_ILEX_FOREST
+    .word DEX_MT_MOON
+    .word DEX_CLIFF_EDGE_GATE
     .word DEX_CERULEAN_CAVE
     dexendareadata
 
 
 specialareas SPECIES_POLIWHIRL, DEX_DAY
+    .word DEX_RUINS_OF_ALPH
+    .word DEX_ILEX_FOREST
+    .word DEX_MT_MOON
+    .word DEX_CLIFF_EDGE_GATE
     .word DEX_CERULEAN_CAVE
     dexendareadata
 
 
 specialareas SPECIES_POLIWHIRL, DEX_NIGHT
+    .word DEX_RUINS_OF_ALPH
+    .word DEX_ILEX_FOREST
+    .word DEX_MT_MOON
+    .word DEX_CLIFF_EDGE_GATE
+    .word DEX_CERULEAN_CAVE
     dexendareadata
 
 
@@ -2842,11 +2961,17 @@ routesandcities SPECIES_POLIWHIRL, DEX_MORNING
     .word DEX_ROUTE_30
     .word DEX_ROUTE_31
     .word DEX_VIOLET_CITY
+    .word DEX_ROUTE_35
     .word DEX_ECRUTEAK_CITY
+    .word DEX_ROUTE_38
+    .word DEX_ROUTE_43
     .word DEX_ROUTE_44
+    .word DEX_BLACKTHORN_CITY
+    .word DEX_ROUTE_45
     .word DEX_MT_SILVER
     .word DEX_VIRIDIAN_CITY
     .word DEX_ROUTE_28
+    .word DEX_ROUTE_6
     .word DEX_ROUTE_22
     dexendareadata
 
@@ -2855,11 +2980,17 @@ routesandcities SPECIES_POLIWHIRL, DEX_DAY
     .word DEX_ROUTE_30
     .word DEX_ROUTE_31
     .word DEX_VIOLET_CITY
+    .word DEX_ROUTE_35
     .word DEX_ECRUTEAK_CITY
+    .word DEX_ROUTE_38
+    .word DEX_ROUTE_43
     .word DEX_ROUTE_44
+    .word DEX_BLACKTHORN_CITY
+    .word DEX_ROUTE_45
     .word DEX_MT_SILVER
     .word DEX_VIRIDIAN_CITY
     .word DEX_ROUTE_28
+    .word DEX_ROUTE_6
     .word DEX_ROUTE_22
     dexendareadata
 
@@ -2868,11 +2999,17 @@ routesandcities SPECIES_POLIWHIRL, DEX_NIGHT
     .word DEX_ROUTE_30
     .word DEX_ROUTE_31
     .word DEX_VIOLET_CITY
+    .word DEX_ROUTE_35
     .word DEX_ECRUTEAK_CITY
+    .word DEX_ROUTE_38
+    .word DEX_ROUTE_43
     .word DEX_ROUTE_44
+    .word DEX_BLACKTHORN_CITY
+    .word DEX_ROUTE_45
     .word DEX_MT_SILVER
     .word DEX_VIRIDIAN_CITY
     .word DEX_ROUTE_28
+    .word DEX_ROUTE_6
     .word DEX_ROUTE_22
     dexendareadata
 
@@ -2886,26 +3023,86 @@ routesandcities SPECIES_POLIWHIRL, DEX_SPECIAL
 
 
 specialareas SPECIES_POLIWRATH, DEX_MORNING
+    .word DEX_RUINS_OF_ALPH
+    .word DEX_ILEX_FOREST
+    .word DEX_MT_MOON
+    .word DEX_CLIFF_EDGE_GATE
+    .word DEX_CERULEAN_CAVE
     dexendareadata
 
 
 specialareas SPECIES_POLIWRATH, DEX_DAY
+    .word DEX_RUINS_OF_ALPH
+    .word DEX_ILEX_FOREST
+    .word DEX_MT_MOON
+    .word DEX_CLIFF_EDGE_GATE
+    .word DEX_CERULEAN_CAVE
     dexendareadata
 
 
 specialareas SPECIES_POLIWRATH, DEX_NIGHT
+    .word DEX_RUINS_OF_ALPH
+    .word DEX_ILEX_FOREST
+    .word DEX_MT_MOON
+    .word DEX_CLIFF_EDGE_GATE
+    .word DEX_CERULEAN_CAVE
     dexendareadata
 
 
 routesandcities SPECIES_POLIWRATH, DEX_MORNING
+    .word DEX_ROUTE_30
+    .word DEX_ROUTE_31
+    .word DEX_VIOLET_CITY
+    .word DEX_ROUTE_35
+    .word DEX_ECRUTEAK_CITY
+    .word DEX_ROUTE_38
+    .word DEX_ROUTE_43
+    .word DEX_ROUTE_44
+    .word DEX_BLACKTHORN_CITY
+    .word DEX_ROUTE_45
+    .word DEX_MT_SILVER
+    .word DEX_VIRIDIAN_CITY
+    .word DEX_ROUTE_28
+    .word DEX_ROUTE_6
+    .word DEX_ROUTE_22
     dexendareadata
 
 
 routesandcities SPECIES_POLIWRATH, DEX_DAY
+    .word DEX_ROUTE_30
+    .word DEX_ROUTE_31
+    .word DEX_VIOLET_CITY
+    .word DEX_ROUTE_35
+    .word DEX_ECRUTEAK_CITY
+    .word DEX_ROUTE_38
+    .word DEX_ROUTE_43
+    .word DEX_ROUTE_44
+    .word DEX_BLACKTHORN_CITY
+    .word DEX_ROUTE_45
+    .word DEX_MT_SILVER
+    .word DEX_VIRIDIAN_CITY
+    .word DEX_ROUTE_28
+    .word DEX_ROUTE_6
+    .word DEX_ROUTE_22
     dexendareadata
 
 
 routesandcities SPECIES_POLIWRATH, DEX_NIGHT
+    .word DEX_ROUTE_30
+    .word DEX_ROUTE_31
+    .word DEX_VIOLET_CITY
+    .word DEX_ROUTE_35
+    .word DEX_ECRUTEAK_CITY
+    .word DEX_ROUTE_38
+    .word DEX_ROUTE_43
+    .word DEX_ROUTE_44
+    .word DEX_BLACKTHORN_CITY
+    .word DEX_ROUTE_45
+    .word DEX_MT_SILVER
+    .word DEX_VIRIDIAN_CITY
+    .word DEX_ROUTE_28
+    .word DEX_ROUTE_6
+    .word DEX_ROUTE_22
     dexendareadata
 
 
@@ -2918,20 +3115,21 @@ routesandcities SPECIES_POLIWRATH, DEX_SPECIAL
 
 
 specialareas SPECIES_ABRA, DEX_MORNING
+    .word DEX_SPROUT_TOWER
     dexendareadata
 
 
 specialareas SPECIES_ABRA, DEX_DAY
+    .word DEX_SPROUT_TOWER
     dexendareadata
 
 
 specialareas SPECIES_ABRA, DEX_NIGHT
+    .word DEX_SPROUT_TOWER
     dexendareadata
 
 
 routesandcities SPECIES_ABRA, DEX_MORNING
-    .word DEX_ROUTE_34
-    .word DEX_ROUTE_35
     .word DEX_ROUTE_5
     .word DEX_ROUTE_6
     .word DEX_ROUTE_8
@@ -2941,8 +3139,6 @@ routesandcities SPECIES_ABRA, DEX_MORNING
 
 
 routesandcities SPECIES_ABRA, DEX_DAY
-    .word DEX_ROUTE_34
-    .word DEX_ROUTE_35
     .word DEX_ROUTE_5
     .word DEX_ROUTE_6
     .word DEX_ROUTE_8
@@ -2952,8 +3148,6 @@ routesandcities SPECIES_ABRA, DEX_DAY
 
 
 routesandcities SPECIES_ABRA, DEX_NIGHT
-    .word DEX_ROUTE_34
-    .word DEX_ROUTE_35
     .word DEX_ROUTE_5
     .word DEX_ROUTE_6
     .word DEX_ROUTE_8
@@ -2971,32 +3165,47 @@ routesandcities SPECIES_ABRA, DEX_SPECIAL
 
 
 specialareas SPECIES_KADABRA, DEX_MORNING
+    .word DEX_SPROUT_TOWER
     .word DEX_CERULEAN_CAVE
     dexendareadata
 
 
 specialareas SPECIES_KADABRA, DEX_DAY
+    .word DEX_SPROUT_TOWER
     .word DEX_CERULEAN_CAVE
     dexendareadata
 
 
 specialareas SPECIES_KADABRA, DEX_NIGHT
+    .word DEX_SPROUT_TOWER
     .word DEX_CERULEAN_CAVE
     dexendareadata
 
 
 routesandcities SPECIES_KADABRA, DEX_MORNING
+    .word DEX_ROUTE_5
+    .word DEX_ROUTE_6
     .word DEX_ROUTE_8
+    .word DEX_ROUTE_24
+    .word DEX_ROUTE_25
     dexendareadata
 
 
 routesandcities SPECIES_KADABRA, DEX_DAY
+    .word DEX_ROUTE_5
+    .word DEX_ROUTE_6
     .word DEX_ROUTE_8
+    .word DEX_ROUTE_24
+    .word DEX_ROUTE_25
     dexendareadata
 
 
 routesandcities SPECIES_KADABRA, DEX_NIGHT
+    .word DEX_ROUTE_5
+    .word DEX_ROUTE_6
     .word DEX_ROUTE_8
+    .word DEX_ROUTE_24
+    .word DEX_ROUTE_25
     dexendareadata
 
 
@@ -3009,26 +3218,47 @@ routesandcities SPECIES_KADABRA, DEX_SPECIAL
 
 
 specialareas SPECIES_ALAKAZAM, DEX_MORNING
+    .word DEX_SPROUT_TOWER
+    .word DEX_CERULEAN_CAVE
     dexendareadata
 
 
 specialareas SPECIES_ALAKAZAM, DEX_DAY
+    .word DEX_SPROUT_TOWER
+    .word DEX_CERULEAN_CAVE
     dexendareadata
 
 
 specialareas SPECIES_ALAKAZAM, DEX_NIGHT
+    .word DEX_SPROUT_TOWER
+    .word DEX_CERULEAN_CAVE
     dexendareadata
 
 
 routesandcities SPECIES_ALAKAZAM, DEX_MORNING
+    .word DEX_ROUTE_5
+    .word DEX_ROUTE_6
+    .word DEX_ROUTE_8
+    .word DEX_ROUTE_24
+    .word DEX_ROUTE_25
     dexendareadata
 
 
 routesandcities SPECIES_ALAKAZAM, DEX_DAY
+    .word DEX_ROUTE_5
+    .word DEX_ROUTE_6
+    .word DEX_ROUTE_8
+    .word DEX_ROUTE_24
+    .word DEX_ROUTE_25
     dexendareadata
 
 
 routesandcities SPECIES_ALAKAZAM, DEX_NIGHT
+    .word DEX_ROUTE_5
+    .word DEX_ROUTE_6
+    .word DEX_ROUTE_8
+    .word DEX_ROUTE_24
+    .word DEX_ROUTE_25
     dexendareadata
 
 
@@ -3062,14 +3292,17 @@ specialareas SPECIES_MACHOP, DEX_NIGHT
 
 
 routesandcities SPECIES_MACHOP, DEX_MORNING
+    .word DEX_ROUTE_36
     dexendareadata
 
 
 routesandcities SPECIES_MACHOP, DEX_DAY
+    .word DEX_ROUTE_36
     dexendareadata
 
 
 routesandcities SPECIES_MACHOP, DEX_NIGHT
+    .word DEX_ROUTE_36
     dexendareadata
 
 
@@ -3106,14 +3339,17 @@ specialareas SPECIES_MACHOKE, DEX_NIGHT
 
 
 routesandcities SPECIES_MACHOKE, DEX_MORNING
+    .word DEX_ROUTE_36
     dexendareadata
 
 
 routesandcities SPECIES_MACHOKE, DEX_DAY
+    .word DEX_ROUTE_36
     dexendareadata
 
 
 routesandcities SPECIES_MACHOKE, DEX_NIGHT
+    .word DEX_ROUTE_36
     dexendareadata
 
 
@@ -3126,26 +3362,41 @@ routesandcities SPECIES_MACHOKE, DEX_SPECIAL
 
 
 specialareas SPECIES_MACHAMP, DEX_MORNING
+    .word DEX_MT_MORTAR
+    .word DEX_CLIFF_CAVE
+    .word DEX_ROCK_TUNNEL
+    .word DEX_CERULEAN_CAVE
     dexendareadata
 
 
 specialareas SPECIES_MACHAMP, DEX_DAY
+    .word DEX_MT_MORTAR
+    .word DEX_CLIFF_CAVE
+    .word DEX_ROCK_TUNNEL
+    .word DEX_CERULEAN_CAVE
     dexendareadata
 
 
 specialareas SPECIES_MACHAMP, DEX_NIGHT
+    .word DEX_MT_MORTAR
+    .word DEX_CLIFF_CAVE
+    .word DEX_ROCK_TUNNEL
+    .word DEX_CERULEAN_CAVE
     dexendareadata
 
 
 routesandcities SPECIES_MACHAMP, DEX_MORNING
+    .word DEX_ROUTE_36
     dexendareadata
 
 
 routesandcities SPECIES_MACHAMP, DEX_DAY
+    .word DEX_ROUTE_36
     dexendareadata
 
 
 routesandcities SPECIES_MACHAMP, DEX_NIGHT
+    .word DEX_ROUTE_36
     dexendareadata
 
 
@@ -3158,10 +3409,12 @@ routesandcities SPECIES_MACHAMP, DEX_SPECIAL
 
 
 specialareas SPECIES_BELLSPROUT, DEX_MORNING
+    .word DEX_SPROUT_TOWER
     dexendareadata
 
 
 specialareas SPECIES_BELLSPROUT, DEX_DAY
+    .word DEX_SPROUT_TOWER
     dexendareadata
 
 
@@ -3170,8 +3423,6 @@ specialareas SPECIES_BELLSPROUT, DEX_NIGHT
 
 
 routesandcities SPECIES_BELLSPROUT, DEX_MORNING
-    .word DEX_ROUTE_31
-    .word DEX_ROUTE_32
     .word DEX_ROUTE_44
     .word DEX_ROUTE_5
     .word DEX_ROUTE_6
@@ -3181,8 +3432,6 @@ routesandcities SPECIES_BELLSPROUT, DEX_MORNING
 
 
 routesandcities SPECIES_BELLSPROUT, DEX_DAY
-    .word DEX_ROUTE_31
-    .word DEX_ROUTE_32
     .word DEX_ROUTE_44
     .word DEX_ROUTE_5
     .word DEX_ROUTE_6
@@ -3192,8 +3441,6 @@ routesandcities SPECIES_BELLSPROUT, DEX_DAY
 
 
 routesandcities SPECIES_BELLSPROUT, DEX_NIGHT
-    .word DEX_ROUTE_31
-    .word DEX_ROUTE_32
     .word DEX_ROUTE_44
     .word DEX_ROUTE_5
     .word DEX_ROUTE_6
@@ -3211,10 +3458,12 @@ routesandcities SPECIES_BELLSPROUT, DEX_SPECIAL
 
 
 specialareas SPECIES_WEEPINBELL, DEX_MORNING
+    .word DEX_SPROUT_TOWER
     dexendareadata
 
 
 specialareas SPECIES_WEEPINBELL, DEX_DAY
+    .word DEX_SPROUT_TOWER
     dexendareadata
 
 
@@ -3224,6 +3473,8 @@ specialareas SPECIES_WEEPINBELL, DEX_NIGHT
 
 routesandcities SPECIES_WEEPINBELL, DEX_MORNING
     .word DEX_ROUTE_44
+    .word DEX_ROUTE_5
+    .word DEX_ROUTE_6
     .word DEX_ROUTE_24
     .word DEX_ROUTE_25
     dexendareadata
@@ -3231,6 +3482,8 @@ routesandcities SPECIES_WEEPINBELL, DEX_MORNING
 
 routesandcities SPECIES_WEEPINBELL, DEX_DAY
     .word DEX_ROUTE_44
+    .word DEX_ROUTE_5
+    .word DEX_ROUTE_6
     .word DEX_ROUTE_24
     .word DEX_ROUTE_25
     dexendareadata
@@ -3238,6 +3491,8 @@ routesandcities SPECIES_WEEPINBELL, DEX_DAY
 
 routesandcities SPECIES_WEEPINBELL, DEX_NIGHT
     .word DEX_ROUTE_44
+    .word DEX_ROUTE_5
+    .word DEX_ROUTE_6
     .word DEX_ROUTE_24
     .word DEX_ROUTE_25
     dexendareadata
@@ -3252,10 +3507,12 @@ routesandcities SPECIES_WEEPINBELL, DEX_SPECIAL
 
 
 specialareas SPECIES_VICTREEBEL, DEX_MORNING
+    .word DEX_SPROUT_TOWER
     dexendareadata
 
 
 specialareas SPECIES_VICTREEBEL, DEX_DAY
+    .word DEX_SPROUT_TOWER
     dexendareadata
 
 
@@ -3264,14 +3521,29 @@ specialareas SPECIES_VICTREEBEL, DEX_NIGHT
 
 
 routesandcities SPECIES_VICTREEBEL, DEX_MORNING
+    .word DEX_ROUTE_44
+    .word DEX_ROUTE_5
+    .word DEX_ROUTE_6
+    .word DEX_ROUTE_24
+    .word DEX_ROUTE_25
     dexendareadata
 
 
 routesandcities SPECIES_VICTREEBEL, DEX_DAY
+    .word DEX_ROUTE_44
+    .word DEX_ROUTE_5
+    .word DEX_ROUTE_6
+    .word DEX_ROUTE_24
+    .word DEX_ROUTE_25
     dexendareadata
 
 
 routesandcities SPECIES_VICTREEBEL, DEX_NIGHT
+    .word DEX_ROUTE_44
+    .word DEX_ROUTE_5
+    .word DEX_ROUTE_6
+    .word DEX_ROUTE_24
+    .word DEX_ROUTE_25
     dexendareadata
 
 
@@ -3306,10 +3578,7 @@ routesandcities SPECIES_TENTACOOL, DEX_MORNING
     .word DEX_CHERRYGROVE_CITY
     .word DEX_ROUTE_32
     .word DEX_ROUTE_34
-    .word DEX_OLIVINE_CITY
-    .word DEX_ROUTE_40
     .word DEX_ROUTE_41
-    .word DEX_CIANWOOD_CITY
     .word DEX_ROUTE_47
     .word DEX_ROUTE_12
     .word DEX_ROUTE_19
@@ -3329,10 +3598,7 @@ routesandcities SPECIES_TENTACOOL, DEX_DAY
     .word DEX_CHERRYGROVE_CITY
     .word DEX_ROUTE_32
     .word DEX_ROUTE_34
-    .word DEX_OLIVINE_CITY
-    .word DEX_ROUTE_40
     .word DEX_ROUTE_41
-    .word DEX_CIANWOOD_CITY
     .word DEX_ROUTE_47
     .word DEX_ROUTE_12
     .word DEX_ROUTE_19
@@ -3352,10 +3618,7 @@ routesandcities SPECIES_TENTACOOL, DEX_NIGHT
     .word DEX_CHERRYGROVE_CITY
     .word DEX_ROUTE_32
     .word DEX_ROUTE_34
-    .word DEX_OLIVINE_CITY
-    .word DEX_ROUTE_40
     .word DEX_ROUTE_41
-    .word DEX_CIANWOOD_CITY
     .word DEX_ROUTE_47
     .word DEX_ROUTE_12
     .word DEX_ROUTE_19
@@ -3401,10 +3664,7 @@ routesandcities SPECIES_TENTACRUEL, DEX_MORNING
     .word DEX_CHERRYGROVE_CITY
     .word DEX_ROUTE_32
     .word DEX_ROUTE_34
-    .word DEX_OLIVINE_CITY
-    .word DEX_ROUTE_40
     .word DEX_ROUTE_41
-    .word DEX_CIANWOOD_CITY
     .word DEX_ROUTE_47
     .word DEX_ROUTE_12
     .word DEX_ROUTE_19
@@ -3424,10 +3684,7 @@ routesandcities SPECIES_TENTACRUEL, DEX_DAY
     .word DEX_CHERRYGROVE_CITY
     .word DEX_ROUTE_32
     .word DEX_ROUTE_34
-    .word DEX_OLIVINE_CITY
-    .word DEX_ROUTE_40
     .word DEX_ROUTE_41
-    .word DEX_CIANWOOD_CITY
     .word DEX_ROUTE_47
     .word DEX_ROUTE_12
     .word DEX_ROUTE_19
@@ -3447,10 +3704,7 @@ routesandcities SPECIES_TENTACRUEL, DEX_NIGHT
     .word DEX_CHERRYGROVE_CITY
     .word DEX_ROUTE_32
     .word DEX_ROUTE_34
-    .word DEX_OLIVINE_CITY
-    .word DEX_ROUTE_40
     .word DEX_ROUTE_41
-    .word DEX_CIANWOOD_CITY
     .word DEX_ROUTE_47
     .word DEX_ROUTE_12
     .word DEX_ROUTE_19
@@ -3478,8 +3732,8 @@ specialareas SPECIES_GEODUDE, DEX_MORNING
     .word DEX_UNION_CAVE
     .word DEX_MT_MORTAR
     .word DEX_DARK_CAVE
-    .word DEX_CLIFF_CAVE
     .word DEX_MT_MOON
+    .word DEX_CLIFF_CAVE
     .word DEX_ROCK_TUNNEL
     .word DEX_VICTORY_ROAD
     .word DEX_CERULEAN_CAVE
@@ -3487,12 +3741,13 @@ specialareas SPECIES_GEODUDE, DEX_MORNING
 
 
 specialareas SPECIES_GEODUDE, DEX_DAY
+    .word DEX_SPROUT_TOWER
     .word DEX_RUINS_OF_ALPH
     .word DEX_UNION_CAVE
     .word DEX_MT_MORTAR
     .word DEX_DARK_CAVE
-    .word DEX_CLIFF_CAVE
     .word DEX_MT_MOON
+    .word DEX_CLIFF_CAVE
     .word DEX_ROCK_TUNNEL
     .word DEX_VICTORY_ROAD
     .word DEX_CERULEAN_CAVE
@@ -3504,8 +3759,8 @@ specialareas SPECIES_GEODUDE, DEX_NIGHT
     .word DEX_UNION_CAVE
     .word DEX_MT_MORTAR
     .word DEX_DARK_CAVE
-    .word DEX_CLIFF_CAVE
     .word DEX_MT_MOON
+    .word DEX_CLIFF_CAVE
     .word DEX_ROCK_TUNNEL
     .word DEX_VICTORY_ROAD
     .word DEX_CERULEAN_CAVE
@@ -3514,19 +3769,16 @@ specialareas SPECIES_GEODUDE, DEX_NIGHT
 
 routesandcities SPECIES_GEODUDE, DEX_MORNING
     .word DEX_ROUTE_45
-    .word DEX_ROUTE_46
     dexendareadata
 
 
 routesandcities SPECIES_GEODUDE, DEX_DAY
     .word DEX_ROUTE_45
-    .word DEX_ROUTE_46
     dexendareadata
 
 
 routesandcities SPECIES_GEODUDE, DEX_NIGHT
     .word DEX_ROUTE_45
-    .word DEX_ROUTE_46
     dexendareadata
 
 
@@ -3539,29 +3791,43 @@ routesandcities SPECIES_GEODUDE, DEX_SPECIAL
 
 
 specialareas SPECIES_GRAVELER, DEX_MORNING
+    .word DEX_RUINS_OF_ALPH
+    .word DEX_UNION_CAVE
     .word DEX_MT_MORTAR
     .word DEX_DARK_CAVE
-    .word DEX_CLIFF_CAVE
+    .word DEX_MT_MOON
     .word DEX_MT_SILVER_CAVE
+    .word DEX_CLIFF_CAVE
+    .word DEX_ROCK_TUNNEL
     .word DEX_VICTORY_ROAD
     .word DEX_CERULEAN_CAVE
     dexendareadata
 
 
 specialareas SPECIES_GRAVELER, DEX_DAY
+    .word DEX_SPROUT_TOWER
+    .word DEX_RUINS_OF_ALPH
+    .word DEX_UNION_CAVE
     .word DEX_MT_MORTAR
     .word DEX_DARK_CAVE
-    .word DEX_CLIFF_CAVE
+    .word DEX_MT_MOON
     .word DEX_MT_SILVER_CAVE
+    .word DEX_CLIFF_CAVE
+    .word DEX_ROCK_TUNNEL
     .word DEX_VICTORY_ROAD
     .word DEX_CERULEAN_CAVE
     dexendareadata
 
 
 specialareas SPECIES_GRAVELER, DEX_NIGHT
+    .word DEX_RUINS_OF_ALPH
+    .word DEX_UNION_CAVE
     .word DEX_MT_MORTAR
     .word DEX_DARK_CAVE
+    .word DEX_MT_MOON
     .word DEX_MT_SILVER_CAVE
+    .word DEX_CLIFF_CAVE
+    .word DEX_ROCK_TUNNEL
     .word DEX_VICTORY_ROAD
     .word DEX_CERULEAN_CAVE
     dexendareadata
@@ -3591,26 +3857,60 @@ routesandcities SPECIES_GRAVELER, DEX_SPECIAL
 
 
 specialareas SPECIES_GOLEM, DEX_MORNING
+    .word DEX_RUINS_OF_ALPH
+    .word DEX_UNION_CAVE
+    .word DEX_MT_MORTAR
+    .word DEX_DARK_CAVE
+    .word DEX_MT_MOON
+    .word DEX_MT_SILVER_CAVE
+    .word DEX_CLIFF_CAVE
+    .word DEX_ROCK_TUNNEL
+    .word DEX_VICTORY_ROAD
+    .word DEX_CERULEAN_CAVE
     dexendareadata
 
 
 specialareas SPECIES_GOLEM, DEX_DAY
+    .word DEX_SPROUT_TOWER
+    .word DEX_RUINS_OF_ALPH
+    .word DEX_UNION_CAVE
+    .word DEX_MT_MORTAR
+    .word DEX_DARK_CAVE
+    .word DEX_MT_MOON
+    .word DEX_MT_SILVER_CAVE
+    .word DEX_CLIFF_CAVE
+    .word DEX_ROCK_TUNNEL
+    .word DEX_VICTORY_ROAD
+    .word DEX_CERULEAN_CAVE
     dexendareadata
 
 
 specialareas SPECIES_GOLEM, DEX_NIGHT
+    .word DEX_RUINS_OF_ALPH
+    .word DEX_UNION_CAVE
+    .word DEX_MT_MORTAR
+    .word DEX_DARK_CAVE
+    .word DEX_MT_MOON
+    .word DEX_MT_SILVER_CAVE
+    .word DEX_CLIFF_CAVE
+    .word DEX_ROCK_TUNNEL
+    .word DEX_VICTORY_ROAD
+    .word DEX_CERULEAN_CAVE
     dexendareadata
 
 
 routesandcities SPECIES_GOLEM, DEX_MORNING
+    .word DEX_ROUTE_45
     dexendareadata
 
 
 routesandcities SPECIES_GOLEM, DEX_DAY
+    .word DEX_ROUTE_45
     dexendareadata
 
 
 routesandcities SPECIES_GOLEM, DEX_NIGHT
+    .word DEX_ROUTE_45
     dexendareadata
 
 
@@ -3623,10 +3923,15 @@ routesandcities SPECIES_GOLEM, DEX_SPECIAL
 
 
 specialareas SPECIES_PONYTA, DEX_MORNING
+    .word DEX_ILEX_FOREST
+    .word DEX_BURNED_TOWER
     dexendareadata
 
 
 specialareas SPECIES_PONYTA, DEX_DAY
+    .word DEX_SPROUT_TOWER
+    .word DEX_ILEX_FOREST
+    .word DEX_BURNED_TOWER
     dexendareadata
 
 
@@ -3670,10 +3975,15 @@ routesandcities SPECIES_PONYTA, DEX_SPECIAL
 
 
 specialareas SPECIES_RAPIDASH, DEX_MORNING
+    .word DEX_ILEX_FOREST
+    .word DEX_BURNED_TOWER
     dexendareadata
 
 
 specialareas SPECIES_RAPIDASH, DEX_DAY
+    .word DEX_SPROUT_TOWER
+    .word DEX_ILEX_FOREST
+    .word DEX_BURNED_TOWER
     dexendareadata
 
 
@@ -3683,19 +3993,28 @@ specialareas SPECIES_RAPIDASH, DEX_NIGHT
 
 routesandcities SPECIES_RAPIDASH, DEX_MORNING
     .word DEX_MT_SILVER
+    .word DEX_ROUTE_26
+    .word DEX_ROUTE_27
     .word DEX_ROUTE_28
+    .word DEX_ROUTE_22
     dexendareadata
 
 
 routesandcities SPECIES_RAPIDASH, DEX_DAY
     .word DEX_MT_SILVER
+    .word DEX_ROUTE_26
+    .word DEX_ROUTE_27
     .word DEX_ROUTE_28
+    .word DEX_ROUTE_22
     dexendareadata
 
 
 routesandcities SPECIES_RAPIDASH, DEX_NIGHT
     .word DEX_MT_SILVER
+    .word DEX_ROUTE_26
+    .word DEX_ROUTE_27
     .word DEX_ROUTE_28
+    .word DEX_ROUTE_22
     dexendareadata
 
 
@@ -3726,6 +4045,7 @@ specialareas SPECIES_SLOWPOKE, DEX_NIGHT
 
 
 routesandcities SPECIES_SLOWPOKE, DEX_MORNING
+    .word DEX_ROUTE_32
     dexendareadata
 
 
@@ -3748,22 +4068,26 @@ routesandcities SPECIES_SLOWPOKE, DEX_SPECIAL
 specialareas SPECIES_SLOWBRO, DEX_MORNING
     .word DEX_SLOWPOKE_WELL
     .word DEX_SEAFOAM_ISLANDS
+    .word DEX_TOHJO_FALLS
     dexendareadata
 
 
 specialareas SPECIES_SLOWBRO, DEX_DAY
     .word DEX_SLOWPOKE_WELL
     .word DEX_SEAFOAM_ISLANDS
+    .word DEX_TOHJO_FALLS
     dexendareadata
 
 
 specialareas SPECIES_SLOWBRO, DEX_NIGHT
     .word DEX_SLOWPOKE_WELL
     .word DEX_SEAFOAM_ISLANDS
+    .word DEX_TOHJO_FALLS
     dexendareadata
 
 
 routesandcities SPECIES_SLOWBRO, DEX_MORNING
+    .word DEX_ROUTE_32
     dexendareadata
 
 
@@ -3797,7 +4121,6 @@ specialareas SPECIES_MAGNEMITE, DEX_NIGHT
 
 routesandcities SPECIES_MAGNEMITE, DEX_MORNING
     .word DEX_ROUTE_38
-    .word DEX_ROUTE_39
     .word DEX_ROUTE_6
     .word DEX_ROUTE_11
     dexendareadata
@@ -3805,7 +4128,6 @@ routesandcities SPECIES_MAGNEMITE, DEX_MORNING
 
 routesandcities SPECIES_MAGNEMITE, DEX_DAY
     .word DEX_ROUTE_38
-    .word DEX_ROUTE_39
     .word DEX_ROUTE_6
     .word DEX_ROUTE_11
     dexendareadata
@@ -3813,7 +4135,6 @@ routesandcities SPECIES_MAGNEMITE, DEX_DAY
 
 routesandcities SPECIES_MAGNEMITE, DEX_NIGHT
     .word DEX_ROUTE_38
-    .word DEX_ROUTE_39
     .word DEX_ROUTE_6
     .word DEX_ROUTE_11
     dexendareadata
@@ -3843,14 +4164,23 @@ specialareas SPECIES_MAGNETON, DEX_NIGHT
 
 
 routesandcities SPECIES_MAGNETON, DEX_MORNING
+    .word DEX_ROUTE_38
+    .word DEX_ROUTE_6
+    .word DEX_ROUTE_11
     dexendareadata
 
 
 routesandcities SPECIES_MAGNETON, DEX_DAY
+    .word DEX_ROUTE_38
+    .word DEX_ROUTE_6
+    .word DEX_ROUTE_11
     dexendareadata
 
 
 routesandcities SPECIES_MAGNETON, DEX_NIGHT
+    .word DEX_ROUTE_38
+    .word DEX_ROUTE_6
+    .word DEX_ROUTE_11
     dexendareadata
 
 
@@ -3863,30 +4193,26 @@ routesandcities SPECIES_MAGNETON, DEX_SPECIAL
 
 
 specialareas SPECIES_FARFETCHD, DEX_MORNING
+    .word DEX_SPROUT_TOWER
+    .word DEX_ILEX_FOREST
     dexendareadata
 
 
 specialareas SPECIES_FARFETCHD, DEX_DAY
+    .word DEX_ILEX_FOREST
     dexendareadata
 
 
 specialareas SPECIES_FARFETCHD, DEX_NIGHT
+    .word DEX_ILEX_FOREST
     dexendareadata
 
 
 routesandcities SPECIES_FARFETCHD, DEX_MORNING
-    .word DEX_ROUTE_38
-    .word DEX_ROUTE_39
-    .word DEX_ROUTE_47
-    .word DEX_ROUTE_48
     dexendareadata
 
 
 routesandcities SPECIES_FARFETCHD, DEX_DAY
-    .word DEX_ROUTE_38
-    .word DEX_ROUTE_39
-    .word DEX_ROUTE_47
-    .word DEX_ROUTE_48
     dexendareadata
 
 
@@ -3915,6 +4241,7 @@ specialareas SPECIES_DODUO, DEX_NIGHT
 
 
 routesandcities SPECIES_DODUO, DEX_MORNING
+    .word DEX_ROUTE_42
     .word DEX_MT_SILVER
     .word DEX_ROUTE_26
     .word DEX_ROUTE_27
@@ -3924,6 +4251,7 @@ routesandcities SPECIES_DODUO, DEX_MORNING
 
 
 routesandcities SPECIES_DODUO, DEX_DAY
+    .word DEX_ROUTE_42
     .word DEX_MT_SILVER
     .word DEX_ROUTE_26
     .word DEX_ROUTE_27
@@ -3933,6 +4261,7 @@ routesandcities SPECIES_DODUO, DEX_DAY
 
 
 routesandcities SPECIES_DODUO, DEX_NIGHT
+    .word DEX_ROUTE_42
     dexendareadata
 
 
@@ -3957,20 +4286,27 @@ specialareas SPECIES_DODRIO, DEX_NIGHT
 
 
 routesandcities SPECIES_DODRIO, DEX_MORNING
+    .word DEX_ROUTE_42
     .word DEX_MT_SILVER
     .word DEX_ROUTE_26
+    .word DEX_ROUTE_27
     .word DEX_ROUTE_28
+    .word DEX_ROUTE_22
     dexendareadata
 
 
 routesandcities SPECIES_DODRIO, DEX_DAY
+    .word DEX_ROUTE_42
     .word DEX_MT_SILVER
     .word DEX_ROUTE_26
+    .word DEX_ROUTE_27
     .word DEX_ROUTE_28
+    .word DEX_ROUTE_22
     dexendareadata
 
 
 routesandcities SPECIES_DODRIO, DEX_NIGHT
+    .word DEX_ROUTE_42
     dexendareadata
 
 
@@ -4001,16 +4337,19 @@ specialareas SPECIES_SEEL, DEX_NIGHT
 
 
 routesandcities SPECIES_SEEL, DEX_MORNING
+    .word DEX_ROUTE_41
     .word DEX_ROUTE_47
     dexendareadata
 
 
 routesandcities SPECIES_SEEL, DEX_DAY
+    .word DEX_ROUTE_41
     .word DEX_ROUTE_47
     dexendareadata
 
 
 routesandcities SPECIES_SEEL, DEX_NIGHT
+    .word DEX_ROUTE_41
     .word DEX_ROUTE_47
     dexendareadata
 
@@ -4024,29 +4363,38 @@ routesandcities SPECIES_SEEL, DEX_SPECIAL
 
 
 specialareas SPECIES_DEWGONG, DEX_MORNING
+    .word DEX_WHIRL_ISLANDS
     .word DEX_SEAFOAM_ISLANDS
     dexendareadata
 
 
 specialareas SPECIES_DEWGONG, DEX_DAY
+    .word DEX_WHIRL_ISLANDS
     .word DEX_SEAFOAM_ISLANDS
     dexendareadata
 
 
 specialareas SPECIES_DEWGONG, DEX_NIGHT
+    .word DEX_WHIRL_ISLANDS
     .word DEX_SEAFOAM_ISLANDS
     dexendareadata
 
 
 routesandcities SPECIES_DEWGONG, DEX_MORNING
+    .word DEX_ROUTE_41
+    .word DEX_ROUTE_47
     dexendareadata
 
 
 routesandcities SPECIES_DEWGONG, DEX_DAY
+    .word DEX_ROUTE_41
+    .word DEX_ROUTE_47
     dexendareadata
 
 
 routesandcities SPECIES_DEWGONG, DEX_NIGHT
+    .word DEX_ROUTE_41
+    .word DEX_ROUTE_47
     dexendareadata
 
 
@@ -4059,14 +4407,18 @@ routesandcities SPECIES_DEWGONG, DEX_SPECIAL
 
 
 specialareas SPECIES_GRIMER, DEX_MORNING
+    .word DEX_MT_MORTAR
     dexendareadata
 
 
 specialareas SPECIES_GRIMER, DEX_DAY
+    .word DEX_MT_MORTAR
     dexendareadata
 
 
 specialareas SPECIES_GRIMER, DEX_NIGHT
+    .word DEX_SPROUT_TOWER
+    .word DEX_MT_MORTAR
     dexendareadata
 
 
@@ -4103,14 +4455,18 @@ routesandcities SPECIES_GRIMER, DEX_SPECIAL
 
 
 specialareas SPECIES_MUK, DEX_MORNING
+    .word DEX_MT_MORTAR
     dexendareadata
 
 
 specialareas SPECIES_MUK, DEX_DAY
+    .word DEX_MT_MORTAR
     dexendareadata
 
 
 specialareas SPECIES_MUK, DEX_NIGHT
+    .word DEX_SPROUT_TOWER
+    .word DEX_MT_MORTAR
     dexendareadata
 
 
@@ -4160,6 +4516,7 @@ specialareas SPECIES_SHELLDER, DEX_NIGHT
 
 routesandcities SPECIES_SHELLDER, DEX_MORNING
     .word DEX_NEW_BARK_TOWN
+    .word DEX_OLIVINE_CITY
     .word DEX_ROUTE_41
     .word DEX_ROUTE_47
     .word DEX_ROUTE_20
@@ -4174,6 +4531,7 @@ routesandcities SPECIES_SHELLDER, DEX_MORNING
 
 routesandcities SPECIES_SHELLDER, DEX_DAY
     .word DEX_NEW_BARK_TOWN
+    .word DEX_OLIVINE_CITY
     .word DEX_ROUTE_41
     .word DEX_ROUTE_47
     .word DEX_ROUTE_20
@@ -4188,6 +4546,7 @@ routesandcities SPECIES_SHELLDER, DEX_DAY
 
 routesandcities SPECIES_SHELLDER, DEX_NIGHT
     .word DEX_NEW_BARK_TOWN
+    .word DEX_OLIVINE_CITY
     .word DEX_ROUTE_41
     .word DEX_ROUTE_47
     .word DEX_ROUTE_20
@@ -4221,14 +4580,47 @@ specialareas SPECIES_CLOYSTER, DEX_NIGHT
 
 
 routesandcities SPECIES_CLOYSTER, DEX_MORNING
+    .word DEX_NEW_BARK_TOWN
+    .word DEX_OLIVINE_CITY
+    .word DEX_ROUTE_41
+    .word DEX_ROUTE_47
+    .word DEX_ROUTE_20
+    .word DEX_PALLET_TOWN
+    .word DEX_VERMILION_CITY
+    .word DEX_CINNABAR_CITY
+    .word DEX_ROUTE_26
+    .word DEX_ROUTE_27
+    .word DEX_ROUTE_21
     dexendareadata
 
 
 routesandcities SPECIES_CLOYSTER, DEX_DAY
+    .word DEX_NEW_BARK_TOWN
+    .word DEX_OLIVINE_CITY
+    .word DEX_ROUTE_41
+    .word DEX_ROUTE_47
+    .word DEX_ROUTE_20
+    .word DEX_PALLET_TOWN
+    .word DEX_VERMILION_CITY
+    .word DEX_CINNABAR_CITY
+    .word DEX_ROUTE_26
+    .word DEX_ROUTE_27
+    .word DEX_ROUTE_21
     dexendareadata
 
 
 routesandcities SPECIES_CLOYSTER, DEX_NIGHT
+    .word DEX_NEW_BARK_TOWN
+    .word DEX_OLIVINE_CITY
+    .word DEX_ROUTE_41
+    .word DEX_ROUTE_47
+    .word DEX_ROUTE_20
+    .word DEX_PALLET_TOWN
+    .word DEX_VERMILION_CITY
+    .word DEX_CINNABAR_CITY
+    .word DEX_ROUTE_26
+    .word DEX_ROUTE_27
+    .word DEX_ROUTE_21
     dexendareadata
 
 
@@ -4283,6 +4675,8 @@ specialareas SPECIES_HAUNTER, DEX_DAY
 
 
 specialareas SPECIES_HAUNTER, DEX_NIGHT
+    .word DEX_SPROUT_TOWER
+    .word DEX_BELL_TOWER
     dexendareadata
 
 
@@ -4316,6 +4710,8 @@ specialareas SPECIES_GENGAR, DEX_DAY
 
 
 specialareas SPECIES_GENGAR, DEX_NIGHT
+    .word DEX_SPROUT_TOWER
+    .word DEX_BELL_TOWER
     dexendareadata
 
 
@@ -4328,6 +4724,7 @@ routesandcities SPECIES_GENGAR, DEX_DAY
 
 
 routesandcities SPECIES_GENGAR, DEX_NIGHT
+    .word DEX_ROUTE_8
     dexendareadata
 
 
@@ -4341,8 +4738,8 @@ routesandcities SPECIES_GENGAR, DEX_SPECIAL
 
 specialareas SPECIES_ONIX, DEX_MORNING
     .word DEX_UNION_CAVE
-    .word DEX_CLIFF_CAVE
     .word DEX_MT_SILVER_CAVE
+    .word DEX_CLIFF_CAVE
     .word DEX_ROCK_TUNNEL
     .word DEX_VICTORY_ROAD
     dexendareadata
@@ -4350,8 +4747,8 @@ specialareas SPECIES_ONIX, DEX_MORNING
 
 specialareas SPECIES_ONIX, DEX_DAY
     .word DEX_UNION_CAVE
-    .word DEX_CLIFF_CAVE
     .word DEX_MT_SILVER_CAVE
+    .word DEX_CLIFF_CAVE
     .word DEX_ROCK_TUNNEL
     .word DEX_VICTORY_ROAD
     dexendareadata
@@ -4359,22 +4756,25 @@ specialareas SPECIES_ONIX, DEX_DAY
 
 specialareas SPECIES_ONIX, DEX_NIGHT
     .word DEX_UNION_CAVE
-    .word DEX_CLIFF_CAVE
     .word DEX_MT_SILVER_CAVE
+    .word DEX_CLIFF_CAVE
     .word DEX_ROCK_TUNNEL
     .word DEX_VICTORY_ROAD
     dexendareadata
 
 
 routesandcities SPECIES_ONIX, DEX_MORNING
+    .word DEX_MT_SILVER
     dexendareadata
 
 
 routesandcities SPECIES_ONIX, DEX_DAY
+    .word DEX_MT_SILVER
     dexendareadata
 
 
 routesandcities SPECIES_ONIX, DEX_NIGHT
+    .word DEX_MT_SILVER
     dexendareadata
 
 
@@ -4395,26 +4795,21 @@ specialareas SPECIES_DROWZEE, DEX_DAY
 
 
 specialareas SPECIES_DROWZEE, DEX_NIGHT
+    .word DEX_RUINS_OF_ALPH
     dexendareadata
 
 
 routesandcities SPECIES_DROWZEE, DEX_MORNING
-    .word DEX_ROUTE_34
-    .word DEX_ROUTE_35
     .word DEX_ROUTE_11
     dexendareadata
 
 
 routesandcities SPECIES_DROWZEE, DEX_DAY
-    .word DEX_ROUTE_34
-    .word DEX_ROUTE_35
     .word DEX_ROUTE_11
     dexendareadata
 
 
 routesandcities SPECIES_DROWZEE, DEX_NIGHT
-    .word DEX_ROUTE_34
-    .word DEX_ROUTE_35
     .word DEX_ROUTE_11
     dexendareadata
 
@@ -4436,6 +4831,7 @@ specialareas SPECIES_HYPNO, DEX_DAY
 
 
 specialareas SPECIES_HYPNO, DEX_NIGHT
+    .word DEX_RUINS_OF_ALPH
     dexendareadata
 
 
@@ -4599,16 +4995,20 @@ specialareas SPECIES_VOLTORB, DEX_NIGHT
 
 
 routesandcities SPECIES_VOLTORB, DEX_MORNING
+    .word DEX_ROUTE_32
+    .word DEX_ROUTE_38
     .word DEX_ROUTE_10
     dexendareadata
 
 
 routesandcities SPECIES_VOLTORB, DEX_DAY
+    .word DEX_ROUTE_38
     .word DEX_ROUTE_10
     dexendareadata
 
 
 routesandcities SPECIES_VOLTORB, DEX_NIGHT
+    .word DEX_ROUTE_38
     .word DEX_ROUTE_10
     dexendareadata
 
@@ -4637,14 +5037,21 @@ specialareas SPECIES_ELECTRODE, DEX_NIGHT
 
 
 routesandcities SPECIES_ELECTRODE, DEX_MORNING
+    .word DEX_ROUTE_32
+    .word DEX_ROUTE_38
+    .word DEX_ROUTE_10
     dexendareadata
 
 
 routesandcities SPECIES_ELECTRODE, DEX_DAY
+    .word DEX_ROUTE_38
+    .word DEX_ROUTE_10
     dexendareadata
 
 
 routesandcities SPECIES_ELECTRODE, DEX_NIGHT
+    .word DEX_ROUTE_38
+    .word DEX_ROUTE_10
     dexendareadata
 
 
@@ -4657,10 +5064,12 @@ routesandcities SPECIES_ELECTRODE, DEX_SPECIAL
 
 
 specialareas SPECIES_EXEGGCUTE, DEX_MORNING
+    .word DEX_ILEX_FOREST
     dexendareadata
 
 
 specialareas SPECIES_EXEGGCUTE, DEX_DAY
+    .word DEX_ILEX_FOREST
     dexendareadata
 
 
@@ -4711,14 +5120,17 @@ routesandcities SPECIES_EXEGGCUTE, DEX_SPECIAL
 
 
 specialareas SPECIES_EXEGGUTOR, DEX_MORNING
+    .word DEX_ILEX_FOREST
     dexendareadata
 
 
 specialareas SPECIES_EXEGGUTOR, DEX_DAY
+    .word DEX_ILEX_FOREST
     dexendareadata
 
 
 specialareas SPECIES_EXEGGUTOR, DEX_NIGHT
+    .word DEX_SPROUT_TOWER
     dexendareadata
 
 
@@ -4753,6 +5165,7 @@ specialareas SPECIES_CUBONE, DEX_DAY
 
 
 specialareas SPECIES_CUBONE, DEX_NIGHT
+    .word DEX_UNION_CAVE
     .word DEX_ROCK_TUNNEL
     dexendareadata
 
@@ -4778,6 +5191,7 @@ routesandcities SPECIES_CUBONE, DEX_SPECIAL
 
 
 specialareas SPECIES_MAROWAK, DEX_MORNING
+    .word DEX_SPROUT_TOWER
     .word DEX_ROCK_TUNNEL
     dexendareadata
 
@@ -4788,6 +5202,7 @@ specialareas SPECIES_MAROWAK, DEX_DAY
 
 
 specialareas SPECIES_MAROWAK, DEX_NIGHT
+    .word DEX_UNION_CAVE
     .word DEX_ROCK_TUNNEL
     dexendareadata
 
@@ -4833,6 +5248,7 @@ routesandcities SPECIES_HITMONLEE, DEX_DAY
 
 
 routesandcities SPECIES_HITMONLEE, DEX_NIGHT
+    .word DEX_ROUTE_35
     dexendareadata
 
 
@@ -4865,6 +5281,7 @@ routesandcities SPECIES_HITMONCHAN, DEX_DAY
 
 
 routesandcities SPECIES_HITMONCHAN, DEX_NIGHT
+    .word DEX_ROUTE_35
     dexendareadata
 
 
@@ -4899,6 +5316,7 @@ routesandcities SPECIES_LICKITUNG, DEX_DAY
 
 
 routesandcities SPECIES_LICKITUNG, DEX_NIGHT
+    .word DEX_ROUTE_42
     .word DEX_ROUTE_44
     dexendareadata
 
@@ -4912,17 +5330,17 @@ routesandcities SPECIES_LICKITUNG, DEX_SPECIAL
 
 
 specialareas SPECIES_KOFFING, DEX_MORNING
-    .word DEX_BURNED_TOWER
+    .word DEX_MT_MORTAR
     dexendareadata
 
 
 specialareas SPECIES_KOFFING, DEX_DAY
-    .word DEX_BURNED_TOWER
+    .word DEX_MT_MORTAR
     dexendareadata
 
 
 specialareas SPECIES_KOFFING, DEX_NIGHT
-    .word DEX_BURNED_TOWER
+    .word DEX_MT_MORTAR
     dexendareadata
 
 
@@ -4947,14 +5365,17 @@ routesandcities SPECIES_KOFFING, DEX_SPECIAL
 
 
 specialareas SPECIES_WEEZING, DEX_MORNING
+    .word DEX_MT_MORTAR
     dexendareadata
 
 
 specialareas SPECIES_WEEZING, DEX_DAY
+    .word DEX_MT_MORTAR
     dexendareadata
 
 
 specialareas SPECIES_WEEZING, DEX_NIGHT
+    .word DEX_MT_MORTAR
     dexendareadata
 
 
@@ -4967,6 +5388,7 @@ routesandcities SPECIES_WEEZING, DEX_DAY
 
 
 routesandcities SPECIES_WEEZING, DEX_NIGHT
+    .word DEX_ROUTE_32
     dexendareadata
 
 
@@ -4979,11 +5401,13 @@ routesandcities SPECIES_WEEZING, DEX_SPECIAL
 
 
 specialareas SPECIES_RHYHORN, DEX_MORNING
+    .word DEX_UNION_CAVE
     .word DEX_VICTORY_ROAD
     dexendareadata
 
 
 specialareas SPECIES_RHYHORN, DEX_DAY
+    .word DEX_UNION_CAVE
     .word DEX_VICTORY_ROAD
     dexendareadata
 
@@ -5014,14 +5438,19 @@ routesandcities SPECIES_RHYHORN, DEX_SPECIAL
 
 
 specialareas SPECIES_RHYDON, DEX_MORNING
+    .word DEX_UNION_CAVE
+    .word DEX_VICTORY_ROAD
     dexendareadata
 
 
 specialareas SPECIES_RHYDON, DEX_DAY
+    .word DEX_UNION_CAVE
+    .word DEX_VICTORY_ROAD
     dexendareadata
 
 
 specialareas SPECIES_RHYDON, DEX_NIGHT
+    .word DEX_VICTORY_ROAD
     dexendareadata
 
 
@@ -5058,6 +5487,7 @@ specialareas SPECIES_CHANSEY, DEX_NIGHT
 
 
 routesandcities SPECIES_CHANSEY, DEX_MORNING
+    .word DEX_ROUTE_39
     .word DEX_ROUTE_13
     .word DEX_ROUTE_14
     .word DEX_ROUTE_15
@@ -5065,6 +5495,7 @@ routesandcities SPECIES_CHANSEY, DEX_MORNING
 
 
 routesandcities SPECIES_CHANSEY, DEX_DAY
+    .word DEX_ROUTE_39
     .word DEX_ROUTE_13
     .word DEX_ROUTE_14
     .word DEX_ROUTE_15
@@ -5072,6 +5503,7 @@ routesandcities SPECIES_CHANSEY, DEX_DAY
 
 
 routesandcities SPECIES_CHANSEY, DEX_NIGHT
+    .word DEX_ROUTE_39
     .word DEX_ROUTE_13
     .word DEX_ROUTE_14
     .word DEX_ROUTE_15
@@ -5095,6 +5527,7 @@ specialareas SPECIES_TANGELA, DEX_DAY
 
 
 specialareas SPECIES_TANGELA, DEX_NIGHT
+    .word DEX_ILEX_FOREST
     dexendareadata
 
 
@@ -5153,14 +5586,17 @@ specialareas SPECIES_KANGASKHAN, DEX_NIGHT
 
 
 routesandcities SPECIES_KANGASKHAN, DEX_MORNING
+    .word DEX_ROUTE_48
     dexendareadata
 
 
 routesandcities SPECIES_KANGASKHAN, DEX_DAY
+    .word DEX_ROUTE_48
     dexendareadata
 
 
 routesandcities SPECIES_KANGASKHAN, DEX_NIGHT
+    .word DEX_ROUTE_48
     dexendareadata
 
 
@@ -5191,14 +5627,17 @@ specialareas SPECIES_HORSEA, DEX_NIGHT
 
 
 routesandcities SPECIES_HORSEA, DEX_MORNING
+    .word DEX_OLIVINE_CITY
     dexendareadata
 
 
 routesandcities SPECIES_HORSEA, DEX_DAY
+    .word DEX_OLIVINE_CITY
     dexendareadata
 
 
 routesandcities SPECIES_HORSEA, DEX_NIGHT
+    .word DEX_OLIVINE_CITY
     dexendareadata
 
 
@@ -5229,14 +5668,17 @@ specialareas SPECIES_SEADRA, DEX_NIGHT
 
 
 routesandcities SPECIES_SEADRA, DEX_MORNING
+    .word DEX_OLIVINE_CITY
     dexendareadata
 
 
 routesandcities SPECIES_SEADRA, DEX_DAY
+    .word DEX_OLIVINE_CITY
     dexendareadata
 
 
 routesandcities SPECIES_SEADRA, DEX_NIGHT
+    .word DEX_OLIVINE_CITY
     dexendareadata
 
 
@@ -5282,7 +5724,9 @@ specialareas SPECIES_GOLDEEN, DEX_NIGHT
 
 
 routesandcities SPECIES_GOLDEEN, DEX_MORNING
+    .word DEX_ROUTE_38
     .word DEX_ROUTE_42
+    .word DEX_MT_SILVER
     .word DEX_CERULEAN_CITY
     .word DEX_ROUTE_4
     .word DEX_ROUTE_9
@@ -5293,7 +5737,9 @@ routesandcities SPECIES_GOLDEEN, DEX_MORNING
 
 
 routesandcities SPECIES_GOLDEEN, DEX_DAY
+    .word DEX_ROUTE_38
     .word DEX_ROUTE_42
+    .word DEX_MT_SILVER
     .word DEX_CERULEAN_CITY
     .word DEX_ROUTE_4
     .word DEX_ROUTE_9
@@ -5304,7 +5750,9 @@ routesandcities SPECIES_GOLDEEN, DEX_DAY
 
 
 routesandcities SPECIES_GOLDEEN, DEX_NIGHT
+    .word DEX_ROUTE_38
     .word DEX_ROUTE_42
+    .word DEX_MT_SILVER
     .word DEX_CERULEAN_CITY
     .word DEX_ROUTE_4
     .word DEX_ROUTE_9
@@ -5329,6 +5777,7 @@ specialareas SPECIES_SEAKING, DEX_MORNING
     .word DEX_DARK_CAVE
     .word DEX_MT_SILVER_CAVE
     .word DEX_TOHJO_FALLS
+    .word DEX_CERULEAN_CAVE
     dexendareadata
 
 
@@ -5339,6 +5788,7 @@ specialareas SPECIES_SEAKING, DEX_DAY
     .word DEX_DARK_CAVE
     .word DEX_MT_SILVER_CAVE
     .word DEX_TOHJO_FALLS
+    .word DEX_CERULEAN_CAVE
     dexendareadata
 
 
@@ -5349,11 +5799,14 @@ specialareas SPECIES_SEAKING, DEX_NIGHT
     .word DEX_DARK_CAVE
     .word DEX_MT_SILVER_CAVE
     .word DEX_TOHJO_FALLS
+    .word DEX_CERULEAN_CAVE
     dexendareadata
 
 
 routesandcities SPECIES_SEAKING, DEX_MORNING
+    .word DEX_ROUTE_38
     .word DEX_ROUTE_42
+    .word DEX_MT_SILVER
     .word DEX_CERULEAN_CITY
     .word DEX_ROUTE_4
     .word DEX_ROUTE_9
@@ -5364,7 +5817,9 @@ routesandcities SPECIES_SEAKING, DEX_MORNING
 
 
 routesandcities SPECIES_SEAKING, DEX_DAY
+    .word DEX_ROUTE_38
     .word DEX_ROUTE_42
+    .word DEX_MT_SILVER
     .word DEX_CERULEAN_CITY
     .word DEX_ROUTE_4
     .word DEX_ROUTE_9
@@ -5375,7 +5830,9 @@ routesandcities SPECIES_SEAKING, DEX_DAY
 
 
 routesandcities SPECIES_SEAKING, DEX_NIGHT
+    .word DEX_ROUTE_38
     .word DEX_ROUTE_42
+    .word DEX_MT_SILVER
     .word DEX_CERULEAN_CITY
     .word DEX_ROUTE_4
     .word DEX_ROUTE_9
@@ -5402,7 +5859,6 @@ specialareas SPECIES_STARYU, DEX_DAY
 
 
 specialareas SPECIES_STARYU, DEX_NIGHT
-    .word DEX_UNION_CAVE
     dexendareadata
 
 
@@ -5417,13 +5873,7 @@ routesandcities SPECIES_STARYU, DEX_DAY
 
 
 routesandcities SPECIES_STARYU, DEX_NIGHT
-    .word DEX_CHERRYGROVE_CITY
-    .word DEX_ROUTE_34
-    .word DEX_OLIVINE_CITY
-    .word DEX_ROUTE_40
-    .word DEX_CIANWOOD_CITY
     .word DEX_ROUTE_47
-    .word DEX_ROUTE_19
     dexendareadata
 
 
@@ -5448,14 +5898,17 @@ specialareas SPECIES_STARMIE, DEX_NIGHT
 
 
 routesandcities SPECIES_STARMIE, DEX_MORNING
+    .word DEX_ROUTE_47
     dexendareadata
 
 
 routesandcities SPECIES_STARMIE, DEX_DAY
+    .word DEX_ROUTE_47
     dexendareadata
 
 
 routesandcities SPECIES_STARMIE, DEX_NIGHT
+    .word DEX_ROUTE_47
     dexendareadata
 
 
@@ -5468,6 +5921,7 @@ routesandcities SPECIES_STARMIE, DEX_SPECIAL
 
 
 specialareas SPECIES_MR_MIME, DEX_MORNING
+    .word DEX_SPROUT_TOWER
     dexendareadata
 
 
@@ -5480,6 +5934,7 @@ specialareas SPECIES_MR_MIME, DEX_NIGHT
 
 
 routesandcities SPECIES_MR_MIME, DEX_MORNING
+    .word DEX_ROUTE_30
     .word DEX_ROUTE_21
     dexendareadata
 
@@ -5511,6 +5966,7 @@ specialareas SPECIES_SCYTHER, DEX_DAY
 
 
 specialareas SPECIES_SCYTHER, DEX_NIGHT
+    .word DEX_UNION_CAVE
     dexendareadata
 
 
@@ -5585,11 +6041,13 @@ specialareas SPECIES_ELECTABUZZ, DEX_NIGHT
 
 
 routesandcities SPECIES_ELECTABUZZ, DEX_MORNING
+    .word DEX_ROUTE_33
     .word DEX_ROUTE_10
     dexendareadata
 
 
 routesandcities SPECIES_ELECTABUZZ, DEX_DAY
+    .word DEX_ROUTE_33
     .word DEX_ROUTE_10
     dexendareadata
 
@@ -5608,17 +6066,14 @@ routesandcities SPECIES_ELECTABUZZ, DEX_SPECIAL
 
 
 specialareas SPECIES_MAGMAR, DEX_MORNING
-    .word DEX_BURNED_TOWER
     dexendareadata
 
 
 specialareas SPECIES_MAGMAR, DEX_DAY
-    .word DEX_BURNED_TOWER
     dexendareadata
 
 
 specialareas SPECIES_MAGMAR, DEX_NIGHT
-    .word DEX_BURNED_TOWER
     dexendareadata
 
 
@@ -5631,6 +6086,7 @@ routesandcities SPECIES_MAGMAR, DEX_DAY
 
 
 routesandcities SPECIES_MAGMAR, DEX_NIGHT
+    .word DEX_ROUTE_33
     dexendareadata
 
 
@@ -5651,6 +6107,7 @@ specialareas SPECIES_PINSIR, DEX_DAY
 
 
 specialareas SPECIES_PINSIR, DEX_NIGHT
+    .word DEX_ILEX_FOREST
     dexendareadata
 
 
@@ -5687,23 +6144,15 @@ specialareas SPECIES_TAUROS, DEX_NIGHT
 
 
 routesandcities SPECIES_TAUROS, DEX_MORNING
-    .word DEX_ROUTE_38
-    .word DEX_ROUTE_39
-    .word DEX_ROUTE_48
     dexendareadata
 
 
 routesandcities SPECIES_TAUROS, DEX_DAY
-    .word DEX_ROUTE_38
-    .word DEX_ROUTE_39
-    .word DEX_ROUTE_48
     dexendareadata
 
 
 routesandcities SPECIES_TAUROS, DEX_NIGHT
-    .word DEX_ROUTE_38
     .word DEX_ROUTE_39
-    .word DEX_ROUTE_48
     dexendareadata
 
 
@@ -5916,41 +6365,194 @@ routesandcities SPECIES_MAGIKARP, DEX_SPECIAL
 
 
 specialareas SPECIES_GYARADOS, DEX_MORNING
+    .word DEX_RUINS_OF_ALPH
+    .word DEX_UNION_CAVE
+    .word DEX_SLOWPOKE_WELL
+    .word DEX_ILEX_FOREST
+    .word DEX_WHIRL_ISLANDS
+    .word DEX_MT_MORTAR
+    .word DEX_DRAGONS_DEN
+    .word DEX_DARK_CAVE
+    .word DEX_MT_MOON
     .word DEX_SEAFOAM_ISLANDS
     .word DEX_MT_SILVER_CAVE
+    .word DEX_CLIFF_EDGE_GATE
+    .word DEX_TOHJO_FALLS
     .word DEX_CERULEAN_CAVE
     dexendareadata
 
 
 specialareas SPECIES_GYARADOS, DEX_DAY
+    .word DEX_RUINS_OF_ALPH
+    .word DEX_UNION_CAVE
+    .word DEX_SLOWPOKE_WELL
+    .word DEX_ILEX_FOREST
+    .word DEX_WHIRL_ISLANDS
+    .word DEX_MT_MORTAR
+    .word DEX_DRAGONS_DEN
+    .word DEX_DARK_CAVE
+    .word DEX_MT_MOON
     .word DEX_SEAFOAM_ISLANDS
     .word DEX_MT_SILVER_CAVE
+    .word DEX_CLIFF_EDGE_GATE
+    .word DEX_TOHJO_FALLS
     .word DEX_CERULEAN_CAVE
     dexendareadata
 
 
 specialareas SPECIES_GYARADOS, DEX_NIGHT
+    .word DEX_RUINS_OF_ALPH
+    .word DEX_UNION_CAVE
+    .word DEX_SLOWPOKE_WELL
+    .word DEX_ILEX_FOREST
+    .word DEX_WHIRL_ISLANDS
+    .word DEX_MT_MORTAR
+    .word DEX_DRAGONS_DEN
+    .word DEX_DARK_CAVE
+    .word DEX_MT_MOON
     .word DEX_SEAFOAM_ISLANDS
     .word DEX_MT_SILVER_CAVE
+    .word DEX_CLIFF_EDGE_GATE
+    .word DEX_TOHJO_FALLS
     .word DEX_CERULEAN_CAVE
     dexendareadata
 
 
 routesandcities SPECIES_GYARADOS, DEX_MORNING
+    .word DEX_NEW_BARK_TOWN
+    .word DEX_CHERRYGROVE_CITY
+    .word DEX_ROUTE_30
+    .word DEX_ROUTE_31
+    .word DEX_VIOLET_CITY
+    .word DEX_ROUTE_32
+    .word DEX_ROUTE_34
+    .word DEX_ROUTE_35
+    .word DEX_ECRUTEAK_CITY
+    .word DEX_OLIVINE_CITY
+    .word DEX_ROUTE_40
+    .word DEX_ROUTE_41
+    .word DEX_CIANWOOD_CITY
+    .word DEX_ROUTE_42
+    .word DEX_ROUTE_43
     .word DEX_LAKE_OF_RAGE
+    .word DEX_ROUTE_44
+    .word DEX_BLACKTHORN_CITY
+    .word DEX_ROUTE_45
+    .word DEX_ROUTE_47
+    .word DEX_MT_SILVER
+    .word DEX_ROUTE_12
+    .word DEX_ROUTE_19
+    .word DEX_ROUTE_20
+    .word DEX_PALLET_TOWN
+    .word DEX_VIRIDIAN_CITY
+    .word DEX_CERULEAN_CITY
+    .word DEX_VERMILION_CITY
     .word DEX_FUCHSIA_CITY
+    .word DEX_CINNABAR_CITY
+    .word DEX_ROUTE_26
+    .word DEX_ROUTE_27
+    .word DEX_ROUTE_28
+    .word DEX_ROUTE_4
+    .word DEX_ROUTE_6
+    .word DEX_ROUTE_9
+    .word DEX_ROUTE_10
+    .word DEX_ROUTE_13
+    .word DEX_ROUTE_21
+    .word DEX_ROUTE_22
+    .word DEX_ROUTE_24
+    .word DEX_ROUTE_25
     dexendareadata
 
 
 routesandcities SPECIES_GYARADOS, DEX_DAY
+    .word DEX_NEW_BARK_TOWN
+    .word DEX_CHERRYGROVE_CITY
+    .word DEX_ROUTE_30
+    .word DEX_ROUTE_31
+    .word DEX_VIOLET_CITY
+    .word DEX_ROUTE_32
+    .word DEX_ROUTE_34
+    .word DEX_ROUTE_35
+    .word DEX_ECRUTEAK_CITY
+    .word DEX_OLIVINE_CITY
+    .word DEX_ROUTE_40
+    .word DEX_ROUTE_41
+    .word DEX_CIANWOOD_CITY
+    .word DEX_ROUTE_42
+    .word DEX_ROUTE_43
     .word DEX_LAKE_OF_RAGE
+    .word DEX_ROUTE_44
+    .word DEX_BLACKTHORN_CITY
+    .word DEX_ROUTE_45
+    .word DEX_ROUTE_47
+    .word DEX_MT_SILVER
+    .word DEX_ROUTE_12
+    .word DEX_ROUTE_19
+    .word DEX_ROUTE_20
+    .word DEX_PALLET_TOWN
+    .word DEX_VIRIDIAN_CITY
+    .word DEX_CERULEAN_CITY
+    .word DEX_VERMILION_CITY
     .word DEX_FUCHSIA_CITY
+    .word DEX_CINNABAR_CITY
+    .word DEX_ROUTE_26
+    .word DEX_ROUTE_27
+    .word DEX_ROUTE_28
+    .word DEX_ROUTE_4
+    .word DEX_ROUTE_6
+    .word DEX_ROUTE_9
+    .word DEX_ROUTE_10
+    .word DEX_ROUTE_13
+    .word DEX_ROUTE_21
+    .word DEX_ROUTE_22
+    .word DEX_ROUTE_24
+    .word DEX_ROUTE_25
     dexendareadata
 
 
 routesandcities SPECIES_GYARADOS, DEX_NIGHT
+    .word DEX_NEW_BARK_TOWN
+    .word DEX_CHERRYGROVE_CITY
+    .word DEX_ROUTE_30
+    .word DEX_ROUTE_31
+    .word DEX_VIOLET_CITY
+    .word DEX_ROUTE_32
+    .word DEX_ROUTE_34
+    .word DEX_ROUTE_35
+    .word DEX_ECRUTEAK_CITY
+    .word DEX_OLIVINE_CITY
+    .word DEX_ROUTE_40
+    .word DEX_ROUTE_41
+    .word DEX_CIANWOOD_CITY
+    .word DEX_ROUTE_42
+    .word DEX_ROUTE_43
     .word DEX_LAKE_OF_RAGE
+    .word DEX_ROUTE_44
+    .word DEX_BLACKTHORN_CITY
+    .word DEX_ROUTE_45
+    .word DEX_ROUTE_47
+    .word DEX_MT_SILVER
+    .word DEX_ROUTE_12
+    .word DEX_ROUTE_19
+    .word DEX_ROUTE_20
+    .word DEX_PALLET_TOWN
+    .word DEX_VIRIDIAN_CITY
+    .word DEX_CERULEAN_CITY
+    .word DEX_VERMILION_CITY
     .word DEX_FUCHSIA_CITY
+    .word DEX_CINNABAR_CITY
+    .word DEX_ROUTE_26
+    .word DEX_ROUTE_27
+    .word DEX_ROUTE_28
+    .word DEX_ROUTE_4
+    .word DEX_ROUTE_6
+    .word DEX_ROUTE_9
+    .word DEX_ROUTE_10
+    .word DEX_ROUTE_13
+    .word DEX_ROUTE_21
+    .word DEX_ROUTE_22
+    .word DEX_ROUTE_24
+    .word DEX_ROUTE_25
     dexendareadata
 
 
@@ -6010,23 +6612,17 @@ specialareas SPECIES_DITTO, DEX_NIGHT
 
 
 routesandcities SPECIES_DITTO, DEX_MORNING
-    .word DEX_ROUTE_34
-    .word DEX_ROUTE_35
-    .word DEX_ROUTE_47
+    .word DEX_ROUTE_42
     dexendareadata
 
 
 routesandcities SPECIES_DITTO, DEX_DAY
-    .word DEX_ROUTE_34
-    .word DEX_ROUTE_35
-    .word DEX_ROUTE_47
+    .word DEX_ROUTE_42
     dexendareadata
 
 
 routesandcities SPECIES_DITTO, DEX_NIGHT
-    .word DEX_ROUTE_34
-    .word DEX_ROUTE_35
-    .word DEX_ROUTE_47
+    .word DEX_ROUTE_42
     dexendareadata
 
 
@@ -6051,14 +6647,17 @@ specialareas SPECIES_EEVEE, DEX_NIGHT
 
 
 routesandcities SPECIES_EEVEE, DEX_MORNING
+    .word DEX_ROUTE_36
     dexendareadata
 
 
 routesandcities SPECIES_EEVEE, DEX_DAY
+    .word DEX_ROUTE_36
     dexendareadata
 
 
 routesandcities SPECIES_EEVEE, DEX_NIGHT
+    .word DEX_ROUTE_36
     dexendareadata
 
 
@@ -6083,14 +6682,17 @@ specialareas SPECIES_VAPOREON, DEX_NIGHT
 
 
 routesandcities SPECIES_VAPOREON, DEX_MORNING
+    .word DEX_ROUTE_36
     dexendareadata
 
 
 routesandcities SPECIES_VAPOREON, DEX_DAY
+    .word DEX_ROUTE_36
     dexendareadata
 
 
 routesandcities SPECIES_VAPOREON, DEX_NIGHT
+    .word DEX_ROUTE_36
     dexendareadata
 
 
@@ -6115,14 +6717,17 @@ specialareas SPECIES_JOLTEON, DEX_NIGHT
 
 
 routesandcities SPECIES_JOLTEON, DEX_MORNING
+    .word DEX_ROUTE_36
     dexendareadata
 
 
 routesandcities SPECIES_JOLTEON, DEX_DAY
+    .word DEX_ROUTE_36
     dexendareadata
 
 
 routesandcities SPECIES_JOLTEON, DEX_NIGHT
+    .word DEX_ROUTE_36
     dexendareadata
 
 
@@ -6147,14 +6752,17 @@ specialareas SPECIES_FLAREON, DEX_NIGHT
 
 
 routesandcities SPECIES_FLAREON, DEX_MORNING
+    .word DEX_ROUTE_36
     dexendareadata
 
 
 routesandcities SPECIES_FLAREON, DEX_DAY
+    .word DEX_ROUTE_36
     dexendareadata
 
 
 routesandcities SPECIES_FLAREON, DEX_NIGHT
+    .word DEX_ROUTE_36
     dexendareadata
 
 
@@ -6167,10 +6775,12 @@ routesandcities SPECIES_FLAREON, DEX_SPECIAL
 
 
 specialareas SPECIES_PORYGON, DEX_MORNING
+    .word DEX_RUINS_OF_ALPH
     dexendareadata
 
 
 specialareas SPECIES_PORYGON, DEX_DAY
+    .word DEX_RUINS_OF_ALPH
     dexendareadata
 
 
@@ -6199,10 +6809,12 @@ routesandcities SPECIES_PORYGON, DEX_SPECIAL
 
 
 specialareas SPECIES_OMANYTE, DEX_MORNING
+    .word DEX_NATIONAL_PARK
     dexendareadata
 
 
 specialareas SPECIES_OMANYTE, DEX_DAY
+    .word DEX_NATIONAL_PARK
     dexendareadata
 
 
@@ -6231,10 +6843,12 @@ routesandcities SPECIES_OMANYTE, DEX_SPECIAL
 
 
 specialareas SPECIES_OMASTAR, DEX_MORNING
+    .word DEX_NATIONAL_PARK
     dexendareadata
 
 
 specialareas SPECIES_OMASTAR, DEX_DAY
+    .word DEX_NATIONAL_PARK
     dexendareadata
 
 
@@ -6263,10 +6877,12 @@ routesandcities SPECIES_OMASTAR, DEX_SPECIAL
 
 
 specialareas SPECIES_KABUTO, DEX_MORNING
+    .word DEX_NATIONAL_PARK
     dexendareadata
 
 
 specialareas SPECIES_KABUTO, DEX_DAY
+    .word DEX_NATIONAL_PARK
     dexendareadata
 
 
@@ -6295,10 +6911,12 @@ routesandcities SPECIES_KABUTO, DEX_SPECIAL
 
 
 specialareas SPECIES_KABUTOPS, DEX_MORNING
+    .word DEX_NATIONAL_PARK
     dexendareadata
 
 
 specialareas SPECIES_KABUTOPS, DEX_DAY
+    .word DEX_NATIONAL_PARK
     dexendareadata
 
 
@@ -6335,6 +6953,7 @@ specialareas SPECIES_AERODACTYL, DEX_DAY
 
 
 specialareas SPECIES_AERODACTYL, DEX_NIGHT
+    .word DEX_NATIONAL_PARK
     dexendareadata
 
 
@@ -6367,6 +6986,7 @@ specialareas SPECIES_SNORLAX, DEX_DAY
 
 
 specialareas SPECIES_SNORLAX, DEX_NIGHT
+    .word DEX_SPROUT_TOWER
     dexendareadata
 
 
@@ -6391,26 +7011,32 @@ routesandcities SPECIES_SNORLAX, DEX_SPECIAL
 
 
 specialareas SPECIES_ARTICUNO, DEX_MORNING
+    .word DEX_SEAFOAM_ISLANDS
     dexendareadata
 
 
 specialareas SPECIES_ARTICUNO, DEX_DAY
+    .word DEX_SEAFOAM_ISLANDS
     dexendareadata
 
 
 specialareas SPECIES_ARTICUNO, DEX_NIGHT
+    .word DEX_SEAFOAM_ISLANDS
     dexendareadata
 
 
 routesandcities SPECIES_ARTICUNO, DEX_MORNING
+    .word DEX_ROUTE_22
     dexendareadata
 
 
 routesandcities SPECIES_ARTICUNO, DEX_DAY
+    .word DEX_ROUTE_22
     dexendareadata
 
 
 routesandcities SPECIES_ARTICUNO, DEX_NIGHT
+    .word DEX_ROUTE_22
     dexendareadata
 
 
@@ -6423,14 +7049,20 @@ routesandcities SPECIES_ARTICUNO, DEX_SPECIAL
 
 
 specialareas SPECIES_ZAPDOS, DEX_MORNING
+    .word DEX_MT_MORTAR
+    .word DEX_ROCK_TUNNEL
     dexendareadata
 
 
 specialareas SPECIES_ZAPDOS, DEX_DAY
+    .word DEX_MT_MORTAR
+    .word DEX_ROCK_TUNNEL
     dexendareadata
 
 
 specialareas SPECIES_ZAPDOS, DEX_NIGHT
+    .word DEX_MT_MORTAR
+    .word DEX_ROCK_TUNNEL
     dexendareadata
 
 
@@ -6455,14 +7087,20 @@ routesandcities SPECIES_ZAPDOS, DEX_SPECIAL
 
 
 specialareas SPECIES_MOLTRES, DEX_MORNING
+    .word DEX_MT_MORTAR
+    .word DEX_MT_SILVER_CAVE
     dexendareadata
 
 
 specialareas SPECIES_MOLTRES, DEX_DAY
+    .word DEX_MT_MORTAR
+    .word DEX_MT_SILVER_CAVE
     dexendareadata
 
 
 specialareas SPECIES_MOLTRES, DEX_NIGHT
+    .word DEX_MT_MORTAR
+    .word DEX_MT_SILVER_CAVE
     dexendareadata
 
 
@@ -6497,6 +7135,7 @@ specialareas SPECIES_DRATINI, DEX_DAY
 
 
 specialareas SPECIES_DRATINI, DEX_NIGHT
+    .word DEX_NATIONAL_PARK
     .word DEX_DRAGONS_DEN
     dexendareadata
 
@@ -6532,6 +7171,7 @@ specialareas SPECIES_DRAGONAIR, DEX_DAY
 
 
 specialareas SPECIES_DRAGONAIR, DEX_NIGHT
+    .word DEX_NATIONAL_PARK
     .word DEX_DRAGONS_DEN
     dexendareadata
 
@@ -6557,14 +7197,18 @@ routesandcities SPECIES_DRAGONAIR, DEX_SPECIAL
 
 
 specialareas SPECIES_DRAGONITE, DEX_MORNING
+    .word DEX_DRAGONS_DEN
     dexendareadata
 
 
 specialareas SPECIES_DRAGONITE, DEX_DAY
+    .word DEX_DRAGONS_DEN
     dexendareadata
 
 
 specialareas SPECIES_DRAGONITE, DEX_NIGHT
+    .word DEX_NATIONAL_PARK
+    .word DEX_DRAGONS_DEN
     dexendareadata
 
 
@@ -6589,14 +7233,17 @@ routesandcities SPECIES_DRAGONITE, DEX_SPECIAL
 
 
 specialareas SPECIES_MEWTWO, DEX_MORNING
+    .word DEX_CERULEAN_CAVE
     dexendareadata
 
 
 specialareas SPECIES_MEWTWO, DEX_DAY
+    .word DEX_CERULEAN_CAVE
     dexendareadata
 
 
 specialareas SPECIES_MEWTWO, DEX_NIGHT
+    .word DEX_CERULEAN_CAVE
     dexendareadata
 
 
@@ -6621,14 +7268,17 @@ routesandcities SPECIES_MEWTWO, DEX_SPECIAL
 
 
 specialareas SPECIES_MEW, DEX_MORNING
+    .word DEX_BELL_TOWER
     dexendareadata
 
 
 specialareas SPECIES_MEW, DEX_DAY
+    .word DEX_BELL_TOWER
     dexendareadata
 
 
 specialareas SPECIES_MEW, DEX_NIGHT
+    .word DEX_BELL_TOWER
     dexendareadata
 
 
@@ -6665,6 +7315,7 @@ specialareas SPECIES_CHIKORITA, DEX_NIGHT
 
 
 routesandcities SPECIES_CHIKORITA, DEX_MORNING
+    .word DEX_ROUTE_34
     dexendareadata
 
 
@@ -6697,6 +7348,7 @@ specialareas SPECIES_BAYLEEF, DEX_NIGHT
 
 
 routesandcities SPECIES_BAYLEEF, DEX_MORNING
+    .word DEX_ROUTE_34
     dexendareadata
 
 
@@ -6729,6 +7381,7 @@ specialareas SPECIES_MEGANIUM, DEX_NIGHT
 
 
 routesandcities SPECIES_MEGANIUM, DEX_MORNING
+    .word DEX_ROUTE_34
     dexendareadata
 
 
@@ -6769,6 +7422,7 @@ routesandcities SPECIES_CYNDAQUIL, DEX_DAY
 
 
 routesandcities SPECIES_CYNDAQUIL, DEX_NIGHT
+    .word DEX_ROUTE_34
     dexendareadata
 
 
@@ -6801,6 +7455,7 @@ routesandcities SPECIES_QUILAVA, DEX_DAY
 
 
 routesandcities SPECIES_QUILAVA, DEX_NIGHT
+    .word DEX_ROUTE_34
     dexendareadata
 
 
@@ -6813,14 +7468,17 @@ routesandcities SPECIES_QUILAVA, DEX_SPECIAL
 
 
 specialareas SPECIES_TYPHLOSION, DEX_MORNING
+    .word DEX_MT_MORTAR
     dexendareadata
 
 
 specialareas SPECIES_TYPHLOSION, DEX_DAY
+    .word DEX_MT_MORTAR
     dexendareadata
 
 
 specialareas SPECIES_TYPHLOSION, DEX_NIGHT
+    .word DEX_MT_MORTAR
     dexendareadata
 
 
@@ -6833,6 +7491,7 @@ routesandcities SPECIES_TYPHLOSION, DEX_DAY
 
 
 routesandcities SPECIES_TYPHLOSION, DEX_NIGHT
+    .word DEX_ROUTE_34
     dexendareadata
 
 
@@ -6861,6 +7520,7 @@ routesandcities SPECIES_TOTODILE, DEX_MORNING
 
 
 routesandcities SPECIES_TOTODILE, DEX_DAY
+    .word DEX_ROUTE_34
     dexendareadata
 
 
@@ -6893,6 +7553,7 @@ routesandcities SPECIES_CROCONAW, DEX_MORNING
 
 
 routesandcities SPECIES_CROCONAW, DEX_DAY
+    .word DEX_ROUTE_34
     dexendareadata
 
 
@@ -6925,6 +7586,7 @@ routesandcities SPECIES_FERALIGATR, DEX_MORNING
 
 
 routesandcities SPECIES_FERALIGATR, DEX_DAY
+    .word DEX_ROUTE_34
     dexendareadata
 
 
@@ -6989,11 +7651,13 @@ specialareas SPECIES_FURRET, DEX_NIGHT
 
 
 routesandcities SPECIES_FURRET, DEX_MORNING
+    .word DEX_ROUTE_29
     .word DEX_ROUTE_1
     dexendareadata
 
 
 routesandcities SPECIES_FURRET, DEX_DAY
+    .word DEX_ROUTE_29
     .word DEX_ROUTE_1
     dexendareadata
 
@@ -7019,7 +7683,6 @@ specialareas SPECIES_HOOTHOOT, DEX_DAY
 
 
 specialareas SPECIES_HOOTHOOT, DEX_NIGHT
-    .word DEX_NATIONAL_PARK
     .word DEX_VIRIDIAN_FOREST
     dexendareadata
 
@@ -7034,11 +7697,6 @@ routesandcities SPECIES_HOOTHOOT, DEX_DAY
 
 routesandcities SPECIES_HOOTHOOT, DEX_NIGHT
     .word DEX_ROUTE_29
-    .word DEX_ROUTE_30
-    .word DEX_ROUTE_31
-    .word DEX_ROUTE_35
-    .word DEX_ROUTE_36
-    .word DEX_ROUTE_37
     .word DEX_ROUTE_1
     .word DEX_ROUTE_2
     .word DEX_ROUTE_2_2
@@ -7120,8 +7778,8 @@ routesandcities SPECIES_NOCTOWL, DEX_DAY
 
 
 routesandcities SPECIES_NOCTOWL, DEX_NIGHT
-    .word DEX_ROUTE_43
-    .word DEX_ROUTE_47
+    .word DEX_ROUTE_29
+    .word DEX_ROUTE_1
     .word DEX_ROUTE_2
     .word DEX_ROUTE_8
     .word DEX_ROUTE_13
@@ -7154,10 +7812,12 @@ specialareas SPECIES_LEDYBA, DEX_NIGHT
 
 
 routesandcities SPECIES_LEDYBA, DEX_MORNING
+    .word DEX_ROUTE_30
     dexendareadata
 
 
 routesandcities SPECIES_LEDYBA, DEX_DAY
+    .word DEX_ROUTE_30
     dexendareadata
 
 
@@ -7186,10 +7846,12 @@ specialareas SPECIES_LEDIAN, DEX_NIGHT
 
 
 routesandcities SPECIES_LEDIAN, DEX_MORNING
+    .word DEX_ROUTE_30
     dexendareadata
 
 
 routesandcities SPECIES_LEDIAN, DEX_DAY
+    .word DEX_ROUTE_30
     dexendareadata
 
 
@@ -7218,19 +7880,18 @@ specialareas SPECIES_SPINARAK, DEX_NIGHT
 
 
 routesandcities SPECIES_SPINARAK, DEX_MORNING
+    .word DEX_ROUTE_30
     .word DEX_ROUTE_2
     .word DEX_ROUTE_2_2
     dexendareadata
 
 
 routesandcities SPECIES_SPINARAK, DEX_DAY
+    .word DEX_ROUTE_30
     dexendareadata
 
 
 routesandcities SPECIES_SPINARAK, DEX_NIGHT
-    .word DEX_ROUTE_30
-    .word DEX_ROUTE_31
-    .word DEX_ROUTE_37
     .word DEX_ROUTE_2
     .word DEX_ROUTE_2_2
     dexendareadata
@@ -7289,10 +7950,14 @@ specialareas SPECIES_ARIADOS, DEX_NIGHT
 
 
 routesandcities SPECIES_ARIADOS, DEX_MORNING
+    .word DEX_ROUTE_30
+    .word DEX_ROUTE_2
+    .word DEX_ROUTE_2_2
     dexendareadata
 
 
 routesandcities SPECIES_ARIADOS, DEX_DAY
+    .word DEX_ROUTE_30
     dexendareadata
 
 
@@ -7312,26 +7977,73 @@ routesandcities SPECIES_ARIADOS, DEX_SPECIAL
 
 
 specialareas SPECIES_CROBAT, DEX_MORNING
+    .word DEX_UNION_CAVE
+    .word DEX_SLOWPOKE_WELL
+    .word DEX_WHIRL_ISLANDS
+    .word DEX_MT_MORTAR
+    .word DEX_ICE_PATH
+    .word DEX_DARK_CAVE
+    .word DEX_MT_MOON
+    .word DEX_SEAFOAM_ISLANDS
+    .word DEX_MT_SILVER_CAVE
+    .word DEX_CLIFF_CAVE
+    .word DEX_ROCK_TUNNEL
+    .word DEX_VICTORY_ROAD
+    .word DEX_TOHJO_FALLS
+    .word DEX_CERULEAN_CAVE
     dexendareadata
 
 
 specialareas SPECIES_CROBAT, DEX_DAY
+    .word DEX_UNION_CAVE
+    .word DEX_SLOWPOKE_WELL
+    .word DEX_WHIRL_ISLANDS
+    .word DEX_MT_MORTAR
+    .word DEX_ICE_PATH
+    .word DEX_DARK_CAVE
+    .word DEX_MT_MOON
+    .word DEX_SEAFOAM_ISLANDS
+    .word DEX_MT_SILVER_CAVE
+    .word DEX_CLIFF_CAVE
+    .word DEX_ROCK_TUNNEL
+    .word DEX_VICTORY_ROAD
+    .word DEX_TOHJO_FALLS
+    .word DEX_CERULEAN_CAVE
     dexendareadata
 
 
 specialareas SPECIES_CROBAT, DEX_NIGHT
+    .word DEX_UNION_CAVE
+    .word DEX_SLOWPOKE_WELL
+    .word DEX_WHIRL_ISLANDS
+    .word DEX_MT_MORTAR
+    .word DEX_ICE_PATH
+    .word DEX_DARK_CAVE
+    .word DEX_MT_MOON
+    .word DEX_SEAFOAM_ISLANDS
+    .word DEX_MT_SILVER_CAVE
+    .word DEX_CLIFF_CAVE
+    .word DEX_ROCK_TUNNEL
+    .word DEX_VICTORY_ROAD
+    .word DEX_TOHJO_FALLS
+    .word DEX_CERULEAN_CAVE
     dexendareadata
 
 
 routesandcities SPECIES_CROBAT, DEX_MORNING
+    .word DEX_MT_SILVER
     dexendareadata
 
 
 routesandcities SPECIES_CROBAT, DEX_DAY
+    .word DEX_MT_SILVER
     dexendareadata
 
 
 routesandcities SPECIES_CROBAT, DEX_NIGHT
+    .word DEX_MT_SILVER
+    .word DEX_ROUTE_3
+    .word DEX_ROUTE_4
     dexendareadata
 
 
@@ -7357,6 +8069,7 @@ specialareas SPECIES_CHINCHOU, DEX_NIGHT
 
 routesandcities SPECIES_CHINCHOU, DEX_MORNING
     .word DEX_NEW_BARK_TOWN
+    .word DEX_ROUTE_40
     .word DEX_ROUTE_41
     .word DEX_ROUTE_47
     .word DEX_ROUTE_20
@@ -7371,6 +8084,7 @@ routesandcities SPECIES_CHINCHOU, DEX_MORNING
 
 routesandcities SPECIES_CHINCHOU, DEX_DAY
     .word DEX_NEW_BARK_TOWN
+    .word DEX_ROUTE_40
     .word DEX_ROUTE_41
     .word DEX_ROUTE_47
     .word DEX_ROUTE_20
@@ -7385,6 +8099,7 @@ routesandcities SPECIES_CHINCHOU, DEX_DAY
 
 routesandcities SPECIES_CHINCHOU, DEX_NIGHT
     .word DEX_NEW_BARK_TOWN
+    .word DEX_ROUTE_40
     .word DEX_ROUTE_41
     .word DEX_ROUTE_47
     .word DEX_ROUTE_20
@@ -7419,6 +8134,7 @@ specialareas SPECIES_LANTURN, DEX_NIGHT
 
 routesandcities SPECIES_LANTURN, DEX_MORNING
     .word DEX_NEW_BARK_TOWN
+    .word DEX_ROUTE_40
     .word DEX_ROUTE_41
     .word DEX_ROUTE_47
     .word DEX_ROUTE_20
@@ -7433,6 +8149,7 @@ routesandcities SPECIES_LANTURN, DEX_MORNING
 
 routesandcities SPECIES_LANTURN, DEX_DAY
     .word DEX_NEW_BARK_TOWN
+    .word DEX_ROUTE_40
     .word DEX_ROUTE_41
     .word DEX_ROUTE_47
     .word DEX_ROUTE_20
@@ -7447,6 +8164,7 @@ routesandcities SPECIES_LANTURN, DEX_DAY
 
 routesandcities SPECIES_LANTURN, DEX_NIGHT
     .word DEX_NEW_BARK_TOWN
+    .word DEX_ROUTE_40
     .word DEX_ROUTE_41
     .word DEX_ROUTE_47
     .word DEX_ROUTE_20
@@ -7480,10 +8198,12 @@ specialareas SPECIES_PICHU, DEX_NIGHT
 
 
 routesandcities SPECIES_PICHU, DEX_MORNING
+    .word DEX_ROUTE_33
     dexendareadata
 
 
 routesandcities SPECIES_PICHU, DEX_DAY
+    .word DEX_ROUTE_33
     dexendareadata
 
 
@@ -7520,6 +8240,7 @@ routesandcities SPECIES_CLEFFA, DEX_DAY
 
 
 routesandcities SPECIES_CLEFFA, DEX_NIGHT
+    .word DEX_ROUTE_33
     dexendareadata
 
 
@@ -7544,10 +8265,12 @@ specialareas SPECIES_IGGLYBUFF, DEX_NIGHT
 
 
 routesandcities SPECIES_IGGLYBUFF, DEX_MORNING
+    .word DEX_ROUTE_33
     dexendareadata
 
 
 routesandcities SPECIES_IGGLYBUFF, DEX_DAY
+    .word DEX_ROUTE_33
     dexendareadata
 
 
@@ -7666,14 +8389,17 @@ routesandcities SPECIES_NATU, DEX_SPECIAL
 
 
 specialareas SPECIES_XATU, DEX_MORNING
+    .word DEX_RUINS_OF_ALPH
     dexendareadata
 
 
 specialareas SPECIES_XATU, DEX_DAY
+    .word DEX_RUINS_OF_ALPH
     dexendareadata
 
 
 specialareas SPECIES_XATU, DEX_NIGHT
+    .word DEX_RUINS_OF_ALPH
     dexendareadata
 
 
@@ -7711,22 +8437,15 @@ specialareas SPECIES_MAREEP, DEX_NIGHT
 
 routesandcities SPECIES_MAREEP, DEX_MORNING
     .word DEX_ROUTE_32
-    .word DEX_ROUTE_42
-    .word DEX_ROUTE_43
     dexendareadata
 
 
 routesandcities SPECIES_MAREEP, DEX_DAY
     .word DEX_ROUTE_32
-    .word DEX_ROUTE_42
-    .word DEX_ROUTE_43
     dexendareadata
 
 
 routesandcities SPECIES_MAREEP, DEX_NIGHT
-    .word DEX_ROUTE_32
-    .word DEX_ROUTE_42
-    .word DEX_ROUTE_43
     dexendareadata
 
 
@@ -7751,20 +8470,16 @@ specialareas SPECIES_FLAAFFY, DEX_NIGHT
 
 
 routesandcities SPECIES_FLAAFFY, DEX_MORNING
-    .word DEX_ROUTE_42
-    .word DEX_ROUTE_43
+    .word DEX_ROUTE_32
     dexendareadata
 
 
 routesandcities SPECIES_FLAAFFY, DEX_DAY
-    .word DEX_ROUTE_42
-    .word DEX_ROUTE_43
+    .word DEX_ROUTE_32
     dexendareadata
 
 
 routesandcities SPECIES_FLAAFFY, DEX_NIGHT
-    .word DEX_ROUTE_42
-    .word DEX_ROUTE_43
     dexendareadata
 
 
@@ -7789,10 +8504,12 @@ specialareas SPECIES_AMPHAROS, DEX_NIGHT
 
 
 routesandcities SPECIES_AMPHAROS, DEX_MORNING
+    .word DEX_ROUTE_32
     dexendareadata
 
 
 routesandcities SPECIES_AMPHAROS, DEX_DAY
+    .word DEX_ROUTE_32
     dexendareadata
 
 
@@ -7809,10 +8526,12 @@ routesandcities SPECIES_AMPHAROS, DEX_SPECIAL
 
 
 specialareas SPECIES_BELLOSSOM, DEX_MORNING
+    .word DEX_SPROUT_TOWER
     dexendareadata
 
 
 specialareas SPECIES_BELLOSSOM, DEX_DAY
+    .word DEX_SPROUT_TOWER
     dexendareadata
 
 
@@ -7829,6 +8548,10 @@ routesandcities SPECIES_BELLOSSOM, DEX_DAY
 
 
 routesandcities SPECIES_BELLOSSOM, DEX_NIGHT
+    .word DEX_ROUTE_5
+    .word DEX_ROUTE_6
+    .word DEX_ROUTE_24
+    .word DEX_ROUTE_25
     dexendareadata
 
 
@@ -7841,17 +8564,14 @@ routesandcities SPECIES_BELLOSSOM, DEX_SPECIAL
 
 
 specialareas SPECIES_MARILL, DEX_MORNING
-    .word DEX_MT_MORTAR
     dexendareadata
 
 
 specialareas SPECIES_MARILL, DEX_DAY
-    .word DEX_MT_MORTAR
     dexendareadata
 
 
 specialareas SPECIES_MARILL, DEX_NIGHT
-    .word DEX_MT_MORTAR
     dexendareadata
 
 
@@ -7864,6 +8584,7 @@ routesandcities SPECIES_MARILL, DEX_DAY
 
 
 routesandcities SPECIES_MARILL, DEX_NIGHT
+    .word DEX_ROUTE_33
     dexendareadata
 
 
@@ -7896,6 +8617,7 @@ routesandcities SPECIES_AZUMARILL, DEX_DAY
 
 
 routesandcities SPECIES_AZUMARILL, DEX_NIGHT
+    .word DEX_ROUTE_33
     dexendareadata
 
 
@@ -7908,10 +8630,12 @@ routesandcities SPECIES_AZUMARILL, DEX_SPECIAL
 
 
 specialareas SPECIES_SUDOWOODO, DEX_MORNING
+    .word DEX_SPROUT_TOWER
     dexendareadata
 
 
 specialareas SPECIES_SUDOWOODO, DEX_DAY
+    .word DEX_SPROUT_TOWER
     dexendareadata
 
 
@@ -7940,26 +8664,86 @@ routesandcities SPECIES_SUDOWOODO, DEX_SPECIAL
 
 
 specialareas SPECIES_POLITOED, DEX_MORNING
+    .word DEX_RUINS_OF_ALPH
+    .word DEX_ILEX_FOREST
+    .word DEX_MT_MOON
+    .word DEX_CLIFF_EDGE_GATE
+    .word DEX_CERULEAN_CAVE
     dexendareadata
 
 
 specialareas SPECIES_POLITOED, DEX_DAY
+    .word DEX_RUINS_OF_ALPH
+    .word DEX_ILEX_FOREST
+    .word DEX_MT_MOON
+    .word DEX_CLIFF_EDGE_GATE
+    .word DEX_CERULEAN_CAVE
     dexendareadata
 
 
 specialareas SPECIES_POLITOED, DEX_NIGHT
+    .word DEX_RUINS_OF_ALPH
+    .word DEX_ILEX_FOREST
+    .word DEX_MT_MOON
+    .word DEX_CLIFF_EDGE_GATE
+    .word DEX_CERULEAN_CAVE
     dexendareadata
 
 
 routesandcities SPECIES_POLITOED, DEX_MORNING
+    .word DEX_ROUTE_30
+    .word DEX_ROUTE_31
+    .word DEX_VIOLET_CITY
+    .word DEX_ROUTE_35
+    .word DEX_ECRUTEAK_CITY
+    .word DEX_ROUTE_38
+    .word DEX_ROUTE_43
+    .word DEX_ROUTE_44
+    .word DEX_BLACKTHORN_CITY
+    .word DEX_ROUTE_45
+    .word DEX_MT_SILVER
+    .word DEX_VIRIDIAN_CITY
+    .word DEX_ROUTE_28
+    .word DEX_ROUTE_6
+    .word DEX_ROUTE_22
     dexendareadata
 
 
 routesandcities SPECIES_POLITOED, DEX_DAY
+    .word DEX_ROUTE_30
+    .word DEX_ROUTE_31
+    .word DEX_VIOLET_CITY
+    .word DEX_ROUTE_35
+    .word DEX_ECRUTEAK_CITY
+    .word DEX_ROUTE_38
+    .word DEX_ROUTE_43
+    .word DEX_ROUTE_44
+    .word DEX_BLACKTHORN_CITY
+    .word DEX_ROUTE_45
+    .word DEX_MT_SILVER
+    .word DEX_VIRIDIAN_CITY
+    .word DEX_ROUTE_28
+    .word DEX_ROUTE_6
+    .word DEX_ROUTE_22
     dexendareadata
 
 
 routesandcities SPECIES_POLITOED, DEX_NIGHT
+    .word DEX_ROUTE_30
+    .word DEX_ROUTE_31
+    .word DEX_VIOLET_CITY
+    .word DEX_ROUTE_35
+    .word DEX_ECRUTEAK_CITY
+    .word DEX_ROUTE_38
+    .word DEX_ROUTE_43
+    .word DEX_ROUTE_44
+    .word DEX_BLACKTHORN_CITY
+    .word DEX_ROUTE_45
+    .word DEX_MT_SILVER
+    .word DEX_VIRIDIAN_CITY
+    .word DEX_ROUTE_28
+    .word DEX_ROUTE_6
+    .word DEX_ROUTE_22
     dexendareadata
 
 
@@ -7985,8 +8769,6 @@ specialareas SPECIES_HOPPIP, DEX_NIGHT
 
 routesandcities SPECIES_HOPPIP, DEX_MORNING
     .word DEX_ROUTE_32
-    .word DEX_ROUTE_33
-    .word DEX_ROUTE_48
     .word DEX_ROUTE_13
     .word DEX_ROUTE_14
     .word DEX_ROUTE_15
@@ -7995,8 +8777,6 @@ routesandcities SPECIES_HOPPIP, DEX_MORNING
 
 routesandcities SPECIES_HOPPIP, DEX_DAY
     .word DEX_ROUTE_32
-    .word DEX_ROUTE_33
-    .word DEX_ROUTE_48
     .word DEX_ROUTE_13
     .word DEX_ROUTE_14
     .word DEX_ROUTE_15
@@ -8004,7 +8784,6 @@ routesandcities SPECIES_HOPPIP, DEX_DAY
 
 
 routesandcities SPECIES_HOPPIP, DEX_NIGHT
-    .word DEX_ROUTE_48
     dexendareadata
 
 
@@ -8029,12 +8808,18 @@ specialareas SPECIES_SKIPLOOM, DEX_NIGHT
 
 
 routesandcities SPECIES_SKIPLOOM, DEX_MORNING
+    .word DEX_ROUTE_32
+    .word DEX_ROUTE_13
     .word DEX_ROUTE_14
+    .word DEX_ROUTE_15
     dexendareadata
 
 
 routesandcities SPECIES_SKIPLOOM, DEX_DAY
+    .word DEX_ROUTE_32
+    .word DEX_ROUTE_13
     .word DEX_ROUTE_14
+    .word DEX_ROUTE_15
     dexendareadata
 
 
@@ -8063,10 +8848,18 @@ specialareas SPECIES_JUMPLUFF, DEX_NIGHT
 
 
 routesandcities SPECIES_JUMPLUFF, DEX_MORNING
+    .word DEX_ROUTE_32
+    .word DEX_ROUTE_13
+    .word DEX_ROUTE_14
+    .word DEX_ROUTE_15
     dexendareadata
 
 
 routesandcities SPECIES_JUMPLUFF, DEX_DAY
+    .word DEX_ROUTE_32
+    .word DEX_ROUTE_13
+    .word DEX_ROUTE_14
+    .word DEX_ROUTE_15
     dexendareadata
 
 
@@ -8095,10 +8888,12 @@ specialareas SPECIES_AIPOM, DEX_NIGHT
 
 
 routesandcities SPECIES_AIPOM, DEX_MORNING
+    .word DEX_ROUTE_46
     dexendareadata
 
 
 routesandcities SPECIES_AIPOM, DEX_DAY
+    .word DEX_ROUTE_46
     dexendareadata
 
 
@@ -8128,7 +8923,6 @@ specialareas SPECIES_SUNKERN, DEX_MORNING
 
 
 specialareas SPECIES_SUNKERN, DEX_DAY
-    .word DEX_NATIONAL_PARK
     dexendareadata
 
 
@@ -8137,10 +8931,12 @@ specialareas SPECIES_SUNKERN, DEX_NIGHT
 
 
 routesandcities SPECIES_SUNKERN, DEX_MORNING
+    .word DEX_ROUTE_31
     dexendareadata
 
 
 routesandcities SPECIES_SUNKERN, DEX_DAY
+    .word DEX_ROUTE_31
     .word DEX_ROUTE_24
     dexendareadata
 
@@ -8170,10 +8966,13 @@ specialareas SPECIES_SUNFLORA, DEX_NIGHT
 
 
 routesandcities SPECIES_SUNFLORA, DEX_MORNING
+    .word DEX_ROUTE_31
     dexendareadata
 
 
 routesandcities SPECIES_SUNFLORA, DEX_DAY
+    .word DEX_ROUTE_31
+    .word DEX_ROUTE_24
     dexendareadata
 
 
@@ -8202,17 +9001,17 @@ specialareas SPECIES_YANMA, DEX_NIGHT
 
 
 routesandcities SPECIES_YANMA, DEX_MORNING
-    .word DEX_ROUTE_35
+    .word DEX_ROUTE_43
     dexendareadata
 
 
 routesandcities SPECIES_YANMA, DEX_DAY
-    .word DEX_ROUTE_35
+    .word DEX_ROUTE_43
     dexendareadata
 
 
 routesandcities SPECIES_YANMA, DEX_NIGHT
-    .word DEX_ROUTE_35
+    .word DEX_ROUTE_43
     dexendareadata
 
 
@@ -8248,15 +9047,17 @@ specialareas SPECIES_WOOPER, DEX_NIGHT
 
 
 routesandcities SPECIES_WOOPER, DEX_MORNING
+    .word DEX_ROUTE_38
     dexendareadata
 
 
 routesandcities SPECIES_WOOPER, DEX_DAY
+    .word DEX_ROUTE_38
     dexendareadata
 
 
 routesandcities SPECIES_WOOPER, DEX_NIGHT
-    .word DEX_ROUTE_32
+    .word DEX_ROUTE_38
     dexendareadata
 
 
@@ -8296,6 +9097,8 @@ specialareas SPECIES_QUAGSIRE, DEX_NIGHT
 
 routesandcities SPECIES_QUAGSIRE, DEX_MORNING
     .word DEX_ROUTE_32
+    .word DEX_ROUTE_38
+    .word DEX_MT_SILVER
     .word DEX_ROUTE_12
     .word DEX_ROUTE_13
     dexendareadata
@@ -8303,6 +9106,8 @@ routesandcities SPECIES_QUAGSIRE, DEX_MORNING
 
 routesandcities SPECIES_QUAGSIRE, DEX_DAY
     .word DEX_ROUTE_32
+    .word DEX_ROUTE_38
+    .word DEX_MT_SILVER
     .word DEX_ROUTE_12
     .word DEX_ROUTE_13
     dexendareadata
@@ -8310,6 +9115,8 @@ routesandcities SPECIES_QUAGSIRE, DEX_DAY
 
 routesandcities SPECIES_QUAGSIRE, DEX_NIGHT
     .word DEX_ROUTE_32
+    .word DEX_ROUTE_38
+    .word DEX_MT_SILVER
     .word DEX_ROUTE_12
     .word DEX_ROUTE_26
     .word DEX_ROUTE_27
@@ -8341,14 +9148,17 @@ specialareas SPECIES_ESPEON, DEX_NIGHT
 
 
 routesandcities SPECIES_ESPEON, DEX_MORNING
+    .word DEX_ROUTE_36
     dexendareadata
 
 
 routesandcities SPECIES_ESPEON, DEX_DAY
+    .word DEX_ROUTE_36
     dexendareadata
 
 
 routesandcities SPECIES_ESPEON, DEX_NIGHT
+    .word DEX_ROUTE_36
     dexendareadata
 
 
@@ -8373,14 +9183,17 @@ specialareas SPECIES_UMBREON, DEX_NIGHT
 
 
 routesandcities SPECIES_UMBREON, DEX_MORNING
+    .word DEX_ROUTE_36
     dexendareadata
 
 
 routesandcities SPECIES_UMBREON, DEX_DAY
+    .word DEX_ROUTE_36
     dexendareadata
 
 
 routesandcities SPECIES_UMBREON, DEX_NIGHT
+    .word DEX_ROUTE_36
     dexendareadata
 
 
@@ -8401,6 +9214,7 @@ specialareas SPECIES_MURKROW, DEX_DAY
 
 
 specialareas SPECIES_MURKROW, DEX_NIGHT
+    .word DEX_ILEX_FOREST
     dexendareadata
 
 
@@ -8427,18 +9241,25 @@ routesandcities SPECIES_MURKROW, DEX_SPECIAL
 
 
 specialareas SPECIES_SLOWKING, DEX_MORNING
+    .word DEX_SLOWPOKE_WELL
+    .word DEX_TOHJO_FALLS
     dexendareadata
 
 
 specialareas SPECIES_SLOWKING, DEX_DAY
+    .word DEX_SLOWPOKE_WELL
+    .word DEX_TOHJO_FALLS
     dexendareadata
 
 
 specialareas SPECIES_SLOWKING, DEX_NIGHT
+    .word DEX_SLOWPOKE_WELL
+    .word DEX_TOHJO_FALLS
     dexendareadata
 
 
 routesandcities SPECIES_SLOWKING, DEX_MORNING
+    .word DEX_ROUTE_32
     dexendareadata
 
 
@@ -8467,6 +9288,7 @@ specialareas SPECIES_MISDREAVUS, DEX_DAY
 
 
 specialareas SPECIES_MISDREAVUS, DEX_NIGHT
+    .word DEX_RUINS_OF_ALPH
     .word DEX_MT_SILVER_CAVE
     .word DEX_CLIFF_CAVE
     dexendareadata
@@ -8481,6 +9303,7 @@ routesandcities SPECIES_MISDREAVUS, DEX_DAY
 
 
 routesandcities SPECIES_MISDREAVUS, DEX_NIGHT
+    .word DEX_MT_SILVER
     dexendareadata
 
 
@@ -8528,12 +9351,14 @@ routesandcities SPECIES_UNOWN, DEX_SPECIAL
 
 
 specialareas SPECIES_WOBBUFFET, DEX_MORNING
+    .word DEX_RUINS_OF_ALPH
     .word DEX_DARK_CAVE
     .word DEX_CERULEAN_CAVE
     dexendareadata
 
 
 specialareas SPECIES_WOBBUFFET, DEX_DAY
+    .word DEX_RUINS_OF_ALPH
     .word DEX_DARK_CAVE
     .word DEX_CERULEAN_CAVE
     dexendareadata
@@ -8579,19 +9404,16 @@ specialareas SPECIES_GIRAFARIG, DEX_NIGHT
 
 routesandcities SPECIES_GIRAFARIG, DEX_MORNING
     .word DEX_ROUTE_43
-    .word DEX_ROUTE_48
     dexendareadata
 
 
 routesandcities SPECIES_GIRAFARIG, DEX_DAY
     .word DEX_ROUTE_43
-    .word DEX_ROUTE_48
     dexendareadata
 
 
 routesandcities SPECIES_GIRAFARIG, DEX_NIGHT
     .word DEX_ROUTE_43
-    .word DEX_ROUTE_48
     dexendareadata
 
 
@@ -8604,14 +9426,17 @@ routesandcities SPECIES_GIRAFARIG, DEX_SPECIAL
 
 
 specialareas SPECIES_PINECO, DEX_MORNING
+    .word DEX_ILEX_FOREST
     dexendareadata
 
 
 specialareas SPECIES_PINECO, DEX_DAY
+    .word DEX_ILEX_FOREST
     dexendareadata
 
 
 specialareas SPECIES_PINECO, DEX_NIGHT
+    .word DEX_ILEX_FOREST
     dexendareadata
 
 
@@ -8673,14 +9498,17 @@ routesandcities SPECIES_PINECO, DEX_SPECIAL
 
 
 specialareas SPECIES_FORRETRESS, DEX_MORNING
+    .word DEX_ILEX_FOREST
     dexendareadata
 
 
 specialareas SPECIES_FORRETRESS, DEX_DAY
+    .word DEX_ILEX_FOREST
     dexendareadata
 
 
 specialareas SPECIES_FORRETRESS, DEX_NIGHT
+    .word DEX_ILEX_FOREST
     dexendareadata
 
 
@@ -8720,14 +9548,17 @@ specialareas SPECIES_DUNSPARCE, DEX_NIGHT
 
 
 routesandcities SPECIES_DUNSPARCE, DEX_MORNING
+    .word DEX_ROUTE_38
     dexendareadata
 
 
 routesandcities SPECIES_DUNSPARCE, DEX_DAY
+    .word DEX_ROUTE_38
     dexendareadata
 
 
 routesandcities SPECIES_DUNSPARCE, DEX_NIGHT
+    .word DEX_ROUTE_38
     dexendareadata
 
 
@@ -8762,6 +9593,7 @@ routesandcities SPECIES_GLIGAR, DEX_DAY
 
 
 routesandcities SPECIES_GLIGAR, DEX_NIGHT
+    .word DEX_ROUTE_38
     .word DEX_ROUTE_45
     dexendareadata
 
@@ -8775,32 +9607,44 @@ routesandcities SPECIES_GLIGAR, DEX_SPECIAL
 
 
 specialareas SPECIES_STEELIX, DEX_MORNING
+    .word DEX_UNION_CAVE
     .word DEX_MT_SILVER_CAVE
     .word DEX_CLIFF_CAVE
+    .word DEX_ROCK_TUNNEL
+    .word DEX_VICTORY_ROAD
     dexendareadata
 
 
 specialareas SPECIES_STEELIX, DEX_DAY
+    .word DEX_UNION_CAVE
     .word DEX_MT_SILVER_CAVE
     .word DEX_CLIFF_CAVE
+    .word DEX_ROCK_TUNNEL
+    .word DEX_VICTORY_ROAD
     dexendareadata
 
 
 specialareas SPECIES_STEELIX, DEX_NIGHT
+    .word DEX_UNION_CAVE
     .word DEX_MT_SILVER_CAVE
     .word DEX_CLIFF_CAVE
+    .word DEX_ROCK_TUNNEL
+    .word DEX_VICTORY_ROAD
     dexendareadata
 
 
 routesandcities SPECIES_STEELIX, DEX_MORNING
+    .word DEX_MT_SILVER
     dexendareadata
 
 
 routesandcities SPECIES_STEELIX, DEX_DAY
+    .word DEX_MT_SILVER
     dexendareadata
 
 
 routesandcities SPECIES_STEELIX, DEX_NIGHT
+    .word DEX_MT_SILVER
     dexendareadata
 
 
@@ -8825,17 +9669,17 @@ specialareas SPECIES_SNUBBULL, DEX_NIGHT
 
 
 routesandcities SPECIES_SNUBBULL, DEX_MORNING
-    .word DEX_ROUTE_38
+    .word DEX_ROUTE_36
     dexendareadata
 
 
 routesandcities SPECIES_SNUBBULL, DEX_DAY
-    .word DEX_ROUTE_38
+    .word DEX_ROUTE_36
     dexendareadata
 
 
 routesandcities SPECIES_SNUBBULL, DEX_NIGHT
-    .word DEX_ROUTE_38
+    .word DEX_ROUTE_36
     dexendareadata
 
 
@@ -8860,14 +9704,17 @@ specialareas SPECIES_GRANBULL, DEX_NIGHT
 
 
 routesandcities SPECIES_GRANBULL, DEX_MORNING
+    .word DEX_ROUTE_36
     dexendareadata
 
 
 routesandcities SPECIES_GRANBULL, DEX_DAY
+    .word DEX_ROUTE_36
     dexendareadata
 
 
 routesandcities SPECIES_GRANBULL, DEX_NIGHT
+    .word DEX_ROUTE_36
     dexendareadata
 
 
@@ -8888,11 +9735,13 @@ specialareas SPECIES_QWILFISH, DEX_DAY
 
 
 specialareas SPECIES_QWILFISH, DEX_NIGHT
+    .word DEX_SPROUT_TOWER
     dexendareadata
 
 
 routesandcities SPECIES_QWILFISH, DEX_MORNING
     .word DEX_ROUTE_32
+    .word DEX_ROUTE_38
     .word DEX_ROUTE_12
     .word DEX_ROUTE_13
     dexendareadata
@@ -8900,6 +9749,7 @@ routesandcities SPECIES_QWILFISH, DEX_MORNING
 
 routesandcities SPECIES_QWILFISH, DEX_DAY
     .word DEX_ROUTE_32
+    .word DEX_ROUTE_38
     .word DEX_ROUTE_12
     .word DEX_ROUTE_13
     dexendareadata
@@ -8907,6 +9757,7 @@ routesandcities SPECIES_QWILFISH, DEX_DAY
 
 routesandcities SPECIES_QWILFISH, DEX_NIGHT
     .word DEX_ROUTE_32
+    .word DEX_ROUTE_38
     .word DEX_ROUTE_12
     .word DEX_ROUTE_13
     dexendareadata
@@ -8929,6 +9780,7 @@ specialareas SPECIES_SCIZOR, DEX_DAY
 
 
 specialareas SPECIES_SCIZOR, DEX_NIGHT
+    .word DEX_UNION_CAVE
     dexendareadata
 
 
@@ -8953,10 +9805,12 @@ routesandcities SPECIES_SCIZOR, DEX_SPECIAL
 
 
 specialareas SPECIES_SHUCKLE, DEX_MORNING
+    .word DEX_ILEX_FOREST
     dexendareadata
 
 
 specialareas SPECIES_SHUCKLE, DEX_DAY
+    .word DEX_ILEX_FOREST
     dexendareadata
 
 
@@ -8991,10 +9845,12 @@ routesandcities SPECIES_SHUCKLE, DEX_SPECIAL
 
 
 specialareas SPECIES_HERACROSS, DEX_MORNING
+    .word DEX_ILEX_FOREST
     dexendareadata
 
 
 specialareas SPECIES_HERACROSS, DEX_DAY
+    .word DEX_ILEX_FOREST
     dexendareadata
 
 
@@ -9039,25 +9895,31 @@ routesandcities SPECIES_HERACROSS, DEX_SPECIAL
 
 
 specialareas SPECIES_SNEASEL, DEX_MORNING
+    .word DEX_MT_MORTAR
     .word DEX_MT_SILVER_CAVE
     dexendareadata
 
 
 specialareas SPECIES_SNEASEL, DEX_DAY
+    .word DEX_MT_MORTAR
     .word DEX_MT_SILVER_CAVE
     dexendareadata
 
 
 specialareas SPECIES_SNEASEL, DEX_NIGHT
+    .word DEX_MT_MORTAR
     .word DEX_MT_SILVER_CAVE
     dexendareadata
 
 
 routesandcities SPECIES_SNEASEL, DEX_MORNING
+    .word DEX_MT_SILVER
     dexendareadata
 
 
 routesandcities SPECIES_SNEASEL, DEX_DAY
+    .word DEX_ROUTE_32
+    .word DEX_MT_SILVER
     dexendareadata
 
 
@@ -9088,14 +9950,17 @@ specialareas SPECIES_TEDDIURSA, DEX_NIGHT
 
 
 routesandcities SPECIES_TEDDIURSA, DEX_MORNING
+    .word DEX_ROUTE_33
     dexendareadata
 
 
 routesandcities SPECIES_TEDDIURSA, DEX_DAY
+    .word DEX_ROUTE_33
     dexendareadata
 
 
 routesandcities SPECIES_TEDDIURSA, DEX_NIGHT
+    .word DEX_ROUTE_33
     dexendareadata
 
 
@@ -9120,14 +9985,17 @@ specialareas SPECIES_URSARING, DEX_NIGHT
 
 
 routesandcities SPECIES_URSARING, DEX_MORNING
+    .word DEX_ROUTE_33
     dexendareadata
 
 
 routesandcities SPECIES_URSARING, DEX_DAY
+    .word DEX_ROUTE_33
     dexendareadata
 
 
 routesandcities SPECIES_URSARING, DEX_NIGHT
+    .word DEX_ROUTE_33
     dexendareadata
 
 
@@ -9140,10 +10008,12 @@ routesandcities SPECIES_URSARING, DEX_SPECIAL
 
 
 specialareas SPECIES_SLUGMA, DEX_MORNING
+    .word DEX_BURNED_TOWER
     dexendareadata
 
 
 specialareas SPECIES_SLUGMA, DEX_DAY
+    .word DEX_BURNED_TOWER
     dexendareadata
 
 
@@ -9181,10 +10051,12 @@ routesandcities SPECIES_SLUGMA, DEX_SPECIAL
 
 
 specialareas SPECIES_MAGCARGO, DEX_MORNING
+    .word DEX_BURNED_TOWER
     dexendareadata
 
 
 specialareas SPECIES_MAGCARGO, DEX_DAY
+    .word DEX_BURNED_TOWER
     dexendareadata
 
 
@@ -9193,14 +10065,23 @@ specialareas SPECIES_MAGCARGO, DEX_NIGHT
 
 
 routesandcities SPECIES_MAGCARGO, DEX_MORNING
+    .word DEX_ROUTE_16
+    .word DEX_ROUTE_17
+    .word DEX_ROUTE_18
     dexendareadata
 
 
 routesandcities SPECIES_MAGCARGO, DEX_DAY
+    .word DEX_ROUTE_16
+    .word DEX_ROUTE_17
+    .word DEX_ROUTE_18
     dexendareadata
 
 
 routesandcities SPECIES_MAGCARGO, DEX_NIGHT
+    .word DEX_ROUTE_16
+    .word DEX_ROUTE_17
+    .word DEX_ROUTE_18
     dexendareadata
 
 
@@ -9248,14 +10129,17 @@ routesandcities SPECIES_SWINUB, DEX_SPECIAL
 
 
 specialareas SPECIES_PILOSWINE, DEX_MORNING
+    .word DEX_ICE_PATH
     dexendareadata
 
 
 specialareas SPECIES_PILOSWINE, DEX_DAY
+    .word DEX_ICE_PATH
     dexendareadata
 
 
 specialareas SPECIES_PILOSWINE, DEX_NIGHT
+    .word DEX_ICE_PATH
     dexendareadata
 
 
@@ -9290,6 +10174,8 @@ specialareas SPECIES_CORSOLA, DEX_DAY
 
 
 specialareas SPECIES_CORSOLA, DEX_NIGHT
+    .word DEX_SPROUT_TOWER
+    .word DEX_UNION_CAVE
     dexendareadata
 
 
@@ -9314,6 +10200,14 @@ routesandcities SPECIES_CORSOLA, DEX_DAY
 
 
 routesandcities SPECIES_CORSOLA, DEX_NIGHT
+    .word DEX_CHERRYGROVE_CITY
+    .word DEX_ROUTE_32
+    .word DEX_ROUTE_34
+    .word DEX_OLIVINE_CITY
+    .word DEX_ROUTE_40
+    .word DEX_CIANWOOD_CITY
+    .word DEX_ROUTE_47
+    .word DEX_ROUTE_19
     dexendareadata
 
 
@@ -9338,16 +10232,19 @@ specialareas SPECIES_REMORAID, DEX_NIGHT
 
 
 routesandcities SPECIES_REMORAID, DEX_MORNING
+    .word DEX_ROUTE_41
     .word DEX_ROUTE_44
     dexendareadata
 
 
 routesandcities SPECIES_REMORAID, DEX_DAY
+    .word DEX_ROUTE_41
     .word DEX_ROUTE_44
     dexendareadata
 
 
 routesandcities SPECIES_REMORAID, DEX_NIGHT
+    .word DEX_ROUTE_41
     .word DEX_ROUTE_44
     dexendareadata
 
@@ -9373,14 +10270,20 @@ specialareas SPECIES_OCTILLERY, DEX_NIGHT
 
 
 routesandcities SPECIES_OCTILLERY, DEX_MORNING
+    .word DEX_ROUTE_41
+    .word DEX_ROUTE_44
     dexendareadata
 
 
 routesandcities SPECIES_OCTILLERY, DEX_DAY
+    .word DEX_ROUTE_41
+    .word DEX_ROUTE_44
     dexendareadata
 
 
 routesandcities SPECIES_OCTILLERY, DEX_NIGHT
+    .word DEX_ROUTE_41
+    .word DEX_ROUTE_44
     dexendareadata
 
 
@@ -9405,14 +10308,17 @@ specialareas SPECIES_DELIBIRD, DEX_NIGHT
 
 
 routesandcities SPECIES_DELIBIRD, DEX_MORNING
+    .word DEX_ROUTE_42
     dexendareadata
 
 
 routesandcities SPECIES_DELIBIRD, DEX_DAY
+    .word DEX_ROUTE_42
     dexendareadata
 
 
 routesandcities SPECIES_DELIBIRD, DEX_NIGHT
+    .word DEX_ROUTE_42
     dexendareadata
 
 
@@ -9437,17 +10343,17 @@ specialareas SPECIES_MANTINE, DEX_NIGHT
 
 
 routesandcities SPECIES_MANTINE, DEX_MORNING
-    .word DEX_ROUTE_41
+    .word DEX_OLIVINE_CITY
     dexendareadata
 
 
 routesandcities SPECIES_MANTINE, DEX_DAY
-    .word DEX_ROUTE_41
+    .word DEX_OLIVINE_CITY
     dexendareadata
 
 
 routesandcities SPECIES_MANTINE, DEX_NIGHT
-    .word DEX_ROUTE_41
+    .word DEX_OLIVINE_CITY
     dexendareadata
 
 
@@ -9472,10 +10378,12 @@ specialareas SPECIES_SKARMORY, DEX_NIGHT
 
 
 routesandcities SPECIES_SKARMORY, DEX_MORNING
+    .word DEX_ROUTE_38
     dexendareadata
 
 
 routesandcities SPECIES_SKARMORY, DEX_DAY
+    .word DEX_ROUTE_38
     dexendareadata
 
 
@@ -9504,14 +10412,17 @@ specialareas SPECIES_HOUNDOUR, DEX_NIGHT
 
 
 routesandcities SPECIES_HOUNDOUR, DEX_MORNING
+    .word DEX_ROUTE_36
     dexendareadata
 
 
 routesandcities SPECIES_HOUNDOUR, DEX_DAY
+    .word DEX_ROUTE_36
     dexendareadata
 
 
 routesandcities SPECIES_HOUNDOUR, DEX_NIGHT
+    .word DEX_ROUTE_36
     .word DEX_ROUTE_7
     dexendareadata
 
@@ -9537,14 +10448,18 @@ specialareas SPECIES_HOUNDOOM, DEX_NIGHT
 
 
 routesandcities SPECIES_HOUNDOOM, DEX_MORNING
+    .word DEX_ROUTE_36
     dexendareadata
 
 
 routesandcities SPECIES_HOUNDOOM, DEX_DAY
+    .word DEX_ROUTE_36
     dexendareadata
 
 
 routesandcities SPECIES_HOUNDOOM, DEX_NIGHT
+    .word DEX_ROUTE_36
+    .word DEX_ROUTE_7
     dexendareadata
 
 
@@ -9557,26 +10472,35 @@ routesandcities SPECIES_HOUNDOOM, DEX_SPECIAL
 
 
 specialareas SPECIES_KINGDRA, DEX_MORNING
+    .word DEX_WHIRL_ISLANDS
+    .word DEX_SEAFOAM_ISLANDS
     dexendareadata
 
 
 specialareas SPECIES_KINGDRA, DEX_DAY
+    .word DEX_WHIRL_ISLANDS
+    .word DEX_SEAFOAM_ISLANDS
     dexendareadata
 
 
 specialareas SPECIES_KINGDRA, DEX_NIGHT
+    .word DEX_WHIRL_ISLANDS
+    .word DEX_SEAFOAM_ISLANDS
     dexendareadata
 
 
 routesandcities SPECIES_KINGDRA, DEX_MORNING
+    .word DEX_OLIVINE_CITY
     dexendareadata
 
 
 routesandcities SPECIES_KINGDRA, DEX_DAY
+    .word DEX_OLIVINE_CITY
     dexendareadata
 
 
 routesandcities SPECIES_KINGDRA, DEX_NIGHT
+    .word DEX_OLIVINE_CITY
     dexendareadata
 
 
@@ -9589,11 +10513,13 @@ routesandcities SPECIES_KINGDRA, DEX_SPECIAL
 
 
 specialareas SPECIES_PHANPY, DEX_MORNING
+    .word DEX_DARK_CAVE
     .word DEX_MT_SILVER_CAVE
     dexendareadata
 
 
 specialareas SPECIES_PHANPY, DEX_DAY
+    .word DEX_DARK_CAVE
     .word DEX_MT_SILVER_CAVE
     dexendareadata
 
@@ -9605,16 +10531,19 @@ specialareas SPECIES_PHANPY, DEX_NIGHT
 
 routesandcities SPECIES_PHANPY, DEX_MORNING
     .word DEX_ROUTE_45
+    .word DEX_MT_SILVER
     dexendareadata
 
 
 routesandcities SPECIES_PHANPY, DEX_DAY
     .word DEX_ROUTE_45
+    .word DEX_MT_SILVER
     dexendareadata
 
 
 routesandcities SPECIES_PHANPY, DEX_NIGHT
     .word DEX_ROUTE_45
+    .word DEX_MT_SILVER
     dexendareadata
 
 
@@ -9627,12 +10556,14 @@ routesandcities SPECIES_PHANPY, DEX_SPECIAL
 
 
 specialareas SPECIES_DONPHAN, DEX_MORNING
+    .word DEX_DARK_CAVE
     .word DEX_MT_SILVER_CAVE
     .word DEX_VICTORY_ROAD
     dexendareadata
 
 
 specialareas SPECIES_DONPHAN, DEX_DAY
+    .word DEX_DARK_CAVE
     .word DEX_MT_SILVER_CAVE
     .word DEX_VICTORY_ROAD
     dexendareadata
@@ -9645,18 +10576,21 @@ specialareas SPECIES_DONPHAN, DEX_NIGHT
 
 
 routesandcities SPECIES_DONPHAN, DEX_MORNING
+    .word DEX_ROUTE_45
     .word DEX_MT_SILVER
     .word DEX_ROUTE_28
     dexendareadata
 
 
 routesandcities SPECIES_DONPHAN, DEX_DAY
+    .word DEX_ROUTE_45
     .word DEX_MT_SILVER
     .word DEX_ROUTE_28
     dexendareadata
 
 
 routesandcities SPECIES_DONPHAN, DEX_NIGHT
+    .word DEX_ROUTE_45
     .word DEX_MT_SILVER
     .word DEX_ROUTE_28
     dexendareadata
@@ -9671,10 +10605,12 @@ routesandcities SPECIES_DONPHAN, DEX_SPECIAL
 
 
 specialareas SPECIES_PORYGON2, DEX_MORNING
+    .word DEX_RUINS_OF_ALPH
     dexendareadata
 
 
 specialareas SPECIES_PORYGON2, DEX_DAY
+    .word DEX_RUINS_OF_ALPH
     dexendareadata
 
 
@@ -9715,20 +10651,16 @@ specialareas SPECIES_STANTLER, DEX_NIGHT
 
 
 routesandcities SPECIES_STANTLER, DEX_MORNING
-    .word DEX_ROUTE_36
-    .word DEX_ROUTE_37
+    .word DEX_ROUTE_39
     dexendareadata
 
 
 routesandcities SPECIES_STANTLER, DEX_DAY
-    .word DEX_ROUTE_36
-    .word DEX_ROUTE_37
+    .word DEX_ROUTE_39
     dexendareadata
 
 
 routesandcities SPECIES_STANTLER, DEX_NIGHT
-    .word DEX_ROUTE_36
-    .word DEX_ROUTE_37
     dexendareadata
 
 
@@ -9756,14 +10688,17 @@ specialareas SPECIES_SMEARGLE, DEX_NIGHT
 
 
 routesandcities SPECIES_SMEARGLE, DEX_MORNING
+    .word DEX_ROUTE_42
     dexendareadata
 
 
 routesandcities SPECIES_SMEARGLE, DEX_DAY
+    .word DEX_ROUTE_42
     dexendareadata
 
 
 routesandcities SPECIES_SMEARGLE, DEX_NIGHT
+    .word DEX_ROUTE_42
     dexendareadata
 
 
@@ -9796,6 +10731,7 @@ routesandcities SPECIES_TYROGUE, DEX_DAY
 
 
 routesandcities SPECIES_TYROGUE, DEX_NIGHT
+    .word DEX_ROUTE_35
     dexendareadata
 
 
@@ -9828,6 +10764,7 @@ routesandcities SPECIES_HITMONTOP, DEX_DAY
 
 
 routesandcities SPECIES_HITMONTOP, DEX_NIGHT
+    .word DEX_ROUTE_35
     dexendareadata
 
 
@@ -9840,14 +10777,17 @@ routesandcities SPECIES_HITMONTOP, DEX_SPECIAL
 
 
 specialareas SPECIES_SMOOCHUM, DEX_MORNING
+    .word DEX_ICE_PATH
     dexendareadata
 
 
 specialareas SPECIES_SMOOCHUM, DEX_DAY
+    .word DEX_ICE_PATH
     dexendareadata
 
 
 specialareas SPECIES_SMOOCHUM, DEX_NIGHT
+    .word DEX_ICE_PATH
     dexendareadata
 
 
@@ -9884,10 +10824,12 @@ specialareas SPECIES_ELEKID, DEX_NIGHT
 
 
 routesandcities SPECIES_ELEKID, DEX_MORNING
+    .word DEX_ROUTE_33
     dexendareadata
 
 
 routesandcities SPECIES_ELEKID, DEX_DAY
+    .word DEX_ROUTE_33
     dexendareadata
 
 
@@ -9924,6 +10866,7 @@ routesandcities SPECIES_MAGBY, DEX_DAY
 
 
 routesandcities SPECIES_MAGBY, DEX_NIGHT
+    .word DEX_ROUTE_33
     dexendareadata
 
 
@@ -9948,23 +10891,16 @@ specialareas SPECIES_MILTANK, DEX_NIGHT
 
 
 routesandcities SPECIES_MILTANK, DEX_MORNING
-    .word DEX_ROUTE_38
     .word DEX_ROUTE_39
-    .word DEX_ROUTE_47
     dexendareadata
 
 
 routesandcities SPECIES_MILTANK, DEX_DAY
-    .word DEX_ROUTE_38
     .word DEX_ROUTE_39
-    .word DEX_ROUTE_47
     dexendareadata
 
 
 routesandcities SPECIES_MILTANK, DEX_NIGHT
-    .word DEX_ROUTE_38
-    .word DEX_ROUTE_39
-    .word DEX_ROUTE_47
     dexendareadata
 
 
@@ -9989,14 +10925,26 @@ specialareas SPECIES_BLISSEY, DEX_NIGHT
 
 
 routesandcities SPECIES_BLISSEY, DEX_MORNING
+    .word DEX_ROUTE_39
+    .word DEX_ROUTE_13
+    .word DEX_ROUTE_14
+    .word DEX_ROUTE_15
     dexendareadata
 
 
 routesandcities SPECIES_BLISSEY, DEX_DAY
+    .word DEX_ROUTE_39
+    .word DEX_ROUTE_13
+    .word DEX_ROUTE_14
+    .word DEX_ROUTE_15
     dexendareadata
 
 
 routesandcities SPECIES_BLISSEY, DEX_NIGHT
+    .word DEX_ROUTE_39
+    .word DEX_ROUTE_13
+    .word DEX_ROUTE_14
+    .word DEX_ROUTE_15
     dexendareadata
 
 
@@ -10021,14 +10969,17 @@ specialareas SPECIES_RAIKOU, DEX_NIGHT
 
 
 routesandcities SPECIES_RAIKOU, DEX_MORNING
+    .word DEX_ROUTE_10
     dexendareadata
 
 
 routesandcities SPECIES_RAIKOU, DEX_DAY
+    .word DEX_ROUTE_10
     dexendareadata
 
 
 routesandcities SPECIES_RAIKOU, DEX_NIGHT
+    .word DEX_ROUTE_10
     dexendareadata
 
 
@@ -10041,14 +10992,17 @@ routesandcities SPECIES_RAIKOU, DEX_SPECIAL
 
 
 specialareas SPECIES_ENTEI, DEX_MORNING
+    .word DEX_MT_SILVER_CAVE
     dexendareadata
 
 
 specialareas SPECIES_ENTEI, DEX_DAY
+    .word DEX_MT_SILVER_CAVE
     dexendareadata
 
 
 specialareas SPECIES_ENTEI, DEX_NIGHT
+    .word DEX_MT_SILVER_CAVE
     dexendareadata
 
 
@@ -10073,14 +11027,17 @@ routesandcities SPECIES_ENTEI, DEX_SPECIAL
 
 
 specialareas SPECIES_SUICUNE, DEX_MORNING
+    .word DEX_WHIRL_ISLANDS
     dexendareadata
 
 
 specialareas SPECIES_SUICUNE, DEX_DAY
+    .word DEX_WHIRL_ISLANDS
     dexendareadata
 
 
 specialareas SPECIES_SUICUNE, DEX_NIGHT
+    .word DEX_WHIRL_ISLANDS
     dexendareadata
 
 
@@ -10115,19 +11072,23 @@ specialareas SPECIES_LARVITAR, DEX_DAY
 
 
 specialareas SPECIES_LARVITAR, DEX_NIGHT
+    .word DEX_NATIONAL_PARK
     .word DEX_MT_SILVER_CAVE
     dexendareadata
 
 
 routesandcities SPECIES_LARVITAR, DEX_MORNING
+    .word DEX_MT_SILVER
     dexendareadata
 
 
 routesandcities SPECIES_LARVITAR, DEX_DAY
+    .word DEX_MT_SILVER
     dexendareadata
 
 
 routesandcities SPECIES_LARVITAR, DEX_NIGHT
+    .word DEX_MT_SILVER
     dexendareadata
 
 
@@ -10150,19 +11111,23 @@ specialareas SPECIES_PUPITAR, DEX_DAY
 
 
 specialareas SPECIES_PUPITAR, DEX_NIGHT
+    .word DEX_NATIONAL_PARK
     .word DEX_MT_SILVER_CAVE
     dexendareadata
 
 
 routesandcities SPECIES_PUPITAR, DEX_MORNING
+    .word DEX_MT_SILVER
     dexendareadata
 
 
 routesandcities SPECIES_PUPITAR, DEX_DAY
+    .word DEX_MT_SILVER
     dexendareadata
 
 
 routesandcities SPECIES_PUPITAR, DEX_NIGHT
+    .word DEX_MT_SILVER
     dexendareadata
 
 
@@ -10175,26 +11140,33 @@ routesandcities SPECIES_PUPITAR, DEX_SPECIAL
 
 
 specialareas SPECIES_TYRANITAR, DEX_MORNING
+    .word DEX_MT_SILVER_CAVE
     dexendareadata
 
 
 specialareas SPECIES_TYRANITAR, DEX_DAY
+    .word DEX_MT_SILVER_CAVE
     dexendareadata
 
 
 specialareas SPECIES_TYRANITAR, DEX_NIGHT
+    .word DEX_NATIONAL_PARK
+    .word DEX_MT_SILVER_CAVE
     dexendareadata
 
 
 routesandcities SPECIES_TYRANITAR, DEX_MORNING
+    .word DEX_MT_SILVER
     dexendareadata
 
 
 routesandcities SPECIES_TYRANITAR, DEX_DAY
+    .word DEX_MT_SILVER
     dexendareadata
 
 
 routesandcities SPECIES_TYRANITAR, DEX_NIGHT
+    .word DEX_MT_SILVER
     dexendareadata
 
 
@@ -10207,14 +11179,17 @@ routesandcities SPECIES_TYRANITAR, DEX_SPECIAL
 
 
 specialareas SPECIES_LUGIA, DEX_MORNING
+    .word DEX_WHIRL_ISLANDS
     dexendareadata
 
 
 specialareas SPECIES_LUGIA, DEX_DAY
+    .word DEX_WHIRL_ISLANDS
     dexendareadata
 
 
 specialareas SPECIES_LUGIA, DEX_NIGHT
+    .word DEX_WHIRL_ISLANDS
     dexendareadata
 
 
@@ -10239,14 +11214,17 @@ routesandcities SPECIES_LUGIA, DEX_SPECIAL
 
 
 specialareas SPECIES_HO_OH, DEX_MORNING
+    .word DEX_BELL_TOWER
     dexendareadata
 
 
 specialareas SPECIES_HO_OH, DEX_DAY
+    .word DEX_BELL_TOWER
     dexendareadata
 
 
 specialareas SPECIES_HO_OH, DEX_NIGHT
+    .word DEX_BELL_TOWER
     dexendareadata
 
 
@@ -10271,14 +11249,17 @@ routesandcities SPECIES_HO_OH, DEX_SPECIAL
 
 
 specialareas SPECIES_CELEBI, DEX_MORNING
+    .word DEX_CERULEAN_CAVE
     dexendareadata
 
 
 specialareas SPECIES_CELEBI, DEX_DAY
+    .word DEX_CERULEAN_CAVE
     dexendareadata
 
 
 specialareas SPECIES_CELEBI, DEX_NIGHT
+    .word DEX_CERULEAN_CAVE
     dexendareadata
 
 
@@ -10315,6 +11296,7 @@ specialareas SPECIES_TREECKO, DEX_NIGHT
 
 
 routesandcities SPECIES_TREECKO, DEX_MORNING
+    .word DEX_ROUTE_34
     dexendareadata
 
 
@@ -10347,6 +11329,7 @@ specialareas SPECIES_GROVYLE, DEX_NIGHT
 
 
 routesandcities SPECIES_GROVYLE, DEX_MORNING
+    .word DEX_ROUTE_34
     dexendareadata
 
 
@@ -10379,6 +11362,7 @@ specialareas SPECIES_SCEPTILE, DEX_NIGHT
 
 
 routesandcities SPECIES_SCEPTILE, DEX_MORNING
+    .word DEX_ROUTE_34
     dexendareadata
 
 
@@ -10419,6 +11403,7 @@ routesandcities SPECIES_TORCHIC, DEX_DAY
 
 
 routesandcities SPECIES_TORCHIC, DEX_NIGHT
+    .word DEX_ROUTE_34
     dexendareadata
 
 
@@ -10451,6 +11436,7 @@ routesandcities SPECIES_COMBUSKEN, DEX_DAY
 
 
 routesandcities SPECIES_COMBUSKEN, DEX_NIGHT
+    .word DEX_ROUTE_34
     dexendareadata
 
 
@@ -10483,6 +11469,7 @@ routesandcities SPECIES_BLAZIKEN, DEX_DAY
 
 
 routesandcities SPECIES_BLAZIKEN, DEX_NIGHT
+    .word DEX_ROUTE_34
     dexendareadata
 
 
@@ -10511,6 +11498,7 @@ routesandcities SPECIES_MUDKIP, DEX_MORNING
 
 
 routesandcities SPECIES_MUDKIP, DEX_DAY
+    .word DEX_ROUTE_34
     dexendareadata
 
 
@@ -10543,6 +11531,7 @@ routesandcities SPECIES_MARSHTOMP, DEX_MORNING
 
 
 routesandcities SPECIES_MARSHTOMP, DEX_DAY
+    .word DEX_ROUTE_34
     dexendareadata
 
 
@@ -10575,6 +11564,7 @@ routesandcities SPECIES_SWAMPERT, DEX_MORNING
 
 
 routesandcities SPECIES_SWAMPERT, DEX_DAY
+    .word DEX_ROUTE_34
     dexendareadata
 
 
@@ -10611,6 +11601,7 @@ routesandcities SPECIES_POOCHYENA, DEX_DAY
 
 
 routesandcities SPECIES_POOCHYENA, DEX_NIGHT
+    .word DEX_ROUTE_29
     dexendareadata
 
 
@@ -10643,6 +11634,7 @@ routesandcities SPECIES_MIGHTYENA, DEX_DAY
 
 
 routesandcities SPECIES_MIGHTYENA, DEX_NIGHT
+    .word DEX_ROUTE_29
     dexendareadata
 
 
@@ -10663,6 +11655,7 @@ specialareas SPECIES_ZIGZAGOON, DEX_DAY
 
 
 specialareas SPECIES_ZIGZAGOON, DEX_NIGHT
+    .word DEX_RUINS_OF_ALPH
     dexendareadata
 
 
@@ -10675,6 +11668,7 @@ routesandcities SPECIES_ZIGZAGOON, DEX_DAY
 
 
 routesandcities SPECIES_ZIGZAGOON, DEX_NIGHT
+    .word DEX_ROUTE_29
     dexendareadata
 
 
@@ -10698,6 +11692,7 @@ specialareas SPECIES_LINOONE, DEX_DAY
 
 
 specialareas SPECIES_LINOONE, DEX_NIGHT
+    .word DEX_RUINS_OF_ALPH
     dexendareadata
 
 
@@ -10710,6 +11705,7 @@ routesandcities SPECIES_LINOONE, DEX_DAY
 
 
 routesandcities SPECIES_LINOONE, DEX_NIGHT
+    .word DEX_ROUTE_29
     dexendareadata
 
 
@@ -10758,10 +11754,12 @@ specialareas SPECIES_WURMPLE, DEX_NIGHT
 
 
 routesandcities SPECIES_WURMPLE, DEX_MORNING
+    .word DEX_ROUTE_30
     dexendareadata
 
 
 routesandcities SPECIES_WURMPLE, DEX_DAY
+    .word DEX_ROUTE_30
     dexendareadata
 
 
@@ -10806,10 +11804,12 @@ specialareas SPECIES_SILCOON, DEX_NIGHT
 
 
 routesandcities SPECIES_SILCOON, DEX_MORNING
+    .word DEX_ROUTE_30
     dexendareadata
 
 
 routesandcities SPECIES_SILCOON, DEX_DAY
+    .word DEX_ROUTE_30
     dexendareadata
 
 
@@ -10838,10 +11838,12 @@ specialareas SPECIES_BEAUTIFLY, DEX_NIGHT
 
 
 routesandcities SPECIES_BEAUTIFLY, DEX_MORNING
+    .word DEX_ROUTE_30
     dexendareadata
 
 
 routesandcities SPECIES_BEAUTIFLY, DEX_DAY
+    .word DEX_ROUTE_30
     dexendareadata
 
 
@@ -10870,10 +11872,12 @@ specialareas SPECIES_CASCOON, DEX_NIGHT
 
 
 routesandcities SPECIES_CASCOON, DEX_MORNING
+    .word DEX_ROUTE_30
     dexendareadata
 
 
 routesandcities SPECIES_CASCOON, DEX_DAY
+    .word DEX_ROUTE_30
     dexendareadata
 
 
@@ -10902,10 +11906,12 @@ specialareas SPECIES_DUSTOX, DEX_NIGHT
 
 
 routesandcities SPECIES_DUSTOX, DEX_MORNING
+    .word DEX_ROUTE_30
     dexendareadata
 
 
 routesandcities SPECIES_DUSTOX, DEX_DAY
+    .word DEX_ROUTE_30
     dexendareadata
 
 
@@ -10934,10 +11940,12 @@ specialareas SPECIES_LOTAD, DEX_NIGHT
 
 
 routesandcities SPECIES_LOTAD, DEX_MORNING
+    .word DEX_ROUTE_32
     dexendareadata
 
 
 routesandcities SPECIES_LOTAD, DEX_DAY
+    .word DEX_ROUTE_32
     dexendareadata
 
 
@@ -10966,10 +11974,12 @@ specialareas SPECIES_LOMBRE, DEX_NIGHT
 
 
 routesandcities SPECIES_LOMBRE, DEX_MORNING
+    .word DEX_ROUTE_32
     dexendareadata
 
 
 routesandcities SPECIES_LOMBRE, DEX_DAY
+    .word DEX_ROUTE_32
     dexendareadata
 
 
@@ -10998,10 +12008,12 @@ specialareas SPECIES_LUDICOLO, DEX_NIGHT
 
 
 routesandcities SPECIES_LUDICOLO, DEX_MORNING
+    .word DEX_ROUTE_32
     dexendareadata
 
 
 routesandcities SPECIES_LUDICOLO, DEX_DAY
+    .word DEX_ROUTE_32
     dexendareadata
 
 
@@ -11038,6 +12050,7 @@ routesandcities SPECIES_SEEDOT, DEX_DAY
 
 
 routesandcities SPECIES_SEEDOT, DEX_NIGHT
+    .word DEX_ROUTE_32
     dexendareadata
 
 
@@ -11071,6 +12084,7 @@ routesandcities SPECIES_NUZLEAF, DEX_DAY
 
 
 routesandcities SPECIES_NUZLEAF, DEX_NIGHT
+    .word DEX_ROUTE_32
     dexendareadata
 
 
@@ -11103,6 +12117,7 @@ routesandcities SPECIES_SHIFTRY, DEX_DAY
 
 
 routesandcities SPECIES_SHIFTRY, DEX_NIGHT
+    .word DEX_ROUTE_32
     dexendareadata
 
 
@@ -11127,10 +12142,12 @@ specialareas SPECIES_TAILLOW, DEX_NIGHT
 
 
 routesandcities SPECIES_TAILLOW, DEX_MORNING
+    .word DEX_ROUTE_46
     dexendareadata
 
 
 routesandcities SPECIES_TAILLOW, DEX_DAY
+    .word DEX_ROUTE_46
     dexendareadata
 
 
@@ -11160,10 +12177,12 @@ specialareas SPECIES_SWELLOW, DEX_NIGHT
 
 
 routesandcities SPECIES_SWELLOW, DEX_MORNING
+    .word DEX_ROUTE_46
     dexendareadata
 
 
 routesandcities SPECIES_SWELLOW, DEX_DAY
+    .word DEX_ROUTE_46
     dexendareadata
 
 
@@ -11192,10 +12211,12 @@ specialareas SPECIES_WINGULL, DEX_NIGHT
 
 
 routesandcities SPECIES_WINGULL, DEX_MORNING
+    .word DEX_ROUTE_38
     dexendareadata
 
 
 routesandcities SPECIES_WINGULL, DEX_DAY
+    .word DEX_ROUTE_38
     dexendareadata
 
 
@@ -11224,10 +12245,12 @@ specialareas SPECIES_PELIPPER, DEX_NIGHT
 
 
 routesandcities SPECIES_PELIPPER, DEX_MORNING
+    .word DEX_ROUTE_38
     dexendareadata
 
 
 routesandcities SPECIES_PELIPPER, DEX_DAY
+    .word DEX_ROUTE_38
     dexendareadata
 
 
@@ -11256,10 +12279,12 @@ specialareas SPECIES_RALTS, DEX_NIGHT
 
 
 routesandcities SPECIES_RALTS, DEX_MORNING
+    .word DEX_ROUTE_32
     dexendareadata
 
 
 routesandcities SPECIES_RALTS, DEX_DAY
+    .word DEX_ROUTE_32
     dexendareadata
 
 
@@ -11288,10 +12313,12 @@ specialareas SPECIES_KIRLIA, DEX_NIGHT
 
 
 routesandcities SPECIES_KIRLIA, DEX_MORNING
+    .word DEX_ROUTE_32
     dexendareadata
 
 
 routesandcities SPECIES_KIRLIA, DEX_DAY
+    .word DEX_ROUTE_32
     dexendareadata
 
 
@@ -11320,10 +12347,12 @@ specialareas SPECIES_GARDEVOIR, DEX_NIGHT
 
 
 routesandcities SPECIES_GARDEVOIR, DEX_MORNING
+    .word DEX_ROUTE_32
     dexendareadata
 
 
 routesandcities SPECIES_GARDEVOIR, DEX_DAY
+    .word DEX_ROUTE_32
     dexendareadata
 
 
@@ -11352,10 +12381,12 @@ specialareas SPECIES_SURSKIT, DEX_NIGHT
 
 
 routesandcities SPECIES_SURSKIT, DEX_MORNING
+    .word DEX_ROUTE_30
     dexendareadata
 
 
 routesandcities SPECIES_SURSKIT, DEX_DAY
+    .word DEX_ROUTE_30
     dexendareadata
 
 
@@ -11384,10 +12415,12 @@ specialareas SPECIES_MASQUERAIN, DEX_NIGHT
 
 
 routesandcities SPECIES_MASQUERAIN, DEX_MORNING
+    .word DEX_ROUTE_30
     dexendareadata
 
 
 routesandcities SPECIES_MASQUERAIN, DEX_DAY
+    .word DEX_ROUTE_30
     dexendareadata
 
 
@@ -11424,6 +12457,7 @@ routesandcities SPECIES_SHROOMISH, DEX_DAY
 
 
 routesandcities SPECIES_SHROOMISH, DEX_NIGHT
+    .word DEX_ROUTE_32
     dexendareadata
 
 
@@ -11457,6 +12491,7 @@ routesandcities SPECIES_BRELOOM, DEX_DAY
 
 
 routesandcities SPECIES_BRELOOM, DEX_NIGHT
+    .word DEX_ROUTE_32
     dexendareadata
 
 
@@ -11489,6 +12524,7 @@ routesandcities SPECIES_SLAKOTH, DEX_DAY
 
 
 routesandcities SPECIES_SLAKOTH, DEX_NIGHT
+    .word DEX_ROUTE_33
     dexendareadata
 
 
@@ -11522,6 +12558,7 @@ routesandcities SPECIES_VIGOROTH, DEX_DAY
 
 
 routesandcities SPECIES_VIGOROTH, DEX_NIGHT
+    .word DEX_ROUTE_33
     dexendareadata
 
 
@@ -11554,6 +12591,7 @@ routesandcities SPECIES_SLAKING, DEX_DAY
 
 
 routesandcities SPECIES_SLAKING, DEX_NIGHT
+    .word DEX_ROUTE_33
     dexendareadata
 
 
@@ -11586,6 +12624,7 @@ routesandcities SPECIES_NINCADA, DEX_DAY
 
 
 routesandcities SPECIES_NINCADA, DEX_NIGHT
+    .word DEX_ROUTE_30
     dexendareadata
 
 
@@ -11618,6 +12657,7 @@ routesandcities SPECIES_NINJASK, DEX_DAY
 
 
 routesandcities SPECIES_NINJASK, DEX_NIGHT
+    .word DEX_ROUTE_30
     dexendareadata
 
 
@@ -11650,6 +12690,7 @@ routesandcities SPECIES_SHEDINJA, DEX_DAY
 
 
 routesandcities SPECIES_SHEDINJA, DEX_NIGHT
+    .word DEX_ROUTE_30
     dexendareadata
 
 
@@ -11670,6 +12711,7 @@ specialareas SPECIES_WHISMUR, DEX_DAY
 
 
 specialareas SPECIES_WHISMUR, DEX_NIGHT
+    .word DEX_UNION_CAVE
     dexendareadata
 
 
@@ -11726,6 +12768,7 @@ specialareas SPECIES_LOUDRED, DEX_DAY
 
 
 specialareas SPECIES_LOUDRED, DEX_NIGHT
+    .word DEX_UNION_CAVE
     dexendareadata
 
 
@@ -11758,6 +12801,7 @@ specialareas SPECIES_EXPLOUD, DEX_DAY
 
 
 specialareas SPECIES_EXPLOUD, DEX_NIGHT
+    .word DEX_UNION_CAVE
     dexendareadata
 
 
@@ -11782,10 +12826,12 @@ routesandcities SPECIES_EXPLOUD, DEX_SPECIAL
 
 
 specialareas SPECIES_MAKUHITA, DEX_MORNING
+    .word DEX_SPROUT_TOWER
     dexendareadata
 
 
 specialareas SPECIES_MAKUHITA, DEX_DAY
+    .word DEX_SPROUT_TOWER
     dexendareadata
 
 
@@ -11829,10 +12875,12 @@ routesandcities SPECIES_MAKUHITA, DEX_SPECIAL
 
 
 specialareas SPECIES_HARIYAMA, DEX_MORNING
+    .word DEX_SPROUT_TOWER
     dexendareadata
 
 
 specialareas SPECIES_HARIYAMA, DEX_DAY
+    .word DEX_SPROUT_TOWER
     dexendareadata
 
 
@@ -11881,6 +12929,7 @@ routesandcities SPECIES_AZURILL, DEX_DAY
 
 
 routesandcities SPECIES_AZURILL, DEX_NIGHT
+    .word DEX_ROUTE_33
     dexendareadata
 
 
@@ -11893,10 +12942,12 @@ routesandcities SPECIES_AZURILL, DEX_SPECIAL
 
 
 specialareas SPECIES_NOSEPASS, DEX_MORNING
+    .word DEX_MT_MORTAR
     dexendareadata
 
 
 specialareas SPECIES_NOSEPASS, DEX_DAY
+    .word DEX_MT_MORTAR
     dexendareadata
 
 
@@ -11937,10 +12988,12 @@ specialareas SPECIES_SKITTY, DEX_NIGHT
 
 
 routesandcities SPECIES_SKITTY, DEX_MORNING
+    .word DEX_ROUTE_35
     dexendareadata
 
 
 routesandcities SPECIES_SKITTY, DEX_DAY
+    .word DEX_ROUTE_35
     dexendareadata
 
 
@@ -11969,10 +13022,12 @@ specialareas SPECIES_DELCATTY, DEX_NIGHT
 
 
 routesandcities SPECIES_DELCATTY, DEX_MORNING
+    .word DEX_ROUTE_35
     dexendareadata
 
 
 routesandcities SPECIES_DELCATTY, DEX_DAY
+    .word DEX_ROUTE_35
     dexendareadata
 
 
@@ -11989,10 +13044,12 @@ routesandcities SPECIES_DELCATTY, DEX_SPECIAL
 
 
 specialareas SPECIES_SABLEYE, DEX_MORNING
+    .word DEX_MT_MORTAR
     dexendareadata
 
 
 specialareas SPECIES_SABLEYE, DEX_DAY
+    .word DEX_MT_MORTAR
     dexendareadata
 
 
@@ -12021,10 +13078,12 @@ routesandcities SPECIES_SABLEYE, DEX_SPECIAL
 
 
 specialareas SPECIES_MAWILE, DEX_MORNING
+    .word DEX_MT_MORTAR
     dexendareadata
 
 
 specialareas SPECIES_MAWILE, DEX_DAY
+    .word DEX_MT_MORTAR
     dexendareadata
 
 
@@ -12053,10 +13112,12 @@ routesandcities SPECIES_MAWILE, DEX_SPECIAL
 
 
 specialareas SPECIES_ARON, DEX_MORNING
+    .word DEX_MT_MORTAR
     dexendareadata
 
 
 specialareas SPECIES_ARON, DEX_DAY
+    .word DEX_MT_MORTAR
     dexendareadata
 
 
@@ -12085,10 +13146,12 @@ routesandcities SPECIES_ARON, DEX_SPECIAL
 
 
 specialareas SPECIES_LAIRON, DEX_MORNING
+    .word DEX_MT_MORTAR
     dexendareadata
 
 
 specialareas SPECIES_LAIRON, DEX_DAY
+    .word DEX_MT_MORTAR
     dexendareadata
 
 
@@ -12117,10 +13180,12 @@ routesandcities SPECIES_LAIRON, DEX_SPECIAL
 
 
 specialareas SPECIES_AGGRON, DEX_MORNING
+    .word DEX_MT_MORTAR
     dexendareadata
 
 
 specialareas SPECIES_AGGRON, DEX_DAY
+    .word DEX_MT_MORTAR
     dexendareadata
 
 
@@ -12157,6 +13222,7 @@ specialareas SPECIES_MEDITITE, DEX_DAY
 
 
 specialareas SPECIES_MEDITITE, DEX_NIGHT
+    .word DEX_SPROUT_TOWER
     dexendareadata
 
 
@@ -12192,6 +13258,7 @@ specialareas SPECIES_MEDICHAM, DEX_DAY
 
 
 specialareas SPECIES_MEDICHAM, DEX_NIGHT
+    .word DEX_SPROUT_TOWER
     dexendareadata
 
 
@@ -12228,10 +13295,12 @@ specialareas SPECIES_ELECTRIKE, DEX_NIGHT
 
 
 routesandcities SPECIES_ELECTRIKE, DEX_MORNING
+    .word DEX_ROUTE_42
     dexendareadata
 
 
 routesandcities SPECIES_ELECTRIKE, DEX_DAY
+    .word DEX_ROUTE_42
     dexendareadata
 
 
@@ -12260,10 +13329,12 @@ specialareas SPECIES_MANECTRIC, DEX_NIGHT
 
 
 routesandcities SPECIES_MANECTRIC, DEX_MORNING
+    .word DEX_ROUTE_42
     dexendareadata
 
 
 routesandcities SPECIES_MANECTRIC, DEX_DAY
+    .word DEX_ROUTE_42
     dexendareadata
 
 
@@ -12292,14 +13363,17 @@ specialareas SPECIES_PLUSLE, DEX_NIGHT
 
 
 routesandcities SPECIES_PLUSLE, DEX_MORNING
+    .word DEX_ROUTE_36
     dexendareadata
 
 
 routesandcities SPECIES_PLUSLE, DEX_DAY
+    .word DEX_ROUTE_36
     dexendareadata
 
 
 routesandcities SPECIES_PLUSLE, DEX_NIGHT
+    .word DEX_ROUTE_36
     dexendareadata
 
 
@@ -12346,14 +13420,17 @@ specialareas SPECIES_MINUN, DEX_NIGHT
 
 
 routesandcities SPECIES_MINUN, DEX_MORNING
+    .word DEX_ROUTE_36
     dexendareadata
 
 
 routesandcities SPECIES_MINUN, DEX_DAY
+    .word DEX_ROUTE_36
     dexendareadata
 
 
 routesandcities SPECIES_MINUN, DEX_NIGHT
+    .word DEX_ROUTE_36
     dexendareadata
 
 
@@ -12388,10 +13465,12 @@ routesandcities SPECIES_MINUN, DEX_SPECIAL
 
 
 specialareas SPECIES_VOLBEAT, DEX_MORNING
+    .word DEX_ILEX_FOREST
     dexendareadata
 
 
 specialareas SPECIES_VOLBEAT, DEX_DAY
+    .word DEX_ILEX_FOREST
     dexendareadata
 
 
@@ -12428,6 +13507,7 @@ specialareas SPECIES_ILLUMISE, DEX_DAY
 
 
 specialareas SPECIES_ILLUMISE, DEX_NIGHT
+    .word DEX_ILEX_FOREST
     dexendareadata
 
 
@@ -12464,10 +13544,12 @@ specialareas SPECIES_ROSELIA, DEX_NIGHT
 
 
 routesandcities SPECIES_ROSELIA, DEX_MORNING
+    .word DEX_ROUTE_32
     dexendareadata
 
 
 routesandcities SPECIES_ROSELIA, DEX_DAY
+    .word DEX_ROUTE_32
     dexendareadata
 
 
@@ -12496,14 +13578,17 @@ specialareas SPECIES_GULPIN, DEX_NIGHT
 
 
 routesandcities SPECIES_GULPIN, DEX_MORNING
+    .word DEX_ROUTE_36
     dexendareadata
 
 
 routesandcities SPECIES_GULPIN, DEX_DAY
+    .word DEX_ROUTE_36
     dexendareadata
 
 
 routesandcities SPECIES_GULPIN, DEX_NIGHT
+    .word DEX_ROUTE_36
     dexendareadata
 
 
@@ -12528,14 +13613,17 @@ specialareas SPECIES_SWALOT, DEX_NIGHT
 
 
 routesandcities SPECIES_SWALOT, DEX_MORNING
+    .word DEX_ROUTE_36
     dexendareadata
 
 
 routesandcities SPECIES_SWALOT, DEX_DAY
+    .word DEX_ROUTE_36
     dexendareadata
 
 
 routesandcities SPECIES_SWALOT, DEX_NIGHT
+    .word DEX_ROUTE_36
     dexendareadata
 
 
@@ -12560,14 +13648,17 @@ specialareas SPECIES_CARVANHA, DEX_NIGHT
 
 
 routesandcities SPECIES_CARVANHA, DEX_MORNING
+    .word DEX_ROUTE_40
     dexendareadata
 
 
 routesandcities SPECIES_CARVANHA, DEX_DAY
+    .word DEX_ROUTE_40
     dexendareadata
 
 
 routesandcities SPECIES_CARVANHA, DEX_NIGHT
+    .word DEX_ROUTE_40
     dexendareadata
 
 
@@ -12592,14 +13683,17 @@ specialareas SPECIES_SHARPEDO, DEX_NIGHT
 
 
 routesandcities SPECIES_SHARPEDO, DEX_MORNING
+    .word DEX_ROUTE_40
     dexendareadata
 
 
 routesandcities SPECIES_SHARPEDO, DEX_DAY
+    .word DEX_ROUTE_40
     dexendareadata
 
 
 routesandcities SPECIES_SHARPEDO, DEX_NIGHT
+    .word DEX_ROUTE_40
     dexendareadata
 
 
@@ -12624,14 +13718,17 @@ specialareas SPECIES_WAILMER, DEX_NIGHT
 
 
 routesandcities SPECIES_WAILMER, DEX_MORNING
+    .word DEX_ROUTE_41
     dexendareadata
 
 
 routesandcities SPECIES_WAILMER, DEX_DAY
+    .word DEX_ROUTE_41
     dexendareadata
 
 
 routesandcities SPECIES_WAILMER, DEX_NIGHT
+    .word DEX_ROUTE_41
     dexendareadata
 
 
@@ -12656,14 +13753,17 @@ specialareas SPECIES_WAILORD, DEX_NIGHT
 
 
 routesandcities SPECIES_WAILORD, DEX_MORNING
+    .word DEX_ROUTE_41
     dexendareadata
 
 
 routesandcities SPECIES_WAILORD, DEX_DAY
+    .word DEX_ROUTE_41
     dexendareadata
 
 
 routesandcities SPECIES_WAILORD, DEX_NIGHT
+    .word DEX_ROUTE_41
     dexendareadata
 
 
@@ -12676,10 +13776,12 @@ routesandcities SPECIES_WAILORD, DEX_SPECIAL
 
 
 specialareas SPECIES_NUMEL, DEX_MORNING
+    .word DEX_UNION_CAVE
     dexendareadata
 
 
 specialareas SPECIES_NUMEL, DEX_DAY
+    .word DEX_UNION_CAVE
     dexendareadata
 
 
@@ -12710,10 +13812,12 @@ routesandcities SPECIES_NUMEL, DEX_SPECIAL
 
 
 specialareas SPECIES_CAMERUPT, DEX_MORNING
+    .word DEX_UNION_CAVE
     dexendareadata
 
 
 specialareas SPECIES_CAMERUPT, DEX_DAY
+    .word DEX_UNION_CAVE
     dexendareadata
 
 
@@ -12742,10 +13846,12 @@ routesandcities SPECIES_CAMERUPT, DEX_SPECIAL
 
 
 specialareas SPECIES_TORKOAL, DEX_MORNING
+    .word DEX_BURNED_TOWER
     dexendareadata
 
 
 specialareas SPECIES_TORKOAL, DEX_DAY
+    .word DEX_BURNED_TOWER
     dexendareadata
 
 
@@ -12782,6 +13888,7 @@ specialareas SPECIES_SPOINK, DEX_DAY
 
 
 specialareas SPECIES_SPOINK, DEX_NIGHT
+    .word DEX_SPROUT_TOWER
     dexendareadata
 
 
@@ -12816,6 +13923,7 @@ specialareas SPECIES_GRUMPIG, DEX_DAY
 
 
 specialareas SPECIES_GRUMPIG, DEX_NIGHT
+    .word DEX_SPROUT_TOWER
     dexendareadata
 
 
@@ -12840,14 +13948,17 @@ routesandcities SPECIES_GRUMPIG, DEX_SPECIAL
 
 
 specialareas SPECIES_SPINDA, DEX_MORNING
+    .word DEX_MT_MORTAR
     dexendareadata
 
 
 specialareas SPECIES_SPINDA, DEX_DAY
+    .word DEX_MT_MORTAR
     dexendareadata
 
 
 specialareas SPECIES_SPINDA, DEX_NIGHT
+    .word DEX_MT_MORTAR
     dexendareadata
 
 
@@ -12883,6 +13994,7 @@ specialareas SPECIES_TRAPINCH, DEX_DAY
 
 
 specialareas SPECIES_TRAPINCH, DEX_NIGHT
+    .word DEX_DARK_CAVE
     dexendareadata
 
 
@@ -12915,6 +14027,7 @@ specialareas SPECIES_VIBRAVA, DEX_DAY
 
 
 specialareas SPECIES_VIBRAVA, DEX_NIGHT
+    .word DEX_DARK_CAVE
     dexendareadata
 
 
@@ -12947,6 +14060,7 @@ specialareas SPECIES_FLYGON, DEX_DAY
 
 
 specialareas SPECIES_FLYGON, DEX_NIGHT
+    .word DEX_DARK_CAVE
     dexendareadata
 
 
@@ -12971,10 +14085,12 @@ routesandcities SPECIES_FLYGON, DEX_SPECIAL
 
 
 specialareas SPECIES_CACNEA, DEX_MORNING
+    .word DEX_DARK_CAVE
     dexendareadata
 
 
 specialareas SPECIES_CACNEA, DEX_DAY
+    .word DEX_DARK_CAVE
     dexendareadata
 
 
@@ -13003,10 +14119,12 @@ routesandcities SPECIES_CACNEA, DEX_SPECIAL
 
 
 specialareas SPECIES_CACTURNE, DEX_MORNING
+    .word DEX_DARK_CAVE
     dexendareadata
 
 
 specialareas SPECIES_CACTURNE, DEX_DAY
+    .word DEX_DARK_CAVE
     dexendareadata
 
 
@@ -13047,14 +14165,17 @@ specialareas SPECIES_SWABLU, DEX_NIGHT
 
 
 routesandcities SPECIES_SWABLU, DEX_MORNING
+    .word DEX_ROUTE_37
     dexendareadata
 
 
 routesandcities SPECIES_SWABLU, DEX_DAY
+    .word DEX_ROUTE_37
     dexendareadata
 
 
 routesandcities SPECIES_SWABLU, DEX_NIGHT
+    .word DEX_ROUTE_37
     dexendareadata
 
 
@@ -13079,14 +14200,17 @@ specialareas SPECIES_ALTARIA, DEX_NIGHT
 
 
 routesandcities SPECIES_ALTARIA, DEX_MORNING
+    .word DEX_ROUTE_37
     dexendareadata
 
 
 routesandcities SPECIES_ALTARIA, DEX_DAY
+    .word DEX_ROUTE_37
     dexendareadata
 
 
 routesandcities SPECIES_ALTARIA, DEX_NIGHT
+    .word DEX_ROUTE_37
     dexendareadata
 
 
@@ -13111,10 +14235,12 @@ specialareas SPECIES_ZANGOOSE, DEX_NIGHT
 
 
 routesandcities SPECIES_ZANGOOSE, DEX_MORNING
+    .word DEX_ROUTE_47
     dexendareadata
 
 
 routesandcities SPECIES_ZANGOOSE, DEX_DAY
+    .word DEX_ROUTE_47
     dexendareadata
 
 
@@ -13151,6 +14277,7 @@ routesandcities SPECIES_SEVIPER, DEX_DAY
 
 
 routesandcities SPECIES_SEVIPER, DEX_NIGHT
+    .word DEX_ROUTE_47
     dexendareadata
 
 
@@ -13171,6 +14298,7 @@ specialareas SPECIES_LUNATONE, DEX_DAY
 
 
 specialareas SPECIES_LUNATONE, DEX_NIGHT
+    .word DEX_BURNED_TOWER
     dexendareadata
 
 
@@ -13195,10 +14323,12 @@ routesandcities SPECIES_LUNATONE, DEX_SPECIAL
 
 
 specialareas SPECIES_SOLROCK, DEX_MORNING
+    .word DEX_BURNED_TOWER
     dexendareadata
 
 
 specialareas SPECIES_SOLROCK, DEX_DAY
+    .word DEX_BURNED_TOWER
     dexendareadata
 
 
@@ -13239,14 +14369,17 @@ specialareas SPECIES_BARBOACH, DEX_NIGHT
 
 
 routesandcities SPECIES_BARBOACH, DEX_MORNING
+    .word DEX_OLIVINE_CITY
     dexendareadata
 
 
 routesandcities SPECIES_BARBOACH, DEX_DAY
+    .word DEX_OLIVINE_CITY
     dexendareadata
 
 
 routesandcities SPECIES_BARBOACH, DEX_NIGHT
+    .word DEX_OLIVINE_CITY
     dexendareadata
 
 
@@ -13271,14 +14404,17 @@ specialareas SPECIES_WHISCASH, DEX_NIGHT
 
 
 routesandcities SPECIES_WHISCASH, DEX_MORNING
+    .word DEX_OLIVINE_CITY
     dexendareadata
 
 
 routesandcities SPECIES_WHISCASH, DEX_DAY
+    .word DEX_OLIVINE_CITY
     dexendareadata
 
 
 routesandcities SPECIES_WHISCASH, DEX_NIGHT
+    .word DEX_OLIVINE_CITY
     dexendareadata
 
 
@@ -13303,14 +14439,17 @@ specialareas SPECIES_CORPHISH, DEX_NIGHT
 
 
 routesandcities SPECIES_CORPHISH, DEX_MORNING
+    .word DEX_OLIVINE_CITY
     dexendareadata
 
 
 routesandcities SPECIES_CORPHISH, DEX_DAY
+    .word DEX_OLIVINE_CITY
     dexendareadata
 
 
 routesandcities SPECIES_CORPHISH, DEX_NIGHT
+    .word DEX_OLIVINE_CITY
     dexendareadata
 
 
@@ -13335,14 +14474,17 @@ specialareas SPECIES_CRAWDAUNT, DEX_NIGHT
 
 
 routesandcities SPECIES_CRAWDAUNT, DEX_MORNING
+    .word DEX_OLIVINE_CITY
     dexendareadata
 
 
 routesandcities SPECIES_CRAWDAUNT, DEX_DAY
+    .word DEX_OLIVINE_CITY
     dexendareadata
 
 
 routesandcities SPECIES_CRAWDAUNT, DEX_NIGHT
+    .word DEX_OLIVINE_CITY
     dexendareadata
 
 
@@ -13355,10 +14497,12 @@ routesandcities SPECIES_CRAWDAUNT, DEX_SPECIAL
 
 
 specialareas SPECIES_BALTOY, DEX_MORNING
+    .word DEX_RUINS_OF_ALPH
     dexendareadata
 
 
 specialareas SPECIES_BALTOY, DEX_DAY
+    .word DEX_RUINS_OF_ALPH
     dexendareadata
 
 
@@ -13387,10 +14531,12 @@ routesandcities SPECIES_BALTOY, DEX_SPECIAL
 
 
 specialareas SPECIES_CLAYDOL, DEX_MORNING
+    .word DEX_RUINS_OF_ALPH
     dexendareadata
 
 
 specialareas SPECIES_CLAYDOL, DEX_DAY
+    .word DEX_RUINS_OF_ALPH
     dexendareadata
 
 
@@ -13419,10 +14565,12 @@ routesandcities SPECIES_CLAYDOL, DEX_SPECIAL
 
 
 specialareas SPECIES_LILEEP, DEX_MORNING
+    .word DEX_NATIONAL_PARK
     dexendareadata
 
 
 specialareas SPECIES_LILEEP, DEX_DAY
+    .word DEX_NATIONAL_PARK
     dexendareadata
 
 
@@ -13451,10 +14599,12 @@ routesandcities SPECIES_LILEEP, DEX_SPECIAL
 
 
 specialareas SPECIES_CRADILY, DEX_MORNING
+    .word DEX_NATIONAL_PARK
     dexendareadata
 
 
 specialareas SPECIES_CRADILY, DEX_DAY
+    .word DEX_NATIONAL_PARK
     dexendareadata
 
 
@@ -13483,10 +14633,12 @@ routesandcities SPECIES_CRADILY, DEX_SPECIAL
 
 
 specialareas SPECIES_ANORITH, DEX_MORNING
+    .word DEX_NATIONAL_PARK
     dexendareadata
 
 
 specialareas SPECIES_ANORITH, DEX_DAY
+    .word DEX_NATIONAL_PARK
     dexendareadata
 
 
@@ -13515,10 +14667,12 @@ routesandcities SPECIES_ANORITH, DEX_SPECIAL
 
 
 specialareas SPECIES_ARMALDO, DEX_MORNING
+    .word DEX_NATIONAL_PARK
     dexendareadata
 
 
 specialareas SPECIES_ARMALDO, DEX_DAY
+    .word DEX_NATIONAL_PARK
     dexendareadata
 
 
@@ -13559,14 +14713,17 @@ specialareas SPECIES_FEEBAS, DEX_NIGHT
 
 
 routesandcities SPECIES_FEEBAS, DEX_MORNING
+    .word DEX_ROUTE_35
     dexendareadata
 
 
 routesandcities SPECIES_FEEBAS, DEX_DAY
+    .word DEX_ROUTE_35
     dexendareadata
 
 
 routesandcities SPECIES_FEEBAS, DEX_NIGHT
+    .word DEX_ROUTE_35
     dexendareadata
 
 
@@ -13591,14 +14748,17 @@ specialareas SPECIES_MILOTIC, DEX_NIGHT
 
 
 routesandcities SPECIES_MILOTIC, DEX_MORNING
+    .word DEX_ROUTE_35
     dexendareadata
 
 
 routesandcities SPECIES_MILOTIC, DEX_DAY
+    .word DEX_ROUTE_35
     dexendareadata
 
 
 routesandcities SPECIES_MILOTIC, DEX_NIGHT
+    .word DEX_ROUTE_35
     dexendareadata
 
 
@@ -13623,14 +14783,17 @@ specialareas SPECIES_CASTFORM, DEX_NIGHT
 
 
 routesandcities SPECIES_CASTFORM, DEX_MORNING
+    .word DEX_ROUTE_43
     dexendareadata
 
 
 routesandcities SPECIES_CASTFORM, DEX_DAY
+    .word DEX_ROUTE_43
     dexendareadata
 
 
 routesandcities SPECIES_CASTFORM, DEX_NIGHT
+    .word DEX_ROUTE_43
     dexendareadata
 
 
@@ -13655,14 +14818,17 @@ specialareas SPECIES_KECLEON, DEX_NIGHT
 
 
 routesandcities SPECIES_KECLEON, DEX_MORNING
+    .word DEX_ROUTE_48
     dexendareadata
 
 
 routesandcities SPECIES_KECLEON, DEX_DAY
+    .word DEX_ROUTE_48
     dexendareadata
 
 
 routesandcities SPECIES_KECLEON, DEX_NIGHT
+    .word DEX_ROUTE_48
     dexendareadata
 
 
@@ -13683,6 +14849,7 @@ specialareas SPECIES_SHUPPET, DEX_DAY
 
 
 specialareas SPECIES_SHUPPET, DEX_NIGHT
+    .word DEX_RUINS_OF_ALPH
     dexendareadata
 
 
@@ -13715,6 +14882,7 @@ specialareas SPECIES_BANETTE, DEX_DAY
 
 
 specialareas SPECIES_BANETTE, DEX_NIGHT
+    .word DEX_RUINS_OF_ALPH
     dexendareadata
 
 
@@ -13747,6 +14915,7 @@ specialareas SPECIES_DUSKULL, DEX_DAY
 
 
 specialareas SPECIES_DUSKULL, DEX_NIGHT
+    .word DEX_RUINS_OF_ALPH
     dexendareadata
 
 
@@ -13779,6 +14948,7 @@ specialareas SPECIES_DUSCLOPS, DEX_DAY
 
 
 specialareas SPECIES_DUSCLOPS, DEX_NIGHT
+    .word DEX_RUINS_OF_ALPH
     dexendareadata
 
 
@@ -13815,10 +14985,12 @@ specialareas SPECIES_TROPIUS, DEX_NIGHT
 
 
 routesandcities SPECIES_TROPIUS, DEX_MORNING
+    .word DEX_ROUTE_48
     dexendareadata
 
 
 routesandcities SPECIES_TROPIUS, DEX_DAY
+    .word DEX_ROUTE_48
     dexendareadata
 
 
@@ -13843,6 +15015,7 @@ specialareas SPECIES_CHIMECHO, DEX_DAY
 
 
 specialareas SPECIES_CHIMECHO, DEX_NIGHT
+    .word DEX_RUINS_OF_ALPH
     dexendareadata
 
 
@@ -13887,6 +15060,7 @@ routesandcities SPECIES_ABSOL, DEX_DAY
 
 
 routesandcities SPECIES_ABSOL, DEX_NIGHT
+    .word DEX_ROUTE_48
     dexendareadata
 
 
@@ -13914,10 +15088,12 @@ routesandcities SPECIES_ABSOL, DEX_SPECIAL
 
 
 specialareas SPECIES_WYNAUT, DEX_MORNING
+    .word DEX_RUINS_OF_ALPH
     dexendareadata
 
 
 specialareas SPECIES_WYNAUT, DEX_DAY
+    .word DEX_RUINS_OF_ALPH
     dexendareadata
 
 
@@ -13946,14 +15122,17 @@ routesandcities SPECIES_WYNAUT, DEX_SPECIAL
 
 
 specialareas SPECIES_SNORUNT, DEX_MORNING
+    .word DEX_ICE_PATH
     dexendareadata
 
 
 specialareas SPECIES_SNORUNT, DEX_DAY
+    .word DEX_ICE_PATH
     dexendareadata
 
 
 specialareas SPECIES_SNORUNT, DEX_NIGHT
+    .word DEX_ICE_PATH
     dexendareadata
 
 
@@ -13978,14 +15157,17 @@ routesandcities SPECIES_SNORUNT, DEX_SPECIAL
 
 
 specialareas SPECIES_GLALIE, DEX_MORNING
+    .word DEX_ICE_PATH
     dexendareadata
 
 
 specialareas SPECIES_GLALIE, DEX_DAY
+    .word DEX_ICE_PATH
     dexendareadata
 
 
 specialareas SPECIES_GLALIE, DEX_NIGHT
+    .word DEX_ICE_PATH
     dexendareadata
 
 
@@ -14010,14 +15192,17 @@ routesandcities SPECIES_GLALIE, DEX_SPECIAL
 
 
 specialareas SPECIES_SPHEAL, DEX_MORNING
+    .word DEX_ICE_PATH
     dexendareadata
 
 
 specialareas SPECIES_SPHEAL, DEX_DAY
+    .word DEX_ICE_PATH
     dexendareadata
 
 
 specialareas SPECIES_SPHEAL, DEX_NIGHT
+    .word DEX_ICE_PATH
     dexendareadata
 
 
@@ -14042,14 +15227,17 @@ routesandcities SPECIES_SPHEAL, DEX_SPECIAL
 
 
 specialareas SPECIES_SEALEO, DEX_MORNING
+    .word DEX_ICE_PATH
     dexendareadata
 
 
 specialareas SPECIES_SEALEO, DEX_DAY
+    .word DEX_ICE_PATH
     dexendareadata
 
 
 specialareas SPECIES_SEALEO, DEX_NIGHT
+    .word DEX_ICE_PATH
     dexendareadata
 
 
@@ -14074,14 +15262,17 @@ routesandcities SPECIES_SEALEO, DEX_SPECIAL
 
 
 specialareas SPECIES_WALREIN, DEX_MORNING
+    .word DEX_ICE_PATH
     dexendareadata
 
 
 specialareas SPECIES_WALREIN, DEX_DAY
+    .word DEX_ICE_PATH
     dexendareadata
 
 
 specialareas SPECIES_WALREIN, DEX_NIGHT
+    .word DEX_ICE_PATH
     dexendareadata
 
 
@@ -14214,14 +15405,17 @@ specialareas SPECIES_RELICANTH, DEX_NIGHT
 
 
 routesandcities SPECIES_RELICANTH, DEX_MORNING
+    .word DEX_ROUTE_40
     dexendareadata
 
 
 routesandcities SPECIES_RELICANTH, DEX_DAY
+    .word DEX_ROUTE_40
     dexendareadata
 
 
 routesandcities SPECIES_RELICANTH, DEX_NIGHT
+    .word DEX_ROUTE_40
     dexendareadata
 
 
@@ -14246,14 +15440,17 @@ specialareas SPECIES_LUVDISC, DEX_NIGHT
 
 
 routesandcities SPECIES_LUVDISC, DEX_MORNING
+    .word DEX_CIANWOOD_CITY
     dexendareadata
 
 
 routesandcities SPECIES_LUVDISC, DEX_DAY
+    .word DEX_CIANWOOD_CITY
     dexendareadata
 
 
 routesandcities SPECIES_LUVDISC, DEX_NIGHT
+    .word DEX_CIANWOOD_CITY
     dexendareadata
 
 
@@ -14274,6 +15471,7 @@ specialareas SPECIES_BAGON, DEX_DAY
 
 
 specialareas SPECIES_BAGON, DEX_NIGHT
+    .word DEX_NATIONAL_PARK
     dexendareadata
 
 
@@ -14306,6 +15504,7 @@ specialareas SPECIES_SHELGON, DEX_DAY
 
 
 specialareas SPECIES_SHELGON, DEX_NIGHT
+    .word DEX_NATIONAL_PARK
     dexendareadata
 
 
@@ -14338,6 +15537,7 @@ specialareas SPECIES_SALAMENCE, DEX_DAY
 
 
 specialareas SPECIES_SALAMENCE, DEX_NIGHT
+    .word DEX_NATIONAL_PARK
     dexendareadata
 
 
@@ -14370,6 +15570,7 @@ specialareas SPECIES_BELDUM, DEX_DAY
 
 
 specialareas SPECIES_BELDUM, DEX_NIGHT
+    .word DEX_NATIONAL_PARK
     dexendareadata
 
 
@@ -14402,6 +15603,7 @@ specialareas SPECIES_METANG, DEX_DAY
 
 
 specialareas SPECIES_METANG, DEX_NIGHT
+    .word DEX_NATIONAL_PARK
     dexendareadata
 
 
@@ -14434,6 +15636,7 @@ specialareas SPECIES_METAGROSS, DEX_DAY
 
 
 specialareas SPECIES_METAGROSS, DEX_NIGHT
+    .word DEX_NATIONAL_PARK
     dexendareadata
 
 
@@ -14470,14 +15673,17 @@ specialareas SPECIES_REGIROCK, DEX_NIGHT
 
 
 routesandcities SPECIES_REGIROCK, DEX_MORNING
+    .word DEX_MT_SILVER
     dexendareadata
 
 
 routesandcities SPECIES_REGIROCK, DEX_DAY
+    .word DEX_MT_SILVER
     dexendareadata
 
 
 routesandcities SPECIES_REGIROCK, DEX_NIGHT
+    .word DEX_MT_SILVER
     dexendareadata
 
 
@@ -14490,14 +15696,17 @@ routesandcities SPECIES_REGIROCK, DEX_SPECIAL
 
 
 specialareas SPECIES_REGICE, DEX_MORNING
+    .word DEX_ICE_PATH
     dexendareadata
 
 
 specialareas SPECIES_REGICE, DEX_DAY
+    .word DEX_ICE_PATH
     dexendareadata
 
 
 specialareas SPECIES_REGICE, DEX_NIGHT
+    .word DEX_ICE_PATH
     dexendareadata
 
 
@@ -14534,14 +15743,17 @@ specialareas SPECIES_REGISTEEL, DEX_NIGHT
 
 
 routesandcities SPECIES_REGISTEEL, DEX_MORNING
+    .word DEX_MT_SILVER
     dexendareadata
 
 
 routesandcities SPECIES_REGISTEEL, DEX_DAY
+    .word DEX_MT_SILVER
     dexendareadata
 
 
 routesandcities SPECIES_REGISTEEL, DEX_NIGHT
+    .word DEX_MT_SILVER
     dexendareadata
 
 
@@ -14554,14 +15766,17 @@ routesandcities SPECIES_REGISTEEL, DEX_SPECIAL
 
 
 specialareas SPECIES_LATIAS, DEX_MORNING
+    .word DEX_BELL_TOWER
     dexendareadata
 
 
 specialareas SPECIES_LATIAS, DEX_DAY
+    .word DEX_BELL_TOWER
     dexendareadata
 
 
 specialareas SPECIES_LATIAS, DEX_NIGHT
+    .word DEX_BELL_TOWER
     dexendareadata
 
 
@@ -14586,14 +15801,17 @@ routesandcities SPECIES_LATIAS, DEX_SPECIAL
 
 
 specialareas SPECIES_LATIOS, DEX_MORNING
+    .word DEX_BELL_TOWER
     dexendareadata
 
 
 specialareas SPECIES_LATIOS, DEX_DAY
+    .word DEX_BELL_TOWER
     dexendareadata
 
 
 specialareas SPECIES_LATIOS, DEX_NIGHT
+    .word DEX_BELL_TOWER
     dexendareadata
 
 
@@ -14618,14 +15836,17 @@ routesandcities SPECIES_LATIOS, DEX_SPECIAL
 
 
 specialareas SPECIES_KYOGRE, DEX_MORNING
+    .word DEX_SEAFOAM_ISLANDS
     dexendareadata
 
 
 specialareas SPECIES_KYOGRE, DEX_DAY
+    .word DEX_SEAFOAM_ISLANDS
     dexendareadata
 
 
 specialareas SPECIES_KYOGRE, DEX_NIGHT
+    .word DEX_SEAFOAM_ISLANDS
     dexendareadata
 
 
@@ -14650,14 +15871,17 @@ routesandcities SPECIES_KYOGRE, DEX_SPECIAL
 
 
 specialareas SPECIES_GROUDON, DEX_MORNING
+    .word DEX_MT_SILVER_CAVE
     dexendareadata
 
 
 specialareas SPECIES_GROUDON, DEX_DAY
+    .word DEX_MT_SILVER_CAVE
     dexendareadata
 
 
 specialareas SPECIES_GROUDON, DEX_NIGHT
+    .word DEX_MT_SILVER_CAVE
     dexendareadata
 
 
@@ -14694,14 +15918,17 @@ specialareas SPECIES_RAYQUAZA, DEX_NIGHT
 
 
 routesandcities SPECIES_RAYQUAZA, DEX_MORNING
+    .word DEX_ROUTE_26
     dexendareadata
 
 
 routesandcities SPECIES_RAYQUAZA, DEX_DAY
+    .word DEX_ROUTE_26
     dexendareadata
 
 
 routesandcities SPECIES_RAYQUAZA, DEX_NIGHT
+    .word DEX_ROUTE_26
     dexendareadata
 
 
@@ -14714,14 +15941,17 @@ routesandcities SPECIES_RAYQUAZA, DEX_SPECIAL
 
 
 specialareas SPECIES_JIRACHI, DEX_MORNING
+    .word DEX_BELL_TOWER
     dexendareadata
 
 
 specialareas SPECIES_JIRACHI, DEX_DAY
+    .word DEX_BELL_TOWER
     dexendareadata
 
 
 specialareas SPECIES_JIRACHI, DEX_NIGHT
+    .word DEX_BELL_TOWER
     dexendareadata
 
 
@@ -14746,14 +15976,17 @@ routesandcities SPECIES_JIRACHI, DEX_SPECIAL
 
 
 specialareas SPECIES_DEOXYS, DEX_MORNING
+    .word DEX_BELL_TOWER
     dexendareadata
 
 
 specialareas SPECIES_DEOXYS, DEX_DAY
+    .word DEX_BELL_TOWER
     dexendareadata
 
 
 specialareas SPECIES_DEOXYS, DEX_NIGHT
+    .word DEX_BELL_TOWER
     dexendareadata
 
 
@@ -14790,6 +16023,7 @@ specialareas SPECIES_TURTWIG, DEX_NIGHT
 
 
 routesandcities SPECIES_TURTWIG, DEX_MORNING
+    .word DEX_ROUTE_34
     dexendareadata
 
 
@@ -14822,6 +16056,7 @@ specialareas SPECIES_GROTLE, DEX_NIGHT
 
 
 routesandcities SPECIES_GROTLE, DEX_MORNING
+    .word DEX_ROUTE_34
     dexendareadata
 
 
@@ -14854,6 +16089,7 @@ specialareas SPECIES_TORTERRA, DEX_NIGHT
 
 
 routesandcities SPECIES_TORTERRA, DEX_MORNING
+    .word DEX_ROUTE_34
     dexendareadata
 
 
@@ -14894,6 +16130,7 @@ routesandcities SPECIES_CHIMCHAR, DEX_DAY
 
 
 routesandcities SPECIES_CHIMCHAR, DEX_NIGHT
+    .word DEX_ROUTE_34
     dexendareadata
 
 
@@ -14926,6 +16163,7 @@ routesandcities SPECIES_MONFERNO, DEX_DAY
 
 
 routesandcities SPECIES_MONFERNO, DEX_NIGHT
+    .word DEX_ROUTE_34
     dexendareadata
 
 
@@ -14958,6 +16196,7 @@ routesandcities SPECIES_INFERNAPE, DEX_DAY
 
 
 routesandcities SPECIES_INFERNAPE, DEX_NIGHT
+    .word DEX_ROUTE_34
     dexendareadata
 
 
@@ -14986,6 +16225,7 @@ routesandcities SPECIES_PIPLUP, DEX_MORNING
 
 
 routesandcities SPECIES_PIPLUP, DEX_DAY
+    .word DEX_ROUTE_34
     dexendareadata
 
 
@@ -15018,6 +16258,7 @@ routesandcities SPECIES_PRINPLUP, DEX_MORNING
 
 
 routesandcities SPECIES_PRINPLUP, DEX_DAY
+    .word DEX_ROUTE_34
     dexendareadata
 
 
@@ -15050,6 +16291,7 @@ routesandcities SPECIES_EMPOLEON, DEX_MORNING
 
 
 routesandcities SPECIES_EMPOLEON, DEX_DAY
+    .word DEX_ROUTE_34
     dexendareadata
 
 
@@ -15078,10 +16320,12 @@ specialareas SPECIES_STARLY, DEX_NIGHT
 
 
 routesandcities SPECIES_STARLY, DEX_MORNING
+    .word DEX_ROUTE_29
     dexendareadata
 
 
 routesandcities SPECIES_STARLY, DEX_DAY
+    .word DEX_ROUTE_29
     dexendareadata
 
 
@@ -15111,10 +16355,12 @@ specialareas SPECIES_STARAVIA, DEX_NIGHT
 
 
 routesandcities SPECIES_STARAVIA, DEX_MORNING
+    .word DEX_ROUTE_29
     dexendareadata
 
 
 routesandcities SPECIES_STARAVIA, DEX_DAY
+    .word DEX_ROUTE_29
     dexendareadata
 
 
@@ -15143,10 +16389,12 @@ specialareas SPECIES_STARAPTOR, DEX_NIGHT
 
 
 routesandcities SPECIES_STARAPTOR, DEX_MORNING
+    .word DEX_ROUTE_29
     dexendareadata
 
 
 routesandcities SPECIES_STARAPTOR, DEX_DAY
+    .word DEX_ROUTE_29
     dexendareadata
 
 
@@ -15175,10 +16423,12 @@ specialareas SPECIES_BIDOOF, DEX_NIGHT
 
 
 routesandcities SPECIES_BIDOOF, DEX_MORNING
+    .word DEX_ROUTE_29
     dexendareadata
 
 
 routesandcities SPECIES_BIDOOF, DEX_DAY
+    .word DEX_ROUTE_29
     dexendareadata
 
 
@@ -15231,10 +16481,12 @@ specialareas SPECIES_BIBAREL, DEX_NIGHT
 
 
 routesandcities SPECIES_BIBAREL, DEX_MORNING
+    .word DEX_ROUTE_29
     dexendareadata
 
 
 routesandcities SPECIES_BIBAREL, DEX_DAY
+    .word DEX_ROUTE_29
     dexendareadata
 
 
@@ -15271,6 +16523,7 @@ routesandcities SPECIES_KRICKETOT, DEX_DAY
 
 
 routesandcities SPECIES_KRICKETOT, DEX_NIGHT
+    .word DEX_ROUTE_31
     dexendareadata
 
 
@@ -15303,6 +16556,7 @@ routesandcities SPECIES_KRICKETUNE, DEX_DAY
 
 
 routesandcities SPECIES_KRICKETUNE, DEX_NIGHT
+    .word DEX_ROUTE_31
     dexendareadata
 
 
@@ -15335,6 +16589,7 @@ routesandcities SPECIES_SHINX, DEX_DAY
 
 
 routesandcities SPECIES_SHINX, DEX_NIGHT
+    .word DEX_ROUTE_46
     dexendareadata
 
 
@@ -15389,6 +16644,7 @@ routesandcities SPECIES_LUXIO, DEX_DAY
 
 
 routesandcities SPECIES_LUXIO, DEX_NIGHT
+    .word DEX_ROUTE_46
     dexendareadata
 
 
@@ -15421,6 +16677,7 @@ routesandcities SPECIES_LUXRAY, DEX_DAY
 
 
 routesandcities SPECIES_LUXRAY, DEX_NIGHT
+    .word DEX_ROUTE_46
     dexendareadata
 
 
@@ -15445,10 +16702,12 @@ specialareas SPECIES_BUDEW, DEX_NIGHT
 
 
 routesandcities SPECIES_BUDEW, DEX_MORNING
+    .word DEX_ROUTE_32
     dexendareadata
 
 
 routesandcities SPECIES_BUDEW, DEX_DAY
+    .word DEX_ROUTE_32
     dexendareadata
 
 
@@ -15479,10 +16738,12 @@ specialareas SPECIES_ROSERADE, DEX_NIGHT
 
 
 routesandcities SPECIES_ROSERADE, DEX_MORNING
+    .word DEX_ROUTE_32
     dexendareadata
 
 
 routesandcities SPECIES_ROSERADE, DEX_DAY
+    .word DEX_ROUTE_32
     dexendareadata
 
 
@@ -15499,10 +16760,12 @@ routesandcities SPECIES_ROSERADE, DEX_SPECIAL
 
 
 specialareas SPECIES_CRANIDOS, DEX_MORNING
+    .word DEX_NATIONAL_PARK
     dexendareadata
 
 
 specialareas SPECIES_CRANIDOS, DEX_DAY
+    .word DEX_NATIONAL_PARK
     dexendareadata
 
 
@@ -15531,10 +16794,12 @@ routesandcities SPECIES_CRANIDOS, DEX_SPECIAL
 
 
 specialareas SPECIES_RAMPARDOS, DEX_MORNING
+    .word DEX_NATIONAL_PARK
     dexendareadata
 
 
 specialareas SPECIES_RAMPARDOS, DEX_DAY
+    .word DEX_NATIONAL_PARK
     dexendareadata
 
 
@@ -15563,10 +16828,12 @@ routesandcities SPECIES_RAMPARDOS, DEX_SPECIAL
 
 
 specialareas SPECIES_SHIELDON, DEX_MORNING
+    .word DEX_NATIONAL_PARK
     dexendareadata
 
 
 specialareas SPECIES_SHIELDON, DEX_DAY
+    .word DEX_NATIONAL_PARK
     dexendareadata
 
 
@@ -15595,10 +16862,12 @@ routesandcities SPECIES_SHIELDON, DEX_SPECIAL
 
 
 specialareas SPECIES_BASTIODON, DEX_MORNING
+    .word DEX_NATIONAL_PARK
     dexendareadata
 
 
 specialareas SPECIES_BASTIODON, DEX_DAY
+    .word DEX_NATIONAL_PARK
     dexendareadata
 
 
@@ -15647,6 +16916,7 @@ routesandcities SPECIES_BURMY, DEX_DAY
 
 
 routesandcities SPECIES_BURMY, DEX_NIGHT
+    .word DEX_ROUTE_32
     dexendareadata
 
 
@@ -15680,6 +16950,7 @@ routesandcities SPECIES_WORMADAM, DEX_DAY
 
 
 routesandcities SPECIES_WORMADAM, DEX_NIGHT
+    .word DEX_ROUTE_32
     dexendareadata
 
 
@@ -15712,6 +16983,7 @@ routesandcities SPECIES_MOTHIM, DEX_DAY
 
 
 routesandcities SPECIES_MOTHIM, DEX_NIGHT
+    .word DEX_ROUTE_32
     dexendareadata
 
 
@@ -15724,10 +16996,12 @@ routesandcities SPECIES_MOTHIM, DEX_SPECIAL
 
 
 specialareas SPECIES_COMBEE, DEX_MORNING
+    .word DEX_ILEX_FOREST
     dexendareadata
 
 
 specialareas SPECIES_COMBEE, DEX_DAY
+    .word DEX_ILEX_FOREST
     dexendareadata
 
 
@@ -15767,10 +17041,12 @@ routesandcities SPECIES_COMBEE, DEX_SPECIAL
 
 
 specialareas SPECIES_VESPIQUEN, DEX_MORNING
+    .word DEX_ILEX_FOREST
     dexendareadata
 
 
 specialareas SPECIES_VESPIQUEN, DEX_DAY
+    .word DEX_ILEX_FOREST
     dexendareadata
 
 
@@ -15811,10 +17087,12 @@ specialareas SPECIES_PACHIRISU, DEX_NIGHT
 
 
 routesandcities SPECIES_PACHIRISU, DEX_MORNING
+    .word DEX_ROUTE_46
     dexendareadata
 
 
 routesandcities SPECIES_PACHIRISU, DEX_DAY
+    .word DEX_ROUTE_46
     dexendareadata
 
 
@@ -15843,10 +17121,12 @@ specialareas SPECIES_BUIZEL, DEX_NIGHT
 
 
 routesandcities SPECIES_BUIZEL, DEX_MORNING
+    .word DEX_ROUTE_31
     dexendareadata
 
 
 routesandcities SPECIES_BUIZEL, DEX_DAY
+    .word DEX_ROUTE_31
     dexendareadata
 
 
@@ -15899,10 +17179,12 @@ specialareas SPECIES_FLOATZEL, DEX_NIGHT
 
 
 routesandcities SPECIES_FLOATZEL, DEX_MORNING
+    .word DEX_ROUTE_31
     dexendareadata
 
 
 routesandcities SPECIES_FLOATZEL, DEX_DAY
+    .word DEX_ROUTE_31
     dexendareadata
 
 
@@ -15931,10 +17213,12 @@ specialareas SPECIES_CHERUBI, DEX_NIGHT
 
 
 routesandcities SPECIES_CHERUBI, DEX_MORNING
+    .word DEX_ROUTE_46
     dexendareadata
 
 
 routesandcities SPECIES_CHERUBI, DEX_DAY
+    .word DEX_ROUTE_46
     dexendareadata
 
 
@@ -15964,10 +17248,12 @@ specialareas SPECIES_CHERRIM, DEX_NIGHT
 
 
 routesandcities SPECIES_CHERRIM, DEX_MORNING
+    .word DEX_ROUTE_46
     dexendareadata
 
 
 routesandcities SPECIES_CHERRIM, DEX_DAY
+    .word DEX_ROUTE_46
     dexendareadata
 
 
@@ -15984,10 +17270,12 @@ routesandcities SPECIES_CHERRIM, DEX_SPECIAL
 
 
 specialareas SPECIES_SHELLOS, DEX_MORNING
+    .word DEX_UNION_CAVE
     dexendareadata
 
 
 specialareas SPECIES_SHELLOS, DEX_DAY
+    .word DEX_UNION_CAVE
     dexendareadata
 
 
@@ -16016,10 +17304,12 @@ routesandcities SPECIES_SHELLOS, DEX_SPECIAL
 
 
 specialareas SPECIES_GASTRODON, DEX_MORNING
+    .word DEX_UNION_CAVE
     dexendareadata
 
 
 specialareas SPECIES_GASTRODON, DEX_DAY
+    .word DEX_UNION_CAVE
     dexendareadata
 
 
@@ -16060,10 +17350,12 @@ specialareas SPECIES_AMBIPOM, DEX_NIGHT
 
 
 routesandcities SPECIES_AMBIPOM, DEX_MORNING
+    .word DEX_ROUTE_46
     dexendareadata
 
 
 routesandcities SPECIES_AMBIPOM, DEX_DAY
+    .word DEX_ROUTE_46
     dexendareadata
 
 
@@ -16088,6 +17380,7 @@ specialareas SPECIES_DRIFLOON, DEX_DAY
 
 
 specialareas SPECIES_DRIFLOON, DEX_NIGHT
+    .word DEX_UNION_CAVE
     dexendareadata
 
 
@@ -16120,6 +17413,7 @@ specialareas SPECIES_DRIFBLIM, DEX_DAY
 
 
 specialareas SPECIES_DRIFBLIM, DEX_NIGHT
+    .word DEX_UNION_CAVE
     dexendareadata
 
 
@@ -16156,10 +17450,12 @@ specialareas SPECIES_BUNEARY, DEX_NIGHT
 
 
 routesandcities SPECIES_BUNEARY, DEX_MORNING
+    .word DEX_ROUTE_35
     dexendareadata
 
 
 routesandcities SPECIES_BUNEARY, DEX_DAY
+    .word DEX_ROUTE_35
     dexendareadata
 
 
@@ -16188,10 +17484,12 @@ specialareas SPECIES_LOPUNNY, DEX_NIGHT
 
 
 routesandcities SPECIES_LOPUNNY, DEX_MORNING
+    .word DEX_ROUTE_35
     dexendareadata
 
 
 routesandcities SPECIES_LOPUNNY, DEX_DAY
+    .word DEX_ROUTE_35
     dexendareadata
 
 
@@ -16216,6 +17514,9 @@ specialareas SPECIES_MISMAGIUS, DEX_DAY
 
 
 specialareas SPECIES_MISMAGIUS, DEX_NIGHT
+    .word DEX_RUINS_OF_ALPH
+    .word DEX_MT_SILVER_CAVE
+    .word DEX_CLIFF_CAVE
     dexendareadata
 
 
@@ -16228,6 +17529,7 @@ routesandcities SPECIES_MISMAGIUS, DEX_DAY
 
 
 routesandcities SPECIES_MISMAGIUS, DEX_NIGHT
+    .word DEX_MT_SILVER
     dexendareadata
 
 
@@ -16248,6 +17550,7 @@ specialareas SPECIES_HONCHKROW, DEX_DAY
 
 
 specialareas SPECIES_HONCHKROW, DEX_NIGHT
+    .word DEX_ILEX_FOREST
     dexendareadata
 
 
@@ -16260,6 +17563,8 @@ routesandcities SPECIES_HONCHKROW, DEX_DAY
 
 
 routesandcities SPECIES_HONCHKROW, DEX_NIGHT
+    .word DEX_ROUTE_7
+    .word DEX_ROUTE_16
     dexendareadata
 
 
@@ -16284,10 +17589,12 @@ specialareas SPECIES_GLAMEOW, DEX_NIGHT
 
 
 routesandcities SPECIES_GLAMEOW, DEX_MORNING
+    .word DEX_ROUTE_29
     dexendareadata
 
 
 routesandcities SPECIES_GLAMEOW, DEX_DAY
+    .word DEX_ROUTE_29
     dexendareadata
 
 
@@ -16316,10 +17623,12 @@ specialareas SPECIES_PURUGLY, DEX_NIGHT
 
 
 routesandcities SPECIES_PURUGLY, DEX_MORNING
+    .word DEX_ROUTE_29
     dexendareadata
 
 
 routesandcities SPECIES_PURUGLY, DEX_DAY
+    .word DEX_ROUTE_29
     dexendareadata
 
 
@@ -16344,6 +17653,7 @@ specialareas SPECIES_CHINGLING, DEX_DAY
 
 
 specialareas SPECIES_CHINGLING, DEX_NIGHT
+    .word DEX_RUINS_OF_ALPH
     dexendareadata
 
 
@@ -16395,14 +17705,17 @@ specialareas SPECIES_STUNKY, DEX_NIGHT
 
 
 routesandcities SPECIES_STUNKY, DEX_MORNING
+    .word DEX_ROUTE_37
     dexendareadata
 
 
 routesandcities SPECIES_STUNKY, DEX_DAY
+    .word DEX_ROUTE_37
     dexendareadata
 
 
 routesandcities SPECIES_STUNKY, DEX_NIGHT
+    .word DEX_ROUTE_37
     dexendareadata
 
 
@@ -16427,14 +17740,17 @@ specialareas SPECIES_SKUNTANK, DEX_NIGHT
 
 
 routesandcities SPECIES_SKUNTANK, DEX_MORNING
+    .word DEX_ROUTE_37
     dexendareadata
 
 
 routesandcities SPECIES_SKUNTANK, DEX_DAY
+    .word DEX_ROUTE_37
     dexendareadata
 
 
 routesandcities SPECIES_SKUNTANK, DEX_NIGHT
+    .word DEX_ROUTE_37
     dexendareadata
 
 
@@ -16447,10 +17763,12 @@ routesandcities SPECIES_SKUNTANK, DEX_SPECIAL
 
 
 specialareas SPECIES_BRONZOR, DEX_MORNING
+    .word DEX_RUINS_OF_ALPH
     dexendareadata
 
 
 specialareas SPECIES_BRONZOR, DEX_DAY
+    .word DEX_RUINS_OF_ALPH
     dexendareadata
 
 
@@ -16494,10 +17812,12 @@ routesandcities SPECIES_BRONZOR, DEX_SPECIAL
 
 
 specialareas SPECIES_BRONZONG, DEX_MORNING
+    .word DEX_RUINS_OF_ALPH
     dexendareadata
 
 
 specialareas SPECIES_BRONZONG, DEX_DAY
+    .word DEX_RUINS_OF_ALPH
     dexendareadata
 
 
@@ -16526,10 +17846,12 @@ routesandcities SPECIES_BRONZONG, DEX_SPECIAL
 
 
 specialareas SPECIES_BONSLY, DEX_MORNING
+    .word DEX_SPROUT_TOWER
     dexendareadata
 
 
 specialareas SPECIES_BONSLY, DEX_DAY
+    .word DEX_SPROUT_TOWER
     dexendareadata
 
 
@@ -16570,6 +17892,7 @@ specialareas SPECIES_MIMEJR, DEX_NIGHT
 
 
 routesandcities SPECIES_MIMEJR, DEX_MORNING
+    .word DEX_ROUTE_30
     dexendareadata
 
 
@@ -16602,14 +17925,17 @@ specialareas SPECIES_HAPPINY, DEX_NIGHT
 
 
 routesandcities SPECIES_HAPPINY, DEX_MORNING
+    .word DEX_ROUTE_39
     dexendareadata
 
 
 routesandcities SPECIES_HAPPINY, DEX_DAY
+    .word DEX_ROUTE_39
     dexendareadata
 
 
 routesandcities SPECIES_HAPPINY, DEX_NIGHT
+    .word DEX_ROUTE_39
     dexendareadata
 
 
@@ -16634,10 +17960,12 @@ specialareas SPECIES_CHATOT, DEX_NIGHT
 
 
 routesandcities SPECIES_CHATOT, DEX_MORNING
+    .word DEX_ROUTE_42
     dexendareadata
 
 
 routesandcities SPECIES_CHATOT, DEX_DAY
+    .word DEX_ROUTE_42
     dexendareadata
 
 
@@ -16665,6 +17993,7 @@ specialareas SPECIES_SPIRITOMB, DEX_DAY
 
 
 specialareas SPECIES_SPIRITOMB, DEX_NIGHT
+    .word DEX_MT_MORTAR
     dexendareadata
 
 
@@ -16697,6 +18026,7 @@ specialareas SPECIES_GIBLE, DEX_DAY
 
 
 specialareas SPECIES_GIBLE, DEX_NIGHT
+    .word DEX_NATIONAL_PARK
     dexendareadata
 
 
@@ -16729,6 +18059,7 @@ specialareas SPECIES_GABITE, DEX_DAY
 
 
 specialareas SPECIES_GABITE, DEX_NIGHT
+    .word DEX_NATIONAL_PARK
     dexendareadata
 
 
@@ -16761,6 +18092,7 @@ specialareas SPECIES_GARCHOMP, DEX_DAY
 
 
 specialareas SPECIES_GARCHOMP, DEX_NIGHT
+    .word DEX_NATIONAL_PARK
     dexendareadata
 
 
@@ -16793,6 +18125,7 @@ specialareas SPECIES_MUNCHLAX, DEX_DAY
 
 
 specialareas SPECIES_MUNCHLAX, DEX_NIGHT
+    .word DEX_SPROUT_TOWER
     dexendareadata
 
 
@@ -16817,10 +18150,12 @@ routesandcities SPECIES_MUNCHLAX, DEX_SPECIAL
 
 
 specialareas SPECIES_RIOLU, DEX_MORNING
+    .word DEX_UNION_CAVE
     dexendareadata
 
 
 specialareas SPECIES_RIOLU, DEX_DAY
+    .word DEX_UNION_CAVE
     dexendareadata
 
 
@@ -16849,10 +18184,12 @@ routesandcities SPECIES_RIOLU, DEX_SPECIAL
 
 
 specialareas SPECIES_LUCARIO, DEX_MORNING
+    .word DEX_UNION_CAVE
     dexendareadata
 
 
 specialareas SPECIES_LUCARIO, DEX_DAY
+    .word DEX_UNION_CAVE
     dexendareadata
 
 
@@ -16893,14 +18230,17 @@ specialareas SPECIES_HIPPOPOTAS, DEX_NIGHT
 
 
 routesandcities SPECIES_HIPPOPOTAS, DEX_MORNING
+    .word DEX_ROUTE_39
     dexendareadata
 
 
 routesandcities SPECIES_HIPPOPOTAS, DEX_DAY
+    .word DEX_ROUTE_39
     dexendareadata
 
 
 routesandcities SPECIES_HIPPOPOTAS, DEX_NIGHT
+    .word DEX_ROUTE_39
     dexendareadata
 
 
@@ -16925,14 +18265,17 @@ specialareas SPECIES_HIPPOWDON, DEX_NIGHT
 
 
 routesandcities SPECIES_HIPPOWDON, DEX_MORNING
+    .word DEX_ROUTE_39
     dexendareadata
 
 
 routesandcities SPECIES_HIPPOWDON, DEX_DAY
+    .word DEX_ROUTE_39
     dexendareadata
 
 
 routesandcities SPECIES_HIPPOWDON, DEX_NIGHT
+    .word DEX_ROUTE_39
     dexendareadata
 
 
@@ -16965,6 +18308,7 @@ routesandcities SPECIES_SKORUPI, DEX_DAY
 
 
 routesandcities SPECIES_SKORUPI, DEX_NIGHT
+    .word DEX_ROUTE_30
     dexendareadata
 
 
@@ -16997,6 +18341,7 @@ routesandcities SPECIES_DRAPION, DEX_DAY
 
 
 routesandcities SPECIES_DRAPION, DEX_NIGHT
+    .word DEX_ROUTE_30
     dexendareadata
 
 
@@ -17021,14 +18366,17 @@ specialareas SPECIES_CROAGUNK, DEX_NIGHT
 
 
 routesandcities SPECIES_CROAGUNK, DEX_MORNING
+    .word DEX_ROUTE_37
     dexendareadata
 
 
 routesandcities SPECIES_CROAGUNK, DEX_DAY
+    .word DEX_ROUTE_37
     dexendareadata
 
 
 routesandcities SPECIES_CROAGUNK, DEX_NIGHT
+    .word DEX_ROUTE_37
     dexendareadata
 
 
@@ -17053,14 +18401,17 @@ specialareas SPECIES_TOXICROAK, DEX_NIGHT
 
 
 routesandcities SPECIES_TOXICROAK, DEX_MORNING
+    .word DEX_ROUTE_37
     dexendareadata
 
 
 routesandcities SPECIES_TOXICROAK, DEX_DAY
+    .word DEX_ROUTE_37
     dexendareadata
 
 
 routesandcities SPECIES_TOXICROAK, DEX_NIGHT
+    .word DEX_ROUTE_37
     dexendareadata
 
 
@@ -17085,10 +18436,12 @@ specialareas SPECIES_CARNIVINE, DEX_NIGHT
 
 
 routesandcities SPECIES_CARNIVINE, DEX_MORNING
+    .word DEX_ROUTE_42
     dexendareadata
 
 
 routesandcities SPECIES_CARNIVINE, DEX_DAY
+    .word DEX_ROUTE_42
     dexendareadata
 
 
@@ -17119,14 +18472,17 @@ specialareas SPECIES_FINNEON, DEX_NIGHT
 
 
 routesandcities SPECIES_FINNEON, DEX_MORNING
+    .word DEX_OLIVINE_CITY
     dexendareadata
 
 
 routesandcities SPECIES_FINNEON, DEX_DAY
+    .word DEX_OLIVINE_CITY
     dexendareadata
 
 
 routesandcities SPECIES_FINNEON, DEX_NIGHT
+    .word DEX_OLIVINE_CITY
     dexendareadata
 
 
@@ -17151,14 +18507,17 @@ specialareas SPECIES_LUMINEON, DEX_NIGHT
 
 
 routesandcities SPECIES_LUMINEON, DEX_MORNING
+    .word DEX_OLIVINE_CITY
     dexendareadata
 
 
 routesandcities SPECIES_LUMINEON, DEX_DAY
+    .word DEX_OLIVINE_CITY
     dexendareadata
 
 
 routesandcities SPECIES_LUMINEON, DEX_NIGHT
+    .word DEX_OLIVINE_CITY
     dexendareadata
 
 
@@ -17183,14 +18542,17 @@ specialareas SPECIES_MANTYKE, DEX_NIGHT
 
 
 routesandcities SPECIES_MANTYKE, DEX_MORNING
+    .word DEX_OLIVINE_CITY
     dexendareadata
 
 
 routesandcities SPECIES_MANTYKE, DEX_DAY
+    .word DEX_OLIVINE_CITY
     dexendareadata
 
 
 routesandcities SPECIES_MANTYKE, DEX_NIGHT
+    .word DEX_OLIVINE_CITY
     dexendareadata
 
 
@@ -17203,14 +18565,17 @@ routesandcities SPECIES_MANTYKE, DEX_SPECIAL
 
 
 specialareas SPECIES_SNOVER, DEX_MORNING
+    .word DEX_ICE_PATH
     dexendareadata
 
 
 specialareas SPECIES_SNOVER, DEX_DAY
+    .word DEX_ICE_PATH
     dexendareadata
 
 
 specialareas SPECIES_SNOVER, DEX_NIGHT
+    .word DEX_ICE_PATH
     dexendareadata
 
 
@@ -17235,14 +18600,17 @@ routesandcities SPECIES_SNOVER, DEX_SPECIAL
 
 
 specialareas SPECIES_ABOMASNOW, DEX_MORNING
+    .word DEX_ICE_PATH
     dexendareadata
 
 
 specialareas SPECIES_ABOMASNOW, DEX_DAY
+    .word DEX_ICE_PATH
     dexendareadata
 
 
 specialareas SPECIES_ABOMASNOW, DEX_NIGHT
+    .word DEX_ICE_PATH
     dexendareadata
 
 
@@ -17267,26 +18635,37 @@ routesandcities SPECIES_ABOMASNOW, DEX_SPECIAL
 
 
 specialareas SPECIES_WEAVILE, DEX_MORNING
+    .word DEX_MT_MORTAR
+    .word DEX_MT_SILVER_CAVE
     dexendareadata
 
 
 specialareas SPECIES_WEAVILE, DEX_DAY
+    .word DEX_MT_MORTAR
+    .word DEX_MT_SILVER_CAVE
     dexendareadata
 
 
 specialareas SPECIES_WEAVILE, DEX_NIGHT
+    .word DEX_MT_MORTAR
+    .word DEX_MT_SILVER_CAVE
     dexendareadata
 
 
 routesandcities SPECIES_WEAVILE, DEX_MORNING
+    .word DEX_MT_SILVER
     dexendareadata
 
 
 routesandcities SPECIES_WEAVILE, DEX_DAY
+    .word DEX_ROUTE_32
+    .word DEX_MT_SILVER
     dexendareadata
 
 
 routesandcities SPECIES_WEAVILE, DEX_NIGHT
+    .word DEX_MT_SILVER
+    .word DEX_ROUTE_28
     dexendareadata
 
 
@@ -17299,26 +18678,38 @@ routesandcities SPECIES_WEAVILE, DEX_SPECIAL
 
 
 specialareas SPECIES_MAGNEZONE, DEX_MORNING
+    .word DEX_CERULEAN_CAVE
     dexendareadata
 
 
 specialareas SPECIES_MAGNEZONE, DEX_DAY
+    .word DEX_CERULEAN_CAVE
     dexendareadata
 
 
 specialareas SPECIES_MAGNEZONE, DEX_NIGHT
+    .word DEX_CERULEAN_CAVE
     dexendareadata
 
 
 routesandcities SPECIES_MAGNEZONE, DEX_MORNING
+    .word DEX_ROUTE_38
+    .word DEX_ROUTE_6
+    .word DEX_ROUTE_11
     dexendareadata
 
 
 routesandcities SPECIES_MAGNEZONE, DEX_DAY
+    .word DEX_ROUTE_38
+    .word DEX_ROUTE_6
+    .word DEX_ROUTE_11
     dexendareadata
 
 
 routesandcities SPECIES_MAGNEZONE, DEX_NIGHT
+    .word DEX_ROUTE_38
+    .word DEX_ROUTE_6
+    .word DEX_ROUTE_11
     dexendareadata
 
 
@@ -17343,14 +18734,18 @@ specialareas SPECIES_LICKILICKY, DEX_NIGHT
 
 
 routesandcities SPECIES_LICKILICKY, DEX_MORNING
+    .word DEX_ROUTE_44
     dexendareadata
 
 
 routesandcities SPECIES_LICKILICKY, DEX_DAY
+    .word DEX_ROUTE_44
     dexendareadata
 
 
 routesandcities SPECIES_LICKILICKY, DEX_NIGHT
+    .word DEX_ROUTE_42
+    .word DEX_ROUTE_44
     dexendareadata
 
 
@@ -17363,14 +18758,19 @@ routesandcities SPECIES_LICKILICKY, DEX_SPECIAL
 
 
 specialareas SPECIES_RHYPERIOR, DEX_MORNING
+    .word DEX_UNION_CAVE
+    .word DEX_VICTORY_ROAD
     dexendareadata
 
 
 specialareas SPECIES_RHYPERIOR, DEX_DAY
+    .word DEX_UNION_CAVE
+    .word DEX_VICTORY_ROAD
     dexendareadata
 
 
 specialareas SPECIES_RHYPERIOR, DEX_NIGHT
+    .word DEX_VICTORY_ROAD
     dexendareadata
 
 
@@ -17403,18 +18803,31 @@ specialareas SPECIES_TANGROWTH, DEX_DAY
 
 
 specialareas SPECIES_TANGROWTH, DEX_NIGHT
+    .word DEX_ILEX_FOREST
     dexendareadata
 
 
 routesandcities SPECIES_TANGROWTH, DEX_MORNING
+    .word DEX_ROUTE_44
+    .word DEX_MT_SILVER
+    .word DEX_ROUTE_28
+    .word DEX_ROUTE_21
     dexendareadata
 
 
 routesandcities SPECIES_TANGROWTH, DEX_DAY
+    .word DEX_ROUTE_44
+    .word DEX_MT_SILVER
+    .word DEX_ROUTE_28
+    .word DEX_ROUTE_21
     dexendareadata
 
 
 routesandcities SPECIES_TANGROWTH, DEX_NIGHT
+    .word DEX_ROUTE_44
+    .word DEX_MT_SILVER
+    .word DEX_ROUTE_28
+    .word DEX_ROUTE_21
     dexendareadata
 
 
@@ -17439,14 +18852,19 @@ specialareas SPECIES_ELECTIVIRE, DEX_NIGHT
 
 
 routesandcities SPECIES_ELECTIVIRE, DEX_MORNING
+    .word DEX_ROUTE_33
+    .word DEX_ROUTE_10
     dexendareadata
 
 
 routesandcities SPECIES_ELECTIVIRE, DEX_DAY
+    .word DEX_ROUTE_33
+    .word DEX_ROUTE_10
     dexendareadata
 
 
 routesandcities SPECIES_ELECTIVIRE, DEX_NIGHT
+    .word DEX_ROUTE_10
     dexendareadata
 
 
@@ -17479,6 +18897,7 @@ routesandcities SPECIES_MAGMORTAR, DEX_DAY
 
 
 routesandcities SPECIES_MAGMORTAR, DEX_NIGHT
+    .word DEX_ROUTE_33
     dexendareadata
 
 
@@ -17535,14 +18954,17 @@ specialareas SPECIES_YANMEGA, DEX_NIGHT
 
 
 routesandcities SPECIES_YANMEGA, DEX_MORNING
+    .word DEX_ROUTE_43
     dexendareadata
 
 
 routesandcities SPECIES_YANMEGA, DEX_DAY
+    .word DEX_ROUTE_43
     dexendareadata
 
 
 routesandcities SPECIES_YANMEGA, DEX_NIGHT
+    .word DEX_ROUTE_43
     dexendareadata
 
 
@@ -17567,14 +18989,17 @@ specialareas SPECIES_LEAFEON, DEX_NIGHT
 
 
 routesandcities SPECIES_LEAFEON, DEX_MORNING
+    .word DEX_ROUTE_36
     dexendareadata
 
 
 routesandcities SPECIES_LEAFEON, DEX_DAY
+    .word DEX_ROUTE_36
     dexendareadata
 
 
 routesandcities SPECIES_LEAFEON, DEX_NIGHT
+    .word DEX_ROUTE_36
     dexendareadata
 
 
@@ -17599,14 +19024,17 @@ specialareas SPECIES_GLACEON, DEX_NIGHT
 
 
 routesandcities SPECIES_GLACEON, DEX_MORNING
+    .word DEX_ROUTE_36
     dexendareadata
 
 
 routesandcities SPECIES_GLACEON, DEX_DAY
+    .word DEX_ROUTE_36
     dexendareadata
 
 
 routesandcities SPECIES_GLACEON, DEX_NIGHT
+    .word DEX_ROUTE_36
     dexendareadata
 
 
@@ -17631,14 +19059,18 @@ specialareas SPECIES_GLISCOR, DEX_NIGHT
 
 
 routesandcities SPECIES_GLISCOR, DEX_MORNING
+    .word DEX_ROUTE_45
     dexendareadata
 
 
 routesandcities SPECIES_GLISCOR, DEX_DAY
+    .word DEX_ROUTE_45
     dexendareadata
 
 
 routesandcities SPECIES_GLISCOR, DEX_NIGHT
+    .word DEX_ROUTE_38
+    .word DEX_ROUTE_45
     dexendareadata
 
 
@@ -17651,14 +19083,17 @@ routesandcities SPECIES_GLISCOR, DEX_SPECIAL
 
 
 specialareas SPECIES_MAMOSWINE, DEX_MORNING
+    .word DEX_ICE_PATH
     dexendareadata
 
 
 specialareas SPECIES_MAMOSWINE, DEX_DAY
+    .word DEX_ICE_PATH
     dexendareadata
 
 
 specialareas SPECIES_MAMOSWINE, DEX_NIGHT
+    .word DEX_ICE_PATH
     dexendareadata
 
 
@@ -17683,10 +19118,12 @@ routesandcities SPECIES_MAMOSWINE, DEX_SPECIAL
 
 
 specialareas SPECIES_PORYGON_Z, DEX_MORNING
+    .word DEX_RUINS_OF_ALPH
     dexendareadata
 
 
 specialareas SPECIES_PORYGON_Z, DEX_DAY
+    .word DEX_RUINS_OF_ALPH
     dexendareadata
 
 
@@ -17727,10 +19164,12 @@ specialareas SPECIES_GALLADE, DEX_NIGHT
 
 
 routesandcities SPECIES_GALLADE, DEX_MORNING
+    .word DEX_ROUTE_32
     dexendareadata
 
 
 routesandcities SPECIES_GALLADE, DEX_DAY
+    .word DEX_ROUTE_32
     dexendareadata
 
 
@@ -17747,10 +19186,12 @@ routesandcities SPECIES_GALLADE, DEX_SPECIAL
 
 
 specialareas SPECIES_PROBOPASS, DEX_MORNING
+    .word DEX_MT_MORTAR
     dexendareadata
 
 
 specialareas SPECIES_PROBOPASS, DEX_DAY
+    .word DEX_MT_MORTAR
     dexendareadata
 
 
@@ -17787,6 +19228,7 @@ specialareas SPECIES_DUSKNOIR, DEX_DAY
 
 
 specialareas SPECIES_DUSKNOIR, DEX_NIGHT
+    .word DEX_RUINS_OF_ALPH
     dexendareadata
 
 
@@ -17811,14 +19253,17 @@ routesandcities SPECIES_DUSKNOIR, DEX_SPECIAL
 
 
 specialareas SPECIES_FROSLASS, DEX_MORNING
+    .word DEX_ICE_PATH
     dexendareadata
 
 
 specialareas SPECIES_FROSLASS, DEX_DAY
+    .word DEX_ICE_PATH
     dexendareadata
 
 
 specialareas SPECIES_FROSLASS, DEX_NIGHT
+    .word DEX_ICE_PATH
     dexendareadata
 
 
@@ -17851,6 +19296,7 @@ specialareas SPECIES_ROTOM, DEX_DAY
 
 
 specialareas SPECIES_ROTOM, DEX_NIGHT
+    .word DEX_MT_MORTAR
     dexendareadata
 
 
@@ -17887,14 +19333,17 @@ specialareas SPECIES_UXIE, DEX_NIGHT
 
 
 routesandcities SPECIES_UXIE, DEX_MORNING
+    .word DEX_ROUTE_7
     dexendareadata
 
 
 routesandcities SPECIES_UXIE, DEX_DAY
+    .word DEX_ROUTE_7
     dexendareadata
 
 
 routesandcities SPECIES_UXIE, DEX_NIGHT
+    .word DEX_ROUTE_7
     dexendareadata
 
 
@@ -17907,14 +19356,17 @@ routesandcities SPECIES_UXIE, DEX_SPECIAL
 
 
 specialareas SPECIES_MESPRIT, DEX_MORNING
+    .word DEX_BELL_TOWER
     dexendareadata
 
 
 specialareas SPECIES_MESPRIT, DEX_DAY
+    .word DEX_BELL_TOWER
     dexendareadata
 
 
 specialareas SPECIES_MESPRIT, DEX_NIGHT
+    .word DEX_BELL_TOWER
     dexendareadata
 
 
@@ -17939,14 +19391,17 @@ routesandcities SPECIES_MESPRIT, DEX_SPECIAL
 
 
 specialareas SPECIES_AZELF, DEX_MORNING
+    .word DEX_CERULEAN_CAVE
     dexendareadata
 
 
 specialareas SPECIES_AZELF, DEX_DAY
+    .word DEX_CERULEAN_CAVE
     dexendareadata
 
 
 specialareas SPECIES_AZELF, DEX_NIGHT
+    .word DEX_CERULEAN_CAVE
     dexendareadata
 
 
@@ -17971,14 +19426,17 @@ routesandcities SPECIES_AZELF, DEX_SPECIAL
 
 
 specialareas SPECIES_DIALGA, DEX_MORNING
+    .word DEX_MT_SILVER_CAVE
     dexendareadata
 
 
 specialareas SPECIES_DIALGA, DEX_DAY
+    .word DEX_MT_SILVER_CAVE
     dexendareadata
 
 
 specialareas SPECIES_DIALGA, DEX_NIGHT
+    .word DEX_MT_SILVER_CAVE
     dexendareadata
 
 
@@ -18003,14 +19461,17 @@ routesandcities SPECIES_DIALGA, DEX_SPECIAL
 
 
 specialareas SPECIES_PALKIA, DEX_MORNING
+    .word DEX_WHIRL_ISLANDS
     dexendareadata
 
 
 specialareas SPECIES_PALKIA, DEX_DAY
+    .word DEX_WHIRL_ISLANDS
     dexendareadata
 
 
 specialareas SPECIES_PALKIA, DEX_NIGHT
+    .word DEX_WHIRL_ISLANDS
     dexendareadata
 
 
@@ -18035,14 +19496,17 @@ routesandcities SPECIES_PALKIA, DEX_SPECIAL
 
 
 specialareas SPECIES_HEATRAN, DEX_MORNING
+    .word DEX_ROCK_TUNNEL
     dexendareadata
 
 
 specialareas SPECIES_HEATRAN, DEX_DAY
+    .word DEX_ROCK_TUNNEL
     dexendareadata
 
 
 specialareas SPECIES_HEATRAN, DEX_NIGHT
+    .word DEX_ROCK_TUNNEL
     dexendareadata
 
 
@@ -18079,14 +19543,17 @@ specialareas SPECIES_REGIGIGAS, DEX_NIGHT
 
 
 routesandcities SPECIES_REGIGIGAS, DEX_MORNING
+    .word DEX_ROUTE_1
     dexendareadata
 
 
 routesandcities SPECIES_REGIGIGAS, DEX_DAY
+    .word DEX_ROUTE_1
     dexendareadata
 
 
 routesandcities SPECIES_REGIGIGAS, DEX_NIGHT
+    .word DEX_ROUTE_1
     dexendareadata
 
 
@@ -18099,14 +19566,17 @@ routesandcities SPECIES_REGIGIGAS, DEX_SPECIAL
 
 
 specialareas SPECIES_GIRATINA, DEX_MORNING
+    .word DEX_BELL_TOWER
     dexendareadata
 
 
 specialareas SPECIES_GIRATINA, DEX_DAY
+    .word DEX_BELL_TOWER
     dexendareadata
 
 
 specialareas SPECIES_GIRATINA, DEX_NIGHT
+    .word DEX_BELL_TOWER
     dexendareadata
 
 
@@ -18131,14 +19601,17 @@ routesandcities SPECIES_GIRATINA, DEX_SPECIAL
 
 
 specialareas SPECIES_CRESSELIA, DEX_MORNING
+    .word DEX_MT_MOON
     dexendareadata
 
 
 specialareas SPECIES_CRESSELIA, DEX_DAY
+    .word DEX_MT_MOON
     dexendareadata
 
 
 specialareas SPECIES_CRESSELIA, DEX_NIGHT
+    .word DEX_MT_MOON
     dexendareadata
 
 
@@ -18163,14 +19636,17 @@ routesandcities SPECIES_CRESSELIA, DEX_SPECIAL
 
 
 specialareas SPECIES_PHIONE, DEX_MORNING
+    .word DEX_WHIRL_ISLANDS
     dexendareadata
 
 
 specialareas SPECIES_PHIONE, DEX_DAY
+    .word DEX_WHIRL_ISLANDS
     dexendareadata
 
 
 specialareas SPECIES_PHIONE, DEX_NIGHT
+    .word DEX_WHIRL_ISLANDS
     dexendareadata
 
 
@@ -18195,14 +19671,17 @@ routesandcities SPECIES_PHIONE, DEX_SPECIAL
 
 
 specialareas SPECIES_MANAPHY, DEX_MORNING
+    .word DEX_SEAFOAM_ISLANDS
     dexendareadata
 
 
 specialareas SPECIES_MANAPHY, DEX_DAY
+    .word DEX_SEAFOAM_ISLANDS
     dexendareadata
 
 
 specialareas SPECIES_MANAPHY, DEX_NIGHT
+    .word DEX_SEAFOAM_ISLANDS
     dexendareadata
 
 
@@ -18227,14 +19706,17 @@ routesandcities SPECIES_MANAPHY, DEX_SPECIAL
 
 
 specialareas SPECIES_DARKRAI, DEX_MORNING
+    .word DEX_MT_MOON
     dexendareadata
 
 
 specialareas SPECIES_DARKRAI, DEX_DAY
+    .word DEX_MT_MOON
     dexendareadata
 
 
 specialareas SPECIES_DARKRAI, DEX_NIGHT
+    .word DEX_MT_MOON
     dexendareadata
 
 
@@ -18271,14 +19753,17 @@ specialareas SPECIES_SHAYMIN, DEX_NIGHT
 
 
 routesandcities SPECIES_SHAYMIN, DEX_MORNING
+    .word DEX_ROUTE_3
     dexendareadata
 
 
 routesandcities SPECIES_SHAYMIN, DEX_DAY
+    .word DEX_ROUTE_3
     dexendareadata
 
 
 routesandcities SPECIES_SHAYMIN, DEX_NIGHT
+    .word DEX_ROUTE_3
     dexendareadata
 
 
@@ -18303,14 +19788,17 @@ specialareas SPECIES_ARCEUS, DEX_NIGHT
 
 
 routesandcities SPECIES_ARCEUS, DEX_MORNING
+    .word DEX_MT_SILVER
     dexendareadata
 
 
 routesandcities SPECIES_ARCEUS, DEX_DAY
+    .word DEX_MT_SILVER
     dexendareadata
 
 
 routesandcities SPECIES_ARCEUS, DEX_NIGHT
+    .word DEX_MT_SILVER
     dexendareadata
 
 
@@ -19935,14 +21423,17 @@ specialareas SPECIES_VICTINI, DEX_NIGHT
 
 
 routesandcities SPECIES_VICTINI, DEX_MORNING
+    .word DEX_ROUTE_7
     dexendareadata
 
 
 routesandcities SPECIES_VICTINI, DEX_DAY
+    .word DEX_ROUTE_7
     dexendareadata
 
 
 routesandcities SPECIES_VICTINI, DEX_NIGHT
+    .word DEX_ROUTE_7
     dexendareadata
 
 
@@ -19967,6 +21458,7 @@ specialareas SPECIES_SNIVY, DEX_NIGHT
 
 
 routesandcities SPECIES_SNIVY, DEX_MORNING
+    .word DEX_ROUTE_34
     dexendareadata
 
 
@@ -19999,6 +21491,7 @@ specialareas SPECIES_SERVINE, DEX_NIGHT
 
 
 routesandcities SPECIES_SERVINE, DEX_MORNING
+    .word DEX_ROUTE_34
     dexendareadata
 
 
@@ -20031,6 +21524,7 @@ specialareas SPECIES_SERPERIOR, DEX_NIGHT
 
 
 routesandcities SPECIES_SERPERIOR, DEX_MORNING
+    .word DEX_ROUTE_34
     dexendareadata
 
 
@@ -20071,6 +21565,7 @@ routesandcities SPECIES_TEPIG, DEX_DAY
 
 
 routesandcities SPECIES_TEPIG, DEX_NIGHT
+    .word DEX_ROUTE_34
     dexendareadata
 
 
@@ -20103,6 +21598,7 @@ routesandcities SPECIES_PIGNITE, DEX_DAY
 
 
 routesandcities SPECIES_PIGNITE, DEX_NIGHT
+    .word DEX_ROUTE_34
     dexendareadata
 
 
@@ -20135,6 +21631,7 @@ routesandcities SPECIES_EMBOAR, DEX_DAY
 
 
 routesandcities SPECIES_EMBOAR, DEX_NIGHT
+    .word DEX_ROUTE_34
     dexendareadata
 
 
@@ -20163,6 +21660,7 @@ routesandcities SPECIES_OSHAWOTT, DEX_MORNING
 
 
 routesandcities SPECIES_OSHAWOTT, DEX_DAY
+    .word DEX_ROUTE_34
     dexendareadata
 
 
@@ -20195,6 +21693,7 @@ routesandcities SPECIES_DEWOTT, DEX_MORNING
 
 
 routesandcities SPECIES_DEWOTT, DEX_DAY
+    .word DEX_ROUTE_34
     dexendareadata
 
 
@@ -20211,14 +21710,17 @@ routesandcities SPECIES_DEWOTT, DEX_SPECIAL
 
 
 specialareas SPECIES_SAMUROTT, DEX_MORNING
+    .word DEX_MT_MORTAR
     dexendareadata
 
 
 specialareas SPECIES_SAMUROTT, DEX_DAY
+    .word DEX_MT_MORTAR
     dexendareadata
 
 
 specialareas SPECIES_SAMUROTT, DEX_NIGHT
+    .word DEX_MT_MORTAR
     dexendareadata
 
 
@@ -20227,6 +21729,7 @@ routesandcities SPECIES_SAMUROTT, DEX_MORNING
 
 
 routesandcities SPECIES_SAMUROTT, DEX_DAY
+    .word DEX_ROUTE_34
     dexendareadata
 
 
@@ -20263,6 +21766,7 @@ routesandcities SPECIES_PATRAT, DEX_DAY
 
 
 routesandcities SPECIES_PATRAT, DEX_NIGHT
+    .word DEX_ROUTE_31
     dexendareadata
 
 
@@ -20295,6 +21799,7 @@ routesandcities SPECIES_WATCHOG, DEX_DAY
 
 
 routesandcities SPECIES_WATCHOG, DEX_NIGHT
+    .word DEX_ROUTE_31
     dexendareadata
 
 
@@ -20327,6 +21832,7 @@ routesandcities SPECIES_LILLIPUP, DEX_DAY
 
 
 routesandcities SPECIES_LILLIPUP, DEX_NIGHT
+    .word DEX_ROUTE_29
     dexendareadata
 
 
@@ -20359,6 +21865,7 @@ routesandcities SPECIES_HERDIER, DEX_DAY
 
 
 routesandcities SPECIES_HERDIER, DEX_NIGHT
+    .word DEX_ROUTE_29
     dexendareadata
 
 
@@ -20391,6 +21898,7 @@ routesandcities SPECIES_STOUTLAND, DEX_DAY
 
 
 routesandcities SPECIES_STOUTLAND, DEX_NIGHT
+    .word DEX_ROUTE_29
     dexendareadata
 
 
@@ -20423,6 +21931,7 @@ routesandcities SPECIES_PURRLOIN, DEX_DAY
 
 
 routesandcities SPECIES_PURRLOIN, DEX_NIGHT
+    .word DEX_ROUTE_29
     dexendareadata
 
 
@@ -20455,6 +21964,7 @@ routesandcities SPECIES_LIEPARD, DEX_DAY
 
 
 routesandcities SPECIES_LIEPARD, DEX_NIGHT
+    .word DEX_ROUTE_29
     dexendareadata
 
 
@@ -20479,10 +21989,12 @@ specialareas SPECIES_PANSAGE, DEX_NIGHT
 
 
 routesandcities SPECIES_PANSAGE, DEX_MORNING
+    .word DEX_ROUTE_33
     dexendareadata
 
 
 routesandcities SPECIES_PANSAGE, DEX_DAY
+    .word DEX_ROUTE_33
     dexendareadata
 
 
@@ -20511,10 +22023,12 @@ specialareas SPECIES_SIMISAGE, DEX_NIGHT
 
 
 routesandcities SPECIES_SIMISAGE, DEX_MORNING
+    .word DEX_ROUTE_33
     dexendareadata
 
 
 routesandcities SPECIES_SIMISAGE, DEX_DAY
+    .word DEX_ROUTE_33
     dexendareadata
 
 
@@ -20543,10 +22057,12 @@ specialareas SPECIES_PANSEAR, DEX_NIGHT
 
 
 routesandcities SPECIES_PANSEAR, DEX_MORNING
+    .word DEX_ROUTE_33
     dexendareadata
 
 
 routesandcities SPECIES_PANSEAR, DEX_DAY
+    .word DEX_ROUTE_33
     dexendareadata
 
 
@@ -20575,10 +22091,12 @@ specialareas SPECIES_SIMISEAR, DEX_NIGHT
 
 
 routesandcities SPECIES_SIMISEAR, DEX_MORNING
+    .word DEX_ROUTE_33
     dexendareadata
 
 
 routesandcities SPECIES_SIMISEAR, DEX_DAY
+    .word DEX_ROUTE_33
     dexendareadata
 
 
@@ -20607,10 +22125,12 @@ specialareas SPECIES_PANPOUR, DEX_NIGHT
 
 
 routesandcities SPECIES_PANPOUR, DEX_MORNING
+    .word DEX_ROUTE_33
     dexendareadata
 
 
 routesandcities SPECIES_PANPOUR, DEX_DAY
+    .word DEX_ROUTE_33
     dexendareadata
 
 
@@ -20639,10 +22159,12 @@ specialareas SPECIES_SIMIPOUR, DEX_NIGHT
 
 
 routesandcities SPECIES_SIMIPOUR, DEX_MORNING
+    .word DEX_ROUTE_33
     dexendareadata
 
 
 routesandcities SPECIES_SIMIPOUR, DEX_DAY
+    .word DEX_ROUTE_33
     dexendareadata
 
 
@@ -20667,6 +22189,7 @@ specialareas SPECIES_MUNNA, DEX_DAY
 
 
 specialareas SPECIES_MUNNA, DEX_NIGHT
+    .word DEX_RUINS_OF_ALPH
     dexendareadata
 
 
@@ -20699,6 +22222,7 @@ specialareas SPECIES_MUSHARNA, DEX_DAY
 
 
 specialareas SPECIES_MUSHARNA, DEX_NIGHT
+    .word DEX_RUINS_OF_ALPH
     dexendareadata
 
 
@@ -20735,10 +22259,12 @@ specialareas SPECIES_PIDOVE, DEX_NIGHT
 
 
 routesandcities SPECIES_PIDOVE, DEX_MORNING
+    .word DEX_ROUTE_31
     dexendareadata
 
 
 routesandcities SPECIES_PIDOVE, DEX_DAY
+    .word DEX_ROUTE_31
     dexendareadata
 
 
@@ -20767,10 +22293,12 @@ specialareas SPECIES_TRANQUILL, DEX_NIGHT
 
 
 routesandcities SPECIES_TRANQUILL, DEX_MORNING
+    .word DEX_ROUTE_31
     dexendareadata
 
 
 routesandcities SPECIES_TRANQUILL, DEX_DAY
+    .word DEX_ROUTE_31
     dexendareadata
 
 
@@ -20799,14 +22327,17 @@ specialareas SPECIES_UNFEZANT, DEX_NIGHT
 
 
 routesandcities SPECIES_UNFEZANT, DEX_MORNING
+    .word DEX_ROUTE_17
     dexendareadata
 
 
 routesandcities SPECIES_UNFEZANT, DEX_DAY
+    .word DEX_ROUTE_17
     dexendareadata
 
 
 routesandcities SPECIES_UNFEZANT, DEX_NIGHT
+    .word DEX_ROUTE_17
     dexendareadata
 
 
@@ -20831,10 +22362,12 @@ specialareas SPECIES_BLITZLE, DEX_NIGHT
 
 
 routesandcities SPECIES_BLITZLE, DEX_MORNING
+    .word DEX_ROUTE_46
     dexendareadata
 
 
 routesandcities SPECIES_BLITZLE, DEX_DAY
+    .word DEX_ROUTE_46
     dexendareadata
 
 
@@ -20863,10 +22396,12 @@ specialareas SPECIES_ZEBSTRIKA, DEX_NIGHT
 
 
 routesandcities SPECIES_ZEBSTRIKA, DEX_MORNING
+    .word DEX_ROUTE_46
     dexendareadata
 
 
 routesandcities SPECIES_ZEBSTRIKA, DEX_DAY
+    .word DEX_ROUTE_46
     dexendareadata
 
 
@@ -20883,10 +22418,12 @@ routesandcities SPECIES_ZEBSTRIKA, DEX_SPECIAL
 
 
 specialareas SPECIES_ROGGENROLA, DEX_MORNING
+    .word DEX_DARK_CAVE
     dexendareadata
 
 
 specialareas SPECIES_ROGGENROLA, DEX_DAY
+    .word DEX_DARK_CAVE
     dexendareadata
 
 
@@ -20915,10 +22452,12 @@ routesandcities SPECIES_ROGGENROLA, DEX_SPECIAL
 
 
 specialareas SPECIES_BOLDORE, DEX_MORNING
+    .word DEX_DARK_CAVE
     dexendareadata
 
 
 specialareas SPECIES_BOLDORE, DEX_DAY
+    .word DEX_DARK_CAVE
     dexendareadata
 
 
@@ -20947,10 +22486,12 @@ routesandcities SPECIES_BOLDORE, DEX_SPECIAL
 
 
 specialareas SPECIES_GIGALITH, DEX_MORNING
+    .word DEX_DARK_CAVE
     dexendareadata
 
 
 specialareas SPECIES_GIGALITH, DEX_DAY
+    .word DEX_DARK_CAVE
     dexendareadata
 
 
@@ -20999,6 +22540,7 @@ routesandcities SPECIES_WOOBAT, DEX_DAY
 
 
 routesandcities SPECIES_WOOBAT, DEX_NIGHT
+    .word DEX_ROUTE_38
     dexendareadata
 
 
@@ -21031,6 +22573,7 @@ routesandcities SPECIES_SWOOBAT, DEX_DAY
 
 
 routesandcities SPECIES_SWOOBAT, DEX_NIGHT
+    .word DEX_ROUTE_38
     dexendareadata
 
 
@@ -21043,10 +22586,12 @@ routesandcities SPECIES_SWOOBAT, DEX_SPECIAL
 
 
 specialareas SPECIES_DRILBUR, DEX_MORNING
+    .word DEX_DARK_CAVE
     dexendareadata
 
 
 specialareas SPECIES_DRILBUR, DEX_DAY
+    .word DEX_DARK_CAVE
     dexendareadata
 
 
@@ -21075,10 +22620,12 @@ routesandcities SPECIES_DRILBUR, DEX_SPECIAL
 
 
 specialareas SPECIES_EXCADRILL, DEX_MORNING
+    .word DEX_DARK_CAVE
     dexendareadata
 
 
 specialareas SPECIES_EXCADRILL, DEX_DAY
+    .word DEX_DARK_CAVE
     dexendareadata
 
 
@@ -21119,10 +22666,12 @@ specialareas SPECIES_AUDINO, DEX_NIGHT
 
 
 routesandcities SPECIES_AUDINO, DEX_MORNING
+    .word DEX_ROUTE_35
     dexendareadata
 
 
 routesandcities SPECIES_AUDINO, DEX_DAY
+    .word DEX_ROUTE_35
     dexendareadata
 
 
@@ -21139,10 +22688,12 @@ routesandcities SPECIES_AUDINO, DEX_SPECIAL
 
 
 specialareas SPECIES_TIMBURR, DEX_MORNING
+    .word DEX_SPROUT_TOWER
     dexendareadata
 
 
 specialareas SPECIES_TIMBURR, DEX_DAY
+    .word DEX_SPROUT_TOWER
     dexendareadata
 
 
@@ -21171,10 +22722,12 @@ routesandcities SPECIES_TIMBURR, DEX_SPECIAL
 
 
 specialareas SPECIES_GURDURR, DEX_MORNING
+    .word DEX_SPROUT_TOWER
     dexendareadata
 
 
 specialareas SPECIES_GURDURR, DEX_DAY
+    .word DEX_SPROUT_TOWER
     dexendareadata
 
 
@@ -21203,10 +22756,12 @@ routesandcities SPECIES_GURDURR, DEX_SPECIAL
 
 
 specialareas SPECIES_CONKELDURR, DEX_MORNING
+    .word DEX_SPROUT_TOWER
     dexendareadata
 
 
 specialareas SPECIES_CONKELDURR, DEX_DAY
+    .word DEX_SPROUT_TOWER
     dexendareadata
 
 
@@ -21243,6 +22798,7 @@ specialareas SPECIES_TYMPOLE, DEX_DAY
 
 
 specialareas SPECIES_TYMPOLE, DEX_NIGHT
+    .word DEX_SLOWPOKE_WELL
     dexendareadata
 
 
@@ -21275,6 +22831,7 @@ specialareas SPECIES_PALPITOAD, DEX_DAY
 
 
 specialareas SPECIES_PALPITOAD, DEX_NIGHT
+    .word DEX_SLOWPOKE_WELL
     dexendareadata
 
 
@@ -21307,6 +22864,7 @@ specialareas SPECIES_SEISMITOAD, DEX_DAY
 
 
 specialareas SPECIES_SEISMITOAD, DEX_NIGHT
+    .word DEX_SLOWPOKE_WELL
     dexendareadata
 
 
@@ -21339,6 +22897,7 @@ specialareas SPECIES_THROH, DEX_DAY
 
 
 specialareas SPECIES_THROH, DEX_NIGHT
+    .word DEX_UNION_CAVE
     dexendareadata
 
 
@@ -21363,10 +22922,12 @@ routesandcities SPECIES_THROH, DEX_SPECIAL
 
 
 specialareas SPECIES_SAWK, DEX_MORNING
+    .word DEX_UNION_CAVE
     dexendareadata
 
 
 specialareas SPECIES_SAWK, DEX_DAY
+    .word DEX_UNION_CAVE
     dexendareadata
 
 
@@ -21403,6 +22964,7 @@ specialareas SPECIES_SEWADDLE, DEX_DAY
 
 
 specialareas SPECIES_SEWADDLE, DEX_NIGHT
+    .word DEX_ILEX_FOREST
     dexendareadata
 
 
@@ -21435,6 +22997,7 @@ specialareas SPECIES_SWADLOON, DEX_DAY
 
 
 specialareas SPECIES_SWADLOON, DEX_NIGHT
+    .word DEX_ILEX_FOREST
     dexendareadata
 
 
@@ -21467,6 +23030,7 @@ specialareas SPECIES_LEAVANNY, DEX_DAY
 
 
 specialareas SPECIES_LEAVANNY, DEX_NIGHT
+    .word DEX_ILEX_FOREST
     dexendareadata
 
 
@@ -21511,6 +23075,7 @@ routesandcities SPECIES_VENIPEDE, DEX_DAY
 
 
 routesandcities SPECIES_VENIPEDE, DEX_NIGHT
+    .word DEX_ROUTE_30
     dexendareadata
 
 
@@ -21543,6 +23108,7 @@ routesandcities SPECIES_WHIRLIPEDE, DEX_DAY
 
 
 routesandcities SPECIES_WHIRLIPEDE, DEX_NIGHT
+    .word DEX_ROUTE_30
     dexendareadata
 
 
@@ -21575,6 +23141,7 @@ routesandcities SPECIES_SCOLIPEDE, DEX_DAY
 
 
 routesandcities SPECIES_SCOLIPEDE, DEX_NIGHT
+    .word DEX_ROUTE_30
     dexendareadata
 
 
@@ -21599,10 +23166,12 @@ specialareas SPECIES_COTTONEE, DEX_NIGHT
 
 
 routesandcities SPECIES_COTTONEE, DEX_MORNING
+    .word DEX_ROUTE_46
     dexendareadata
 
 
 routesandcities SPECIES_COTTONEE, DEX_DAY
+    .word DEX_ROUTE_46
     dexendareadata
 
 
@@ -21631,10 +23200,12 @@ specialareas SPECIES_WHIMSICOTT, DEX_NIGHT
 
 
 routesandcities SPECIES_WHIMSICOTT, DEX_MORNING
+    .word DEX_ROUTE_46
     dexendareadata
 
 
 routesandcities SPECIES_WHIMSICOTT, DEX_DAY
+    .word DEX_ROUTE_46
     dexendareadata
 
 
@@ -21663,10 +23234,12 @@ specialareas SPECIES_PETILIL, DEX_NIGHT
 
 
 routesandcities SPECIES_PETILIL, DEX_MORNING
+    .word DEX_ROUTE_46
     dexendareadata
 
 
 routesandcities SPECIES_PETILIL, DEX_DAY
+    .word DEX_ROUTE_46
     dexendareadata
 
 
@@ -21683,22 +23256,27 @@ routesandcities SPECIES_PETILIL, DEX_SPECIAL
 
 
 specialareas SPECIES_LILLIGANT, DEX_MORNING
+    .word DEX_WHIRL_ISLANDS
     dexendareadata
 
 
 specialareas SPECIES_LILLIGANT, DEX_DAY
+    .word DEX_WHIRL_ISLANDS
     dexendareadata
 
 
 specialareas SPECIES_LILLIGANT, DEX_NIGHT
+    .word DEX_WHIRL_ISLANDS
     dexendareadata
 
 
 routesandcities SPECIES_LILLIGANT, DEX_MORNING
+    .word DEX_ROUTE_46
     dexendareadata
 
 
 routesandcities SPECIES_LILLIGANT, DEX_DAY
+    .word DEX_ROUTE_46
     dexendareadata
 
 
@@ -21727,14 +23305,17 @@ specialareas SPECIES_BASCULIN, DEX_NIGHT
 
 
 routesandcities SPECIES_BASCULIN, DEX_MORNING
+    .word DEX_ROUTE_41
     dexendareadata
 
 
 routesandcities SPECIES_BASCULIN, DEX_DAY
+    .word DEX_ROUTE_41
     dexendareadata
 
 
 routesandcities SPECIES_BASCULIN, DEX_NIGHT
+    .word DEX_ROUTE_41
     dexendareadata
 
 
@@ -21767,6 +23348,7 @@ routesandcities SPECIES_SANDILE, DEX_DAY
 
 
 routesandcities SPECIES_SANDILE, DEX_NIGHT
+    .word DEX_ROUTE_31
     dexendareadata
 
 
@@ -21799,6 +23381,7 @@ routesandcities SPECIES_KROKOROK, DEX_DAY
 
 
 routesandcities SPECIES_KROKOROK, DEX_NIGHT
+    .word DEX_ROUTE_31
     dexendareadata
 
 
@@ -21831,6 +23414,7 @@ routesandcities SPECIES_KROOKODILE, DEX_DAY
 
 
 routesandcities SPECIES_KROOKODILE, DEX_NIGHT
+    .word DEX_ROUTE_31
     dexendareadata
 
 
@@ -21843,14 +23427,19 @@ routesandcities SPECIES_KROOKODILE, DEX_SPECIAL
 
 
 specialareas SPECIES_DARUMAKA, DEX_MORNING
+    .word DEX_SPROUT_TOWER
+    .word DEX_ICE_PATH
     dexendareadata
 
 
 specialareas SPECIES_DARUMAKA, DEX_DAY
+    .word DEX_SPROUT_TOWER
+    .word DEX_ICE_PATH
     dexendareadata
 
 
 specialareas SPECIES_DARUMAKA, DEX_NIGHT
+    .word DEX_ICE_PATH
     dexendareadata
 
 
@@ -21875,14 +23464,19 @@ routesandcities SPECIES_DARUMAKA, DEX_SPECIAL
 
 
 specialareas SPECIES_DARMANITAN, DEX_MORNING
+    .word DEX_SPROUT_TOWER
+    .word DEX_ICE_PATH
     dexendareadata
 
 
 specialareas SPECIES_DARMANITAN, DEX_DAY
+    .word DEX_SPROUT_TOWER
+    .word DEX_ICE_PATH
     dexendareadata
 
 
 specialareas SPECIES_DARMANITAN, DEX_NIGHT
+    .word DEX_ICE_PATH
     dexendareadata
 
 
@@ -21907,10 +23501,12 @@ routesandcities SPECIES_DARMANITAN, DEX_SPECIAL
 
 
 specialareas SPECIES_MARACTUS, DEX_MORNING
+    .word DEX_MT_MORTAR
     dexendareadata
 
 
 specialareas SPECIES_MARACTUS, DEX_DAY
+    .word DEX_MT_MORTAR
     dexendareadata
 
 
@@ -21939,10 +23535,12 @@ routesandcities SPECIES_MARACTUS, DEX_SPECIAL
 
 
 specialareas SPECIES_DWEBBLE, DEX_MORNING
+    .word DEX_UNION_CAVE
     dexendareadata
 
 
 specialareas SPECIES_DWEBBLE, DEX_DAY
+    .word DEX_UNION_CAVE
     dexendareadata
 
 
@@ -21971,10 +23569,12 @@ routesandcities SPECIES_DWEBBLE, DEX_SPECIAL
 
 
 specialareas SPECIES_CRUSTLE, DEX_MORNING
+    .word DEX_UNION_CAVE
     dexendareadata
 
 
 specialareas SPECIES_CRUSTLE, DEX_DAY
+    .word DEX_UNION_CAVE
     dexendareadata
 
 
@@ -22015,14 +23615,17 @@ specialareas SPECIES_SCRAGGY, DEX_NIGHT
 
 
 routesandcities SPECIES_SCRAGGY, DEX_MORNING
+    .word DEX_ROUTE_39
     dexendareadata
 
 
 routesandcities SPECIES_SCRAGGY, DEX_DAY
+    .word DEX_ROUTE_39
     dexendareadata
 
 
 routesandcities SPECIES_SCRAGGY, DEX_NIGHT
+    .word DEX_ROUTE_39
     dexendareadata
 
 
@@ -22047,14 +23650,17 @@ specialareas SPECIES_SCRAFTY, DEX_NIGHT
 
 
 routesandcities SPECIES_SCRAFTY, DEX_MORNING
+    .word DEX_ROUTE_39
     dexendareadata
 
 
 routesandcities SPECIES_SCRAFTY, DEX_DAY
+    .word DEX_ROUTE_39
     dexendareadata
 
 
 routesandcities SPECIES_SCRAFTY, DEX_NIGHT
+    .word DEX_ROUTE_39
     dexendareadata
 
 
@@ -22067,10 +23673,12 @@ routesandcities SPECIES_SCRAFTY, DEX_SPECIAL
 
 
 specialareas SPECIES_SIGILYPH, DEX_MORNING
+    .word DEX_RUINS_OF_ALPH
     dexendareadata
 
 
 specialareas SPECIES_SIGILYPH, DEX_DAY
+    .word DEX_RUINS_OF_ALPH
     dexendareadata
 
 
@@ -22099,14 +23707,18 @@ routesandcities SPECIES_SIGILYPH, DEX_SPECIAL
 
 
 specialareas SPECIES_YAMASK, DEX_MORNING
+    .word DEX_BURNED_TOWER
     dexendareadata
 
 
 specialareas SPECIES_YAMASK, DEX_DAY
+    .word DEX_RUINS_OF_ALPH
+    .word DEX_BURNED_TOWER
     dexendareadata
 
 
 specialareas SPECIES_YAMASK, DEX_NIGHT
+    .word DEX_BURNED_TOWER
     dexendareadata
 
 
@@ -22131,14 +23743,18 @@ routesandcities SPECIES_YAMASK, DEX_SPECIAL
 
 
 specialareas SPECIES_COFAGRIGUS, DEX_MORNING
+    .word DEX_BURNED_TOWER
     dexendareadata
 
 
 specialareas SPECIES_COFAGRIGUS, DEX_DAY
+    .word DEX_RUINS_OF_ALPH
+    .word DEX_BURNED_TOWER
     dexendareadata
 
 
 specialareas SPECIES_COFAGRIGUS, DEX_NIGHT
+    .word DEX_BURNED_TOWER
     dexendareadata
 
 
@@ -22163,10 +23779,12 @@ routesandcities SPECIES_COFAGRIGUS, DEX_SPECIAL
 
 
 specialareas SPECIES_TIRTOUGA, DEX_MORNING
+    .word DEX_NATIONAL_PARK
     dexendareadata
 
 
 specialareas SPECIES_TIRTOUGA, DEX_DAY
+    .word DEX_NATIONAL_PARK
     dexendareadata
 
 
@@ -22195,10 +23813,12 @@ routesandcities SPECIES_TIRTOUGA, DEX_SPECIAL
 
 
 specialareas SPECIES_CARRACOSTA, DEX_MORNING
+    .word DEX_NATIONAL_PARK
     dexendareadata
 
 
 specialareas SPECIES_CARRACOSTA, DEX_DAY
+    .word DEX_NATIONAL_PARK
     dexendareadata
 
 
@@ -22227,10 +23847,12 @@ routesandcities SPECIES_CARRACOSTA, DEX_SPECIAL
 
 
 specialareas SPECIES_ARCHEN, DEX_MORNING
+    .word DEX_NATIONAL_PARK
     dexendareadata
 
 
 specialareas SPECIES_ARCHEN, DEX_DAY
+    .word DEX_NATIONAL_PARK
     dexendareadata
 
 
@@ -22259,10 +23881,12 @@ routesandcities SPECIES_ARCHEN, DEX_SPECIAL
 
 
 specialareas SPECIES_ARCHEOPS, DEX_MORNING
+    .word DEX_NATIONAL_PARK
     dexendareadata
 
 
 specialareas SPECIES_ARCHEOPS, DEX_DAY
+    .word DEX_NATIONAL_PARK
     dexendareadata
 
 
@@ -22299,6 +23923,7 @@ specialareas SPECIES_TRUBBISH, DEX_DAY
 
 
 specialareas SPECIES_TRUBBISH, DEX_NIGHT
+    .word DEX_SLOWPOKE_WELL
     dexendareadata
 
 
@@ -22331,6 +23956,7 @@ specialareas SPECIES_GARBODOR, DEX_DAY
 
 
 specialareas SPECIES_GARBODOR, DEX_NIGHT
+    .word DEX_SLOWPOKE_WELL
     dexendareadata
 
 
@@ -22355,14 +23981,18 @@ routesandcities SPECIES_GARBODOR, DEX_SPECIAL
 
 
 specialareas SPECIES_ZORUA, DEX_MORNING
+    .word DEX_RUINS_OF_ALPH
+    .word DEX_BURNED_TOWER
     dexendareadata
 
 
 specialareas SPECIES_ZORUA, DEX_DAY
+    .word DEX_BURNED_TOWER
     dexendareadata
 
 
 specialareas SPECIES_ZORUA, DEX_NIGHT
+    .word DEX_BURNED_TOWER
     dexendareadata
 
 
@@ -22387,14 +24017,18 @@ routesandcities SPECIES_ZORUA, DEX_SPECIAL
 
 
 specialareas SPECIES_ZOROARK, DEX_MORNING
+    .word DEX_RUINS_OF_ALPH
+    .word DEX_BURNED_TOWER
     dexendareadata
 
 
 specialareas SPECIES_ZOROARK, DEX_DAY
+    .word DEX_BURNED_TOWER
     dexendareadata
 
 
 specialareas SPECIES_ZOROARK, DEX_NIGHT
+    .word DEX_BURNED_TOWER
     dexendareadata
 
 
@@ -22431,10 +24065,12 @@ specialareas SPECIES_MINCCINO, DEX_NIGHT
 
 
 routesandcities SPECIES_MINCCINO, DEX_MORNING
+    .word DEX_ROUTE_46
     dexendareadata
 
 
 routesandcities SPECIES_MINCCINO, DEX_DAY
+    .word DEX_ROUTE_46
     dexendareadata
 
 
@@ -22463,10 +24099,12 @@ specialareas SPECIES_CINCCINO, DEX_NIGHT
 
 
 routesandcities SPECIES_CINCCINO, DEX_MORNING
+    .word DEX_ROUTE_46
     dexendareadata
 
 
 routesandcities SPECIES_CINCCINO, DEX_DAY
+    .word DEX_ROUTE_46
     dexendareadata
 
 
@@ -22491,6 +24129,7 @@ specialareas SPECIES_GOTHITA, DEX_DAY
 
 
 specialareas SPECIES_GOTHITA, DEX_NIGHT
+    .word DEX_RUINS_OF_ALPH
     dexendareadata
 
 
@@ -22523,6 +24162,7 @@ specialareas SPECIES_GOTHORITA, DEX_DAY
 
 
 specialareas SPECIES_GOTHORITA, DEX_NIGHT
+    .word DEX_RUINS_OF_ALPH
     dexendareadata
 
 
@@ -22555,6 +24195,7 @@ specialareas SPECIES_GOTHITELLE, DEX_DAY
 
 
 specialareas SPECIES_GOTHITELLE, DEX_NIGHT
+    .word DEX_RUINS_OF_ALPH
     dexendareadata
 
 
@@ -22579,10 +24220,12 @@ routesandcities SPECIES_GOTHITELLE, DEX_SPECIAL
 
 
 specialareas SPECIES_SOLOSIS, DEX_MORNING
+    .word DEX_RUINS_OF_ALPH
     dexendareadata
 
 
 specialareas SPECIES_SOLOSIS, DEX_DAY
+    .word DEX_RUINS_OF_ALPH
     dexendareadata
 
 
@@ -22611,10 +24254,12 @@ routesandcities SPECIES_SOLOSIS, DEX_SPECIAL
 
 
 specialareas SPECIES_DUOSION, DEX_MORNING
+    .word DEX_RUINS_OF_ALPH
     dexendareadata
 
 
 specialareas SPECIES_DUOSION, DEX_DAY
+    .word DEX_RUINS_OF_ALPH
     dexendareadata
 
 
@@ -22643,10 +24288,12 @@ routesandcities SPECIES_DUOSION, DEX_SPECIAL
 
 
 specialareas SPECIES_REUNICLUS, DEX_MORNING
+    .word DEX_RUINS_OF_ALPH
     dexendareadata
 
 
 specialareas SPECIES_REUNICLUS, DEX_DAY
+    .word DEX_RUINS_OF_ALPH
     dexendareadata
 
 
@@ -22687,10 +24334,12 @@ specialareas SPECIES_DUCKLETT, DEX_NIGHT
 
 
 routesandcities SPECIES_DUCKLETT, DEX_MORNING
+    .word DEX_ROUTE_35
     dexendareadata
 
 
 routesandcities SPECIES_DUCKLETT, DEX_DAY
+    .word DEX_ROUTE_35
     dexendareadata
 
 
@@ -22719,10 +24368,12 @@ specialareas SPECIES_SWANNA, DEX_NIGHT
 
 
 routesandcities SPECIES_SWANNA, DEX_MORNING
+    .word DEX_ROUTE_35
     dexendareadata
 
 
 routesandcities SPECIES_SWANNA, DEX_DAY
+    .word DEX_ROUTE_35
     dexendareadata
 
 
@@ -22751,14 +24402,17 @@ specialareas SPECIES_VANILLITE, DEX_NIGHT
 
 
 routesandcities SPECIES_VANILLITE, DEX_MORNING
+    .word DEX_ROUTE_47
     dexendareadata
 
 
 routesandcities SPECIES_VANILLITE, DEX_DAY
+    .word DEX_ROUTE_47
     dexendareadata
 
 
 routesandcities SPECIES_VANILLITE, DEX_NIGHT
+    .word DEX_ROUTE_47
     dexendareadata
 
 
@@ -22783,14 +24437,17 @@ specialareas SPECIES_VANILLISH, DEX_NIGHT
 
 
 routesandcities SPECIES_VANILLISH, DEX_MORNING
+    .word DEX_ROUTE_47
     dexendareadata
 
 
 routesandcities SPECIES_VANILLISH, DEX_DAY
+    .word DEX_ROUTE_47
     dexendareadata
 
 
 routesandcities SPECIES_VANILLISH, DEX_NIGHT
+    .word DEX_ROUTE_47
     dexendareadata
 
 
@@ -22815,14 +24472,17 @@ specialareas SPECIES_VANILLUXE, DEX_NIGHT
 
 
 routesandcities SPECIES_VANILLUXE, DEX_MORNING
+    .word DEX_ROUTE_47
     dexendareadata
 
 
 routesandcities SPECIES_VANILLUXE, DEX_DAY
+    .word DEX_ROUTE_47
     dexendareadata
 
 
 routesandcities SPECIES_VANILLUXE, DEX_NIGHT
+    .word DEX_ROUTE_47
     dexendareadata
 
 
@@ -22847,10 +24507,12 @@ specialareas SPECIES_DEERLING, DEX_NIGHT
 
 
 routesandcities SPECIES_DEERLING, DEX_MORNING
+    .word DEX_ROUTE_35
     dexendareadata
 
 
 routesandcities SPECIES_DEERLING, DEX_DAY
+    .word DEX_ROUTE_35
     dexendareadata
 
 
@@ -22879,10 +24541,12 @@ specialareas SPECIES_SAWSBUCK, DEX_NIGHT
 
 
 routesandcities SPECIES_SAWSBUCK, DEX_MORNING
+    .word DEX_ROUTE_35
     dexendareadata
 
 
 routesandcities SPECIES_SAWSBUCK, DEX_DAY
+    .word DEX_ROUTE_35
     dexendareadata
 
 
@@ -22911,14 +24575,17 @@ specialareas SPECIES_EMOLGA, DEX_NIGHT
 
 
 routesandcities SPECIES_EMOLGA, DEX_MORNING
+    .word DEX_ROUTE_37
     dexendareadata
 
 
 routesandcities SPECIES_EMOLGA, DEX_DAY
+    .word DEX_ROUTE_37
     dexendareadata
 
 
 routesandcities SPECIES_EMOLGA, DEX_NIGHT
+    .word DEX_ROUTE_37
     dexendareadata
 
 
@@ -22951,6 +24618,7 @@ routesandcities SPECIES_KARRABLAST, DEX_DAY
 
 
 routesandcities SPECIES_KARRABLAST, DEX_NIGHT
+    .word DEX_ROUTE_48
     dexendareadata
 
 
@@ -22983,6 +24651,7 @@ routesandcities SPECIES_ESCAVALIER, DEX_DAY
 
 
 routesandcities SPECIES_ESCAVALIER, DEX_NIGHT
+    .word DEX_ROUTE_48
     dexendareadata
 
 
@@ -23007,14 +24676,17 @@ specialareas SPECIES_FOONGUS, DEX_NIGHT
 
 
 routesandcities SPECIES_FOONGUS, DEX_MORNING
+    .word DEX_ROUTE_37
     dexendareadata
 
 
 routesandcities SPECIES_FOONGUS, DEX_DAY
+    .word DEX_ROUTE_37
     dexendareadata
 
 
 routesandcities SPECIES_FOONGUS, DEX_NIGHT
+    .word DEX_ROUTE_37
     dexendareadata
 
 
@@ -23039,14 +24711,17 @@ specialareas SPECIES_AMOONGUSS, DEX_NIGHT
 
 
 routesandcities SPECIES_AMOONGUSS, DEX_MORNING
+    .word DEX_ROUTE_37
     dexendareadata
 
 
 routesandcities SPECIES_AMOONGUSS, DEX_DAY
+    .word DEX_ROUTE_37
     dexendareadata
 
 
 routesandcities SPECIES_AMOONGUSS, DEX_NIGHT
+    .word DEX_ROUTE_37
     dexendareadata
 
 
@@ -23071,14 +24746,17 @@ specialareas SPECIES_FRILLISH, DEX_NIGHT
 
 
 routesandcities SPECIES_FRILLISH, DEX_MORNING
+    .word DEX_ROUTE_34
     dexendareadata
 
 
 routesandcities SPECIES_FRILLISH, DEX_DAY
+    .word DEX_ROUTE_34
     dexendareadata
 
 
 routesandcities SPECIES_FRILLISH, DEX_NIGHT
+    .word DEX_ROUTE_34
     dexendareadata
 
 
@@ -23091,14 +24769,17 @@ routesandcities SPECIES_FRILLISH, DEX_SPECIAL
 
 
 specialareas SPECIES_JELLICENT, DEX_MORNING
+    .word DEX_SEAFOAM_ISLANDS
     dexendareadata
 
 
 specialareas SPECIES_JELLICENT, DEX_DAY
+    .word DEX_SEAFOAM_ISLANDS
     dexendareadata
 
 
 specialareas SPECIES_JELLICENT, DEX_NIGHT
+    .word DEX_SEAFOAM_ISLANDS
     dexendareadata
 
 
@@ -23135,14 +24816,17 @@ specialareas SPECIES_ALOMOMOLA, DEX_NIGHT
 
 
 routesandcities SPECIES_ALOMOMOLA, DEX_MORNING
+    .word DEX_CIANWOOD_CITY
     dexendareadata
 
 
 routesandcities SPECIES_ALOMOMOLA, DEX_DAY
+    .word DEX_CIANWOOD_CITY
     dexendareadata
 
 
 routesandcities SPECIES_ALOMOMOLA, DEX_NIGHT
+    .word DEX_CIANWOOD_CITY
     dexendareadata
 
 
@@ -23167,14 +24851,17 @@ specialareas SPECIES_JOLTIK, DEX_NIGHT
 
 
 routesandcities SPECIES_JOLTIK, DEX_MORNING
+    .word DEX_ROUTE_37
     dexendareadata
 
 
 routesandcities SPECIES_JOLTIK, DEX_DAY
+    .word DEX_ROUTE_37
     dexendareadata
 
 
 routesandcities SPECIES_JOLTIK, DEX_NIGHT
+    .word DEX_ROUTE_37
     dexendareadata
 
 
@@ -23199,14 +24886,17 @@ specialareas SPECIES_GALVANTULA, DEX_NIGHT
 
 
 routesandcities SPECIES_GALVANTULA, DEX_MORNING
+    .word DEX_ROUTE_37
     dexendareadata
 
 
 routesandcities SPECIES_GALVANTULA, DEX_DAY
+    .word DEX_ROUTE_37
     dexendareadata
 
 
 routesandcities SPECIES_GALVANTULA, DEX_NIGHT
+    .word DEX_ROUTE_37
     dexendareadata
 
 
@@ -23219,10 +24909,12 @@ routesandcities SPECIES_GALVANTULA, DEX_SPECIAL
 
 
 specialareas SPECIES_FERROSEED, DEX_MORNING
+    .word DEX_UNION_CAVE
     dexendareadata
 
 
 specialareas SPECIES_FERROSEED, DEX_DAY
+    .word DEX_UNION_CAVE
     dexendareadata
 
 
@@ -23251,10 +24943,12 @@ routesandcities SPECIES_FERROSEED, DEX_SPECIAL
 
 
 specialareas SPECIES_FERROTHORN, DEX_MORNING
+    .word DEX_UNION_CAVE
     dexendareadata
 
 
 specialareas SPECIES_FERROTHORN, DEX_DAY
+    .word DEX_UNION_CAVE
     dexendareadata
 
 
@@ -23295,14 +24989,17 @@ specialareas SPECIES_KLINK, DEX_NIGHT
 
 
 routesandcities SPECIES_KLINK, DEX_MORNING
+    .word DEX_ROUTE_39
     dexendareadata
 
 
 routesandcities SPECIES_KLINK, DEX_DAY
+    .word DEX_ROUTE_39
     dexendareadata
 
 
 routesandcities SPECIES_KLINK, DEX_NIGHT
+    .word DEX_ROUTE_39
     dexendareadata
 
 
@@ -23327,14 +25024,17 @@ specialareas SPECIES_KLANG, DEX_NIGHT
 
 
 routesandcities SPECIES_KLANG, DEX_MORNING
+    .word DEX_ROUTE_39
     dexendareadata
 
 
 routesandcities SPECIES_KLANG, DEX_DAY
+    .word DEX_ROUTE_39
     dexendareadata
 
 
 routesandcities SPECIES_KLANG, DEX_NIGHT
+    .word DEX_ROUTE_39
     dexendareadata
 
 
@@ -23359,14 +25059,17 @@ specialareas SPECIES_KLINKLANG, DEX_NIGHT
 
 
 routesandcities SPECIES_KLINKLANG, DEX_MORNING
+    .word DEX_ROUTE_39
     dexendareadata
 
 
 routesandcities SPECIES_KLINKLANG, DEX_DAY
+    .word DEX_ROUTE_39
     dexendareadata
 
 
 routesandcities SPECIES_KLINKLANG, DEX_NIGHT
+    .word DEX_ROUTE_39
     dexendareadata
 
 
@@ -23391,14 +25094,17 @@ specialareas SPECIES_TYNAMO, DEX_NIGHT
 
 
 routesandcities SPECIES_TYNAMO, DEX_MORNING
+    .word DEX_ROUTE_37
     dexendareadata
 
 
 routesandcities SPECIES_TYNAMO, DEX_DAY
+    .word DEX_ROUTE_37
     dexendareadata
 
 
 routesandcities SPECIES_TYNAMO, DEX_NIGHT
+    .word DEX_ROUTE_37
     dexendareadata
 
 
@@ -23423,14 +25129,17 @@ specialareas SPECIES_EELEKTRIK, DEX_NIGHT
 
 
 routesandcities SPECIES_EELEKTRIK, DEX_MORNING
+    .word DEX_ROUTE_37
     dexendareadata
 
 
 routesandcities SPECIES_EELEKTRIK, DEX_DAY
+    .word DEX_ROUTE_37
     dexendareadata
 
 
 routesandcities SPECIES_EELEKTRIK, DEX_NIGHT
+    .word DEX_ROUTE_37
     dexendareadata
 
 
@@ -23455,14 +25164,17 @@ specialareas SPECIES_EELEKTROSS, DEX_NIGHT
 
 
 routesandcities SPECIES_EELEKTROSS, DEX_MORNING
+    .word DEX_ROUTE_37
     dexendareadata
 
 
 routesandcities SPECIES_EELEKTROSS, DEX_DAY
+    .word DEX_ROUTE_37
     dexendareadata
 
 
 routesandcities SPECIES_EELEKTROSS, DEX_NIGHT
+    .word DEX_ROUTE_37
     dexendareadata
 
 
@@ -23475,10 +25187,12 @@ routesandcities SPECIES_EELEKTROSS, DEX_SPECIAL
 
 
 specialareas SPECIES_ELGYEM, DEX_MORNING
+    .word DEX_RUINS_OF_ALPH
     dexendareadata
 
 
 specialareas SPECIES_ELGYEM, DEX_DAY
+    .word DEX_RUINS_OF_ALPH
     dexendareadata
 
 
@@ -23507,10 +25221,12 @@ routesandcities SPECIES_ELGYEM, DEX_SPECIAL
 
 
 specialareas SPECIES_BEHEEYEM, DEX_MORNING
+    .word DEX_RUINS_OF_ALPH
     dexendareadata
 
 
 specialareas SPECIES_BEHEEYEM, DEX_DAY
+    .word DEX_RUINS_OF_ALPH
     dexendareadata
 
 
@@ -23547,6 +25263,7 @@ specialareas SPECIES_LITWICK, DEX_DAY
 
 
 specialareas SPECIES_LITWICK, DEX_NIGHT
+    .word DEX_SPROUT_TOWER
     dexendareadata
 
 
@@ -23579,6 +25296,7 @@ specialareas SPECIES_LAMPENT, DEX_DAY
 
 
 specialareas SPECIES_LAMPENT, DEX_NIGHT
+    .word DEX_SPROUT_TOWER
     dexendareadata
 
 
@@ -23611,6 +25329,7 @@ specialareas SPECIES_CHANDELURE, DEX_DAY
 
 
 specialareas SPECIES_CHANDELURE, DEX_NIGHT
+    .word DEX_SPROUT_TOWER
     dexendareadata
 
 
@@ -23647,14 +25366,17 @@ specialareas SPECIES_AXEW, DEX_NIGHT
 
 
 routesandcities SPECIES_AXEW, DEX_MORNING
+    .word DEX_ROUTE_47
     dexendareadata
 
 
 routesandcities SPECIES_AXEW, DEX_DAY
+    .word DEX_ROUTE_47
     dexendareadata
 
 
 routesandcities SPECIES_AXEW, DEX_NIGHT
+    .word DEX_ROUTE_47
     dexendareadata
 
 
@@ -23679,14 +25401,17 @@ specialareas SPECIES_FRAXURE, DEX_NIGHT
 
 
 routesandcities SPECIES_FRAXURE, DEX_MORNING
+    .word DEX_ROUTE_47
     dexendareadata
 
 
 routesandcities SPECIES_FRAXURE, DEX_DAY
+    .word DEX_ROUTE_47
     dexendareadata
 
 
 routesandcities SPECIES_FRAXURE, DEX_NIGHT
+    .word DEX_ROUTE_47
     dexendareadata
 
 
@@ -23711,14 +25436,17 @@ specialareas SPECIES_HAXORUS, DEX_NIGHT
 
 
 routesandcities SPECIES_HAXORUS, DEX_MORNING
+    .word DEX_ROUTE_47
     dexendareadata
 
 
 routesandcities SPECIES_HAXORUS, DEX_DAY
+    .word DEX_ROUTE_47
     dexendareadata
 
 
 routesandcities SPECIES_HAXORUS, DEX_NIGHT
+    .word DEX_ROUTE_47
     dexendareadata
 
 
@@ -23731,14 +25459,17 @@ routesandcities SPECIES_HAXORUS, DEX_SPECIAL
 
 
 specialareas SPECIES_CUBCHOO, DEX_MORNING
+    .word DEX_ICE_PATH
     dexendareadata
 
 
 specialareas SPECIES_CUBCHOO, DEX_DAY
+    .word DEX_ICE_PATH
     dexendareadata
 
 
 specialareas SPECIES_CUBCHOO, DEX_NIGHT
+    .word DEX_ICE_PATH
     dexendareadata
 
 
@@ -23763,14 +25494,17 @@ routesandcities SPECIES_CUBCHOO, DEX_SPECIAL
 
 
 specialareas SPECIES_BEARTIC, DEX_MORNING
+    .word DEX_ICE_PATH
     dexendareadata
 
 
 specialareas SPECIES_BEARTIC, DEX_DAY
+    .word DEX_ICE_PATH
     dexendareadata
 
 
 specialareas SPECIES_BEARTIC, DEX_NIGHT
+    .word DEX_ICE_PATH
     dexendareadata
 
 
@@ -23795,14 +25529,17 @@ routesandcities SPECIES_BEARTIC, DEX_SPECIAL
 
 
 specialareas SPECIES_CRYOGONAL, DEX_MORNING
+    .word DEX_ICE_PATH
     dexendareadata
 
 
 specialareas SPECIES_CRYOGONAL, DEX_DAY
+    .word DEX_ICE_PATH
     dexendareadata
 
 
 specialareas SPECIES_CRYOGONAL, DEX_NIGHT
+    .word DEX_ICE_PATH
     dexendareadata
 
 
@@ -23839,10 +25576,12 @@ specialareas SPECIES_SHELMET, DEX_NIGHT
 
 
 routesandcities SPECIES_SHELMET, DEX_MORNING
+    .word DEX_ROUTE_48
     dexendareadata
 
 
 routesandcities SPECIES_SHELMET, DEX_DAY
+    .word DEX_ROUTE_48
     dexendareadata
 
 
@@ -23871,10 +25610,12 @@ specialareas SPECIES_ACCELGOR, DEX_NIGHT
 
 
 routesandcities SPECIES_ACCELGOR, DEX_MORNING
+    .word DEX_ROUTE_48
     dexendareadata
 
 
 routesandcities SPECIES_ACCELGOR, DEX_DAY
+    .word DEX_ROUTE_48
     dexendareadata
 
 
@@ -23903,14 +25644,17 @@ specialareas SPECIES_STUNFISK, DEX_NIGHT
 
 
 routesandcities SPECIES_STUNFISK, DEX_MORNING
+    .word DEX_ROUTE_48
     dexendareadata
 
 
 routesandcities SPECIES_STUNFISK, DEX_DAY
+    .word DEX_ROUTE_48
     dexendareadata
 
 
 routesandcities SPECIES_STUNFISK, DEX_NIGHT
+    .word DEX_ROUTE_32
     dexendareadata
 
 
@@ -23923,10 +25667,12 @@ routesandcities SPECIES_STUNFISK, DEX_SPECIAL
 
 
 specialareas SPECIES_MIENFOO, DEX_MORNING
+    .word DEX_UNION_CAVE
     dexendareadata
 
 
 specialareas SPECIES_MIENFOO, DEX_DAY
+    .word DEX_UNION_CAVE
     dexendareadata
 
 
@@ -23955,10 +25701,12 @@ routesandcities SPECIES_MIENFOO, DEX_SPECIAL
 
 
 specialareas SPECIES_MIENSHAO, DEX_MORNING
+    .word DEX_UNION_CAVE
     dexendareadata
 
 
 specialareas SPECIES_MIENSHAO, DEX_DAY
+    .word DEX_UNION_CAVE
     dexendareadata
 
 
@@ -23999,10 +25747,12 @@ specialareas SPECIES_DRUDDIGON, DEX_NIGHT
 
 
 routesandcities SPECIES_DRUDDIGON, DEX_MORNING
+    .word DEX_ROUTE_47
     dexendareadata
 
 
 routesandcities SPECIES_DRUDDIGON, DEX_DAY
+    .word DEX_ROUTE_47
     dexendareadata
 
 
@@ -24027,6 +25777,7 @@ specialareas SPECIES_GOLETT, DEX_DAY
 
 
 specialareas SPECIES_GOLETT, DEX_NIGHT
+    .word DEX_SLOWPOKE_WELL
     dexendareadata
 
 
@@ -24059,6 +25810,7 @@ specialareas SPECIES_GOLURK, DEX_DAY
 
 
 specialareas SPECIES_GOLURK, DEX_NIGHT
+    .word DEX_SLOWPOKE_WELL
     dexendareadata
 
 
@@ -24103,6 +25855,7 @@ routesandcities SPECIES_PAWNIARD, DEX_DAY
 
 
 routesandcities SPECIES_PAWNIARD, DEX_NIGHT
+    .word DEX_ROUTE_39
     dexendareadata
 
 
@@ -24135,6 +25888,7 @@ routesandcities SPECIES_BISHARP, DEX_DAY
 
 
 routesandcities SPECIES_BISHARP, DEX_NIGHT
+    .word DEX_ROUTE_39
     dexendareadata
 
 
@@ -24167,6 +25921,7 @@ routesandcities SPECIES_BOUFFALANT, DEX_DAY
 
 
 routesandcities SPECIES_BOUFFALANT, DEX_NIGHT
+    .word DEX_ROUTE_39
     dexendareadata
 
 
@@ -24191,10 +25946,12 @@ specialareas SPECIES_RUFFLET, DEX_NIGHT
 
 
 routesandcities SPECIES_RUFFLET, DEX_MORNING
+    .word DEX_ROUTE_47
     dexendareadata
 
 
 routesandcities SPECIES_RUFFLET, DEX_DAY
+    .word DEX_ROUTE_47
     dexendareadata
 
 
@@ -24223,14 +25980,19 @@ specialareas SPECIES_BRAVIARY, DEX_NIGHT
 
 
 routesandcities SPECIES_BRAVIARY, DEX_MORNING
+    .word DEX_ROUTE_47
+    .word DEX_ROUTE_22
     dexendareadata
 
 
 routesandcities SPECIES_BRAVIARY, DEX_DAY
+    .word DEX_ROUTE_47
+    .word DEX_ROUTE_22
     dexendareadata
 
 
 routesandcities SPECIES_BRAVIARY, DEX_NIGHT
+    .word DEX_ROUTE_22
     dexendareadata
 
 
@@ -24263,6 +26025,7 @@ routesandcities SPECIES_VULLABY, DEX_DAY
 
 
 routesandcities SPECIES_VULLABY, DEX_NIGHT
+    .word DEX_ROUTE_47
     dexendareadata
 
 
@@ -24295,6 +26058,7 @@ routesandcities SPECIES_MANDIBUZZ, DEX_DAY
 
 
 routesandcities SPECIES_MANDIBUZZ, DEX_NIGHT
+    .word DEX_ROUTE_47
     dexendareadata
 
 
@@ -24315,6 +26079,7 @@ specialareas SPECIES_HEATMOR, DEX_DAY
 
 
 specialareas SPECIES_HEATMOR, DEX_NIGHT
+    .word DEX_BURNED_TOWER
     dexendareadata
 
 
@@ -24351,10 +26116,12 @@ specialareas SPECIES_DURANT, DEX_NIGHT
 
 
 routesandcities SPECIES_DURANT, DEX_MORNING
+    .word DEX_ROUTE_47
     dexendareadata
 
 
 routesandcities SPECIES_DURANT, DEX_DAY
+    .word DEX_ROUTE_47
     dexendareadata
 
 
@@ -24379,6 +26146,7 @@ specialareas SPECIES_DEINO, DEX_DAY
 
 
 specialareas SPECIES_DEINO, DEX_NIGHT
+    .word DEX_NATIONAL_PARK
     dexendareadata
 
 
@@ -24411,6 +26179,7 @@ specialareas SPECIES_ZWEILOUS, DEX_DAY
 
 
 specialareas SPECIES_ZWEILOUS, DEX_NIGHT
+    .word DEX_NATIONAL_PARK
     dexendareadata
 
 
@@ -24443,6 +26212,7 @@ specialareas SPECIES_HYDREIGON, DEX_DAY
 
 
 specialareas SPECIES_HYDREIGON, DEX_NIGHT
+    .word DEX_NATIONAL_PARK
     dexendareadata
 
 
@@ -24479,14 +26249,17 @@ specialareas SPECIES_LARVESTA, DEX_NIGHT
 
 
 routesandcities SPECIES_LARVESTA, DEX_MORNING
+    .word DEX_ROUTE_47
     dexendareadata
 
 
 routesandcities SPECIES_LARVESTA, DEX_DAY
+    .word DEX_ROUTE_47
     dexendareadata
 
 
 routesandcities SPECIES_LARVESTA, DEX_NIGHT
+    .word DEX_ROUTE_47
     dexendareadata
 
 
@@ -24511,14 +26284,17 @@ specialareas SPECIES_VOLCARONA, DEX_NIGHT
 
 
 routesandcities SPECIES_VOLCARONA, DEX_MORNING
+    .word DEX_ROUTE_47
     dexendareadata
 
 
 routesandcities SPECIES_VOLCARONA, DEX_DAY
+    .word DEX_ROUTE_47
     dexendareadata
 
 
 routesandcities SPECIES_VOLCARONA, DEX_NIGHT
+    .word DEX_ROUTE_47
     dexendareadata
 
 
@@ -24531,14 +26307,17 @@ routesandcities SPECIES_VOLCARONA, DEX_SPECIAL
 
 
 specialareas SPECIES_COBALION, DEX_MORNING
+    .word DEX_MT_SILVER_CAVE
     dexendareadata
 
 
 specialareas SPECIES_COBALION, DEX_DAY
+    .word DEX_MT_SILVER_CAVE
     dexendareadata
 
 
 specialareas SPECIES_COBALION, DEX_NIGHT
+    .word DEX_MT_SILVER_CAVE
     dexendareadata
 
 
@@ -24575,14 +26354,17 @@ specialareas SPECIES_TERRAKION, DEX_NIGHT
 
 
 routesandcities SPECIES_TERRAKION, DEX_MORNING
+    .word DEX_ROUTE_16
     dexendareadata
 
 
 routesandcities SPECIES_TERRAKION, DEX_DAY
+    .word DEX_ROUTE_16
     dexendareadata
 
 
 routesandcities SPECIES_TERRAKION, DEX_NIGHT
+    .word DEX_ROUTE_16
     dexendareadata
 
 
@@ -24607,14 +26389,17 @@ specialareas SPECIES_VIRIZION, DEX_NIGHT
 
 
 routesandcities SPECIES_VIRIZION, DEX_MORNING
+    .word DEX_ROUTE_18
     dexendareadata
 
 
 routesandcities SPECIES_VIRIZION, DEX_DAY
+    .word DEX_ROUTE_18
     dexendareadata
 
 
 routesandcities SPECIES_VIRIZION, DEX_NIGHT
+    .word DEX_ROUTE_18
     dexendareadata
 
 
@@ -24639,14 +26424,17 @@ specialareas SPECIES_TORNADUS, DEX_NIGHT
 
 
 routesandcities SPECIES_TORNADUS, DEX_MORNING
+    .word DEX_ROUTE_17
     dexendareadata
 
 
 routesandcities SPECIES_TORNADUS, DEX_DAY
+    .word DEX_ROUTE_17
     dexendareadata
 
 
 routesandcities SPECIES_TORNADUS, DEX_NIGHT
+    .word DEX_ROUTE_17
     dexendareadata
 
 
@@ -24671,14 +26459,17 @@ specialareas SPECIES_THUNDURUS, DEX_NIGHT
 
 
 routesandcities SPECIES_THUNDURUS, DEX_MORNING
+    .word DEX_ROUTE_16
     dexendareadata
 
 
 routesandcities SPECIES_THUNDURUS, DEX_DAY
+    .word DEX_ROUTE_16
     dexendareadata
 
 
 routesandcities SPECIES_THUNDURUS, DEX_NIGHT
+    .word DEX_ROUTE_16
     dexendareadata
 
 
@@ -24703,14 +26494,17 @@ specialareas SPECIES_RESHIRAM, DEX_NIGHT
 
 
 routesandcities SPECIES_RESHIRAM, DEX_MORNING
+    .word DEX_ROUTE_48
     dexendareadata
 
 
 routesandcities SPECIES_RESHIRAM, DEX_DAY
+    .word DEX_ROUTE_48
     dexendareadata
 
 
 routesandcities SPECIES_RESHIRAM, DEX_NIGHT
+    .word DEX_ROUTE_48
     dexendareadata
 
 
@@ -24735,14 +26529,17 @@ specialareas SPECIES_ZEKROM, DEX_NIGHT
 
 
 routesandcities SPECIES_ZEKROM, DEX_MORNING
+    .word DEX_ROUTE_15
     dexendareadata
 
 
 routesandcities SPECIES_ZEKROM, DEX_DAY
+    .word DEX_ROUTE_15
     dexendareadata
 
 
 routesandcities SPECIES_ZEKROM, DEX_NIGHT
+    .word DEX_ROUTE_15
     dexendareadata
 
 
@@ -24755,14 +26552,17 @@ routesandcities SPECIES_ZEKROM, DEX_SPECIAL
 
 
 specialareas SPECIES_LANDORUS, DEX_MORNING
+    .word DEX_TOHJO_FALLS
     dexendareadata
 
 
 specialareas SPECIES_LANDORUS, DEX_DAY
+    .word DEX_TOHJO_FALLS
     dexendareadata
 
 
 specialareas SPECIES_LANDORUS, DEX_NIGHT
+    .word DEX_TOHJO_FALLS
     dexendareadata
 
 
@@ -24787,14 +26587,17 @@ routesandcities SPECIES_LANDORUS, DEX_SPECIAL
 
 
 specialareas SPECIES_KYUREM, DEX_MORNING
+    .word DEX_SEAFOAM_ISLANDS
     dexendareadata
 
 
 specialareas SPECIES_KYUREM, DEX_DAY
+    .word DEX_SEAFOAM_ISLANDS
     dexendareadata
 
 
 specialareas SPECIES_KYUREM, DEX_NIGHT
+    .word DEX_SEAFOAM_ISLANDS
     dexendareadata
 
 
@@ -24819,14 +26622,17 @@ routesandcities SPECIES_KYUREM, DEX_SPECIAL
 
 
 specialareas SPECIES_KELDEO, DEX_MORNING
+    .word DEX_SEAFOAM_ISLANDS
     dexendareadata
 
 
 specialareas SPECIES_KELDEO, DEX_DAY
+    .word DEX_SEAFOAM_ISLANDS
     dexendareadata
 
 
 specialareas SPECIES_KELDEO, DEX_NIGHT
+    .word DEX_SEAFOAM_ISLANDS
     dexendareadata
 
 
@@ -24851,14 +26657,17 @@ routesandcities SPECIES_KELDEO, DEX_SPECIAL
 
 
 specialareas SPECIES_MELOETTA, DEX_MORNING
+    .word DEX_BELL_TOWER
     dexendareadata
 
 
 specialareas SPECIES_MELOETTA, DEX_DAY
+    .word DEX_BELL_TOWER
     dexendareadata
 
 
 specialareas SPECIES_MELOETTA, DEX_NIGHT
+    .word DEX_BELL_TOWER
     dexendareadata
 
 
@@ -24883,14 +26692,17 @@ routesandcities SPECIES_MELOETTA, DEX_SPECIAL
 
 
 specialareas SPECIES_GENESECT, DEX_MORNING
+    .word DEX_MT_SILVER_CAVE
     dexendareadata
 
 
 specialareas SPECIES_GENESECT, DEX_DAY
+    .word DEX_MT_SILVER_CAVE
     dexendareadata
 
 
 specialareas SPECIES_GENESECT, DEX_NIGHT
+    .word DEX_MT_SILVER_CAVE
     dexendareadata
 
 
@@ -24927,6 +26739,7 @@ specialareas SPECIES_CHESPIN, DEX_NIGHT
 
 
 routesandcities SPECIES_CHESPIN, DEX_MORNING
+    .word DEX_ROUTE_34
     dexendareadata
 
 
@@ -24959,6 +26772,7 @@ specialareas SPECIES_QUILLADIN, DEX_NIGHT
 
 
 routesandcities SPECIES_QUILLADIN, DEX_MORNING
+    .word DEX_ROUTE_34
     dexendareadata
 
 
@@ -24991,6 +26805,7 @@ specialareas SPECIES_CHESNAUGHT, DEX_NIGHT
 
 
 routesandcities SPECIES_CHESNAUGHT, DEX_MORNING
+    .word DEX_ROUTE_34
     dexendareadata
 
 
@@ -25031,6 +26846,7 @@ routesandcities SPECIES_FENNEKIN, DEX_DAY
 
 
 routesandcities SPECIES_FENNEKIN, DEX_NIGHT
+    .word DEX_ROUTE_34
     dexendareadata
 
 
@@ -25063,6 +26879,7 @@ routesandcities SPECIES_BRAIXEN, DEX_DAY
 
 
 routesandcities SPECIES_BRAIXEN, DEX_NIGHT
+    .word DEX_ROUTE_34
     dexendareadata
 
 
@@ -25095,6 +26912,7 @@ routesandcities SPECIES_DELPHOX, DEX_DAY
 
 
 routesandcities SPECIES_DELPHOX, DEX_NIGHT
+    .word DEX_ROUTE_34
     dexendareadata
 
 
@@ -25123,6 +26941,7 @@ routesandcities SPECIES_FROAKIE, DEX_MORNING
 
 
 routesandcities SPECIES_FROAKIE, DEX_DAY
+    .word DEX_ROUTE_34
     dexendareadata
 
 
@@ -25155,6 +26974,7 @@ routesandcities SPECIES_FROGADIER, DEX_MORNING
 
 
 routesandcities SPECIES_FROGADIER, DEX_DAY
+    .word DEX_ROUTE_34
     dexendareadata
 
 
@@ -25187,6 +27007,7 @@ routesandcities SPECIES_GRENINJA, DEX_MORNING
 
 
 routesandcities SPECIES_GRENINJA, DEX_DAY
+    .word DEX_ROUTE_34
     dexendareadata
 
 
@@ -25215,10 +27036,12 @@ specialareas SPECIES_BUNNELBY, DEX_NIGHT
 
 
 routesandcities SPECIES_BUNNELBY, DEX_MORNING
+    .word DEX_ROUTE_29
     dexendareadata
 
 
 routesandcities SPECIES_BUNNELBY, DEX_DAY
+    .word DEX_ROUTE_29
     dexendareadata
 
 
@@ -25247,10 +27070,12 @@ specialareas SPECIES_DIGGERSBY, DEX_NIGHT
 
 
 routesandcities SPECIES_DIGGERSBY, DEX_MORNING
+    .word DEX_ROUTE_29
     dexendareadata
 
 
 routesandcities SPECIES_DIGGERSBY, DEX_DAY
+    .word DEX_ROUTE_29
     dexendareadata
 
 
@@ -25279,10 +27104,12 @@ specialareas SPECIES_FLETCHLING, DEX_NIGHT
 
 
 routesandcities SPECIES_FLETCHLING, DEX_MORNING
+    .word DEX_ROUTE_32
     dexendareadata
 
 
 routesandcities SPECIES_FLETCHLING, DEX_DAY
+    .word DEX_ROUTE_32
     dexendareadata
 
 
@@ -25311,10 +27138,12 @@ specialareas SPECIES_FLETCHINDER, DEX_NIGHT
 
 
 routesandcities SPECIES_FLETCHINDER, DEX_MORNING
+    .word DEX_ROUTE_32
     dexendareadata
 
 
 routesandcities SPECIES_FLETCHINDER, DEX_DAY
+    .word DEX_ROUTE_32
     dexendareadata
 
 
@@ -25343,10 +27172,12 @@ specialareas SPECIES_TALONFLAME, DEX_NIGHT
 
 
 routesandcities SPECIES_TALONFLAME, DEX_MORNING
+    .word DEX_ROUTE_32
     dexendareadata
 
 
 routesandcities SPECIES_TALONFLAME, DEX_DAY
+    .word DEX_ROUTE_32
     dexendareadata
 
 
@@ -25375,10 +27206,12 @@ specialareas SPECIES_SCATTERBUG, DEX_NIGHT
 
 
 routesandcities SPECIES_SCATTERBUG, DEX_MORNING
+    .word DEX_ROUTE_30
     dexendareadata
 
 
 routesandcities SPECIES_SCATTERBUG, DEX_DAY
+    .word DEX_ROUTE_30
     dexendareadata
 
 
@@ -25407,10 +27240,12 @@ specialareas SPECIES_SPEWPA, DEX_NIGHT
 
 
 routesandcities SPECIES_SPEWPA, DEX_MORNING
+    .word DEX_ROUTE_30
     dexendareadata
 
 
 routesandcities SPECIES_SPEWPA, DEX_DAY
+    .word DEX_ROUTE_30
     dexendareadata
 
 
@@ -25439,10 +27274,12 @@ specialareas SPECIES_VIVILLON, DEX_NIGHT
 
 
 routesandcities SPECIES_VIVILLON, DEX_MORNING
+    .word DEX_ROUTE_30
     dexendareadata
 
 
 routesandcities SPECIES_VIVILLON, DEX_DAY
+    .word DEX_ROUTE_30
     dexendareadata
 
 
@@ -25459,10 +27296,12 @@ routesandcities SPECIES_VIVILLON, DEX_SPECIAL
 
 
 specialareas SPECIES_LITLEO, DEX_MORNING
+    .word DEX_BURNED_TOWER
     dexendareadata
 
 
 specialareas SPECIES_LITLEO, DEX_DAY
+    .word DEX_BURNED_TOWER
     dexendareadata
 
 
@@ -25491,14 +27330,17 @@ routesandcities SPECIES_LITLEO, DEX_SPECIAL
 
 
 specialareas SPECIES_PYROAR, DEX_MORNING
+    .word DEX_VICTORY_ROAD
     dexendareadata
 
 
 specialareas SPECIES_PYROAR, DEX_DAY
+    .word DEX_VICTORY_ROAD
     dexendareadata
 
 
 specialareas SPECIES_PYROAR, DEX_NIGHT
+    .word DEX_VICTORY_ROAD
     dexendareadata
 
 
@@ -25535,10 +27377,12 @@ specialareas SPECIES_FLABEBE, DEX_NIGHT
 
 
 routesandcities SPECIES_FLABEBE, DEX_MORNING
+    .word DEX_ROUTE_35
     dexendareadata
 
 
 routesandcities SPECIES_FLABEBE, DEX_DAY
+    .word DEX_ROUTE_35
     dexendareadata
 
 
@@ -25567,10 +27411,12 @@ specialareas SPECIES_FLOETTE, DEX_NIGHT
 
 
 routesandcities SPECIES_FLOETTE, DEX_MORNING
+    .word DEX_ROUTE_35
     dexendareadata
 
 
 routesandcities SPECIES_FLOETTE, DEX_DAY
+    .word DEX_ROUTE_35
     dexendareadata
 
 
@@ -25599,10 +27445,12 @@ specialareas SPECIES_FLORGES, DEX_NIGHT
 
 
 routesandcities SPECIES_FLORGES, DEX_MORNING
+    .word DEX_ROUTE_35
     dexendareadata
 
 
 routesandcities SPECIES_FLORGES, DEX_DAY
+    .word DEX_ROUTE_35
     dexendareadata
 
 
@@ -25639,6 +27487,7 @@ routesandcities SPECIES_SKIDDO, DEX_DAY
 
 
 routesandcities SPECIES_SKIDDO, DEX_NIGHT
+    .word DEX_ROUTE_32
     dexendareadata
 
 
@@ -25671,6 +27520,7 @@ routesandcities SPECIES_GOGOAT, DEX_DAY
 
 
 routesandcities SPECIES_GOGOAT, DEX_NIGHT
+    .word DEX_ROUTE_32
     dexendareadata
 
 
@@ -25703,6 +27553,7 @@ routesandcities SPECIES_PANCHAM, DEX_DAY
 
 
 routesandcities SPECIES_PANCHAM, DEX_NIGHT
+    .word DEX_ROUTE_29
     dexendareadata
 
 
@@ -25735,6 +27586,7 @@ routesandcities SPECIES_PANGORO, DEX_DAY
 
 
 routesandcities SPECIES_PANGORO, DEX_NIGHT
+    .word DEX_ROUTE_29
     dexendareadata
 
 
@@ -25759,14 +27611,17 @@ specialareas SPECIES_FURFROU, DEX_NIGHT
 
 
 routesandcities SPECIES_FURFROU, DEX_MORNING
+    .word DEX_ROUTE_39
     dexendareadata
 
 
 routesandcities SPECIES_FURFROU, DEX_DAY
+    .word DEX_ROUTE_39
     dexendareadata
 
 
 routesandcities SPECIES_FURFROU, DEX_NIGHT
+    .word DEX_ROUTE_39
     dexendareadata
 
 
@@ -25779,10 +27634,12 @@ routesandcities SPECIES_FURFROU, DEX_SPECIAL
 
 
 specialareas SPECIES_ESPURR, DEX_MORNING
+    .word DEX_RUINS_OF_ALPH
     dexendareadata
 
 
 specialareas SPECIES_ESPURR, DEX_DAY
+    .word DEX_RUINS_OF_ALPH
     dexendareadata
 
 
@@ -25811,14 +27668,17 @@ routesandcities SPECIES_ESPURR, DEX_SPECIAL
 
 
 specialareas SPECIES_MEOWSTIC, DEX_MORNING
+    .word DEX_BELL_TOWER
     dexendareadata
 
 
 specialareas SPECIES_MEOWSTIC, DEX_DAY
+    .word DEX_BELL_TOWER
     dexendareadata
 
 
 specialareas SPECIES_MEOWSTIC, DEX_NIGHT
+    .word DEX_BELL_TOWER
     dexendareadata
 
 
@@ -25863,6 +27723,7 @@ routesandcities SPECIES_HONEDGE, DEX_DAY
 
 
 routesandcities SPECIES_HONEDGE, DEX_NIGHT
+    .word DEX_ROUTE_46
     dexendareadata
 
 
@@ -25895,6 +27756,7 @@ routesandcities SPECIES_DOUBLADE, DEX_DAY
 
 
 routesandcities SPECIES_DOUBLADE, DEX_NIGHT
+    .word DEX_ROUTE_46
     dexendareadata
 
 
@@ -25927,6 +27789,7 @@ routesandcities SPECIES_AEGISLASH, DEX_DAY
 
 
 routesandcities SPECIES_AEGISLASH, DEX_NIGHT
+    .word DEX_ROUTE_46
     dexendareadata
 
 
@@ -25959,6 +27822,7 @@ routesandcities SPECIES_SPRITZEE, DEX_DAY
 
 
 routesandcities SPECIES_SPRITZEE, DEX_NIGHT
+    .word DEX_ROUTE_35
     dexendareadata
 
 
@@ -25991,6 +27855,7 @@ routesandcities SPECIES_AROMATISSE, DEX_DAY
 
 
 routesandcities SPECIES_AROMATISSE, DEX_NIGHT
+    .word DEX_ROUTE_35
     dexendareadata
 
 
@@ -26015,10 +27880,12 @@ specialareas SPECIES_SWIRLIX, DEX_NIGHT
 
 
 routesandcities SPECIES_SWIRLIX, DEX_MORNING
+    .word DEX_ROUTE_35
     dexendareadata
 
 
 routesandcities SPECIES_SWIRLIX, DEX_DAY
+    .word DEX_ROUTE_35
     dexendareadata
 
 
@@ -26047,10 +27914,12 @@ specialareas SPECIES_SLURPUFF, DEX_NIGHT
 
 
 routesandcities SPECIES_SLURPUFF, DEX_MORNING
+    .word DEX_ROUTE_35
     dexendareadata
 
 
 routesandcities SPECIES_SLURPUFF, DEX_DAY
+    .word DEX_ROUTE_35
     dexendareadata
 
 
@@ -26075,6 +27944,7 @@ specialareas SPECIES_INKAY, DEX_DAY
 
 
 specialareas SPECIES_INKAY, DEX_NIGHT
+    .word DEX_UNION_CAVE
     dexendareadata
 
 
@@ -26107,6 +27977,7 @@ specialareas SPECIES_MALAMAR, DEX_DAY
 
 
 specialareas SPECIES_MALAMAR, DEX_NIGHT
+    .word DEX_UNION_CAVE
     dexendareadata
 
 
@@ -26131,10 +28002,12 @@ routesandcities SPECIES_MALAMAR, DEX_SPECIAL
 
 
 specialareas SPECIES_BINACLE, DEX_MORNING
+    .word DEX_SLOWPOKE_WELL
     dexendareadata
 
 
 specialareas SPECIES_BINACLE, DEX_DAY
+    .word DEX_SLOWPOKE_WELL
     dexendareadata
 
 
@@ -26163,10 +28036,12 @@ routesandcities SPECIES_BINACLE, DEX_SPECIAL
 
 
 specialareas SPECIES_BARBARACLE, DEX_MORNING
+    .word DEX_SLOWPOKE_WELL
     dexendareadata
 
 
 specialareas SPECIES_BARBARACLE, DEX_DAY
+    .word DEX_SLOWPOKE_WELL
     dexendareadata
 
 
@@ -26207,14 +28082,17 @@ specialareas SPECIES_SKRELP, DEX_NIGHT
 
 
 routesandcities SPECIES_SKRELP, DEX_MORNING
+    .word DEX_ROUTE_32
     dexendareadata
 
 
 routesandcities SPECIES_SKRELP, DEX_DAY
+    .word DEX_ROUTE_32
     dexendareadata
 
 
 routesandcities SPECIES_SKRELP, DEX_NIGHT
+    .word DEX_ROUTE_32
     dexendareadata
 
 
@@ -26239,14 +28117,17 @@ specialareas SPECIES_DRAGALGE, DEX_NIGHT
 
 
 routesandcities SPECIES_DRAGALGE, DEX_MORNING
+    .word DEX_ROUTE_32
     dexendareadata
 
 
 routesandcities SPECIES_DRAGALGE, DEX_DAY
+    .word DEX_ROUTE_32
     dexendareadata
 
 
 routesandcities SPECIES_DRAGALGE, DEX_NIGHT
+    .word DEX_ROUTE_32
     dexendareadata
 
 
@@ -26271,14 +28152,17 @@ specialareas SPECIES_CLAUNCHER, DEX_NIGHT
 
 
 routesandcities SPECIES_CLAUNCHER, DEX_MORNING
+    .word DEX_ROUTE_32
     dexendareadata
 
 
 routesandcities SPECIES_CLAUNCHER, DEX_DAY
+    .word DEX_ROUTE_32
     dexendareadata
 
 
 routesandcities SPECIES_CLAUNCHER, DEX_NIGHT
+    .word DEX_ROUTE_32
     dexendareadata
 
 
@@ -26303,14 +28187,17 @@ specialareas SPECIES_CLAWITZER, DEX_NIGHT
 
 
 routesandcities SPECIES_CLAWITZER, DEX_MORNING
+    .word DEX_ROUTE_32
     dexendareadata
 
 
 routesandcities SPECIES_CLAWITZER, DEX_DAY
+    .word DEX_ROUTE_32
     dexendareadata
 
 
 routesandcities SPECIES_CLAWITZER, DEX_NIGHT
+    .word DEX_ROUTE_32
     dexendareadata
 
 
@@ -26335,10 +28222,12 @@ specialareas SPECIES_HELIOPTILE, DEX_NIGHT
 
 
 routesandcities SPECIES_HELIOPTILE, DEX_MORNING
+    .word DEX_ROUTE_46
     dexendareadata
 
 
 routesandcities SPECIES_HELIOPTILE, DEX_DAY
+    .word DEX_ROUTE_46
     dexendareadata
 
 
@@ -26367,10 +28256,12 @@ specialareas SPECIES_HELIOLISK, DEX_NIGHT
 
 
 routesandcities SPECIES_HELIOLISK, DEX_MORNING
+    .word DEX_ROUTE_46
     dexendareadata
 
 
 routesandcities SPECIES_HELIOLISK, DEX_DAY
+    .word DEX_ROUTE_46
     dexendareadata
 
 
@@ -26387,10 +28278,12 @@ routesandcities SPECIES_HELIOLISK, DEX_SPECIAL
 
 
 specialareas SPECIES_TYRUNT, DEX_MORNING
+    .word DEX_NATIONAL_PARK
     dexendareadata
 
 
 specialareas SPECIES_TYRUNT, DEX_DAY
+    .word DEX_NATIONAL_PARK
     dexendareadata
 
 
@@ -26419,10 +28312,12 @@ routesandcities SPECIES_TYRUNT, DEX_SPECIAL
 
 
 specialareas SPECIES_TYRANTRUM, DEX_MORNING
+    .word DEX_NATIONAL_PARK
     dexendareadata
 
 
 specialareas SPECIES_TYRANTRUM, DEX_DAY
+    .word DEX_NATIONAL_PARK
     dexendareadata
 
 
@@ -26451,10 +28346,12 @@ routesandcities SPECIES_TYRANTRUM, DEX_SPECIAL
 
 
 specialareas SPECIES_AMAURA, DEX_MORNING
+    .word DEX_NATIONAL_PARK
     dexendareadata
 
 
 specialareas SPECIES_AMAURA, DEX_DAY
+    .word DEX_NATIONAL_PARK
     dexendareadata
 
 
@@ -26483,10 +28380,12 @@ routesandcities SPECIES_AMAURA, DEX_SPECIAL
 
 
 specialareas SPECIES_AURORUS, DEX_MORNING
+    .word DEX_NATIONAL_PARK
     dexendareadata
 
 
 specialareas SPECIES_AURORUS, DEX_DAY
+    .word DEX_NATIONAL_PARK
     dexendareadata
 
 
@@ -26527,14 +28426,17 @@ specialareas SPECIES_SYLVEON, DEX_NIGHT
 
 
 routesandcities SPECIES_SYLVEON, DEX_MORNING
+    .word DEX_ROUTE_36
     dexendareadata
 
 
 routesandcities SPECIES_SYLVEON, DEX_DAY
+    .word DEX_ROUTE_36
     dexendareadata
 
 
 routesandcities SPECIES_SYLVEON, DEX_NIGHT
+    .word DEX_ROUTE_36
     dexendareadata
 
 
@@ -26567,6 +28469,7 @@ routesandcities SPECIES_HAWLUCHA, DEX_DAY
 
 
 routesandcities SPECIES_HAWLUCHA, DEX_NIGHT
+    .word DEX_ROUTE_42
     dexendareadata
 
 
@@ -26599,6 +28502,7 @@ routesandcities SPECIES_DEDENNE, DEX_DAY
 
 
 routesandcities SPECIES_DEDENNE, DEX_NIGHT
+    .word DEX_ROUTE_29
     dexendareadata
 
 
@@ -26619,6 +28523,7 @@ specialareas SPECIES_CARBINK, DEX_DAY
 
 
 specialareas SPECIES_CARBINK, DEX_NIGHT
+    .word DEX_UNION_CAVE
     dexendareadata
 
 
@@ -26651,6 +28556,7 @@ specialareas SPECIES_GOOMY, DEX_DAY
 
 
 specialareas SPECIES_GOOMY, DEX_NIGHT
+    .word DEX_NATIONAL_PARK
     dexendareadata
 
 
@@ -26675,14 +28581,18 @@ routesandcities SPECIES_GOOMY, DEX_SPECIAL
 
 
 specialareas SPECIES_SLIGGOO, DEX_MORNING
+    .word DEX_MT_MORTAR
     dexendareadata
 
 
 specialareas SPECIES_SLIGGOO, DEX_DAY
+    .word DEX_MT_MORTAR
     dexendareadata
 
 
 specialareas SPECIES_SLIGGOO, DEX_NIGHT
+    .word DEX_NATIONAL_PARK
+    .word DEX_MT_MORTAR
     dexendareadata
 
 
@@ -26707,14 +28617,18 @@ routesandcities SPECIES_SLIGGOO, DEX_SPECIAL
 
 
 specialareas SPECIES_GOODRA, DEX_MORNING
+    .word DEX_MT_MORTAR
     dexendareadata
 
 
 specialareas SPECIES_GOODRA, DEX_DAY
+    .word DEX_MT_MORTAR
     dexendareadata
 
 
 specialareas SPECIES_GOODRA, DEX_NIGHT
+    .word DEX_NATIONAL_PARK
+    .word DEX_MT_MORTAR
     dexendareadata
 
 
@@ -26751,14 +28665,17 @@ specialareas SPECIES_KLEFKI, DEX_NIGHT
 
 
 routesandcities SPECIES_KLEFKI, DEX_MORNING
+    .word DEX_ROUTE_43
     dexendareadata
 
 
 routesandcities SPECIES_KLEFKI, DEX_DAY
+    .word DEX_ROUTE_43
     dexendareadata
 
 
 routesandcities SPECIES_KLEFKI, DEX_NIGHT
+    .word DEX_ROUTE_43
     dexendareadata
 
 
@@ -26779,6 +28696,7 @@ specialareas SPECIES_PHANTUMP, DEX_DAY
 
 
 specialareas SPECIES_PHANTUMP, DEX_NIGHT
+    .word DEX_ILEX_FOREST
     dexendareadata
 
 
@@ -26811,6 +28729,7 @@ specialareas SPECIES_TREVENANT, DEX_DAY
 
 
 specialareas SPECIES_TREVENANT, DEX_NIGHT
+    .word DEX_ILEX_FOREST
     dexendareadata
 
 
@@ -26843,6 +28762,7 @@ specialareas SPECIES_PUMPKABOO, DEX_DAY
 
 
 specialareas SPECIES_PUMPKABOO, DEX_NIGHT
+    .word DEX_ILEX_FOREST
     dexendareadata
 
 
@@ -26875,6 +28795,7 @@ specialareas SPECIES_GOURGEIST, DEX_DAY
 
 
 specialareas SPECIES_GOURGEIST, DEX_NIGHT
+    .word DEX_ILEX_FOREST
     dexendareadata
 
 
@@ -26907,6 +28828,7 @@ specialareas SPECIES_BERGMITE, DEX_DAY
 
 
 specialareas SPECIES_BERGMITE, DEX_NIGHT
+    .word DEX_SLOWPOKE_WELL
     dexendareadata
 
 
@@ -26931,14 +28853,18 @@ routesandcities SPECIES_BERGMITE, DEX_SPECIAL
 
 
 specialareas SPECIES_AVALUGG, DEX_MORNING
+    .word DEX_ICE_PATH
     dexendareadata
 
 
 specialareas SPECIES_AVALUGG, DEX_DAY
+    .word DEX_ICE_PATH
     dexendareadata
 
 
 specialareas SPECIES_AVALUGG, DEX_NIGHT
+    .word DEX_SLOWPOKE_WELL
+    .word DEX_ICE_PATH
     dexendareadata
 
 
@@ -26963,10 +28889,12 @@ routesandcities SPECIES_AVALUGG, DEX_SPECIAL
 
 
 specialareas SPECIES_NOIBAT, DEX_MORNING
+    .word DEX_DARK_CAVE
     dexendareadata
 
 
 specialareas SPECIES_NOIBAT, DEX_DAY
+    .word DEX_DARK_CAVE
     dexendareadata
 
 
@@ -26995,10 +28923,12 @@ routesandcities SPECIES_NOIBAT, DEX_SPECIAL
 
 
 specialareas SPECIES_NOIVERN, DEX_MORNING
+    .word DEX_DARK_CAVE
     dexendareadata
 
 
 specialareas SPECIES_NOIVERN, DEX_DAY
+    .word DEX_DARK_CAVE
     dexendareadata
 
 
@@ -27039,14 +28969,17 @@ specialareas SPECIES_XERNEAS, DEX_NIGHT
 
 
 routesandcities SPECIES_XERNEAS, DEX_MORNING
+    .word DEX_ROUTE_18
     dexendareadata
 
 
 routesandcities SPECIES_XERNEAS, DEX_DAY
+    .word DEX_ROUTE_18
     dexendareadata
 
 
 routesandcities SPECIES_XERNEAS, DEX_NIGHT
+    .word DEX_ROUTE_18
     dexendareadata
 
 
@@ -27071,14 +29004,17 @@ specialareas SPECIES_YVELTAL, DEX_NIGHT
 
 
 routesandcities SPECIES_YVELTAL, DEX_MORNING
+    .word DEX_ROUTE_11
     dexendareadata
 
 
 routesandcities SPECIES_YVELTAL, DEX_DAY
+    .word DEX_ROUTE_11
     dexendareadata
 
 
 routesandcities SPECIES_YVELTAL, DEX_NIGHT
+    .word DEX_ROUTE_11
     dexendareadata
 
 
@@ -27103,14 +29039,17 @@ specialareas SPECIES_ZYGARDE, DEX_NIGHT
 
 
 routesandcities SPECIES_ZYGARDE, DEX_MORNING
+    .word DEX_ROUTE_21
     dexendareadata
 
 
 routesandcities SPECIES_ZYGARDE, DEX_DAY
+    .word DEX_ROUTE_21
     dexendareadata
 
 
 routesandcities SPECIES_ZYGARDE, DEX_NIGHT
+    .word DEX_ROUTE_21
     dexendareadata
 
 
@@ -27123,14 +29062,17 @@ routesandcities SPECIES_ZYGARDE, DEX_SPECIAL
 
 
 specialareas SPECIES_DIANCIE, DEX_MORNING
+    .word DEX_BELL_TOWER
     dexendareadata
 
 
 specialareas SPECIES_DIANCIE, DEX_DAY
+    .word DEX_BELL_TOWER
     dexendareadata
 
 
 specialareas SPECIES_DIANCIE, DEX_NIGHT
+    .word DEX_BELL_TOWER
     dexendareadata
 
 
@@ -27167,14 +29109,17 @@ specialareas SPECIES_HOOPA, DEX_NIGHT
 
 
 routesandcities SPECIES_HOOPA, DEX_MORNING
+    .word DEX_ROUTE_24
     dexendareadata
 
 
 routesandcities SPECIES_HOOPA, DEX_DAY
+    .word DEX_ROUTE_24
     dexendareadata
 
 
 routesandcities SPECIES_HOOPA, DEX_NIGHT
+    .word DEX_ROUTE_24
     dexendareadata
 
 
@@ -27187,14 +29132,17 @@ routesandcities SPECIES_HOOPA, DEX_SPECIAL
 
 
 specialareas SPECIES_VOLCANION, DEX_MORNING
+    .word DEX_WHIRL_ISLANDS
     dexendareadata
 
 
 specialareas SPECIES_VOLCANION, DEX_DAY
+    .word DEX_WHIRL_ISLANDS
     dexendareadata
 
 
 specialareas SPECIES_VOLCANION, DEX_NIGHT
+    .word DEX_WHIRL_ISLANDS
     dexendareadata
 
 
@@ -27231,6 +29179,7 @@ specialareas SPECIES_ROWLET, DEX_NIGHT
 
 
 routesandcities SPECIES_ROWLET, DEX_MORNING
+    .word DEX_ROUTE_34
     dexendareadata
 
 
@@ -27263,6 +29212,7 @@ specialareas SPECIES_DARTRIX, DEX_NIGHT
 
 
 routesandcities SPECIES_DARTRIX, DEX_MORNING
+    .word DEX_ROUTE_34
     dexendareadata
 
 
@@ -27283,18 +29233,22 @@ routesandcities SPECIES_DARTRIX, DEX_SPECIAL
 
 
 specialareas SPECIES_DECIDUEYE, DEX_MORNING
+    .word DEX_WHIRL_ISLANDS
     dexendareadata
 
 
 specialareas SPECIES_DECIDUEYE, DEX_DAY
+    .word DEX_WHIRL_ISLANDS
     dexendareadata
 
 
 specialareas SPECIES_DECIDUEYE, DEX_NIGHT
+    .word DEX_WHIRL_ISLANDS
     dexendareadata
 
 
 routesandcities SPECIES_DECIDUEYE, DEX_MORNING
+    .word DEX_ROUTE_34
     dexendareadata
 
 
@@ -27335,6 +29289,7 @@ routesandcities SPECIES_LITTEN, DEX_DAY
 
 
 routesandcities SPECIES_LITTEN, DEX_NIGHT
+    .word DEX_ROUTE_34
     dexendareadata
 
 
@@ -27367,6 +29322,7 @@ routesandcities SPECIES_TORRACAT, DEX_DAY
 
 
 routesandcities SPECIES_TORRACAT, DEX_NIGHT
+    .word DEX_ROUTE_34
     dexendareadata
 
 
@@ -27399,6 +29355,7 @@ routesandcities SPECIES_INCINEROAR, DEX_DAY
 
 
 routesandcities SPECIES_INCINEROAR, DEX_NIGHT
+    .word DEX_ROUTE_34
     dexendareadata
 
 
@@ -27427,6 +29384,7 @@ routesandcities SPECIES_POPPLIO, DEX_MORNING
 
 
 routesandcities SPECIES_POPPLIO, DEX_DAY
+    .word DEX_ROUTE_34
     dexendareadata
 
 
@@ -27459,6 +29417,7 @@ routesandcities SPECIES_BRIONNE, DEX_MORNING
 
 
 routesandcities SPECIES_BRIONNE, DEX_DAY
+    .word DEX_ROUTE_34
     dexendareadata
 
 
@@ -27491,6 +29450,7 @@ routesandcities SPECIES_PRIMARINA, DEX_MORNING
 
 
 routesandcities SPECIES_PRIMARINA, DEX_DAY
+    .word DEX_ROUTE_34
     dexendareadata
 
 
@@ -27519,10 +29479,12 @@ specialareas SPECIES_PIKIPEK, DEX_NIGHT
 
 
 routesandcities SPECIES_PIKIPEK, DEX_MORNING
+    .word DEX_ROUTE_31
     dexendareadata
 
 
 routesandcities SPECIES_PIKIPEK, DEX_DAY
+    .word DEX_ROUTE_31
     dexendareadata
 
 
@@ -27551,10 +29513,12 @@ specialareas SPECIES_TRUMBEAK, DEX_NIGHT
 
 
 routesandcities SPECIES_TRUMBEAK, DEX_MORNING
+    .word DEX_ROUTE_31
     dexendareadata
 
 
 routesandcities SPECIES_TRUMBEAK, DEX_DAY
+    .word DEX_ROUTE_31
     dexendareadata
 
 
@@ -27583,10 +29547,12 @@ specialareas SPECIES_TOUCANNON, DEX_NIGHT
 
 
 routesandcities SPECIES_TOUCANNON, DEX_MORNING
+    .word DEX_ROUTE_31
     dexendareadata
 
 
 routesandcities SPECIES_TOUCANNON, DEX_DAY
+    .word DEX_ROUTE_31
     dexendareadata
 
 
@@ -27611,6 +29577,7 @@ specialareas SPECIES_YUNGOOS, DEX_DAY
 
 
 specialareas SPECIES_YUNGOOS, DEX_NIGHT
+    .word DEX_SPROUT_TOWER
     dexendareadata
 
 
@@ -27643,6 +29610,7 @@ specialareas SPECIES_GUMSHOOS, DEX_DAY
 
 
 specialareas SPECIES_GUMSHOOS, DEX_NIGHT
+    .word DEX_SPROUT_TOWER
     dexendareadata
 
 
@@ -27679,10 +29647,12 @@ specialareas SPECIES_GRUBBIN, DEX_NIGHT
 
 
 routesandcities SPECIES_GRUBBIN, DEX_MORNING
+    .word DEX_ROUTE_30
     dexendareadata
 
 
 routesandcities SPECIES_GRUBBIN, DEX_DAY
+    .word DEX_ROUTE_30
     dexendareadata
 
 
@@ -27711,10 +29681,12 @@ specialareas SPECIES_CHARJABUG, DEX_NIGHT
 
 
 routesandcities SPECIES_CHARJABUG, DEX_MORNING
+    .word DEX_ROUTE_30
     dexendareadata
 
 
 routesandcities SPECIES_CHARJABUG, DEX_DAY
+    .word DEX_ROUTE_30
     dexendareadata
 
 
@@ -27743,10 +29715,12 @@ specialareas SPECIES_VIKAVOLT, DEX_NIGHT
 
 
 routesandcities SPECIES_VIKAVOLT, DEX_MORNING
+    .word DEX_ROUTE_30
     dexendareadata
 
 
 routesandcities SPECIES_VIKAVOLT, DEX_DAY
+    .word DEX_ROUTE_30
     dexendareadata
 
 
@@ -27775,14 +29749,17 @@ specialareas SPECIES_CRABRAWLER, DEX_NIGHT
 
 
 routesandcities SPECIES_CRABRAWLER, DEX_MORNING
+    .word DEX_OLIVINE_CITY
     dexendareadata
 
 
 routesandcities SPECIES_CRABRAWLER, DEX_DAY
+    .word DEX_OLIVINE_CITY
     dexendareadata
 
 
 routesandcities SPECIES_CRABRAWLER, DEX_NIGHT
+    .word DEX_OLIVINE_CITY
     dexendareadata
 
 
@@ -27807,14 +29784,17 @@ specialareas SPECIES_CRABOMINABLE, DEX_NIGHT
 
 
 routesandcities SPECIES_CRABOMINABLE, DEX_MORNING
+    .word DEX_OLIVINE_CITY
     dexendareadata
 
 
 routesandcities SPECIES_CRABOMINABLE, DEX_DAY
+    .word DEX_OLIVINE_CITY
     dexendareadata
 
 
 routesandcities SPECIES_CRABOMINABLE, DEX_NIGHT
+    .word DEX_OLIVINE_CITY
     dexendareadata
 
 
@@ -27839,6 +29819,7 @@ specialareas SPECIES_ORICORIO, DEX_NIGHT
 
 
 routesandcities SPECIES_ORICORIO, DEX_MORNING
+    .word DEX_ROUTE_31
     dexendareadata
 
 
@@ -27871,10 +29852,12 @@ specialareas SPECIES_CUTIEFLY, DEX_NIGHT
 
 
 routesandcities SPECIES_CUTIEFLY, DEX_MORNING
+    .word DEX_ROUTE_31
     dexendareadata
 
 
 routesandcities SPECIES_CUTIEFLY, DEX_DAY
+    .word DEX_ROUTE_31
     dexendareadata
 
 
@@ -27903,10 +29886,12 @@ specialareas SPECIES_RIBOMBEE, DEX_NIGHT
 
 
 routesandcities SPECIES_RIBOMBEE, DEX_MORNING
+    .word DEX_ROUTE_31
     dexendareadata
 
 
 routesandcities SPECIES_RIBOMBEE, DEX_DAY
+    .word DEX_ROUTE_31
     dexendareadata
 
 
@@ -27935,14 +29920,17 @@ specialareas SPECIES_ROCKRUFF, DEX_NIGHT
 
 
 routesandcities SPECIES_ROCKRUFF, DEX_MORNING
+    .word DEX_ROUTE_33
     dexendareadata
 
 
 routesandcities SPECIES_ROCKRUFF, DEX_DAY
+    .word DEX_ROUTE_33
     dexendareadata
 
 
 routesandcities SPECIES_ROCKRUFF, DEX_NIGHT
+    .word DEX_ROUTE_33
     dexendareadata
 
 
@@ -27955,14 +29943,17 @@ routesandcities SPECIES_ROCKRUFF, DEX_SPECIAL
 
 
 specialareas SPECIES_LYCANROC, DEX_MORNING
+    .word DEX_DIGLETTS_CAVE
     dexendareadata
 
 
 specialareas SPECIES_LYCANROC, DEX_DAY
+    .word DEX_DIGLETTS_CAVE
     dexendareadata
 
 
 specialareas SPECIES_LYCANROC, DEX_NIGHT
+    .word DEX_DIGLETTS_CAVE
     dexendareadata
 
 
@@ -27999,14 +29990,17 @@ specialareas SPECIES_WISHIWASHI, DEX_NIGHT
 
 
 routesandcities SPECIES_WISHIWASHI, DEX_MORNING
+    .word DEX_ROUTE_30
     dexendareadata
 
 
 routesandcities SPECIES_WISHIWASHI, DEX_DAY
+    .word DEX_ROUTE_30
     dexendareadata
 
 
 routesandcities SPECIES_WISHIWASHI, DEX_NIGHT
+    .word DEX_ROUTE_30
     dexendareadata
 
 
@@ -28031,14 +30025,17 @@ specialareas SPECIES_MAREANIE, DEX_NIGHT
 
 
 routesandcities SPECIES_MAREANIE, DEX_MORNING
+    .word DEX_CIANWOOD_CITY
     dexendareadata
 
 
 routesandcities SPECIES_MAREANIE, DEX_DAY
+    .word DEX_CIANWOOD_CITY
     dexendareadata
 
 
 routesandcities SPECIES_MAREANIE, DEX_NIGHT
+    .word DEX_CIANWOOD_CITY
     dexendareadata
 
 
@@ -28063,14 +30060,17 @@ specialareas SPECIES_TOXAPEX, DEX_NIGHT
 
 
 routesandcities SPECIES_TOXAPEX, DEX_MORNING
+    .word DEX_CIANWOOD_CITY
     dexendareadata
 
 
 routesandcities SPECIES_TOXAPEX, DEX_DAY
+    .word DEX_CIANWOOD_CITY
     dexendareadata
 
 
 routesandcities SPECIES_TOXAPEX, DEX_NIGHT
+    .word DEX_CIANWOOD_CITY
     dexendareadata
 
 
@@ -28095,14 +30095,17 @@ specialareas SPECIES_MUDBRAY, DEX_NIGHT
 
 
 routesandcities SPECIES_MUDBRAY, DEX_MORNING
+    .word DEX_ROUTE_39
     dexendareadata
 
 
 routesandcities SPECIES_MUDBRAY, DEX_DAY
+    .word DEX_ROUTE_39
     dexendareadata
 
 
 routesandcities SPECIES_MUDBRAY, DEX_NIGHT
+    .word DEX_ROUTE_39
     dexendareadata
 
 
@@ -28127,14 +30130,17 @@ specialareas SPECIES_MUDSDALE, DEX_NIGHT
 
 
 routesandcities SPECIES_MUDSDALE, DEX_MORNING
+    .word DEX_ROUTE_39
     dexendareadata
 
 
 routesandcities SPECIES_MUDSDALE, DEX_DAY
+    .word DEX_ROUTE_39
     dexendareadata
 
 
 routesandcities SPECIES_MUDSDALE, DEX_NIGHT
+    .word DEX_ROUTE_39
     dexendareadata
 
 
@@ -28159,10 +30165,12 @@ specialareas SPECIES_DEWPIDER, DEX_NIGHT
 
 
 routesandcities SPECIES_DEWPIDER, DEX_MORNING
+    .word DEX_ROUTE_31
     dexendareadata
 
 
 routesandcities SPECIES_DEWPIDER, DEX_DAY
+    .word DEX_ROUTE_31
     dexendareadata
 
 
@@ -28191,10 +30199,12 @@ specialareas SPECIES_ARAQUANID, DEX_NIGHT
 
 
 routesandcities SPECIES_ARAQUANID, DEX_MORNING
+    .word DEX_ROUTE_31
     dexendareadata
 
 
 routesandcities SPECIES_ARAQUANID, DEX_DAY
+    .word DEX_ROUTE_31
     dexendareadata
 
 
@@ -28231,6 +30241,7 @@ routesandcities SPECIES_FOMANTIS, DEX_DAY
 
 
 routesandcities SPECIES_FOMANTIS, DEX_NIGHT
+    .word DEX_ROUTE_46
     dexendareadata
 
 
@@ -28263,6 +30274,7 @@ routesandcities SPECIES_LURANTIS, DEX_DAY
 
 
 routesandcities SPECIES_LURANTIS, DEX_NIGHT
+    .word DEX_ROUTE_46
     dexendareadata
 
 
@@ -28295,6 +30307,7 @@ routesandcities SPECIES_MORELULL, DEX_DAY
 
 
 routesandcities SPECIES_MORELULL, DEX_NIGHT
+    .word DEX_ROUTE_30
     dexendareadata
 
 
@@ -28327,6 +30340,7 @@ routesandcities SPECIES_SHIINOTIC, DEX_DAY
 
 
 routesandcities SPECIES_SHIINOTIC, DEX_NIGHT
+    .word DEX_ROUTE_30
     dexendareadata
 
 
@@ -28351,14 +30365,17 @@ specialareas SPECIES_SALANDIT, DEX_NIGHT
 
 
 routesandcities SPECIES_SALANDIT, DEX_MORNING
+    .word DEX_ROUTE_36
     dexendareadata
 
 
 routesandcities SPECIES_SALANDIT, DEX_DAY
+    .word DEX_ROUTE_36
     dexendareadata
 
 
 routesandcities SPECIES_SALANDIT, DEX_NIGHT
+    .word DEX_ROUTE_36
     dexendareadata
 
 
@@ -28383,14 +30400,17 @@ specialareas SPECIES_SALAZZLE, DEX_NIGHT
 
 
 routesandcities SPECIES_SALAZZLE, DEX_MORNING
+    .word DEX_ROUTE_36
     dexendareadata
 
 
 routesandcities SPECIES_SALAZZLE, DEX_DAY
+    .word DEX_ROUTE_36
     dexendareadata
 
 
 routesandcities SPECIES_SALAZZLE, DEX_NIGHT
+    .word DEX_ROUTE_36
     dexendareadata
 
 
@@ -28415,10 +30435,12 @@ specialareas SPECIES_STUFFUL, DEX_NIGHT
 
 
 routesandcities SPECIES_STUFFUL, DEX_MORNING
+    .word DEX_ROUTE_39
     dexendareadata
 
 
 routesandcities SPECIES_STUFFUL, DEX_DAY
+    .word DEX_ROUTE_39
     dexendareadata
 
 
@@ -28447,10 +30469,12 @@ specialareas SPECIES_BEWEAR, DEX_NIGHT
 
 
 routesandcities SPECIES_BEWEAR, DEX_MORNING
+    .word DEX_ROUTE_39
     dexendareadata
 
 
 routesandcities SPECIES_BEWEAR, DEX_DAY
+    .word DEX_ROUTE_39
     dexendareadata
 
 
@@ -28479,6 +30503,7 @@ specialareas SPECIES_BOUNSWEET, DEX_NIGHT
 
 
 routesandcities SPECIES_BOUNSWEET, DEX_MORNING
+    .word DEX_ROUTE_29
     dexendareadata
 
 
@@ -28511,6 +30536,7 @@ specialareas SPECIES_STEENEE, DEX_NIGHT
 
 
 routesandcities SPECIES_STEENEE, DEX_MORNING
+    .word DEX_ROUTE_29
     dexendareadata
 
 
@@ -28543,6 +30569,7 @@ specialareas SPECIES_TSAREENA, DEX_NIGHT
 
 
 routesandcities SPECIES_TSAREENA, DEX_MORNING
+    .word DEX_ROUTE_29
     dexendareadata
 
 
@@ -28575,10 +30602,12 @@ specialareas SPECIES_COMFEY, DEX_NIGHT
 
 
 routesandcities SPECIES_COMFEY, DEX_MORNING
+    .word DEX_ROUTE_32
     dexendareadata
 
 
 routesandcities SPECIES_COMFEY, DEX_DAY
+    .word DEX_ROUTE_32
     dexendareadata
 
 
@@ -28607,10 +30636,12 @@ specialareas SPECIES_ORANGURU, DEX_NIGHT
 
 
 routesandcities SPECIES_ORANGURU, DEX_MORNING
+    .word DEX_ROUTE_48
     dexendareadata
 
 
 routesandcities SPECIES_ORANGURU, DEX_DAY
+    .word DEX_ROUTE_48
     dexendareadata
 
 
@@ -28647,6 +30678,7 @@ routesandcities SPECIES_PASSIMIAN, DEX_DAY
 
 
 routesandcities SPECIES_PASSIMIAN, DEX_NIGHT
+    .word DEX_ROUTE_31
     dexendareadata
 
 
@@ -28679,6 +30711,7 @@ routesandcities SPECIES_WIMPOD, DEX_DAY
 
 
 routesandcities SPECIES_WIMPOD, DEX_NIGHT
+    .word DEX_ROUTE_31
     dexendareadata
 
 
@@ -28711,6 +30744,7 @@ routesandcities SPECIES_GOLISOPOD, DEX_DAY
 
 
 routesandcities SPECIES_GOLISOPOD, DEX_NIGHT
+    .word DEX_ROUTE_31
     dexendareadata
 
 
@@ -28739,6 +30773,7 @@ routesandcities SPECIES_SANDYGAST, DEX_MORNING
 
 
 routesandcities SPECIES_SANDYGAST, DEX_DAY
+    .word DEX_ROUTE_31
     dexendareadata
 
 
@@ -28771,6 +30806,7 @@ routesandcities SPECIES_PALOSSAND, DEX_MORNING
 
 
 routesandcities SPECIES_PALOSSAND, DEX_DAY
+    .word DEX_ROUTE_31
     dexendareadata
 
 
@@ -28799,14 +30835,17 @@ specialareas SPECIES_PYUKUMUKU, DEX_NIGHT
 
 
 routesandcities SPECIES_PYUKUMUKU, DEX_MORNING
+    .word DEX_CHERRYGROVE_CITY
     dexendareadata
 
 
 routesandcities SPECIES_PYUKUMUKU, DEX_DAY
+    .word DEX_CHERRYGROVE_CITY
     dexendareadata
 
 
 routesandcities SPECIES_PYUKUMUKU, DEX_NIGHT
+    .word DEX_CHERRYGROVE_CITY
     dexendareadata
 
 
@@ -28831,14 +30870,17 @@ specialareas SPECIES_TYPE_NULL, DEX_NIGHT
 
 
 routesandcities SPECIES_TYPE_NULL, DEX_MORNING
+    .word DEX_ROUTE_6
     dexendareadata
 
 
 routesandcities SPECIES_TYPE_NULL, DEX_DAY
+    .word DEX_ROUTE_6
     dexendareadata
 
 
 routesandcities SPECIES_TYPE_NULL, DEX_NIGHT
+    .word DEX_ROUTE_6
     dexendareadata
 
 
@@ -28863,14 +30905,17 @@ specialareas SPECIES_SILVALLY, DEX_NIGHT
 
 
 routesandcities SPECIES_SILVALLY, DEX_MORNING
+    .word DEX_ROUTE_6
     dexendareadata
 
 
 routesandcities SPECIES_SILVALLY, DEX_DAY
+    .word DEX_ROUTE_6
     dexendareadata
 
 
 routesandcities SPECIES_SILVALLY, DEX_NIGHT
+    .word DEX_ROUTE_6
     dexendareadata
 
 
@@ -28899,6 +30944,7 @@ routesandcities SPECIES_MINIOR, DEX_MORNING
 
 
 routesandcities SPECIES_MINIOR, DEX_DAY
+    .word DEX_ROUTE_30
     dexendareadata
 
 
@@ -28927,6 +30973,7 @@ specialareas SPECIES_KOMALA, DEX_NIGHT
 
 
 routesandcities SPECIES_KOMALA, DEX_MORNING
+    .word DEX_ROUTE_30
     dexendareadata
 
 
@@ -28967,6 +31014,7 @@ routesandcities SPECIES_TURTONATOR, DEX_DAY
 
 
 routesandcities SPECIES_TURTONATOR, DEX_NIGHT
+    .word DEX_ROUTE_47
     dexendareadata
 
 
@@ -28999,6 +31047,7 @@ routesandcities SPECIES_TOGEDEMARU, DEX_DAY
 
 
 routesandcities SPECIES_TOGEDEMARU, DEX_NIGHT
+    .word DEX_ROUTE_42
     dexendareadata
 
 
@@ -29019,6 +31068,7 @@ specialareas SPECIES_MIMIKYU, DEX_DAY
 
 
 specialareas SPECIES_MIMIKYU, DEX_NIGHT
+    .word DEX_SPROUT_TOWER
     dexendareadata
 
 
@@ -29063,6 +31113,7 @@ routesandcities SPECIES_BRUXISH, DEX_DAY
 
 
 routesandcities SPECIES_BRUXISH, DEX_NIGHT
+    .word DEX_ROUTE_48
     dexendareadata
 
 
@@ -29095,6 +31146,7 @@ routesandcities SPECIES_DRAMPA, DEX_DAY
 
 
 routesandcities SPECIES_DRAMPA, DEX_NIGHT
+    .word DEX_ROUTE_48
     dexendareadata
 
 
@@ -29127,6 +31179,7 @@ routesandcities SPECIES_DHELMISE, DEX_DAY
 
 
 routesandcities SPECIES_DHELMISE, DEX_NIGHT
+    .word DEX_ROUTE_42
     dexendareadata
 
 
@@ -29147,6 +31200,7 @@ specialareas SPECIES_JANGMO_O, DEX_DAY
 
 
 specialareas SPECIES_JANGMO_O, DEX_NIGHT
+    .word DEX_NATIONAL_PARK
     dexendareadata
 
 
@@ -29179,6 +31233,7 @@ specialareas SPECIES_HAKAMO_O, DEX_DAY
 
 
 specialareas SPECIES_HAKAMO_O, DEX_NIGHT
+    .word DEX_NATIONAL_PARK
     dexendareadata
 
 
@@ -29211,6 +31266,7 @@ specialareas SPECIES_KOMMO_O, DEX_DAY
 
 
 specialareas SPECIES_KOMMO_O, DEX_NIGHT
+    .word DEX_NATIONAL_PARK
     dexendareadata
 
 
@@ -29247,14 +31303,17 @@ specialareas SPECIES_TAPU_KOKO, DEX_NIGHT
 
 
 routesandcities SPECIES_TAPU_KOKO, DEX_MORNING
+    .word DEX_ROUTE_28
     dexendareadata
 
 
 routesandcities SPECIES_TAPU_KOKO, DEX_DAY
+    .word DEX_ROUTE_28
     dexendareadata
 
 
 routesandcities SPECIES_TAPU_KOKO, DEX_NIGHT
+    .word DEX_ROUTE_28
     dexendareadata
 
 
@@ -29279,14 +31338,17 @@ specialareas SPECIES_TAPU_LELE, DEX_NIGHT
 
 
 routesandcities SPECIES_TAPU_LELE, DEX_MORNING
+    .word DEX_ROUTE_5
     dexendareadata
 
 
 routesandcities SPECIES_TAPU_LELE, DEX_DAY
+    .word DEX_ROUTE_5
     dexendareadata
 
 
 routesandcities SPECIES_TAPU_LELE, DEX_NIGHT
+    .word DEX_ROUTE_5
     dexendareadata
 
 
@@ -29311,14 +31373,17 @@ specialareas SPECIES_TAPU_BULU, DEX_NIGHT
 
 
 routesandcities SPECIES_TAPU_BULU, DEX_MORNING
+    .word DEX_ROUTE_4
     dexendareadata
 
 
 routesandcities SPECIES_TAPU_BULU, DEX_DAY
+    .word DEX_ROUTE_4
     dexendareadata
 
 
 routesandcities SPECIES_TAPU_BULU, DEX_NIGHT
+    .word DEX_ROUTE_4
     dexendareadata
 
 
@@ -29343,14 +31408,17 @@ specialareas SPECIES_TAPU_FINI, DEX_NIGHT
 
 
 routesandcities SPECIES_TAPU_FINI, DEX_MORNING
+    .word DEX_ROUTE_4
     dexendareadata
 
 
 routesandcities SPECIES_TAPU_FINI, DEX_DAY
+    .word DEX_ROUTE_4
     dexendareadata
 
 
 routesandcities SPECIES_TAPU_FINI, DEX_NIGHT
+    .word DEX_ROUTE_4
     dexendareadata
 
 
@@ -29363,14 +31431,17 @@ routesandcities SPECIES_TAPU_FINI, DEX_SPECIAL
 
 
 specialareas SPECIES_COSMOG, DEX_MORNING
+    .word DEX_MT_MOON
     dexendareadata
 
 
 specialareas SPECIES_COSMOG, DEX_DAY
+    .word DEX_MT_MOON
     dexendareadata
 
 
 specialareas SPECIES_COSMOG, DEX_NIGHT
+    .word DEX_MT_MOON
     dexendareadata
 
 
@@ -29395,14 +31466,17 @@ routesandcities SPECIES_COSMOG, DEX_SPECIAL
 
 
 specialareas SPECIES_COSMOEM, DEX_MORNING
+    .word DEX_MT_MOON
     dexendareadata
 
 
 specialareas SPECIES_COSMOEM, DEX_DAY
+    .word DEX_MT_MOON
     dexendareadata
 
 
 specialareas SPECIES_COSMOEM, DEX_NIGHT
+    .word DEX_MT_MOON
     dexendareadata
 
 
@@ -29427,14 +31501,17 @@ routesandcities SPECIES_COSMOEM, DEX_SPECIAL
 
 
 specialareas SPECIES_SOLGALEO, DEX_MORNING
+    .word DEX_MT_MOON
     dexendareadata
 
 
 specialareas SPECIES_SOLGALEO, DEX_DAY
+    .word DEX_MT_MOON
     dexendareadata
 
 
 specialareas SPECIES_SOLGALEO, DEX_NIGHT
+    .word DEX_MT_MOON
     dexendareadata
 
 
@@ -29459,14 +31536,17 @@ routesandcities SPECIES_SOLGALEO, DEX_SPECIAL
 
 
 specialareas SPECIES_LUNALA, DEX_MORNING
+    .word DEX_MT_MOON
     dexendareadata
 
 
 specialareas SPECIES_LUNALA, DEX_DAY
+    .word DEX_MT_MOON
     dexendareadata
 
 
 specialareas SPECIES_LUNALA, DEX_NIGHT
+    .word DEX_MT_MOON
     dexendareadata
 
 
@@ -29491,14 +31571,17 @@ routesandcities SPECIES_LUNALA, DEX_SPECIAL
 
 
 specialareas SPECIES_NIHILEGO, DEX_MORNING
+    .word DEX_VICTORY_ROAD
     dexendareadata
 
 
 specialareas SPECIES_NIHILEGO, DEX_DAY
+    .word DEX_VICTORY_ROAD
     dexendareadata
 
 
 specialareas SPECIES_NIHILEGO, DEX_NIGHT
+    .word DEX_VICTORY_ROAD
     dexendareadata
 
 
@@ -29523,14 +31606,17 @@ routesandcities SPECIES_NIHILEGO, DEX_SPECIAL
 
 
 specialareas SPECIES_BUZZWOLE, DEX_MORNING
+    .word DEX_VIRIDIAN_FOREST
     dexendareadata
 
 
 specialareas SPECIES_BUZZWOLE, DEX_DAY
+    .word DEX_VIRIDIAN_FOREST
     dexendareadata
 
 
 specialareas SPECIES_BUZZWOLE, DEX_NIGHT
+    .word DEX_VIRIDIAN_FOREST
     dexendareadata
 
 
@@ -29567,14 +31653,17 @@ specialareas SPECIES_PHEROMOSA, DEX_NIGHT
 
 
 routesandcities SPECIES_PHEROMOSA, DEX_MORNING
+    .word DEX_ROUTE_2_2
     dexendareadata
 
 
 routesandcities SPECIES_PHEROMOSA, DEX_DAY
+    .word DEX_ROUTE_2_2
     dexendareadata
 
 
 routesandcities SPECIES_PHEROMOSA, DEX_NIGHT
+    .word DEX_ROUTE_2_2
     dexendareadata
 
 
@@ -29599,14 +31688,17 @@ specialareas SPECIES_XURKITREE, DEX_NIGHT
 
 
 routesandcities SPECIES_XURKITREE, DEX_MORNING
+    .word DEX_ROUTE_8
     dexendareadata
 
 
 routesandcities SPECIES_XURKITREE, DEX_DAY
+    .word DEX_ROUTE_8
     dexendareadata
 
 
 routesandcities SPECIES_XURKITREE, DEX_NIGHT
+    .word DEX_ROUTE_8
     dexendareadata
 
 
@@ -29619,14 +31711,17 @@ routesandcities SPECIES_XURKITREE, DEX_SPECIAL
 
 
 specialareas SPECIES_CELESTEELA, DEX_MORNING
+    .word DEX_MT_SILVER_CAVE
     dexendareadata
 
 
 specialareas SPECIES_CELESTEELA, DEX_DAY
+    .word DEX_MT_SILVER_CAVE
     dexendareadata
 
 
 specialareas SPECIES_CELESTEELA, DEX_NIGHT
+    .word DEX_MT_SILVER_CAVE
     dexendareadata
 
 
@@ -29651,14 +31746,17 @@ routesandcities SPECIES_CELESTEELA, DEX_SPECIAL
 
 
 specialareas SPECIES_KARTANA, DEX_MORNING
+    .word DEX_TOHJO_FALLS
     dexendareadata
 
 
 specialareas SPECIES_KARTANA, DEX_DAY
+    .word DEX_TOHJO_FALLS
     dexendareadata
 
 
 specialareas SPECIES_KARTANA, DEX_NIGHT
+    .word DEX_TOHJO_FALLS
     dexendareadata
 
 
@@ -29683,14 +31781,17 @@ routesandcities SPECIES_KARTANA, DEX_SPECIAL
 
 
 specialareas SPECIES_GUZZLORD, DEX_MORNING
+    .word DEX_BELL_TOWER
     dexendareadata
 
 
 specialareas SPECIES_GUZZLORD, DEX_DAY
+    .word DEX_BELL_TOWER
     dexendareadata
 
 
 specialareas SPECIES_GUZZLORD, DEX_NIGHT
+    .word DEX_BELL_TOWER
     dexendareadata
 
 
@@ -29715,14 +31816,17 @@ routesandcities SPECIES_GUZZLORD, DEX_SPECIAL
 
 
 specialareas SPECIES_NECROZMA, DEX_MORNING
+    .word DEX_SEAFOAM_ISLANDS
     dexendareadata
 
 
 specialareas SPECIES_NECROZMA, DEX_DAY
+    .word DEX_SEAFOAM_ISLANDS
     dexendareadata
 
 
 specialareas SPECIES_NECROZMA, DEX_NIGHT
+    .word DEX_SEAFOAM_ISLANDS
     dexendareadata
 
 
@@ -29747,14 +31851,17 @@ routesandcities SPECIES_NECROZMA, DEX_SPECIAL
 
 
 specialareas SPECIES_MAGEARNA, DEX_MORNING
+    .word DEX_BELL_TOWER
     dexendareadata
 
 
 specialareas SPECIES_MAGEARNA, DEX_DAY
+    .word DEX_BELL_TOWER
     dexendareadata
 
 
 specialareas SPECIES_MAGEARNA, DEX_NIGHT
+    .word DEX_BELL_TOWER
     dexendareadata
 
 
@@ -29791,14 +31898,17 @@ specialareas SPECIES_MARSHADOW, DEX_NIGHT
 
 
 routesandcities SPECIES_MARSHADOW, DEX_MORNING
+    .word DEX_ROUTE_25
     dexendareadata
 
 
 routesandcities SPECIES_MARSHADOW, DEX_DAY
+    .word DEX_ROUTE_25
     dexendareadata
 
 
 routesandcities SPECIES_MARSHADOW, DEX_NIGHT
+    .word DEX_ROUTE_25
     dexendareadata
 
 
@@ -29823,14 +31933,17 @@ specialareas SPECIES_POIPOLE, DEX_NIGHT
 
 
 routesandcities SPECIES_POIPOLE, DEX_MORNING
+    .word DEX_MT_SILVER
     dexendareadata
 
 
 routesandcities SPECIES_POIPOLE, DEX_DAY
+    .word DEX_MT_SILVER
     dexendareadata
 
 
 routesandcities SPECIES_POIPOLE, DEX_NIGHT
+    .word DEX_MT_SILVER
     dexendareadata
 
 
@@ -29855,14 +31968,17 @@ specialareas SPECIES_NAGANADEL, DEX_NIGHT
 
 
 routesandcities SPECIES_NAGANADEL, DEX_MORNING
+    .word DEX_MT_SILVER
     dexendareadata
 
 
 routesandcities SPECIES_NAGANADEL, DEX_DAY
+    .word DEX_MT_SILVER
     dexendareadata
 
 
 routesandcities SPECIES_NAGANADEL, DEX_NIGHT
+    .word DEX_MT_SILVER
     dexendareadata
 
 
@@ -29887,14 +32003,17 @@ specialareas SPECIES_STAKATAKA, DEX_NIGHT
 
 
 routesandcities SPECIES_STAKATAKA, DEX_MORNING
+    .word DEX_ROUTE_28
     dexendareadata
 
 
 routesandcities SPECIES_STAKATAKA, DEX_DAY
+    .word DEX_ROUTE_28
     dexendareadata
 
 
 routesandcities SPECIES_STAKATAKA, DEX_NIGHT
+    .word DEX_ROUTE_28
     dexendareadata
 
 
@@ -29907,14 +32026,17 @@ routesandcities SPECIES_STAKATAKA, DEX_SPECIAL
 
 
 specialareas SPECIES_BLACEPHALON, DEX_MORNING
+    .word DEX_CERULEAN_CAVE
     dexendareadata
 
 
 specialareas SPECIES_BLACEPHALON, DEX_DAY
+    .word DEX_CERULEAN_CAVE
     dexendareadata
 
 
 specialareas SPECIES_BLACEPHALON, DEX_NIGHT
+    .word DEX_CERULEAN_CAVE
     dexendareadata
 
 
@@ -29951,14 +32073,17 @@ specialareas SPECIES_ZERAORA, DEX_NIGHT
 
 
 routesandcities SPECIES_ZERAORA, DEX_MORNING
+    .word DEX_ROUTE_21
     dexendareadata
 
 
 routesandcities SPECIES_ZERAORA, DEX_DAY
+    .word DEX_ROUTE_21
     dexendareadata
 
 
 routesandcities SPECIES_ZERAORA, DEX_NIGHT
+    .word DEX_ROUTE_21
     dexendareadata
 
 
@@ -29971,14 +32096,17 @@ routesandcities SPECIES_ZERAORA, DEX_SPECIAL
 
 
 specialareas SPECIES_MELTAN, DEX_MORNING
+    .word DEX_DIGLETTS_CAVE
     dexendareadata
 
 
 specialareas SPECIES_MELTAN, DEX_DAY
+    .word DEX_DIGLETTS_CAVE
     dexendareadata
 
 
 specialareas SPECIES_MELTAN, DEX_NIGHT
+    .word DEX_DIGLETTS_CAVE
     dexendareadata
 
 
@@ -30003,14 +32131,17 @@ routesandcities SPECIES_MELTAN, DEX_SPECIAL
 
 
 specialareas SPECIES_MELMETAL, DEX_MORNING
+    .word DEX_DIGLETTS_CAVE
     dexendareadata
 
 
 specialareas SPECIES_MELMETAL, DEX_DAY
+    .word DEX_DIGLETTS_CAVE
     dexendareadata
 
 
 specialareas SPECIES_MELMETAL, DEX_NIGHT
+    .word DEX_DIGLETTS_CAVE
     dexendareadata
 
 
@@ -30047,6 +32178,7 @@ specialareas SPECIES_GROOKEY, DEX_NIGHT
 
 
 routesandcities SPECIES_GROOKEY, DEX_MORNING
+    .word DEX_ROUTE_34
     dexendareadata
 
 
@@ -30079,6 +32211,7 @@ specialareas SPECIES_THWACKEY, DEX_NIGHT
 
 
 routesandcities SPECIES_THWACKEY, DEX_MORNING
+    .word DEX_ROUTE_34
     dexendareadata
 
 
@@ -30111,6 +32244,7 @@ specialareas SPECIES_RILLABOOM, DEX_NIGHT
 
 
 routesandcities SPECIES_RILLABOOM, DEX_MORNING
+    .word DEX_ROUTE_34
     dexendareadata
 
 
@@ -30151,6 +32285,7 @@ routesandcities SPECIES_SCORBUNNY, DEX_DAY
 
 
 routesandcities SPECIES_SCORBUNNY, DEX_NIGHT
+    .word DEX_ROUTE_34
     dexendareadata
 
 
@@ -30183,6 +32318,7 @@ routesandcities SPECIES_RABOOT, DEX_DAY
 
 
 routesandcities SPECIES_RABOOT, DEX_NIGHT
+    .word DEX_ROUTE_34
     dexendareadata
 
 
@@ -30215,6 +32351,7 @@ routesandcities SPECIES_CINDERACE, DEX_DAY
 
 
 routesandcities SPECIES_CINDERACE, DEX_NIGHT
+    .word DEX_ROUTE_34
     dexendareadata
 
 
@@ -30243,6 +32380,7 @@ routesandcities SPECIES_SOBBLE, DEX_MORNING
 
 
 routesandcities SPECIES_SOBBLE, DEX_DAY
+    .word DEX_ROUTE_34
     dexendareadata
 
 
@@ -30275,6 +32413,7 @@ routesandcities SPECIES_DRIZZILE, DEX_MORNING
 
 
 routesandcities SPECIES_DRIZZILE, DEX_DAY
+    .word DEX_ROUTE_34
     dexendareadata
 
 
@@ -30307,6 +32446,7 @@ routesandcities SPECIES_INTELEON, DEX_MORNING
 
 
 routesandcities SPECIES_INTELEON, DEX_DAY
+    .word DEX_ROUTE_34
     dexendareadata
 
 
@@ -30343,6 +32483,7 @@ routesandcities SPECIES_SKWOVET, DEX_DAY
 
 
 routesandcities SPECIES_SKWOVET, DEX_NIGHT
+    .word DEX_ROUTE_31
     dexendareadata
 
 
@@ -30375,6 +32516,7 @@ routesandcities SPECIES_GREEDENT, DEX_DAY
 
 
 routesandcities SPECIES_GREEDENT, DEX_NIGHT
+    .word DEX_ROUTE_31
     dexendareadata
 
 
@@ -30407,6 +32549,7 @@ routesandcities SPECIES_ROOKIDEE, DEX_DAY
 
 
 routesandcities SPECIES_ROOKIDEE, DEX_NIGHT
+    .word DEX_ROUTE_32
     dexendareadata
 
 
@@ -30439,6 +32582,7 @@ routesandcities SPECIES_CORVISQUIRE, DEX_DAY
 
 
 routesandcities SPECIES_CORVISQUIRE, DEX_NIGHT
+    .word DEX_ROUTE_32
     dexendareadata
 
 
@@ -30471,6 +32615,7 @@ routesandcities SPECIES_CORVIKNIGHT, DEX_DAY
 
 
 routesandcities SPECIES_CORVIKNIGHT, DEX_NIGHT
+    .word DEX_ROUTE_32
     dexendareadata
 
 
@@ -30503,6 +32648,7 @@ routesandcities SPECIES_BLIPBUG, DEX_DAY
 
 
 routesandcities SPECIES_BLIPBUG, DEX_NIGHT
+    .word DEX_ROUTE_30
     dexendareadata
 
 
@@ -30535,6 +32681,7 @@ routesandcities SPECIES_DOTTLER, DEX_DAY
 
 
 routesandcities SPECIES_DOTTLER, DEX_NIGHT
+    .word DEX_ROUTE_30
     dexendareadata
 
 
@@ -30567,6 +32714,7 @@ routesandcities SPECIES_ORBEETLE, DEX_DAY
 
 
 routesandcities SPECIES_ORBEETLE, DEX_NIGHT
+    .word DEX_ROUTE_30
     dexendareadata
 
 
@@ -30599,6 +32747,7 @@ routesandcities SPECIES_NICKIT, DEX_DAY
 
 
 routesandcities SPECIES_NICKIT, DEX_NIGHT
+    .word DEX_ROUTE_31
     dexendareadata
 
 
@@ -30631,6 +32780,7 @@ routesandcities SPECIES_THIEVUL, DEX_DAY
 
 
 routesandcities SPECIES_THIEVUL, DEX_NIGHT
+    .word DEX_ROUTE_31
     dexendareadata
 
 
@@ -30663,6 +32813,7 @@ routesandcities SPECIES_GOSSIFLEUR, DEX_DAY
 
 
 routesandcities SPECIES_GOSSIFLEUR, DEX_NIGHT
+    .word DEX_ROUTE_30
     dexendareadata
 
 
@@ -30695,6 +32846,7 @@ routesandcities SPECIES_ELDEGOSS, DEX_DAY
 
 
 routesandcities SPECIES_ELDEGOSS, DEX_NIGHT
+    .word DEX_ROUTE_30
     dexendareadata
 
 
@@ -30719,10 +32871,12 @@ specialareas SPECIES_WOOLOO, DEX_NIGHT
 
 
 routesandcities SPECIES_WOOLOO, DEX_MORNING
+    .word DEX_ROUTE_29
     dexendareadata
 
 
 routesandcities SPECIES_WOOLOO, DEX_DAY
+    .word DEX_ROUTE_29
     dexendareadata
 
 
@@ -30751,10 +32905,12 @@ specialareas SPECIES_DUBWOOL, DEX_NIGHT
 
 
 routesandcities SPECIES_DUBWOOL, DEX_MORNING
+    .word DEX_ROUTE_29
     dexendareadata
 
 
 routesandcities SPECIES_DUBWOOL, DEX_DAY
+    .word DEX_ROUTE_29
     dexendareadata
 
 
@@ -30771,10 +32927,12 @@ routesandcities SPECIES_DUBWOOL, DEX_SPECIAL
 
 
 specialareas SPECIES_CHEWTLE, DEX_MORNING
+    .word DEX_SLOWPOKE_WELL
     dexendareadata
 
 
 specialareas SPECIES_CHEWTLE, DEX_DAY
+    .word DEX_SLOWPOKE_WELL
     dexendareadata
 
 
@@ -30803,10 +32961,12 @@ routesandcities SPECIES_CHEWTLE, DEX_SPECIAL
 
 
 specialareas SPECIES_DREDNAW, DEX_MORNING
+    .word DEX_SLOWPOKE_WELL
     dexendareadata
 
 
 specialareas SPECIES_DREDNAW, DEX_DAY
+    .word DEX_SLOWPOKE_WELL
     dexendareadata
 
 
@@ -30847,14 +33007,17 @@ specialareas SPECIES_YAMPER, DEX_NIGHT
 
 
 routesandcities SPECIES_YAMPER, DEX_MORNING
+    .word DEX_ROUTE_29
     dexendareadata
 
 
 routesandcities SPECIES_YAMPER, DEX_DAY
+    .word DEX_ROUTE_29
     dexendareadata
 
 
 routesandcities SPECIES_YAMPER, DEX_NIGHT
+    .word DEX_ROUTE_29
     dexendareadata
 
 
@@ -30879,14 +33042,17 @@ specialareas SPECIES_BOLTUND, DEX_NIGHT
 
 
 routesandcities SPECIES_BOLTUND, DEX_MORNING
+    .word DEX_ROUTE_29
     dexendareadata
 
 
 routesandcities SPECIES_BOLTUND, DEX_DAY
+    .word DEX_ROUTE_29
     dexendareadata
 
 
 routesandcities SPECIES_BOLTUND, DEX_NIGHT
+    .word DEX_ROUTE_29
     dexendareadata
 
 
@@ -30907,6 +33073,7 @@ specialareas SPECIES_ROLYCOLY, DEX_DAY
 
 
 specialareas SPECIES_ROLYCOLY, DEX_NIGHT
+    .word DEX_DARK_CAVE
     dexendareadata
 
 
@@ -30939,6 +33106,7 @@ specialareas SPECIES_CARKOL, DEX_DAY
 
 
 specialareas SPECIES_CARKOL, DEX_NIGHT
+    .word DEX_DARK_CAVE
     dexendareadata
 
 
@@ -30971,6 +33139,7 @@ specialareas SPECIES_COALOSSAL, DEX_DAY
 
 
 specialareas SPECIES_COALOSSAL, DEX_NIGHT
+    .word DEX_DARK_CAVE
     dexendareadata
 
 
@@ -31015,6 +33184,7 @@ routesandcities SPECIES_APPLIN, DEX_DAY
 
 
 routesandcities SPECIES_APPLIN, DEX_NIGHT
+    .word DEX_ROUTE_31
     dexendareadata
 
 
@@ -31047,6 +33217,7 @@ routesandcities SPECIES_FLAPPLE, DEX_DAY
 
 
 routesandcities SPECIES_FLAPPLE, DEX_NIGHT
+    .word DEX_ROUTE_31
     dexendareadata
 
 
@@ -31079,6 +33250,7 @@ routesandcities SPECIES_APPLETUN, DEX_DAY
 
 
 routesandcities SPECIES_APPLETUN, DEX_NIGHT
+    .word DEX_ROUTE_31
     dexendareadata
 
 
@@ -31103,10 +33275,12 @@ specialareas SPECIES_SILICOBRA, DEX_NIGHT
 
 
 routesandcities SPECIES_SILICOBRA, DEX_MORNING
+    .word DEX_ROUTE_42
     dexendareadata
 
 
 routesandcities SPECIES_SILICOBRA, DEX_DAY
+    .word DEX_ROUTE_42
     dexendareadata
 
 
@@ -31135,10 +33309,12 @@ specialareas SPECIES_SANDACONDA, DEX_NIGHT
 
 
 routesandcities SPECIES_SANDACONDA, DEX_MORNING
+    .word DEX_ROUTE_42
     dexendareadata
 
 
 routesandcities SPECIES_SANDACONDA, DEX_DAY
+    .word DEX_ROUTE_42
     dexendareadata
 
 
@@ -31175,6 +33351,7 @@ routesandcities SPECIES_CRAMORANT, DEX_DAY
 
 
 routesandcities SPECIES_CRAMORANT, DEX_NIGHT
+    .word DEX_ROUTE_29
     dexendareadata
 
 
@@ -31199,14 +33376,17 @@ specialareas SPECIES_ARROKUDA, DEX_NIGHT
 
 
 routesandcities SPECIES_ARROKUDA, DEX_MORNING
+    .word DEX_ROUTE_34
     dexendareadata
 
 
 routesandcities SPECIES_ARROKUDA, DEX_DAY
+    .word DEX_ROUTE_34
     dexendareadata
 
 
 routesandcities SPECIES_ARROKUDA, DEX_NIGHT
+    .word DEX_ROUTE_34
     dexendareadata
 
 
@@ -31231,14 +33411,17 @@ specialareas SPECIES_BARRASKEWDA, DEX_NIGHT
 
 
 routesandcities SPECIES_BARRASKEWDA, DEX_MORNING
+    .word DEX_ROUTE_34
     dexendareadata
 
 
 routesandcities SPECIES_BARRASKEWDA, DEX_DAY
+    .word DEX_ROUTE_34
     dexendareadata
 
 
 routesandcities SPECIES_BARRASKEWDA, DEX_NIGHT
+    .word DEX_ROUTE_34
     dexendareadata
 
 
@@ -31259,6 +33442,7 @@ specialareas SPECIES_TOXEL, DEX_DAY
 
 
 specialareas SPECIES_TOXEL, DEX_NIGHT
+    .word DEX_BURNED_TOWER
     dexendareadata
 
 
@@ -31291,6 +33475,7 @@ specialareas SPECIES_TOXTRICITY, DEX_DAY
 
 
 specialareas SPECIES_TOXTRICITY, DEX_NIGHT
+    .word DEX_BURNED_TOWER
     dexendareadata
 
 
@@ -31335,6 +33520,7 @@ routesandcities SPECIES_SIZZLIPEDE, DEX_DAY
 
 
 routesandcities SPECIES_SIZZLIPEDE, DEX_NIGHT
+    .word DEX_ROUTE_30
     dexendareadata
 
 
@@ -31367,6 +33553,7 @@ routesandcities SPECIES_CENTISKORCH, DEX_DAY
 
 
 routesandcities SPECIES_CENTISKORCH, DEX_NIGHT
+    .word DEX_ROUTE_30
     dexendareadata
 
 
@@ -31399,6 +33586,7 @@ routesandcities SPECIES_CLOBBOPUS, DEX_DAY
 
 
 routesandcities SPECIES_CLOBBOPUS, DEX_NIGHT
+    .word DEX_ROUTE_48
     dexendareadata
 
 
@@ -31431,6 +33619,7 @@ routesandcities SPECIES_GRAPPLOCT, DEX_DAY
 
 
 routesandcities SPECIES_GRAPPLOCT, DEX_NIGHT
+    .word DEX_ROUTE_48
     dexendareadata
 
 
@@ -31451,6 +33640,7 @@ specialareas SPECIES_SINISTEA, DEX_DAY
 
 
 specialareas SPECIES_SINISTEA, DEX_NIGHT
+    .word DEX_MT_MORTAR
     dexendareadata
 
 
@@ -31483,6 +33673,7 @@ specialareas SPECIES_POLTEAGEIST, DEX_DAY
 
 
 specialareas SPECIES_POLTEAGEIST, DEX_NIGHT
+    .word DEX_MT_MORTAR
     dexendareadata
 
 
@@ -31507,10 +33698,12 @@ routesandcities SPECIES_POLTEAGEIST, DEX_SPECIAL
 
 
 specialareas SPECIES_HATENNA, DEX_MORNING
+    .word DEX_ILEX_FOREST
     dexendareadata
 
 
 specialareas SPECIES_HATENNA, DEX_DAY
+    .word DEX_ILEX_FOREST
     dexendareadata
 
 
@@ -31539,10 +33732,12 @@ routesandcities SPECIES_HATENNA, DEX_SPECIAL
 
 
 specialareas SPECIES_HATTREM, DEX_MORNING
+    .word DEX_ILEX_FOREST
     dexendareadata
 
 
 specialareas SPECIES_HATTREM, DEX_DAY
+    .word DEX_ILEX_FOREST
     dexendareadata
 
 
@@ -31571,10 +33766,12 @@ routesandcities SPECIES_HATTREM, DEX_SPECIAL
 
 
 specialareas SPECIES_HATTERENE, DEX_MORNING
+    .word DEX_ILEX_FOREST
     dexendareadata
 
 
 specialareas SPECIES_HATTERENE, DEX_DAY
+    .word DEX_ILEX_FOREST
     dexendareadata
 
 
@@ -31611,6 +33808,7 @@ specialareas SPECIES_IMPIDIMP, DEX_DAY
 
 
 specialareas SPECIES_IMPIDIMP, DEX_NIGHT
+    .word DEX_UNION_CAVE
     dexendareadata
 
 
@@ -31643,6 +33841,7 @@ specialareas SPECIES_MORGREM, DEX_DAY
 
 
 specialareas SPECIES_MORGREM, DEX_NIGHT
+    .word DEX_UNION_CAVE
     dexendareadata
 
 
@@ -31675,6 +33874,7 @@ specialareas SPECIES_GRIMMSNARL, DEX_DAY
 
 
 specialareas SPECIES_GRIMMSNARL, DEX_NIGHT
+    .word DEX_UNION_CAVE
     dexendareadata
 
 
@@ -31839,6 +34039,7 @@ specialareas SPECIES_MR_RIME, DEX_NIGHT
 
 
 routesandcities SPECIES_MR_RIME, DEX_MORNING
+    .word DEX_ROUTE_30
     dexendareadata
 
 
@@ -31903,14 +34104,17 @@ specialareas SPECIES_MILCERY, DEX_NIGHT
 
 
 routesandcities SPECIES_MILCERY, DEX_MORNING
+    .word DEX_ROUTE_36
     dexendareadata
 
 
 routesandcities SPECIES_MILCERY, DEX_DAY
+    .word DEX_ROUTE_36
     dexendareadata
 
 
 routesandcities SPECIES_MILCERY, DEX_NIGHT
+    .word DEX_ROUTE_36
     dexendareadata
 
 
@@ -31935,14 +34139,17 @@ specialareas SPECIES_ALCREMIE, DEX_NIGHT
 
 
 routesandcities SPECIES_ALCREMIE, DEX_MORNING
+    .word DEX_ROUTE_36
     dexendareadata
 
 
 routesandcities SPECIES_ALCREMIE, DEX_DAY
+    .word DEX_ROUTE_36
     dexendareadata
 
 
 routesandcities SPECIES_ALCREMIE, DEX_NIGHT
+    .word DEX_ROUTE_36
     dexendareadata
 
 
@@ -31967,14 +34174,17 @@ specialareas SPECIES_FALINKS, DEX_NIGHT
 
 
 routesandcities SPECIES_FALINKS, DEX_MORNING
+    .word DEX_ROUTE_47
     dexendareadata
 
 
 routesandcities SPECIES_FALINKS, DEX_DAY
+    .word DEX_ROUTE_47
     dexendareadata
 
 
 routesandcities SPECIES_FALINKS, DEX_NIGHT
+    .word DEX_ROUTE_47
     dexendareadata
 
 
@@ -31999,14 +34209,17 @@ specialareas SPECIES_PINCURCHIN, DEX_NIGHT
 
 
 routesandcities SPECIES_PINCURCHIN, DEX_MORNING
+    .word DEX_CHERRYGROVE_CITY
     dexendareadata
 
 
 routesandcities SPECIES_PINCURCHIN, DEX_DAY
+    .word DEX_CHERRYGROVE_CITY
     dexendareadata
 
 
 routesandcities SPECIES_PINCURCHIN, DEX_NIGHT
+    .word DEX_CHERRYGROVE_CITY
     dexendareadata
 
 
@@ -32019,14 +34232,17 @@ routesandcities SPECIES_PINCURCHIN, DEX_SPECIAL
 
 
 specialareas SPECIES_SNOM, DEX_MORNING
+    .word DEX_ICE_PATH
     dexendareadata
 
 
 specialareas SPECIES_SNOM, DEX_DAY
+    .word DEX_ICE_PATH
     dexendareadata
 
 
 specialareas SPECIES_SNOM, DEX_NIGHT
+    .word DEX_ICE_PATH
     dexendareadata
 
 
@@ -32051,14 +34267,17 @@ routesandcities SPECIES_SNOM, DEX_SPECIAL
 
 
 specialareas SPECIES_FROSMOTH, DEX_MORNING
+    .word DEX_ICE_PATH
     dexendareadata
 
 
 specialareas SPECIES_FROSMOTH, DEX_DAY
+    .word DEX_ICE_PATH
     dexendareadata
 
 
 specialareas SPECIES_FROSMOTH, DEX_NIGHT
+    .word DEX_ICE_PATH
     dexendareadata
 
 
@@ -32103,6 +34322,7 @@ routesandcities SPECIES_STONJOURNER, DEX_DAY
 
 
 routesandcities SPECIES_STONJOURNER, DEX_NIGHT
+    .word DEX_ROUTE_48
     dexendareadata
 
 
@@ -32127,14 +34347,17 @@ specialareas SPECIES_EISCUE, DEX_NIGHT
 
 
 routesandcities SPECIES_EISCUE, DEX_MORNING
+    .word DEX_CHERRYGROVE_CITY
     dexendareadata
 
 
 routesandcities SPECIES_EISCUE, DEX_DAY
+    .word DEX_CHERRYGROVE_CITY
     dexendareadata
 
 
 routesandcities SPECIES_EISCUE, DEX_NIGHT
+    .word DEX_CHERRYGROVE_CITY
     dexendareadata
 
 
@@ -32155,6 +34378,7 @@ specialareas SPECIES_INDEEDEE, DEX_DAY
 
 
 specialareas SPECIES_INDEEDEE, DEX_NIGHT
+    .word DEX_MT_MORTAR
     dexendareadata
 
 
@@ -32191,6 +34415,7 @@ specialareas SPECIES_MORPEKO, DEX_NIGHT
 
 
 routesandcities SPECIES_MORPEKO, DEX_MORNING
+    .word DEX_ROUTE_31
     dexendareadata
 
 
@@ -32231,6 +34456,7 @@ routesandcities SPECIES_CUFANT, DEX_DAY
 
 
 routesandcities SPECIES_CUFANT, DEX_NIGHT
+    .word DEX_ROUTE_35
     dexendareadata
 
 
@@ -32263,6 +34489,7 @@ routesandcities SPECIES_COPPERAJAH, DEX_DAY
 
 
 routesandcities SPECIES_COPPERAJAH, DEX_NIGHT
+    .word DEX_ROUTE_35
     dexendareadata
 
 
@@ -32275,6 +34502,7 @@ routesandcities SPECIES_COPPERAJAH, DEX_SPECIAL
 
 
 specialareas SPECIES_DRACOZOLT, DEX_MORNING
+    .word DEX_NATIONAL_PARK
     dexendareadata
 
 
@@ -32307,6 +34535,7 @@ routesandcities SPECIES_DRACOZOLT, DEX_SPECIAL
 
 
 specialareas SPECIES_ARCTOZOLT, DEX_MORNING
+    .word DEX_NATIONAL_PARK
     dexendareadata
 
 
@@ -32343,6 +34572,7 @@ specialareas SPECIES_DRACOVISH, DEX_MORNING
 
 
 specialareas SPECIES_DRACOVISH, DEX_DAY
+    .word DEX_NATIONAL_PARK
     dexendareadata
 
 
@@ -32375,6 +34605,7 @@ specialareas SPECIES_ARCTOVISH, DEX_MORNING
 
 
 specialareas SPECIES_ARCTOVISH, DEX_DAY
+    .word DEX_NATIONAL_PARK
     dexendareadata
 
 
@@ -32411,6 +34642,7 @@ specialareas SPECIES_DURALUDON, DEX_DAY
 
 
 specialareas SPECIES_DURALUDON, DEX_NIGHT
+    .word DEX_MT_MORTAR
     dexendareadata
 
 
@@ -32443,6 +34675,7 @@ specialareas SPECIES_DREEPY, DEX_DAY
 
 
 specialareas SPECIES_DREEPY, DEX_NIGHT
+    .word DEX_NATIONAL_PARK
     dexendareadata
 
 
@@ -32475,6 +34708,7 @@ specialareas SPECIES_DRAKLOAK, DEX_DAY
 
 
 specialareas SPECIES_DRAKLOAK, DEX_NIGHT
+    .word DEX_NATIONAL_PARK
     dexendareadata
 
 
@@ -32507,6 +34741,7 @@ specialareas SPECIES_DRAGAPULT, DEX_DAY
 
 
 specialareas SPECIES_DRAGAPULT, DEX_NIGHT
+    .word DEX_NATIONAL_PARK
     dexendareadata
 
 
@@ -32543,14 +34778,17 @@ specialareas SPECIES_ZACIAN, DEX_NIGHT
 
 
 routesandcities SPECIES_ZACIAN, DEX_MORNING
+    .word DEX_ROUTE_11
     dexendareadata
 
 
 routesandcities SPECIES_ZACIAN, DEX_DAY
+    .word DEX_ROUTE_11
     dexendareadata
 
 
 routesandcities SPECIES_ZACIAN, DEX_NIGHT
+    .word DEX_ROUTE_11
     dexendareadata
 
 
@@ -32575,14 +34813,17 @@ specialareas SPECIES_ZAMAZENTA, DEX_NIGHT
 
 
 routesandcities SPECIES_ZAMAZENTA, DEX_MORNING
+    .word DEX_ROUTE_13
     dexendareadata
 
 
 routesandcities SPECIES_ZAMAZENTA, DEX_DAY
+    .word DEX_ROUTE_13
     dexendareadata
 
 
 routesandcities SPECIES_ZAMAZENTA, DEX_NIGHT
+    .word DEX_ROUTE_13
     dexendareadata
 
 
@@ -32595,14 +34836,17 @@ routesandcities SPECIES_ZAMAZENTA, DEX_SPECIAL
 
 
 specialareas SPECIES_ETERNATUS, DEX_MORNING
+    .word DEX_MT_SILVER_CAVE
     dexendareadata
 
 
 specialareas SPECIES_ETERNATUS, DEX_DAY
+    .word DEX_MT_SILVER_CAVE
     dexendareadata
 
 
 specialareas SPECIES_ETERNATUS, DEX_NIGHT
+    .word DEX_MT_SILVER_CAVE
     dexendareadata
 
 
@@ -32627,14 +34871,17 @@ routesandcities SPECIES_ETERNATUS, DEX_SPECIAL
 
 
 specialareas SPECIES_KUBFU, DEX_MORNING
+    .word DEX_VICTORY_ROAD
     dexendareadata
 
 
 specialareas SPECIES_KUBFU, DEX_DAY
+    .word DEX_VICTORY_ROAD
     dexendareadata
 
 
 specialareas SPECIES_KUBFU, DEX_NIGHT
+    .word DEX_VICTORY_ROAD
     dexendareadata
 
 
@@ -32659,14 +34906,17 @@ routesandcities SPECIES_KUBFU, DEX_SPECIAL
 
 
 specialareas SPECIES_URSHIFU, DEX_MORNING
+    .word DEX_VICTORY_ROAD
     dexendareadata
 
 
 specialareas SPECIES_URSHIFU, DEX_DAY
+    .word DEX_VICTORY_ROAD
     dexendareadata
 
 
 specialareas SPECIES_URSHIFU, DEX_NIGHT
+    .word DEX_VICTORY_ROAD
     dexendareadata
 
 
@@ -32703,14 +34953,17 @@ specialareas SPECIES_ZARUDE, DEX_NIGHT
 
 
 routesandcities SPECIES_ZARUDE, DEX_MORNING
+    .word DEX_ROUTE_14
     dexendareadata
 
 
 routesandcities SPECIES_ZARUDE, DEX_DAY
+    .word DEX_ROUTE_14
     dexendareadata
 
 
 routesandcities SPECIES_ZARUDE, DEX_NIGHT
+    .word DEX_ROUTE_14
     dexendareadata
 
 
@@ -32735,14 +34988,17 @@ specialareas SPECIES_REGIELEKI, DEX_NIGHT
 
 
 routesandcities SPECIES_REGIELEKI, DEX_MORNING
+    .word DEX_ROUTE_10
     dexendareadata
 
 
 routesandcities SPECIES_REGIELEKI, DEX_DAY
+    .word DEX_ROUTE_10
     dexendareadata
 
 
 routesandcities SPECIES_REGIELEKI, DEX_NIGHT
+    .word DEX_ROUTE_10
     dexendareadata
 
 
@@ -32767,14 +35023,17 @@ specialareas SPECIES_REGIDRAGO, DEX_NIGHT
 
 
 routesandcities SPECIES_REGIDRAGO, DEX_MORNING
+    .word DEX_MT_SILVER
     dexendareadata
 
 
 routesandcities SPECIES_REGIDRAGO, DEX_DAY
+    .word DEX_MT_SILVER
     dexendareadata
 
 
 routesandcities SPECIES_REGIDRAGO, DEX_NIGHT
+    .word DEX_MT_SILVER
     dexendareadata
 
 
@@ -32787,14 +35046,17 @@ routesandcities SPECIES_REGIDRAGO, DEX_SPECIAL
 
 
 specialareas SPECIES_GLASTRIER, DEX_MORNING
+    .word DEX_SEAFOAM_ISLANDS
     dexendareadata
 
 
 specialareas SPECIES_GLASTRIER, DEX_DAY
+    .word DEX_SEAFOAM_ISLANDS
     dexendareadata
 
 
 specialareas SPECIES_GLASTRIER, DEX_NIGHT
+    .word DEX_SEAFOAM_ISLANDS
     dexendareadata
 
 
@@ -32831,14 +35093,17 @@ specialareas SPECIES_SPECTRIER, DEX_NIGHT
 
 
 routesandcities SPECIES_SPECTRIER, DEX_MORNING
+    .word DEX_ROUTE_27
     dexendareadata
 
 
 routesandcities SPECIES_SPECTRIER, DEX_DAY
+    .word DEX_ROUTE_27
     dexendareadata
 
 
 routesandcities SPECIES_SPECTRIER, DEX_NIGHT
+    .word DEX_ROUTE_27
     dexendareadata
 
 
@@ -32851,14 +35116,17 @@ routesandcities SPECIES_SPECTRIER, DEX_SPECIAL
 
 
 specialareas SPECIES_CALYREX, DEX_MORNING
+    .word DEX_CERULEAN_CAVE
     dexendareadata
 
 
 specialareas SPECIES_CALYREX, DEX_DAY
+    .word DEX_CERULEAN_CAVE
     dexendareadata
 
 
 specialareas SPECIES_CALYREX, DEX_NIGHT
+    .word DEX_CERULEAN_CAVE
     dexendareadata
 
 
@@ -32895,10 +35163,12 @@ specialareas SPECIES_WYRDEER, DEX_NIGHT
 
 
 routesandcities SPECIES_WYRDEER, DEX_MORNING
+    .word DEX_ROUTE_39
     dexendareadata
 
 
 routesandcities SPECIES_WYRDEER, DEX_DAY
+    .word DEX_ROUTE_39
     dexendareadata
 
 
@@ -32923,6 +35193,7 @@ specialareas SPECIES_KLEAVOR, DEX_DAY
 
 
 specialareas SPECIES_KLEAVOR, DEX_NIGHT
+    .word DEX_UNION_CAVE
     dexendareadata
 
 
@@ -32959,14 +35230,17 @@ specialareas SPECIES_URSALUNA, DEX_NIGHT
 
 
 routesandcities SPECIES_URSALUNA, DEX_MORNING
+    .word DEX_ROUTE_33
     dexendareadata
 
 
 routesandcities SPECIES_URSALUNA, DEX_DAY
+    .word DEX_ROUTE_33
     dexendareadata
 
 
 routesandcities SPECIES_URSALUNA, DEX_NIGHT
+    .word DEX_ROUTE_33
     dexendareadata
 
 
@@ -32991,14 +35265,17 @@ specialareas SPECIES_BASCULEGION, DEX_NIGHT
 
 
 routesandcities SPECIES_BASCULEGION, DEX_MORNING
+    .word DEX_CIANWOOD_CITY
     dexendareadata
 
 
 routesandcities SPECIES_BASCULEGION, DEX_DAY
+    .word DEX_CIANWOOD_CITY
     dexendareadata
 
 
 routesandcities SPECIES_BASCULEGION, DEX_NIGHT
+    .word DEX_CIANWOOD_CITY
     dexendareadata
 
 
@@ -33075,14 +35352,17 @@ routesandcities SPECIES_OVERQWIL, DEX_SPECIAL
 
 
 specialareas SPECIES_ENAMORUS, DEX_MORNING
+    .word DEX_VIRIDIAN_FOREST
     dexendareadata
 
 
 specialareas SPECIES_ENAMORUS, DEX_DAY
+    .word DEX_VIRIDIAN_FOREST
     dexendareadata
 
 
 specialareas SPECIES_ENAMORUS, DEX_NIGHT
+    .word DEX_VIRIDIAN_FOREST
     dexendareadata
 
 
@@ -33119,6 +35399,7 @@ specialareas SPECIES_SPRIGATITO, DEX_NIGHT
 
 
 routesandcities SPECIES_SPRIGATITO, DEX_MORNING
+    .word DEX_ROUTE_34
     dexendareadata
 
 
@@ -33151,6 +35432,7 @@ specialareas SPECIES_FLORAGATO, DEX_NIGHT
 
 
 routesandcities SPECIES_FLORAGATO, DEX_MORNING
+    .word DEX_ROUTE_34
     dexendareadata
 
 
@@ -33183,6 +35465,7 @@ specialareas SPECIES_MEOWSCARADA, DEX_NIGHT
 
 
 routesandcities SPECIES_MEOWSCARADA, DEX_MORNING
+    .word DEX_ROUTE_34
     dexendareadata
 
 
@@ -33223,6 +35506,7 @@ routesandcities SPECIES_FUECOCO, DEX_DAY
 
 
 routesandcities SPECIES_FUECOCO, DEX_NIGHT
+    .word DEX_ROUTE_34
     dexendareadata
 
 
@@ -33255,6 +35539,7 @@ routesandcities SPECIES_CROCALOR, DEX_DAY
 
 
 routesandcities SPECIES_CROCALOR, DEX_NIGHT
+    .word DEX_ROUTE_34
     dexendareadata
 
 
@@ -33287,6 +35572,7 @@ routesandcities SPECIES_SKELEDIRGE, DEX_DAY
 
 
 routesandcities SPECIES_SKELEDIRGE, DEX_NIGHT
+    .word DEX_ROUTE_34
     dexendareadata
 
 
@@ -33315,6 +35601,7 @@ routesandcities SPECIES_QUAXLY, DEX_MORNING
 
 
 routesandcities SPECIES_QUAXLY, DEX_DAY
+    .word DEX_ROUTE_34
     dexendareadata
 
 
@@ -33347,6 +35634,7 @@ routesandcities SPECIES_QUAXWELL, DEX_MORNING
 
 
 routesandcities SPECIES_QUAXWELL, DEX_DAY
+    .word DEX_ROUTE_34
     dexendareadata
 
 
@@ -33379,6 +35667,7 @@ routesandcities SPECIES_QUAQUAVAL, DEX_MORNING
 
 
 routesandcities SPECIES_QUAQUAVAL, DEX_DAY
+    .word DEX_ROUTE_34
     dexendareadata
 
 
@@ -33411,6 +35700,7 @@ routesandcities SPECIES_LECHONK, DEX_MORNING
 
 
 routesandcities SPECIES_LECHONK, DEX_DAY
+    .word DEX_ROUTE_30
     dexendareadata
 
 
@@ -33439,14 +35729,17 @@ specialareas SPECIES_OINKOLOGNE, DEX_NIGHT
 
 
 routesandcities SPECIES_OINKOLOGNE, DEX_MORNING
+    .word DEX_ROUTE_1
     dexendareadata
 
 
 routesandcities SPECIES_OINKOLOGNE, DEX_DAY
+    .word DEX_ROUTE_1
     dexendareadata
 
 
 routesandcities SPECIES_OINKOLOGNE, DEX_NIGHT
+    .word DEX_ROUTE_1
     dexendareadata
 
 
@@ -33479,6 +35772,7 @@ routesandcities SPECIES_TAROUNTULA, DEX_DAY
 
 
 routesandcities SPECIES_TAROUNTULA, DEX_NIGHT
+    .word DEX_ROUTE_31
     dexendareadata
 
 
@@ -33511,6 +35805,7 @@ routesandcities SPECIES_SPIDOPS, DEX_DAY
 
 
 routesandcities SPECIES_SPIDOPS, DEX_NIGHT
+    .word DEX_ROUTE_31
     dexendareadata
 
 
@@ -33543,6 +35838,7 @@ routesandcities SPECIES_NYMBLE, DEX_DAY
 
 
 routesandcities SPECIES_NYMBLE, DEX_NIGHT
+    .word DEX_ROUTE_30
     dexendareadata
 
 
@@ -33575,6 +35871,7 @@ routesandcities SPECIES_LOKIX, DEX_DAY
 
 
 routesandcities SPECIES_LOKIX, DEX_NIGHT
+    .word DEX_ROUTE_30
     dexendareadata
 
 
@@ -33599,10 +35896,12 @@ specialareas SPECIES_PAWMI, DEX_NIGHT
 
 
 routesandcities SPECIES_PAWMI, DEX_MORNING
+    .word DEX_ROUTE_29
     dexendareadata
 
 
 routesandcities SPECIES_PAWMI, DEX_DAY
+    .word DEX_ROUTE_29
     dexendareadata
 
 
@@ -33631,10 +35930,12 @@ specialareas SPECIES_PAWMO, DEX_NIGHT
 
 
 routesandcities SPECIES_PAWMO, DEX_MORNING
+    .word DEX_ROUTE_29
     dexendareadata
 
 
 routesandcities SPECIES_PAWMO, DEX_DAY
+    .word DEX_ROUTE_29
     dexendareadata
 
 
@@ -33663,10 +35964,12 @@ specialareas SPECIES_PAWMOT, DEX_NIGHT
 
 
 routesandcities SPECIES_PAWMOT, DEX_MORNING
+    .word DEX_ROUTE_29
     dexendareadata
 
 
 routesandcities SPECIES_PAWMOT, DEX_DAY
+    .word DEX_ROUTE_29
     dexendareadata
 
 
@@ -33703,6 +36006,7 @@ routesandcities SPECIES_TANDEMAUS, DEX_DAY
 
 
 routesandcities SPECIES_TANDEMAUS, DEX_NIGHT
+    .word DEX_ROUTE_31
     dexendareadata
 
 
@@ -33735,6 +36039,7 @@ routesandcities SPECIES_MAUSHOLD, DEX_DAY
 
 
 routesandcities SPECIES_MAUSHOLD, DEX_NIGHT
+    .word DEX_ROUTE_31
     dexendareadata
 
 
@@ -33759,10 +36064,12 @@ specialareas SPECIES_FIDOUGH, DEX_NIGHT
 
 
 routesandcities SPECIES_FIDOUGH, DEX_MORNING
+    .word DEX_ROUTE_31
     dexendareadata
 
 
 routesandcities SPECIES_FIDOUGH, DEX_DAY
+    .word DEX_ROUTE_31
     dexendareadata
 
 
@@ -33791,10 +36098,12 @@ specialareas SPECIES_DACHSBUN, DEX_NIGHT
 
 
 routesandcities SPECIES_DACHSBUN, DEX_MORNING
+    .word DEX_ROUTE_31
     dexendareadata
 
 
 routesandcities SPECIES_DACHSBUN, DEX_DAY
+    .word DEX_ROUTE_31
     dexendareadata
 
 
@@ -33831,6 +36140,7 @@ routesandcities SPECIES_SMOLIV, DEX_DAY
 
 
 routesandcities SPECIES_SMOLIV, DEX_NIGHT
+    .word DEX_ROUTE_31
     dexendareadata
 
 
@@ -33863,6 +36173,7 @@ routesandcities SPECIES_DOLLIV, DEX_DAY
 
 
 routesandcities SPECIES_DOLLIV, DEX_NIGHT
+    .word DEX_ROUTE_31
     dexendareadata
 
 
@@ -33895,6 +36206,7 @@ routesandcities SPECIES_ARBOLIVA, DEX_DAY
 
 
 routesandcities SPECIES_ARBOLIVA, DEX_NIGHT
+    .word DEX_ROUTE_31
     dexendareadata
 
 
@@ -33919,6 +36231,7 @@ specialareas SPECIES_SQUAWKABILLY, DEX_NIGHT
 
 
 routesandcities SPECIES_SQUAWKABILLY, DEX_MORNING
+    .word DEX_ROUTE_31
     dexendareadata
 
 
@@ -33955,6 +36268,7 @@ routesandcities SPECIES_NACLI, DEX_MORNING
 
 
 routesandcities SPECIES_NACLI, DEX_DAY
+    .word DEX_ROUTE_31
     dexendareadata
 
 
@@ -33987,6 +36301,7 @@ routesandcities SPECIES_NACLSTACK, DEX_MORNING
 
 
 routesandcities SPECIES_NACLSTACK, DEX_DAY
+    .word DEX_ROUTE_31
     dexendareadata
 
 
@@ -34019,6 +36334,7 @@ routesandcities SPECIES_GARGANACL, DEX_MORNING
 
 
 routesandcities SPECIES_GARGANACL, DEX_DAY
+    .word DEX_ROUTE_31
     dexendareadata
 
 
@@ -34043,6 +36359,7 @@ specialareas SPECIES_CHARCADET, DEX_DAY
 
 
 specialareas SPECIES_CHARCADET, DEX_NIGHT
+    .word DEX_BURNED_TOWER
     dexendareadata
 
 
@@ -34075,6 +36392,7 @@ specialareas SPECIES_ARMAROUGE, DEX_DAY
 
 
 specialareas SPECIES_ARMAROUGE, DEX_NIGHT
+    .word DEX_BURNED_TOWER
     dexendareadata
 
 
@@ -34107,6 +36425,7 @@ specialareas SPECIES_CERULEDGE, DEX_DAY
 
 
 specialareas SPECIES_CERULEDGE, DEX_NIGHT
+    .word DEX_BURNED_TOWER
     dexendareadata
 
 
@@ -34147,6 +36466,7 @@ routesandcities SPECIES_TADBULB, DEX_MORNING
 
 
 routesandcities SPECIES_TADBULB, DEX_DAY
+    .word DEX_ROUTE_31
     dexendareadata
 
 
@@ -34179,6 +36499,7 @@ routesandcities SPECIES_BELLIBOLT, DEX_MORNING
 
 
 routesandcities SPECIES_BELLIBOLT, DEX_DAY
+    .word DEX_ROUTE_31
     dexendareadata
 
 
@@ -34207,14 +36528,17 @@ specialareas SPECIES_WATTREL, DEX_NIGHT
 
 
 routesandcities SPECIES_WATTREL, DEX_MORNING
+    .word DEX_ROUTE_36
     dexendareadata
 
 
 routesandcities SPECIES_WATTREL, DEX_DAY
+    .word DEX_ROUTE_36
     dexendareadata
 
 
 routesandcities SPECIES_WATTREL, DEX_NIGHT
+    .word DEX_ROUTE_36
     dexendareadata
 
 
@@ -34239,14 +36563,17 @@ specialareas SPECIES_KILOWATTREL, DEX_NIGHT
 
 
 routesandcities SPECIES_KILOWATTREL, DEX_MORNING
+    .word DEX_ROUTE_36
     dexendareadata
 
 
 routesandcities SPECIES_KILOWATTREL, DEX_DAY
+    .word DEX_ROUTE_36
     dexendareadata
 
 
 routesandcities SPECIES_KILOWATTREL, DEX_NIGHT
+    .word DEX_ROUTE_36
     dexendareadata
 
 
@@ -34279,6 +36606,7 @@ routesandcities SPECIES_MASCHIFF, DEX_DAY
 
 
 routesandcities SPECIES_MASCHIFF, DEX_NIGHT
+    .word DEX_ROUTE_46
     dexendareadata
 
 
@@ -34311,6 +36639,7 @@ routesandcities SPECIES_MABOSSTIFF, DEX_DAY
 
 
 routesandcities SPECIES_MABOSSTIFF, DEX_NIGHT
+    .word DEX_ROUTE_46
     dexendareadata
 
 
@@ -34343,6 +36672,7 @@ routesandcities SPECIES_SHROODLE, DEX_DAY
 
 
 routesandcities SPECIES_SHROODLE, DEX_NIGHT
+    .word DEX_ROUTE_33
     dexendareadata
 
 
@@ -34375,6 +36705,7 @@ routesandcities SPECIES_GRAFAIAI, DEX_DAY
 
 
 routesandcities SPECIES_GRAFAIAI, DEX_NIGHT
+    .word DEX_ROUTE_33
     dexendareadata
 
 
@@ -34403,6 +36734,7 @@ routesandcities SPECIES_BRAMBLIN, DEX_MORNING
 
 
 routesandcities SPECIES_BRAMBLIN, DEX_DAY
+    .word DEX_ROUTE_29
     dexendareadata
 
 
@@ -34435,6 +36767,7 @@ routesandcities SPECIES_BRAMBLEGHAST, DEX_MORNING
 
 
 routesandcities SPECIES_BRAMBLEGHAST, DEX_DAY
+    .word DEX_ROUTE_29
     dexendareadata
 
 
@@ -34471,6 +36804,7 @@ routesandcities SPECIES_TOEDSCOOL, DEX_DAY
 
 
 routesandcities SPECIES_TOEDSCOOL, DEX_NIGHT
+    .word DEX_ROUTE_32
     dexendareadata
 
 
@@ -34503,6 +36837,7 @@ routesandcities SPECIES_TOEDSCRUEL, DEX_DAY
 
 
 routesandcities SPECIES_TOEDSCRUEL, DEX_NIGHT
+    .word DEX_ROUTE_32
     dexendareadata
 
 
@@ -34535,6 +36870,7 @@ routesandcities SPECIES_KLAWF, DEX_DAY
 
 
 routesandcities SPECIES_KLAWF, DEX_NIGHT
+    .word DEX_ROUTE_30
     dexendareadata
 
 
@@ -34559,14 +36895,17 @@ specialareas SPECIES_CAPSAKID, DEX_NIGHT
 
 
 routesandcities SPECIES_CAPSAKID, DEX_MORNING
+    .word DEX_ROUTE_37
     dexendareadata
 
 
 routesandcities SPECIES_CAPSAKID, DEX_DAY
+    .word DEX_ROUTE_37
     dexendareadata
 
 
 routesandcities SPECIES_CAPSAKID, DEX_NIGHT
+    .word DEX_ROUTE_37
     dexendareadata
 
 
@@ -34591,14 +36930,17 @@ specialareas SPECIES_SCOVILLAIN, DEX_NIGHT
 
 
 routesandcities SPECIES_SCOVILLAIN, DEX_MORNING
+    .word DEX_ROUTE_37
     dexendareadata
 
 
 routesandcities SPECIES_SCOVILLAIN, DEX_DAY
+    .word DEX_ROUTE_37
     dexendareadata
 
 
 routesandcities SPECIES_SCOVILLAIN, DEX_NIGHT
+    .word DEX_ROUTE_37
     dexendareadata
 
 
@@ -34611,10 +36953,12 @@ routesandcities SPECIES_SCOVILLAIN, DEX_SPECIAL
 
 
 specialareas SPECIES_RELLOR, DEX_MORNING
+    .word DEX_SPROUT_TOWER
     dexendareadata
 
 
 specialareas SPECIES_RELLOR, DEX_DAY
+    .word DEX_SPROUT_TOWER
     dexendareadata
 
 
@@ -34643,10 +36987,12 @@ routesandcities SPECIES_RELLOR, DEX_SPECIAL
 
 
 specialareas SPECIES_RABSCA, DEX_MORNING
+    .word DEX_SPROUT_TOWER
     dexendareadata
 
 
 specialareas SPECIES_RABSCA, DEX_DAY
+    .word DEX_SPROUT_TOWER
     dexendareadata
 
 
@@ -34695,6 +37041,7 @@ routesandcities SPECIES_FLITTLE, DEX_DAY
 
 
 routesandcities SPECIES_FLITTLE, DEX_NIGHT
+    .word DEX_ROUTE_30
     dexendareadata
 
 
@@ -34727,6 +37074,7 @@ routesandcities SPECIES_ESPATHRA, DEX_DAY
 
 
 routesandcities SPECIES_ESPATHRA, DEX_NIGHT
+    .word DEX_ROUTE_30
     dexendareadata
 
 
@@ -34759,6 +37107,7 @@ routesandcities SPECIES_TINKATINK, DEX_DAY
 
 
 routesandcities SPECIES_TINKATINK, DEX_NIGHT
+    .word DEX_ROUTE_33
     dexendareadata
 
 
@@ -34791,6 +37140,7 @@ routesandcities SPECIES_TINKATUFF, DEX_DAY
 
 
 routesandcities SPECIES_TINKATUFF, DEX_NIGHT
+    .word DEX_ROUTE_33
     dexendareadata
 
 
@@ -34823,6 +37173,7 @@ routesandcities SPECIES_TINKATON, DEX_DAY
 
 
 routesandcities SPECIES_TINKATON, DEX_NIGHT
+    .word DEX_ROUTE_33
     dexendareadata
 
 
@@ -34835,10 +37186,12 @@ routesandcities SPECIES_TINKATON, DEX_SPECIAL
 
 
 specialareas SPECIES_WIGLETT, DEX_MORNING
+    .word DEX_SLOWPOKE_WELL
     dexendareadata
 
 
 specialareas SPECIES_WIGLETT, DEX_DAY
+    .word DEX_SLOWPOKE_WELL
     dexendareadata
 
 
@@ -34867,10 +37220,12 @@ routesandcities SPECIES_WIGLETT, DEX_SPECIAL
 
 
 specialareas SPECIES_WUGTRIO, DEX_MORNING
+    .word DEX_SLOWPOKE_WELL
     dexendareadata
 
 
 specialareas SPECIES_WUGTRIO, DEX_DAY
+    .word DEX_SLOWPOKE_WELL
     dexendareadata
 
 
@@ -34911,14 +37266,17 @@ specialareas SPECIES_BOMBIRDIER, DEX_NIGHT
 
 
 routesandcities SPECIES_BOMBIRDIER, DEX_MORNING
+    .word DEX_ROUTE_47
     dexendareadata
 
 
 routesandcities SPECIES_BOMBIRDIER, DEX_DAY
+    .word DEX_ROUTE_47
     dexendareadata
 
 
 routesandcities SPECIES_BOMBIRDIER, DEX_NIGHT
+    .word DEX_ROUTE_47
     dexendareadata
 
 
@@ -34943,14 +37301,17 @@ specialareas SPECIES_FINIZEN, DEX_NIGHT
 
 
 routesandcities SPECIES_FINIZEN, DEX_MORNING
+    .word DEX_CHERRYGROVE_CITY
     dexendareadata
 
 
 routesandcities SPECIES_FINIZEN, DEX_DAY
+    .word DEX_CHERRYGROVE_CITY
     dexendareadata
 
 
 routesandcities SPECIES_FINIZEN, DEX_NIGHT
+    .word DEX_CHERRYGROVE_CITY
     dexendareadata
 
 
@@ -34975,14 +37336,17 @@ specialareas SPECIES_PALAFIN, DEX_NIGHT
 
 
 routesandcities SPECIES_PALAFIN, DEX_MORNING
+    .word DEX_CHERRYGROVE_CITY
     dexendareadata
 
 
 routesandcities SPECIES_PALAFIN, DEX_DAY
+    .word DEX_CHERRYGROVE_CITY
     dexendareadata
 
 
 routesandcities SPECIES_PALAFIN, DEX_NIGHT
+    .word DEX_CHERRYGROVE_CITY
     dexendareadata
 
 
@@ -35007,14 +37371,17 @@ specialareas SPECIES_VAROOM, DEX_NIGHT
 
 
 routesandcities SPECIES_VAROOM, DEX_MORNING
+    .word DEX_ROUTE_42
     dexendareadata
 
 
 routesandcities SPECIES_VAROOM, DEX_DAY
+    .word DEX_ROUTE_42
     dexendareadata
 
 
 routesandcities SPECIES_VAROOM, DEX_NIGHT
+    .word DEX_ROUTE_42
     dexendareadata
 
 
@@ -35039,14 +37406,17 @@ specialareas SPECIES_REVAVROOM, DEX_NIGHT
 
 
 routesandcities SPECIES_REVAVROOM, DEX_MORNING
+    .word DEX_ROUTE_42
     dexendareadata
 
 
 routesandcities SPECIES_REVAVROOM, DEX_DAY
+    .word DEX_ROUTE_42
     dexendareadata
 
 
 routesandcities SPECIES_REVAVROOM, DEX_NIGHT
+    .word DEX_ROUTE_42
     dexendareadata
 
 
@@ -35071,10 +37441,12 @@ specialareas SPECIES_CYCLIZAR, DEX_NIGHT
 
 
 routesandcities SPECIES_CYCLIZAR, DEX_MORNING
+    .word DEX_ROUTE_48
     dexendareadata
 
 
 routesandcities SPECIES_CYCLIZAR, DEX_DAY
+    .word DEX_ROUTE_48
     dexendareadata
 
 
@@ -35107,6 +37479,7 @@ routesandcities SPECIES_ORTHWORM, DEX_MORNING
 
 
 routesandcities SPECIES_ORTHWORM, DEX_DAY
+    .word DEX_ROUTE_31
     dexendareadata
 
 
@@ -35131,6 +37504,7 @@ specialareas SPECIES_GLIMMET, DEX_DAY
 
 
 specialareas SPECIES_GLIMMET, DEX_NIGHT
+    .word DEX_DARK_CAVE
     dexendareadata
 
 
@@ -35163,6 +37537,7 @@ specialareas SPECIES_GLIMMORA, DEX_DAY
 
 
 specialareas SPECIES_GLIMMORA, DEX_NIGHT
+    .word DEX_DARK_CAVE
     dexendareadata
 
 
@@ -35195,6 +37570,7 @@ specialareas SPECIES_GREAVARD, DEX_DAY
 
 
 specialareas SPECIES_GREAVARD, DEX_NIGHT
+    .word DEX_BURNED_TOWER
     dexendareadata
 
 
@@ -35227,6 +37603,7 @@ specialareas SPECIES_HOUNDSTONE, DEX_DAY
 
 
 specialareas SPECIES_HOUNDSTONE, DEX_NIGHT
+    .word DEX_BURNED_TOWER
     dexendareadata
 
 
@@ -35271,6 +37648,7 @@ routesandcities SPECIES_FLAMIGO, DEX_DAY
 
 
 routesandcities SPECIES_FLAMIGO, DEX_NIGHT
+    .word DEX_ROUTE_35
     dexendareadata
 
 
@@ -35295,14 +37673,17 @@ specialareas SPECIES_CETODDLE, DEX_NIGHT
 
 
 routesandcities SPECIES_CETODDLE, DEX_MORNING
+    .word DEX_ROUTE_47
     dexendareadata
 
 
 routesandcities SPECIES_CETODDLE, DEX_DAY
+    .word DEX_ROUTE_47
     dexendareadata
 
 
 routesandcities SPECIES_CETODDLE, DEX_NIGHT
+    .word DEX_ROUTE_47
     dexendareadata
 
 
@@ -35327,14 +37708,17 @@ specialareas SPECIES_CETITAN, DEX_NIGHT
 
 
 routesandcities SPECIES_CETITAN, DEX_MORNING
+    .word DEX_ROUTE_47
     dexendareadata
 
 
 routesandcities SPECIES_CETITAN, DEX_DAY
+    .word DEX_ROUTE_47
     dexendareadata
 
 
 routesandcities SPECIES_CETITAN, DEX_NIGHT
+    .word DEX_ROUTE_47
     dexendareadata
 
 
@@ -35359,14 +37743,17 @@ specialareas SPECIES_VELUZA, DEX_NIGHT
 
 
 routesandcities SPECIES_VELUZA, DEX_MORNING
+    .word DEX_CIANWOOD_CITY
     dexendareadata
 
 
 routesandcities SPECIES_VELUZA, DEX_DAY
+    .word DEX_CIANWOOD_CITY
     dexendareadata
 
 
 routesandcities SPECIES_VELUZA, DEX_NIGHT
+    .word DEX_CIANWOOD_CITY
     dexendareadata
 
 
@@ -35391,14 +37778,17 @@ specialareas SPECIES_DONDOZO, DEX_NIGHT
 
 
 routesandcities SPECIES_DONDOZO, DEX_MORNING
+    .word DEX_CHERRYGROVE_CITY
     dexendareadata
 
 
 routesandcities SPECIES_DONDOZO, DEX_DAY
+    .word DEX_CHERRYGROVE_CITY
     dexendareadata
 
 
 routesandcities SPECIES_DONDOZO, DEX_NIGHT
+    .word DEX_CHERRYGROVE_CITY
     dexendareadata
 
 
@@ -35423,14 +37813,17 @@ specialareas SPECIES_TATSUGIRI, DEX_NIGHT
 
 
 routesandcities SPECIES_TATSUGIRI, DEX_MORNING
+    .word DEX_CHERRYGROVE_CITY
     dexendareadata
 
 
 routesandcities SPECIES_TATSUGIRI, DEX_DAY
+    .word DEX_CHERRYGROVE_CITY
     dexendareadata
 
 
 routesandcities SPECIES_TATSUGIRI, DEX_NIGHT
+    .word DEX_CHERRYGROVE_CITY
     dexendareadata
 
 
@@ -35443,26 +37836,33 @@ routesandcities SPECIES_TATSUGIRI, DEX_SPECIAL
 
 
 specialareas SPECIES_ANNIHILAPE, DEX_MORNING
+    .word DEX_CERULEAN_CAVE
     dexendareadata
 
 
 specialareas SPECIES_ANNIHILAPE, DEX_DAY
+    .word DEX_CERULEAN_CAVE
     dexendareadata
 
 
 specialareas SPECIES_ANNIHILAPE, DEX_NIGHT
+    .word DEX_CERULEAN_CAVE
     dexendareadata
 
 
 routesandcities SPECIES_ANNIHILAPE, DEX_MORNING
+    .word DEX_ROUTE_9
     dexendareadata
 
 
 routesandcities SPECIES_ANNIHILAPE, DEX_DAY
+    .word DEX_ROUTE_9
     dexendareadata
 
 
 routesandcities SPECIES_ANNIHILAPE, DEX_NIGHT
+    .word DEX_ROUTE_35
+    .word DEX_ROUTE_9
     dexendareadata
 
 
@@ -35519,14 +37919,17 @@ specialareas SPECIES_FARIGIRAF, DEX_NIGHT
 
 
 routesandcities SPECIES_FARIGIRAF, DEX_MORNING
+    .word DEX_ROUTE_43
     dexendareadata
 
 
 routesandcities SPECIES_FARIGIRAF, DEX_DAY
+    .word DEX_ROUTE_43
     dexendareadata
 
 
 routesandcities SPECIES_FARIGIRAF, DEX_NIGHT
+    .word DEX_ROUTE_43
     dexendareadata
 
 
@@ -35539,26 +37942,32 @@ routesandcities SPECIES_FARIGIRAF, DEX_SPECIAL
 
 
 specialareas SPECIES_DUDUNSPARCE, DEX_MORNING
+    .word DEX_DARK_CAVE
     dexendareadata
 
 
 specialareas SPECIES_DUDUNSPARCE, DEX_DAY
+    .word DEX_DARK_CAVE
     dexendareadata
 
 
 specialareas SPECIES_DUDUNSPARCE, DEX_NIGHT
+    .word DEX_DARK_CAVE
     dexendareadata
 
 
 routesandcities SPECIES_DUDUNSPARCE, DEX_MORNING
+    .word DEX_ROUTE_38
     dexendareadata
 
 
 routesandcities SPECIES_DUDUNSPARCE, DEX_DAY
+    .word DEX_ROUTE_38
     dexendareadata
 
 
 routesandcities SPECIES_DUDUNSPARCE, DEX_NIGHT
+    .word DEX_ROUTE_38
     dexendareadata
 
 
@@ -35591,6 +38000,7 @@ routesandcities SPECIES_KINGAMBIT, DEX_DAY
 
 
 routesandcities SPECIES_KINGAMBIT, DEX_NIGHT
+    .word DEX_ROUTE_39
     dexendareadata
 
 
@@ -35603,14 +38013,17 @@ routesandcities SPECIES_KINGAMBIT, DEX_SPECIAL
 
 
 specialareas SPECIES_GREAT_TUSK, DEX_MORNING
+    .word DEX_MT_SILVER_CAVE
     dexendareadata
 
 
 specialareas SPECIES_GREAT_TUSK, DEX_DAY
+    .word DEX_MT_SILVER_CAVE
     dexendareadata
 
 
 specialareas SPECIES_GREAT_TUSK, DEX_NIGHT
+    .word DEX_MT_SILVER_CAVE
     dexendareadata
 
 
@@ -35647,14 +38060,17 @@ specialareas SPECIES_SCREAM_TAIL, DEX_NIGHT
 
 
 routesandcities SPECIES_SCREAM_TAIL, DEX_MORNING
+    .word DEX_ROUTE_2_2
     dexendareadata
 
 
 routesandcities SPECIES_SCREAM_TAIL, DEX_DAY
+    .word DEX_ROUTE_2_2
     dexendareadata
 
 
 routesandcities SPECIES_SCREAM_TAIL, DEX_NIGHT
+    .word DEX_ROUTE_2_2
     dexendareadata
 
 
@@ -35667,14 +38083,17 @@ routesandcities SPECIES_SCREAM_TAIL, DEX_SPECIAL
 
 
 specialareas SPECIES_BRUTE_BONNET, DEX_MORNING
+    .word DEX_MT_MOON
     dexendareadata
 
 
 specialareas SPECIES_BRUTE_BONNET, DEX_DAY
+    .word DEX_MT_MOON
     dexendareadata
 
 
 specialareas SPECIES_BRUTE_BONNET, DEX_NIGHT
+    .word DEX_MT_MOON
     dexendareadata
 
 
@@ -35711,14 +38130,17 @@ specialareas SPECIES_FLUTTER_MANE, DEX_NIGHT
 
 
 routesandcities SPECIES_FLUTTER_MANE, DEX_MORNING
+    .word DEX_ROUTE_2
     dexendareadata
 
 
 routesandcities SPECIES_FLUTTER_MANE, DEX_DAY
+    .word DEX_ROUTE_2
     dexendareadata
 
 
 routesandcities SPECIES_FLUTTER_MANE, DEX_NIGHT
+    .word DEX_ROUTE_2
     dexendareadata
 
 
@@ -35743,14 +38165,17 @@ specialareas SPECIES_SLITHER_WING, DEX_NIGHT
 
 
 routesandcities SPECIES_SLITHER_WING, DEX_MORNING
+    .word DEX_ROUTE_3
     dexendareadata
 
 
 routesandcities SPECIES_SLITHER_WING, DEX_DAY
+    .word DEX_ROUTE_3
     dexendareadata
 
 
 routesandcities SPECIES_SLITHER_WING, DEX_NIGHT
+    .word DEX_ROUTE_3
     dexendareadata
 
 
@@ -35775,14 +38200,17 @@ specialareas SPECIES_SANDY_SHOCKS, DEX_NIGHT
 
 
 routesandcities SPECIES_SANDY_SHOCKS, DEX_MORNING
+    .word DEX_ROUTE_27
     dexendareadata
 
 
 routesandcities SPECIES_SANDY_SHOCKS, DEX_DAY
+    .word DEX_ROUTE_27
     dexendareadata
 
 
 routesandcities SPECIES_SANDY_SHOCKS, DEX_NIGHT
+    .word DEX_ROUTE_27
     dexendareadata
 
 
@@ -35795,14 +38223,17 @@ routesandcities SPECIES_SANDY_SHOCKS, DEX_SPECIAL
 
 
 specialareas SPECIES_IRON_TREADS, DEX_MORNING
+    .word DEX_VICTORY_ROAD
     dexendareadata
 
 
 specialareas SPECIES_IRON_TREADS, DEX_DAY
+    .word DEX_VICTORY_ROAD
     dexendareadata
 
 
 specialareas SPECIES_IRON_TREADS, DEX_NIGHT
+    .word DEX_VICTORY_ROAD
     dexendareadata
 
 
@@ -35827,14 +38258,17 @@ routesandcities SPECIES_IRON_TREADS, DEX_SPECIAL
 
 
 specialareas SPECIES_IRON_BUNDLE, DEX_MORNING
+    .word DEX_SEAFOAM_ISLANDS
     dexendareadata
 
 
 specialareas SPECIES_IRON_BUNDLE, DEX_DAY
+    .word DEX_SEAFOAM_ISLANDS
     dexendareadata
 
 
 specialareas SPECIES_IRON_BUNDLE, DEX_NIGHT
+    .word DEX_SEAFOAM_ISLANDS
     dexendareadata
 
 
@@ -35859,14 +38293,17 @@ routesandcities SPECIES_IRON_BUNDLE, DEX_SPECIAL
 
 
 specialareas SPECIES_IRON_HANDS, DEX_MORNING
+    .word DEX_ROCK_TUNNEL
     dexendareadata
 
 
 specialareas SPECIES_IRON_HANDS, DEX_DAY
+    .word DEX_ROCK_TUNNEL
     dexendareadata
 
 
 specialareas SPECIES_IRON_HANDS, DEX_NIGHT
+    .word DEX_ROCK_TUNNEL
     dexendareadata
 
 
@@ -35891,14 +38328,17 @@ routesandcities SPECIES_IRON_HANDS, DEX_SPECIAL
 
 
 specialareas SPECIES_IRON_JUGULIS, DEX_MORNING
+    .word DEX_BELL_TOWER
     dexendareadata
 
 
 specialareas SPECIES_IRON_JUGULIS, DEX_DAY
+    .word DEX_BELL_TOWER
     dexendareadata
 
 
 specialareas SPECIES_IRON_JUGULIS, DEX_NIGHT
+    .word DEX_BELL_TOWER
     dexendareadata
 
 
@@ -35935,14 +38375,17 @@ specialareas SPECIES_IRON_MOTH, DEX_NIGHT
 
 
 routesandcities SPECIES_IRON_MOTH, DEX_MORNING
+    .word DEX_MT_SILVER
     dexendareadata
 
 
 routesandcities SPECIES_IRON_MOTH, DEX_DAY
+    .word DEX_MT_SILVER
     dexendareadata
 
 
 routesandcities SPECIES_IRON_MOTH, DEX_NIGHT
+    .word DEX_MT_SILVER
     dexendareadata
 
 
@@ -35955,14 +38398,17 @@ routesandcities SPECIES_IRON_MOTH, DEX_SPECIAL
 
 
 specialareas SPECIES_IRON_THORNS, DEX_MORNING
+    .word DEX_ROCK_TUNNEL
     dexendareadata
 
 
 specialareas SPECIES_IRON_THORNS, DEX_DAY
+    .word DEX_ROCK_TUNNEL
     dexendareadata
 
 
 specialareas SPECIES_IRON_THORNS, DEX_NIGHT
+    .word DEX_ROCK_TUNNEL
     dexendareadata
 
 
@@ -35995,6 +38441,7 @@ specialareas SPECIES_FRIGIBAX, DEX_DAY
 
 
 specialareas SPECIES_FRIGIBAX, DEX_NIGHT
+    .word DEX_NATIONAL_PARK
     dexendareadata
 
 
@@ -36027,6 +38474,7 @@ specialareas SPECIES_ARCTIBAX, DEX_DAY
 
 
 specialareas SPECIES_ARCTIBAX, DEX_NIGHT
+    .word DEX_NATIONAL_PARK
     dexendareadata
 
 
@@ -36059,6 +38507,7 @@ specialareas SPECIES_BAXCALIBUR, DEX_DAY
 
 
 specialareas SPECIES_BAXCALIBUR, DEX_NIGHT
+    .word DEX_NATIONAL_PARK
     dexendareadata
 
 
@@ -36103,6 +38552,7 @@ routesandcities SPECIES_GIMMIGHOUL, DEX_DAY
 
 
 routesandcities SPECIES_GIMMIGHOUL, DEX_NIGHT
+    .word DEX_ROUTE_30
     dexendareadata
 
 
@@ -36135,6 +38585,7 @@ routesandcities SPECIES_GHOLDENGO, DEX_DAY
 
 
 routesandcities SPECIES_GHOLDENGO, DEX_NIGHT
+    .word DEX_ROUTE_30
     dexendareadata
 
 
@@ -36159,14 +38610,17 @@ specialareas SPECIES_WO_CHIEN, DEX_NIGHT
 
 
 routesandcities SPECIES_WO_CHIEN, DEX_MORNING
+    .word DEX_ROUTE_8
     dexendareadata
 
 
 routesandcities SPECIES_WO_CHIEN, DEX_DAY
+    .word DEX_ROUTE_8
     dexendareadata
 
 
 routesandcities SPECIES_WO_CHIEN, DEX_NIGHT
+    .word DEX_ROUTE_8
     dexendareadata
 
 
@@ -36179,14 +38633,17 @@ routesandcities SPECIES_WO_CHIEN, DEX_SPECIAL
 
 
 specialareas SPECIES_CHIEN_PAO, DEX_MORNING
+    .word DEX_SEAFOAM_ISLANDS
     dexendareadata
 
 
 specialareas SPECIES_CHIEN_PAO, DEX_DAY
+    .word DEX_SEAFOAM_ISLANDS
     dexendareadata
 
 
 specialareas SPECIES_CHIEN_PAO, DEX_NIGHT
+    .word DEX_SEAFOAM_ISLANDS
     dexendareadata
 
 
@@ -36223,14 +38680,17 @@ specialareas SPECIES_TING_LU, DEX_NIGHT
 
 
 routesandcities SPECIES_TING_LU, DEX_MORNING
+    .word DEX_ROUTE_6
     dexendareadata
 
 
 routesandcities SPECIES_TING_LU, DEX_DAY
+    .word DEX_ROUTE_6
     dexendareadata
 
 
 routesandcities SPECIES_TING_LU, DEX_NIGHT
+    .word DEX_ROUTE_6
     dexendareadata
 
 
@@ -36243,14 +38703,17 @@ routesandcities SPECIES_TING_LU, DEX_SPECIAL
 
 
 specialareas SPECIES_CHI_YU, DEX_MORNING
+    .word DEX_CERULEAN_CAVE
     dexendareadata
 
 
 specialareas SPECIES_CHI_YU, DEX_DAY
+    .word DEX_CERULEAN_CAVE
     dexendareadata
 
 
 specialareas SPECIES_CHI_YU, DEX_NIGHT
+    .word DEX_CERULEAN_CAVE
     dexendareadata
 
 
@@ -36287,14 +38750,17 @@ specialareas SPECIES_ROARING_MOON, DEX_NIGHT
 
 
 routesandcities SPECIES_ROARING_MOON, DEX_MORNING
+    .word DEX_ROUTE_26
     dexendareadata
 
 
 routesandcities SPECIES_ROARING_MOON, DEX_DAY
+    .word DEX_ROUTE_26
     dexendareadata
 
 
 routesandcities SPECIES_ROARING_MOON, DEX_NIGHT
+    .word DEX_ROUTE_26
     dexendareadata
 
 
@@ -36307,14 +38773,17 @@ routesandcities SPECIES_ROARING_MOON, DEX_SPECIAL
 
 
 specialareas SPECIES_IRON_VALIANT, DEX_MORNING
+    .word DEX_VICTORY_ROAD
     dexendareadata
 
 
 specialareas SPECIES_IRON_VALIANT, DEX_DAY
+    .word DEX_VICTORY_ROAD
     dexendareadata
 
 
 specialareas SPECIES_IRON_VALIANT, DEX_NIGHT
+    .word DEX_VICTORY_ROAD
     dexendareadata
 
 
@@ -36351,14 +38820,17 @@ specialareas SPECIES_KORAIDON, DEX_NIGHT
 
 
 routesandcities SPECIES_KORAIDON, DEX_MORNING
+    .word DEX_ROUTE_24
     dexendareadata
 
 
 routesandcities SPECIES_KORAIDON, DEX_DAY
+    .word DEX_ROUTE_24
     dexendareadata
 
 
 routesandcities SPECIES_KORAIDON, DEX_NIGHT
+    .word DEX_ROUTE_24
     dexendareadata
 
 
@@ -36383,14 +38855,17 @@ specialareas SPECIES_MIRAIDON, DEX_NIGHT
 
 
 routesandcities SPECIES_MIRAIDON, DEX_MORNING
+    .word DEX_ROUTE_9
     dexendareadata
 
 
 routesandcities SPECIES_MIRAIDON, DEX_DAY
+    .word DEX_ROUTE_9
     dexendareadata
 
 
 routesandcities SPECIES_MIRAIDON, DEX_NIGHT
+    .word DEX_ROUTE_9
     dexendareadata
 
 
@@ -36403,14 +38878,17 @@ routesandcities SPECIES_MIRAIDON, DEX_SPECIAL
 
 
 specialareas SPECIES_WALKING_WAKE, DEX_MORNING
+    .word DEX_WHIRL_ISLANDS
     dexendareadata
 
 
 specialareas SPECIES_WALKING_WAKE, DEX_DAY
+    .word DEX_WHIRL_ISLANDS
     dexendareadata
 
 
 specialareas SPECIES_WALKING_WAKE, DEX_NIGHT
+    .word DEX_WHIRL_ISLANDS
     dexendareadata
 
 
@@ -36435,14 +38913,17 @@ routesandcities SPECIES_WALKING_WAKE, DEX_SPECIAL
 
 
 specialareas SPECIES_IRON_LEAVES, DEX_MORNING
+    .word DEX_BELL_TOWER
     dexendareadata
 
 
 specialareas SPECIES_IRON_LEAVES, DEX_DAY
+    .word DEX_BELL_TOWER
     dexendareadata
 
 
 specialareas SPECIES_IRON_LEAVES, DEX_NIGHT
+    .word DEX_BELL_TOWER
     dexendareadata
 
 
@@ -36487,6 +38968,7 @@ routesandcities SPECIES_DIPPLIN, DEX_DAY
 
 
 routesandcities SPECIES_DIPPLIN, DEX_NIGHT
+    .word DEX_ROUTE_31
     dexendareadata
 
 
@@ -36511,6 +38993,7 @@ specialareas SPECIES_POLTCHAGEIST, DEX_NIGHT
 
 
 routesandcities SPECIES_POLTCHAGEIST, DEX_MORNING
+    .word DEX_ROUTE_31
     dexendareadata
 
 
@@ -36543,6 +39026,7 @@ specialareas SPECIES_SINISTCHA, DEX_NIGHT
 
 
 routesandcities SPECIES_SINISTCHA, DEX_MORNING
+    .word DEX_ROUTE_31
     dexendareadata
 
 
@@ -36563,14 +39047,17 @@ routesandcities SPECIES_SINISTCHA, DEX_SPECIAL
 
 
 specialareas SPECIES_OKIDOGI, DEX_MORNING
+    .word DEX_VICTORY_ROAD
     dexendareadata
 
 
 specialareas SPECIES_OKIDOGI, DEX_DAY
+    .word DEX_VICTORY_ROAD
     dexendareadata
 
 
 specialareas SPECIES_OKIDOGI, DEX_NIGHT
+    .word DEX_VICTORY_ROAD
     dexendareadata
 
 
@@ -36595,14 +39082,17 @@ routesandcities SPECIES_OKIDOGI, DEX_SPECIAL
 
 
 specialareas SPECIES_MUNKIDORI, DEX_MORNING
+    .word DEX_BELL_TOWER
     dexendareadata
 
 
 specialareas SPECIES_MUNKIDORI, DEX_DAY
+    .word DEX_BELL_TOWER
     dexendareadata
 
 
 specialareas SPECIES_MUNKIDORI, DEX_NIGHT
+    .word DEX_BELL_TOWER
     dexendareadata
 
 
@@ -36639,14 +39129,17 @@ specialareas SPECIES_FEZANDIPITI, DEX_NIGHT
 
 
 routesandcities SPECIES_FEZANDIPITI, DEX_MORNING
+    .word DEX_ROUTE_2
     dexendareadata
 
 
 routesandcities SPECIES_FEZANDIPITI, DEX_DAY
+    .word DEX_ROUTE_2
     dexendareadata
 
 
 routesandcities SPECIES_FEZANDIPITI, DEX_NIGHT
+    .word DEX_ROUTE_2
     dexendareadata
 
 
@@ -36671,14 +39164,17 @@ specialareas SPECIES_OGERPON, DEX_NIGHT
 
 
 routesandcities SPECIES_OGERPON, DEX_MORNING
+    .word DEX_ROUTE_25
     dexendareadata
 
 
 routesandcities SPECIES_OGERPON, DEX_DAY
+    .word DEX_ROUTE_25
     dexendareadata
 
 
 routesandcities SPECIES_OGERPON, DEX_NIGHT
+    .word DEX_ROUTE_25
     dexendareadata
 
 
@@ -36703,6 +39199,7 @@ specialareas SPECIES_ARCHALUDON, DEX_DAY
 
 
 specialareas SPECIES_ARCHALUDON, DEX_NIGHT
+    .word DEX_MT_MORTAR
     dexendareadata
 
 
@@ -36747,6 +39244,7 @@ routesandcities SPECIES_HYDRAPPLE, DEX_DAY
 
 
 routesandcities SPECIES_HYDRAPPLE, DEX_NIGHT
+    .word DEX_ROUTE_31
     dexendareadata
 
 
@@ -36759,14 +39257,17 @@ routesandcities SPECIES_HYDRAPPLE, DEX_SPECIAL
 
 
 specialareas SPECIES_GOUGING_FIRE, DEX_MORNING
+    .word DEX_MT_SILVER_CAVE
     dexendareadata
 
 
 specialareas SPECIES_GOUGING_FIRE, DEX_DAY
+    .word DEX_MT_SILVER_CAVE
     dexendareadata
 
 
 specialareas SPECIES_GOUGING_FIRE, DEX_NIGHT
+    .word DEX_MT_SILVER_CAVE
     dexendareadata
 
 
@@ -36803,14 +39304,17 @@ specialareas SPECIES_RAGING_BOLT, DEX_NIGHT
 
 
 routesandcities SPECIES_RAGING_BOLT, DEX_MORNING
+    .word DEX_ROUTE_9
     dexendareadata
 
 
 routesandcities SPECIES_RAGING_BOLT, DEX_DAY
+    .word DEX_ROUTE_9
     dexendareadata
 
 
 routesandcities SPECIES_RAGING_BOLT, DEX_NIGHT
+    .word DEX_ROUTE_9
     dexendareadata
 
 
@@ -36823,14 +39327,17 @@ routesandcities SPECIES_RAGING_BOLT, DEX_SPECIAL
 
 
 specialareas SPECIES_IRON_BOULDER, DEX_MORNING
+    .word DEX_BELL_TOWER
     dexendareadata
 
 
 specialareas SPECIES_IRON_BOULDER, DEX_DAY
+    .word DEX_BELL_TOWER
     dexendareadata
 
 
 specialareas SPECIES_IRON_BOULDER, DEX_NIGHT
+    .word DEX_BELL_TOWER
     dexendareadata
 
 
@@ -36855,14 +39362,17 @@ routesandcities SPECIES_IRON_BOULDER, DEX_SPECIAL
 
 
 specialareas SPECIES_IRON_CROWN, DEX_MORNING
+    .word DEX_BELL_TOWER
     dexendareadata
 
 
 specialareas SPECIES_IRON_CROWN, DEX_DAY
+    .word DEX_BELL_TOWER
     dexendareadata
 
 
 specialareas SPECIES_IRON_CROWN, DEX_NIGHT
+    .word DEX_BELL_TOWER
     dexendareadata
 
 
@@ -36899,14 +39409,17 @@ specialareas SPECIES_TERAPAGOS, DEX_NIGHT
 
 
 routesandcities SPECIES_TERAPAGOS, DEX_MORNING
+    .word DEX_ROUTE_5
     dexendareadata
 
 
 routesandcities SPECIES_TERAPAGOS, DEX_DAY
+    .word DEX_ROUTE_5
     dexendareadata
 
 
 routesandcities SPECIES_TERAPAGOS, DEX_NIGHT
+    .word DEX_ROUTE_5
     dexendareadata
 
 
@@ -36919,14 +39432,17 @@ routesandcities SPECIES_TERAPAGOS, DEX_SPECIAL
 
 
 specialareas SPECIES_PECHARUNT, DEX_MORNING
+    .word DEX_CLIFF_CAVE
     dexendareadata
 
 
 specialareas SPECIES_PECHARUNT, DEX_DAY
+    .word DEX_CLIFF_CAVE
     dexendareadata
 
 
 specialareas SPECIES_PECHARUNT, DEX_NIGHT
+    .word DEX_CLIFF_CAVE
     dexendareadata
 
 
