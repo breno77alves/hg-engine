@@ -1241,6 +1241,20 @@ int UNUSED CalcBaseDamage(void *bw, struct BattleStruct *sp, int moveno, u32 sid
     // Abilities
     for (i = 0; i < maxBattlers; i++) {
         if (attacker == sp->rawSpeedNonRNGClientOrder[i]) {
+            // Stakeout doubles damage against a replacement that entered this turn.
+            if (AttackingMon.ability == ABILITY_STAKEOUT
+             && sp->total_turn > 0
+             && sp->battlemon[defender].moveeffect.fakeOutCount == sp->total_turn + 1) {
+                basePowerModifier = QMul_RoundUp(basePowerModifier, UQ412__2_0);
+            }
+
+            // Protosynthesis and Quark Drive boost the highest attacking stat by 30%.
+            if (ParadoxAbilityIsActive(sp, attacker)
+             && ((movesplit == SPLIT_PHYSICAL && ParadoxBoostedStat(sp, attacker) == STAT_ATTACK)
+              || (movesplit == SPLIT_SPECIAL && ParadoxBoostedStat(sp, attacker) == STAT_SPATK))) {
+                attackModifier = QMul_RoundUp(attackModifier, UQ412__1_3);
+            }
+
             // handle Slow Start
             if ((AttackingMon.ability == ABILITY_SLOW_START)
             && ((BattleWorkMonDataGet(bw, sp, 3, 0) - BattlePokemonParamGet(sp, attacker, BATTLE_MON_DATA_SLOW_START_COUNTER, NULL)) < 5)
@@ -1594,6 +1608,13 @@ int UNUSED CalcBaseDamage(void *bw, struct BattleStruct *sp, int moveno, u32 sid
     // Abilities
     for (i = 0; i < maxBattlers; i++) {
         if (defender == sp->rawSpeedNonRNGClientOrder[i]) {
+            // Protosynthesis and Quark Drive boost the highest defensive stat by 30%.
+            if (ParadoxAbilityIsActive(sp, defender)
+             && ((movesplit == SPLIT_PHYSICAL && ParadoxBoostedStat(sp, defender) == STAT_DEFENSE)
+              || (movesplit == SPLIT_SPECIAL && ParadoxBoostedStat(sp, defender) == STAT_SPDEF))) {
+                defenseModifier = QMul_RoundUp(defenseModifier, UQ412__1_3);
+            }
+
             // handle weather boosts
             if ((CheckSideAbility(bw, sp, CHECK_ABILITY_ALL_HP, 0, ABILITY_CLOUD_NINE) == 0)
             && (CheckSideAbility(bw, sp, CHECK_ABILITY_ALL_HP, 0, ABILITY_AIR_LOCK) == 0)) {

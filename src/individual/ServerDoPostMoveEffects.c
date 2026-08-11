@@ -89,16 +89,51 @@ void ServerDoPostMoveEffectsInternal(void *bsys, struct BattleStruct *ctx)
         ctx->swoak_seq_no++;
         FALLTHROUGH;
     case SWOAK_SEQ_CHECK_HELD_ITEM_EFFECT_ATTACKER:
+        ctx->item_work = ctx->battlemon[ctx->attack_client].item;
         ctx->swoak_seq_no++;
         if (TryUseHeldItem(bsys, ctx, ctx->attack_client) == TRUE) // will eventually need TryUseHeldItem anyway.  generic berry function thing
             return;
         FALLTHROUGH;
+    case SWOAK_SEQ_CHECK_CHEEK_POUCH_ATTACKER:
+        ctx->swoak_seq_no++;
+        if (IS_ITEM_BERRY(ctx->item_work)
+         && ctx->battlemon[ctx->attack_client].item == ITEM_NONE
+         && GetBattlerAbility(ctx, ctx->attack_client) == ABILITY_CHEEK_POUCH
+         && ctx->battlemon[ctx->attack_client].hp
+         && ctx->battlemon[ctx->attack_client].hp < (s32)ctx->battlemon[ctx->attack_client].maxhp) {
+            ctx->hp_calc_work = BattleDamageDivide(ctx->battlemon[ctx->attack_client].maxhp * -1, 3);
+            ctx->battlerIdTemp = ctx->attack_client;
+            LoadBattleSubSeqScript(ctx, ARC_BATTLE_SUB_SEQ, SUB_SEQ_ITEM_HP_GRADUAL);
+            ctx->next_server_seq_no = ctx->server_seq_no;
+            ctx->server_seq_no = CONTROLLER_COMMAND_RUN_SCRIPT;
+            return;
+        }
+        FALLTHROUGH;
     case SWOAK_SEQ_CHECK_HELD_ITEM_EFFECT_DEFENDER:
+        if (ctx->defence_client != 0xFF) {
+            ctx->item_work = ctx->battlemon[ctx->defence_client].item;
+        }
         ctx->swoak_seq_no++;
         if (ctx->defence_client != 0xFF)
         {
             if (TryUseHeldItem(bsys, ctx, ctx->defence_client) == TRUE)
                 return;
+        }
+        FALLTHROUGH;
+    case SWOAK_SEQ_CHECK_CHEEK_POUCH_DEFENDER:
+        ctx->swoak_seq_no++;
+        if (ctx->defence_client != 0xFF
+         && IS_ITEM_BERRY(ctx->item_work)
+         && ctx->battlemon[ctx->defence_client].item == ITEM_NONE
+         && GetBattlerAbility(ctx, ctx->defence_client) == ABILITY_CHEEK_POUCH
+         && ctx->battlemon[ctx->defence_client].hp
+         && ctx->battlemon[ctx->defence_client].hp < (s32)ctx->battlemon[ctx->defence_client].maxhp) {
+            ctx->hp_calc_work = BattleDamageDivide(ctx->battlemon[ctx->defence_client].maxhp * -1, 3);
+            ctx->battlerIdTemp = ctx->defence_client;
+            LoadBattleSubSeqScript(ctx, ARC_BATTLE_SUB_SEQ, SUB_SEQ_ITEM_HP_GRADUAL);
+            ctx->next_server_seq_no = ctx->server_seq_no;
+            ctx->server_seq_no = CONTROLLER_COMMAND_RUN_SCRIPT;
+            return;
         }
         FALLTHROUGH;
     case SWOAK_SEQ_CHECK_DEFENDER_ITEM_ON_HIT:

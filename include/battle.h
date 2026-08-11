@@ -1761,7 +1761,9 @@ enum
     SWOAK_SEQ_SYNCHRONIZE_CHECK,
     SWOAK_SEQ_POKE_APPEAR_CHECK,
     SWOAK_SEQ_CHECK_HELD_ITEM_EFFECT_ATTACKER,
+    SWOAK_SEQ_CHECK_CHEEK_POUCH_ATTACKER,
     SWOAK_SEQ_CHECK_HELD_ITEM_EFFECT_DEFENDER,
+    SWOAK_SEQ_CHECK_CHEEK_POUCH_DEFENDER,
     SWOAK_SEQ_CHECK_DEFENDER_ITEM_ON_HIT,
     SWOAK_SEQ_THAW_ICE,
     SWOAK_SEQ_CHECK_HEALING_ITEMS,
@@ -3068,6 +3070,8 @@ u32 TurnEndAbilityCheck(void *bw, struct BattleStruct *sp, int client_no);
  *  @return the highest raw stat the the client has (excluding HP)
  */
 u8 LONG_CALL BeastBoostGreatestStatHelper(struct BattleStruct *sp, u32 client);
+BOOL LONG_CALL ParadoxAbilityIsActive(struct BattleStruct *sp, u32 client);
+u8 LONG_CALL ParadoxBoostedStat(struct BattleStruct *sp, u32 client);
 
 
 // defined in other_battle_calculators.c

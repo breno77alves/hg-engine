@@ -878,7 +878,19 @@ int UNUSED SwitchInAbilityCheck(void *bw, struct BattleStruct *sp)
 
                     // Hospitality
                     {
-
+                        u32 ally = BATTLER_ALLY(client_no);
+                        if (GetBattlerAbility(sp, client_no) == ABILITY_HOSPITALITY
+                         && sp->battlemon[client_no].ability_activated_flag == FALSE
+                         && sp->battlemon[client_no].hp
+                         && ally < (u32)client_set_max
+                         && sp->battlemon[ally].hp
+                         && sp->battlemon[ally].hp < (s32)sp->battlemon[ally].maxhp) {
+                            sp->battlemon[client_no].ability_activated_flag = TRUE;
+                            sp->hp_calc_work = BattleDamageDivide(sp->battlemon[ally].maxhp * -1, 4);
+                            sp->battlerIdTemp = ally;
+                            scriptnum = SUB_SEQ_ITEM_HP_GRADUAL;
+                            ret = SWITCH_IN_CHECK_MOVE_SCRIPT;
+                        }
                     }
 
                     // Eject Pack

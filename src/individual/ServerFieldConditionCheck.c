@@ -1803,14 +1803,45 @@ void ServerFieldConditionCheck(void *bw, struct BattleStruct *sp) {
                 sp->fcc_seq_no++;
                 break;
             }
-            // TODO
             case ENDTURN_FORM_CHANGE: {
                 #ifdef DEBUG_ENDTURN_LOGIC
                 sprintf(buf, "In ENDTURN_FORM_CHANGE\n");
                 debugsyscall(buf);
                 #endif
 
-                sp->fcc_seq_no++;
+                while (sp->scc_work < client_set_max) {
+                    battlerId = sp->turnOrder[sp->scc_work++];
+                    if (sp->battlemon[battlerId].species == SPECIES_MINIOR
+                     && GetBattlerAbility(sp, battlerId) == ABILITY_SHIELDS_DOWN
+                     && sp->battlemon[battlerId].hp) {
+                        u32 current_form = sp->battlemon[battlerId].form_no;
+                        u32 target_form = current_form;
+
+                        if (current_form <= 6
+                         && sp->battlemon[battlerId].hp <= (s32)(sp->battlemon[battlerId].maxhp / 2)) {
+                            target_form = current_form + 7;
+                        } else if (current_form >= 7 && current_form <= 13
+                                && sp->battlemon[battlerId].hp > (s32)(sp->battlemon[battlerId].maxhp / 2)) {
+                            target_form = current_form - 7;
+                        }
+
+                        if (target_form != current_form) {
+                            sp->battlemon[battlerId].form_no = target_form;
+                            BattleFormChange(battlerId, target_form, bw, sp, TRUE);
+                            sp->battlerIdTemp = battlerId;
+                            LoadBattleSubSeqScript(sp, ARC_BATTLE_SUB_SEQ, SUB_SEQ_FORM_CHANGE);
+                            sp->next_server_seq_no = sp->server_seq_no;
+                            sp->server_seq_no = MOVE_SEQUENCE_NO;
+                            ret = 1;
+                            break;
+                        }
+                    }
+                }
+
+                if (sp->scc_work >= client_set_max) {
+                    sp->scc_work = 0;
+                    sp->fcc_seq_no++;
+                }
                 break;
             }
             case ENDTURN_FORTH_EVENT_BLOCK: {
@@ -1827,11 +1858,23 @@ void ServerFieldConditionCheck(void *bw, struct BattleStruct *sp) {
                     // }
 
                     switch (sp->endTurnEventBlockSequenceNumber) {
-                        // TODO
                         case FORTH_EVENT_BLOCK_HUNGER_SWITCH: {
 #ifdef DEBUG_ENDTURN_LOGIC
                             debug_printf("In FORTH_EVENT_BLOCK_HUNGER_SWITCH\n", NULL);
 #endif
+
+                            if (sp->battlemon[battlerId].species == SPECIES_MORPEKO
+                             && GetBattlerAbility(sp, battlerId) == ABILITY_HUNGER_SWITCH
+                             && sp->battlemon[battlerId].hp) {
+                                u32 target_form = sp->battlemon[battlerId].form_no ^ 1;
+                                sp->battlemon[battlerId].form_no = target_form;
+                                BattleFormChange(battlerId, target_form, bw, sp, TRUE);
+                                sp->battlerIdTemp = battlerId;
+                                LoadBattleSubSeqScript(sp, ARC_BATTLE_SUB_SEQ, SUB_SEQ_FORM_CHANGE);
+                                sp->next_server_seq_no = sp->server_seq_no;
+                                sp->server_seq_no = MOVE_SEQUENCE_NO;
+                                ret = 1;
+                            }
 
                             sp->endTurnEventBlockSequenceNumber++;
 

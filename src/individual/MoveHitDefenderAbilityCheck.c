@@ -319,6 +319,35 @@ BOOL MoveHitDefenderAbilityCheckInternal(void *bw, struct BattleStruct *sp, int 
                 ret = TRUE;
             }
             break;
+        case ABILITY_COTTON_DOWN:
+            if (((sp->waza_status_flag & WAZA_STATUS_FLAG_NO_OUT) == 0)
+             && ((sp->server_status_flag & SERVER_STATUS_FLAG_x20) == 0)
+             && ((sp->server_status_flag2 & SERVER_STATUS_FLAG2_U_TURN) == 0)
+             && ((sp->oneSelfFlag[sp->defence_client].physical_damage)
+              || (sp->oneSelfFlag[sp->defence_client].special_damage))) {
+                int first_target = -1;
+                int client_count = BattleWorkClientSetMaxGet(bw);
+                for (int client = 0; client < client_count; client++) {
+                    if (client == sp->defence_client || !sp->battlemon[client].hp
+                     || sp->battlemon[client].states[STAT_SPEED] == 0) {
+                        continue;
+                    }
+                    if (first_target < 0) {
+                        first_target = client;
+                    } else {
+                        sp->battlemon[client].states[STAT_SPEED]--;
+                    }
+                }
+                if (first_target >= 0) {
+                    sp->addeffect_param = ADD_STATUS_EFF_BOOST_STATS_SPEED_DOWN;
+                    sp->addeffect_type = ADD_EFFECT_PRINT_WORK_ABILITY;
+                    sp->state_client = first_target;
+                    sp->battlerIdTemp = sp->defence_client;
+                    seq_no[0] = SUB_SEQ_BOOST_STATS;
+                    ret = TRUE;
+                }
+            }
+            break;
         case ABILITY_MUMMY:
             FALLTHROUGH;
         case ABILITY_LINGERING_AROMA:
@@ -531,6 +560,28 @@ BOOL MoveHitDefenderAbilityCheckInternal(void *bw, struct BattleStruct *sp, int 
                 sp->battlerIdTemp = sp->defence_client;
                 sp->battlemon[sp->defence_client].form_no = 1;
                 seq_no[0] = SUB_SEQ_HANDLE_DISGUISE_ICE_FACE;
+                ret = TRUE;
+            }
+            break;
+        case ABILITY_GULP_MISSILE:
+            if (sp->battlemon[sp->defence_client].species == SPECIES_CRAMORANT
+             && sp->battlemon[sp->defence_client].form_no != 0
+             && sp->battlemon[sp->attack_client].hp
+             && ((sp->waza_status_flag & WAZA_STATUS_FLAG_NO_OUT) == 0)
+             && ((sp->server_status_flag & SERVER_STATUS_FLAG_x20) == 0)
+             && ((sp->server_status_flag2 & SERVER_STATUS_FLAG2_U_TURN) == 0)
+             && ((sp->oneSelfFlag[sp->defence_client].physical_damage)
+              || (sp->oneSelfFlag[sp->defence_client].special_damage))
+             && sp->multiHitCount <= 1) {
+                BOOL was_gorging = sp->battlemon[sp->defence_client].form_no == 2;
+                BattleFormChange(sp->defence_client, 0, bw, sp, TRUE);
+                sp->battlemon[sp->defence_client].form_no = 0;
+                if (was_gorging && sp->battlemon[sp->attack_client].condition == 0) {
+                    sp->add_status_flag_tokusei |= MOVE_SIDE_EFFECT_TO_ATTACKER | ADD_STATUS_EFF_APPLY_PARALYSIS;
+                }
+                sp->hp_calc_work = BattleDamageDivide(sp->battlemon[sp->attack_client].maxhp * -1, 4);
+                sp->battlerIdTemp = sp->attack_client;
+                seq_no[0] = SUB_SEQ_ROUGH_SKIN;
                 ret = TRUE;
             }
             break;

@@ -352,6 +352,7 @@ BOOL BattleFormChangeCheck(void *bw, struct BattleStruct *sp, int *seq_no)
         // handle Wishiwashi TODO test (also at some point add custom transform text)
         if ((sp->battlemon[sp->battlerIdTemp].species == SPECIES_WISHIWASHI)
             && (sp->battlemon[sp->battlerIdTemp].hp)
+            && (sp->battlemon[sp->battlerIdTemp].level >= 20)
             && (sp->battlemon[sp->battlerIdTemp].form_no == 0)
             && (sp->battlemon[sp->battlerIdTemp].hp > (s32)(sp->battlemon[sp->battlerIdTemp].maxhp / 4)))
         {
@@ -368,6 +369,22 @@ BOOL BattleFormChangeCheck(void *bw, struct BattleStruct *sp, int *seq_no)
         {
             sp->battlemon[sp->battlerIdTemp].form_no = 0;
             BattleFormChange(sp->battlerIdTemp, sp->battlemon[sp->battlerIdTemp].form_no, bw, sp, 0);
+            *seq_no = SUB_SEQ_FORM_CHANGE;
+            ret = TRUE;
+            break;
+        }
+
+        // Gulp Missile loads a catch after a successful Surf or Dive.
+        if (sp->battlemon[sp->battlerIdTemp].species == SPECIES_CRAMORANT
+         && GetBattlerAbility(sp, sp->battlerIdTemp) == ABILITY_GULP_MISSILE
+         && sp->battlemon[sp->battlerIdTemp].hp
+         && sp->battlemon[sp->battlerIdTemp].form_no == 0
+         && sp->battlerIdTemp == sp->attack_client
+         && (sp->current_move_index == MOVE_SURF || sp->current_move_index == MOVE_DIVE)
+         && (sp->waza_status_flag & MOVE_STATUS_FLAG_FAILURE_ANY) == 0) {
+            form_no = sp->battlemon[sp->battlerIdTemp].hp <= (s32)(sp->battlemon[sp->battlerIdTemp].maxhp / 2) ? 2 : 1;
+            sp->battlemon[sp->battlerIdTemp].form_no = form_no;
+            BattleFormChange(sp->battlerIdTemp, form_no, bw, sp, 0);
             *seq_no = SUB_SEQ_FORM_CHANGE;
             ret = TRUE;
             break;

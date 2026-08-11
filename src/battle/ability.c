@@ -290,6 +290,34 @@ u8 LONG_CALL BeastBoostGreatestStatHelper(struct BattleStruct *sp, u32 client)
     return max;
 }
 
+/**
+ * Return whether Protosynthesis/Quark Drive currently supplies its stat boost.
+ * Booster Energy is intentionally a persistent held-item trigger in this
+ * engine so the repeatable shop source never mutates save data mid-battle.
+ */
+BOOL LONG_CALL ParadoxAbilityIsActive(struct BattleStruct *sp, u32 client)
+{
+    u32 ability = GetBattlerAbility(sp, client);
+
+    if (sp->battlemon[client].item == ITEM_BOOSTER_ENERGY) {
+        return ability == ABILITY_PROTOSYNTHESIS || ability == ABILITY_QUARK_DRIVE;
+    }
+    if (ability == ABILITY_PROTOSYNTHESIS && (sp->field_condition & WEATHER_SUNNY_ANY)) {
+        return TRUE;
+    }
+    if (ability == ABILITY_QUARK_DRIVE
+     && sp->terrainOverlay.type == ELECTRIC_TERRAIN
+     && sp->terrainOverlay.numberOfTurnsLeft > 0) {
+        return TRUE;
+    }
+    return FALSE;
+}
+
+u8 LONG_CALL ParadoxBoostedStat(struct BattleStruct *sp, u32 client)
+{
+    return STAT_ATTACK + BeastBoostGreatestStatHelper(sp, client);
+}
+
 
 /**
  *  @brief check if the attacker's ability should queue up a subscript or not.
@@ -325,6 +353,24 @@ BOOL MoveHitAttackerAbilityCheck(void *bw, struct BattleStruct *sp, int *seq_no)
                 sp->state_client = sp->defence_client;
                 sp->battlerIdTemp = sp->attack_client;
                 seq_no[0] = SUB_SEQ_APPLY_POISON;
+                ret = TRUE;
+            }
+            break;
+        case ABILITY_TOXIC_CHAIN:
+            if ((sp->battlemon[sp->defence_client].hp)
+                && (sp->battlemon[sp->defence_client].condition == 0)
+                && ((sp->waza_status_flag & WAZA_STATUS_FLAG_NO_OUT) == 0)
+                && ((sp->server_status_flag & SERVER_STATUS_FLAG_x20) == 0)
+                && ((sp->server_status_flag2 & SERVER_STATUS_FLAG2_U_TURN) == 0)
+                && ((sp->oneSelfFlag[sp->defence_client].physical_damage)
+                 || (sp->oneSelfFlag[sp->defence_client].special_damage))
+                && (CheckSubstitute(sp, sp->defence_client) == FALSE)
+                && (BattleRand(bw) % 10 < 3))
+            {
+                sp->addeffect_type = ADD_STATUS_ABILITY;
+                sp->state_client = sp->defence_client;
+                sp->battlerIdTemp = sp->attack_client;
+                seq_no[0] = SUB_SEQ_BADLY_POISON;
                 ret = TRUE;
             }
             break;

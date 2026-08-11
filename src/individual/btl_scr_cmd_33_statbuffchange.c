@@ -221,6 +221,20 @@ BOOL btl_scr_cmd_33_statbuffchange(void *bw, struct BattleStruct *sp)
             {
                 battlemon->states[STAT_ATTACK + stattochange] = 12;
             }
+
+            // Opportunist copies an opposing battler's positive stat change.
+            // Apply it directly here so multi-stat moves remain atomic and do
+            // not recursively re-enter this script command.
+            for (int opportunist = 0; opportunist < BattleWorkClientSetMaxGet(bw); opportunist++) {
+                if (opportunist != sp->state_client
+                 && BATTLERS_ON_DIFFERENT_SIDE(opportunist, sp->state_client)
+                 && sp->battlemon[opportunist].hp
+                 && GetBattlerAbility(sp, opportunist) == ABILITY_OPPORTUNIST
+                 && sp->battlemon[opportunist].states[STAT_ATTACK + stattochange] < 12) {
+                    int copied = sp->battlemon[opportunist].states[STAT_ATTACK + stattochange] + statchange;
+                    sp->battlemon[opportunist].states[STAT_ATTACK + stattochange] = copied > 12 ? 12 : copied;
+                }
+            }
         }
     }
     else

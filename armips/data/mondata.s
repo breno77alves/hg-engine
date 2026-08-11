@@ -16637,7 +16637,7 @@ mondata SPECIES_ORICORIO, "Oricorio"
     basefriendship 70
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FLYING, EGG_GROUP_FLYING
-    abilities ABILITY_DANCER, ABILITY_NONE
+    abilities ABILITY_OWN_TEMPO, ABILITY_NONE
     runchance 0
     colorflip BODY_COLOR_RED, 0
     mondexentry SPECIES_ORICORIO, "This Oricorio has sipped red nectar. Its\npassionate dance moves cause its enemies\nto combust in both body and mind."
@@ -18611,7 +18611,7 @@ mondata SPECIES_YAMPER, "Yamper"
     basefriendship 50
     growthrate GROWTH_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
-    abilities ABILITY_BALL_FETCH, ABILITY_NONE
+    abilities ABILITY_PICKUP, ABILITY_NONE
     runchance 0
     colorflip BODY_COLOR_YELLOW, 0
     mondexentry SPECIES_YAMPER, "This greedy Pokémon only helps people\nwith their work because it wants treats.\nAs it runs, it crackles with electricity."
@@ -21614,7 +21614,7 @@ mondata SPECIES_TATSUGIRI, "Tatsugiri"
     basefriendship 50
     growthrate GROWTH_MEDIUM_SLOW
     egggroups EGG_GROUP_WATER_2, EGG_GROUP_WATER_2
-    abilities ABILITY_COMMANDER, ABILITY_NONE
+    abilities ABILITY_STORM_DRAIN, ABILITY_NONE
     runchance 0
     colorflip BODY_COLOR_PINK, 0
     mondexentry SPECIES_TATSUGIRI, "This is a small dragon Pokémon.\nIt lives inside the mouth of Dondozo to\nprotect itself from enemies on the outside."
@@ -22580,7 +22580,7 @@ mondata SPECIES_TERAPAGOS, "Terapagos"
     basefriendship 50
     growthrate GROWTH_SLOW
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
-    abilities ABILITY_TERA_SHIFT, ABILITY_NONE
+    abilities ABILITY_FILTER, ABILITY_NONE
     runchance 0
     colorflip BODY_COLOR_BLUE, 0
     mondexentry SPECIES_TERAPAGOS, "It’s thought that this Pokémon lived\nin ancient Paldea until it got caught\nin seismic shifts and went extinct."
@@ -24190,7 +24190,7 @@ mondata SPECIES_STUNFISK_GALARIAN, "-----"
     basefriendship 70
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_WATER_1, EGG_GROUP_AMORPHOUS
-    abilities ABILITY_CURSED_BODY, ABILITY_NONE
+    abilities ABILITY_MAGNET_PULL, ABILITY_NONE
     runchance 0
     colorflip BODY_COLOR_GREEN, 0
 
@@ -25806,7 +25806,7 @@ mondata SPECIES_ORICORIO_POM_POM, "-----"
     basefriendship 70
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FLYING, EGG_GROUP_FLYING
-    abilities ABILITY_DANCER, ABILITY_NONE
+    abilities ABILITY_OWN_TEMPO, ABILITY_NONE
     runchance 0
     colorflip BODY_COLOR_YELLOW, 0
 
@@ -25822,7 +25822,7 @@ mondata SPECIES_ORICORIO_PAU, "-----"
     basefriendship 70
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FLYING, EGG_GROUP_FLYING
-    abilities ABILITY_DANCER, ABILITY_NONE
+    abilities ABILITY_OWN_TEMPO, ABILITY_NONE
     runchance 0
     colorflip BODY_COLOR_PINK, 0
 
@@ -25838,7 +25838,7 @@ mondata SPECIES_ORICORIO_SENSU, "-----"
     basefriendship 70
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FLYING, EGG_GROUP_FLYING
-    abilities ABILITY_DANCER, ABILITY_NONE
+    abilities ABILITY_OWN_TEMPO, ABILITY_NONE
     runchance 0
     colorflip BODY_COLOR_YELLOW, 0
 
@@ -27150,7 +27150,7 @@ mondata SPECIES_TATSUGIRI_DROOPY, "-----"
     basefriendship 50
     growthrate GROWTH_MEDIUM_SLOW
     egggroups EGG_GROUP_WATER_2, EGG_GROUP_WATER_2
-    abilities ABILITY_COMMANDER, ABILITY_NONE
+    abilities ABILITY_STORM_DRAIN, ABILITY_NONE
     runchance 0
     colorflip BODY_COLOR_PINK, 0
 
@@ -27166,7 +27166,7 @@ mondata SPECIES_TATSUGIRI_STRETCHY, "-----"
     basefriendship 50
     growthrate GROWTH_MEDIUM_SLOW
     egggroups EGG_GROUP_WATER_2, EGG_GROUP_WATER_2
-    abilities ABILITY_COMMANDER, ABILITY_NONE
+    abilities ABILITY_STORM_DRAIN, ABILITY_NONE
     runchance 0
     colorflip BODY_COLOR_PINK, 0
 

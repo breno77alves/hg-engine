@@ -825,6 +825,13 @@ u8 LONG_CALL CalcSpeed(void *bw, struct BattleStruct *sp, int client1, int clien
 
     // Step 2: Quick Feet
 
+    if (ParadoxAbilityIsActive(sp, client1) && ParadoxBoostedStat(sp, client1) == STAT_SPEED) {
+        speedModifier1 = QMul_RoundUp(speedModifier1, UQ412__1_5);
+    }
+    if (ParadoxAbilityIsActive(sp, client2) && ParadoxBoostedStat(sp, client2) == STAT_SPEED) {
+        speedModifier2 = QMul_RoundUp(speedModifier2, UQ412__1_5);
+    }
+
     if ((ability1 == ABILITY_QUICK_FEET) && (sp->battlemon[client1].condition & STATUS_ANY_PERSISTENT)) {
         speedModifier1 = QMul_RoundUp(speedModifier1, UQ412__1_5);
     }

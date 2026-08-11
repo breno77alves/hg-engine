@@ -2141,6 +2141,16 @@ BOOL btl_scr_cmd_d1_trynaturalcure(void *bw, struct BattleStruct *sp)
             SetMonData(pp, MON_DATA_FORM, (u8 *)&form_no);
         }
 
+        // Zero to Hero activates when Palafin leaves the field and persists
+        // for the rest of the battle through the party-mon form value.
+        if (sp->battlemon[client_no].species == SPECIES_PALAFIN
+         && ability == ABILITY_ZERO_TO_HERO
+         && sp->battlemon[client_no].form_no == 0) {
+            u32 hero_form = 1;
+            sp->battlemon[client_no].form_no = hero_form;
+            SetMonData(pp, MON_DATA_FORM, (u8 *)&hero_form);
+        }
+
         // natural cure is checked for here but handled by SwitchAbilityStatusRecoverCheck/the battle scripts this command is used in
         if ((sp->battlemon[client_no].ability != ABILITY_NATURAL_CURE)
          && (CheckStatusRecoverFromAbilityOnSwitch(sp, ability, condition) == FALSE))
