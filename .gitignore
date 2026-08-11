@@ -95,3 +95,4 @@ changelog
 # Local release tooling and legal distribution artifacts are uploaded separately.
 /.release-tools/
 /release/
+/tmp/
