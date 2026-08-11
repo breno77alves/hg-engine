@@ -1,9 +1,11 @@
 # hg-engine
 
-> **HeartGold Generations V2.1:** this branch is the selective stability/engine
-> update of Generations V2.0. See [CHANGELOG_V2.1.md](CHANGELOG_V2.1.md) and
-> [docs/RELEASE_V2.1.md](docs/RELEASE_V2.1.md) for scope, validation, hashes, and
-> legal patch distribution. The original Generations content remains the base.
+> **HeartGold Generations v2.3:** this branch builds on v2.2.1 with automatic
+> field HMs and corrected battle-menu D-pad navigation. See
+> [CHANGELOG_V2.3.md](CHANGELOG_V2.3.md),
+> [docs/V23_HM_ARCHITECTURE.md](docs/V23_HM_ARCHITECTURE.md), and
+> [docs/V23_TEST_PLAN.md](docs/V23_TEST_PLAN.md). Save layouts remain compatible,
+> and the 60 FPS hacks remain disabled.
 ## About
  A huge upgrade to the battle engine in HeartGold
 
@@ -25,6 +27,8 @@
 
 
 ## Features:
+* Automatic use of all eight HMs without teaching them; HM, badge, map, story, and party requirements remain
+* `RUN + Up` selects `FIGHT` in the main battle menu without confirming it
 * Dex Expansion (through Gen 6 almost entirely implemented)
 * Ability Expansion (through Gen 6 almost entirely implemented)
 * Move Expansion with future generation moves

@@ -111,18 +111,25 @@ def draw_page(canv: canvas.Canvas, doc: SimpleDocTemplate) -> None:
     canv.drawString(6 * mm, height - 4.8 * mm, "HEARTGOLD GENERATIONS")
     canv.setFillColor(MUTED)
     canv.setFont("Helvetica", 7)
-    canv.drawString(doc.leftMargin, 7 * mm, "v2.2 - Stability & Complete National Dex")
+    canv.drawString(
+        doc.leftMargin, 7 * mm,
+        getattr(doc, "release_line", "v2.2 - Stability & Complete National Dex"),
+    )
     canv.drawRightString(width - doc.rightMargin, 7 * mm, f"Page {doc.page}")
     canv.restoreState()
 
 
-def build_pdf(path: Path, title: str, subtitle: str, story: list, *, wide: bool = False) -> None:
+def build_pdf(
+    path: Path, title: str, subtitle: str, story: list, *, wide: bool = False,
+    release: str = "v2.2", release_line: str = "v2.2 - Stability & Complete National Dex",
+) -> None:
     pagesize = landscape(A4) if wide else A4
     doc = SimpleDocTemplate(
         str(path), pagesize=pagesize, rightMargin=10 * mm, leftMargin=10 * mm,
         topMargin=13 * mm, bottomMargin=13 * mm, title=title,
-        author="HeartGold Generations v2.2",
+        author=f"HeartGold Generations {release}",
     )
+    doc.release_line = release_line
     lead = [Paragraph(title, TITLE), Paragraph(subtitle, SUBTITLE)]
     doc.build(lead + story, onFirstPage=draw_page, onLaterPages=draw_page)
 
@@ -251,21 +258,31 @@ def evolution_pdf() -> None:
 
 def features_pdf() -> None:
     story = [
-        Paragraph("What v2.2 delivers", H1),
+        Paragraph("What v2.3 delivers", H1),
         table([
-            ["Area", "v2.2 status"],
+            ["Area", "v2.3 status"],
             ["National Dex", "1,025/1,025 species obtainable in one save"],
             ["Functional forms", "61 documented regional or item-driven forms"],
             ["Trades", "No real trade or connection required"],
-            ["Save compatibility", "Persistent layouts preserved from v2.0, v2.1 and v2.1.1"],
+            ["Automatic HMs", "All eight field HMs work without being taught; HM, badge, map and story checks remain"],
+            ["Battle D-pad", "Pressing Up while RUN is focused selects FIGHT without confirming it"],
+            ["Save compatibility", "Persistent layouts preserved from v2.0 through v2.2.1"],
             ["Frame rate", "60 FPS / uncapped-frame-rate hacks remain disabled for hardware stability"],
             ["Distribution", "Code, documentation and xdelta patch only; full ROM remains local"],
         ], [50 * mm, 145 * mm]),
+        Paragraph("Automatic field HMs", H1),
+        Paragraph(
+            "Cut, Surf, Strength, Rock Smash, Whirlpool, Waterfall and Rock Climb work through their original contextual interactions. Fly is available from HM02 in the Bag through FLY / TEACH / CANCEL. Automatic use requires the matching HM, its original badge and at least one non-Egg Pokemon; the first non-Egg party member is the visual actor. HMs remain teachable for battle use.", BODY,
+        ),
+        Paragraph("Preserved field restrictions", H1),
+        Paragraph(
+            "Map, story, follower, Rocket disguise, Safari/Pal Park, Surf-state and destination checks remain in the original engine paths. Flash, Dig, Teleport, Headbutt, Sweet Scent and other non-HM field moves still need to be learned.", BODY,
+        ),
         Paragraph("Preserved features and quality of life", H1),
         Paragraph(
             "Rebalanced trainers and Gym Leaders; Infinite Candy and Pocket Heal; Portable PC on L; buyable Nature Mints and Ability Capsules; type changes; free Heart Scales after seven Gyms; Master Balls after eight Gyms; hard level cap; Mega Evolution; smoother level curve; and the Kanto endgame boss rush.", BODY,
         ),
-        Paragraph("v2.2 encounter policy", H1),
+        Paragraph("v2.2 encounter policy preserved", H1),
         Paragraph(
             "Only seed stages are newly added to the wild when their later stages can be evolved in the same save. Common families are concentrated in Johto, aquatic families in water tables, and legendary, mythical, paradox and similarly high-power species in Kanto or post-game areas at 1% in every period.", BODY,
         ),
@@ -278,7 +295,14 @@ def features_pdf() -> None:
             "This project prioritizes HGSS stability over exact replication of mechanics designed for later engines. Ball Fetch, Commander, Dancer, Mimicry and Tera Shift use the stable substitutions listed in Ability Changes. Manual save-fixture and long-session hardware testing remain recommended even after automated and build verification.", BODY,
         ),
     ]
-    build_pdf(DOCS / "Features,QoL, and Known Bugs.pdf", "Features, QoL, and Known Bugs", "Player-facing v2.2 feature and compatibility reference", story)
+    build_pdf(
+        DOCS / "Features,QoL, and Known Bugs.pdf",
+        "Features, QoL, and Known Bugs",
+        "Player-facing v2.3 feature and compatibility reference",
+        story,
+        release="v2.3",
+        release_line="v2.3 - Automatic HMs & Battle D-pad",
+    )
 
 
 def item_pdf() -> None:
