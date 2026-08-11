@@ -29,10 +29,10 @@ The repository-wide regression run contains 39 scripts and all 39 pass.
 | Check | Result |
 | --- | --- |
 | GCC 10.3 incremental build | PASS |
-| GCC 10.3 clean single-job build | Pending final release build |
-| Generated release hashes | Pending final release build |
-| xdelta encode/decode round trip | Pending final release packaging |
-| melonDS boot/responsiveness | Pending final release artifact |
+| GCC 10.3 clean single-job build | PASS |
+| Generated release hashes | PASS |
+| xdelta encode/decode round trip | PASS — byte-identical SHA-256 |
+| melonDS boot/responsiveness | PASS — alive/responsive after 15 seconds |
 
 ## Playable fixture matrix
 
